@@ -8,8 +8,8 @@ from pathlib import Path
 from typing import Any
 
 QUESTION_RE = re.compile(
-    r"(?ms)(?:^|\n)\s*(?P<num>\d{1,3})\s*[\.．、]{1,2}\s*"
-    r"(?P<body>.*?)(?=(?:\n\s*\d{1,3}\s*[\.．、]{1,2}\s*)|\Z)"
+    r"(?ms)(?:^|\n)\s*(?P<num>[1-9]\d{0,2})\s*[\.．、]{1,2}(?!\d)\s*"
+    r"(?P<body>.*?)(?=(?:\n\s*[1-9]\d{0,2}\s*[\.．、]{1,2}(?!\d)\s*)|\Z)"
 )
 
 OPTION_START_RE = re.compile(
@@ -45,8 +45,14 @@ def normalize_text(raw: str, repairs: dict[str, str] | None = None) -> str:
     text = re.sub(r"([a-z)])([A-D])\.", r"\1 \2.", text)
     text = re.sub(r"([一-龥）])([A-D])\.", r"\1 \2.", text)
     text = re.sub(
-        r"\n\s*(\d\.\d+)\s*((?:mEq|mg|mmHg|ng|g|U|μIU|µIU|°C|%|/)[^\n,，]*)",
+        r"\n\s*(\d+(?:\.\d+)?)\s*((?:mEq|mg|mmHg|ng|g|U|μIU|µIU|°C|%|/|pg|mmol|kg|mL|fl|mm)[^\n,，]*)",
         r" \1 \2",
+        text,
+    )
+    # Fix the "question number + age" issue by inserting space: e.g. "16.55歲" -> "16. 55歲"
+    text = re.sub(
+        r"(\b[1-9]\d{0,2})\.(\d+)\s*(歲|週|個|天|月|日|-(?=[A-Za-z]))",
+        r"\1. \2\3",
         text,
     )
     text = re.sub(r"[ \t]+", " ", text)
@@ -62,15 +68,48 @@ def normalize_text(raw: str, repairs: dict[str, str] | None = None) -> str:
 
 def split_options(body: str) -> tuple[str, dict[str, str]]:
     starts = list(OPTION_START_RE.finditer(body))
-    if len(starts) < 4 or starts[0].group("label") != "A":
+    
+    d_match = None
+    c_match = None
+    b_match = None
+    a_match = None
+    
+    for m in reversed(starts):
+        if m.group("label") == "D":
+            d_match = m
+            break
+            
+    if d_match:
+        d_idx = starts.index(d_match)
+        for m in reversed(starts[:d_idx]):
+            if m.group("label") == "C":
+                c_match = m
+                break
+                
+    if c_match:
+        c_idx = starts.index(c_match)
+        for m in reversed(starts[:c_idx]):
+            if m.group("label") == "B":
+                b_match = m
+                break
+                
+    if b_match:
+        b_idx = starts.index(b_match)
+        for m in reversed(starts[:b_idx]):
+            if m.group("label") == "A":
+                a_match = m
+                break
+                
+    if not (a_match and b_match and c_match and d_match):
         raise ValueError("Cannot find A-D option boundaries")
 
-    question_text = body[: starts[0].start()].strip()
+    opt_starts = [a_match, b_match, c_match, d_match]
+    question_text = body[: opt_starts[0].start()].strip()
     options: dict[str, str] = {}
 
-    for index, match in enumerate(starts):
+    for index, match in enumerate(opt_starts):
         label = match.group("label")
-        end = starts[index + 1].start() if index + 1 < len(starts) else len(body)
+        end = opt_starts[index + 1].start() if index + 1 < len(opt_starts) else len(body)
         options[label] = body[match.end() : end].strip()
 
     return question_text, options
@@ -115,7 +154,7 @@ def extract_pdf_text(path: str | Path) -> str:
         import fitz
 
         with fitz.open(pdf_path) as document:
-            return "\n".join(page.get_text("text") for page in document)
+            return "\n".join(page.get_text("text", sort=True) for page in document)
     except Exception:
         pass
 

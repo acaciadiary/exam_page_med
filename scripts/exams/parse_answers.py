@@ -36,50 +36,35 @@ def parse_answers(raw_answer_text: str) -> dict[int, str]:
 
 
 def parse_answer_grid(text: str) -> dict[int, str]:
-    answer_rows: list[list[str]] = []
     number_rows: list[list[int]] = []
-    waiting_for_answer_body = False
-
+    answer_rows: list[list[str]] = []
+    
+    number_re = re.compile(r"(?P<body>(?:\d{1,3}\s+){4,}\d{1,3})\s*$")
+    answer_re = re.compile(r"(?P<body>(?:[A-D#]\s+){4,}[A-D#])\s*$")
+    
     for raw_line in text.splitlines():
         line = raw_line.strip()
         if not line:
             continue
-
-        if waiting_for_answer_body:
-            row = parse_answer_tokens(line)
-            if row:
-                answer_rows.append(row)
-                waiting_for_answer_body = False
-                continue
-            if line.startswith("第"):
-                waiting_for_answer_body = False
-
-        if ANSWER_HEADER_RE.match(line):
-            waiting_for_answer_body = True
+            
+        num_match = number_re.search(line)
+        if num_match:
+            row = [int(token) for token in re.findall(r"\d{1,3}", num_match.group("body"))]
+            number_rows.append(row)
             continue
-
-        answer_match = ANSWER_LINE_RE.match(line)
-        if answer_match:
-            row = parse_answer_tokens(answer_match.group("body"))
-            if row:
-                answer_rows.append(row)
-            else:
-                waiting_for_answer_body = True
+            
+        ans_match = answer_re.search(line)
+        if ans_match:
+            row = [token for token in re.findall(r"[A-D#]", ans_match.group("body"))]
+            answer_rows.append(row)
             continue
-
-        number_match = NUMBER_LINE_RE.match(line)
-        if number_match:
-            row = [int(token) for token in NUMBER_TOKEN_RE.findall(number_match.group("body"))]
-            if row:
-                number_rows.append(row)
-                waiting_for_answer_body = False
-
+            
     answers = [answer for row in answer_rows for answer in row]
     numbers = [number for row in number_rows for number in row]
-
+    
     if not answers or len(answers) != len(numbers):
         return {}
-
+        
     return dict(zip(numbers, answers))
 
 
