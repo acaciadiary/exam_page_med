@@ -1,0 +1,8 @@
+interface:
+  display_name: "MOEX Extract"
+  short_description: "Extract MOEX exam PDFs into validated app-ready datasets."
+  brand_color: "#0F766E"
+  default_prompt: "Use $moex-extract to add a new MOEX exam year, rebuild datasets, validate, and deploy."
+
+policy:
+  allow_implicit_invocation: true

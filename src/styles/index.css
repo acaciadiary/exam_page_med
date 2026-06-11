@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Iansui";
+  src: url("https://cdn.jsdelivr.net/gh/ButTaiwan/iansui@main/fonts/ttf/Iansui-Regular.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+:root {
+  font-family:
+    "Noto Sans TC", Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei",
+    sans-serif;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff8f4;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgb(246 169 198 / 0.38);
+}
+
+.study-journal {
+  isolation: isolate;
+}
+
+.font-hand {
+  font-family:
+    "Iansui", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.font-reading {
+  font-family:
+    "Noto Sans TC", Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei",
+    sans-serif;
+}
+
+.journal-paper {
+  background-image:
+    linear-gradient(rgba(180, 137, 118, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(180, 137, 118, 0.06) 1px, transparent 1px),
+    radial-gradient(circle at 18% 22%, rgba(255, 222, 235, 0.55), transparent 24rem),
+    radial-gradient(circle at 88% 18%, rgba(204, 238, 225, 0.58), transparent 22rem),
+    radial-gradient(circle at 62% 82%, rgba(205, 226, 255, 0.5), transparent 24rem);
+  background-size:
+    34px 34px,
+    34px 34px,
+    auto,
+    auto,
+    auto;
+}
+
+.theme-dark .journal-paper {
+  background-image:
+    linear-gradient(rgba(255, 223, 236, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(190, 224, 215, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 18% 22%, rgba(143, 85, 117, 0.25), transparent 24rem),
+    radial-gradient(circle at 88% 18%, rgba(70, 128, 110, 0.22), transparent 22rem),
+    radial-gradient(circle at 62% 82%, rgba(86, 113, 166, 0.2), transparent 24rem);
+}
+
+.theme-dark [class*="bg-white"] {
+  background-color: rgb(43 36 48 / 0.78) !important;
+}
+
+.theme-dark [class*="border-white"] {
+  border-color: rgb(255 255 255 / 0.12) !important;
+}
+
+.theme-dark h1,
+.theme-dark h2 {
+  color: #f8edf3 !important;
+}
+
+.theme-dark p,
+.theme-dark a {
+  color: #dccbd3;
+}
+
+.theme-dark .journal-title {
+  color: #f7e7ee !important;
+}
+
+.theme-dark .journal-title span {
+  color: #f3a6c4 !important;
+}
+
+.theme-dark aside {
+  background-color: rgb(43 36 48 / 0.84) !important;
+  border-color: rgb(255 255 255 / 0.12) !important;
+}
+
+.theme-dark article {
+  background-color: rgb(43 36 48 / 0.82) !important;
+  border-color: rgb(255 255 255 / 0.14) !important;
+}
+
+.theme-dark textarea {
+  background-color: rgb(32 27 37 / 0.82) !important;
+  border-color: rgb(255 255 255 / 0.14) !important;
+  color: #f8edf3 !important;
+}
+
+.journal-title {
+  font-family:
+    Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", serif;
+  letter-spacing: -0.04em;
+}
+
+.horizontal-drag-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+  touch-action: pan-x;
+  user-select: none;
+  -webkit-user-select: none;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 1rem,
+    black calc(100% - 1rem),
+    transparent 100%
+  );
+}
+
+.horizontal-drag-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-drag-scroll[data-dragging="true"] {
+  cursor: grabbing;
+}
+
+.horizontal-drag-scroll > * {
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

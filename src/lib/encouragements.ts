@@ -1,0 +1,62 @@
+const ENCOURAGEMENT_BASES = [
+  "再撐一下",
+  "你很穩",
+  "慢慢來",
+  "快到了",
+  "加油哦",
+  "做得好",
+  "很棒耶",
+  "別急",
+  "穩穩讀",
+  "你可以",
+  "今天也棒",
+  "繼續前進",
+  "差一點點",
+  "很有感",
+  "先深呼吸",
+  "保持節奏",
+  "一步一步",
+  "越來越順",
+  "你有進步",
+  "撐住就贏",
+  "不慌不忙",
+  "讀得很棒",
+  "很好很好",
+  "再多一題",
+  "快更懂了",
+  "穩住心情",
+  "小步快跑",
+  "已經很棒",
+  "今天有賺",
+  "別放棄呀",
+  "你超努力",
+  "繼續保持",
+  "答案會懂",
+  "觀念會熟",
+  "腦袋醒了",
+  "越讀越亮",
+  "先看重點",
+  "再想一下",
+  "漂亮一題",
+  "這題拿下",
+  "穩穩拿分",
+  "慢慢變強",
+  "考點抓到",
+  "辛苦值得",
+  "再靠近了",
+  "你在路上",
+  "不要怕錯",
+  "懂一點了",
+  "手感來了",
+  "很會整理",
+] as const;
+
+const ENCOURAGEMENT_ENDINGS = ["！", "喔！", "呀！", "呢！"] as const;
+
+export const ENCOURAGEMENTS = ENCOURAGEMENT_BASES.flatMap((base) =>
+  ENCOURAGEMENT_ENDINGS.map((ending) => `${base}${ending}`),
+);
+
+export function randomEncouragement() {
+  return ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)];
+}

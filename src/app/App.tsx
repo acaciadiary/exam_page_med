@@ -1,0 +1,193 @@
+import { useEffect, useMemo, useState } from "react";
+import { AnimatePresence, motion } from "motion/react";
+import { AlertCircle } from "lucide-react";
+import { AppShell } from "../components/AppShell";
+import { EmptyState } from "../components/EmptyState";
+import { ExamMode } from "../features/exam/ExamMode";
+import { FlashcardMode } from "../features/flashcards/FlashcardMode";
+import { useExamProgress } from "../hooks/useExamProgress";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import { useMarkedItems } from "../hooks/useMarkedItems";
+import { loadExamData, loadManifest } from "../lib/loadExamData";
+import { storageKeys } from "../lib/storageKeys";
+import type { ExamDataset, ExamManifest, Mode } from "../types/exam";
+
+type LoadState =
+  | { status: "loading" }
+  | { status: "ready"; manifest: ExamManifest; dataset: ExamDataset }
+  | { status: "error"; message: string };
+
+export default function App() {
+  const [theme, setTheme] = useLocalStorage<"light" | "dark">(
+    storageKeys.theme,
+    "light",
+  );
+  const [mode, setMode] = useLocalStorage<Mode>(storageKeys.activeMode, "exam");
+  const [activeExamId, setActiveExamId] = useLocalStorage<string>(
+    storageKeys.activeExam,
+    "",
+  );
+  const [state, setState] = useState<LoadState>({ status: "loading" });
+  const [isDatasetLoading, setIsDatasetLoading] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function load() {
+      try {
+        setIsDatasetLoading(true);
+        setState((current) =>
+          current.status === "ready" ? current : { status: "loading" },
+        );
+        const manifest = await loadManifest();
+        const selected =
+          manifest.exams.find((exam) => exam.id === activeExamId) ??
+          manifest.exams[0];
+
+        if (!selected) {
+          throw new Error("找不到可用的題庫資料。");
+        }
+
+        if (selected.id !== activeExamId) {
+          setActiveExamId(selected.id);
+        }
+
+        const dataset = await loadExamData(selected.path);
+        if (!cancelled) {
+          setState({ status: "ready", manifest, dataset });
+          setIsDatasetLoading(false);
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setIsDatasetLoading(false);
+          setState({
+            status: "error",
+            message: error instanceof Error ? error.message : "題庫載入失敗。",
+          });
+        }
+      }
+    }
+
+    load();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [activeExamId, setActiveExamId]);
+
+  const readyDataset = state.status === "ready" ? state.dataset : null;
+  const examId = readyDataset?.id ?? "pending";
+  const { answers, answerQuestion, resetAnswers } = useExamProgress(
+    storageKeys.answers(examId),
+  );
+  const markedQuestions = useMarkedItems(storageKeys.markedQuestions(examId));
+  const markedFlashcards = useMarkedItems(storageKeys.markedFlashcards(examId));
+
+  const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
+
+  if (state.status === "loading") {
+    return (
+      <div className="grid min-h-screen place-items-center bg-[#fff8f4] px-6 text-[#4b3b35]">
+        <div className="rounded-[1.5rem] border border-white/80 bg-white/72 px-8 py-7 text-center shadow-[0_18px_60px_rgba(181,133,117,0.18)] backdrop-blur-2xl">
+          <div className="mx-auto h-12 w-12 animate-spin rounded-full border-2 border-[#f6a9c6] border-t-transparent" />
+          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">
+            正在翻開 Ariel 的國考筆記
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (state.status === "error") {
+    return (
+      <div className="grid min-h-screen place-items-center bg-slate-950 px-6 text-white">
+        <div className="max-w-md rounded-lg border border-red-300/30 bg-red-500/10 p-6">
+          <AlertCircle className="text-red-200" />
+          <h1 className="mt-4 text-xl font-semibold">題庫載入失敗</h1>
+          <p className="mt-2 text-sm leading-6 text-red-100/80">
+            {state.message}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  const { manifest, dataset } = state;
+
+  return (
+    <AppShell
+      exams={manifest.exams}
+      activeExamId={activeExamId || dataset.id}
+      mode={mode}
+      theme={theme}
+      answeredCount={answeredCount}
+      questionCount={dataset.questions.length}
+      onExamChange={setActiveExamId}
+      onModeChange={setMode}
+      onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onReset={resetAnswers}
+    >
+      <div className="relative">
+        <AnimatePresence>
+          {isDatasetLoading ? (
+            <motion.div
+              key="soft-loading"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.28, ease: "easeOut" }}
+              className="absolute inset-0 z-30 grid min-h-80 place-items-center rounded-[1.5rem] bg-[#fff8f4]/72 backdrop-blur-sm"
+            >
+              <div className="rounded-full border border-[#efd9d0] bg-white/86 px-5 py-3 text-sm font-semibold tracking-[0.12em] text-[#9c7b70] shadow-[0_18px_50px_rgba(181,133,117,0.16)]">
+                正在切換題庫...
+              </div>
+            </motion.div>
+          ) : null}
+        </AnimatePresence>
+
+        {dataset.questions.length === 0 ? (
+          <EmptyState
+            title="尚無題目"
+            description="目前題庫檔案沒有題目，請先重新建立或檢查資料來源。"
+          />
+        ) : (
+          <AnimatePresence mode="wait">
+            {mode === "exam" ? (
+              <motion.div
+                key={`${dataset.id}-exam`}
+                initial={{ opacity: 0, y: 18, filter: "blur(8px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -12, filter: "blur(8px)" }}
+                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
+              >
+                <ExamMode
+                  dataset={dataset}
+                  answers={answers}
+                  markedQuestions={markedQuestions}
+                  onAnswer={answerQuestion}
+                />
+              </motion.div>
+            ) : (
+              <motion.div
+                key={`${dataset.id}-flashcards`}
+                initial={{ opacity: 0, y: 18, filter: "blur(8px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -12, filter: "blur(8px)" }}
+                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
+              >
+                <FlashcardMode
+                  dataset={dataset}
+                  markedFlashcards={markedFlashcards}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        )}
+      </div>
+    </AppShell>
+  );
+}

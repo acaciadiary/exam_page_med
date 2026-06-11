@@ -1,0 +1,88 @@
+name: Update Exam Data
+
+on:
+  schedule:
+    - cron: "0 2 1 2,8 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-exams:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install parser dependencies
+        run: |
+          python -m pip install -U pip
+          pip install pypdf pymupdf pdfplumber pytest
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run parser tests
+        run: pytest tests/parser
+
+      - name: Discover latest MOEX PDFs
+        run: |
+          python scripts/exams/download_moex.py --year 115 --preset physician-115-first --out-dir downloads/moex
+
+      - name: Build frontend datasets
+        run: |
+          python scripts/exams/build_moex_preset.py \
+            --preset physician-115-first \
+            --downloads-dir downloads/moex \
+            --data-dir public/data \
+            --write-manifest
+
+      - name: Validate generated datasets
+        run: |
+          python scripts/exams/validate_dataset.py "public/data/exams/**/*.json" --out reports/dataset-quality.json
+
+      - name: Export Gemini prompt batches
+        run: |
+          python scripts/exams/export_gemini_prompts.py \
+            "public/data/exams/**/*.json" \
+            --out-dir reports/gemini_prompts
+
+      - name: Validate explanation coverage
+        run: |
+          python scripts/exams/validate_explanations.py \
+            "public/data/exams/**/*.json" \
+            --out reports/explanation-quality.json
+
+      - name: Run frontend tests
+        run: npm run test
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data scripts/exams/repair_dictionary.json
+          if git diff --cached --quiet; then
+            echo "No exam data changes."
+          else
+            git commit -m "chore: update MOEX exam data"
+            git push
+          fi

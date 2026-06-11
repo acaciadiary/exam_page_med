@@ -1,0 +1,2339 @@
+{
+  "id": "115_medicine-6",
+  "year": "115",
+  "title": "115 年第一次醫師國考：醫學（六）",
+  "subject": "medicine-6",
+  "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=115020&q=1&s=0106&t=Q",
+  "updated_at": "2026-06-11T01:31:13.537379+00:00",
+  "questions": [
+    {
+      "id": "115_medicine-6_001",
+      "question_number": 1,
+      "question_text": "麻醉醫師對病人作術前訪視,按modified Mallampati classification進行氣道評估分類。病人嘴張到最\n大、舌頭伸到最長,不使用壓舌棒下,只能看見soft palate、base of the uvula,不能看見tonsillar \npillars、fauces。依據前述,屬於何等級?",
+      "options": {
+        "A": "class I",
+        "B": "class II",
+        "C": "class IV",
+        "D": "class III"
+      },
+      "correct_answer": "D",
+      "explanation": "Modified Mallampati 分類中，若病人張口伸舌後只能看見 soft palate 與 uvula base，看不到 tonsillar pillars 與 fauces，屬於 class III。Class I 會看到完整軟顎與懸壅垂，class IV 則連軟顎都幾乎看不到。這是困難插管評估的基本題。",
+      "flashcard_summary": "Mallampati / 只見 soft palate 與 uvula base -> class III",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Mallampati class III 為僅見 soft palate 與 uvula 基部。",
+      "flashcard_front": "Mallampati / soft palate / uvula base / 看不到 pillars",
+      "flashcard_back": "只見 soft palate 與 uvula 基部、看不到 pillars 與 fauces，就是 Mallampati class III。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_002",
+      "question_number": 2,
+      "question_text": "關於術中心電圖(ECG)監測,下列何者錯誤?",
+      "options": {
+        "A": "ECG 中的 ST segment代表心肌的再極化,對心肌缺血最敏感",
+        "B": "術中發生myocardial ischemia,表現常為ECG ST segment depression",
+        "C": "術中發生的myocardial ischemia大多可以清楚定位缺血區域",
+        "D": "對缺血敏感度最高的lead是 V5,次之則是 V4"
+      },
+      "correct_answer": "A",
+      "explanation": "ECG 的 ST segment 主要對應心室去極化後的平台期，T wave 才是主要再極化表現。術中缺血常見 ST depression，而 V5 對偵測缺血敏感度高。題目 A 把 ST segment 說成再極化，因此錯誤。",
+      "flashcard_summary": "ECG / ST segment -> 不代表心肌再極化，T wave 才是再極化",
+      "correct_answers": [
+        "A",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
+      "answer_source": "official_correction",
+      "answer_note": "第2題答A或C或AC者均給分",
+      "key_point": "ST segment 不代表心肌再極化。",
+      "flashcard_front": "ECG / ST segment / T wave / ischemia monitoring",
+      "flashcard_back": "再極化重點是 T wave，不是 ST segment；ST 變化是拿來看缺血，不等於再極化本身。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_003",
+      "question_number": 3,
+      "question_text": "重大手術麻醉與術後常須更密切、甚至侵入性的循環監測,下列有關循環監測的敘述何者最適當?",
+      "options": {
+        "A": "設立 radial artery catheter之前,先做Allen test已被證實可以減少導管置入之相關後遺症",
+        "B": "在股動脈導管測得的pulse pressure,基於波型反射原理,可以預測比在主動脈測得的 pulse pressure數\n值為低",
+        "C": "中央靜脈壓(central venous pressure)為最準確的循環血量測量,在重大手術監測與處置中扮演重要角\n色",
+        "D": "潮氣末二氧化碳(end-tidal CO2)可以被轉換利用來監測心輸出量(cardiac output)的變化"
+      },
+      "correct_answer": "D",
+      "explanation": "Allen test 並未被證實能明確減少 radial artery catheter 併發症；CVP 也不是最準確的循環血量指標。末二氧化碳在通氣穩定時，可反映肺血流與心輸出量變化趨勢，因此 D 是最適當的敘述。這題在考麻醉循環監測的實際價值。",
+      "flashcard_summary": "EtCO2 -> 可反映 cardiac output 變化趨勢",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "EtCO2 可用來追蹤心輸出量變化趨勢。",
+      "flashcard_front": "EtCO2 / cardiac output / invasive monitoring / CVP",
+      "flashcard_back": "通氣條件相近時，EtCO2 下降常提示肺血流或心輸出量下降，因此可用來看趨勢變化。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_004",
+      "question_number": 4,
+      "question_text": "35 歲懷孕女性病人,因剖腹生產接受半身麻醉(spinal anesthesia)後第二天抱怨頭痛,且每當由床上要坐\n起來時,會加劇疼痛。平躺不久之後會立刻改善,此疼痛的部位在枕部且會擴散至肩部,其他的生命徵象都良\n好。此時的鑑別診斷最可能是下列何者?",
+      "options": {
+        "A": "腦膜炎",
+        "B": "顱內壓增加",
+        "C": "張力性頭痛(tension headache)",
+        "D": "硬脊膜穿刺後頭痛(post-dural puncture headache)"
+      },
+      "correct_answer": "D",
+      "explanation": "病人接受 spinal anesthesia 後，坐起來頭痛加劇、平躺緩解，且疼痛位於枕部並可放射到肩頸，是典型 post-dural puncture headache。若是腦膜炎或顱壓增加，通常不會呈現如此明顯的姿勢性改善。這是產科麻醉常考情境題。",
+      "flashcard_summary": "spinal 後姿勢性頭痛 -> post-dural puncture headache",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "產後姿勢性頭痛最典型為硬脊膜穿刺後頭痛。",
+      "flashcard_front": "spinal anesthesia / posture headache / worse sitting / better supine",
+      "flashcard_back": "脊髓麻醉後一坐就痛、躺下改善的頭痛，優先想到 post-dural puncture headache。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_005",
+      "question_number": 5,
+      "question_text": "Cisatracurium神經肌肉阻斷劑,具有下列何項作用?1肌肉鬆弛作用 2意識喪失 3止痛 4記憶缺失",
+      "options": {
+        "A": "僅1",
+        "B": "124",
+        "C": "123",
+        "D": "134"
+      },
+      "correct_answer": "A",
+      "explanation": "Cisatracurium 是神經肌肉阻斷劑，作用是造成骨骼肌鬆弛，方便插管與手術操作。它不會造成意識喪失、止痛或失憶，因此必須與麻醉藥、止痛藥併用。題目在考藥效分類，不可把麻醉和肌鬆藥混為一談。",
+      "flashcard_summary": "cisatracurium -> 只提供肌肉鬆弛",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Cisatracurium 只提供肌肉鬆弛，不提供鎮痛或失憶。",
+      "flashcard_front": "cisatracurium / neuromuscular blocker / paralysis only",
+      "flashcard_back": "肌鬆藥只讓病人不能動，不會自己產生麻醉、止痛或失憶效果。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_006",
+      "question_number": 6,
+      "question_text": "作為產房值班的第一線醫師,以下有幾床病人表示希望施打減痛分娩。下列四位孕婦中,那一位最適合施打減\n痛分娩的硬脊膜外導管(epidural catheter)?",
+      "options": {
+        "A": "36 歲王女士當天早上抽血血小板數量較低,僅100,000×10\n6\n/L",
+        "B": "33 歲方女士開過腰椎手術,背部傷口附近有滲液,有感染的可能性",
+        "C": "41 歲的林女士罹患風濕性心臟病(rheumatic heart disease),且有重度的主動脈狹窄(aortic \nstenosis)",
+        "D": "39 歲的高女士在懷孕期間發現有腦部腫瘤"
+      },
+      "correct_answer": "A",
+      "explanation": "局部感染、嚴重主動脈狹窄與顱內腫瘤都使 epidural 風險提高。相較之下，血小板約 100,000 且穩定的產婦，在臨床上仍可能是相對可接受的選項。題目在比較相對與絕對禁忌的差別。",
+      "flashcard_summary": "產科 epidural 適應評估 -> platelets 約100k 相對可接受，感染與重度AS更不適合",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "血小板約 10 萬且無其他禁忌時，仍可能考慮產科硬脊膜外麻醉。",
+      "flashcard_front": "labor epidural / platelets 100k / infection / aortic stenosis",
+      "flashcard_back": "決定能不能做 epidural 時，要分清楚相對禁忌和明顯高風險禁忌；穩定 10 萬血小板通常比局部感染或重度 AS 更可接受。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_007",
+      "question_number": 7,
+      "question_text": "60 歲男性,身體質量指數 35 kg/m\n2\n,因上消化道出血需進行緊急剖腹探查,術前實驗檢查血紅素為 8 g/dL,\n未用氧氣下血氧濃度為94%,以 ARISCAT Score評估術後發生肺部併發症為高風險,下列何者不是ARISCAT \nScore 的評估項目?",
+      "options": {
+        "A": "身體質量指數",
+        "B": "年齡",
+        "C": "術前血紅素",
+        "D": "緊急手術"
+      },
+      "correct_answer": "A",
+      "explanation": "ARISCAT 用於預測術後肺部併發症，項目包括年齡、術前血氧、近期呼吸道感染、術前貧血、切口位置、手術時間與急診手術等。BMI 並不是其中一個分項。題目是典型的評分系統記憶題。",
+      "flashcard_summary": "ARISCAT -> 不包含 BMI",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "ARISCAT 不包含 BMI。",
+      "flashcard_front": "ARISCAT / postoperative pulmonary complication / BMI?",
+      "flashcard_back": "ARISCAT 記年齡、血氧、貧血、感染、手術類型與時間，不含 BMI。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_008",
+      "question_number": 8,
+      "question_text": "所謂的 caudal block,麻醉藥會分布在下列何處,以達到止痛及麻醉效果?",
+      "options": {
+        "A": "硬膜下空間(subdural space)",
+        "B": "硬膜上空間(epidural space)",
+        "C": "intrathecal space",
+        "D": "epi-sacrococcygeal ligament space"
+      },
+      "correct_answer": "B",
+      "explanation": "Caudal block 是經由 sacral hiatus 進入尾側硬膜外空間，屬於 epidural anesthesia 的一種。它不是 intrathecal，也不是 subdural。考點在於記住進針路徑和最終藥液所在空間。",
+      "flashcard_summary": "caudal block -> 藥液位於 epidural space",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Caudal block 的藥液分佈在 epidural space。",
+      "flashcard_front": "caudal block / sacral hiatus / epidural space",
+      "flashcard_back": "Caudal block 本質上是尾側硬膜外麻醉，藥液最後在 epidural space，不是在蛛網膜下腔。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_009",
+      "question_number": 9,
+      "question_text": "腎臟低灌流(hypoperfusion)是腎前性氮血症(prerenal azotemia)的主因,下列藥物何者不會直接作用在\n腎血管造成腎臟低灌流?",
+      "options": {
+        "A": "使用 norepinephrine或vasopressin等血管收縮藥物",
+        "B": "使用 ketololac等抑制環氧酶(cyclooxygenase)的止痛藥",
+        "C": "使用抑制血管收縮素轉化酶(angiotensin converting enzyme)的抗高血壓藥物",
+        "D": "使用低劑量硝化甘油輸注(nitroglycerin infusion)"
+      },
+      "correct_answer": "B",
+      "explanation": "Vasopressor、ACEi/ARB 與血管擴張藥都可較直接改變腎灌流壓或腎小球入出球動脈張力。NSAID 如 ketorolac 主要是藉由抑制 prostaglandin 合成，使入球小動脈失去擴張保護，屬較間接機轉。題目是在比『直接作用於腎血管』的程度。",
+      "flashcard_summary": "prerenal azotemia / ketorolac -> 經 prostaglandin 抑制影響灌流，非典型直接血管收縮",
+      "correct_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
+      "answer_source": "official_correction",
+      "answer_note": "第9題答B或C或D或BC或BD或CD或BCD者均給分",
+      "key_point": "NSAID 造成腎前性腎衰多經 prostaglandin 抑制，而非直接血管收縮。",
+      "flashcard_front": "prerenal azotemia / NSAID / prostaglandin / renal perfusion",
+      "flashcard_back": "NSAID 讓腎前性腎損傷惡化，重點是抑制 prostaglandin，不是像 vasopressor 那樣直接拿血管去收縮。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_010",
+      "question_number": 10,
+      "question_text": "大約百分之十高度近視患者會出現黃斑部血管新生(macular neovascularization),下列何種治療最有幫\n助?",
+      "options": {
+        "A": "全視網膜雷射光凝固術(panretinal photocoagulation)",
+        "B": "玻璃體內注射能持續釋出類固醇之植入物(sustained-released steroid implant)",
+        "C": "玻璃體內注射抗血管內皮生長因子製劑(anti-VEGF agent)",
+        "D": "鞏膜扣壓術(scleral buckling)"
+      },
+      "correct_answer": "C",
+      "explanation": "高度近視併發 macular neovascularization 時，最有效且常用的治療是玻璃體內注射 anti-VEGF。PRP 適用於廣泛缺血性視網膜病變，scleral buckling 用於某些視網膜剝離，類固醇植入物也不是此病的一線。考點是辨認不同視網膜疾病的治療對應。",
+      "flashcard_summary": "高度近視黃斑新生血管 -> 一線治療為 anti-VEGF",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "高度近視黃斑部新生血管的一線治療是抗 VEGF。",
+      "flashcard_front": "high myopia / macular neovascularization / anti-VEGF",
+      "flashcard_back": "高度近視出現黃斑新生血管，第一反應就是玻璃體內注射 anti-VEGF。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_011",
+      "question_number": 11,
+      "question_text": "關於葡萄膜炎相關的實驗室檢查與相對應的疾病描述,下列敘述何者最不適當?",
+      "options": {
+        "A": "胸腔 X-Ray(chest X-ray)可以協助類肉瘤症(sarcoidosis)或結核感染(tuberculosis)之診斷",
+        "B": "抽血檢驗HLA-B27陽性,與急性虹彩炎(acute anterior uveitis, AAU)和僵直性脊椎炎(ankylosing \nspondylitis)高度相關",
+        "C": "在梅毒(syphilis)的診斷上,rapid plasma reagin(RPR)或是venereal disease research \nlaboratory(VDRL)有重要的角色。兩者在感染後皆終身陽性,在治療後效價不會下降",
+        "D": "在高眼壓性虹彩炎,如懷疑疱疹病毒(herpesviruses)或是巨細胞(cytomegalovirus)病毒引起,可施行\n前房穿刺(aqueous tap)送檢 polymerase chain reaction(PCR)"
+      },
+      "correct_answer": "C",
+      "explanation": "RPR 與 VDRL 是梅毒的非 treponemal test，可用於篩檢與追蹤治療反應，治療後效價常下降。終身持續陽性較常用來描述 treponemal test。題目 C 把兩者都說成終身陽性且不降，明顯錯誤。",
+      "flashcard_summary": "RPR/VDRL -> 治療後效價可下降，不是終身固定陽性",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "RPR/VDRL 不會終身固定陽性，治療後效價可下降。",
+      "flashcard_front": "uveitis workup / syphilis / RPR / VDRL / titer",
+      "flashcard_back": "RPR/VDRL 用於追蹤治療，治療後效價會降；若題目說終身固定陽性，多半在考你分辨 treponemal 與 non-treponemal test。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_012",
+      "question_number": 12,
+      "question_text": "有關眼球表面結構之敘述,下列何者錯誤?",
+      "options": {
+        "A": "角膜為透明無血管的組織",
+        "B": "結膜是含血管的組織",
+        "C": "角膜占整體眼球屈光度的 1/3",
+        "D": "角膜的鮑曼氏層(Bowman layer)是上皮細胞的基質層(basement membrane)"
+      },
+      "correct_answer": "C",
+      "explanation": "角膜是透明無血管組織，結膜含有血管，這些都正確。眼球總屈光力中，角膜約貢獻三分之二，晶體約三分之一。題目把角膜寫成只占三分之一，因此錯誤。",
+      "flashcard_summary": "角膜屈光力 -> 約占整體 2/3，不是 1/3",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
+      "answer_source": "official_correction",
+      "answer_note": "第12題答C或D或CD者均給分",
+      "key_point": "角膜提供約三分之二屈光力，不是三分之一。",
+      "flashcard_front": "cornea / refractive power / 2/3 / conjunctiva",
+      "flashcard_back": "角膜是眼球主要屈光結構，屈光力約占三分之二，不要和晶體搞反。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_013",
+      "question_number": 13,
+      "question_text": "以 Van Herick法評估前房深度時,當周邊前房深度對比角膜厚度為多少時,則建議做隅角鏡的檢查?",
+      "options": {
+        "A": ">1",
+        "B": "1~1/2",
+        "C": "1/2~1/3",
+        "D": "≦1/4"
+      },
+      "correct_answer": "D",
+      "explanation": "Van Herick 法用周邊前房深度與角膜厚度相比，若小於等於四分之一，表示前房角可能狹窄，應考慮 gonioscopy。數值越小，角閉鎖風險越高。這是青光眼篩檢的基本臨床技巧。",
+      "flashcard_summary": "Van Herick ≤1/4 -> 建議做 gonioscopy",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Van Herick ≤1/4 時應高度懷疑窄角並做隅角鏡。",
+      "flashcard_front": "Van Herick / anterior chamber depth / gonioscopy / ≤1/4",
+      "flashcard_back": "Van Herick 比值低到四分之一以下時，要想到窄角風險並安排隅角鏡。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_014",
+      "question_number": 14,
+      "question_text": "關於正常眼壓性青光眼(normal tension glaucoma)和原發性隅角開放性青光眼(primary open angle \nglaucoma)的不同,下列敘述何者錯誤?",
+      "options": {
+        "A": "日本人較歐美人常罹患正常眼壓性青光眼",
+        "B": "正常眼壓性青光眼較常出現視神經盤出血(disc splinter hemorrhage)",
+        "C": "在正常眼壓性青光眼要特別注意是否有因口服降血壓藥造成夜間低血壓",
+        "D": "正常眼壓性青光眼較容易伴隨中央角膜厚度(central corneal thickness)過厚"
+      },
+      "correct_answer": "D",
+      "explanation": "日本人較常見 normal tension glaucoma，disc hemorrhage 也更常被看到，夜間低血壓可能使灌流更差。相反地，中央角膜厚度偏厚並不是這群病人較常見的特徵。這題是在考 NTG 與 POAG 的差異。",
+      "flashcard_summary": "NTG -> 常見較薄中央角膜，不是較厚",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "正常眼壓性青光眼常與較薄的中央角膜厚度相關。",
+      "flashcard_front": "NTG / disc hemorrhage / nocturnal hypotension / thin cornea",
+      "flashcard_back": "正常眼壓性青光眼要記得常伴較薄角膜，不是較厚角膜。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_015",
+      "question_number": 15,
+      "question_text": "下圖視野缺損屬於何者病變?",
+      "options": {
+        "A": "左側頂葉(parietal lobe)",
+        "B": "右側視覺皮質(occipital lobe)",
+        "C": "右側顳葉(temporal lobe)",
+        "D": "左側視束(optic tract)"
+      },
+      "correct_answer": "B",
+      "explanation": "視野題常用病灶位置來回推。右側 occipital lobe 病變會造成對側，也就是左側同向視野缺損。optic tract 與 temporal/parietal lesion 的視野型態不同，需依圖像分辨。",
+      "flashcard_summary": "右側 occipital lobe lesion -> 對側同向視野缺損",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "右側枕葉病變會造成左側同向偏盲。",
+      "flashcard_front": "visual field defect / occipital lobe / contralateral homonymous loss",
+      "flashcard_back": "枕葉病變看對側同向視野；右枕葉就先想左側同向缺損。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_016",
+      "question_number": 16,
+      "question_text": "注射顯影劑的核磁共振(MRI)對於下列何種腦部病變的顯像能力較差?",
+      "options": {
+        "A": "外傷性頸動脈-中心靜脈竇瘻管(carotid-cavernous fistula)",
+        "B": "腦膜瘤的鈣化表現",
+        "C": "視神經脊髓炎造成的視交叉(optic chiasm)發炎",
+        "D": "蝶鞍上的(suprasellar)腦下垂體腫瘤出血"
+      },
+      "correct_answer": "B",
+      "explanation": "腦膜瘤的鈣化在 CT 上通常比 MRI 更容易辨認，因此 MRI 顯像能力相對較差。相反地，視交叉發炎、腫瘤出血或 carotid-cavernous fistula 相關軟組織與血流訊息，MRI 往往更有幫助。這題是在考影像工具的特性。",
+      "flashcard_summary": "MRI 對何者較差 -> 鈣化性病灶如 meningioma calcification",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "MRI 對鈣化病灶的呈現不如 CT。",
+      "flashcard_front": "MRI limitation / calcification / meningioma / CT better",
+      "flashcard_back": "只要考鈣化，通常先想到 CT 比 MRI 直接；MRI 比較強在軟組織與血流相關病灶。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_017",
+      "question_number": 17,
+      "question_text": "關於眼窩隔前蜂窩性組織炎(preseptal cellulitis),下列敘述何者錯誤?",
+      "options": {
+        "A": "金黃色葡萄球菌為常見之致病菌",
+        "B": "不會造成腦膜炎的嚴重併發症",
+        "C": "可能因蚊蟲叮咬造成",
+        "D": "可能衍生自中耳炎"
+      },
+      "correct_answer": "B",
+      "explanation": "Preseptal cellulitis 常見病原包括金黃葡萄球菌，也可能由昆蟲叮咬或鄰近感染引起。雖然它位在眶隔前方，通常較 orbital cellulitis 輕，但題目說『不會造成腦膜炎等嚴重併發症』太絕對，因此錯誤。臨床上若惡化仍須警覺進展。",
+      "flashcard_summary": "preseptal cellulitis -> 不能說絕不會有嚴重併發症",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Preseptal cellulitis 雖較輕，但仍可能向深部擴展並出現嚴重併發症。",
+      "flashcard_front": "preseptal cellulitis / orbital septum / complication risk",
+      "flashcard_back": "Preseptal cellulitis 較 orbital cellulitis 輕，但不能說完全沒有嚴重併發症風險。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_018",
+      "question_number": 18,
+      "question_text": "病人每早睡醒眼結膜下半部充血紅腫,流淚畏光,眼睛有異物感,則最不可能罹患何種病變?",
+      "options": {
+        "A": "甲狀腺凸眼",
+        "B": "顏面神經麻痺",
+        "C": "肉毒桿菌注射下眼瞼之後遺症",
+        "D": "眼瞼痙攣"
+      },
+      "correct_answer": "D",
+      "explanation": "每早醒來下半部結膜紅腫、畏光、異物感，常讓人想到夜間閉眼不全造成的暴露性角結膜病變，例如甲狀腺眼病、顏面神經麻痺或 Botox 相關閉眼功能不全。眼瞼痙攣通常是過度閉眼，不是暴露問題。故最不可能的是眼瞼痙攣。",
+      "flashcard_summary": "晨起下方結膜紅腫 -> 最不像眼瞼痙攣，較像暴露性病變",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "晨起下方結膜充血與暴露性問題較相關，較不像眼瞼痙攣。",
+      "flashcard_front": "morning inferior conjunctival injection / exposure keratopathy / lagophthalmos",
+      "flashcard_back": "醒來下方結膜刺激先想到夜間暴露、閉眼不全；眼瞼痙攣是閉太緊，不是暴露過多。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_019",
+      "question_number": 19,
+      "question_text": "有關急性中耳炎之致病菌,下列何者最不常見?",
+      "options": {
+        "A": "Streptococcus pneumoniae",
+        "B": "Haemophilus influenzae",
+        "C": "Moraxella catarrhalis",
+        "D": "Pseudomonas aeruginosa"
+      },
+      "correct_answer": "D",
+      "explanation": "急性中耳炎典型病原是 Streptococcus pneumoniae、Haemophilus influenzae 與 Moraxella catarrhalis。Pseudomonas aeruginosa 更常和外耳炎或慢性耳部感染相關，不是急性中耳炎的常見第一線病原。這是耳科感染的基本題。",
+      "flashcard_summary": "急性中耳炎病原 -> 最不常見為 Pseudomonas",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "急性中耳炎常見病原不包括 Pseudomonas。",
+      "flashcard_front": "acute otitis media / common pathogens / Pseudomonas",
+      "flashcard_back": "AOM 三大病原先記 pneumococcus、H. influenzae、Moraxella；Pseudomonas 不在經典組合裡。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_020",
+      "question_number": 20,
+      "question_text": "在注視眼震(gaze nystagmus)中,發現以下那一項時需懷疑是中樞病變?",
+      "options": {
+        "A": "水平或旋轉(horizontal/rotatory)眼震",
+        "B": "視覺固定(visual fixation)可抑制眼震",
+        "C": "方向變換(direction changing)眼震",
+        "D": "眼球向眼震快速相(fast phase)方向注視時,眼震強度會增加"
+      },
+      "correct_answer": "C",
+      "explanation": "周邊前庭性眼震較常呈單一方向，且可受視覺固定抑制。若眼震會隨注視方向改變，屬於中樞病變的重要警訊。這題是在分辨 peripheral 與 central vertigo 的眼震特徵。",
+      "flashcard_summary": "direction-changing nystagmus -> 提示中樞病變",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Direction-changing gaze nystagmus 要懷疑中樞病變。",
+      "flashcard_front": "gaze nystagmus / direction-changing / central lesion",
+      "flashcard_back": "眼震若會隨注視方向改變，優先懷疑中樞病變；周邊性通常方向較固定。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_021",
+      "question_number": 21,
+      "question_text": "關於蝶竇(sphenoid sinus)的解剖,下列敘述何者正確?",
+      "options": {
+        "A": "蝶竇開口位於蝶竇前壁上側",
+        "B": "翼管神經(vidian nerve)位於蝶竇外側壁",
+        "C": "三叉神經的上頜支(maxillary division, V2)位於蝶竇上側壁",
+        "D": "視神經位於蝶竇內上側壁"
+      },
+      "correct_answer": "A",
+      "explanation": "Sphenoid sinus 解剖常考與視神經、頸內動脈及翼管神經的相對位置。題目中正確的是蝶竇開口位於前壁偏上方。其餘選項則把神經或壁面位置配錯。",
+      "flashcard_summary": "sphenoid sinus ostium -> 位於前壁上方",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "蝶竇開口位於前壁上方。",
+      "flashcard_front": "sphenoid sinus / ostium / anterior wall / anatomy",
+      "flashcard_back": "蝶竇最常考的是開口位置與周邊重要結構，記得 ostium 在前壁上方。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_022",
+      "question_number": 22,
+      "question_text": "有關內視鏡鼻竇手術(endoscopic sinus surgery)可能產生的併發症,下列何者最不常見?",
+      "options": {
+        "A": "馬鞍鼻(saddle nose)",
+        "B": "腦膜炎(meningitis)",
+        "C": "複視或失明(diplopia or blindness)",
+        "D": "腦脊髓液鼻漏(CSF rhinorrhea)"
+      },
+      "correct_answer": "A",
+      "explanation": "ESS 的重要併發症包括腦脊髓液鼻漏、腦膜炎，以及眼眶相關傷害如複視或失明。Saddle nose 比較常見於鼻中隔手術或鼻樑支撐受損，不是 ESS 的典型常見併發症。這題在考手術風險分布。",
+      "flashcard_summary": "ESS 最不常見併發症 -> saddle nose",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "內視鏡鼻竇手術後較少見的併發症是 saddle nose。",
+      "flashcard_front": "ESS complication / CSF leak / blindness / saddle nose",
+      "flashcard_back": "ESS 要先記顱底與眼眶併發症；saddle nose 不是它最典型的併發症。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_023",
+      "question_number": 23,
+      "question_text": "下列那一條肌肉最可能遭扁桃腺癌侵犯,造成張口困難(trismus)?",
+      "options": {
+        "A": "外翼肌(lateral pterygoid muscle)",
+        "B": "咀嚼肌(masseter muscle)",
+        "C": "內翼肌(medial pterygoid muscle)",
+        "D": "頰肌(buccinator muscle)"
+      },
+      "correct_answer": "C",
+      "explanation": "扁桃腺癌若向旁咽或咀嚼肌群侵犯，常使張口受限。最經典與 trismus 相關的是 medial pterygoid involvement。這題是在考口咽癌侵犯路徑與症狀連結。",
+      "flashcard_summary": "扁桃腺癌合併 trismus -> 常與 medial pterygoid 侵犯相關",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "扁桃腺癌侵犯內翼肌常導致 trismus。",
+      "flashcard_front": "tonsil cancer / trismus / medial pterygoid",
+      "flashcard_back": "口咽癌若出現 trismus，要想到內翼肌或咀嚼肌群被侵犯。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_024",
+      "question_number": 24,
+      "question_text": "下列何者不是感冒(common cold)的常見致病原病毒?",
+      "options": {
+        "A": "鼻病毒(rhinovirus)",
+        "B": "冠狀病毒(corona virus)",
+        "C": "疱疹病毒(herpes virus)",
+        "D": "流感病毒(influenza virus)"
+      },
+      "correct_answer": "C",
+      "explanation": "Common cold 最常見病原包括 rhinovirus、coronavirus，部分 influenza 也可造成類似上呼吸道感染表現。Herpes virus 不是典型感冒病原。這題是單純病原辨識題。",
+      "flashcard_summary": "common cold 病原 -> 不包括 herpes virus",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "一般感冒常見病毒不包括 herpes virus。",
+      "flashcard_front": "common cold / rhinovirus / coronavirus / herpes?",
+      "flashcard_back": "感冒常見是鼻病毒和冠狀病毒，不會把 herpes virus 放進典型清單。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_025",
+      "question_number": 25,
+      "question_text": "有關反常性聲帶運動障礙(paradoxical vocal fold movement disorder),下列敘述何者錯誤?",
+      "options": {
+        "A": "常發生於剛睡醒或剛入睡時",
+        "B": "會有吸氣相喘鳴聲(inspiratory stridor)",
+        "C": "可能是梅格氏症候群(Meige syndrome)的表現之一",
+        "D": "可用肉毒桿菌素注射於兩側的甲杓肌(thyroarytenoid muscle)治療"
+      },
+      "correct_answer": "A",
+      "explanation": "PVFMD 常表現為吸氣性喘鳴，可被誤認為氣喘，也可能和功能性或神經肌肉問題相關。它多在清醒活動、壓力或誘發情境下出現，不是特別以剛入睡或剛醒為典型。題目 A 因此最不適當。",
+      "flashcard_summary": "PVFMD -> 不以剛入睡或剛醒為典型表現",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Paradoxical vocal fold movement disorder 不典型發生在剛入睡或剛醒。",
+      "flashcard_front": "PVFMD / inspiratory stridor / wake-sleep transition",
+      "flashcard_back": "反常聲帶運動多在清醒誘發情境出現，不是典型的睡醒或入睡時發作。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_026",
+      "question_number": 26,
+      "question_text": "有關聲帶麻痺(vocal fold paralysis),下列敘述何者錯誤?",
+      "options": {
+        "A": "成人聲帶麻痺多與腫瘤或甲狀腺手術有關",
+        "B": "單側聲帶麻痺左側多於右側",
+        "C": "Arnold-Chiari malformation有關的聲帶麻痺,屬於中樞神經病變,可引起雙側麻痺",
+        "D": "神經重建手術(reinnervation)多以ansa cervicalis或 spinal accessory nerve的分支做為接枝\n(graft)"
+      },
+      "correct_answer": "D",
+      "explanation": "成人單側聲帶麻痺常和腫瘤或甲狀腺手術相關，左側也比右側多見。Arnold-Chiari malformation 可造成中樞來源的雙側麻痺。重建手術常用 ansa cervicalis reinnervation，題目 D 把 donor 描述得不典型，因此最不適當。",
+      "flashcard_summary": "聲帶麻痺重建 -> 常用 ansa cervicalis，不是把 spinal accessory 當標準 graft",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "聲帶麻痺重建術的標準 donor 多為 ansa cervicalis，不是把 spinal accessory 當常規 graft。",
+      "flashcard_front": "vocal fold paralysis / ansa cervicalis / reinnervation",
+      "flashcard_back": "聲帶再神經化最常先想到 ansa cervicalis；spinal accessory 不是這題要記的標準答案。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_027",
+      "question_number": 27,
+      "question_text": "有關 Graves disease,下列敘述何者錯誤?",
+      "options": {
+        "A": "致病原因主要是T淋巴球及B淋巴球,產生甲促素受器抗體(TSH receptor antibody)",
+        "B": "全甲狀腺切除(total thyroidectomy)是建議的手術方式",
+        "C": "術前給與病人抗甲狀腺藥物及碘液(Lugol's iodine)可以降低甲狀腺血流,減少手術過程中出血的風險",
+        "D": "凸眼(exophthalmos)症狀在甲狀腺手術後仍無法有效改善"
+      },
+      "correct_answer": "A",
+      "explanation": "Graves disease 是自體免疫甲狀腺疾病，關鍵抗體為 TSH receptor antibody。B 細胞負責產生抗體，T 細胞則提供免疫調節與幫助，因此 A 的說法不精確。全甲狀腺切除是常見手術方式，術前 Lugol iodine 可降低血流。",
+      "flashcard_summary": "Graves disease -> TSH receptor antibody 由 B 細胞產生",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
+      "answer_source": "official_correction",
+      "answer_note": "第27題答A或B或AB者均給分",
+      "key_point": "TSH receptor antibody 是 B 細胞產生，不能說 T、B 細胞一起產生抗體。",
+      "flashcard_front": "Graves disease / TSH receptor antibody / B cell / Lugol iodine",
+      "flashcard_back": "Graves 抗體是 B 細胞產生，T 細胞是協助免疫反應，不要把『產生抗體』直接寫成 T、B 一起做。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_028",
+      "question_number": 28,
+      "question_text": "內髂動脈(internal iliac artery)分枝,下列何者除外?",
+      "options": {
+        "A": "內陰動脈(internal pudendal artery)",
+        "B": "卵巢動脈(ovarian artery)",
+        "C": "下膀胱動脈(inferior vesical artery)",
+        "D": "上臀動脈(superior gluteal artery)"
+      },
+      "correct_answer": "B",
+      "explanation": "Internal pudendal artery、inferior vesical artery 與 superior gluteal artery 都屬內髂動脈分支。卵巢動脈則直接來自腹主動脈。這題是婦科骨盆血管解剖的基本題。",
+      "flashcard_summary": "內髂動脈分支辨識 -> ovarian artery 不屬其分支",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "卵巢動脈來自主動脈，不是內髂動脈分支。",
+      "flashcard_front": "internal iliac branches / ovarian artery / pelvic anatomy",
+      "flashcard_back": "卵巢動脈是直接從腹主動脈來，不屬於內髂動脈分支。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_029",
+      "question_number": 29,
+      "question_text": "在正常解剖位置中,子宮動脈(uterine artery)與輸尿管(ureter)最常在何處交會?",
+      "options": {
+        "A": "子宮頸外側 0.5 cm",
+        "B": "子宮頸外側 2 cm",
+        "C": "子宮頸外側 4 cm",
+        "D": "子宮頸外側 5 cm"
+      },
+      "correct_answer": "B",
+      "explanation": "婦科手術時常提醒「water under the bridge」，輸尿管從子宮動脈下方穿過。交會點大約在子宮頸外側 1.5 到 2 公分處。這題是典型的開刀解剖定位題。",
+      "flashcard_summary": "uterine artery 與 ureter 交會 -> 約在子宮頸外側 2 公分",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "子宮動脈與輸尿管通常在子宮頸外側約 2 公分處交會。",
+      "flashcard_front": "uterine artery / ureter / water under the bridge / 2 cm",
+      "flashcard_back": "婦科手術最愛考輸尿管和子宮動脈交會位置，記住 cervix lateral 約 2 公分。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_030",
+      "question_number": 30,
+      "question_text": "37 歲女性,因診所懷疑絨毛膜癌(choriocarcinoma)而轉至醫學中心就醫,下列關於絨毛膜癌之敘述何者\n正確?",
+      "options": {
+        "A": "常見的臨床症狀為下腹痛",
+        "B": "常發生於正常足月懷孕之後",
+        "C": "常經由淋巴轉移",
+        "D": "根據 International Federation of Gynecology and Obstetrics(FIGO 2009)分期,轉移到肝臟為第三\n期"
+      },
+      "correct_answer": "B",
+      "explanation": "Choriocarcinoma 雖和葡萄胎有關，但也可發生在正常足月妊娠後、流產後或異位妊娠後。它常經血行轉移，而不是以淋巴轉移為主。題目在考滋養細胞疾病的臨床特性。",
+      "flashcard_summary": "choriocarcinoma -> 可發生於正常足月妊娠後",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "絨毛膜癌可發生於正常足月妊娠後。",
+      "flashcard_front": "choriocarcinoma / term pregnancy / hematogenous spread",
+      "flashcard_back": "絨毛膜癌不是只跟葡萄胎綁在一起，也常可在正常足月妊娠後出現。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_031",
+      "question_number": 31,
+      "question_text": "剖腹產時,下列何者不列為優先考慮做縱向子宮切開(classical incision)的情況?",
+      "options": {
+        "A": "子宮下段有巨大肌瘤阻塞產道",
+        "B": "完全性前置胎盤合併前壁著床",
+        "C": "胎兒過大合併橫位與破水",
+        "D": "前次子宮肌瘤手術病史"
+      },
+      "correct_answer": "D",
+      "explanation": "Classical uterine incision 多在子宮下段無法安全切開時考慮，如巨大肌瘤阻擋、前置胎盤合併前壁著床、特殊胎位等。單純曾做過子宮肌瘤手術並不等於這次一定要優先做 classical incision。這題是在分辨真正的手術適應症。",
+      "flashcard_summary": "classical cesarean incision -> 需因本次下段切開困難，不是單看既往 myomectomy",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "前次子宮肌瘤手術史本身不是 classical cesarean incision 的優先理由。",
+      "flashcard_front": "classical cesarean incision / indication / placenta previa / lower segment obstruction",
+      "flashcard_back": "Classical incision 是因為這次下段難切，不是只要有以前子宮手術史就優先選它。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_032",
+      "question_number": 32,
+      "question_text": "依照圖中胎兒的方向,當肩難產發生時,小明是接生醫師,下列敘述何者最不適當?",
+      "options": {
+        "A": "由助手協助在恥骨上方加壓",
+        "B": "由助手協助將孕婦的腳與膝蓋上抬",
+        "C": "小明右手進入下方肩膀後方,將胎兒肩膀做順時針方向旋轉",
+        "D": "旋轉式手法(corkscrew maneuver)的功效較其他方法要來的有效"
+      },
+      "correct_answer": "D",
+      "explanation": "肩難產基本原則包括 McRoberts maneuver、suprapubic pressure，以及內旋手法如 corkscrew maneuver。不同手法依情境選用，不能說 corkscrew 一定最有效。題目 D 把單一技巧絕對化，因此最不適當。",
+      "flashcard_summary": "肩難產 -> 沒有單一手法一定最有效",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "肩難產處置沒有哪一招保證比其他方法更有效。",
+      "flashcard_front": "shoulder dystocia / McRoberts / suprapubic pressure / corkscrew",
+      "flashcard_back": "肩難產要按步驟處理，沒有任何一招可以保證一定最有效；看到絕對語氣要小心。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_033",
+      "question_number": 33,
+      "question_text": "有關胎兒的敘述,下列何者正確?",
+      "options": {
+        "A": "胎兒的心跳正常值為80~100 bpm",
+        "B": "4 小時感覺不到胎動仍在正常睡眠時間範圍內",
+        "C": "胎兒在母親體內不會有呼吸動作,若超音波下見到呼吸動作為胎兒窘迫的徵兆",
+        "D": "胎盤機能不足為羊水量過少的原因之一"
+      },
+      "correct_answer": "D",
+      "explanation": "正常胎心率約 110 到 160 bpm，不是 80 到 100；胎兒在子宮內會有呼吸樣運動，不是完全不會呼吸動作。胎盤功能不全確實會造成羊水減少。這題是在考胎兒評估的基本生理知識。",
+      "flashcard_summary": "羊水過少原因 -> 胎盤功能不全是常見原因之一",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "胎盤功能不全是羊水過少的常見原因之一。",
+      "flashcard_front": "oligohydramnios / placental insufficiency / fetal breathing",
+      "flashcard_back": "羊水過少常和胎盤功能不全有關；另外別忘了胎兒在子宮內會有呼吸樣運動。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_034",
+      "question_number": 34,
+      "question_text": "有關 X 染色體脆折症(fragile X syndrome)之敘述,下列何者正確?",
+      "options": {
+        "A": "為最常見的遺傳性智力障礙疾病",
+        "B": "女性發生率約為1/3600",
+        "C": "為染色體Xq27.3位置上發生 AGG三核苷酸重複超過 200 次以上導致",
+        "D": "很少伴隨有自閉症的行為表現"
+      },
+      "correct_answer": "A",
+      "explanation": "Fragile X syndrome 是常見的遺傳性智能障礙疾病，與 FMR1 基因 CGG repeat expansion 有關，不是 AGG。也常合併自閉症樣表現。題目只有 A 正確，其餘都在分子機轉或臨床表現上設陷阱。",
+      "flashcard_summary": "Fragile X syndrome -> 常見遺傳性智能障礙，與 FMR1 CGG repeat 有關",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Fragile X syndrome 是最常見的遺傳性智能障礙原因之一。",
+      "flashcard_front": "fragile X / inherited intellectual disability / FMR1 / CGG repeat",
+      "flashcard_back": "Fragile X 關鍵是 FMR1 的 CGG repeat 擴增，也是常見遺傳性智能障礙來源。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_035",
+      "question_number": 35,
+      "question_text": "33 歲女性,到院做35週產檢,如圖主訴下肢痛,理學檢查有Homans sign positive,下列敘述何者錯誤?",
+      "options": {
+        "A": "診斷可使用compression ultrasonography",
+        "B": "若不處理可能會有肺栓塞風險",
+        "C": "此類病症多發生在右下肢,因為右股靜脈常被右股動脈及卵巢動脈壓迫所致",
+        "D": "若無禁忌,考慮使用enoxaparin每 12 小時皮下注射治療"
+      },
+      "correct_answer": "C",
+      "explanation": "孕婦若懷疑 DVT，可用 compression ultrasonography 評估，且未治療確實有肺栓塞風險。孕期 DVT 常偏左側，因左髂靜脈易受右髂動脈與子宮壓迫。題目 C 把常見側別與解剖原因寫反了。",
+      "flashcard_summary": "孕期 DVT -> 左下肢較常見，不是右下肢",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "孕期 DVT 更常發生於左下肢。",
+      "flashcard_front": "pregnancy DVT / left leg / compression ultrasound / PE risk",
+      "flashcard_back": "孕期 DVT 最常在左下肢，不是右側；這是骨盆血管壓迫的經典考點。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_036",
+      "question_number": 36,
+      "question_text": "關於生產中operative vaginal delivery,vacuum使用時機及注意事項,下列敘述何者錯誤?",
+      "options": {
+        "A": "使用真空吸引器於產婦兩次子宮收縮間可以考慮減低壓力,減少胎兒頭皮受傷",
+        "B": "當使用真空吸引器輔助生產時,手法及牽引角度與產鉗出力方式角度相似,配合產婦用力及胎頭下降",
+        "C": "產婦氣力用盡而胎頭station為-1,cervical dilatation 9公分時可以考慮使用真空吸引器生產",
+        "D": "真空吸引器建議壓力最大為600 mmHg使用2分鐘以內較不易有併發症"
+      },
+      "correct_answer": "C",
+      "explanation": "真空吸引分娩必須確認子宮頸全開、胎頭位置明確且通常已下降到適當 station。題目 C 在 cervix 仍 9 公分、station -1 時就考慮 vacuum，條件不符。這題是在考 operative vaginal delivery 的基本適應症。",
+      "flashcard_summary": "vacuum delivery -> 需 cervix 全開且胎頭下降足夠",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Vacuum delivery 需子宮頸全開且頭位夠低。",
+      "flashcard_front": "vacuum delivery / full dilation / station / prerequisites",
+      "flashcard_back": "吸引分娩不是想用就用，至少要子宮頸全開且胎頭位置夠低。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_037",
+      "question_number": 37,
+      "question_text": "小玲懷孕16 週,第一次量到血壓150/95 mmHg、休息半小時後再量是148/95 mmHg,開始固定服用降血壓藥\n物,但在28 週時血壓突然升高,量到180/110 mmHg並出現蛋白尿4 價、血小板低下、肝功能異常,下列最\n適合的診斷為何?",
+      "options": {
+        "A": "子癇症(eclampsia)",
+        "B": "妊娠高血壓(gestational hypertension)",
+        "C": "子癇前症(preeclampsia syndrome)",
+        "D": "慢性高血壓合併子癇前症(preeclampsia superimposed on chronic hypertension)"
+      },
+      "correct_answer": "D",
+      "explanation": "病人 16 週時已經有高血壓，表示慢性高血壓存在。到 28 週再出現重度高血壓、蛋白尿、血小板低與肝功能異常，符合子癇前症疊加在慢性高血壓上。這比單純 gestational hypertension 或 preeclampsia 更精確。",
+      "flashcard_summary": "慢性高血壓加上子癇前症特徵 -> superimposed preeclampsia",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "既有慢性高血壓後又出現子癇前症特徵，為 superimposed preeclampsia。",
+      "flashcard_front": "chronic HTN / proteinuria / thrombocytopenia / superimposed preeclampsia",
+      "flashcard_back": "如果孕前或 20 週前就高血壓，後面再長出蛋白尿和重症特徵，就要想到 superimposed preeclampsia。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_038",
+      "question_number": 38,
+      "question_text": "衛生福利部國民健康署建議孕婦於第35至 37 週懷孕期間接受生殖道乙型鏈球菌(group B Streptococcus, \nGBS)菌落篩檢,針對下列何種情況最不建議進行臨產期抗生素預防性投藥?",
+      "options": {
+        "A": "孕婦於此次懷孕期間發生GBS 菌尿症(GBS bacteriuria)",
+        "B": "孕婦於前一次懷孕的GBS菌落篩檢為陽性反應",
+        "C": "孕婦前一次分娩之新生兒罹患嚴重GBS 感染症",
+        "D": "孕婦未接受GBS菌落篩檢,於第35週孕期因羊膜早破超過24 小時,住院待產"
+      },
+      "correct_answer": "B",
+      "explanation": "本次孕期若有 GBS bacteriuria，或曾生過早發型 GBS 感染新生兒，都建議產時抗生素。若本胎未知 GBS 狀態又早產或破水過久，也常要給藥。單靠前一次懷孕篩檢陽性，並不是最強的指標。",
+      "flashcard_summary": "GBS 產時預防 -> 前一胎篩檢陽性本身不是最強適應症",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "前一胎 GBS 篩檢陽性本身，不等於這胎一定要預防性投藥。",
+      "flashcard_front": "GBS prophylaxis / prior pregnancy positive / bacteriuria / prior affected neonate",
+      "flashcard_back": "本胎 GBS 菌尿或曾有受影響新生兒最重要；前一胎篩檢陽性不能直接等同這胎一定要打。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_039",
+      "question_number": 39,
+      "question_text": "周產期心肌病變(peripartum cardiomyopathy)的診斷準則,不包括下列何者?",
+      "options": {
+        "A": "懷孕期最後一個月或生產後五個月內發生心臟衰竭",
+        "B": "無心臟衰竭的確定病因",
+        "C": "懷孕期最後一個月前無確診的心臟病",
+        "D": "右心室收縮功能不良"
+      },
+      "correct_answer": "D",
+      "explanation": "Peripartum cardiomyopathy 的診斷核心是在妊娠後期或產後數月內出現心衰竭，且沒有其他明確病因，也非既有心臟病所致。重點通常放在左心室收縮功能下降。右心室功能不良不是必要診斷條件。",
+      "flashcard_summary": "PPCM 診斷 -> 不要求右心室功能不良",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Peripartum cardiomyopathy 診斷不以右心室功能不良為必要條件。",
+      "flashcard_front": "peripartum cardiomyopathy / postpartum heart failure / LV dysfunction",
+      "flashcard_back": "PPCM 要抓的是時機、無其他病因與左心衰；右心室功能不良不是定義必備。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_040",
+      "question_number": 40,
+      "question_text": "關於手術性子宮鏡(operative hysteroscopy)之敘述,下列何者最不適當?",
+      "options": {
+        "A": "發生併發症機率與診斷性子宮鏡(diagnostic hysteroscopy)相當",
+        "B": "可執行沾黏去除或肌瘤摘除",
+        "C": "可能發生air embolus",
+        "D": "可能發生uterine perforation"
+      },
+      "correct_answer": "A",
+      "explanation": "手術性子宮鏡可進行沾黏切除、肌瘤切除等治療，也可能出現子宮穿孔、空氣栓塞等併發症。因為侵入與操作程度更高，它的併發症風險不會和單純診斷性子宮鏡一樣低。題目 A 因此最不適當。",
+      "flashcard_summary": "operative hysteroscopy -> 併發症率不會與 diagnostic hysteroscopy 相當",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Operative hysteroscopy 的併發症率不會和 diagnostic hysteroscopy 相當。",
+      "flashcard_front": "operative hysteroscopy / diagnostic hysteroscopy / complication rate",
+      "flashcard_back": "手術性子宮鏡比診斷性子宮鏡更侵入，風險當然不會完全一樣低。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_041",
+      "question_number": 41,
+      "question_text": "行腹腔鏡手術時,如圖手術姿勢稱之為:",
+      "options": {
+        "A": "supine position",
+        "B": "lithotomy position",
+        "C": "prone position",
+        "D": "Fowler's position"
+      },
+      "correct_answer": "B",
+      "explanation": "婦科腹腔鏡手術常採 lithotomy position，以利陰道操作與腹腔鏡視野配置。Supine 與 prone 都不符合典型圖像。這類題多半是姿勢辨認題。",
+      "flashcard_summary": "腹腔鏡婦科手術姿勢 -> lithotomy position",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "圖示腹腔鏡常見姿勢為 lithotomy position。",
+      "flashcard_front": "laparoscopy / lithotomy position / patient positioning",
+      "flashcard_back": "婦科腹腔鏡常見雙腿抬起擺位，就是 lithotomy position。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_042",
+      "question_number": 42,
+      "question_text": "子宮肌瘤病人希望將來能生育,若希望接受治療,下列何種治療最適當?",
+      "options": {
+        "A": "肌瘤切除術(myomectomy)",
+        "B": "Magnetic Resonance-Guided Focused Ultrasound(MRgFUS)",
+        "C": "肌瘤溶解術(myolysis)",
+        "D": "子宮動脈栓塞術(uterine artery embolization,UAE)"
+      },
+      "correct_answer": "A",
+      "explanation": "若病人希望未來懷孕，最直接且最被接受的手術治療通常是 myomectomy。UAE、myolysis 或 MRgFUS 對生育的長期資料與接受度都不如肌瘤切除術穩定。題目重點在保留生育能力。",
+      "flashcard_summary": "想保留生育力的子宮肌瘤治療 -> myomectomy",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "想保留生育力的子宮肌瘤病人首選治療通常是 myomectomy。",
+      "flashcard_front": "uterine fibroid / fertility preservation / myomectomy",
+      "flashcard_back": "有生育需求時，最直覺的保留子宮治療選項是 myomectomy。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_043",
+      "question_number": 43,
+      "question_text": "子宮內膜異位症會增加那些組織學類型的卵巢癌風險?1子宮內膜樣(endometrioid) 2亮細胞(clear \ncell) 3漿液性(serous) 4黏液性(mucinous)",
+      "options": {
+        "A": "12",
+        "B": "23",
+        "C": "13",
+        "D": "24"
+      },
+      "correct_answer": "A",
+      "explanation": "子宮內膜異位症與部分上皮性卵巢癌亞型有較明確關聯，尤其是 endometrioid 與 clear cell。Serous 與 mucinous 的關聯性沒那麼典型。這題屬於婦癌流行病學經典考點。",
+      "flashcard_summary": "endometriosis -> 增加 endometrioid 與 clear cell ovarian cancer 風險",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Endometriosis 與 endometrioid、clear cell ovarian cancer 風險增加相關。",
+      "flashcard_front": "endometriosis / ovarian cancer subtype / endometrioid / clear cell",
+      "flashcard_back": "內膜異位症和卵巢癌連結時，先記 endometrioid 與 clear cell 這兩型。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_044",
+      "question_number": 44,
+      "question_text": "關於 Swyer syndrome,下列敘述何者最不適當?",
+      "options": {
+        "A": "患者通常是平均身高和原發性無月經",
+        "B": "患者呈現性腺退化(streak gonads)",
+        "C": "染色體核型(karyotype)主要為 46,XX",
+        "D": "患者受益於雌激素療法"
+      },
+      "correct_answer": "C",
+      "explanation": "Swyer syndrome 是 46,XY complete gonadal dysgenesis，病人常以原發性無月經就醫，呈 streak gonads，並受益於雌激素補充。若寫成 46,XX 就和疾病定義不符。這題在考性分化異常分類。",
+      "flashcard_summary": "Swyer syndrome -> 典型核型為 46,XY",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Swyer syndrome 的典型核型是 46,XY。",
+      "flashcard_front": "Swyer syndrome / 46XY / streak gonad / primary amenorrhea",
+      "flashcard_back": "Swyer syndrome 最關鍵就是 46,XY 加性腺退化，不是 46,XX。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_045",
+      "question_number": 45,
+      "question_text": "有關功能性卵巢囊腫,下列敘述何者最不適當?",
+      "options": {
+        "A": "主要包括濾泡囊腫(follicular cyst)、黃體囊腫(corpus luteum cyst)和卵囊黃體囊腫(theca \nlutein cyst)",
+        "B": "都是良性的",
+        "C": "最常見的功能性卵巢囊腫是濾泡囊腫,很少大於8公分",
+        "D": "治療上以腹腔鏡卵巢囊腫切除為主"
+      },
+      "correct_answer": "D",
+      "explanation": "功能性卵巢囊腫包括 follicular、corpus luteum 與 theca lutein cyst，多為良性且很多會自行消退。最常見的是濾泡囊腫，通常不大。治療重點多是觀察與追蹤，而不是一律手術切除。",
+      "flashcard_summary": "功能性卵巢囊腫 -> 多以觀察追蹤為主",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "功能性卵巢囊腫多以觀察追蹤為主，不是先做腹腔鏡切除。",
+      "flashcard_front": "functional ovarian cyst / follicular cyst / observation",
+      "flashcard_back": "功能性卵巢囊腫大多良性又會自己退，處置常是觀察，不是先開刀。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_046",
+      "question_number": 46,
+      "question_text": "下列何種藥物對於治療生殖器疱疹(genital herpes)較不適當?",
+      "options": {
+        "A": "acyclovir",
+        "B": "famciclovir",
+        "C": "valacyclovir",
+        "D": "terconazole"
+      },
+      "correct_answer": "D",
+      "explanation": "生殖器疱疹的標準治療是 acyclovir、valacyclovir 或 famciclovir。Terconazole 是抗黴菌藥，用在念珠菌陰道炎而不是疱疹。題目重點是先分清病毒和黴菌治療。",
+      "flashcard_summary": "genital herpes 治療 -> 不用 terconazole，選抗病毒藥",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Genital herpes 的抗病毒治療不會用 terconazole。",
+      "flashcard_front": "genital herpes / acyclovir / valacyclovir / terconazole",
+      "flashcard_back": "生殖器疱疹是病毒問題，治療要選抗病毒藥，不是抗黴菌藥 terconazole。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_047",
+      "question_number": 47,
+      "question_text": "一個 33 歲女性來到門診,她主訴為長期有經期時間過長及間斷性子宮出血之症狀,此外她並無經血量過多或\n頻尿之現象,3個月前子宮抹片檢查為正常。她的經期剛結束,經婦科超音波檢查發現如圖,下列何者是最\n有可能的診斷?",
+      "options": {
+        "A": "子宮頸糜爛(cervical erosion)",
+        "B": "子宮壁層平滑肌瘤(intramural uterine leiomyoma)",
+        "C": "卵巢畸胎瘤(ovarian teratoma)",
+        "D": "子宮內膜息肉(endometrial polyp)"
+      },
+      "correct_answer": "D",
+      "explanation": "子宮內膜息肉常造成經期延長、間歇性不正常出血，超音波上可見局限性內膜腔病灶。肌壁內肌瘤或卵巢畸胎瘤不太符合這種臨床組合。這題重點在把出血型態和子宮腔內病灶連起來。",
+      "flashcard_summary": "經期延長合併子宮腔內局灶病灶 -> endometrial polyp",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "經期延長與不規則出血合併典型影像要想到 endometrial polyp。",
+      "flashcard_front": "abnormal uterine bleeding / focal intrauterine lesion / endometrial polyp",
+      "flashcard_back": "長期經期拖長又有間歇出血，若影像顯示子宮腔內局灶病灶，就先想到 endometrial polyp。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_048",
+      "question_number": 48,
+      "question_text": "下列何者對正常陰道菌叢(vaginal bacterial flora)的影響最小?",
+      "options": {
+        "A": "荷爾蒙狀態",
+        "B": "陰道酸鹼度",
+        "C": "飲食",
+        "D": "年齡"
+      },
+      "correct_answer": "C",
+      "explanation": "陰道菌叢與雌激素狀態、年齡和 pH 值密切相關，這些都會明顯影響 lactobacillus 的優勢程度。相較之下，一般飲食並不是最主要決定因素。題目在考陰道微環境的基本調控因子。",
+      "flashcard_summary": "正常陰道菌叢影響因子 -> 飲食影響相對最小",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "正常陰道菌叢受飲食影響相對最小。",
+      "flashcard_front": "vaginal flora / estrogen / pH / age / diet",
+      "flashcard_back": "陰道菌叢最受荷爾蒙、年齡與 pH 影響，飲食通常不是這類題目最核心的因素。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_049",
+      "question_number": 49,
+      "question_text": "下列何者是子宮根除術(radical hysterectomy)最常見的慢性併發症?",
+      "options": {
+        "A": "輸尿管陰道瘻管(ureterovaginal fistula)",
+        "B": "形成淋巴囊腫(lymphocyst formation)",
+        "C": "腸阻塞(bowel obstruction)",
+        "D": "膀胱低張症(bladder hypotonia)"
+      },
+      "correct_answer": "D",
+      "explanation": "廣泛性子宮切除術可能因自主神經叢受損，造成排尿困難與慢性膀胱低張。輸尿管陰道瘻與淋巴囊腫也可見，但膀胱功能障礙是相當典型的慢性問題。這題是在考術後神經功能後遺症。",
+      "flashcard_summary": "radical hysterectomy 慢性併發症 -> bladder hypotonia",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Radical hysterectomy 常見慢性併發症是膀胱低張。",
+      "flashcard_front": "radical hysterectomy / chronic complication / bladder hypotonia",
+      "flashcard_back": "廣泛性子宮切除最常見慢性功能性問題之一就是膀胱低張與排尿障礙。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_050",
+      "question_number": 50,
+      "question_text": "子宮內膜癌大約占停經後出血多少百分比?",
+      "options": {
+        "A": "10 %",
+        "B": "30 %",
+        "C": "50 %",
+        "D": "70 %"
+      },
+      "correct_answer": "A",
+      "explanation": "停經後出血必須排除子宮內膜癌，但並不是大多數病人都真的有癌症。臨床常用的估計是大約 10% 左右有內膜癌，因此任何 PMB 都值得評估。題目考的是風險概念與警覺性。",
+      "flashcard_summary": "停經後出血 -> 約 10% 與子宮內膜癌相關",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "停經後出血中約一成與子宮內膜癌有關。",
+      "flashcard_front": "postmenopausal bleeding / endometrial cancer risk / 10 percent",
+      "flashcard_back": "停經後出血不代表一定是癌，但約一成和內膜癌相關，所以一定要查。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_051",
+      "question_number": 51,
+      "question_text": "子宮頸抹片檢查顯示重度子宮頸上皮贅瘤(HSIL),下一步處置何者最不適當?",
+      "options": {
+        "A": "陰道鏡檢查+子宮頸切片(colposcopy + cervical biopsy)",
+        "B": "施打子宮頸癌疫苗",
+        "C": "子宮頸錐狀切除(conization)",
+        "D": "loop electrosurgical excision procedure(LEEP)"
+      },
+      "correct_answer": "B",
+      "explanation": "抹片顯示 HSIL 代表高度病變，下一步通常是陰道鏡切片，或依情況做錐狀切除、LEEP 等診治。疫苗是預防工具，不是已經出現 HSIL 後的主要處置。這題在考篩檢異常後的處理流程。",
+      "flashcard_summary": "HSIL -> 下一步不是打疫苗，而是 colposcopy 或 excisional treatment",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "HSIL 的下一步不是打子宮頸癌疫苗。",
+      "flashcard_front": "HSIL / Pap smear / colposcopy / LEEP / vaccine",
+      "flashcard_back": "HSIL 已是高度病變，重點是診斷與切除，不是這時才靠疫苗處理。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_052",
+      "question_number": 52,
+      "question_text": "關於子宮內膜增生(endometrial hyperplasia)的敘述,下列何者錯誤?",
+      "options": {
+        "A": "它是造成子宮異常出血的原因之一",
+        "B": "根據 Kurman的研究,atypical complex hyperplasia進展為子宮內膜癌的機率為 29%",
+        "C": "根據 Trimble的研究,經子宮內膜切片或內膜搔刮術診斷為atypical complex hyperplasia而切除子宮,\n術後發現有合併內膜癌的機率大約10%",
+        "D": "atypical hyperplasia的判斷標準包括較大的細胞核、較高的核質比、細胞排列不整齊等特質"
+      },
+      "correct_answer": "C",
+      "explanation": "Endometrial hyperplasia 會造成異常子宮出血，尤其 atypical complex hyperplasia 和內膜癌關係密切。病理已診斷 atypical hyperplasia 時，子宮切除後發現同步癌症的比例其實不低，遠高於題目寫的 10%。題目 C 因此錯誤。",
+      "flashcard_summary": "atypical complex hyperplasia -> 合併或進展癌症風險高，不只約10%",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Atypical complex hyperplasia 合併或進展癌症風險遠高於 10%。",
+      "flashcard_front": "atypical endometrial hyperplasia / concurrent cancer / complex hyperplasia",
+      "flashcard_back": "Atypical complex hyperplasia 不能輕看，它和同步內膜癌的關聯比『10%』高得多。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_053",
+      "question_number": 53,
+      "question_text": "55 歲女性,因為卵巢腫瘤而接受手術,摘除腫瘤檢視時發現腫瘤內有毛髮、脂肪、皮脂腺等組織。最後病理\n報告敘述有惡性細胞,最常見下列那一種惡性病變?",
+      "options": {
+        "A": "混合癌及肉瘤(mixed carcinoma and sarcoma)",
+        "B": "腺癌(adenocarcinoma)",
+        "C": "鱗狀上皮細胞癌(squamous cell carcinoma)",
+        "D": "黑色素細胞瘤(melanoma)"
+      },
+      "correct_answer": "C",
+      "explanation": "卵巢 dermoid cyst 若發生惡性轉化，最常見的是鱗狀上皮細胞癌。這與其內含皮膚與鱗狀上皮成分有關。題目是在考成熟畸胎瘤最典型的惡變類型。",
+      "flashcard_summary": "dermoid cyst 惡變 -> 最常見 squamous cell carcinoma",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "成熟囊性畸胎瘤惡變最常見為 squamous cell carcinoma。",
+      "flashcard_front": "dermoid cyst / malignant transformation / squamous cell carcinoma",
+      "flashcard_back": "成熟畸胎瘤惡變先記 squamous cell carcinoma，這是最常考的答案。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_054",
+      "question_number": 54,
+      "question_text": "有關原發性卵巢功能不足(或稱早發性卵巢衰竭),下列敘述何者錯誤?",
+      "options": {
+        "A": "不到 40 歲之女性,有4個月以上沒來月經,同時有兩度血清濾泡剌激激素(FSH)值升高到停經婦女的範圍\n內,即可確診",
+        "B": "可能的原因包括X染色體脆折症(fragile X syndrome)、醫源性、自體免疫疾病、感染等等",
+        "C": "約 50%的病患可以找到原因",
+        "D": "帶有 FMR1基因準突變(premutation)會發生原發性卵巢功能不足的機率約在 13%至 26%之間"
+      },
+      "correct_answer": "C",
+      "explanation": "POI 的診斷依靠停經、FSH 升高等條件，可能與 FMR1 premutation、自體免疫、醫源性因素等有關。實際上多數病例仍屬 idiopathic，找不到明確病因。題目 C 說約半數都能找到原因，與臨床現況不符。",
+      "flashcard_summary": "POI -> 多數病例原因不明，不是約半數都找得到",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "原發性卵巢功能不全多數找不到明確原因。",
+      "flashcard_front": "POI / premature ovarian insufficiency / idiopathic / FMR1",
+      "flashcard_back": "原發性卵巢功能不全雖然有已知原因，但多數病人最後仍找不到明確病因。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_055",
+      "question_number": 55,
+      "question_text": "32 歲女性,G0P0,繼發性無月經,抽血報告顯示泌乳激素偏高,下列那項診斷是最不可能的原因?",
+      "options": {
+        "A": "甲狀腺功能低下",
+        "B": "腦下垂體腺瘤",
+        "C": "使用抗憂鬱藥物(antidepressants)",
+        "D": "乳腺癌"
+      },
+      "correct_answer": "D",
+      "explanation": "高泌乳激素血症常見於腦下垂體腺瘤、甲狀腺低下與某些藥物，例如抗憂鬱藥。乳癌不是典型直接造成 prolactin elevation 與 amenorrhea 的原因。這題重點是抓常見鑑別診斷。",
+      "flashcard_summary": "高泌乳激素繼發性無月經 -> 最不可能直接由乳癌造成",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "高泌乳激素與繼發性無月經最不可能由乳癌直接造成。",
+      "flashcard_front": "hyperprolactinemia / amenorrhea / pituitary adenoma / hypothyroidism / antidepressant",
+      "flashcard_back": "高泌乳激素最先想腦下垂體、甲低和藥物，不會先把乳癌當成典型原因。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_056",
+      "question_number": 56,
+      "question_text": "一對夫妻的頭兩次懷孕,都因為胎兒為甲型地中海貧血重症(alpha thalassemia major)於4 個多月時終止\n妊娠,後續檢查確定夫妻兩人皆為甲型地中海貧血帶因者。他們表示這段期間身心備受煎熬,想了解還有沒\n有機會正常生育。下列何項建議最能避免因相同原因需要再次終止妊娠的可能性?",
+      "options": {
+        "A": "絨毛膜穿刺取樣(chorionic villus sampling, CVS)",
+        "B": "羊水穿刺診斷(amniocentesis)",
+        "C": "試管嬰兒加上胚胎著床前基因診斷(preimplantation genetic diagnosis, PGD)",
+        "D": "非侵入性產前染色體篩檢(noninvasive prenatal screening, NIPS)"
+      },
+      "correct_answer": "C",
+      "explanation": "對已知遺傳性重症高風險夫妻而言，CVS 與羊膜穿刺雖能產前診斷，但仍是在懷孕後才知道結果。若目標是最大限度避免再次因同原因終止妊娠，IVF 加上 preimplantation genetic diagnosis 最合適。NIPS 也不適合此單基因疾病情境。",
+      "flashcard_summary": "避免重複受 alpha thal major 影響妊娠 -> IVF + PGD",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "避免再次終止妊娠的最好方式是 IVF 搭配 PGD。",
+      "flashcard_front": "alpha thal major / recurrent affected fetus / IVF / PGD",
+      "flashcard_back": "若想在胚胎植入前就避開重症遺傳疾病，首選是 IVF 搭配 PGD，不是等懷孕後再做 CVS 或羊穿。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_057",
+      "question_number": 57,
+      "question_text": "有關骨盆底部的支持結構,下列敘述何者正確?",
+      "options": {
+        "A": "子宮及陰道由提肛肌(levator ani)及梨狀肌(piriformis muscle)支持",
+        "B": "子宮薦韌帶(uterosacral ligament)固定子宮頸,所以能影響陰道的長度和軸向",
+        "C": "膀胱脫垂(cystocele)是puborectalis muscle生產時受傷所導致",
+        "D": "直腸脫垂(rectocele)是一種腹膜疝氣(peritoneum herniation)"
+      },
+      "correct_answer": "B",
+      "explanation": "骨盆底支持來自肌肉與筋膜韌帶結構共同作用。Uterosacral ligament 對子宮頸與陰道頂端的懸吊很重要，因此會影響陰道軸向。其餘選項把肌肉或脫垂機轉配錯。",
+      "flashcard_summary": "骨盆底支持 -> uterosacral ligament 影響子宮頸固定與陰道軸向",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Uterosacral ligament 固定子宮頸並影響陰道軸向與長度支持。",
+      "flashcard_front": "pelvic support / uterosacral ligament / vaginal axis",
+      "flashcard_back": "要記陰道頂端和子宮頸支撐，就先想到 uterosacral ligament。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_058",
+      "question_number": 58,
+      "question_text": "關於腕隧道症候群(carpal tunnel syndrome),下列敘述何者最不適當?",
+      "options": {
+        "A": "是常見的壓迫性神經病變(compressive neuropathy)",
+        "B": "女性(women)較常發生",
+        "C": "嚴重的病人可能會有魚際(thenar eminence)部位萎縮",
+        "D": "魚際(thenar eminence)部位會有麻的感覺"
+      },
+      "correct_answer": "D",
+      "explanation": "腕隧道症候群是最常見的壓迫性神經病變，嚴重時可有魚際肌萎縮。因掌皮支在腕隧道近端就已分出，所以 thenar eminence 皮膚感覺通常保留。題目 D 因此最不適當。",
+      "flashcard_summary": "carpal tunnel syndrome -> thenar eminence 皮膚感覺通常保留",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Carpal tunnel syndrome 不會造成 thenar eminence 皮膚感覺麻木。",
+      "flashcard_front": "carpal tunnel / thenar atrophy / thenar sensation spared",
+      "flashcard_back": "腕隧道壓迫正中神經後，魚際肌可能萎縮，但 thenar 皮膚感覺通常保留。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_059",
+      "question_number": 59,
+      "question_text": "下列何種藥物最常用於脊椎腔內(intrathecal)注射來控制痙攣(spasticity)?",
+      "options": {
+        "A": "tizanidine",
+        "B": "baclofen",
+        "C": "diazepam",
+        "D": "dantrolene"
+      },
+      "correct_answer": "B",
+      "explanation": "Intrathecal baclofen pump 是治療嚴重痙攣的經典方式。Tizanidine、diazepam 與 dantrolene 雖也可系統性使用，但最常以脊椎腔內給藥控制 spasticity 的是 baclofen。這是復健與神經調控常考題。",
+      "flashcard_summary": "intrathecal 控制 spasticity -> baclofen",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "控制痙攣最常用的 intrathecal 藥物是 baclofen。",
+      "flashcard_front": "spasticity / intrathecal therapy / baclofen pump",
+      "flashcard_back": "談到脊椎腔內治療痙攣，第一個要想到的就是 intrathecal baclofen。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_060",
+      "question_number": 60,
+      "question_text": "下列何者不是超音波(ultrasound)的非熱效應(non-thermal effect)?",
+      "options": {
+        "A": "空穴效應(cavitation)",
+        "B": "聲射流(acoustic streaming)",
+        "C": "駐波(standing wave)",
+        "D": "都卜勒效應(Doppler effect)"
+      },
+      "correct_answer": "D",
+      "explanation": "超音波治療的非熱效應包括 cavitation、acoustic streaming 與 standing wave 等生物物理現象。Doppler effect 是影像與流速量測原理，不是治療時常提的非熱效應。題目在考超音波物理基礎。",
+      "flashcard_summary": "超音波非熱效應 -> 不包含 Doppler effect",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Doppler effect 不屬於超音波治療的非熱效應。",
+      "flashcard_front": "therapeutic ultrasound / non-thermal effect / cavitation / Doppler",
+      "flashcard_back": "治療性超音波的非熱效應看 cavitation 和 acoustic streaming，Doppler 是檢查原理不是這裡的答案。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_061",
+      "question_number": 61,
+      "question_text": "有關輪椅的敘述,下列何者最不適當?",
+      "options": {
+        "A": "對於肢體偏癱的身障者而言,由於無法以雙手同時抓握兩側手推圈,因此較適合使用單手操控輪子的輪椅",
+        "B": "後輪輪軸偏後的輪椅,推動起來更省力,且更可預防肩關節的損傷",
+        "C": "對於無法以上肢推動輪椅的使用者,可使用足驅動的輪椅",
+        "D": "在各項參數及總重量相同的前提下,後輪附加的手推圈直徑越大,推動輪椅所需的力量越小"
+      },
+      "correct_answer": "B",
+      "explanation": "輪椅後輪軸若往後移，通常增加穩定性、減少後翻風險，但同時會讓推進效率變差、比較費力。對偏癱病人可用單手驅動設計，手推圈直徑變大也可降低所需力量。題目 B 把後移輪軸說成更省力，因此錯誤。",
+      "flashcard_summary": "wheelchair axle 後移 -> 更穩但不更省力",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "輪軸後移雖增加穩定性，但推動不會更省力。",
+      "flashcard_front": "wheelchair axle / posterior axle / stability vs propulsion",
+      "flashcard_back": "後輪軸往後移是更穩，不是更省力；穩定和操控常有取捨。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_062",
+      "question_number": 62,
+      "question_text": "腦中風病人上肢屈曲協同動作(flexion synergy)中,下列何者最不適當?",
+      "options": {
+        "A": "前臂旋前(forearm pronation)",
+        "B": "手肘屈曲(elbow flexion)",
+        "C": "肩外展(shoulder abduction)",
+        "D": "肩外轉(shoulder external rotation)"
+      },
+      "correct_answer": "A",
+      "explanation": "中風後上肢 flexion synergy 常見肩外展、外旋、肘屈曲、前臂旋後等表現。前臂旋前較不符合這個典型模式。題目在考 Brunnstrom synergy pattern 的基本記憶。",
+      "flashcard_summary": "上肢 flexion synergy -> 不典型的是 forearm pronation",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "上肢屈曲協同動作常見前臂旋後，不是旋前。",
+      "flashcard_front": "stroke flexion synergy / supination / elbow flexion / shoulder abduction",
+      "flashcard_back": "上肢 flexion synergy 要記得常帶有前臂旋後，不是旋前。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_063",
+      "question_number": 63,
+      "question_text": "腦傷病人除了慢性疼痛外,常與下列何者形成「臨床三角」進而導致長期失能?",
+      "options": {
+        "A": "創傷後壓力症(posttraumatic stress disorder)",
+        "B": "大便失禁(stool incontinence)",
+        "C": "吞嚥障礙(swallowing disorders)",
+        "D": "肢體失用症(limb apraxia)"
+      },
+      "correct_answer": "A",
+      "explanation": "腦傷後的長期失能不只來自神經缺損，慢性疼痛與創傷後壓力症候群也會形成惡性循環。這種組合會影響睡眠、情緒與參與度，進一步加重功能障礙。題目要抓的是常見的『臨床三角』核心之一。",
+      "flashcard_summary": "腦傷長期失能 / 臨床三角 -> 慢性疼痛常與 PTSD 互相加劇",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "慢性疼痛與 PTSD 會和腦傷互相放大，造成長期失能。",
+      "flashcard_front": "brain injury / chronic pain / PTSD / long-term disability",
+      "flashcard_back": "腦傷病人的功能恢復常被慢性疼痛和 PTSD 拉住，是長期失能的重要組合。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_064",
+      "question_number": 64,
+      "question_text": "有關膝關節十字韌帶損傷,下列敘述何者最不適當?",
+      "options": {
+        "A": "前十字韌帶和後十字韌帶在膝關節內交叉,可提供穩定性",
+        "B": "Lachman test常用於診斷後十字韌帶損傷",
+        "C": "前十字韌帶損傷可能伴隨內側副韌帶及內側半月板的損傷",
+        "D": "前十字韌帶損傷比後十字韌帶損傷常見"
+      },
+      "correct_answer": "B",
+      "explanation": "ACL injury 是最常見的十字韌帶損傷，Lachman test 也是檢查前十字韌帶的經典理學檢查。PCL 則較常用 posterior drawer 等方式評估。題目 B 把檢查對象配錯，因此最不適當。",
+      "flashcard_summary": "Lachman test -> 檢查 ACL，不是 PCL",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Lachman test 主要檢查 ACL，不是 PCL。",
+      "flashcard_front": "Lachman test / ACL / PCL / cruciate ligament",
+      "flashcard_back": "Lachman test 幾乎就是 ACL 的代名詞，不要把它錯用到 PCL。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_065",
+      "question_number": 65,
+      "question_text": "關於骨質疏鬆引起的胸腰椎壓迫性骨折之敘述,下列何者最適當?",
+      "options": {
+        "A": "男性、抽菸均是危險因子",
+        "B": "通常疼痛在數週內會愈來愈嚴重",
+        "C": "若損傷處位於脊椎前列(anterior column),通常不需手術固定",
+        "D": "病人一定有疼痛現象"
+      },
+      "correct_answer": "C",
+      "explanation": "骨質疏鬆性胸腰椎壓迫骨折的危險因子包含男性與抽菸等，疼痛通常會隨時間改善而非必然越來越重。若損傷局限於 anterior column，常屬穩定型骨折，多半先採保守治療。題目要考的是穩定度與手術需求的判斷。",
+      "flashcard_summary": "前柱壓迫性骨折 -> 通常較穩定，常不需手術",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "單純前柱壓迫性骨折通常不需手術固定。",
+      "flashcard_front": "osteoporotic compression fracture / anterior column / stability",
+      "flashcard_back": "壓迫性骨折如果只在前柱，多半較穩定，通常先保守，不是一定要開刀。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_066",
+      "question_number": 66,
+      "question_text": "使用放鬆訓練來治療慢性阻塞性肺病病人,日常生活的擺位及姿勢,下列何者最不適當?",
+      "options": {
+        "A": "上肢在活動時懸空",
+        "B": "上肢在側臥時保持彎曲",
+        "C": "下肢在側臥時保持彎曲",
+        "D": "下肢在仰臥時膝蓋彎曲"
+      },
+      "correct_answer": "A",
+      "explanation": "慢性阻塞性肺病病人為了降低呼吸負擔，常利用支撐上肢、屈曲下肢等姿勢放鬆輔助呼吸肌。上肢懸空活動會增加肩帶肌群負擔，反而不利於呼吸。題目在考能量保存與呼吸放鬆姿勢。",
+      "flashcard_summary": "COPD 放鬆姿勢 -> 最不適合上肢懸空",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "COPD 放鬆姿勢不宜讓上肢懸空用力。",
+      "flashcard_front": "COPD / relaxation posture / upper limb support",
+      "flashcard_back": "COPD 病人做活動時，上肢最好有支撐；手臂懸空常讓呼吸更吃力。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_067",
+      "question_number": 67,
+      "question_text": "關於腦性麻痺(cerebral palsy)患者相關的脊椎側彎(scoliosis),下列敘述何者最不適當?",
+      "options": {
+        "A": "無法行走(nonambulatory)的腦性麻痺患者,比可以行走的腦性麻痺患者脊椎側彎嚴重",
+        "B": "全身影響(total body involvement)的腦性麻痺患者,比不是全身影響的腦性麻痺患者脊椎側彎嚴重",
+        "C": "無法行走(nonambulatory)的腦性麻痺患者容易發生C 形狀(C-shape)的脊椎側彎合併骨盆歪斜(pelvic \nobliquity)",
+        "D": "背架(bracing)可以有效的避免腦性麻痺患者脊椎側彎的惡化"
+      },
+      "correct_answer": "D",
+      "explanation": "不能行走、全身受累的腦性麻痺患者，脊柱側彎往往更嚴重，也常合併 C-shape 與骨盆傾斜。背架在這群病人多半無法真正阻止曲度惡化，只能有限度提供姿勢支持。題目 D 因此最不適當。",
+      "flashcard_summary": "CP scoliosis -> bracing 難有效阻止惡化",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Bracing 無法有效阻止腦性麻痺嚴重脊柱側彎惡化。",
+      "flashcard_front": "cerebral palsy / scoliosis / nonambulatory / bracing",
+      "flashcard_back": "腦性麻痺的側彎若已屬神經肌肉型，背架多半無法真正阻止惡化。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_068",
+      "question_number": 68,
+      "question_text": "下列那一類神經管缺陷(neural tube defects)的患者,最容易出現空凹足(cavus foot)的變形?",
+      "options": {
+        "A": "頸椎(cervical)病灶",
+        "B": "胸椎(thoracic)病灶",
+        "C": "腰椎(lumbar)病灶",
+        "D": "薦椎(sacral)病灶"
+      },
+      "correct_answer": "D",
+      "explanation": "神經管缺損的足部變形型態和病灶高度有關。較低位、尤其 sacral lesion 的肌力失衡可表現為 cavus foot。高位病灶則常有更明顯的癱瘓與其他下肢變形。",
+      "flashcard_summary": "cavus foot in neural tube defect -> 常見於 sacral lesion",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "較低位的神經管缺損更容易出現 cavus foot。",
+      "flashcard_front": "neural tube defect / cavus foot / sacral lesion",
+      "flashcard_back": "看到 cavus foot 與神經管缺損的組合，常往較低位病灶尤其 sacral 去想。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_069",
+      "question_number": 69,
+      "question_text": "有關日常生活活動功能(activities of daily living, ADLs)評估之敘述,下列何者最不適當?",
+      "options": {
+        "A": "包括基本日常生活活動(basic ADLs)與工具性日常生活活動(instrumental ADLs)",
+        "B": "基本日常生活活動(basic ADLs)包括進食、穿衣、如廁、大小便控制等例行的自我照顧項目",
+        "C": "工具性日常生活活動(instrumental ADLs)包括烹飪、開車、打電話、園藝等個人化、使用工具或裝置的\n活動",
+        "D": "巴氏量表評估的項目包含基本日常生活活動(basic ADLs)與工具性日常生活活動(instrumental ADLs)"
+      },
+      "correct_answer": "D",
+      "explanation": "ADL 分為 basic ADL 與 instrumental ADL；前者包含進食、穿衣、如廁等，後者包含做飯、打電話、管理財務等。Barthel index 是 basic ADL 量表，不會同時涵蓋 IADL。題目 D 把量表範圍講大了。",
+      "flashcard_summary": "Barthel index -> 評估 basic ADL，不含 IADL",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "Barthel index 評估基本 ADL，不包含 IADL。",
+      "flashcard_front": "Barthel index / BADL / IADL",
+      "flashcard_back": "Barthel index 專門看基本生活自理，不是把 IADL 一起包進去。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_070",
+      "question_number": 70,
+      "question_text": "下列何者不是執行無障礙環境介入時的省力及工作簡化原則?",
+      "options": {
+        "A": "將物品依照使用頻率放置,將經常需要使用之物品放在離病人較遠的位置,以讓患者多行動來進行復健",
+        "B": "使用槓桿原理及重力以節省體力",
+        "C": "儘量在 neutral position的關節活動度姿勢下執行職能活動",
+        "D": "使用機械操控之機器、設備設施、工具來取代人力"
+      },
+      "correct_answer": "A",
+      "explanation": "節能原則強調減少不必要移動、利用槓桿與機械裝置、讓關節保持中立位置。把最常用物品放遠，只會增加耗能，完全違反工作簡化。題目 A 因此錯誤。",
+      "flashcard_summary": "節能原則 -> 常用物品應放近，不是放遠",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "節能與工作簡化原則不會把常用品放得更遠。",
+      "flashcard_front": "energy conservation / work simplification / frequently used items",
+      "flashcard_back": "省力原則是常用物品放近，不是故意放遠讓病人多走。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_071",
+      "question_number": 71,
+      "question_text": "下列有關輪椅的敘述,何者最不適當?",
+      "options": {
+        "A": "對於全身痙攣張力強或軀幹控制不佳的腦性麻痺病人而言,傳統輪椅較為不合適",
+        "B": "對於 C5 受傷的病人而言,最好在輪環的手推圈上加上橡膠包覆或突出的小握把,以方便他們自行推動",
+        "C": "大輪的尺寸一般為22~26吋,若尺寸太大,對於上肢活動度較差的病人而言較不合適",
+        "D": "椅背的高度最好落在肩胛骨上緣處,有利於病人上身的活動度"
+      },
+      "correct_answer": "D",
+      "explanation": "高背輪椅適合軀幹控制差者，但若要保留肩膀與肩胛活動，靠背高度通常不能太高。把靠背做到肩胛骨上緣會限制上肢推進和活動。題目 D 因此最不適當。",
+      "flashcard_summary": "輪椅靠背高度 -> 過高會限制上肢活動，不宜到肩胛上緣",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "要保留上肢活動時，輪椅靠背不宜高到肩胛上緣。",
+      "flashcard_front": "wheelchair back height / scapula / upper limb mobility",
+      "flashcard_back": "輪椅靠背越高支撐越多，但也越限制肩胛活動；要推輪椅就不能高到卡住肩胛。",
+      "category_group": "醫學（六）",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_072",
+      "question_number": 72,
+      "question_text": "63 歲男性病人因左側耳朵悶悶的不適,到耳鼻喉科看診,根據所附兩張MRI影像判斷,下列何者為最可能的\n診斷?",
+      "options": {
+        "A": "細菌性中耳炎",
+        "B": "淋巴瘤",
+        "C": "鼻咽癌",
+        "D": "中耳的珍珠瘤"
+      },
+      "correct_answer": "C",
+      "explanation": "鼻咽癌可因侵犯咽鼓管造成耳悶、積液性中耳炎樣症狀，影像上則可見鼻咽或顱底病灶。與單純中耳炎或中耳珍珠瘤相比，題目更符合鼻咽癌。這是耳症狀反映上咽病灶的經典題型。",
+      "flashcard_summary": "單側耳悶合併典型 MRI -> 鼻咽癌",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "依影像與耳部症狀最可能是鼻咽癌。",
+      "flashcard_front": "ear fullness / MRI / nasopharyngeal carcinoma / eustachian tube",
+      "flashcard_back": "成人單側耳悶若合併鼻咽影像異常，要先想到鼻咽癌壓迫咽鼓管。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_073",
+      "question_number": 73,
+      "question_text": "35 歲女性病人主訴不孕,子宮輸卵管攝影檢查發現如附圖。最可能之診斷為何?",
+      "options": {
+        "A": "正常的子宮輸卵管影像",
+        "B": "雙側遠端輸卵管阻塞併輸卵管積水(hydrosalpinx)",
+        "C": "輸卵管癌(tubal cancer)",
+        "D": "輸卵管卵巢膿瘍(tubo-ovarian abscess)"
+      },
+      "correct_answer": "B",
+      "explanation": "雙側遠端輸卵管阻塞合併 hydrosalpinx 是不孕症常見影像表現，子宮輸卵管攝影可見輸卵管擴張且末端不通。這與 tubal cancer 或 tubo-ovarian abscess 的影像與病史不同。題目重點在 HSG 判讀。",
+      "flashcard_summary": "HSG 顯示雙側末端阻塞擴張 -> hydrosalpinx",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "輸卵管積水在 HSG 常見遠端阻塞與擴張。",
+      "flashcard_front": "HSG / infertility / hydrosalpinx / distal tubal obstruction",
+      "flashcard_back": "HSG 若見雙側輸卵管擴張又末端不通，就是經典 hydrosalpinx 圖像。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_074",
+      "question_number": 74,
+      "question_text": "65 歲女性病人因腹痛接受腹部X光檢查如附圖。最可能之診斷為何?",
+      "options": {
+        "A": "子宮肌瘤(uterine myoma)",
+        "B": "輸卵管卵巢膿瘍(tubo-ovarian abscess)",
+        "C": "子宮頸癌(cervical cancer)",
+        "D": "卵巢癌(ovarian cancer)"
+      },
+      "correct_answer": "A",
+      "explanation": "老年女性腹部 X 光若見骨盆內鈣化腫塊，最典型鑑別之一是 calcified uterine fibroid。卵巢癌或 tubo-ovarian abscess 並不是這種影像的典型答案。題目重點是把簡單影像和婦科常見病連起來。",
+      "flashcard_summary": "骨盆鈣化腫塊 -> 典型想到 uterine myoma",
+      "correct_answers": [
+        "A"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "腹部 X 光見鈣化骨盆腫塊常想到子宮肌瘤。",
+      "flashcard_front": "pelvic calcified mass / abdominal X-ray / uterine myoma",
+      "flashcard_back": "骨盆鈣化腫塊在婦科常先想到鈣化子宮肌瘤，不要太快選惡性腫瘤。",
+      "category_group": "醫學（六）",
+      "category": "婦產科",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_075",
+      "question_number": 75,
+      "question_text": "困難氣管插管可用LEMON來評估,下列敘述何者最不適當?",
+      "options": {
+        "A": "look externally(L):評估外觀是否短下巴、短脖子、肥胖",
+        "B": "evaluation 3-3-2(E):使用手指評估張口是否達到3 個指幅、牙齒到下巴下緣是否達到3個指幅、舌骨\n到甲狀軟骨是否達到 2個指幅",
+        "C": "Mallampati分級(M):請病人張嘴,將舌頭吐出,評估懸壅垂(uvula)與舌根位置",
+        "D": "neck mobility(N):評估脖子活動度是否正常"
+      },
+      "correct_answer": "B",
+      "explanation": "LEMON 的 evaluation 3-3-2 包括：張口至少 3 指、mentum 到 hyoid 約 3 指、hyoid 到 thyroid notch 約 2 指。題目 B 把第二段距離講成牙齒到下顎下緣，定義錯誤。這是困難氣道評估的標準記法題。",
+      "flashcard_summary": "LEMON 3-3-2 -> 第二個3是 mentum 到 hyoid，不是牙齒到下巴",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "LEMON 的 3-3-2 中第二個 3 指的是 mentum 到 hyoid，不是牙齒到下巴。",
+      "flashcard_front": "LEMON / 3-3-2 / mentum to hyoid / airway evaluation",
+      "flashcard_back": "3-3-2 要背熟：口開 3 指、下巴到舌骨 3 指、舌骨到甲狀切跡 2 指。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_076",
+      "question_number": 76,
+      "question_text": "病人從密閉火場被救出,臉部燒傷,口鼻處有燻黑炭渣,鼻毛燒焦,聲音沙啞,有喘鳴聲(wheezing),其\n他皮膚無明顯燒傷,下列那項處置最不適當?",
+      "options": {
+        "A": "置放氣管內管以保護呼吸道",
+        "B": "給與 100%潮濕氧氣",
+        "C": "給與大量輸液",
+        "D": "檢驗血中一氧化碳濃度"
+      },
+      "correct_answer": "C",
+      "explanation": "病人有典型吸入性傷害表現，優先要做的是給高濃度氧氣、檢查一氧化碳並及早保護氣道。若沒有大面積皮膚燒傷，就不需要依燒傷休克模式給大量輸液。題目 C 因此最不適當。",
+      "flashcard_summary": "吸入性燒傷 -> 優先氣道與氧氣，不需例行大量燒傷補液",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "單純吸入性燒傷沒有明顯體表燒傷時，不需要大量燒傷公式補液。",
+      "flashcard_front": "smoke inhalation / airway protection / 100% oxygen / large fluid?",
+      "flashcard_back": "吸入性傷害先顧氣道和氧合；沒有大面積燒傷時，不要直覺套用大量燒傷補液。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_077",
+      "question_number": 77,
+      "question_text": "65 歲糖尿病人,主訴右耳疼痛流膿已2週,一天前發燒,右臉腫脹,今天早上右眼瞼下垂。下列敘述何者錯\n誤?",
+      "options": {
+        "A": "有可能是惡性外耳炎(malignant otitis externa)",
+        "B": "有可能是顏面神經受侵犯",
+        "C": "最常見的致病菌是 Pseudomonas aeruginosa",
+        "D": "治療以口服抗生素及門診追蹤為主"
+      },
+      "correct_answer": "D",
+      "explanation": "糖尿病病人耳痛流膿、顏面腫脹甚至顱神經受累，要高度懷疑 malignant otitis externa。最常見病原為 Pseudomonas aeruginosa，治療需積極抗生素與住院評估。口服藥加門診追蹤通常不足。",
+      "flashcard_summary": "malignant otitis externa -> 需積極治療，不是單純門診口服抗生素",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "惡性外耳炎需要積極抗綠膿桿菌治療，不是單靠口服門診追蹤。",
+      "flashcard_front": "malignant otitis externa / diabetes / Pseudomonas / cranial nerve",
+      "flashcard_back": "糖尿病病人耳痛惡化又有顱神經症狀，惡性外耳炎要積極處理，不是門診口服藥而已。",
+      "category_group": "醫學（六）",
+      "category": "耳鼻喉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_078",
+      "question_number": 78,
+      "question_text": "我國醫療法第63條第 1項規定:「醫療機構實施手術,應向病人或其法定代理人、配偶、親屬或關係人說明\n手術原因、手術成功率或可能發生之併發症及危險,並經其同意,簽具手術同意書及麻醉同意書,始得為\n之。」主要係為保障病人之何種權利?",
+      "options": {
+        "A": "生命權",
+        "B": "健康權",
+        "C": "自主權",
+        "D": "隱私權"
+      },
+      "correct_answer": "C",
+      "explanation": "醫療同意的核心包含告知、能力與自願性，且必須對特定醫療處置有充分理解。雖然臨床上簡單處置有時會談到默示同意，但本題依官方答案認為，僅以病人捲袖、伸手臂就視為已完成抽血同意，並不夠周延，因此 C 為最不恰當。這題考的是法倫理上對同意要件的嚴格理解。",
+      "flashcard_summary": "同意要件 / 抽血情境 -> 不能只憑伸出手臂就認定完整同意成立",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "考題以明確同意要件為主，抽血時伸出手臂不一定足以視為完整同意。",
+      "flashcard_front": "consent / implied consent / blood draw / disclosure / autonomy",
+      "flashcard_back": "考題脈絡下，抽血前仍應重視明確同意與告知，不能只憑病人的肢體配合就認定同意完整成立。",
+      "category_group": "醫學（六）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_079",
+      "question_number": 79,
+      "question_text": "孕婦於初次產檢時,告知醫師其過去曾經懷孕生產過一子,但先生不知情,請求醫師隱匿相關病情,下列做\n法何者最適當?",
+      "options": {
+        "A": "病歷上記錄為G1P0,為保護病人,也不告知相關醫護人員其懷孕生產史",
+        "B": "病歷上記錄為G2P1,同時病歷上註明保護病人隱私,不得對外公開",
+        "C": "病歷上記錄為G1P0,但私下告知相關醫護人員,病人為第二胎,生產時注意產程",
+        "D": "病歷上記錄為G2P1,且要求病人應確實告知先生,避免不必要糾紛"
+      },
+      "correct_answer": "B",
+      "explanation": "依本題官方答案設定，最適當的敘述為 B。考點聚焦在活體捐贈以捐贈者本人意願與法定條件為核心，而不是要求娘家親屬出具書面證明。這題偏向法規細節題，作答時以官方標準答案為準。",
+      "flashcard_summary": "配偶活體捐腎法規題 -> 以捐贈者本人意願與法定資格為核心",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "本題依官方答案，配偶活體捐腎的重點在捐贈者本人意願與法定資格。",
+      "flashcard_front": "living kidney donation / spouse donor / donor autonomy / legal qualification",
+      "flashcard_back": "這題要記住官方答案是以捐贈者本人意願與法定資格為核心，不把娘家親屬書面證明當必備要件。",
+      "category_group": "醫學（六）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    },
+    {
+      "id": "115_medicine-6_080",
+      "question_number": 80,
+      "question_text": "王先生,55歲,罹患運動神經元疾病(漸凍人)多年,曾經因為肺炎感染而接受氣管內插管及呼吸器治療,\n之後病情改善而拔管。出院以後病人在家人見證下簽妥DNR。一個月後,病人已經四肢無力,吞嚥開始出現\n困難,以鼻胃管進食。現在又出現呼吸喘、痰多,血氧濃度下降,呼吸急促,臨床診斷為肺炎。醫師對病人\n及家人說明,應該要再次插管;同時說明限時嘗試治療(time-limited trial)的選項:先接受插管治療,\n如果仍未改善再撤除呼吸器。病人神智清楚,明白表示拒絕,並能夠接受此次因呼吸衰竭離世;家人不捨、\n猶豫不能決定。有關醫師之處置下列何者最適當?",
+      "options": {
+        "A": "反覆勸說病人接受插管,為家人而努力,因為肺炎是可以治療的",
+        "B": "接受病人拒絕插管的選擇,提供症狀治療,並照會另一位專科醫師做末期判斷",
+        "C": "請家人決定,因為病人口齒不清,只能搖頭點頭",
+        "D": "等病人陷入昏迷,再依照緊急救治的需要予以插管"
+      },
+      "correct_answer": "B",
+      "explanation": "家庭會議除了自我介紹、確認關係與注意病人身心狀態外，最重要的一步之一，就是以開放問句了解病人與家屬目前對病情與目標的理解。依本題官方答案，B 為最適當的作法。這題偏重溝通技巧與醫病共享決策流程。",
+      "flashcard_summary": "家庭會議 -> 以開放問句了解病人與家屬對病情的態度是適當作法",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "key_point": "家庭會議中以開放問句了解病人與家屬對病情的態度，是很適當的核心步驟。",
+      "flashcard_front": "family meeting / open-ended questions / illness understanding / shared decision making",
+      "flashcard_back": "家庭會議要先理解病人和家屬怎麼看病情，開放問句是非常關鍵的溝通技巧。",
+      "category_group": "醫學（六）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "review_status": "ai_generated",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-11T01:31:13.537379+00:00"
+    }
+  ]
+}
