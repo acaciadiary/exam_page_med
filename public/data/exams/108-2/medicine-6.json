@@ -4,7 +4,7 @@
   "title": "108 年第二次醫師國考：醫學（六）",
   "subject": "medicine-6",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=108080&q=1&s=44&t=Q",
-  "updated_at": "2026-06-11T14:37:14.198859+00:00",
+  "updated_at": "2026-06-12T00:26:36.011692+00:00",
   "questions": [
     {
       "id": "108-2_medicine-6_001",
@@ -17,15 +17,23 @@
         "D": "全身麻醉都應監測病人體溫,但區域麻醉(regional anesthesia)可不必監測"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "不論是全身麻醉或區域麻醉（regional anesthesia），患者在麻醉下均會因血管擴張、體溫調節反射受抑及手術室環境低溫而面臨低體溫風險。因此，區域麻醉（特別是中樞神經軸阻斷或大範圍阻斷）同樣應視需要監測體溫，選項D稱其「可不必監測」為錯誤。核心體溫測量部位以鼻咽、食道或肺動脈較精確，直腸溫度反應速度較慢。",
+      "key_point": "麻醉中病人體溫監測的指徵與部位特徵。",
+      "flashcard_summary": "麻醉體溫監測 / 區域麻醉體溫變化 / 直腸與核心體溫反應速度 -> 區域麻醉同樣會干擾體溫調節，亦需進行體溫監測以防低體溫；直腸溫度在溫度劇烈波動（如體外循環）時反應較核心溫度慢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "麻醉體溫監測 / 區域麻醉體溫變化 / 直腸與核心體溫反應速度",
+      "flashcard_back": "區域麻醉同樣會干擾體溫調節，亦需進行體溫監測以防低體溫；直腸溫度在溫度劇烈波動（如體外循環）時反應較核心溫度慢。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_002",
@@ -38,15 +46,23 @@
         "D": "僅234"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據 ASA 手術室外麻醉場所指引，適當的設備要求包含：充足的氧氣供應來源（1）、足夠的空間與照明（2）以及性能良好的抽吸設備（3）。而去顫器與心肺復甦急救設備是緊急狀況下不可或缺的救命物資，必須在所有進行麻醉的場所中「隨手可得」，而非不必常備，故敘述4錯誤，正確選項為123（選項A）。",
+      "key_point": "手術室外麻醉場所的安全設備規範。",
+      "flashcard_summary": "手術室外麻醉 / ASA指引安全設備 / 急救去顫器配備要求 -> 充足氧氣、抽吸設備與空間照明為必備，且去顫急救設備必須隨手可得。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "手術室外麻醉 / ASA指引安全設備 / 急救去顫器配備要求",
+      "flashcard_back": "手術室外麻醉場所必須具備充足氧氣、抽吸設備與空間照明，且去顫急救設備必須隨手可得，不可或缺。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_003",
@@ -59,15 +75,23 @@
         "D": "epinephrine因作用於α2-adrenergic receptor,有直接止痛效果"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在局部麻醉劑中添加 epinephrine（腎上腺素）是利用其收縮血管的作用，以減緩麻醉劑的吸收速度、延長麻醉時間並減少出血（1、2、3皆正確）。然而，epinephrine 在此處並非因為作用於 alpha-2 腎上腺素受體而產生直接止痛效果（直接止痛是 alpha-2 促效劑如 clonidine 或 dexmedetomidine 的中樞/脊髓作用），其周邊主要作用為 alpha-1 介導的血管收縮，故選D為錯誤敘述。",
+      "key_point": "局部麻醉劑添加血管收縮劑（epinephrine）的作用機轉與限制。",
+      "flashcard_summary": "局部麻醉劑 / 添加Epinephrine作用 / alpha-2受體止痛角色 -> 收縮血管、延長藥效、減少吸收；無外周alpha-2直接止痛作用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "局部麻醉劑 / 添加Epinephrine作用 / alpha-2受體止痛角色",
+      "flashcard_back": "添加Epinephrine主要是收縮血管、減少麻醉藥吸收並延長作用時間，並不具備外周alpha-2直接止痛效果。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_004",
@@ -80,14 +104,22 @@
         "D": "midazolam"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在常用的靜脈麻醉藥物中，Ketamine（氯胺酮）具有擬交感神經作用，可釋放內源性兒茶酚胺並直接鬆弛氣道平滑肌，具有顯著的支氣管擴張效果。Propofol（丙泊酚）亦被證實能有效降低氣道阻力並擴張支氣管，臨床上對氣喘病患友善。本題因 Ketamine 與 Propofol 均具此效果，官方核定答案為B或C均給分，此處依題目要求保留 correct_answer 為空字串。",
+      "key_point": "具有支氣管擴張效果的靜脈麻醉藥物。",
+      "flashcard_summary": "靜脈麻醉藥物 / 支氣管擴張效果 / Ketamine與Propofol -> Ketamine 與 Propofol 均可降低氣道阻力、擴張支氣管，適用於氣喘患者。",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "靜脈麻醉藥物 / 支氣管擴張效果 / Ketamine與Propofol / 官方更正",
+      "flashcard_back": "Ketamine 與 Propofol 均具有鬆弛氣道平滑肌及擴張支氣管的效果，常選用於氣喘或COPD患者的麻醉誘導。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_005",
@@ -100,15 +132,23 @@
         "D": "pancuronium"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Cis-atracurium 屬於中效、非去極化肌肉鬆弛劑。其在體內的代謝主要依賴霍夫曼消除（Hofmann elimination，即在生理溫度與 pH 值下發生非酶促的自發性化學降解），不依賴腎臟或肝臟的代謝排泄。因此，在器官功能衰竭（如肝腎衰竭）的患者中，其清除率與半衰期幾乎不受影響，故選B為正確。",
+      "key_point": "Cis-atracurium 的霍夫曼消除（Hofmann elimination）代謝特徵。",
+      "flashcard_summary": "Cis-atracurium / 霍夫曼消除 / 肝腎衰竭患者使用 -> 經自發性Hofmann消除降解，不依賴肝腎功能，安全用於肝腎衰竭者。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Cis-atracurium / 霍夫曼消除 / 肝腎衰竭患者使用 / 代謝機轉",
+      "flashcard_back": "Cis-atracurium經由非酶促的自發降解（Hofmann消除）代謝，清除不受肝腎功能衰竭影響，為器官受損患者的安全選擇。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_006",
@@ -121,15 +161,23 @@
         "D": "肥胖病患通常困難插管的機會較高"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肥胖病患（BMI > 30）因代謝率和耗氧量大幅增加，生理上其每分鐘呼吸次數與每分鐘通氣量（minute ventilation）均會「顯著增加」以維持氣體交換，故選項B敘述為錯誤。其他特徵包括功能殘餘量（FRC）與肺順應性顯著下降，且在麻醉誘導後由於功能殘餘量小、耗氧量高，極易迅速發生去飽和（desaturation）。",
+      "key_point": "肥胖病患的呼吸生理與麻醉考量。",
+      "flashcard_summary": "肥胖病患 / 每分鐘通氣量變化 / FRC變化 -> 每分鐘通氣量及耗氧量增加，FRC減少，麻醉誘導後極易快速缺氧。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肥胖病患 / 每分鐘通氣量變化 / 功能殘餘量(FRC) / 誘導後缺氧速度",
+      "flashcard_back": "肥胖病患每分鐘通氣量與耗氧量皆上升；其FRC顯著下降，導致麻醉誘導後極易快速缺氧去飽和。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_007",
@@ -142,15 +190,23 @@
         "D": "術前若有在使用胰島素,且沒有靜脈給予葡萄糖液,則一般手術當天應暫時停止使用胰島素"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "手術壓力會引發兒茶酚胺與皮質醇等壓力激素分泌，造成術中高血糖。然而，術中血糖若控制在過高的 250 mg/dL 左右會增加滲透性利尿、脫水、傷口感染及電解質異常的風險。臨床指引推薦術中血糖應控制在較為安全、溫和的範圍（一般為 140-180 mg/dL），因此選項C敘述「血糖控制在250 mg/dL左右即可」為錯誤。",
+      "key_point": "糖尿病患者手術中血糖的控制目標與病理生理。",
+      "flashcard_summary": "糖尿病手術 / 術中血糖控制目標 -> 血糖應維持在140-180 mg/dL，不應放任至250 mg/dL以防併發症。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "糖尿病手術 / 術中血糖控制目標 / 高血糖併發症",
+      "flashcard_back": "糖尿病患者術中血糖控制目標為 140-180 mg/dL；過高血糖（如250 mg/dL）會顯著增加感染與電解質紊亂風險。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_008",
@@ -163,15 +219,23 @@
         "D": "抗癲癇藥物可用於止痛治療"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "神經肌肉阻斷劑（俗稱肌肉鬆弛劑）主要作用於神經肌肉接頭的乙醯膽鹼受體，僅能阻斷肌肉收縮以利手術操作，完全不具備任何止痛或鎮靜效果，故C為錯誤敘述。使用肌鬆劑時若無適當麻醉與止痛，會使患者處於神智清醒卻無法動彈的極度恐慌狀態。Acetaminophen、NSAIDs 與 Opioids 則皆為經典的止痛治療藥物。",
+      "key_point": "疼痛治療藥物與神經肌肉阻斷劑的藥理功能鑑別。",
+      "flashcard_summary": "神經肌肉阻斷劑 / 止痛作用 -> 肌鬆劑僅能鬆弛肌肉，無任何止痛與鎮靜效果。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "神經肌肉阻斷劑 / 止痛作用 / 藥理機轉與成分 / 排除項目",
+      "flashcard_back": "肌肉鬆弛劑僅阻斷肌肉運動，完全沒有止痛與鎮靜效果，絕不能單獨作為止痛藥物使用。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_009",
@@ -184,15 +248,23 @@
         "D": "高血鈉(>150 mmol/L)列為換肝之禁忌"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性肝衰竭（ALF）患者常有腦水腫與顱內壓增高風險，維持中度高血鈉（145-150 mmol/L）常被用作預防腦水腫的重症治療策略，而非換肝禁忌症，故D敘述為錯誤。ALF 患者應置於加護病房照護，隨時監測顱內壓（ICP）與腦灌流壓（CPP），並預防因肝衰竭導致的低血糖和凝血功能障礙。",
+      "key_point": "急性肝衰竭重症照護與肝移植禁忌症評估。",
+      "flashcard_summary": "急性肝衰竭 / 腦水腫預防 / 高血鈉角色 -> 輕中度高血鈉有助預防腦水腫，非肝臟移植之禁忌症。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性肝衰竭 / 腦水腫預防 / 高血鈉角色 / 移植禁忌症",
+      "flashcard_back": "急性肝衰竭伴隨高血鈉（145-150 mmol/L）有助於預防腦水腫，並非肝移植的禁忌症。",
+      "category_group": "醫學（六）",
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_010",
@@ -205,15 +277,23 @@
         "D": "多發性硬化症(multiple sclerosis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "周邊潰瘍性角膜炎（PUK）是一種嚴重的壞死性角膜邊緣潰瘍，與系統性自體免疫疾病（如類風濕性關節炎 RA、全身性紅斑性狼瘡 SLE、肉芽腫併多發性血管炎 GPA）密切相關。而多發性硬化症（MS）是中樞神經系統的去髓鞘病變，其典型眼科表現為視神經炎（optic neuritis），極少或較不易併發 PUK，故選D。",
+      "key_point": "周邊潰瘍性角膜炎（PUK）的系統性自體免疫共病。",
+      "flashcard_summary": "周邊潰瘍性角膜炎(PUK) / 自體免疫共病 -> 與RA/SLE等自體免疫病高度相關；MS主要引發視神經炎，不易引起PUK。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "周邊潰瘍性角膜炎(PUK) / 自體免疫共病 / 多發性硬化症眼科表現",
+      "flashcard_back": "PUK常與RA、SLE等系統性血管炎/免疫病共存；多發性硬化症（MS）主要引起視神經炎，不易併發PUK。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_011",
@@ -226,15 +306,23 @@
         "D": "結膜結石(lithiasis)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "砂眼是由砂眼衣原體（Chlamydia trachomatis）引起的慢性結膜角膜炎。其最具診斷特異性的病徵為輪部濾泡（limbal follicles）以及濾泡壞死吸收後遺留的圓形凹陷疤痕，即 Herbert 氏小凹（Herbert's pits），故選A。其他如角膜上方新生血管（血管翳 pannus）與瞼結膜濾泡亦常見，但非此特定輪部病變。",
+      "key_point": "砂眼（Trachoma）的特徵性病理表徵。",
+      "flashcard_summary": "砂眼 / 輪部濾泡 / Herbert's pits -> 輪部濾泡與Herbert's pits為砂眼的特徵性病變表現。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "砂眼 / 輪部濾泡 / Herbert's pits / 衣原體感染",
+      "flashcard_back": "角膜輪部濾泡及其退化遺留的Herbert's pits是砂眼（Trachoma）的病徵性病理表現。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_012",
@@ -247,15 +335,23 @@
         "D": "外轉(abduction)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "上斜肌（SO）的解剖走向與滑車結構決定了其生理功能。當眼球處於正視位時，上斜肌的主要作用是使眼球內旋（intorsion）；次要作用是使眼球下轉（depression）及外轉（abduction）。上斜肌不會造成眼球內轉（adduction，內轉主要是內直肌的作用），故選C為錯誤描述。",
+      "key_point": "上斜肌（Superior oblique）的眼球運動生理作用。",
+      "flashcard_summary": "上斜肌 / 主要眼動功能 -> 作用為內旋、下轉與外轉；不具備內轉（adduction）作用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "上斜肌 / 主要眼動功能 / 次要作用 / 內轉與外轉鑑別",
+      "flashcard_back": "上斜肌（SO）的作用為內旋（intorsion）、下轉（depression）及外轉（abduction），並不引發眼球內轉（adduction）。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_013",
@@ -268,15 +364,23 @@
         "D": "視神經盤凹陷(cup/disc ratio)擴大"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性隅角閉鎖性青光眼因眼壓急遽升高，臨床特徵包含角膜水腫（霧視、彩虹暈）、睫狀充血、瞳孔中度散大且對光無反應，並伴隨劇烈頭痛與噁心。然而，視神經盤凹陷擴大（C/D ratio 增加）是長期、慢性高眼壓導致視神經萎縮的典型病理特徵，在急性發作的早期階段通常來不及發生，故選D為較不可能發生者。",
+      "key_point": "急性隅角閉鎖性青光眼與慢性青光眼的影像與體徵鑑別。",
+      "flashcard_summary": "急性隅角閉鎖青光眼 / 角膜水腫與瞳孔散大 -> 急性發作呈角膜水腫、瞳孔散大；視神經盤凹陷（C/D）擴大為慢性期表現。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性隅角閉鎖青光眼 / 角膜水腫與瞳孔散大 / 視神經凹陷擴大時長",
+      "flashcard_back": "急性青光眼發作以角膜水腫、瞳孔散大、劇痛為特徵；視神經盤凹陷擴大為慢性病變，急性早期不易觀察到。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_014",
@@ -289,15 +393,23 @@
         "D": "早產兒網膜症造成黃斑部異位(ectopic macula)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "假性內斜視是指眼位其實正常，但外觀看起來像內斜視。常見原因包括內眥贅皮（epicanthal folds）遮擋鼻側巩膜、瞳孔距離過窄，或高度近視引發的負 Kappa 角。而早產兒視網膜病變（ROP）引發的顳側視網膜牽引會造成黃斑部異位（ectopic macula），這會導致視覺軸線偏移，進而產生真性斜視（如外斜視），不屬於假性斜視，故選D。",
+      "key_point": "假性內斜視（Pseudoesotropia）與真性斜視的病因鑑別。",
+      "flashcard_summary": "假性內斜視 / 內眥贅皮 / 負Kappa角 -> 贅皮或負Kappa角引起假性斜視；黃斑部異位則引發真性斜視。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "假性內斜視 / 內眥贅皮 / 負Kappa角 / 黃斑部異位病變",
+      "flashcard_back": "假性內斜視由贅皮或Kappa角等外觀生理因素引起；黃斑部異位會導致視覺軸偏移，引發真性斜視。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_015",
@@ -310,15 +422,23 @@
         "D": "prism reflex test(krimsky)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "隱斜視（heterophoria）是指在雙眼單視（fusion）存在時眼位正常，一旦破壞融合後即出現的眼位偏斜。臨床上最常使用遮蓋-放開檢查（cover-uncover test）來診斷隱斜視：當遮蓋一隻眼時該眼偏斜，放開遮蓋時該眼迅速移回原位以恢復融合，即可診斷。交替遮蓋檢查（alternate cover test）則是用於測量斜視與隱斜視的總偏斜度數。",
+      "key_point": "隱斜視（Heterophoria）的臨床檢查診斷方法。",
+      "flashcard_summary": "隱斜視 / cover-uncover test -> 診斷隱斜視首選cover-uncover test，藉由放開遮蓋時的眼球復位運動來診斷。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "隱斜視 / 破壞雙眼單視 / cover-uncover test / alternate cover test",
+      "flashcard_back": "隱斜視診斷首選 遮蓋-放開檢查（cover-uncover test），可藉由放開時眼球是否移動來判定是否存在潛在偏斜。",
+      "category_group": "醫學（六）",
+      "category": "眼科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T00:26:36.011692+00:00"
     },
     {
       "id": "108-2_medicine-6_016",

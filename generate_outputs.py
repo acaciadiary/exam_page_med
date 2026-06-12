@@ -1,0 +1,212 @@
+import os
+import json
+
+# Make sure output directory exists
+os.makedirs("reports/gemini_outputs", exist_ok=True)
+
+# Define data for each batch
+batches_data = {}
+
+# ----------------- BATCH 003 -----------------
+batches_data["108-2_medicine-2_batch-003"] = {
+    "dataset_id": "108-2_medicine-2",
+    "batch_id": "108-2_medicine-2_batch-003",
+    "items": [
+        {
+            "question_id": "108-2_medicine-2_031",
+            "question_number": 31,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "寄生蟲學",
+            "category_confidence": "high",
+            "key_point": "分辨不會導致宿主腦部病變的寄生蟲種類。",
+            "explanation": "棘口吸蟲主要寄生在宿主的腸道中，引起輕微的腹瀉與腹痛等腸胃症狀，通常不會導致腦部病變。相反地，日本血吸蟲的蟲卵可隨血流進入腦部引起腦部病變；豬肉絛蟲可引起腦囊蟲病；單胞絛蟲則會形成包蟲囊，壓迫腦部組織引起病變。",
+            "flashcard_front": "寄生蟲感染 / 腦部病變 / 日本血吸蟲 / 豬肉絛蟲 / 單胞絛蟲 / 棘口吸蟲",
+            "flashcard_back": "棘口吸蟲僅寄生於腸道，不侵犯腦部；日本血吸蟲、豬肉絛蟲與單胞絛蟲皆會侵入腦部引起病變。",
+            "flashcard_summary": "腦部病變寄生蟲 -> 棘口吸蟲不侵犯腦部，而日本血吸蟲、豬肉絛蟲及單胞絛蟲皆可引起腦部病變。"
+        },
+        {
+            "question_id": "108-2_medicine-2_032",
+            "question_number": 32,
+            "correct_answer": "C",
+            "category_group": "醫學（二）",
+            "category": "寄生蟲學",
+            "category_confidence": "high",
+            "key_point": "識別具有卵蓋（operculum）的絛蟲蟲卵特徵。",
+            "explanation": "廣節裂頭絛蟲為假葉目絛蟲，其蟲卵具有卵蓋，在外觀上與吸蟲卵相似。單胞絛蟲、牛肉絛蟲的蟲卵則無卵蓋，且具有厚且呈放射狀條紋的卵殼；短小包膜絛蟲的蟲卵具有內膜兩極之極絲，亦不具卵蓋。",
+            "flashcard_front": "絛蟲蟲卵 / 卵蓋 (operculum) / 廣節裂頭絛蟲 / 牛肉絛蟲 / 單胞絛蟲",
+            "flashcard_back": "廣節裂頭絛蟲卵具有卵蓋；牛肉絛蟲、單胞絛蟲等圓葉目絛蟲的蟲卵則沒有卵蓋。",
+            "flashcard_summary": "絛蟲卵與卵蓋 -> 廣節裂頭絛蟲卵具有卵蓋，而圓葉目絛蟲（如牛肉絛蟲、單胞絛蟲）則無。"
+        },
+        {
+            "question_id": "108-2_medicine-2_033",
+            "question_number": 33,
+            "correct_answer": "A",
+            "category_group": "醫學（二）",
+            "category": "寄生蟲學",
+            "category_confidence": "high",
+            "key_point": "掌握非洲錐蟲及其他錐蟲的地理分布與臨床特徵。",
+            "explanation": "羅得西亞錐蟲主要分布於東非與南非，而岡比亞錐蟲主要分布於西非與中非，蘇丹境內主要分布岡比亞錐蟲，兩者並無大量重疊分布。黑熱病（內臟利什曼病）若治療不當，可在一、兩年後引起後黑熱病皮膚利什曼病（PKDL）；美國曾有本土性枯西氏錐蟲的病例；歐美遊客至東非保護區亦有感染羅得西亞錐蟲的紀錄。",
+            "flashcard_front": "非洲錐蟲 / 羅得西亞錐蟲 / 岡比亞錐蟲 / 蘇丹 / 地理分布",
+            "flashcard_back": "羅得西亞錐蟲主要分布於東非與南非；岡比亞錐蟲主要分布於西非與中非。兩者在蘇丹不重疊分布。",
+            "flashcard_summary": "非洲錐蟲分布 -> 羅得西亞錐蟲在東非，岡比亞錐蟲在西非/中非，兩者不重疊分布。"
+        },
+        {
+            "question_id": "108-2_medicine-2_034",
+            "question_number": 34,
+            "correct_answer": "C",
+            "category_group": "醫學（二）",
+            "category": "寄生蟲學",
+            "category_confidence": "high",
+            "key_point": "分辨錐蟲與利什曼原蟲引起的臨床表徵配對。",
+            "explanation": "食道擴大（Megaesophagus）或大結腸症是美洲錐蟲（枯西氏錐蟲）感染引起的 Chagas disease 慢性期特徵，並非杜氏利什曼原蟲所致。Romaña's sign 為枯西氏錐蟲感染的眼瞼水腫表徵；Winterbottom's sign 為岡比亞錐蟲感染引起的後頸部淋巴結腫大；Espundia 為巴西利什曼原蟲引起的黏膜皮膚利什曼病。",
+            "flashcard_front": "寄生蟲病表徵 / Megaesophagus / Romaña's sign / Winterbottom's sign / Espundia",
+            "flashcard_back": "食道擴大（Megaesophagus）是枯西氏錐蟲（美洲錐蟲）的慢性特徵，而非杜氏利什曼原蟲所致。",
+            "flashcard_summary": "食道擴大與病原蟲 -> 食道擴大為枯西氏錐蟲（美洲錐蟲）的慢性期病徵，非杜氏利什曼原蟲。"
+        },
+        {
+            "question_id": "108-2_medicine-2_035",
+            "question_number": 35,
+            "correct_answer": "B",
+            "category_group": "醫學（二）",
+            "category": "寄生蟲學",
+            "category_confidence": "high",
+            "key_point": "掌握巴貝氏原蟲病的臨床表現與危險因子。",
+            "explanation": "當巴貝氏原蟲患者出現高度寄生蟲血症（heavy parasitemia）時，通常會伴隨顯著的發熱、溶血性貧血與血紅素尿等嚴重症狀，並非無症狀感染。巴貝氏原蟲主要寄生在紅血球內；脾臟切除病人感染此菌後極易惡化致死；診斷以血液塗片觀察蟲體及免疫螢光抗體試驗（IFA）為主。",
+            "flashcard_front": "巴貝氏原蟲病 (Babesiosis) / 高度寄生蟲血症 / 脾臟切除 / 診斷方法",
+            "flashcard_back": "高度寄生蟲血症通常伴隨嚴重的溶血性貧血與發熱，而非無症狀；脾臟切除者感染此病後致死率高。",
+            "flashcard_summary": "巴貝氏原蟲高度寄生蟲血症 -> 高度寄生蟲血症會引起嚴重溶血與發燒，非無症狀，且脾切除者為重症高危險群。"
+        },
+        {
+            "question_id": "108-2_medicine-2_036",
+            "question_number": 36,
+            "correct_answer": "A",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "理解型一錯誤（Type I error）的統計定義。",
+            "explanation": "型一錯誤（Type I error，即 α）的定義是在虛無假說為真的情況下拒絕了虛無假說，意即兩組實際上沒有差異，但統計檢定結果卻推翻虛無假說、判定有差異（偽陽性）。若兩組實際上有差異卻支持虛無假說（未拒絕），則稱為型二錯誤（Type II error，即 β）。",
+            "flashcard_front": "統計檢定 / 型一錯誤 (Type I error) / 虛無假說 / 錯誤判定",
+            "flashcard_back": "型一錯誤是指兩組實際上無差異（虛無假說為真），但統計結果卻推翻虛無假說判定為有差異（偽陽性）。",
+            "flashcard_summary": "型一錯誤定義 -> 虛無假說為真卻被推翻（即兩組無差異但被判定有差異）。"
+        },
+        {
+            "question_id": "108-2_medicine-2_037",
+            "question_number": 37,
+            "correct_answer": "C",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "比較單尾與雙尾假說檢定的性質與應用。",
+            "explanation": "單尾與雙尾假說檢定的顯著水準（α，如0.05）是由研究者事先設定的，兩者可以相同。相對於雙尾檢定，單尾檢定在設定的特定方向上更容易拒絕虛無假說；兩者的 p 值算法並不相同（雙尾 p 值為單尾的兩倍）；在醫學研究中，雙尾檢定因能偵測雙向差異而更常被使用。",
+            "flashcard_front": "單尾與雙尾檢定 / 顯著水準 (α) / 拒絕虛無假說 / p值計算",
+            "flashcard_back": "單尾與雙尾檢定可設定相同的顯著水準；單尾在特定方向上較易拒絕虛無假說，且其p值算法不同於雙尾。",
+            "flashcard_summary": "單尾與雙尾檢定性質 -> 兩者可設定相同顯著水準，但單尾在特定方向上較易拒絕虛無假說。"
+        },
+        {
+            "question_id": "108-2_medicine-2_038",
+            "question_number": 38,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "分析簡單線性迴歸斜率與相關係數的關係。",
+            "explanation": "當 X 與 Y 的角色（自變項與應變項）互換時，皮爾森相關係數 r 保持不變，但迴歸斜率 b 會因為兩者標準差的比值倒轉而改變（b = r * Sy/Sx，互換後變為 r * Sx/Sy），因此兩者互換後通常不會有相同的 b 值。斜率 b 與相關係數 r 的正負符號必定相同；大的相關係數與斜率並不能直接確立因果關係。",
+            "flashcard_front": "線性迴歸 / 迴歸係數 b / 相關係數 r / 變項互換",
+            "flashcard_back": "X與Y互換後，r值保持不變，但斜率b會改變（b = r * Sy/Sx，互換後變為 r * Sx/Sy）。",
+            "flashcard_summary": "變項互換對b與r的影響 -> 自變項與應變項互換後，相關係數 r 不變，但迴歸斜率 b 會改變。"
+        },
+        {
+            "question_id": "108-2_medicine-2_039",
+            "question_number": 39,
+            "correct_answer": "C",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "計算 Bonferroni 多重比較修正的個別顯著性水準。",
+            "explanation": "比較四組（k=4）進行兩兩比較時，總共需要進行 C(4, 2) = 6 次個別檢定。根據 Bonferroni 修正法，為了控制整體的型一錯誤率在 0.05，每一個別檢定的顯著性水準應修正為總顯著性水準除以檢定總次數，即 0.05 / 6。",
+            "flashcard_front": "多重比較 / Bonferroni 修正 / 四組兩兩比較 / 顯著性水準修正",
+            "flashcard_back": "四組兩兩比較共有6次檢定，依 Bonferroni 修正，個別顯著性水準為總 α 除以 6，即 0.05/6。",
+            "flashcard_summary": "Bonferroni多重比較修正 -> 四組兩兩比較共進行6次檢定，顯著性水準應修正為 0.05 / 6。"
+        },
+        {
+            "question_id": "108-2_medicine-2_040",
+            "question_number": 40,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "選擇適合小樣本分類資料的病例對照研究統計檢定法。",
+            "explanation": "在分析吸菸與疾病關係的 2x2 列聯表時，若樣本數較小或期望值小於 5 的格子存在，最適合使用費雪恰當檢定（Fisher's exact test）進行分析。獨立 t 檢定與配對 t 檢定適用於連續型變數；McNemar 檢定適用於配對設計的類別資料。",
+            "flashcard_front": "病例對照研究 / 2x2列聯表 / 小樣本 / 期望值小於5 / 統計檢定",
+            "flashcard_back": "當2x2列聯表樣本數較小或有格子期望值小於5時，應首選費雪恰當檢定（Fisher's exact test）進行分析。",
+            "flashcard_summary": "列聯表小樣本檢定選擇 -> 樣本數小或期望值小於5時，應使用費雪恰當檢定而非卡方檢定。"
+        },
+        {
+            "question_id": "108-2_medicine-2_041",
+            "question_number": 41,
+            "correct_answer": "",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "理解粗死亡率與年齡標準化死亡率的區別與計算邏輯。",
+            "explanation": "年齡標準化死亡率是將各年齡別死亡率套入相同的標準人口結構中計算，故兩地各年齡別死亡率完全相同時，其標準化死亡率必定相同。粗死亡率會受實際人口結構影響而不一定相同；若甲地人口較老，其粗死亡率會大於乙地；標準化死亡率之差異會隨標準人口年齡組成不同而有變異，官方最後更正答B、D皆給分。",
+            "flashcard_front": "粗死亡率 / 年齡標準化死亡率 / 年齡別死亡率相同 / 人口老化",
+            "flashcard_back": "年齡別死亡率相同時，兩地年齡標準化死亡率必定相同，但粗死亡率會受人口年齡結構不同而有異。",
+            "flashcard_summary": "標準化與粗死亡率 -> 年齡別死亡率相同時，標準化死亡率必定相同，粗死亡率則受人口結構影響而不同。"
+        },
+        {
+            "question_id": "108-2_medicine-2_042",
+            "question_number": 42,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "區分空氣污染中的粒狀污染物與氣態污染物。",
+            "explanation": "揮發性有機物（VOCs）在常溫下以氣體形式存在，屬於氣態污染物而非粒狀污染物。黑煙（Soot）、酸霧（Acid mist）與油煙（Oil smoke）等在物理化學定義上皆屬於粒狀污染物或懸浮微粒。",
+            "flashcard_front": "空氣污染物 / 粒狀污染物 / 揮發性有機物 (VOCs) / 黑煙、酸霧、油煙",
+            "flashcard_back": "揮發性有機物（VOCs）屬於氣態污染物，而黑煙、酸霧及油煙則屬於粒狀污染物。",
+            "flashcard_summary": "粒狀與氣態污染物區分 -> 揮發性有機物（VOCs）為氣態污染物，黑煙、酸霧與油煙則為粒狀污染物。"
+        },
+        {
+            "question_id": "108-2_medicine-2_043",
+            "question_number": 43,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "掌握健康風險評估中危害商數的應用步驟。",
+            "explanation": "危害商數（Hazard Quotient, HQ）是暴露劑量與參考劑量的比值，用於在「風險特徵描述（Risk characterization）」步驟中，估算非致癌物質對人體產生危害的潛在風險。危害辨識是確定化學物是否有毒；劑量反應評估是確定劑量與效應的關係；暴露評估是估算人體暴露量。",
+            "flashcard_front": "風險評估 / 危害商數 (Hazard Quotient) / 評估步驟 / 非致癌風險",
+            "flashcard_back": "危害商數（HQ）用於風險特徵描述步驟，藉由暴露量與參考劑量的比值來描述非致癌風險。",
+            "flashcard_summary": "危害商數應用步驟 -> 危害商數（HQ）應用於「風險特徵描述」步驟以評估非致癌風險。"
+        },
+        {
+            "question_id": "108-2_medicine-2_044",
+            "question_number": 44,
+            "correct_answer": "D",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "了解整體換氣系統的適用與不適用情境。",
+            "explanation": "整體換氣系統主要利用新鮮空氣稀釋或驅散室內污染物，並調節環境的溫濕度，但不適合用來精準控制或調整工作環境的氣壓。調整氣壓（如正負壓隔離病房）需要精密的局部氣流控制與密閉壓力調節系統。",
+            "flashcard_front": "整體換氣系統 / 稀釋濃度 / 溫濕度調節 / 調整工作氣壓 / 不適用情境",
+            "flashcard_back": "整體換氣系統適用於稀釋低毒性污染物與溫濕度調節，不適用於需要氣密控制的氣壓調整。",
+            "flashcard_summary": "整體換氣不適用情境 -> 整個換氣系統主要用於稀釋與調節溫濕度，不適合用於調整工作環境的氣壓。"
+        },
+        {
+            "question_id": "108-2_medicine-2_045",
+            "question_number": 45,
+            "correct_answer": "B",
+            "category_group": "醫學（二）",
+            "category": "公共衛生學",
+            "category_confidence": "high",
+            "key_point": "記憶台灣重大公害事件「油症事件」的暴露物質與成因。",
+            "explanation": "1979 年臺灣中部地區發生的「油症事件」，是由於米糠油加工過程中受熱媒多氯聯苯（PCB）及其熱降解產物多氯聯苯呋喃（PCDF）污染，導致攝入者及所生嬰兒（油症兒）出現皮膚發黑、氯痤瘡及發育遲緩等症狀。靈丹為有機氯殺蟲劑；甲苯為溶劑；有機汞與水俁病相關。",
+            "flashcard_front": "台灣油症事件 / 米糠油污染 / 多氯聯苯 (PCB) / 暴露物質",
+            "flashcard_back": "台灣中部的油症兒事件是由多氯聯苯（PCB）及多氯聯苯呋喃污染米糠油所引起的暴露事件。",
+            "flashcard_summary": "台灣油症事件暴露源 -> 台灣油症兒事件是由多氯聯苯（PCB）暴露所引起，導致皮膚色素沉著與氯痤瘡。"
+        }
+    ]
+}
+print("Loaded batch 003")
