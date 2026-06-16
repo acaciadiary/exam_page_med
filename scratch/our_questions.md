@@ -1,1074 +1,1051 @@
-# Batch: 108-2_medicine-6_batch-002
+# Batch: 109-1_medicine-6_batch-005
 Category Group: 醫學（六）
 Allowed Categories: ['麻醉科', '眼科', '耳鼻喉科', '婦產科', '復健科', '醫學倫理與醫療決策', '其他']
 
-## Q16 (ID: 108-2_medicine-6_016) -> Correct Answer: A
-關於眼瞼痙攣(essential blepharospasm)的敘述,下列何者錯誤?
-- **A**: 大多數為單眼發作
-- **B**: 好發於中老年女性
-- **C**: 臨床表現需和乾眼症做鑑別診斷
-- **D**: 可以用注射肉毒桿菌素(botulinum toxin)改善症狀
+## Q61 (ID: 109-1_medicine-6_061) -> Correct Answer: A
+一位病人因車禍,3個月後來就診,發現有鷹爪手(claw hand),他最有可能是那條神經病變?
+- **A**: 尺神經
+- **B**: 橈神經
+- **C**: 正中神經
+- **D**: 肌皮神經
 
 ----------------------------------------
 
-## Q17 (ID: 108-2_medicine-6_017) -> Correct Answer: A
-如眼底視網膜照片所示,此位患者最可能之診斷為何?
-- **A**: 裂孔型視網膜剝離(rhegmatogenous retinal detachment)
-- **B**: 牽引型視網膜剝離(tractional retinal detachment)
-- **C**: 出血型視網膜剝離(hemorrhagic retinal detachment)
-- **D**: 滲漏型視網膜剝離(exudative retinal detachment)
+## Q62 (ID: 109-1_medicine-6_062) -> Correct Answer: A
+在下背痛的篩選中,下列何種症狀代表病人可能是罹患一種嚴重的病變(所謂 red flag),須轉介至相關科別
+ 做進一步的檢查與處置?
+- **A**: 夜間疼痛且愈來愈嚴重
+- **B**: 病人身體質量指數(BMI)高
+- **C**: 合併下肢疼痛
+- **D**: 曾有腰椎手術病史
 
 ----------------------------------------
 
-## Q18 (ID: 108-2_medicine-6_018) -> Correct Answer: C
-承上題,患者較不適當之處置為何?
-- **A**: 視網膜冷凍固定術(cryopexy)
-- **B**: 鞏膜扣環術(scleral buckling)
-- **C**: 於門診施行視網膜雷射治療(laser photocoagulation)
-- **D**: 玻璃體切除術(vitrectomy)
+## Q63 (ID: 109-1_medicine-6_063) -> Correct Answer: A
+關於歐氏症(Osgood-Schlatter disease)的敘述,下列何者正確?
+- **A**: 病變處之骨頭可能會有碎裂(fragmentation)現象
+- **B**: 病變處常位於髕骨與髕骨肌腱交接處
+- **C**: 不可使用非類固醇消炎止痛劑
+- **D**: 通常需手術治療
 
 ----------------------------------------
 
-## Q19 (ID: 108-2_medicine-6_019) -> Correct Answer: C
-下列何者所接收的訊息,是由前庭神經下分支(inferior division of vestibular nerve)傳入中樞?
-- **A**: 上半規管(superior semicircular canal)
-- **B**: 側半規管(lateral semicircular canal)
-- **C**: 後半規管(posterior semicircular canal)
-- **D**: 橢圓囊(utricle)
+## Q64 (ID: 109-1_medicine-6_064) -> Correct Answer: C
+下列何者不是類風濕性關節炎(rheumatoid arthritis)的好發部位?
+- **A**: 腕關節
+- **B**: 肩關節
+- **C**: 腰椎關節
+- **D**: 踝關節
 
 ----------------------------------------
 
-## Q20 (ID: 108-2_medicine-6_020) -> Correct Answer: D
-下列何種疾病,耳鏡檢查可見Schwartze徵象?
-- **A**: 聽神經瘤(acoustic neuroma)
-- **B**: 膽固醇肉芽腫(cholesterol granuloma)
-- **C**: 膽脂瘤(cholesteatoma)
-- **D**: 耳硬化症(otosclerosis)
+## Q65 (ID: 109-1_medicine-6_065) -> Correct Answer: C
+患者接受心臟復健的絕對禁忌,下列何者正確?
+- **A**: 急性心肌梗塞
+- **B**: 冠狀動脈繞道手術後
+- **C**: 急性心包膜炎或心肌炎
+- **D**: 心臟移植及心肺移植
 
 ----------------------------------------
 
-## Q21 (ID: 108-2_medicine-6_021) -> Correct Answer: D
-下列構造何者不經過superior orbital fissure?
-- **A**: trochlear nerve
-- **B**: abducens nerve
-- **C**: superior ophthalmic vein
-- **D**: maxillary branch of trigeminal nerve
+## Q66 (ID: 109-1_medicine-6_066) -> Correct Answer: B
+心肌的耗氧量(myocardial oxygen consumption)與下列那兩個數值之乘積最具相關性?
+- **A**: 每分鐘心跳數與平均血壓
+- **B**: 每分鐘心跳數與收縮壓
+- **C**: 每分鐘心跳數與舒張壓
+- **D**: 收縮壓與舒張壓
 
 ----------------------------------------
 
-## Q22 (ID: 108-2_medicine-6_022) -> Correct Answer: A
-有關hereditary hemorrhagic telangiectasia的治療方式,下列何者不恰當?
-- **A**: regular nasal mucosal care with nasal saline
-- **B**: endonasal lasering or bipolar diathermy
-- **C**: septodermoplasty
-- **D**: vascular embolization
-*Note: 第22題一律給分*
+## Q67 (ID: 109-1_medicine-6_067) -> Correct Answer: C
+婦女懷孕時補充攝取以下那一種維生素,已被証實可有效降低生下的小孩罹患神經管缺損(neural tube
+ defects)之機率?
+- **A**: 維生素 B1(thiamine)
+- **B**: 維生素 B6(pyridoxine)
+- **C**: 維生素 B9(folic acid)
+- **D**: 維生素 B12(cobalamin)
 
 ----------------------------------------
 
-## Q23 (ID: 108-2_medicine-6_023) -> Correct Answer: C
-40歲男性,因發燒、咽喉疼痛、吞嚥困難、呼吸急促等症狀至急診就診,會診耳鼻喉科進行咽喉內視鏡檢查
- 如下圖,下列敘述何者正確?
-- **A**: 箭頭所指為甲狀軟骨(thyroid cartilage)發炎腫脹
-- **B**: 常見之病原為病毒感染
-- **C**: 此病人可能發生急性呼吸道阻塞
-- **D**: 側頸部X光可見尖塔徵象(steeple sign )
+## Q68 (ID: 109-1_medicine-6_068) -> Correct Answer: D
+神經管缺損(neural tube defect)的兒童患者,最常影響下列那一個部位的脊椎?
+- **A**: 頸椎(cervical level)
+- **B**: 胸椎(thoracic level)
+- **C**: 胸腰椎(thoracic-lumbar level)
+- **D**: 腰薦椎(lumbar-sacral level)
 
 ----------------------------------------
 
-## Q24 (ID: 108-2_medicine-6_024) -> Correct Answer: C
-有關單側或雙側聲帶麻痺(vocal fold paralysis)之敘述,下列何者正確?
-- **A**: 造成聲帶麻痺之主因為上喉神經(superior laryngeal nerve)受損
-- **B**: 呼吸困難較常見於單側聲帶麻痺
-- **C**: 單側聲帶麻痺以左側較為常見
-- **D**: 發聲障礙較常見於雙側聲帶麻痺
+## Q69 (ID: 109-1_medicine-6_069) -> Correct Answer: C
+舌癌病人接受全舌切除後,在吞嚥時容易有口中食物後送功能不足,下列何種方法對他最恰當?
+- **A**: 進食時,進行孟德森吞嚥手法(Mendelsohn maneuver)
+- **B**: 平時進行Shaker運動(Shaker exercise)
+- **C**: 進食時抬下巴(chin-up)
+- **D**: 平時進行Masako運動(Masako exercise)
 
 ----------------------------------------
 
-## Q25 (ID: 108-2_medicine-6_025) -> Correct Answer: B
-有關甲狀舌管囊腫(thyroglossal duct cyst)之敘述,下列何者錯誤?
-- **A**: 通常發生在頸部中線,是最常見的先天性頸部腫塊
-- **B**: 惡性轉化率極低,最常見的惡性細胞型態是鱗狀上皮細胞癌(squamous cell carcinoma)
-- **C**: 標準的治療方式是Sistrunk手術
-- **D**: 先前發生過囊腫感染者,手術後較易復發
+## Q70 (ID: 109-1_medicine-6_070) -> Correct Answer: B
+病患在接受物理治療後發生如圖的病變,下列那一種治療儀最有可能是原因?
+- **A**: 短波治療儀(short wave diathermy)
+- **B**: 熱敷包(hot packs)
+- **C**: 干擾波(interferential current)
+- **D**: 低能量雷射(low energy laser therapy)
 
 ----------------------------------------
 
-## Q26 (ID: 108-2_medicine-6_026) -> Correct Answer: D
-有關人類乳突瘤病毒(human papilloma virus, HPV)與頭頸癌相關性的敘述,下列何者錯誤?
-- **A**: 在各個頭頸次部位中,與HPV相關性最高的是口咽癌(oropharyngeal cancer)
-- **B**: 在所有的HPV亞型中,以第16型與頭頸癌的關係最為密切
-- **C**: HPV產生的E6蛋白質會抑制p53的功能,E7蛋白質則會抑制pRb的功能
-- **D**: HPV陽性的口咽癌對化學治療及放射治療的反應及預後較差
+## Q71 (ID: 109-1_medicine-6_071) -> Correct Answer: C
+在下列四種神經元受損情況下,那一種最容易產生痙攣型構音障礙(spastic dysarthria)?
+- **A**: 單側上運動神經元(unilateral upper motor neuron)
+- **B**: 單側下運動神經元(unilateral lower motor neuron)
+- **C**: 雙側上運動神經元(bilateral upper motor neuron)
+- **D**: 雙側下運動神經元(bilateral lower motor neuron)
 
 ----------------------------------------
 
-## Q27 (ID: 108-2_medicine-6_027) -> Correct Answer: C
-有關口腔黏膜變化的敘述,下列何者正確?
-- **A**: 口腔白斑(leukoplakia)主要變化是口腔黏膜上皮層萎縮
-- **B**: 口腔白斑惡性變化的可能性較口腔紅斑(erythroplakia)為高
-- **C**: 扁平苔蘚(lichen planus)雖然是一種自體免疫病灶,也有惡性變化的可能
-- **D**: 口腔黏膜下纖維化(submucosal fibrosis)是一種發炎性病灶,不會產生惡性變化
+## Q72 (ID: 109-1_medicine-6_072) -> Correct Answer: C
+關於鼻竇炎(paranasal sinusitis)的影像診斷,下列何者錯誤?
+- **A**: 電腦斷層(CT scan)較X光清楚,但輻射劑量較高
+- **B**: 慢性鼻竇炎且抗生素治療數週無效者,應考慮做電腦斷層檢查
+- **C**: 急性鼻竇炎合併意識不清,以X光的Water's view就足以診斷病灶影響範圍,不必接受電腦斷層檢查
+- **D**: 注射對比劑後之電腦斷層影像有助於排除鼻竇炎合併有腫瘤的可能性
 
 ----------------------------------------
 
-## Q28 (ID: 108-2_medicine-6_028) -> Correct Answer: B
-與一般均衡飲食的孕婦相較,全素(strict vegetarians)的妊娠婦女,最可能缺乏下列何種維生素?
-- **A**: 維生素A
-- **B**: 維生素B12
-- **C**: 維生素C
-- **D**: 維生素K
+## Q73 (ID: 109-1_medicine-6_073) -> Correct Answer: A
+59歲女性病人意外跌倒後,主訴左肩疼痛,X光檢查如圖,最可能之診斷為何?
+- **A**: calcified tendinosis
+- **B**: avulsion fracture of greater tuberosity
+- **C**: bone metastasis
+- **D**: primary osteoblastic bone tumor
+*Note: 第73題一律給分*
 
 ----------------------------------------
 
-## Q29 (ID: 108-2_medicine-6_029) -> Correct Answer: B
-以真空吸引娩出胎兒,較適合的壓力大約是多少kg/cm2?
-- **A**: 0.2 kg/cm2
-- **B**: 0.6 kg/cm2
-- **C**: 1.0 kg/cm2
-- **D**: 2.0 kg/cm2
+## Q74 (ID: 109-1_medicine-6_074) -> Correct Answer: D
+80歲女性,下腹部磁振造影檢查(T2WI)呈現如圖,箭號所指之敘述何者最正確?
+- **A**: 子宮頸癌
+- **B**: 卵巢癌
+- **C**: 陰道癌
+- **D**: 子宮內膜癌
 
 ----------------------------------------
 
-## Q30 (ID: 108-2_medicine-6_030) -> Correct Answer: C
-Trisomy 13(Patau syndrome)不會合併下列何種異常?
-- **A**: 唇顎裂(cleft lip/palate)
-- **B**: 臍膨出(omphalocele)
-- **C**: 大頭畸形(macrocephaly)
-- **D**: 橈骨發育不良(radial bone aplasia)
+## Q75 (ID: 109-1_medicine-6_075) -> Correct Answer: D
+一位5歲兒童,發生Ventricular fibrillation,使用defibrillation時之劑量為何?
+- **A**: 起初defibrillation劑量為4J/kg
+- **B**: 再次defibrillation劑量為6J/kg
+- **C**: 再次defibrillation劑量為8J/kg
+- **D**: 第三次defibrillation劑量為4J/kg
 
 ----------------------------------------
 
-# Batch: 108-2_medicine-6_batch-003
+# Batch: 109-1_medicine-6_batch-006
 Category Group: 醫學（六）
 Allowed Categories: ['麻醉科', '眼科', '耳鼻喉科', '婦產科', '復健科', '醫學倫理與醫療決策', '其他']
 
-## Q31 (ID: 108-2_medicine-6_031) -> Correct Answer: D
-母乳缺乏下列何種維他命?
-- **A**: Vit.A
-- **B**: Vit.D
-- **C**: Vit.E
-- **D**: Vit.K
+## Q76 (ID: 109-1_medicine-6_076) -> Correct Answer: A
+30歲男性病人,主訴有急性視力下降,合併眼睛疼痛至急診就診。下列何者診斷最有可能?
+- **A**: 視神經炎(optic neuritis)
+- **B**: 中央視網膜動脈阻塞(central retinal artery occlusion)
+- **C**: 中央視網膜靜脈阻塞(central retinal vein occlusion)
+- **D**: 顳動脈炎(temporal arteritis)
 
 ----------------------------------------
 
-## Q32 (ID: 108-2_medicine-6_032) -> Correct Answer: C
-45歲孕婦,G5P4,妊娠週數不明,接受產科超音波檢查,正在測量標的的名稱(雙十字之間)為何?
-- **A**: BPD(biparietal diameter)
-- **B**: AC(abdominal circumference)
-- **C**: FL(femur length)
-- **D**: NT(nuchal translucency)
+## Q77 (ID: 109-1_medicine-6_077) -> Correct Answer: C
+下列何者非子癲前症(pre-eclampsia)典型的臨床徵候?
+- **A**: 妊娠高血壓
+- **B**: 蛋白尿
+- **C**: 血糖上升
+- **D**: 下肢水腫
 
 ----------------------------------------
 
-## Q33 (ID: 108-2_medicine-6_033) -> Correct Answer: A
-23歲女性於近兩個月常感覺右下腹疼痛,此疼痛有時改變姿勢可改善症狀,今日則因疼痛加劇且合併有噁心
- 嘔吐之情形就醫。理學檢查發現右下腹有壓痛及反彈痛之情形,經陰道指診發現子宮大小正常,但有觸壓疼
- 痛的情形,同時子宮右邊有腫塊如鵝蛋大小,亦有觸壓疼痛的情形。超音波掃描發現右邊子宮附屬物有腫
- 塊,大小約7×8公分。由於右下腹痛加劇,因此接受腹腔鏡檢查,腹腔鏡檢查發現有下圖之情形,依據圖示此
- 患者最適合之診斷為:
-- **A**: 卵巢腫瘤合併扭轉(ovarian tumor with torsion)
-- **B**: 輸卵管外孕(tubal pregnancy)
-- **C**: 急性盲腸炎(appendicitis)
-- **D**: 子宮肌瘤紅色變性(red degeneration of myoma)
+## Q78 (ID: 109-1_medicine-6_078) -> Correct Answer: C
+醫學研究中對於以兒童、孕婦、囚犯、精神病患為受試者的研究皆有比較嚴格的規範,主要是基於何種考
+ 量?
+- **A**: 這類受試者人數有限
+- **B**: 代理同意須嚴格把關
+- **C**: 對易受傷害受試族群的保護
+- **D**: 這些人參與試驗的風險過高
 
 ----------------------------------------
 
-## Q34 (ID: 108-2_medicine-6_034) -> Correct Answer: C
-21歲女性因為左下腹痛求診,內診發現左側卵巢腫大,超音波檢查顯示左側卵巢實質腫瘤,而內含物似乎是
- 骨頭及牙齒。這類腫瘤約有多少百分比是雙側性?
-- **A**: 小於1%
-- **B**: 2%~3%
-- **C**: 10%~15%
-- **D**: 50%
+## Q79 (ID: 109-1_medicine-6_079) -> Correct Answer: B
+69歲男病患無特殊病史,因嗜睡2天意識不清由女兒帶至急診,經檢查發現有心臟衰竭及二氧化碳堆積情況。
+ 其家屬(兩位女兒)表示不希望給予插管、電擊、壓胸等侵入性治療增加病患痛苦,且當場要簽署「選擇安
+ 寧緩和醫療同意書」,表示希望給予病患緩和醫療於醫院善終。下列敘述何者最正確?
+- **A**: 此病患是末期病人,因此家屬簽署「選擇安寧緩和醫療同意書」是合法的
+- **B**: 醫師應以病人最大利益為第一考量,先急救再說
+- **C**: 病人意識不清,醫師應以家屬的意願為第一考量
+- **D**: 先問醫學倫理委員會再決定
 
 ----------------------------------------
 
-## Q35 (ID: 108-2_medicine-6_035) -> Correct Answer: B
-30歲女性,已有連續4次懷孕都在第一孕期就自然流產,醫師建議做夫妻的染色體檢查,結果夫妻中一方有異
- 常,最有可能的異常是:
-- **A**: trisomy 18
-- **B**: balanced translocation
-- **C**: Turner syndrome
-- **D**: Klinefelter syndrome
+## Q80 (ID: 109-1_medicine-6_080) -> Correct Answer: D
+有一位40歲罹患思覺失調症的女性,需接受盲腸切除手術,外科醫師跟她解釋手術內容,精神科醫師評估病
+ 人完全可以理解,因此有關同意書的簽署,下列何者正確?
+- **A**: 此病人沒有簽署同意書的能力,因此需請朋友代簽
+- **B**: 此病人沒有簽署同意書的能力,因此需請家屬代簽
+- **C**: 此病人沒有簽署同意書的能力,因此需請精神科醫師代簽
+- **D**: 此病人尚有簽署同意書的能力,因此病人自己簽即可
 
 ----------------------------------------
 
-## Q36 (ID: 108-2_medicine-6_036) -> Correct Answer: B
-目前治療晚期(advanced)上皮性卵巢癌化學療法的第一線藥物為何?
-- **A**: cisplatin+5FU
-- **B**: carboplatin+paclitaxel
-- **C**: cisplatin+cyclophosphamide
-- **D**: carboplatin+cyclophosphamide
-
-----------------------------------------
-
-## Q37 (ID: 108-2_medicine-6_037) -> Correct Answer: C
-20歲懷孕38週婦女,G1P0,因胎位不正接受剖腹產手術,手術中意外發現左側有一約10公分左右的卵巢腫
- 瘤,右側卵巢外觀正常,術中無腹水,於是行剖腹產後接著行卵巢囊腫摘除術(ovarian cystectomy),術中
- 不慎發生囊腫破裂。術中冰凍切片病理報告為yolk sac tumor。接下來處置以何者為佳?
-- **A**: 作完月子後再視當時情況而定
-- **B**: 不宜餵奶並行骨盆腔放射線治療
-- **C**: 保留另一側卵巢及子宮以保留生育能力,並在術後行化學治療
-- **D**: 由於生殖細胞癌預後差,應即刻切除子宮及雙側卵巢輸卵管
-
-----------------------------------------
-
-## Q38 (ID: 108-2_medicine-6_038) -> Correct Answer: A
-醫師值班接到一緊急轉診的病患:一位60歲婦女,因卵巢水瘤於診所接受手術,術中發現為一高度懷疑之右
- 側卵巢惡性腫瘤,並已擴散至腹腔中,形成網膜硬塊(omentum cake),但是並無橫膈下或肝臟轉移。該診
- 所未做任何切除手術,將傷口簡單關閉而立刻轉送本院。送至本院時,神智清醒,感覺傷口疼痛,生命徵象
- 穩定,血壓138/86 mmHg,心搏86 bpm,傷口只有五針縫合,微滲血。接下來的處置,何者最適當?
-- **A**: 立刻送至開刀房行剖腹減積手術(debulking surgery)
-- **B**: 暫時給予化學治療1次,視病患情況,再行減積手術
-- **C**: 先行緊急電腦斷層檢查,評估腹內狀況,再行減積手術
-- **D**: 同步實施化學及放射線治療(concurrent chemoradiation),待腫瘤減小後再行減積手術
-
-----------------------------------------
-
-## Q39 (ID: 108-2_medicine-6_039) -> Correct Answer: D
-下列何者不是邊緣惡性卵巢腫瘤(borderline tumors)的診斷條件(criteria)?
-- **A**: 上皮細胞呈現乳突狀構造(papillary formation)及偽多層(pseudostratification)
-- **B**: 細胞核異常(atypia)
-- **C**: 細胞有絲分裂增加
-- **D**: 可見基質侵犯(stromal invasion)
-
-----------------------------------------
-
-## Q40 (ID: 108-2_medicine-6_040) -> Correct Answer: B
-30歲女性,月經周期規則,根據她最後一次月經來計算,目前懷孕10週,關於胎兒生長發育的敘述,下列何
- 者最不符合?
-- **A**: 手肘可彎曲
-- **B**: 頭臀徑(crown-rump length)7公分
-- **C**: 橫膈膜已形成
-- **D**: 心臟結構已形成
-
-----------------------------------------
-
-## Q41 (ID: 108-2_medicine-6_041) -> Correct Answer: B
-如圖所示之生產方式,為何種肩難產輔助方法?
-- **A**: Rubin maneuver
-- **B**: McRoberts maneuver
-- **C**: Fundal pressure
-- **D**: Woods corkscrew maneuver
-
-----------------------------------------
-
-## Q42 (ID: 108-2_medicine-6_042) -> Correct Answer: D
-產婦生產會陰部裂傷(perineal laceration)共分四度,第四度裂傷最為嚴重。第四度裂傷代表深度到達下列何
- 種解剖位置?
-- **A**: 陰道黏膜層(vaginal mucosa)
-- **B**: 外層肛門括約肌(external anal sphincter)
-- **C**: 內層肛門括約肌(internal anal sphincter)
-- **D**: 直腸黏膜層(rectal mucosa)
-
-----------------------------------------
-
-## Q43 (ID: 108-2_medicine-6_043) -> Correct Answer: A
-36歲G2P1孕婦,接受規律產前檢查,並無妊娠相關合併症,主訴已超過預產期2天,自覺胎動頻次稍為減少
- 至門診求診。安排胎心搏監測呈現良好反應(reactive),無規律性子宮收縮;超音波檢查最大羊水池垂直深
- 度(maximum vertical pocket depth) 3.6 cm,預估胎兒體重3,600公克,陰道內診子宮頸未開,破水測試呈現
- 陰性反應。此時的最適當處置為:
-- **A**: 安排產前檢查門診追蹤觀察
-- **B**: 安排住院引產
-- **C**: 安排剖腹生產
-- **D**: 給予抗生素治療
-
-----------------------------------------
-
-## Q44 (ID: 108-2_medicine-6_044) -> Correct Answer: C
-不建議孕婦於懷孕期間,接受下列那一項預防性疫苗接種?
-- **A**: 流行性感冒(influenza)
-- **B**: 狂犬病(rabies)
-- **C**: 水痘(varicella)
-- **D**: 破傷風 (tetanus)
-
-----------------------------------------
-
-## Q45 (ID: 108-2_medicine-6_045) -> Correct Answer: A
-臨床上測量有無尿道過度移動(urethral hypermobility),常會作cotton swab test 並使用測角器(goniometer)
- 來測量尿道靜止及移動角度變化,下列何者為診斷尿道過度移動的準則(criteria)?
-- **A**: a resting urethral angle > 30 degrees or a maximal straining angle > 30 degrees
-- **B**: a resting urethral angle > 30 degrees and a maximal straining angle > 30 degrees
-- **C**: a resting urethral angle > 30 degrees or a maximal straining angle > 45 degrees
-- **D**: a resting urethral angle > 30 degrees and a maximal straining angle > 45 degrees
-
-----------------------------------------
-
-# Batch: 108-2_medicine-6_batch-004
-Category Group: 醫學（六）
-Allowed Categories: ['麻醉科', '眼科', '耳鼻喉科', '婦產科', '復健科', '醫學倫理與醫療決策', '其他']
-
-## Q46 (ID: 108-2_medicine-6_046) -> Correct Answer: B
-有關人類乳突病毒(HPV)的敘述,下列何者錯誤?
-- **A**: 病理切片上,koilocytosis是HPV感染的特徵
-- **B**: 第6及第11型屬高危險型
-- **C**: 第16型是子宮頸癌與癌前病變最常見的型別
-- **D**: HPV的E6與E7屬致癌蛋白
-
-----------------------------------------
-
-## Q47 (ID: 108-2_medicine-6_047) -> Correct Answer: D
-有關處置外陰癌(vulvar cancer),最近的處置原則,不包括下列何者?
-- **A**: 對所有的病患都應該根據其狀況,做個別式(individualization)的治療
-- **B**: 不必一定要執行常規(routine)的骨盆腔淋巴結去除手術(pelvic lymph node dissection)
-- **C**: 針對腹股溝淋巴有轉移(multiple positive groin nodes)的病患,手術後的放射線治療是必須的。目的要降低
- 腹股溝(groin)處的復發。因為這類病患一旦有腹股溝處的復發,幾乎均會死亡
-- **D**: 因爲外陰癌(vulvar cancer)的病患,淋巴的轉移,是沿著腹股溝的淋巴結轉移,應常規執行外陰癌根除術
- 及雙側的腹股溝淋巴結去除手術(groin lymph nodes dissection)
-
-----------------------------------------
-
-## Q48 (ID: 108-2_medicine-6_048) -> Correct Answer: B
-下列那一種妊娠滋養細胞腫瘤(gestational trophoblastic neoplasia, GTN),對化療的反應最差?
-- **A**: 絨毛腺癌(choriocarcinoma)
-- **B**: 胎盤處滋養細胞腫瘤(placental-site trophoblastic tumor)
-- **C**: 侵襲性(invasive)GTN
-- **D**: 轉移性(metastatic)GTN
-
-----------------------------------------
-
-## Q49 (ID: 108-2_medicine-6_049) -> Correct Answer: A
-因為卵巢生殖細胞瘤(germ cell tumors of the ovary)大多都是單側生長,下列那一種最可能會同時發現兩側
- 都有腫瘤?
-- **A**: 無性胚胎瘤(dysgerminoma)
-- **B**: 卵巢內胚層竇瘤(endodermal sinus tumor)
-- **C**: 卵巢多胚瘤(polyembryoma)
-- **D**: 混合性生殖細胞腫瘤(mixed germ cell tumor)
-
-----------------------------------------
-
-## Q50 (ID: 108-2_medicine-6_050) -> Correct Answer: A
-關於多毛症(hirsutism)治療之敘述,下列何者錯誤?
-- **A**: 使用medroxyprogesterone acetate治療
-- **B**: 使用flutamide治療
-- **C**: 使用spironolactone治療
-- **D**: 使用cyproterone acetate治療
-
-----------------------------------------
-
-## Q51 (ID: 108-2_medicine-6_051) -> Correct Answer: C
-關於高泌乳激素血症(hyperprolactinemia)與泌乳激素腺瘤(prolactin adenoma)之敘述,下列何者錯誤?
-- **A**: bromocriptine是短效的dopamine-like藥物,須每日服用
-- **B**: cabergoline是長效的dopamine-like藥物,每週服用2次
-- **C**: 服用bromocriptine與cabergoline,無法有效地縮小腫瘤
-- **D**: 服用bromocriptine與cabergoline,若泌乳激素(prolactin)的血中濃度降至正常範圍內達2年以上,可考慮停
- 藥追蹤
-
-----------------------------------------
-
-## Q52 (ID: 108-2_medicine-6_052) -> Correct Answer: C
-25歲何小姐到院初診,身高156 cm、體重75 Kg、BMI=30.8,臉上有許多青春痘,以前曾經發生過2次長期而
- 量多的出血,上一次月經是3個月前,這3個月,都在每月的15日前後,有1天的微量出血,下列何者為非必要
- 之檢查?
-- **A**: 測定血中estradiol(E2)、FSH及LH之濃度
-- **B**: 尿液懷孕試驗
-- **C**: 染色體檢查
-- **D**: 婦產科超音波檢查
-
-----------------------------------------
-
-## Q53 (ID: 108-2_medicine-6_053) -> Correct Answer: B
-試管嬰兒療程中以controlled ovarian stimulation得以同時使多顆濾泡成熟至排卵前的階段,最主要是因為額外
- 給予下列那一種荷爾蒙?
-- **A**: Estradiol,因為高雌性素的環境,能持續支持長大中的濾泡
-- **B**: FSH,因為高濃度的FSH,能持續支持長大中的濾泡
-- **C**: LH,因為LH會增加steroid製造,讓較小的濾泡持續有生成雌性素的原料
-- **D**: Estradiol,因為高濃度的雌性素會負回饋抑制下視丘,進而延遲LH surge讓更多濾泡可以生長
-
-----------------------------------------
-
-## Q54 (ID: 108-2_medicine-6_054) -> Correct Answer: B
-有關胚胎植入前基因診斷(preimplantation genetic diagnosis)技術的敘述,下列何者錯誤?
-- **A**: 須要配合試管嬰兒療程施行
-- **B**: 當結果是正常女性(46, XX)時,最有可能是培養處理時,母親細胞污染所造成
-- **C**: 可排除染色體異常的胚胎
-- **D**: 當婦女有習慣性流產的病史,可減少流產的機會
-
-----------------------------------------
-
-## Q55 (ID: 108-2_medicine-6_055) -> Correct Answer: D
-15歲就讀國三的女生因為至今仍無初經,由媽媽陪同前來看診。她身高140公分,體重35公斤。理學檢查發現
- 無第二性徵,有明顯的蹼狀頸(webbed neck)。媽媽回憶女兒小時候因為先天性心臟病有接受過手術,也帶
- 來過去做的染色體檢查報告,如圖所示。關於這名患者的狀況,下列敘述何者正確?
-- **A**: 抽血驗FSH/LH/Estradiol的數值應是三者皆低
-- **B**: 應建議病患立即手術切除性腺,因有癌變的風險
-- **C**: 此疾病患者全無子宮發育
-- **D**: 此疾病患者若為鑲嵌染色體型(mosaicism)仍可能有正常月經
-
-----------------------------------------
-
-## Q56 (ID: 108-2_medicine-6_056) -> Correct Answer: B
-30歲已婚女性,因為男性因素不孕症的原因,接受試管嬰兒療程(in vitro fertilization)。接受超音波導引取
- 卵手術的隔天,因為噁心、腹漲、呼吸喘等不適回到醫院,診斷是卵巢過度刺激症候群(ovarian
- hyperstimulation syndrome)。下列何項作法可以降低這項疾病的發生機會?
-- **A**: 增加療程中gonadotropin的劑量
-- **B**: 選用GnRH agonist誘發排卵(ovulation trigger)接著冷凍胚胎(cryopreservation)於下次植入
-- **C**: 選用GnRH agonist的長療程(long protocol)
-- **D**: 於取卵後的黃體期支持(luteal support)中施打human chorionic gonadotropin(hCG)
-
-----------------------------------------
-
-## Q57 (ID: 108-2_medicine-6_057) -> Correct Answer: B
-卵細胞何時完成第一次減數分裂(meiosis I)?
-- **A**: 性成熟時(puberty)
-- **B**: 黃體化激素潮放(LH surge)時
-- **C**: 精子進入卵子之時
-- **D**: 受精後(fertilization)
-
-----------------------------------------
-
-## Q58 (ID: 108-2_medicine-6_058) -> Correct Answer: B
-下列那一條神經常在穿過鼠蹊韌帶(inguinal ligament)時受到壓迫,造成病患大腿外側感覺麻痛?
-- **A**: 股神經(femoral nerve)
-- **B**: 股骨側皮表神經(lateral femoral cutaneous nerve)
-- **C**: 閉孔神經(obturator nerve)
-- **D**: 陰部神經(pudendal nerve)
-
-----------------------------------------
-
-## Q59 (ID: 108-2_medicine-6_059) -> Correct Answer: A
-下列何種神經病變,病人的上肢會呈現如「侍者小費(waiter tip)」的表現?
-- **A**: 臂神經叢
-- **B**: 正中神經
-- **C**: 尺神經
-- **D**: 橈神經
-
-----------------------------------------
-
-## Q60 (ID: 108-2_medicine-6_060) -> Correct Answer: C
-動脈瘤(arterial aneurysm)常會導致下列何種形式的腦中風?
-- **A**: 視丘(thalamus)出血
-- **B**: 大腦皮層下(subcortical)出血
-- **C**: 蜘蛛網膜下(subarachnoid)出血
-- **D**: 小腦(cerebellum)出血
-
-----------------------------------------
-
-# Batch: 108-2_medicine-6_batch-005
-Category Group: 醫學（六）
-Allowed Categories: ['麻醉科', '眼科', '耳鼻喉科', '婦產科', '復健科', '醫學倫理與醫療決策', '其他']
-
-## Q61 (ID: 108-2_medicine-6_061) -> Correct Answer: C
-對「鎖入症候群(lock-in syndrome)」的敘述,下列何項明顯錯誤?
-- **A**: 四肢無力
-- **B**: 兩側橋腦(pons)病變引起
-- **C**: 眼球左右共軛注視(conjugate gaze)功能正常
-- **D**: 皮質延髓徑(corticobular tract)部分受損
-
-----------------------------------------
-
-## Q62 (ID: 108-2_medicine-6_062) -> Correct Answer: C
-65歲的張太太罹患右膝退化性關節炎有五年之久,前天朋友邀約去爬七星山,回家後感覺右膝疼痛、腫脹。
- 醫師診察發現張太太的右膝腫脹,很可能有積水;把她的右膝彎到100度就會引起嚴重的疼痛,且右膝內側有
- 壓痛點,則下列處置何者最不適宜?
-- **A**: 投予非類固醇抗發炎藥
-- **B**: 在右膝上使用經皮神經電刺激
-- **C**: 立即把她的右膝牽拉到正常的角度
-- **D**: 右膝可做等長運動
-
-----------------------------------------
-
-## Q63 (ID: 108-2_medicine-6_063) -> Correct Answer: D
-臨床上下列何處之病變因超音波檢查不易檢測而最需使用磁振造影(MRI)檢查?
-- **A**: 脊上肌(supraspinatus)肌腱
-- **B**: 脊下肌(infraspinatus)肌腱
-- **C**: 三角肌下滑液囊(subdeltoid bursa)
-- **D**: 肩關節之盂唇(labrum)
-
-----------------------------------------
-
-## Q64 (ID: 108-2_medicine-6_064) -> Correct Answer: C
-下列何者不是非發炎性關節液(non-inflammatory synovial fluid)的特徵?
-- **A**: 黏蛋白凝固(mucin clot)佳
-- **B**: 多形核白血球之比率<25%
-- **C**: 白血球數目高於2000/mm3
-- **D**: 黏綢度(viscosity)高
-
-----------------------------------------
-
-## Q65 (ID: 108-2_medicine-6_065) -> Correct Answer: C
-有關人類骨折(fracture)復健的原則,下列何者錯誤?
-- **A**: 對於骨折病人,未加固定的關節應儘早運動
-- **B**: 對老年人而言,步態訓練時先使用助行器(walker)
-- **C**: 急性期骨折處局部熱療可減緩疼痛,降低肌肉痙攣(spasm)
-- **D**: 對於骨折病人,適當增加負重(weight bearing)可促進骨折癒合
-
-----------------------------------------
-
-## Q66 (ID: 108-2_medicine-6_066) -> Correct Answer: B
-下圖中的背架,最適合用於下列何種病患?
-- **A**: 第七頸椎骨折
-- **B**: 突向右側頂點在第六胸椎的脊椎側彎
-- **C**: 第十胸椎壓迫性骨折
-- **D**: 第一腰椎骨折脫位
-
-----------------------------------------
-
-## Q67 (ID: 108-2_medicine-6_067) -> Correct Answer: C
-關於肌力訓練的描述,下列何者錯誤?
-- **A**: 阻力訓練是借重高阻力之訓練,通常是一種等長性之肌肉收縮(isometric contraction)
-- **B**: 等長阻力訓練肌肉維持在等長狀態對抗阻力作收縮訓練,其關節並不產生動作
-- **C**: 等張性運動(isotonic exercise)就是等角速度運動(isokinetic exercise)
-- **D**: 阻力訓練對心臟的負荷較大,一般對心臟病患或老年人較不建議
-
-----------------------------------------
-
-## Q68 (ID: 108-2_medicine-6_068) -> Correct Answer: B
-關於symmetric tonic neck reflex的敘述,下列何者正確?
-- **A**: 屈曲頭部時,上肢會彎曲,下肢也會彎曲
-- **B**: 屈曲頭部時,上肢會彎曲,下肢也會伸直
-- **C**: 伸直頭部時,上肢會伸直,下肢也會伸直
-- **D**: 伸直頭部時,上肢會彎曲,下肢也會伸直
-
-----------------------------------------
-
-## Q69 (ID: 108-2_medicine-6_069) -> Correct Answer: B
-中風剛住院的病患,在語言評估時,發現他說話時雖常出現語誤,但聽理解能力與語言表達流暢度尚佳,只
- 不過在單詞覆述、聽寫單詞與朗誦文字會出現困難,這最可能是以下那一種語言障礙?
-- **A**: 渥尼克氏失語症(Wernicke aphasia)
-- **B**: 傳導型失語症(conduction aphasia)
-- **C**: 經皮質混合型失語症(transcortical mixed aphasia)
-- **D**: 運動失調型吶吃(ataxic dysarthria)
-
-----------------------------------------
-
-## Q70 (ID: 108-2_medicine-6_070) -> Correct Answer: C
-老太太跌倒後因劇烈疼痛被送到急診,檢查後發現疼痛部位為兩側腹股溝,但因兩側大腿前屈角度正常,懷
- 疑是脊椎壓迫性骨折,下列那一節脊椎最可能有壓迫性骨折?
-- **A**: C7
-- **B**: T8
-- **C**: L1
-- **D**: L5
-
-----------------------------------------
-
-## Q71 (ID: 108-2_medicine-6_071) -> Correct Answer: C
-下列何者是現今評估吞嚥功能的黃金標準(gold standard)檢查?
-- **A**: 壓力測定儀(manometry)
-- **B**: 超音波檢查(ultrasound)
-- **C**: 錄影螢光吞嚥檢查(videofluorographic swallowing study)
-- **D**: 電腦斷層咽喉掃描(CT scan of pharynx)
-
-----------------------------------------
-
-## Q72 (ID: 108-2_medicine-6_072) -> Correct Answer: B
-40歲女性患者,主訴幾個月來左眼視力逐漸減退,接受磁振造影檢查,圖為注射顯影劑後並且經過抑制脂肪
- 處理的T1加權影像,圖中箭號所指最可能的病變是:
-- **A**: 視神經膠質瘤(optic nerve glioma)
-- **B**: 視神經鞘腦膜瘤(optic nerve sheath meningioma)
-- **C**: 視神經炎(optic neuritis)
-- **D**: 眼窩假性腫瘤(orbital pseudotumor)
-
-----------------------------------------
-
-## Q73 (ID: 108-2_medicine-6_073) -> Correct Answer: B
-關於腦部動脈瘤的蜘蛛網膜下腔出血(SAH),下列何者錯誤?
-- **A**: 蜘蛛網膜下腔出血較集中處常與動脈瘤的位置有關
-- **B**: 蜘蛛網膜下腔出血所造成的腦血管收縮(vasospasm),通常在前三天最嚴重
-- **C**: 電腦斷層血管影像(CTA)在診斷大於2 mm的腦動脈瘤有超過90%的敏感度
-- **D**: 蜘蛛網膜下腔出血可造成交通性水腦(communicating hydrocephalus)
-
-----------------------------------------
-
-## Q74 (ID: 108-2_medicine-6_074) -> Correct Answer: A
-一位年輕女性磁振造影檢查呈現如圖,箭號所指之敘述何者最正確?
-- **A**: 雙角子宮
-- **B**: 雙子宮
-- **C**: 子宮經血滯留
-- **D**: 單角子宮
-
-----------------------------------------
-
-## Q75 (ID: 108-2_medicine-6_075) -> Correct Answer: B
-一位25歲男性,摩托車騎士,因酒後不慎撞上安全島,顏面挫傷送至急診時,病人抱怨眼眶周圍疼痛、眼瞼
- 有瘀血且浮腫。下列有關Blowout fracture的敘述,何者錯誤?
-- **A**: Waters' view及Caldwell view檢查可助於評估眼底骨折
-- **B**: frontal sinus比maxillary sinus更容易積血
-- **C**: Blowout fracture主要因orbital floor太薄弱導致
-- **D**: 常伴隨有複視現象(diplopia)
-
-----------------------------------------
-
-# Batch: 108-2_medicine-6_batch-006
-Category Group: 醫學（六）
-Allowed Categories: ['麻醉科', '眼科', '耳鼻喉科', '婦產科', '復健科', '醫學倫理與醫療決策', '其他']
-
-## Q76 (ID: 108-2_medicine-6_076) -> Correct Answer: C
-一位38歲男性病人,因突然左耳聽不到任何聲音至急診求診,經診斷為突發性耳聾(sudden hearing loss)。
- 關於此病之敘述下列何者正確?
-- **A**: 定義為一個月內發生之聽力喪失
-- **B**: 發生機率和年紀無關
-- **C**: 大部分突發性耳聾的原因為原發性(idiopathic)
-- **D**: 腮腺炎已證實和造成此病無關
-
-----------------------------------------
-
-## Q77 (ID: 108-2_medicine-6_077) -> Correct Answer: D
-一位35歲懷孕28週婦女,因血壓過高至急診就診,經評估後懷疑是子癲前症(pre-eclampsia)。下
- 列何者不是此病之臨床表現?
-- **A**: 高血壓(hypertension)
-- **B**: 蛋白尿(proteinuria)
-- **C**: 寡尿(oliguria)
-- **D**: 癲癇(seizure)
-
-----------------------------------------
-
-## Q78 (ID: 108-2_medicine-6_078) -> Correct Answer: A
-安排病人接受白內障手術前,需要跟病人詳細說明手術的內容及其效益與風險,並在確認病人瞭解及同意
- 後,再請病人簽署手術知情同意書(informed consent),這種作法最主要是在確保:
-- **A**: 病人自主
-- **B**: 病人隱私
-- **C**: 資源浪費
-- **D**: 公平正義
-
-----------------------------------------
-
-## Q79 (ID: 108-2_medicine-6_079) -> Correct Answer: B
-一位80歲的老人因顱內血管破裂而住入加護病房,病人此時神智不清、昏迷指數只剩三分。病人有一兒子,
- 兩人沒有住在一起,感情並不親密。病人之前神智清楚時曾書面指定隔壁鄰居為醫療委任代理人,此時面臨
- 拔管的決定,依我國相關法令,下列何者正確?
-- **A**: 兒子為唯一醫療代理人
-- **B**: 隔壁鄰居為唯一醫療代理人
-- **C**: 兒子和隔壁鄰居應為共同代理
-- **D**: 兒子和隔壁鄰居都不得代理決定
-
-----------------------------------------
-
-## Q80 (ID: 108-2_medicine-6_080) -> Correct Answer: A
-病人為51歲男性,一年前開始有忌妒妄想,認為教會中的長者在追求他的太太,並指使她要和病人離婚,因
- 此病人非常的生氣,除了當眾與教會的長者發生衝突外,也會脅迫太太。病人離群索居,沒有工作,日常生
- 活希望他太太儘量不要離開他的視線,也會到她工作的場所偷偷監視,同時每天撰寫著教會長者的「罪行」
- 分送親友。病人除了忌妒妄想外,還有一些怪異的宗教幻想。由於其暴力傾向越來越明顯,他的太太非常害
- 怕回家,唯恐被病人殺害,因此求助於醫師。在此種情況下,下列處置何者最不適當?
-- **A**: 直接開立抗精神病藥滴劑給病人家屬,以便其讓病人服用
-- **B**: 強制病人住院接受治療
-- **C**: 提供家屬可以利用的社會資源及管道
-- **D**: 考慮到病人及家屬安全,通知相關社工或警政單位
-
-----------------------------------------
-
-# Batch: 109-1_medicine-1_batch-001
+# Batch: 109-2_medicine-1_batch-001
 Category Group: 醫學（一）
 Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
 
-## Q1 (ID: 109-1_medicine-1_001) -> Correct Answer: D
-下列何者供應內囊後支(posterior limb of internal capsule)之血流?
-- **A**: 前大腦動脈(anterior cerebral artery)
-- **B**: 後交通動脈(posterior communicating artery)
-- **C**: 丘腦穿通動脈(thalamoperforating artery)
-- **D**: 前脈絡叢動脈(anterior choroidal artery)
+## Q1 (ID: 109-2_medicine-1_001) -> Correct Answer: C
+有關中樞神經系統內下行徑路的敘述,下列何者錯誤?
+- **A**: 前庭脊髓徑(vestibulospinal tract)主要支配軀幹與肢體之伸肌群(extensor muscle)
+- **B**: 網狀系統接受多方面傳入之訊息且發出網狀脊髓徑(reticulospinal tract)調控運動系統
+- **C**: 在人體,紅核脊髓徑(rubrospinal tract)支配上下肢之屈肌群
+- **D**: 腹側大腦皮質脊髓徑(ventral corticospinal tract)主要支配軀幹之肌群
 
 ----------------------------------------
 
-## Q2 (ID: 109-1_medicine-1_002) -> Correct Answer: C
-下列何者連接前庭神經核(vestibular nucleus)與控制眼球運動之神經核?
-- **A**: vestibulocerebellar fiber
-- **B**: central tegmental tract
-- **C**: medial longitudinal fasciculus
-- **D**: medial forebrain bundle
+## Q2 (ID: 109-2_medicine-1_002) -> Correct Answer: D
+有關內耳外淋巴(perilymph)的敘述,下列何者錯誤?
+- **A**: 存在於連接圓窗(round window)與卵圓窗(oval window)間的管道
+- **B**: 存於耳蝸的前庭階(scala vestibuli)內
+- **C**: 與蛛網膜下腔(subarachnoid space)相交通
+- **D**: 存於膜性迷路(membranous labyrinth)內
 
 ----------------------------------------
 
-## Q3 (ID: 109-1_medicine-1_003) -> Correct Answer: A
-下列何者支配第一對咽弓(pharyngeal arch)衍生的構造?
-- **A**: 三叉神經運動核(trigeminal motor nucleus)
-- **B**: 面神經核(facial nucleus)
-- **C**: 動眼神經核(oculomotor nucleus)
-- **D**: 上橄欖核(superior olivary nucleus)
+## Q3 (ID: 109-2_medicine-1_003) -> Correct Answer: C
+有關內頸動脈(internal carotid artery)的敘述,下列何者錯誤?
+- **A**: 起源於總頸動脈
+- **B**: 在頸部它走於內頸靜脈的內側
+- **C**: 於破裂孔(foramen lacerum)處轉向後方進入顱腔
+- **D**: 與外旋神經(abducent nerve)共同穿過海綿竇(cavernous sinus)
 
 ----------------------------------------
 
-## Q4 (ID: 109-1_medicine-1_004) -> Correct Answer: B
-下列何者連接海綿竇(cavernous sinus)與橫竇(transverse sinus)?
-- **A**: 乙狀竇(sigmoid sinus)
-- **B**: 上岩竇(superior petrosal sinus)
-- **C**: 下岩竇(inferior petrosal sinus)
-- **D**: 直竇(straight sinus)
+## Q4 (ID: 109-2_medicine-1_004) -> Correct Answer: 
+在一般情況下,奇靜脈(azygos vein)在下列何處造成壓跡?
+- **A**: 右肺上葉(right lung, superior lobe)
+- **B**: 左肺上葉(left lung, superior lobe)
+- **C**: 右肺下葉(right lung, inferior lobe)
+- **D**: 左肺下葉(left lung, inferior lobe)
+*Note: 官方更正答案標註 #，需人工確認備註。*
 
 ----------------------------------------
 
-## Q5 (ID: 109-1_medicine-1_005) -> Correct Answer: B
-位於蝶骨大翼(greater wing)與小翼(lesser wing)間的構造為:
-- **A**: 視神經孔(optic foramen)
-- **B**: 眶上裂(superior orbital fissure)
-- **C**: 圓孔(foramen rotundum)
-- **D**: 眶下裂(inferior orbital fissure)
+## Q5 (ID: 109-2_medicine-1_005) -> Correct Answer: B
+消化道管壁內,有縱走皺摺的是:
+- **A**: 食道
+- **B**: 胃
+- **C**: 空腸
+- **D**: 橫結腸
 
 ----------------------------------------
 
-## Q6 (ID: 109-1_medicine-1_006) -> Correct Answer: B
-耳下腺管(parotid duct)開口處口腔黏膜的痛覺,由下列何者傳導?
-- **A**: 舌神經(lingual nerve)
-- **B**: 頰神經(buccal nerve)
-- **C**: 顴面神經(zygomaticofacial nerve)
-- **D**: 面神經(facial nerve)之頰支(buccal branch)
+## Q6 (ID: 109-2_medicine-1_006) -> Correct Answer: C
+下列何者支配提睪肌(cremasteric muscle)?
+- **A**: 髂腹下神經(iliohypogastric nerve)
+- **B**: 髂腹股溝神經(ilioinguinal nerve)
+- **C**: 生殖股神經(genitofemoral nerve)
+- **D**: 閉孔神經(obturator nerve)
 
 ----------------------------------------
 
-## Q7 (ID: 109-1_medicine-1_007) -> Correct Answer: A
-在心臟上方,將動脈群包括主動脈(ascending aorta)及肺動脈幹(pulmonary trunk),與靜脈群包括肺靜脈
- (pulmonary vein)及上腔靜脈(superior vena cava)兩者分開的是:
-- **A**: 心包膜橫竇(transverse pericardial sinus)
-- **B**: 心包膜斜竇(oblique pericardial sinus)
-- **C**: 冠狀竇(coronary sinus)
-- **D**: 心包膜腔胸骨面(sternal surface of pericardial cavity)
+## Q7 (ID: 109-2_medicine-1_007) -> Correct Answer: B
+膀胱下動脈(inferior vesical artery)發生阻塞,下列何者最不可能受影響?
+- **A**: 膀胱
+- **B**: 直腸
+- **C**: 儲精囊
+- **D**: 輸精管
 
 ----------------------------------------
 
-## Q8 (ID: 109-1_medicine-1_008) -> Correct Answer: C
-膈下動脈(inferior phrenic artery)源自:
-- **A**: 胸內動脈(internal thoracic artery)
-- **B**: 腹腔動脈幹(celiac trunk)
-- **C**: 腹主動脈(abdominal aorta)
-- **D**: 腎動脈(renal artery)
+## Q8 (ID: 109-2_medicine-1_008) -> Correct Answer: C
+直腸梳狀線(pectinate line)下方之淋巴,最常直接匯流至下列何處?
+- **A**: 髂內淋巴結(internal iliac lymph nodes)
+- **B**: 髂外淋巴結(external iliac lymph nodes)
+- **C**: 腹股溝淺淋巴結(superficial inguinal lymph nodes)
+- **D**: 腰淋巴結(lumbar lymph nodes)
 
 ----------------------------------------
 
-## Q9 (ID: 109-1_medicine-1_009) -> Correct Answer: D
-有關精索(spermatic cord)的敘述,下列何者錯誤?
-- **A**: 外包三層筋膜(fascia)
-- **B**: 內有睪丸動脈(testicular artery)及輸精管(ductus deferens)
-- **C**: 內有蔓狀靜脈叢(pampiniform venous plexus)
-- **D**: 內無淋巴管(lymphatic vessels)
+## Q9 (ID: 109-2_medicine-1_009) -> Correct Answer: D
+支配臀中肌(gluteus medius)的神經發炎,下列何者最可能同時受影響?
+- **A**: 臀大肌(gluteus maximus)
+- **B**: 梨狀肌(piriformis)
+- **C**: 上孖肌(superior gemellus)
+- **D**: 闊筋膜張肌(tensor fasciae latae)
 
 ----------------------------------------
 
-## Q10 (ID: 109-1_medicine-1_010) -> Correct Answer: C
-在男性,下列何者是女性前庭球(bulb of the vestibule)的同源構造?
-- **A**: 尿道球腺(bulbourethral gland)
-- **B**: 陰莖海綿體(copora cavernosa)
-- **C**: 尿道海綿體(corpus spongiosum)
-- **D**: 陰莖腳(crus of penis)
-
-----------------------------------------
-
-## Q11 (ID: 109-1_medicine-1_011) -> Correct Answer: A
-膝反射(knee jerk reflex),主要是測試下列何者的反應?
-- **A**: 股神經(femoral nerve)
-- **B**: 閉孔神經(obturator nerve)
-- **C**: 坐骨神經(sciatic nerve)
-- **D**: 脛神經(tibial nerve)
-
-----------------------------------------
-
-## Q12 (ID: 109-1_medicine-1_012) -> Correct Answer: C
-下列脊神經(spinal n.)的分支中,何者只含感覺神經纖維?
-- **A**: 背側支(dorsal ramus)
-- **B**: 腹側支(ventral ramus)
-- **C**: 背根絲(dorsal rootlet)
-- **D**: 腹根絲(ventral rootlet)
-
-----------------------------------------
-
-## Q13 (ID: 109-1_medicine-1_013) -> Correct Answer: B
-在繞過腳內踝的跗骨隧道(tarsal tunnel)處,可以觸摸到下列何者的脈搏?
-- **A**: 脛前動脈(anterior tibial artery)
-- **B**: 脛後動脈(posterior tibial artery)
-- **C**: 足底內側動脈(medial plantar artery)
-- **D**: 足底外側動脈(lateral plantar artery)
-
-----------------------------------------
-
-## Q14 (ID: 109-1_medicine-1_014) -> Correct Answer: D
-關於基底核(basal ganglia)之敘述,下列何者錯誤?
-- **A**: 黑質(substantia nigra)投射到殼部(putamen)
-- **B**: 丘腦腹前核(ventral anterior nucleus of thalamus)可參與直接(direct)和間接迴路(indirect pathway)
-- **C**: 黑質(substantia nigra)興奮直接迴路(direct pathway)
-- **D**: 間接迴路(indirect pathway)不受黑質(substantia nigra)調控
-
-----------------------------------------
-
-## Q15 (ID: 109-1_medicine-1_015) -> Correct Answer: A
-丘腦內側膝狀體(medial geniculate body of thalamus),主要投射至下列何處?
-- **A**: 顳橫迴(transverse temporal gyrus)
-- **B**: 外側枕顳迴(lateral occiptotemporal gyrus)
-- **C**: 島閾(limen insula)
-- **D**: 角迴(angular gyrus)
-
-----------------------------------------
-
-# Batch: 109-1_medicine-1_batch-002
-Category Group: 醫學（一）
-Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
-
-## Q16 (ID: 109-1_medicine-1_016) -> Correct Answer: D
-病人雙眼顳側偏盲(bitemporal hemianopia),其病灶位於何處?
-- **A**: 視神經(optic nerve)
-- **B**: 眼窩(orbital fossa)
-- **C**: 視神經管(optic canal)
-- **D**: 視交叉(optic chiasma)
-
-----------------------------------------
-
-## Q17 (ID: 109-1_medicine-1_017) -> Correct Answer: B
-基底核(basal ganglia)的直接迴路(direct pathway)不經過下列何構造?
-- **A**: 丘腦(thalamus)
-- **B**: 丘腦下核(subthalamus)
-- **C**: 大腦皮質運動區(motor cortex)
-- **D**: 蒼白球(globus pallidus)
-
-----------------------------------------
-
-## Q18 (ID: 109-1_medicine-1_018) -> Correct Answer: B
-顳頜關節(temporomandibular joint)手術後,耳下腺(parotid gland)分泌功能降低,下列何者最可能受損?
-- **A**: 顏面神經(facial nerve)
-- **B**: 耳顳神經(auriculotemporal nerve)
-- **C**: 舌神經(lingual nerve)
-- **D**: 下齒槽神經(inferior alveolar nerve)
-
-----------------------------------------
-
-## Q19 (ID: 109-1_medicine-1_019) -> Correct Answer: B
-控制睫狀肌(ciliary muscle)的副交感節前神經纖維(parasympathetic preganglionic fibers),通常經由下列何
- 者進入睫狀神經節(ciliary ganglion)?
-- **A**: 動眼神經上分支(superior branch of oculomotor nerve)
-- **B**: 動眼神經下分支(inferior branch of oculomotor nerve)
-- **C**: 鼻睫神經(nasociliary nerve)
-- **D**: 外旋神經(abducent nerve)
-
-----------------------------------------
-
-## Q20 (ID: 109-1_medicine-1_020) -> Correct Answer: A
-動脈韌帶(ligamentum arteriosum),位在那兩條血管之間?
-- **A**: 主動脈與肺動脈
-- **B**: 肺動脈與上腔靜脈
-- **C**: 主動脈與上腔靜脈
-- **D**: 主動脈與肺靜脈
-
-----------------------------------------
-
-## Q21 (ID: 109-1_medicine-1_021) -> Correct Answer: C
-下列何反應與迷走神經無關?
-- **A**: 咳嗽反射
-- **B**: 肺擴張反射(Hering-Breuer inflation reflex)
-- **C**: 抑制肺泡type II肺泡上皮分泌
-- **D**: 支氣管平滑肌收縮
-
-----------------------------------------
-
-## Q22 (ID: 109-1_medicine-1_022) -> Correct Answer: D
-根除性乳房切除手術(radical mastectomy),經常清除下列何者而造成術後患側上肢水腫?
-- **A**: 鎖骨上淋巴結(supraclavicular nodes)
-- **B**: 下深頸淋巴結(inferior deep cervical nodes)
-- **C**: 胸骨旁淋巴結(parasternal nodes)
-- **D**: 腋淋巴結(axillary nodes)
-
-----------------------------------------
-
-## Q23 (ID: 109-1_medicine-1_023) -> Correct Answer: A
-胸腺(thymus)主要位於:
-- **A**: 上縱隔(superior mediastinum)
-- **B**: 下前縱隔(anterior inferior mediastinum)
-- **C**: 下中縱隔(middle inferior mediastinum)
-- **D**: 下後縱隔(posterior inferior mediastinum)
-
-----------------------------------------
-
-## Q24 (ID: 109-1_medicine-1_024) -> Correct Answer: B
-肺癌病患若出現聲帶麻痺,最有可能是影響到那一條神經?
-- **A**: 膈神經(phrenic nerve)
-- **B**: 喉返神經(recurrent laryngeal nerve)
-- **C**: 交感神經幹(sympathetic trunk)
-- **D**: 肋間神經(intercostal nerve)
-
-----------------------------------------
-
-## Q25 (ID: 109-1_medicine-1_025) -> Correct Answer: D
-下列何者不在幽門平面(transpyloric plane)上?
-- **A**: 十二指腸空腸曲(duodenojejunal flexure)
-- **B**: 左右腎門(renal hilum)的連線
-- **C**: L1椎體(vertebral body of L1)
-- **D**: 脾門(splenic hilum)
-
-----------------------------------------
-
-## Q26 (ID: 109-1_medicine-1_026) -> Correct Answer: A
-下列何者進入腎上腺髓質(suprarenal medulla),與嗜鉻細胞(chromaffin cell)形成突觸?
-- **A**: 經小內臟神經(lesser splanchnic nerve)來的節前神經纖維(preganglionic fiber)
-- **B**: 經腹腔神經節(celiac ganglion)來的節後神經纖維(postganglionic fiber)
-- **C**: 經主動脈腎神經節(aorticorenal ganglion)來的節後神經纖維(postganglionic fiber)
-- **D**: 經下腹下神經叢(inferior hypogastric plexus)來的節前神經纖維(preganglionic fiber)
-
-----------------------------------------
-
-## Q27 (ID: 109-1_medicine-1_027) -> Correct Answer: A
-肛直腸彎曲(anorectal flexure)之角度,主要由下列何者所牽引形成?
-- **A**: 恥直腸肌(puborectalis muscle)
-- **B**: 恥尾肌(pubococcygeal muscle)
-- **C**: 會陰深橫肌(deep transverse perineal muscle)
-- **D**: 肛門外括約肌(external anal sphincter)
-
-----------------------------------------
-
-## Q28 (ID: 109-1_medicine-1_028) -> Correct Answer: B
-下列何構造是位於會陰淺凹內(superficial perineal pouch)?1陰莖根(root of penis)2球尿道腺
- (bulborethral gland) 3大前庭腺(greater vestibular gland) 4坐骨海綿體肌(ischiocavernosus
- muscle) 5尿道外括約肌(external urethral sphincter muscle)
-- **A**: 123
-- **B**: 134
-- **C**: 235
-- **D**: 245
-
-----------------------------------------
-
-## Q29 (ID: 109-1_medicine-1_029) -> Correct Answer: D
-大腿後肌肉群,由下列何者支配?
-- **A**: 脛神經(tibial nerve)
-- **B**: 股神經(femoral nerve)
-- **C**: 閉孔神經(obturator nerve)
-- **D**: 坐骨神經(sciatic nerve)
-
-----------------------------------------
-
-## Q30 (ID: 109-1_medicine-1_030) -> Correct Answer: D
-上臂的肌皮神經(musculocutaneous nerve)受損時,下列何者最不可能因此而受到嚴重的影響?
-- **A**: 肱肌(brachialis)
-- **B**: 肱二頭肌(biceps brachii)
-- **C**: 喙肱肌(coracobrachalis)
-- **D**: 肱橈肌(brachioradialis)
-
-----------------------------------------
-
-# Batch: 109-1_medicine-1_batch-003
-Category Group: 醫學（一）
-Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
-
-## Q31 (ID: 109-1_medicine-1_031) -> Correct Answer: C
-構成手腕(wrist)的骨頭中,那兩塊骨頭會直接與橈骨遠端(distal end of radius)相關節?
-- **A**: 大多角骨(trapezium)與小多角骨(trapezoid)
-- **B**: 頭狀骨(capitate)與鉤狀骨(hamate)
-- **C**: 舟狀骨(scaphoid)與月狀骨(lunate)
-- **D**: 三角骨(triquetrum)與豆狀骨(pisiform)
-
-----------------------------------------
-
-## Q32 (ID: 109-1_medicine-1_032) -> Correct Answer: C
-由於胚體快速的成長,所以造成橫膈背部(dorsal part of diaphragm)的最終位置,相當於下列那一椎骨的高
- 度?
-- **A**: T8
-- **B**: T10
-- **C**: L1
-- **D**: L3
-
-----------------------------------------
-
-## Q33 (ID: 109-1_medicine-1_033) -> Correct Answer: A
-胚胎發育時,下列那一咽溝(pharyngeal groove)會持續存在,並且衍生形成外聽道(external acoustic
- meatus)?
-- **A**: 第一
-- **B**: 第二
-- **C**: 第三
-- **D**: 第四
-
-----------------------------------------
-
-## Q34 (ID: 109-1_medicine-1_034) -> Correct Answer: B
-精索積水(hydrocele of the spermatic cord)是由於下列何者閉鎖不全造成?
+## Q10 (ID: 109-2_medicine-1_010) -> Correct Answer: A
+下列何者不是腹膜的衍生物?
 - **A**: 白膜(tunica albuginea)
-- **B**: 鞘突(processus vaginalis)
-- **C**: 泌尿生殖竇(urogenital sinus)
-- **D**: 泌尿生殖褶(urogenital fold)
+- **B**: 鞘膜(tunica vaginalis)
+- **C**: 闊韌帶(broad ligament)
+- **D**: 懸韌帶(suspensory ligament)
 
 ----------------------------------------
 
-## Q35 (ID: 109-1_medicine-1_035) -> Correct Answer: A
-下列何項構造不會在前腹壁上造成腹膜皺襞(peritoneal fold)?
-- **A**: 靜脈導管(ductus venosus)
-- **B**: 臍尿管(urachus)
-- **C**: 上腹下動脈(inferior epigastric artery)
-- **D**: 臍動脈(umbilical artery)
+## Q11 (ID: 109-2_medicine-1_011) -> Correct Answer: B
+下列何者是直接連接子宮與卵巢的支持構造?
+- **A**: 卵巢繫膜(ovarian mesovarium)
+- **B**: 卵巢韌帶(ovarian ligament)
+- **C**: 子宮圓韌帶(round ligament of the uterus)
+- **D**: 輸卵管繫膜(mesosalpinx)
 
 ----------------------------------------
 
-## Q36 (ID: 109-1_medicine-1_036) -> Correct Answer: C
-關於顱骨(cranium)發育的敘述,何項錯誤?
-- **A**: 起源於腦組織周圍之間質組織
-- **B**: 部分神經顱(neurocranium)由多塊軟骨癒合形成
-- **C**: 臟顱(viscerocranium)是大腦的主要保護結構
-- **D**: 第一、二對咽弓(pharyngeal arch)參與軟骨性臟顱(cartilaginous viscerocranium)的形成
+## Q12 (ID: 109-2_medicine-1_012) -> Correct Answer: D
+下列前臂(forearm)的肌肉中,那一塊附著在手腕的豆狀骨(pisiform bone)上?
+- **A**: 旋前圓肌(pronator teres)
+- **B**: 橈側屈腕肌(flexor carpi radialis)
+- **C**: 掌長肌(palmaris longus)
+- **D**: 尺側屈腕肌(flexor carpi ulnaris)
 
 ----------------------------------------
 
-## Q37 (ID: 109-1_medicine-1_037) -> Correct Answer: A
-關於成熟的類上皮組織(epithelioid tissue)的細胞之敘述,下列何項錯誤?
-- **A**: 有游離表面(free surface)
-- **B**: 有側區(lateral domain)
-- **C**: 有基底區(basal domain)
-- **D**: 基底區與基底膜(basement membrane)接觸
+## Q13 (ID: 109-2_medicine-1_013) -> Correct Answer: C
+有關頸椎關節的敘述,下列何者正確?
+- **A**: 寰枕關節(atlanto-occipital joint)主要提供頭部左右轉動
+- **B**: 翼韌帶(alar ligament)主要連結樞椎(axis)的齒突(dens)與寰椎(atlas)
+- **C**: 樞椎的齒突主要與寰椎前結節(anterior tubercle)的後表面形成關節
+- **D**: 橫突(transverse process)上有肋關節面(costal facet)
 
 ----------------------------------------
 
-## Q38 (ID: 109-1_medicine-1_038) -> Correct Answer: D
-平滑肌細胞內,細絲(thin filaments)和中間絲(intermediate filaments)會固著在下列何者?
-- **A**: 胞飲小泡(pinocytotic vesicles)
-- **B**: 橫小管(T-tubules)
-- **C**: 細胞膜小凹(caveolae)
-- **D**: 緻密體(dense body)
+## Q14 (ID: 109-2_medicine-1_014) -> Correct Answer: A
+胼胝體(corpus callosum)的主要血流供給來自下列何動脈?
+- **A**: 大腦前動脈(anterior cerebral artery)
+- **B**: 大腦中動脈(middle cerebral artery)
+- **C**: 前脈絡叢動脈(anterior choroid artery)
+- **D**: 豆紋動脈 (lenticulostriate artery)
 
 ----------------------------------------
 
-## Q39 (ID: 109-1_medicine-1_039) -> Correct Answer: A
-下列有關骨髓(bone marrow)的敘述,何者正確?
-- **A**: 具有竇狀系統(sinusoidal system),是一個封閉型的循環系統,新生的血球細胞必須穿透內皮
- (endothelium),才能進入循環
-- **B**: 黃骨髓(yellow bone marrow)是活化的骨髓,負責製造各種血球細胞
-- **C**: 在長骨(long bone)內的非造血空間,會被纖維母細胞(fibroblast)占據
-- **D**: 巨核細胞(megakaryocyte)釋放的血小板(platelet),必須藉由網狀細胞(reticular cell)的協助,才能進
- 入竇狀系統(sinusoidal system)
+## Q15 (ID: 109-2_medicine-1_015) -> Correct Answer: A
+下列何種神經傳導徑路,通過脊髓白質腹側聯合(ventral white commissure)?
+- **A**: 脊髓丘腦徑(spinothalamic tract)
+- **B**: 背側脊髓小腦徑(dorsal spinocerebellar tract)
+- **C**: 網狀脊髓徑(reticulospinal tract)
+- **D**: 紅核脊髓徑(rubrospinal tract)
 
 ----------------------------------------
 
-## Q40 (ID: 109-1_medicine-1_040) -> Correct Answer: A
-下列有關周邊神經組織(peripheral nervous tissue)的敘述,何者錯誤?
-- **A**: 神經內膜(endoneurium)的膠原纖維大部分由纖維母細胞(fibroblast)所合成
-- **B**: 神經束膜(perineurium)是由扁平的神經束膜細胞(perineurial cell)所構成
-- **C**: 神經束膜細胞(perineurial cell)間之緊密結合(tight junction)形成血–神經屏障(blood-nerve barrier)
-- **D**: 神經外膜(epineurium)由典型的緻密結締組織(dense connective tissue)所構成
+# Batch: 109-2_medicine-1_batch-002
+Category Group: 醫學（一）
+Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
+
+## Q16 (ID: 109-2_medicine-1_016) -> Correct Answer: A
+下列何構造不屬於外側嗅覺區(lateral olfactory area)?
+- **A**: 前隔區(septal area)
+- **B**: 鉤迴 (uncus)
+- **C**: 內鼻皮質(entorhinal cortex)
+- **D**: 杏仁核(amygdala)
 
 ----------------------------------------
 
-## Q41 (ID: 109-1_medicine-1_041) -> Correct Answer: C
-下列有關第一型肺泡細胞(type-I pneumocyte)之敘述,何項正確?
-- **A**: 細胞內有膜狀的層狀體(lamellar body)
-- **B**: 主要功能是吞噬灰塵或紅血球
-- **C**: 與內皮細胞(endothelial cell)組成氣血屏障(air-blood barrier)
-- **D**: 在肺泡細胞中占60%,但僅覆蓋5%的肺泡表面(alveolar air surface)
+## Q17 (ID: 109-2_medicine-1_017) -> Correct Answer: C
+關於孤立束核(solitary nucleus)之敘述 ,下列何者錯誤?
+- **A**: 可接受味覺的感覺訊息
+- **B**: 可接受一般內臟感覺訊息
+- **C**: 含有副交感神經節前神經元(parasympathic preganglionic neuron)
+- **D**: 位於延髓(medulla oblongata)
 
 ----------------------------------------
 
-## Q42 (ID: 109-1_medicine-1_042) -> Correct Answer: B
-膽囊(gallbladder)的內襯上皮屬於下列何者?
-- **A**: 移形上皮(transitional epithelium)
-- **B**: 單層柱狀上皮(simple columnar epithelium)
-- **C**: 複層柱狀上皮(stratified columnar epithelium)
-- **D**: 角質化複層扁平上皮(keratinized stratified squamous epithelium)
+## Q18 (ID: 109-2_medicine-1_018) -> Correct Answer: A
+大腦初級視覺皮質(primary visual cortex)之主要血流來自何處?
+- **A**: 大腦後動脈(posterior cerebral artery)
+- **B**: 大腦前動脈(anterior cerebral artery)
+- **C**: 大腦中動脈(middle cerebral artery)
+- **D**: 後交通動脈(posterior communicating artery)
 
 ----------------------------------------
 
-## Q43 (ID: 109-1_medicine-1_043) -> Correct Answer: B
-胃的黏膜層(mucosa)沒有下列何種細胞?
-- **A**: 表面黏液細胞(surface mucous cell)
-- **B**: 杯狀細胞(goblet cell)
-- **C**: 壁細胞(parietal cell)
-- **D**: 未分化的成體幹細胞(undifferentiated adult stem cell)
+## Q19 (ID: 109-2_medicine-1_019) -> Correct Answer: A
+腭扁桃腺(palatine tonsil)的血液供應,主要來自下列何者的分支?
+- **A**: 顏面動脈(facial artery)
+- **B**: 下齒槽動脈(inferior alveolar artery)
+- **C**: 舌動脈(lingual artery)
+- **D**: 上頜動脈(maxillary artery)
 
 ----------------------------------------
 
-## Q44 (ID: 109-1_medicine-1_044) -> Correct Answer: C
-游離的神經纖維末梢(free nerve ending)最遠終止於皮膚表皮層(epidermis)的何處?
-- **A**: 基底層(stratum basale)
-- **B**: 棘狀層(stratum spinosum)
-- **C**: 顆粒層(stratum granulosum)
-- **D**: 角質層(stratum corneum)
+## Q20 (ID: 109-2_medicine-1_020) -> Correct Answer: D
+關於梨狀窩(piriform fossa)之敘述,下列何者正確?
+- **A**: 位於口咽(oropharynx)的黏膜凹窩(mucosal recess)
+- **B**: 位於舌基部(base of tongue)與會厭(epiglottis)之間
+- **C**: 其黏膜深層有喉外神經(external laryngeal nerve)走過
+- **D**: 梨狀窩與喉入口(laryngeal inlet)之間隔著杓狀會厭皺襞(aryepiglottic fold)
 
 ----------------------------------------
 
-## Q45 (ID: 109-1_medicine-1_045) -> Correct Answer: A
-關於精索(spermatic cord)的組成構造,下列敘述何者正確?
-- **A**: 輸精管(ductus deferens)具有三層平滑肌
-- **B**: 蔓狀叢(pampiniform plexus)為典型的中型靜脈(typical medium-sized vein)
-- **C**: 輸精管(ductus deferens)的上皮屬於單層柱狀上皮(simple columnar epithelium)
-- **D**: 主要由豐富的網狀纖維(reticular fiber)填充其中
+## Q21 (ID: 109-2_medicine-1_021) -> Correct Answer: D
+橫顏面動脈(transverse facial artery)是下列那一動脈的分支?
+- **A**: 顏面動脈(facial artery)
+- **B**: 上頜動脈(maxillary artery)
+- **C**: 頰動脈(buccal artery)
+- **D**: 淺顳動脈(superficial temporal artery)
+
+----------------------------------------
+
+## Q22 (ID: 109-2_medicine-1_022) -> Correct Answer: C
+下列何者與心臟纖維骨架(fibrous skeleton)的功能,最不相關?
+- **A**: 提供瓣膜附著處
+- **B**: 使心房心室不同時收縮
+- **C**: 冠狀動脈供血區域之分界線
+- **D**: 使瓣膜出口不會隨血流量改變而過分擴張
+
+----------------------------------------
+
+## Q23 (ID: 109-2_medicine-1_023) -> Correct Answer: C
+下列何種情形通常不會導致肺塌陷(atelectasis)?
+- **A**: 氣胸(pneumothorax)
+- **B**: 肋膜積液(pleural effusion)
+- **C**: 肺栓塞(pulmonary thrombosis)
+- **D**: 支氣管阻塞(bronchial obstruction)
+
+----------------------------------------
+
+## Q24 (ID: 109-2_medicine-1_024) -> Correct Answer: C
+內胸動脈(internal thoracic artery)走在:
+- **A**: 壁層肋膜(parietal pleura)內側
+- **B**: 壁層肋膜(parietal pleura)與胸橫肌(transversus thoracis)之間
+- **C**: 胸橫肌(transversus thoracis)與肋軟骨之間
+- **D**: 胸骨正下方
+
+----------------------------------------
+
+## Q25 (ID: 109-2_medicine-1_025) -> Correct Answer: D
+有關關節的敘述,下列何者正確?
+- **A**: 椎間關節(intervertebral joint)屬滑液關節(synovial joint)
+- **B**: 第一胸肋關節(sternocostal joint)屬滑液關節(synovial joint)
+- **C**: 第二到第七胸肋關節(sternocostal joint)屬軟骨關節(cartilaginous joint)
+- **D**: 胸鎖關節(sternoclavicular joint)屬滑液關節(synovial joint)
+
+----------------------------------------
+
+## Q26 (ID: 109-2_medicine-1_026) -> Correct Answer: B
+有關肋間隙(intercostal space)之敘述,下列何者正確?
+- **A**: 第五肋間是指介於第四及第五肋骨間的間隙
+- **B**: 共有11個肋間隙
+- **C**: 長胸神經(long thoracic nerve)的分支穿入肋間
+- **D**: 肋間神經(intercostal nerve)走在外肋間肌(external intercostal muscle)與內肋間肌(internal intercostal
+ muscle)之間
+
+----------------------------------------
+
+## Q27 (ID: 109-2_medicine-1_027) -> Correct Answer: A
+下列何者穿過外側弓狀韌帶(lateral arcuate ligament)下方後,支配前外側腹壁的皮膚?
+- **A**: 肋下神經(subcostal nerve)
+- **B**: 髂腹股溝神經(iliohypogastric nerve)
+- **C**: 閉孔神經(obturator nerve)
+- **D**: 股神經(femoral nerve)
+
+----------------------------------------
+
+## Q28 (ID: 109-2_medicine-1_028) -> Correct Answer: C
+下列何處是女性骨盆腔最低的地方?
+- **A**: 腹壁膀胱陷凹(abdominovesical pouch)
+- **B**: 直腸膀胱陷凹(rectovesical pouch)
+- **C**: 直腸子宮陷凹(rectouterine pouch)
+- **D**: 子宮膀胱陷凹(uterovesical pouch)
+
+----------------------------------------
+
+## Q29 (ID: 109-2_medicine-1_029) -> Correct Answer: D
+下列何者不附著在坐骨粗隆(ischial tuberosity)?
+- **A**: 半腱肌(semitendinosus)
+- **B**: 半膜肌(semimembranosus)
+- **C**: 股二頭肌長頭(long head of biceps femoris)
+- **D**: 股二頭肌短頭(short head of biceps femoris)
+
+----------------------------------------
+
+## Q30 (ID: 109-2_medicine-1_030) -> Correct Answer: D
+網球肘(tennis elbow)與高爾夫球肘(golfer's elbow)最常感覺到疼痛的部位,分別是在那一個位置?
+- **A**: 前者在冠狀窩(coronoid fossa),後者在鷹嘴窩(olecranon fossa)
+- **B**: 前者在鷹嘴窩(olecranon fossa),後者在冠狀窩(coronoid fossa)
+- **C**: 前者在內上髁(medial epicondyle),後者在外上髁(lateral epicondyle)
+- **D**: 前者在外上髁(lateral epicondyle),後者在內上髁(medial epicondyle)
+
+----------------------------------------
+
+# Batch: 109-2_medicine-1_batch-003
+Category Group: 醫學（一）
+Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
+
+## Q31 (ID: 109-2_medicine-1_031) -> Correct Answer: D
+下列何者不附著於第二頸椎的棘突?
+- **A**: 頸半棘肌(semispinalis cervicis)
+- **B**: 下頭斜肌(obliquus capitis inferior)
+- **C**: 大後頭直肌(rectus capitis posterior major)
+- **D**: 小後頭直肌(rectus capitis posterior minor)
+
+----------------------------------------
+
+## Q32 (ID: 109-2_medicine-1_032) -> Correct Answer: C
+母親在懷孕約幾週時,會開始明顯感受胎動(quickening)?
+- **A**: 7~10
+- **B**: 11~14
+- **C**: 17~20
+- **D**: 22~25
+
+----------------------------------------
+
+## Q33 (ID: 109-2_medicine-1_033) -> Correct Answer: C
+中腸環(midgut loop)的旋轉,以下列何者為軸心?
+- **A**: 卵黃柄(yolk stalk)
+- **B**: 腹腔動脈(celiac artery)
+- **C**: 腸繫膜上動脈(superior mesenteric artery)
+- **D**: 腸繫膜下動脈(inferior mesenteric artery)
+
+----------------------------------------
+
+## Q34 (ID: 109-2_medicine-1_034) -> Correct Answer: A
+下列何種構造不是由中腎管(mesonephric duct)衍生而成?
+- **A**: 睪丸網(rete testis)
+- **B**: 副睪(epididymis)
+- **C**: 輸精管(ductus deferens)
+- **D**: 精囊(seminal vesicle)
+
+----------------------------------------
+
+## Q35 (ID: 109-2_medicine-1_035) -> Correct Answer: C
+胎兒循環中,下列何種血管的含氧量最高?
+- **A**: 主動脈(aorta)
+- **B**: 臍動脈(umbilical artery)
+- **C**: 臍靜脈(umbilical vein)
+- **D**: 肺靜脈(pulmonary vein)
+
+----------------------------------------
+
+## Q36 (ID: 109-2_medicine-1_036) -> Correct Answer: C
+下列何者不參與鼓膜(tympanic membrane)的形成?
+- **A**: 第一與第二咽弓(pharyngeal arch)之間葉組織(mesenchyme)
+- **B**: 第一咽囊(pharyngeal pouch)之內胚層(endoderm)
+- **C**: 神經外胚層(neuroectoderm)
+- **D**: 第一咽溝(pharyngeal groove)之外胚層(ectoderm)
+
+----------------------------------------
+
+## Q37 (ID: 109-2_medicine-1_037) -> Correct Answer: B
+在骨骼肌(skeletal muscle)中,每一個肌肉細胞(muscle cell)又稱為:
+- **A**: 肌原纖維(myofibril)
+- **B**: 肌纖維(muscle fiber)
+- **C**: 肌絲(myofilament)
+- **D**: 肌束(muscle fascicle)
+
+----------------------------------------
+
+## Q38 (ID: 109-2_medicine-1_038) -> Correct Answer: D
+下列何者不是平滑肌細胞(smooth muscle cell)的特徵?
+- **A**: 緻密體(dense body)
+- **B**: 細胞膜小凹(caveolae)
+- **C**: 細胞核會隨著細胞收縮而改變形狀
+- **D**: 多核
+
+----------------------------------------
+
+## Q39 (ID: 109-2_medicine-1_039) -> Correct Answer: A
+在正常情形下,下列有關人類血液(blood)之敘述,何者正確?
+- **A**: 巨核細胞/紅血球前驅細胞(megakaryocyte/erythrocyte progenitor, MEP)是血小板(platelet)和紅血球
+ (erythrocyte)的共同前驅細胞
+- **B**: 紅血球(erythrocyte)在血液中的含量是最少的,其平均直徑約10~12 μm,壽命大約180天
+- **C**: 白血球(white blood cell)分為許多種類,其中數目最少的是嗜酸性球(eosinophil)
+- **D**: 血小板內有細胞核(nucleus)與許多顆粒(granule),能協助血塊(blood clot)的形成
+
+----------------------------------------
+
+## Q40 (ID: 109-2_medicine-1_040) -> Correct Answer: C
+下列有關血–腦屏障(blood-brain barrier)的敘述,何者錯誤?
+- **A**: 其組成主要包括星狀膠細胞(astrocyte)與連續型微血管
+- **B**: 微血管的內皮細胞之間具有緊密接合(tight junction)
+- **C**: 大腦(cerebrum)是唯一具有血–腦屏障的腦部組織
+- **D**: 正常功能的星狀膠細胞(astrocyte)有助於血–腦屏障的維持
+
+----------------------------------------
+
+## Q41 (ID: 109-2_medicine-1_041) -> Correct Answer: D
+下列有關淋巴系統(lymphatic system)的敘述,何者錯誤?
+- **A**: 淋巴管以盲管狀的淋巴微管(blind-ended lymphatic capillary)為起始端
+- **B**: 淋巴微管(lymphatic capillary)的通透性(permeability)大於一般微血管(blood capillary)
+- **C**: 淋巴微管(lymphatic capillary)主要由內皮細胞(endothelial cell)構成
+- **D**: 淋巴微管(lymphatic capillary)具有完整的基底膜(basal lamina)和瓣膜(valve)
+
+----------------------------------------
+
+## Q42 (ID: 109-2_medicine-1_042) -> Correct Answer: C
+在十二指腸(duodenum)和胃(stomach)的交接處,可觀察到下列何項構造?
+- **A**: 十二指腸有表面黏膜細胞(surface mucous cell)
+- **B**: 胃有布魯納氏腺(Brunner's gland)
+- **C**: 十二指腸有不連續的黏膜肌層(discontinuous layer of muscularis mucosae)
+- **D**: 胃肌外層有顯著加厚的縱走肌(longitudinal layer of muscularis externa)作為括約肌(sphincter)
+
+----------------------------------------
+
+## Q43 (ID: 109-2_medicine-1_043) -> Correct Answer: C
+下列何者位於肌外層(muscularis externa)調節腸蠕動(peristalsis)?
+- **A**: 梅斯納氏小體(Meissner's corpuscle)
+- **B**: 梅斯納氏神經叢(Meissner's plexus)
+- **C**: 歐巴氏神經叢(Auerbach's plexus)
+- **D**: 蒲金氏纖維(Purkinje fiber)
+
+----------------------------------------
+
+## Q44 (ID: 109-2_medicine-1_044) -> Correct Answer: C
+下列那一構造位於腎髓質(renal medulla)?
+- **A**: 遠曲小管(distal convoluted tubule)
+- **B**: 緻密斑(macula densa)
+- **C**: 亨利氏環的細段(thin limb of loop of Henle)
+- **D**: 腎小體(renal corpuscle)
+
+----------------------------------------
+
+## Q45 (ID: 109-2_medicine-1_045) -> Correct Answer: B
+關於男性陰莖(penis)結構的敘述,何者正確?
+- **A**: 由疏鬆結締組織的白膜(tunica albuginea)包覆陰莖海綿體(corpora cavernosa)
+- **B**: 陰莖海綿體(corpora cavernosa)中具有許多不規則的血管腔,血管腔外圍有平滑肌束(smooth muscle
+ bundle)
+- **C**: 血管組成都是由小動脈(arteriole)至微血管(capillary)後,再連接小靜脈(venule)
+- **D**: 陰莖龜頭(glans penis)的皮下組織含有豐富的脂肪組織
+
+----------------------------------------
+
+# Batch: 109-2_medicine-1_batch-004
+Category Group: 醫學（一）
+Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
+
+## Q46 (ID: 109-2_medicine-1_046) -> Correct Answer: C
+下列關於睪丸支持細胞(Sertoli cell)的敘述,何者正確?
+- **A**: 在青春期之後具有複製能力
+- **B**: 主要藉由黏連接合(adherens junction)形成睪丸支持細胞間接合複合體(Sertoli cell-to-Sertoli cell junctional
+ complex)
+- **C**: 可形成血睪障壁(blood-testis barrier)
+- **D**: 僅具有外分泌(exocrine)功能
+
+----------------------------------------
+
+## Q47 (ID: 109-2_medicine-1_047) -> Correct Answer: C
+當頭部轉動時所產生的角加速度(angular acceleration),主要由下列那一個構造負責偵測?
+- **A**: organ of Corti
+- **B**: cochlear ducts
+- **C**: semicircular canals
+- **D**: utricle and saccule
+
+----------------------------------------
+
+## Q48 (ID: 109-2_medicine-1_048) -> Correct Answer: A
+下列有關大腦皮質對語言功能調控的敘述,何者最恰當?
+- **A**: 弓狀束(arcuate fasciculus)受損會導致傳導性失語症(conduction aphasia)
+- **B**: Broca’s area受損的病人,可能展現流利的口語能力,但語言內容卻無意義
+- **C**: 慣用右手的人,他的Wernicke’s area一般也都在右大腦皮質
+- **D**: 語言皮質都位於大腦的頂葉(parietal lobe)
+
+----------------------------------------
+
+## Q49 (ID: 109-2_medicine-1_049) -> Correct Answer: D
+下列何者最可能是人類味蕾感受鮮味(umami taste)的媒介物?
+- **A**: glucose
+- **B**: glycerol
+- **C**: NaCl
+- **D**: glutamate
+
+----------------------------------------
+
+## Q50 (ID: 109-2_medicine-1_050) -> Correct Answer: B
+Basal ganglia如何影響motor cortex的活性?
+- **A**: 透過direct pathway降低motor cortex的活性,透過indirect pathway增強motor cortex的活性
+- **B**: 透過direct pathway增強motor cortex的活性,透過indirect pathway降低motor cortex的活性
+- **C**: direct pathway與indirect pathway均降低motor cortex的活性
+- **D**: direct pathway與indirect pathway均增強motor cortex的活性
+
+----------------------------------------
+
+## Q51 (ID: 109-2_medicine-1_051) -> Correct Answer: A
+梅尼爾氏症候群出現眩暈感(vertigo)的症狀,最可能是因為下列何處受到異常刺激?
+- **A**: 內耳
+- **B**: 聽覺皮質
+- **C**: 小腦
+- **D**: 視神經交叉
+
+----------------------------------------
+
+## Q52 (ID: 109-2_medicine-1_052) -> Correct Answer: B
+生物時鐘之節律(circadian rhythms)主要由下列那一個結構調控?
+- **A**: dentate gyrus
+- **B**: suprachiasmatic nucleus
+- **C**: globus pallidus
+- **D**: solitary nucleus
+
+----------------------------------------
+
+## Q53 (ID: 109-2_medicine-1_053) -> Correct Answer: B
+在升降梯加速與減速時,負責偵測身體之垂直位移,並引起適當反射以保持平衡之主要結構為何?
+- **A**: utricle
+- **B**: saccule
+- **C**: semicircular ducts
+- **D**: cochlea
+
+----------------------------------------
+
+## Q54 (ID: 109-2_medicine-1_054) -> Correct Answer: A
+下列有關單一單位(single-unit)與多單位(multi-unit)平滑肌的差異,何者正確?
+- **A**: single-unit在無任何外在刺激下仍維持低程度張力(tone),而multi-unit則不會
+- **B**: single-unit不會產生自發性動作電位(spontaneous action potential),而multi-unit則會
+- **C**: single-unit被拉長時不會產生收縮,而multi-unit則會
+- **D**: single-unit肌肉收縮強度會受激素(hormones)調節,而multi-unit則不會
+
+----------------------------------------
+
+## Q55 (ID: 109-2_medicine-1_055) -> Correct Answer: D
+下列那一種疾病起因於缺少菸鹼酸膽鹼型受器(nicotinic cholinergic receptor),並可以用乙醯膽鹼分解酶抑
+ 制劑(acetylcholinesterase inhibitor)加以治療?
+- **A**: muscle cramps
+- **B**: hypocalcemic tetany
+- **C**: muscular dystrophy
+- **D**: myasthenia gravis
+
+----------------------------------------
+
+## Q56 (ID: 109-2_medicine-1_056) -> Correct Answer: C
+下列何者和凝血機制的調控最無關?
+- **A**: fibrinogen
+- **B**: protein C
+- **C**: C-reactive protein
+- **D**: thrombin
+
+----------------------------------------
+
+## Q57 (ID: 109-2_medicine-1_057) -> Correct Answer: C
+正常情況下,下列何者所含的血液容積最大?
+- **A**: 心臟
+- **B**: 動脈
+- **C**: 靜脈
+- **D**: 微血管
+
+----------------------------------------
+
+## Q58 (ID: 109-2_medicine-1_058) -> Correct Answer: 
+下列那一項因素最可能造成右心房壓升高?
+- **A**: 加強心臟幫浦功能
+- **B**: 降低靜脈回流
+- **C**: 擴張小動脈,降低周邊阻力
+- **D**: 大量失血後,血液量減少
+*Note: 官方更正答案標註 #，需人工確認備註。*
+
+----------------------------------------
+
+## Q59 (ID: 109-2_medicine-1_059) -> Correct Answer: A
+從事舉重運動時,造成運動者當下血管周邊總阻力(total peripheral resistance; TPR)上升的最主要原因為
+ 何?
+- **A**: 肌肉收縮壓迫血管
+- **B**: 心輸出量增加,血壓上升
+- **C**: 肌肉局部代謝物因子增加
+- **D**: 感壓受器反射(baroreceptor reflex)作用增加
+
+----------------------------------------
+
+## Q60 (ID: 109-2_medicine-1_060) -> Correct Answer: D
+下列有關肺部界面活性劑(surfactant)之敘述,何者錯誤?
+- **A**: 為第二型肺泡細胞(type II alveolar cells)所分泌
+- **B**: 其缺乏時,肺泡不易擴張
+- **C**: 可增加肺順應性(lung compliance)
+- **D**: 可增加肺泡的表面張力(surface tension)
+
+----------------------------------------
+
+# Batch: 109-2_medicine-1_batch-005
+Category Group: 醫學（一）
+Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
+
+## Q61 (ID: 109-2_medicine-1_061) -> Correct Answer: C
+居住於平地的居民,登上3000公尺的高山並待了七天,下列何種生理變化最不可能發生?
+- **A**: 血比容(hematocrit)增加
+- **B**: 動脈氧分壓(PaO2)下降
+- **C**: 動脈二氧化碳分壓(PaCO2) 增加
+- **D**: 肺泡通氣量(alveolar ventilation)增加
+
+----------------------------------------
+
+## Q62 (ID: 109-2_medicine-1_062) -> Correct Answer: C
+一位健康者站立且平靜呼吸時,下列那一個生理變化是肺底小於肺尖?
+- **A**: 肺通氣量
+- **B**: 血液灌流量
+- **C**: 肺通氣量與血液灌流量之比值( )
+- **D**: 肺順應性
+
+----------------------------------------
+
+## Q63 (ID: 109-2_medicine-1_063) -> Correct Answer: A
+下列有關小腸migrating myoelectrical complex(MMC)之敘述,何者正確?
+- **A**: 小腸分泌的motilin激素可以促進MMC
+- **B**: 當食物從胃完全排空至十二指腸時,MMC會暫時停止
+- **C**: 當大部分食物被消化吸收後,分節收縮(segmentation contraction)會取代MMC
+- **D**: MMC之功能主要是混合食糜
+
+----------------------------------------
+
+## Q64 (ID: 109-2_medicine-1_064) -> Correct Answer: A
+下列何者為直接刺激胰臟分泌消化酵素之最主要激素(hormone)?
+- **A**: 膽囊收縮素(cholecystokinin)
+- **B**: 胃泌素(gastrin)
+- **C**: 胰泌素(secretin)
+- **D**: 體抑素(somatostatin)
+
+----------------------------------------
+
+## Q65 (ID: 109-2_medicine-1_065) -> Correct Answer: A
+正常情況下,下列那一段腎小管對水分的通透性(permeability)最大?
+- **A**: 亨利氏彎管的細下降枝(thin descending limb)
+- **B**: 亨利氏彎管的細上升枝(thin ascending limb)
+- **C**: 亨利氏彎管的粗上升枝(thick ascending limb)
+- **D**: 集尿管(collecting duct)的髓質部(inner medullary portion)
+
+----------------------------------------
+
+## Q66 (ID: 109-2_medicine-1_066) -> Correct Answer: C
+嚴格限制澱粉和肉類的攝取量,只吃水果和蔬菜,每日的鉀攝取量由65 mmol/day 遽增到130 mmol/day。三週
+ 後身體內最可能發生的生理變化為何?
+- **A**: 血中的鉀離子濃度會大幅度上升(>1 mmol/L)
+- **B**: 鈉離子的排出速率(sodium excretion rate)會大幅度上升
+- **C**: 血漿中的aldosterone濃度會上升
+- **D**: 腎臟近端腎小管的鉀排出量會大量增加
+
+----------------------------------------
+
+## Q67 (ID: 109-2_medicine-1_067) -> Correct Answer: D
+將雄鼠之腦下垂體前葉(anterior pituitary)移植到另一隻雄鼠之腎臟包膜(renal capsule)內,數週後移植的
+ 腦下垂體前葉生長情況良好,則接受移植之雄鼠其血中激素與沒接受移植之雄性對照鼠的比較,其變化之情
+ 形最接近下列何者?(FSH:follicle stimulating hormone;LH:luteinizing hormone;TSH:thyroid-stimulating
+ hormone;PRL:prolactin;↑:明顯增加;-:幾乎不變)
+- **A**: FSH↑;LH↑;TSH↑;PRL↑
+- **B**: FSH-;LH-;TSH-;PRL-
+- **C**: FSH↑;LH↑;TSH-;PRL-
+- **D**: FSH-;LH-;TSH-;PRL↑
+
+----------------------------------------
+
+## Q68 (ID: 109-2_medicine-1_068) -> Correct Answer: D
+下列何種激素(hormone)是屬於最典型的tropic hormone?
+- **A**: thyroxine
+- **B**: insulin-like growth factor-1(IGF-1)
+- **C**: prostaglandin E2
+- **D**: thyroid stimulating hormone(TSH)
+
+----------------------------------------
+
+## Q69 (ID: 109-2_medicine-1_069) -> Correct Answer: C
+Tetraiodothyronine於血液循環中,最主要是靠下列何者運輸?
+- **A**: albumin
+- **B**: transthyretin
+- **C**: thyroxine-binding globulin(TBG)
+- **D**: immunoglobulin
+
+----------------------------------------
+
+## Q70 (ID: 109-2_medicine-1_070) -> Correct Answer: A
+下列何者與男性生殖器官的形成最不相關?
+- **A**: 濾泡促素(FSH)
+- **B**: 染色體Y
+- **C**: 雄性素(androgen)
+- **D**: Müllerian-inhibiting substance
+
+----------------------------------------
+
+## Q71 (ID: 109-2_medicine-1_071) -> Correct Answer: D
+下列何者與分娩過程最不相關?
+- **A**: adrenocorticotropic hormone(ACTH)
+- **B**: oxytocin
+- **C**: prostaglandin
+- **D**: prolactin
+
+----------------------------------------
+
+## Q72 (ID: 109-2_medicine-1_072) -> Correct Answer: D
+一位21歲的男性因視力障礙及頭痛就醫,醫師除了發現病患有腦壓增高的現象外,也有視野雙側顳側
+ (bitemporal)偏盲現象。經腦部電腦斷層掃描後,最可能的診斷為下列何者?
+- **A**: 枕葉部腫瘤(occipital lobe tumor)
+- **B**: 顳葉部腫瘤(temporal lobe tumor)
+- **C**: 額葉部腫瘤(frontal lobe tumor)
+- **D**: 腦下垂體腫瘤(pituitary tumor)
+
+----------------------------------------
+
+## Q73 (ID: 109-2_medicine-1_073) -> Correct Answer: B
+承上題,該病患向醫師表示,近半年來性慾(libido)及陰莖勃起功能(erectile function)都變差。經檢測血
+ 液樣本,發現某一激素的濃度偏高。此血中濃度偏高之激素,最有可能為下列何者?
+- **A**: adrenocorticotropic hormone(ACTH)
+- **B**: prolactin
+- **C**: luteinizing hormone(LH)
+- **D**: follicle-stimulating hormone(FSH)
+
+----------------------------------------
+
+## Q74 (ID: 109-2_medicine-1_074) -> Correct Answer: C
+血紅素S(Hemoglobin S)是由於其中的胺基酸Glu被置換成Val,致使血紅素S有聚集(aggregation)的現象,
+ 其原因為何?
+- **A**: 血紅素S間形成共價鍵(covalent bond)
+- **B**: 血紅素S間形成雙硫鍵(disulfide bond)
+- **C**: 血紅素S間的疏水性交互作用(hydrophobic interactions)增加
+- **D**: 血紅素S間的離子交互作用(ionic interactions)增加
+
+----------------------------------------
+
+## Q75 (ID: 109-2_medicine-1_075) -> Correct Answer: B
+配體(Ligand)與蛋白質之同向異位性作用(homotropic allosteric interaction)的定義為何?
+- **A**: 一分子的配體與蛋白質上的結合位點(binding site)結合後,會影響第二個相同的配體分子結合到同一位點
+ 上
+- **B**: 一分子的配體與蛋白質上的結合位點(binding site)結合後,會影響該蛋白質其他配體結合位點與配體的結
+ 合能力
+- **C**: 二個不同的配體能與同一個蛋白質結合位點(binding site)結合
+- **D**: 配體與蛋白質結合位點(binding site)結合後,不會造成該蛋白質其他部分的結構變化(conformational
+ change)
+
+----------------------------------------
+
+# Batch: 109-2_medicine-1_batch-006
+Category Group: 醫學（一）
+Allowed Categories: ['生物化學', '解剖學', '胚胎及發育生物學', '組織學', '生理學', '其他']
+
+## Q76 (ID: 109-2_medicine-1_076) -> Correct Answer: C
+一合乎Michaelis-Menten動力學之酵素,若其反應的初速度(initial reaction rate)為0.8 Vmax時,受質的濃度應
+ 為:
+- **A**: 2 Km
+- **B**: 3 Km
+- **C**: 4 Km
+- **D**: 5 Km
+
+----------------------------------------
+
+## Q77 (ID: 109-2_medicine-1_077) -> Correct Answer: C
+輔酶thiamine pyrophosphate(TPP)在參與丙酮酸脫羧酶(pyruvate decarboxylase)催化反應時,負責轉移下
+ 列何種基團?
+- **A**: methyl group
+- **B**: acyl group
+- **C**: aldehyde group
+- **D**: carboxyl group
+
+----------------------------------------
+
+## Q78 (ID: 109-2_medicine-1_078) -> Correct Answer: C
+下列何種生物能自行合成cobalamin(vitamin B12)?
+- **A**: 脊椎動物
+- **B**: 昆蟲
+- **C**: 微生物
+- **D**: 植物
+
+----------------------------------------
+
+## Q79 (ID: 109-2_medicine-1_079) -> Correct Answer: B
+下列何種反應是一種deamination的作用?
+- **A**: 胞嘧啶(cytosine)變成次黃嘌呤(hypoxanthine)
+- **B**: 5'-甲基胞嘧啶(5'-methylcytosine)變成胸腺嘧啶(thymine)
+- **C**: 腺嘌呤(adenine)變成黃嘌呤(xanthine)
+- **D**: 鳥糞嘌呤(guanine)變成尿嘧啶(uracil)
+
+----------------------------------------
+
+## Q80 (ID: 109-2_medicine-1_080) -> Correct Answer: D
+DNA-DNA,DNA-RNA,RNA-RNA所形成的雜交配對,在中性pH下,三者間的相對穩定度為何?
+- **A**: DNA-DNA>RNA-RNA>DNA-RNA
+- **B**: RNA-DNA>RNA-RNA>DNA-DNA
+- **C**: RNA-RNA>DNA-DNA>DNA-RNA
+- **D**: RNA-RNA>DNA-RNA>DNA-DNA
+
+----------------------------------------
+
+## Q81 (ID: 109-2_medicine-1_081) -> Correct Answer: D
+下列有關Klenow fragment的敘述,何者錯誤?
+- **A**: 具有DNA polymerase活性
+- **B**: 具有3'→5'exonuclease活性
+- **C**: 屬於DNA polymerase I的片段
+- **D**: 具有topoisomerase活性
+
+----------------------------------------
+
+## Q82 (ID: 109-2_medicine-1_082) -> Correct Answer: B
+下列何種反應參與大腸桿菌複製叉(replication forks)中的DNA合成反應?
+- **A**: DNA解旋酶(helicase)具內切酶活性,切割DNA
+- **B**: 引子合成酶(primase)合成RNA引子
+- **C**: DNA拓樸異構酶I(topoisomerase I)具外切酶活性,切割DNA
+- **D**: DNA聚合酶II(DNA polymerase II)合成DNA
+
+----------------------------------------
+
+## Q83 (ID: 109-2_medicine-1_083) -> Correct Answer: A
+胺醯-tRNA合成酶(aminoacyl-tRNA synthetase)的功能為何?
+- **A**: 能使 tRNA和相對應的胺基酸進行酯化作用(esterification)
+- **B**: 能與特定的蛋白質結合後,間接促進tRNA與胺基酸進行酯化作用(esterification)
+- **C**: 存在於核糖體(ribosome)中,促進胜肽鍵(peptide bond)的合成
+- **D**: 需要GTP的作用才能活化胺基酸
+
+----------------------------------------
+
+## Q84 (ID: 109-2_medicine-1_084) -> Correct Answer: D
+下列何者是原核細胞蛋白質合成之延伸期(elongation)的最佳敘述?
+- **A**: 每一胜肽鍵的合成只需消耗二個高能磷酸組(high-energy phosphoryl groups)
+- **B**: 胺醯-tRNA(aminoacyl-tRNA)首先進入核糖體的P位(P site)
+- **C**: EF-Tu延伸因子(elongation factor EF-Tu)是有利於蛋白質合成時核糖體的移位作用(translocation)
+- **D**: 肽基轉移酶(peptidyl-transferase)是一種ribozyme
+
+----------------------------------------
+
+## Q85 (ID: 109-2_medicine-1_085) -> Correct Answer: A
+在人體內,下列何者之生合成並非由tyrosine代謝而形成?
+- **A**: S-adenosylmethionine
+- **B**: epinephrine
+- **C**: melanin
+- **D**: dopamine
+
+----------------------------------------
+
+## Q86 (ID: 109-2_medicine-1_086) -> Correct Answer: C
+蛋白質的降解可經由ubiquitin-proteasome的路徑,下列何者是催化將ubiquitin直接結合至待降解之蛋白質上的
+ 主要酵素?
+- **A**: E1
+- **B**: E2
+- **C**: E3
+- **D**: E4
+
+----------------------------------------
+
+## Q87 (ID: 109-2_medicine-1_087) -> Correct Answer: C
+下列有關葡萄糖氧化的五碳糖磷酸途徑(pentose phosphate pathway)功能之敘述,何者正確?
+- **A**: 負責催化每莫耳葡萄糖產生36莫耳ATP
+- **B**: 負責催化每莫耳葡萄糖產生5莫耳CO2
+- **C**: 供應合成核苷酸(nucleotide)所需要之核糖(ribose)的來源
+- **D**: 主要功能是產生NADH及FADH2進入呼吸鏈氧化產生能量
+
+----------------------------------------
+
+## Q88 (ID: 109-2_medicine-1_088) -> Correct Answer: B
+下列那一種黏多醣類(mucopolysaccharide)含有alpha 1→4糖苷鍵(glycosidic bond),臨床上用來當抗凝血
+ 劑(anticoagulant)?
+- **A**: chondroitin sulfate A
+- **B**: heparin
+- **C**: hyaluronic acid
+- **D**: dermatan sulfate
+
+----------------------------------------
+
+## Q89 (ID: 109-2_medicine-1_089) -> Correct Answer: B
+經由糖解作用(glycolysis)產生的丙酮酸(pyruvate)必須直接先被轉換為下列何種分子,才能繼續以克式循
+ 環(Krebs cycle,亦稱citric acid cycle或TCA cycle)進行氧化?
+- **A**: lactic acid
+- **B**: acetyl-CoA
+- **C**: S-adenosylmethionine
+- **D**: phosphoenolpyruvate
+
+----------------------------------------
+
+## Q90 (ID: 109-2_medicine-1_090) -> Correct Answer: C
+下列何者並非膽固醇(cholesterol)生合成之前驅物?
+- **A**: 乙酸(acetate)
+- **B**: 異戊二烯(isoprene)
+- **C**: 二氫鞘氨醇(sphinganine)
+- **D**: 鯊烯(squalene)
 
 ----------------------------------------

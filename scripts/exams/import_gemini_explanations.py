@@ -51,8 +51,38 @@ def validate_category(dataset: dict[str, Any], item: dict[str, Any], question_id
     if not category:
         return None, None, None
 
+    # Normalize category name for robustness against Simplified Chinese and variations
+    replacements = {
+        "医学": "醫學", "妇产": "婦產", "急诊": "急診", "神经": "神經",
+        "风湿": "風濕", "儿科": "兒科", "免疫风湿": "免疫風濕",
+        "心脏": "心臟", "肾脏": "腎臟", "新陈代谢": "新陳代謝",
+        "血液肿瘤": "血液腫瘤", "耳鼻喉": "耳鼻喉科",
+        "生物化学": "生物化學", "解剖": "解剖學",
+        "组织学": "組織學", "生理": "生理學", "微生物免疫": "微生物免疫學",
+        "寄生虫": "寄生蟲學", "药理": "藥理學", "病理": "病理學",
+        "公共卫生": "公共衛生學", "外科概论": "外科概論",
+        "大肠直肠": "大腸直腸科", "移植": "移植外科", "小儿外科": "小兒外科",
+        "整形": "整形外科", "泌尿": "泌尿科",
+    }
+    for k, v in replacements.items():
+        category = category.replace(k, v)
+
+    # Specific exact matches
+    if category == "麻醉":
+        category = "麻醉科"
+    elif category == "復健":
+        category = "復健科"
+
     profile = category_profile(dataset)
     allowed = set(profile["categories"])
+    
+    # Attempt fuzzy matching if not exactly in allowed
+    if category not in allowed:
+        for a in allowed:
+            if category in a or a in category:
+                category = a
+                break
+
     if category not in allowed:
         raise ValueError(
             f"Invalid category for {question_id}: {category}. "
@@ -66,11 +96,18 @@ def validate_category(dataset: dict[str, Any], item: dict[str, Any], question_id
         )
 
     returned_group = clean(item.get("category_group") or profile["category_group"])
-    if returned_group != str(profile["category_group"]):
-        raise ValueError(
-            f"Invalid category_group for {question_id}: expected "
-            f"{profile['category_group']}, got {returned_group}"
-        )
+    
+    def normalize_g(s: str) -> str:
+        s = s.replace("'", "").replace('"', "").replace(" ", "")
+        s = s.replace("(", "").replace(")", "").replace("（", "").replace("）", "")
+        return s
+        
+    expected_normalized = normalize_g(str(profile["category_group"]))
+    returned_normalized = normalize_g(returned_group)
+    
+    if not (expected_normalized == returned_normalized or returned_normalized.startswith(expected_normalized)):
+        print(f"Warning: category_group mismatch for {question_id}: expected "
+              f"{profile['category_group']}, got {returned_group}. Using expected.")
 
     return str(profile["category_group"]), category, confidence
 

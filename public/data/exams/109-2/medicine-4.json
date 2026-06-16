@@ -4,7 +4,7 @@
   "title": "109 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109080&q=1&s=22&t=Q",
-  "updated_at": "2026-06-11T14:37:12.727936+00:00",
+  "updated_at": "2026-06-12T07:17:12.673421+00:00",
   "questions": [
     {
       "id": "109-2_medicine-4_001",
@@ -17,15 +17,23 @@
         "D": "水痘(Varicella)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "水痘（Varicella）與帶狀疱疹（Herpes Zoster）是由同一種病毒「水痘帶狀疱疹病毒（VZV）」所引起。患者在首次感染水痘痊癒後，病毒會潛伏在人體的感覺神經節中。數年或數十年後，當免疫力下降時，潛伏的病毒可能再度活化，沿著神經節分布的皮節出現帶狀疱疹，故D正確。麻疹、德國麻疹及腮腺炎病毒則不會引發帶狀疱疹。",
+      "key_point": "水痘帶狀疱疹病毒（VZV）的潛伏與再度活化",
+      "flashcard_summary": "水痘與帶狀疱疹關係 -> 初次感染VZV引發水痘，潛伏於神經節後再度活化引發帶狀疱疹",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "水痘帶狀疱疹病毒 / 感覺神經節潛伏 / 病毒再度活化 / 帶狀疱疹",
+      "flashcard_back": "初次感染VZV引起水痘，痊癒後病毒潛伏於感覺神經節中，日後免疫力下降活化呈帶狀疱疹。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_002",
@@ -38,14 +46,22 @@
         "D": "Erythema multiforme"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "本題男童發燒喉嚨痛，在服用抗生素兩週後仍發燒且出現嚴重的黏膜與皮膚病變。臨床上需高度懷疑藥物過敏引起的史蒂芬強生症候群（SJS）或多形性紅斑（EM）。因兩者在臨床早期或嚴重度判定上存在重疊，且單憑圖像常難以絕對區分，官方最終更正為「答B或D皆給分」。紅喉斑與草莓舌等川崎氏症表徵通常不用抗生素治療兩週，猩紅熱對抗生素通常有良好療效且少見嚴重黏膜壞死。",
+      "key_point": "藥物引起之重症皮膚黏膜過敏反應與鑑別診斷",
+      "flashcard_summary": "抗生素後皮膚黏膜病變 -> 臨床需懷疑 SJS（B）與 EM（D），本題答 B 或 D 皆給分",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "抗生素使用後發燒 / 黏膜糜爛與皮疹 / SJS vs EM / 藥物過敏反應",
+      "flashcard_back": "抗生素引發的嚴重皮膚黏膜病變，需鑑別史蒂芬強生症候群（SJS）與多形性紅斑（EM）；官方答B或D均給分。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_003",
@@ -58,15 +74,23 @@
         "D": "任何沒有通過聽力篩檢的新生兒,都須考慮先天性巨細胞病毒感染之可能性"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "先天性巨細胞病毒（CMV）感染的新生兒中，絕大多數（約90%）在出生時是「無症狀（asymptomatic）」的，僅有約10%會表現出臨床症狀，故B敘述「約90%會有臨床症狀」為錯誤，為本題正確答案。CMV是造成非遺傳性先天性感覺神經性聽力喪失的首要原因，聽力篩檢未過者皆需考慮此病。血清陽性母親母乳餵食確實有60-70%傳染率，症狀包含肝脾腫大、黃疸與紫斑等。",
+      "key_point": "新生兒先天性巨細胞病毒（CMV）感染的臨床表現",
+      "flashcard_summary": "先天性CMV感染特徵 -> 約90%出生時無症狀，是兒童非遺傳性聽力喪失的主要原因",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "先天性CMV / 新生兒感染 / 臨床症狀比例 / 聽力篩檢異常",
+      "flashcard_back": "約90%的先天性CMV感染新生兒在出生時為無症狀；CMV是兒童非遺傳性聽力喪失的最常見原因。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_004",
@@ -79,15 +103,23 @@
         "D": "Gentamicin"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肺炎黴漿菌（Mycoplasma pneumoniae）沒有細胞壁，因此針對細菌細胞壁發揮作用的抗生素如盤尼西林（Penicillin，B-lactam類）及萬古黴素（Vancomycin，glycopeptide類）皆對其無效。臨床上治療黴漿菌首選大環內酯類（Macrolides）抗生素，如阿奇黴素（Azithromycin），因其能抑制細菌蛋白質合成，且在兒童患者中使用安全性佳，故C最為適當。",
+      "key_point": "黴漿菌肺炎（Mycoplasma pneumoniae）的抗生素治療選擇",
+      "flashcard_summary": "黴漿菌肺炎用藥 -> 因黴漿菌無細胞壁，首選大環內酯類（Azithromycin）治療",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "黴漿菌肺炎 / 缺乏細胞壁 / 大環內酯類抗生素 / 藥物選擇",
+      "flashcard_back": "黴漿菌無細胞壁，禁用Penicillin與Vancomycin；首選大環內酯類抗生素（如Azithromycin）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_005",
@@ -100,15 +132,23 @@
         "D": "高血鈣"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "糖尿病母親的新生兒（IDM）在子宮內長期處於高血糖環境，導致胎兒胰島素分泌過度（高胰島素血症）。出生後，來自母親的血糖供應中斷，但新生兒體內的高濃度胰島素仍持續作用，容易在出生24小時內（特別是最初幾小時）發生急性「低血糖」，故B正確。其他常見併發症包括低血鈣（非高血鈣）、紅血球增多症（非貧血）及呼吸窘迫症候群。",
+      "key_point": "糖尿病母親新生兒（IDM）的常見急性併發症",
+      "flashcard_summary": "IDM 急性併發症 -> 出生24小時內易發生低血糖，起因於新生兒過度分泌之胰島素",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "糖尿病母親新生兒 / IDM / 巨嬰 / 出生24小時內併發症",
+      "flashcard_back": "IDM因宮內高血糖致高胰島素血症，出生後失去母體血糖來源，易發生急性低血糖及低血鈣。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_006",
@@ -121,15 +161,23 @@
         "D": "周邊血液循環不良(Peripheral circulatory sluggishness)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "剛出生的嬰兒出現手足發紺（acrocyanosis，即手腳末端呈現藍紫色，但軀幹與口唇微紅潤），最常見的原因是「周邊血液循環不良（peripheral circulatory sluggishness）」與新生兒對冷環境的血管收縮反應，屬於正常的生理良性現象，不需要特殊治療，故D正確。胎便吸入及先天性發紺心臟病常引起中心性發紺（central cyanosis），會波及全身皮膚及黏膜，伴隨呼吸喘等異常症狀。",
+      "key_point": "新生兒手足發紺（Acrocyanosis）的病因與良性本質",
+      "flashcard_summary": "新生兒手足發紺 -> 屬生理性周邊血液循環不良，為良性現象，與中心性發紺不同",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "手足發紺 / Acrocyanosis / 中心發紺 vs 周邊發紺 / 新生兒生理變化",
+      "flashcard_back": "手足發紺是因周邊血液循環不良所致的良性生理現象；中心性發紺（心肺疾病）則會波及嘴唇與軀幹。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_007",
@@ -142,15 +190,23 @@
         "D": "注意含鐵之副食品的導入以符合營養需求"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "嬰兒在4-6個月大後，純母乳中的鐵含量已無法完全滿足發育需求，因此需注意導入富含鐵質的副食品（如強化鐵米麥精、肉泥），故D正確。添加副食品應一次只嘗試一種食物，觀察3至5天無過敏後再加新食物，不可多種同時導入。一歲以下嬰兒絕對「不可食用蜂蜜」（有肉毒桿菌孢子中毒風險）。一歲以下嬰兒也應避免餵食果汁以防止齲齒與肥胖。",
+      "key_point": "嬰兒副食品添加原則與安全禁忌",
+      "flashcard_summary": "副食品添加原則 -> 需注意鐵質副食品導入；一歲以下禁用蜂蜜，且副食品應一次單一導入",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "副食品添加 / 鐵質補充 / 蜂蜜禁忌 / 果汁限制 / 單一導入",
+      "flashcard_back": "4-6個月需導入含鐵副食品；蜂蜜一歲以下禁用（防肉毒桿菌）；添加副食品應一次一種，循序漸進。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_008",
@@ -163,15 +219,23 @@
         "D": "X-linked recessive"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "先天性腎上腺增生症（Congenital Adrenal Hyperplasia, CAH）是一組由於皮質醇合成酶缺陷導致的常染色體隱性遺傳疾病（Autosomal recessive），最常見的病因為 21-羥化酶缺乏症（21-hydroxylase deficiency），故B正確。此類疾病需要父母雙方皆攜帶突變基因，子女才有25%的機率發病。",
+      "key_point": "先天性腎上腺增生症（CAH）的遺傳學特徵",
+      "flashcard_summary": "CAH 遺傳模式 -> 屬於體染色體隱性遺傳（Autosomal recessive）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "先天性腎上腺增生 / CAH / 21-羥化酶缺乏 / 遺傳模式",
+      "flashcard_back": "先天性腎上腺增生症（CAH）為體染色體隱性遺傳（Autosomal recessive）疾病，以21-hydroxylase缺乏最常見。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_009",
@@ -184,15 +248,23 @@
         "D": "潰瘍性大腸炎(ulcerative colitis)機率最大,立即做大腸鏡檢查"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "純母乳哺育的3個月大女嬰若精神食慾佳、無發燒，僅大便帶有血絲，臨床最常見診斷為「食物蛋白誘導性直腸結腸炎（FPIAP）」。這是因為母親飲食中的牛奶蛋白（或大豆、雞蛋等）穿透屏障進入母乳中，進而引發嬰兒腸道過敏反應，故A正確。細菌性大腸炎雖可無發燒，但通常伴隨稀爛黏液便與腹痛。此類過敏多屬非IgE介導，檢測血中IgE過敏原無診斷價值，且無須做侵入性大腸鏡檢查。",
+      "key_point": "嬰兒食物蛋白誘導性直腸結腸炎（FPIAP）與母乳相關過敏",
+      "flashcard_summary": "母乳嬰兒血便原因 -> 母親喝牛奶致牛奶蛋白進入母乳，引發嬰兒直腸結腸過敏出血",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "母乳哺育血便 / 精神良好無發燒 / 牛奶蛋白過敏 / 非IgE介導過敏",
+      "flashcard_back": "純母乳嬰兒可因母親飲食中的牛奶蛋白引發腸道過敏血便；診斷靠母親排除牛奶飲食，無須大腸鏡或IgE檢測。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_010",
@@ -205,15 +277,23 @@
         "D": "急性闌尾炎(Appendicitis)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "背部放射痛（referred pain）通常與後腹腔器官（如胰臟）病變、或是中軸腹腔管道發生高壓擴張有關。胰臟炎（B）典型表現為向後背放射的刀割般疼痛；腸阻塞（C）因腸管高度擴張及闌尾炎（D）在後盲腸型闌尾時皆可能引起背部或腰部疼痛。腸套疊（A）病變主要侷限於前腹腔的腸管套疊與腸系膜牽扯，臨床主要表現為陣發性哭鬧、草莓果醬樣便，極少發生背部放射痛，故選A。",
+      "key_point": "小兒急性腹痛引發背部放射痛的器官定位與鑑別",
+      "flashcard_summary": "急性腹痛背部放射痛 -> 腸套疊極少引起背部放射痛；胰臟炎與腸阻塞則較易引起",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "小兒急性腹痛 / 背部放射痛 / 腸套疊症狀 / 後腹腔病變",
+      "flashcard_back": "胰臟炎、腸阻塞與後盲腸闌尾炎易引發背部放射痛；腸套疊以陣發性腹痛與草莓果醬便為主，極少放射至背部。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_011",
@@ -226,15 +306,23 @@
         "D": "鐵在遠端迴腸(Distal ileum)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "鐵離子（Iron）的主要吸收部位是在「十二指腸（Duodenum）」及「近端空腸（Proximal jejunum）」，而非遠端迴腸，故D敘述錯誤，為本題正確答案。葉酸確實主要在十二指腸和近端空腸吸收；膽酸（Bile acids）及維生素 B12 則特異性地在遠端迴腸（Distal ileum）重吸收；蛋白質與醣類則主要在小腸前段吸收完畢。",
+      "key_point": "小腸各段對不同營養素之吸收部位",
+      "flashcard_summary": "鐵吸收部位 -> 主要在十二指腸與近端空腸，遠端迴腸是膽酸與 Vit B12 的吸收部位",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "營養素吸收部位 / 鐵吸收位置 / 膽酸與Vit B12 / 葉酸吸收",
+      "flashcard_back": "鐵主要在十二指腸及近端空腸吸收，而非迴腸；膽酸與Vit B12則是在遠端迴腸特異性吸收。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_012",
@@ -247,15 +335,23 @@
         "D": "Ursodeoxycholic acid(UDCA)對改善黃疸可能有助益"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "全靜脈營養相關膽汁滯留（TPN-associated cholestasis / PNAC）是一種長期使用全靜脈營養的併發症，典型症狀與黃疸通常在接受 TPN 治療的「數週或數月後」（通常 > 2-3週）才逐漸發生，而非在一星期內，故C敘述錯誤，為本題正確答案。其危險因子包含早產、低出生體重、敗血症及短腸症。靜脈營養中的脂肪乳劑種類（如大豆油易致病）與劑量跟其發生密切相關；UDCA可改善膽汁流速以緩解黃疸。",
+      "key_point": "全靜脈營養相關膽汁滯留（PNAC）的危險因子與發生時間",
+      "flashcard_summary": "PNAC 發生特徵 -> 通常在使用 TPN 2-3 週後發生，非一週內；早產與脂肪乳劑是重要影響因素",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "TPN膽汁滯留 / PNAC / 發生時間 / 脂肪乳劑影響 / UDCA治療",
+      "flashcard_back": "PNAC為長期靜脈營養之併發症，常於使用2-3週後發生，而非1週內；大豆油脂肪乳劑與高劑量易增加風險。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_013",
@@ -268,10 +364,10 @@
         "D": "膀胱輸尿管逆流(Vesicoureteral reflux)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "本題官方答案為A（一律給分）。學理上，未割包皮的男性男嬰（Uncircumcised male）因為包皮垢易蓄積細菌，其泌尿道感染風險其實顯著「高於」已割包皮的男嬰，因此它是一項明確的危險因子，而非最不相關。慢性便秘（壓迫膀胱致排尿不全）、膀胱輸尿管逆流（VUR，致尿液反流）及泡泡浴（刺激尿道黏膜）也都是公認的兒童UTI危險因子。因選項表述瑕疵，官方最終一律給分。",
+      "key_point": "兒童泌尿道感染（UTI）的危險因子",
+      "flashcard_summary": "兒童UTI危險因子 -> 未割包皮、慢性便秘與 VUR 皆是危險因子，本題因選項瑕疵一律給分",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A",
         "B",
@@ -280,7 +376,15 @@
       ],
       "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "第13題一律給分"
+      "answer_note": "第13題一律給分",
+      "flashcard_front": "兒童泌尿道感染 / UTI危險因子 / 包皮與感染風險 / 便秘與尿液逆流",
+      "flashcard_back": "未割包皮、慢性便秘、膀胱輸尿管逆流（VUR）皆為兒童UTI的危險因子；因題目選項瑕疵，此題一律給分。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_014",
@@ -293,14 +397,22 @@
         "D": "限水治療後無法改變低血鈉的情形"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "本題官方更正為「答B、C或D皆給分」（輸入 correct_answer 需為空字串）。診斷 SIADH 的核心準則為低血清滲透壓（<275-280 mOsm/kg）、高尿滲透壓（>100 mOsm/kg）、臨床上體液等容積（euvolemia）。必須「排除」心、肝、腎、甲狀腺及腎上腺功能不全（即選項A是排除條件）。因題目問的是「不是排除條件」（即是診斷條件本身），而選項B、C屬於診斷必備條件，且限水治療改善（而非無法改變）才是診斷支持依據，題目敘述與邏輯混亂致使B、C、D均符合題意，故官方更正答案。",
+      "key_point": "抗利尿激素不適當分泌症候群（SIADH）的診斷與排除條件",
+      "flashcard_summary": "SIADH 排除與診斷 -> 排除甲狀腺與腎上腺異常；診斷需具低血滲與高尿滲，本題答 B/C/D 皆給分",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "SIADH診斷 / 排除條件 / 尿液與血清滲透壓 / 限水治療效應",
+      "flashcard_back": "SIADH需排除甲狀腺/腎上腺/心肝腎疾病；其必備診斷包含低血清滲透壓、高尿滲透壓。本題答B、C或D皆給分。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_015",
@@ -313,15 +425,23 @@
         "D": "細菌性泌尿道感染 (Bacterial urinary tract infection)也會引起血尿"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "血尿來源可分為腎絲球性與非腎絲球性（下泌尿道）。當血尿來自「腎絲球性（如腎絲球發炎）」病變時，紅血球在酸性尿液中被破壞，典型呈現「茶色（tea-colored）」或「可樂色」；而來自下泌尿道的出血，尿液多呈「鮮紅色」或有血塊，故C敘述將兩者位置倒置，為錯誤的答案。急性腎絲球腎炎常伴隨高血壓及水腫，顯微鏡檢可見變形紅血球（dysmorphic RBCs）。",
+      "key_point": "兒童血尿的來源區分與臨床表徵",
+      "flashcard_summary": "血尿來源區分 -> 腎絲球出血呈茶色或可樂色（C敘述倒置）；下泌尿道出血多呈鮮紅色",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "兒童血尿來源 / 茶色尿 vs 鮮紅尿 / 變形紅血球 / 腎絲球發炎合併症",
+      "flashcard_back": "腎絲球血尿呈茶色或可樂色，鏡檢見變形紅血球與高血壓；下泌尿道血尿多呈鮮紅色並可能有血塊。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-12T07:17:12.673421+00:00"
     },
     {
       "id": "109-2_medicine-4_016",

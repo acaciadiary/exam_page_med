@@ -3,9 +3,6 @@ import os
 
 def parse_prompt(b):
     p_path = f"reports/gemini_prompts/{b}.md"
-    if not os.path.exists(p_path):
-        print(f"Error: {p_path} not found")
-        return None
     with open(p_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -32,19 +29,16 @@ def parse_prompt(b):
     return prompt_data
 
 batches = [
-    "110-2_medicine-3_batch-006",
-    "110-2_medicine-4_batch-001",
-    "110-2_medicine-4_batch-002",
-    "110-2_medicine-4_batch-003",
-    "110-2_medicine-4_batch-004",
-    "110-2_medicine-4_batch-005"
+    "111-2_medicine-5_batch-001",
+    "111-2_medicine-5_batch-002",
+    "111-2_medicine-5_batch-003",
+    "111-2_medicine-5_batch-004",
+    "111-2_medicine-5_batch-005"
 ]
 
 out_lines = []
 for b in batches:
     data = parse_prompt(b)
-    if not data:
-        continue
     out_lines.append(f"========================================\nBATCH: {b}\n========================================")
     out_lines.append(f"Dataset ID: {data.get('dataset_id')}")
     out_lines.append(f"Allowed Categories: {data.get('allowed_categories')}")
@@ -53,7 +47,7 @@ for b in batches:
         out_lines.append(f"\nQ{q.get('question_number')}: {q.get('question_id')}")
         out_lines.append(f"Text: {q.get('question_text')}")
         out_lines.append("Options:")
-        for opt, val in q.get('options', {}).items():
+        for opt, val in sorted(q.get('options', {}).items()):
             out_lines.append(f"  {opt}: {val}")
         out_lines.append(f"Correct: {q.get('correct_answer')}")
         if q.get('answer_note'):
@@ -61,6 +55,6 @@ for b in batches:
     out_lines.append("\n")
 
 os.makedirs("scratch", exist_ok=True)
-with open("scratch/assigned_questions.txt", "w", encoding="utf-8") as f:
+with open("scratch/target_questions.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(out_lines))
-print("Done writing scratch/assigned_questions.txt")
+print("Done writing scratch/target_questions.txt")

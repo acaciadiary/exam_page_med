@@ -3,9 +3,6 @@ import os
 
 def parse_prompt(b):
     p_path = f"reports/gemini_prompts/{b}.md"
-    if not os.path.exists(p_path):
-        print(f"Error: {p_path} not found")
-        return None
     with open(p_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -32,19 +29,19 @@ def parse_prompt(b):
     return prompt_data
 
 batches = [
-    "110-2_medicine-3_batch-006",
-    "110-2_medicine-4_batch-001",
-    "110-2_medicine-4_batch-002",
-    "110-2_medicine-4_batch-003",
-    "110-2_medicine-4_batch-004",
-    "110-2_medicine-4_batch-005"
+    "110-1_medicine-2_batch-002",
+    "110-1_medicine-2_batch-003",
+    "110-1_medicine-2_batch-004",
+    "110-1_medicine-2_batch-005",
+    "110-1_medicine-2_batch-006",
+    "110-1_medicine-2_batch-007",
+    "110-1_medicine-3_batch-001",
+    "110-1_medicine-3_batch-002"
 ]
 
 out_lines = []
 for b in batches:
     data = parse_prompt(b)
-    if not data:
-        continue
     out_lines.append(f"========================================\nBATCH: {b}\n========================================")
     out_lines.append(f"Dataset ID: {data.get('dataset_id')}")
     out_lines.append(f"Allowed Categories: {data.get('allowed_categories')}")
@@ -60,7 +57,6 @@ for b in batches:
             out_lines.append(f"Answer Note: {q.get('answer_note')}")
     out_lines.append("\n")
 
-os.makedirs("scratch", exist_ok=True)
-with open("scratch/assigned_questions.txt", "w", encoding="utf-8") as f:
+with open("scratch/questions_details.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(out_lines))
-print("Done writing scratch/assigned_questions.txt")
+print("Done writing scratch/questions_details.txt")
