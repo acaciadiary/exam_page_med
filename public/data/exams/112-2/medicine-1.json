@@ -4,7 +4,7 @@
   "title": "112 年第二次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=112100&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-16T16:41:26.814010+00:00",
   "questions": [
     {
       "id": "112-2_medicine-1_001",
@@ -1773,7 +1773,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_062",
@@ -1802,7 +1802,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_063",
@@ -1831,7 +1831,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_064",
@@ -1860,7 +1860,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_065",
@@ -1889,7 +1889,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_066",
@@ -1902,15 +1902,23 @@
         "D": "ROMK K+channels"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "貝氏症候群是因腎臟髓質海綿體旁亨利氏環粗上升段（TAL）上的轉運蛋白基因突變引起，相關蛋白包括 NKCC2、ROMK 和 ClC-Kb 通道。而 Na+-Cl- 共同轉運體（NCC）位於遠曲小管（DCT），其功能喪失性突變會導致吉特曼症候群（Gitelman syndrome），而非貝氏症候群，故選A。",
+      "key_point": "貝氏症候群（Bartter syndrome）的致病受體與腎臟解剖部位",
+      "flashcard_summary": "貝氏症候群不涉及的載體 -> 遠曲小管的 Na+-Cl- cotransporter（NCC）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_answer"
+      "answer_source": "official_answer",
+      "flashcard_front": "貝氏症候群 / Bartter syndrome / 粗上升段 TAL / NCC與NKCC2 / 排除突變蛋白",
+      "flashcard_back": "貝氏症候群致病於TAL的NKCC2、ROMK或ClC-Kb；NCC突變則導致遠曲小管病變的吉特曼症候群（Gitelman syndrome）。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_067",
@@ -1939,7 +1947,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_068",
@@ -1968,7 +1976,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_069",
@@ -1997,7 +2005,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_070",
@@ -2026,7 +2034,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_071",
@@ -2055,7 +2063,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_072",
@@ -2084,7 +2092,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_073",
@@ -2113,7 +2121,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_074",
@@ -2142,7 +2150,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_075",
@@ -2171,7 +2179,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_generated_at": "2026-06-16T16:41:26.814010+00:00"
     },
     {
       "id": "112-2_medicine-1_076",
