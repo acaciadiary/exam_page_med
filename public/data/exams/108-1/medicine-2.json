@@ -4,7 +4,7 @@
   "title": "108 年第一次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=108030&q=1&s=22&t=Q",
-  "updated_at": "2026-06-11T14:37:14.418687+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "108-1_medicine-2_001",
@@ -17,15 +17,23 @@
         "D": "細胞壁結構改變"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，肺炎鏈球菌（Streptococcus pneumoniae）對青黴素（penicillin）產生抗性的主要機轉是其染色體上的青黴素結合蛋白質（PBP）基因發生突變，使 PBP 的結構與藥物的結合親和力下降。該菌通常不產生青黴素分解酶（penicillinase），這與金黃色葡萄球菌產生 β-內醯胺酶以抗藥的機轉不同。",
+      "key_point": "肺炎鏈球菌對青黴素的抗性主要是因青黴素結合蛋白（PBP）結構改變降低親和力。",
+      "flashcard_summary": "肺炎鏈球菌（S. pneumoniae）/ 青黴素（penicillin）抗性 / 抗藥性主要機轉 -> 肺炎鏈球菌對青黴素的抗性源於青黴素結合蛋白（PBP）結構改變（親和力下降），而非產生青黴素分解酶。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肺炎鏈球菌（S. pneumoniae）/ 青黴素（penicillin）抗性 / 抗藥性主要機轉",
+      "flashcard_back": "肺炎鏈球菌對青黴素的抗性源於青黴素結合蛋白（PBP）結構改變（親和力下降），而非產生青黴素分解酶。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_002",
@@ -38,15 +46,23 @@
         "D": "棘白菌素(echinocandin)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)正確，禽型分枝桿菌群（Mycobacterium avium Complex, MAC）感染的標準治療指引建議使用大環內酯類抗生素，如阿奇黴素（azithromycin）或克拉黴素，合併乙胺丁醇（ethambutol）以及利福布丁（rifabutin）進行聯合治療。其餘選項中，metronidazole 用於治療厭氧菌及原蟲，clavulanic acid 為 β-lactamase 抑制劑，echinocandin 為抗真菌藥物，皆無效。",
+      "key_point": "治療 MAC 感染的標準合併療法包含大環內酯類藥物如阿奇黴素（azithromycin）。",
+      "flashcard_summary": "禽型分枝桿菌群（MAC）感染 / 臨床治療藥物 / 合併 ethambutol + rifabutin -> 治療 MAC 感染的標準三聯療法包含大環內酯類抗生素，如阿奇黴素（azithromycin），合併 ethambutol 與 rifabutin。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "禽型分枝桿菌群（MAC）感染 / 臨床治療藥物 / 合併 ethambutol + rifabutin",
+      "flashcard_back": "治療 MAC 感染的標準三聯療法包含大環內酯類抗生素，如阿奇黴素（azithromycin），合併 ethambutol 與 rifabutin。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_003",
@@ -59,15 +75,23 @@
         "D": "細菌青黴素結合蛋白質(penicillin-binding protein)之改變會導致對青黴素(penicillin)產生抗性"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)錯誤，胺基糖苷類（aminoglycosides）抗生素需要藉由需氧的電子傳遞鏈（質子動力）才能被吸收入菌體內，因此專性厭氧菌對此類藥物具有天然的抗藥性（無感受性）。其餘選項均正確：XDR-TB 比 MDR-TB 具更多種抗藥性；NDM-1（新德里金屬 β-內醯胺酶）能水解大多數 β-lactams；PBP 的改變是細菌對青黴素產生抗性的重要機轉。",
+      "key_point": "厭氧菌對胺基糖苷類（aminoglycosides）具備天然抗藥性，因其攝入需要氧氣。",
+      "flashcard_summary": "厭氧菌（anaerobes）/ 胺基糖苷類（aminoglycosides）感受性 / 藥物攝入機轉 -> 厭氧菌對胺基糖苷類藥物具有天然抗藥性，因該藥物進入菌體需要利用需氧電子傳遞鏈。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "厭氧菌（anaerobes）/ 胺基糖苷類（aminoglycosides）感受性 / 藥物攝入機轉",
+      "flashcard_back": "厭氧菌對胺基糖苷類藥物具有天然抗藥性，因該藥物進入菌體需要利用需氧電子傳遞鏈。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_004",
@@ -80,15 +104,23 @@
         "D": "由多數基因所組成,可製造多種致病因子(virulence factors)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)錯誤，致病島（pathogenicity island, PAI）是細菌染色體或質體上攜帶致病基因的特定區段，它們常與可移動遺傳元件（如轉位子 transposon、噬菌體等）相關聯，並可以存在於轉位子中，藉此在不同細菌間水平轉移。致病島通常可被單一環境因子（如溫度或 pH 改變）活化，且由多個與毒力相關的基因組成。",
+      "key_point": "致病島（PAI）可位於轉位子等可移動遺傳元件中，促進致病基因在細菌間水平轉移。",
+      "flashcard_summary": "細菌致病島（PAI）/ 轉位子（transposon）/ 遺傳元件定位 -> 致病島可以存在於轉位子或質體等可移動遺傳元件中，並非與轉位子互斥。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "細菌致病島（PAI）/ 轉位子（transposon）/ 遺傳元件定位",
+      "flashcard_back": "致病島可以存在於轉位子或質體等可移動遺傳元件中，並非與轉位子互斥。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_005",
@@ -101,15 +133,23 @@
         "D": "此菌能形成內芽胞(endospores)在低溫存活"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)錯誤，單核球增多性李斯特菌（Listeria monocytogenes）為無芽孢的革蘭氏陽性桿菌，並不能形成內芽孢。該菌具運動性，能在低溫（4°C）下生長，主要透過吃進污染的食物感染；它屬於細胞內寄生菌，可利用宿主細胞的肌動蛋白（actin filament）在細胞質移動並直接穿入鄰近細胞。",
+      "key_point": "李斯特菌屬於無芽孢革蘭氏陽性桿菌，在低溫存活與芽孢無關。",
+      "flashcard_summary": "李斯特菌（Listeria monocytogenes）/ 芽孢形成 / 低溫存活 -> 李斯特菌是無芽孢的革蘭氏陽性菌，它能在低溫存活是由於其獨特的生理耐受性而非靠形成內芽孢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "李斯特菌（Listeria monocytogenes）/ 芽孢形成 / 低溫存活",
+      "flashcard_back": "李斯特菌是無芽孢的革蘭氏陽性菌，它能在低溫存活是由於其獨特的生理耐受性而非靠形成內芽孢。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_006",
@@ -122,15 +162,23 @@
         "D": "能幫助細菌抵抗吞噬作用(phagocytosis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，莢膜（capsule）是位於細菌細胞壁外的一層多醣體（炭疽桿菌為多肽）結構，主要功能為掩蓋菌體抗原，阻礙補體活化，從而幫助細菌抵抗宿主巨噬細胞和嗜中性球的吞噬作用。並非所有細菌都有莢膜；細胞壁胜肽聚醣層厚度才是導致革蘭氏染色反應差異的主因。",
+      "key_point": "細菌莢膜的主要功能是抑制宿主免疫細胞的吞噬作用（phagocytosis）。",
+      "flashcard_summary": "細菌莢膜（capsule）/ 免疫逃脫 / 主要功能與成分 -> 莢膜多由多醣體組成，最主要功能是幫助細菌抵抗吞噬作用；革蘭氏染色反應主因是細胞壁勝肽聚醣層。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "細菌莢膜（capsule）/ 免疫逃脫 / 主要功能與成分",
+      "flashcard_back": "莢膜多由多醣體組成，最主要功能是幫助細菌抵抗吞噬作用；革蘭氏染色反應主因是細胞壁勝肽聚醣層。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_007",
@@ -143,15 +191,23 @@
         "D": "肉毒素可做為生化武器,造成吸入性肉毒症(inhalation botulism)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)錯誤，肉毒桿菌毒素（Botulinum toxin）是一種鋅指內切酶，其能水解神經元突觸小泡融合所需的 SNARE 蛋白，從而阻斷運動神經末梢釋放乙醯膽鹼，導致肌肉弛緩性麻痺，而非作用於 Rho-GTPase。嬰兒及成人吃進受污染的食物（如蜂蜜或密封罐頭）可致病，吸入毒素亦可引起吸入性肉毒症。",
+      "key_point": "肉毒桿菌毒素作用於 SNARE 蛋白阻止乙醯膽鹼釋放，而非 Rho-GTPase。",
+      "flashcard_summary": "肉毒素（Botulinum toxin）/ 作用機轉 / 受體與靶蛋白 -> 肉毒素是水解神經末梢的 SNARE 蛋白，阻斷乙醯膽鹼釋放，而非抑制 Rho-GTPase。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肉毒素（Botulinum toxin）/ 作用機轉 / 受體與靶蛋白",
+      "flashcard_back": "肉毒素是水解神經末梢的 SNARE 蛋白，阻斷乙醯膽鹼釋放，而非抑制 Rho-GTPase。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_008",
@@ -164,15 +220,23 @@
         "D": "常由患者糞便中分離到致病菌"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)錯誤，韋爾病（Weil disease）是鉤端螺旋體病（Leptospirosis）的嚴重病型，由屬於螺旋體的鉤端螺旋體引起，會導致黃疸、腎衰竭與心肌炎等。此菌在感染中後期主要經由腎臟進入尿液排出，因此通常是從患者的血液、腦脊髓液或尿液中分離到，而非由糞便中分離。多數感染與接觸受感染動物尿液污染的水體有關。",
+      "key_point": "韋爾病由鉤端螺旋體引起，主要由尿液排出，非糞便。",
+      "flashcard_summary": "韋爾病（Weil disease）/ 鉤端螺旋體 / 致病菌分離檢體 -> 韋爾病由螺旋體引起，致病菌主要由尿液排出（而非糞便），故診斷從尿液或血液分離而非糞便。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "韋爾病（Weil disease）/ 鉤端螺旋體 / 致病菌分離檢體",
+      "flashcard_back": "韋爾病由螺旋體引起，致病菌主要由尿液排出（而非糞便），故診斷從尿液或血液分離而非糞便。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_009",
@@ -185,15 +249,23 @@
         "D": "克林黴素(Clindamycin)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，細菌 50S 核糖體次單位的 23S rRNA 發生甲基化（methylation），會改變藥物在核糖體上的結合位點，導致對大環內酯類（macrolides）與林可醯胺類（lincosamides，如克林黴素 clindamycin）等藥物產生交叉抗藥性。慶大黴素與四環黴素作用於 30S 核糖體，且磺胺類阻斷葉酸合成，皆與此抗藥機轉無關。",
+      "key_point": "23S rRNA 甲基化可阻礙 MLSB 類藥物結合，導致對克林黴素等產生抗藥性。",
+      "flashcard_summary": "23S rRNA 甲基化 / 抗藥性機轉 / 50S 核糖體抑制劑 -> 23S rRNA 甲基化會改變 50S 核糖體結合位點，使克林黴素（clindamycin）等 MLSB 類藥物無法結合。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "23S rRNA 甲基化 / 抗藥性機轉 / 50S 核糖體抑制劑",
+      "flashcard_back": "23S rRNA 甲基化會改變 50S 核糖體結合位點，使克林黴素（clindamycin）等 MLSB 類藥物無法結合。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_010",
@@ -206,15 +278,23 @@
         "D": "克里米亞-剛果出血熱病毒(Crimean-Congo hemorrhagic fever virus)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)正確，拉薩病毒（Lassa virus）屬於沙狀病毒科（Arenaviridae），其基因體由大（L）與小（S）兩條單股 RNA 節段組成，且兩條節段均具有雙義（ambisense）編碼特徵（一部分以正義、另一部分以反義編碼蛋白質）。登革病毒與 MERS-CoV 為單節段單股正鏈 RNA；克里米亞-剛果出血熱病毒具三節段單股負鏈 RNA，非雙節段。",
+      "key_point": "沙狀病毒科如拉薩病毒（Lassa virus）具有雙節段單股 RNA，呈雙義（ambisense）編碼。",
+      "flashcard_summary": "拉薩病毒（Lassa virus）/ 雙節段 RNA / 雙義（ambisense）編碼 -> 沙狀病毒科（如拉薩病毒）基因體由 L、S 兩條單股 RNA 組成，具有雙義（ambisense）編碼特徵。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "拉薩病毒（Lassa virus）/ 雙節段 RNA / 雙義（ambisense）編碼",
+      "flashcard_back": "沙狀病毒科（如拉薩病毒）基因體由 L、S 兩條單股 RNA 組成，具有雙義（ambisense）編碼特徵。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_011",
@@ -227,15 +307,23 @@
         "D": "EB病毒感染B細胞之後,會進入潛伏狀態,完全不表現任何病毒RNA或蛋白質,以躲避免疫系統攻擊"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)正確，EB 病毒（Epstein-Barr virus）與鼻咽癌密切相關，病患血液中常可偵測到抗 EBV 早期抗原或膜抗原的特異性抗體（如抗 EBV VCA IgA）力價上升。選項 A 帶狀疱疹由水痘帶狀疱疹病毒引起；選項 B 愛滋病人體內 EBV 主要感染 B 細胞（可能導致淋巴瘤或口腔毛狀白斑）；選項 D 潛伏期 EBV 仍會表達少數潛伏基因（如 EBNA 等）與非編碼 RNA。",
+      "key_point": "鼻咽癌病患體內抗 EB 病毒抗體（如 IgA）力價會顯著上升。",
+      "flashcard_summary": "EB 病毒（EBV）/ 鼻咽癌（NPC）關係 / 潛伏感染與關聯疾病 -> EB 病毒與鼻咽癌密切相關，病患血清中抗 EB 病毒蛋白抗體力價會上升；帶狀疱疹則由 VZV 引起。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "EB 病毒（EBV）/ 鼻咽癌（NPC）關係 / 潛伏感染與關聯疾病",
+      "flashcard_back": "EB 病毒與鼻咽癌密切相關，病患血清中抗 EB 病毒蛋白抗體力價會上升；帶狀疱疹則由 VZV 引起。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_012",
@@ -248,15 +336,23 @@
         "D": "會造成肺泡細胞堅實化病變"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)正確，普利昂蛋白（Prion）是無核酸的異常摺疊宿主蛋白質（PrPSc），不會引起宿主體內如干擾素（interferon）或抗體等特異性免疫或發炎反應。由於其結構極為穩定，無法被福馬林、紫外線或一般的化學消毒劑破壞；其主要侵犯中樞神經系統（造成腦部空泡化病變，而非肺部病變），且不具常規抗原性。",
+      "key_point": "Prion 為無核酸的異常摺疊蛋白質，無法刺激宿主產生干擾素與免疫反應。",
+      "flashcard_summary": "普利昂蛋白（Prion）/ 宿主免疫反應 / 物理化學耐受性 -> Prion 為無核酸的異常蛋白質，不具抗原性且無法刺激產生干擾素；對福馬林、紫外線及高溫有極高抗性。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "普利昂蛋白（Prion）/ 宿主免疫反應 / 物理化學耐受性",
+      "flashcard_back": "Prion 為無核酸的異常蛋白質，不具抗原性且無法刺激產生干擾素；對福馬林、紫外線及高溫有極高抗性。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_013",
@@ -269,15 +365,23 @@
         "D": "RNA聚合酶(polymerase, PA)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，流感病毒的 M2 蛋白是一種質子選擇性離子通道。當病毒經內吞作用進入細胞後，M2 通道能將內吞體外的質子導入病毒顆粒內，酸化內部以促進病毒包膜與內吞體膜融合並釋放病毒核殼體（脫殼）。M1 蛋白主要提供結構支撐；NP 蛋白是核殼體主要成分；PA 則為流感 RNA 聚合酶的亞基。",
+      "key_point": "流感病毒的 M2 蛋白是質子通道，負責內吞體酸化後引導核殼體釋放。",
+      "flashcard_summary": "流感病毒脫殼 / 質子通道 / 金剛烷胺（Amantadine）靶點 -> 流感病毒的 M2 蛋白屬於質子通道，催化內吞體酸化以釋放核殼體，是 Amantadine 藥物的作用標靶。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "流感病毒脫殼 / 質子通道 / 金剛烷胺（Amantadine）靶點",
+      "flashcard_back": "流感病毒的 M2 蛋白屬於質子通道，催化內吞體酸化以釋放核殼體，是 Amantadine 藥物的作用標靶。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_014",
@@ -290,15 +394,23 @@
         "D": "痘科病毒感染細胞後的複製過程在細胞質內進行,不需要宿主的DNA複製系統協助"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，痘科病毒（Poxviruses，如天花病毒）是大型且複雜的雙股 DNA 病毒，它們非常獨特地完全在宿主細胞的「細胞質」中進行轉錄與 DNA 複製，因此它們自備了轉錄所需的 RNA 聚合酶以及 DNA 複製相關酵素。天花的滅絕是因為接種了減毒活疫苗（牛痘疫苗，而非死毒或直接天花病毒減毒疫苗）；猴痘病毒在非洲持續存在且可以感染人類引起猴痘。",
+      "key_point": "痘病毒科是唯一在細胞質內複製的 DNA 病毒，自備轉錄與複製酶。",
+      "flashcard_summary": "痘科病毒（Poxvirus）/ 細胞質內複製 / DNA 病毒特例 -> 痘病毒是少數完全在細胞質中複製的 DNA 病毒，不需要進入宿主細胞核，且自備轉錄與 DNA 複製酶。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "痘科病毒（Poxvirus）/ 細胞質內複製 / DNA 病毒特例",
+      "flashcard_back": "痘病毒是少數完全在細胞質中複製的 DNA 病毒，不需要進入宿主細胞核，且自備轉錄與 DNA 複製酶。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_015",
@@ -311,15 +423,23 @@
         "D": "病人體內的病毒會在T細胞內造成潛伏性感染(latent infection)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)錯誤，嬰兒玫瑰疹（Roseola infantum）的典型臨床特徵為幼兒突然發生數天的高燒（常可達 39-40°C），當高燒驟退時，身上才開始出現玫瑰色斑丘疹。該病主要由人類胞疹病毒第六型（HHV-6）感染引起，被感染的成人有可能產生單核球增多症，且病毒會在 T 細胞內造成潛伏性感染。",
+      "key_point": "嬰兒玫瑰疹的典型特徵是突發高燒，退燒後才出現玫瑰色皮疹。",
+      "flashcard_summary": "嬰兒玫瑰疹（roseola）/ 發燒與皮疹時序 / 病原體 -> 嬰兒玫瑰疹由 HHV-6 或 HHV-7 引起，典型特徵是突然高燒數天，退燒後才出疹，並在 T 細胞潛伏。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "嬰兒玫瑰疹（roseola）/ 發燒與皮疹時序 / 病原體",
+      "flashcard_back": "嬰兒玫瑰疹由 HHV-6 或 HHV-7 引起，典型特徵是突然高燒數天，退燒後才出疹，並在 T 細胞潛伏。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_016",
@@ -332,14 +452,22 @@
         "D": "主要感染途徑為呼吸道(respiratory tract)"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "考選部公告本題(B)或(D)皆給分。馬爾尼菲青黴菌（Talaromyces marneffei）為雙相性真菌，在 25°C 呈絲狀菌，在 37°C 呈類酵母菌形態（A、C 錯）。其主要感染途徑為吸入環境中的分生孢子（呼吸道，故 D 正確）；且由於其分裂方式為橫膈裂殖，形態上亦可觀察到關節孢子樣的結構（故 B 亦被判定為正確選項）。",
+      "key_point": "馬爾尼菲青黴菌為雙相性真菌，主要經由呼吸道感染，考選部公告 B、D 皆給分。",
+      "flashcard_summary": "馬爾尼菲青黴菌（T. marneffei）/ 雙相性真菌形態 / 感染途徑與更正答案 -> 馬爾尼菲青黴菌 25°C 呈絲狀、37°C 呈酵母狀，主要經呼吸道吸入感染，官方公告 B、D 選項皆給分。",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "馬爾尼菲青黴菌（T. marneffei）/ 雙相性真菌形態 / 感染途徑與更正答案",
+      "flashcard_back": "馬爾尼菲青黴菌 25°C 呈絲狀、37°C 呈酵母狀，主要經呼吸道吸入感染，官方公告 B、D 選項皆給分。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_017",
@@ -352,15 +480,23 @@
         "D": "奎奴普丁(Quinupristin)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，莢膜組織胞漿菌（Histoplasma capsulatum）生長緩慢，在培養時為了避免環境中快速生長的腐生真菌過度繁殖干擾，通常會在培養基中加入放線菌酮（cycloheximide）以選擇性抑制雜真菌。其餘選項中，環絲胺酸為抗結核藥，氯法齊明為抗麻風藥，奎奴普丁為革蘭氏陽性菌抗生素，皆無抑制真菌污染之作用。",
+      "key_point": "培養莢膜組織胞漿菌時，常加入放線菌酮（cycloheximide）以抑制雜菌與非致病性真菌。",
+      "flashcard_summary": "莢膜組織胞漿菌（H. capsulatum）/ 真菌培養 / 抑制雜菌添加物 -> 培養莢膜組織胞漿菌時，加入放線菌酮（cycloheximide）以抑制快速生長的環境腐生真菌。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "莢膜組織胞漿菌（H. capsulatum）/ 真菌培養 / 抑制雜菌添加物",
+      "flashcard_back": "培養莢膜組織胞漿菌時，加入放線菌酮（cycloheximide）以抑制快速生長的環境腐生真菌。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_018",
@@ -373,15 +509,23 @@
         "D": "如果NADPH氧化酶(oxidase)的基因發生突變而失去功能,會導致這兩群主要的吞噬細胞不能有效地殺\n 死病原,結果造成慢性肉芽腫病(chronic granulomatous disease, CGD)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)錯誤，呼吸爆發（respiratory burst，或稱氧化爆發）是指吞噬細胞在吞噬病原體後，胞內的 NADPH 氧化酶活化，耗氧量急劇上升並產生大量的超氧陰離子、過氧化氫等活性氧物質（ROS）來殺滅細菌，而非大量釋出二氧化碳。其餘選項均正確：NETs 能有效抓住微生物；庫氏細胞與小神經膠質細胞皆為特化巨噬細胞；NADPH 氧化酶基因突變會導致慢性肉芽腫病（CGD）。",
+      "key_point": "呼吸爆發（respiratory burst）是產生超氧陰離子等活性氧物質（ROS），而非釋放二氧化碳。",
+      "flashcard_summary": "呼吸爆發（respiratory burst）/ 吞噬細胞殺菌機制 / 錯誤生成產物 -> 呼吸爆發是消耗氧氣產生超氧陰離子與活性氧物質（ROS）以殺死細菌，並非大量釋放二氧化碳。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "呼吸爆發（respiratory burst）/ 吞噬細胞殺菌機制 / 錯誤生成產物",
+      "flashcard_back": "呼吸爆發是消耗氧氣產生超氧陰離子與活性氧物質（ROS）以殺死細菌，並非大量釋放二氧化碳。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_019",
@@ -394,15 +538,23 @@
         "D": "C"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，T細胞受體（TCR）的 β 鏈（以及抗體重鏈）是由 V、D、J 及 C 四種基因片段重組而成；而 TCR 的 α 鏈（以及抗體輕鏈）僅由 V、J 及 C 基因片段重組，並不包含 D（Diversity）基因片段。因此，β 鏈的 DNA 序列中比 α 鏈多出了 D 片段。",
+      "key_point": "TCR β 鏈與抗體重鏈一樣是由 V、D、J 基因片段重組而成，比 α 鏈多了 D 片段。",
+      "flashcard_summary": "TCR α 鏈與 β 鏈 / V(D)J 重組 / 基因片段差異 -> TCR β 鏈（及抗體重鏈）含有 V、D、J 片段，而 TCR α 鏈（及抗體輕鏈）只含 V、J 片段，無 D 片段。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "TCR α 鏈與 β 鏈 / V(D)J 重組 / 基因片段差異",
+      "flashcard_back": "TCR β 鏈（及抗體重鏈）含有 V、D、J 片段，而 TCR α 鏈（及抗體輕鏈）只含 V、J 片段，無 D 片段。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_020",
@@ -415,15 +567,23 @@
         "D": "僅1235"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，自我耐受性（self-tolerance）的機制包含中樞與周邊耐受。中樞耐受仰賴 AIRE 基因（胸腺內表達周邊抗原）及負向選擇（5，消除強結合自體抗原之細胞），而正向選擇（4）僅決定 TCR 能否結合自體 MHC，不直接建立耐受性。周邊耐受則藉由 CTLA-4（2）抑制活化、Fas（3）引導凋亡以及調節性 T 細胞（6）的抑製作用來達成。",
+      "key_point": "自我耐受性的形成與負向選擇、AIRE、Fas、CTLA-4、Treg 密切相關，但與正向選擇無直接關係。",
+      "flashcard_summary": "自我耐受性（self-tolerance）/ 胸腺內發育選擇 / 耐受性相關分子與基因 -> 自我耐受性與 AIRE、負向選擇（非正向選擇）、Treg 形成、CTLA-4、Fas 凋亡路徑直接相關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "自我耐受性（self-tolerance）/ 胸腺內發育選擇 / 耐受性相關分子與基因",
+      "flashcard_back": "自我耐受性與 AIRE、負向選擇（非正向選擇）、Treg 形成、CTLA-4、Fas 凋亡路徑直接相關。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_021",
@@ -436,15 +596,23 @@
         "D": "IFN-γ"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，TGF-β（轉化生長因子-β）是一種主要的免疫抑制與調節性細胞激素，通常由 Treg 等細胞分泌，不參與毒殺性 CD8 T 細胞的細胞毒殺功能。相反地，CD8 T 細胞在活化後會釋放包括 TNF-α、LT-α（即 TNF-β）以及 IFN-γ 等細胞激素，協同穿孔素與顆粒酶來消滅靶細胞。",
+      "key_point": "TGF-β 是免疫抑制性細胞激素，並非 CD8 T 細胞釋放用以執行毒殺的分子。",
+      "flashcard_summary": "CD8+ T 細胞毒殺 / 細胞激素釋放 / TGF-β 功能 -> TGF-β 為抑制性細胞激素，非 CD8+ T 細胞毒殺因物；CD8+ T 可分泌 IFN-γ、TNF-α 及 LT-α。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CD8+ T 細胞毒殺 / 細胞激素釋放 / TGF-β 功能",
+      "flashcard_back": "TGF-β 為抑制性細胞激素，非 CD8+ T 細胞毒殺因物；CD8+ T 可分泌 IFN-γ、TNF-α 及 LT-α。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_022",
@@ -457,15 +625,23 @@
         "D": "很多人對盤尼⻄林(penicillin)過敏的原因是因為盤尼⻄林注射到體內會和自體的蛋白形成聚合物,此聚合\n 物會誘發TH2細胞的生成,再藉著相關性辨識去活化B細胞產生IgE引起過敏反應"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)錯誤，在相關性辨識（linked recognition）中，B 細胞透過 BCR 內吞整顆病毒（含表面與內部蛋白）並將內部的核心蛋白降解呈遞於 MHC II。此時，辨識該核心蛋白的輔助型 T 細胞即可與該 B 細胞結合並提供活化訊號。因此，即使 T、B 細胞分別辨識表面和內部蛋白，只要它們來自同一個物理連結的病原體，T 細胞仍能協助 B 細胞活化。其餘選項敘述均正確。",
+      "key_point": "相關性辨識（linked recognition）中，B 細胞與 T 細胞只需辨識同一抗原複合物的不同抗原決定基即可，無需為同一種蛋白質。",
+      "flashcard_summary": "相關性辨識（linked recognition）/ B與T細胞合作 / 病毒內外蛋白辨識 -> T 與 B 細胞活化時，B 細胞若辨識病毒表面蛋白，T 細胞辨識其內部蛋白，T 細胞仍能順利協助該 B 細胞活化。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "相關性辨識（linked recognition）/ B與T細胞合作 / 病毒內外蛋白辨識",
+      "flashcard_back": "T 與 B 細胞活化時，B 細胞若辨識病毒表面蛋白，T 細胞辨識其內部蛋白，T 細胞仍能順利協助該 B 細胞活化。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_023",
@@ -478,15 +654,23 @@
         "D": "五聚體(pentamer)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，人體血清中的 IgA 主要以單體（monomer）形式存在；然而在呼吸道、腸胃道、唾液及乳汁等黏膜分泌物中存在的分泌型 IgA（secretory IgA, sIgA），主要是以二聚體（dimer，由 J 鏈連接兩個 IgA 單體，並結合有分泌片）的形式存在，以有效抵禦黏膜表面的病原體。",
+      "key_point": "分泌型 IgA（sIgA）主要以由 J 鏈連結的二聚體（dimer）形式存在於黏膜表面。",
+      "flashcard_summary": "分泌型 IgA（sIgA）/ 黏膜免疫 / 抗體聚合狀態 -> 分泌型 IgA 在黏膜中主要以二聚體（dimer）形式存在；血清中的 IgA 則多以單體存在。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "分泌型 IgA（sIgA）/ 黏膜免疫 / 抗體聚合狀態",
+      "flashcard_back": "分泌型 IgA 在黏膜中主要以二聚體（dimer）形式存在；血清中的 IgA 則多以單體存在。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_024",
@@ -499,15 +683,23 @@
         "D": "NEMO(NF-κB essential modulator,或稱IKK γ)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)正確，B 細胞要進行抗體類型轉換，需要 T 細胞表面的 CD40L 與 B 細胞表面的 CD40 結合以提供第二活化訊號。若 T 細胞上的 CD40L 發生突變缺陷（為最常見的性聯遺傳高 IgM 症候群原因），會導致 T 細胞無法協助 B 細胞活化，使 B 細胞僅能分泌 IgM。B 細胞本身的 AID（A）或 CD40（B）缺陷亦會引起高 IgM 症候群，但它們並非位於 T 細胞上的蛋白。",
+      "key_point": "性聯遺傳高 IgM 症候群是由於 T 細胞上的 CD40 ligand（CD40L）缺陷，無法與 B 細胞的 CD40 作用。",
+      "flashcard_summary": "高 IgM 症候群（hyper-IgM）/ T細胞配體缺陷 / 抗體類型轉換（class switching） -> T 細胞上的 CD40L（CD40 ligand）缺陷會導致無法與 B 細胞的 CD40 結合，從而阻斷抗體類型轉換。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "高 IgM 症候群（hyper-IgM）/ T細胞配體缺陷 / 抗體類型轉換（class switching）",
+      "flashcard_back": "T 細胞上的 CD40L（CD40 ligand）缺陷會導致無法與 B 細胞的 CD40 結合，從而阻斷抗體類型轉換。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_025",
@@ -520,15 +712,23 @@
         "D": "病人體內都可以檢測出對過敏原具特異性的IgE"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)正確，過敏原（allergen）本質上是一種抗原，因此與一般抗原相同，均需要經過抗原呈獻細胞（APC）處理並呈遞於 MHC 分子，才能活化特異性 T 細胞（主要是 TH2 細胞）。選項 B 錯誤，同卵雙胞胎對相同過敏原的反應程度不一定完全一致（受環境影響）；選項 C 錯誤，並非所有過敏原都具有蛋白酶活性；選項 D 錯誤，正常人體內一般也可能檢測出微量過敏原特異性 IgE，但此非第一型過敏原的最核心正確定義。",
+      "key_point": "過敏原本身也是一種抗原，同樣需要經過抗原呈獻細胞（APC）處理呈遞以活化 T 細胞。",
+      "flashcard_summary": "第一型過敏（Type I hypersensitivity）/ 過敏原活化T細胞 / 免疫機制 -> 過敏原如同一般抗原，必須經過抗原呈獻細胞（APC）處理後呈遞給 T 細胞，才能誘發後續的 IgE 免疫反應。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "第一型過敏（Type I hypersensitivity）/ 過敏原活化T細胞 / 免疫機制",
+      "flashcard_back": "過敏原如同一般抗原，必須經過抗原呈獻細胞（APC）處理後呈遞給 T 細胞，才能誘發後續的 IgE 免疫反應。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_026",
@@ -541,15 +741,23 @@
         "D": "類風濕性關節炎(rheumatoid arthritis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，自體免疫疾病可分為系統性與器官特異性。類風濕性關節炎（RA）雖然主要表現於關節，但它是一種系統性發炎疾病，可同時侵犯肺部（間質性肺病）、皮膚（類風濕結節）及心血管系統。而自體溶血性貧血（限於紅血球）、愛迪森氏症（限於腎上腺）及橋本氏甲狀腺炎（限於甲狀腺）皆屬於器官特異性自體免疫疾病。",
+      "key_point": "類風濕性關節炎（RA）除關節外還可侵犯肺部、皮膚及心血管等，屬於系統性自體免疫疾病。",
+      "flashcard_summary": "系統性自體免疫疾病 / 類風濕性關節炎（RA）/ 器官特異性區分 -> 類風濕性關節炎屬於系統性自體免疫疾病，能侵犯全身多處組織；而溶血性貧血、愛迪森氏症與橋本氏甲狀腺炎為器官特異性。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "系統性自體免疫疾病 / 類風濕性關節炎（RA）/ 器官特異性區分",
+      "flashcard_back": "類風濕性關節炎屬於系統性自體免疫疾病，能侵犯全身多處組織；而溶血性貧血、愛迪森氏症與橋本氏甲狀腺炎為器官特異性。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_027",
@@ -562,15 +770,23 @@
         "D": "Trastuzumab(anti-HER2/neu antibody)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，Pembrolizumab（Keytruda）是一種針對 PD-1（Programmed Death 1）的阻斷性單株抗體，藉由阻斷 PD-1 與其配體 PD-L1 的結合，解除 T 細胞受到的免疫抑制，屬於免疫檢查點抑制劑（checkpoint blockade）療法。選項 A Avastin 阻斷 VEGF；選項 C Rituximab 結合 CD20；選項 D Trastuzumab 阻斷 HER2 訊號路徑，皆非 checkpoint blockade 療法。",
+      "key_point": "Pembrolizumab 是一種抗 PD-1 單株抗體，屬於免疫檢查點抑制劑（checkpoint blockade）。",
+      "flashcard_summary": "癌症免疫治療 / 免疫檢查點抑制劑（checkpoint blockade）/ 抗 PD-1 抗體藥物 -> Pembrolizumab 是抗 PD-1 抗體，藉由阻斷 PD-1/PD-L1 抑制訊號來活化 T 細胞毒殺腫瘤，為代表性的檢查點抑制劑。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "癌症免疫治療 / 免疫檢查點抑制劑（checkpoint blockade）/ 抗 PD-1 抗體藥物",
+      "flashcard_back": "Pembrolizumab 是抗 PD-1 抗體，藉由阻斷 PD-1/PD-L1 抑制訊號來活化 T 細胞毒殺腫瘤，為代表性的檢查點抑制劑。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_028",
@@ -583,15 +799,23 @@
         "D": "Belimumab(anti-BLyS)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)正確，Denosumab 是一種針對 RANKL 的單株抗體。RANKL 是活化破骨細胞分化與生存的關鍵因子，Denosumab 結合 RANKL 後能阻斷其與破骨細胞表面的 RANK 受體結合，進而抑制骨質流失以改善骨質疏鬆。選項 A Infliximab 針對 TNF-α；選項 C Daclizumab 針對 IL-2 受體；選項 D Belimumab 針對 BLyS，皆無抑制破骨細胞活化之功能。",
+      "key_point": "Denosumab 為抗 RANKL 單株抗體，能抑制破骨細胞活化以改善骨質流失。",
+      "flashcard_summary": "骨質疏鬆單株抗體 / 抗 RANKL 藥物 / 破骨細胞抑制 -> Denosumab 是抗 RANKL 單株抗體，藉由阻斷 RANKL-RANK 結合來抑制破骨細胞的活化與分化，改善骨質流失。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "骨質疏鬆單株抗體 / 抗 RANKL 藥物 / 破骨細胞抑制",
+      "flashcard_back": "Denosumab 是抗 RANKL 單株抗體，藉由阻斷 RANKL-RANK 結合來抑制破骨細胞的活化與分化，改善骨質流失。",
+      "category_group": "醫學（二）",
+      "category": "微生物免疫學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_029",
@@ -604,15 +828,23 @@
         "D": "感染後常引起急性腹痛"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)錯誤，海獸胃線蟲（Anisakis spp.）的自然終宿主為海洋哺乳動物，人類僅是其偶然宿主。幼蟲進入人體胃腸道後無法發育為成蟲並產卵，因此患者的糞便中不會出現海獸胃線蟲的蟲卵，臨床上主要藉由胃鏡或內視鏡直接發現並取出蟲體來確診。其餘選項均正確：其需經由甲殼類及海水魚/烏賊發育；多因食入生魚片感染並引起急性腹痛。",
+      "key_point": "海獸胃線蟲在人體內無法發育為成蟲，因此人體糞便中不會有蟲卵。",
+      "flashcard_summary": "海獸胃線蟲（Anisakis）/ 人類糞便檢查 / 診斷方法 -> 海獸胃線蟲在人體內無法發育為成蟲，故糞便中無蟲卵，必須靠內視鏡（胃鏡）直接觀察蟲體進行診斷。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "海獸胃線蟲（Anisakis）/ 人類糞便檢查 / 診斷方法",
+      "flashcard_back": "海獸胃線蟲在人體內無法發育為成蟲，故糞便中無蟲卵，必須靠內視鏡（胃鏡）直接觀察蟲體進行診斷。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_030",
@@ -625,15 +857,23 @@
         "D": "在乳糜尿(chyluria)中也可能發現微絲蟲(microfilaria)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)錯誤，班氏絲蟲（Wuchereria bancrofti）由病媒蚊傳播。當蚊子叮咬吸血時，注入人體的是在蚊體內發育完成、具感染性的「第三期幼蟲（L3）」，而非微絲蟲（微絲蟲是成蟲在人體內產生的幼細胚胎，被蚊子吸入後才在蚊體內發育）。其餘選項正確：幼蟲進入淋巴管發育為成蟲；微絲蟲具有夜間出現性；可在乳糜尿中發現。",
+      "key_point": "病媒蚊吸血時注入人體的是具感染力的第三期幼蟲（L3），而非微絲蟲（L1）。",
+      "flashcard_summary": "班氏絲蟲（W. bancrofti）/ 蚊子叮咬感染期 / 絲蟲生活史 -> 蚊子叮咬注入人體的是具感染性的第三期幼蟲（L3），而非微絲蟲；微絲蟲是蚊子吸血時吸入的形態。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "班氏絲蟲（W. bancrofti）/ 蚊子叮咬感染期 / 絲蟲生活史",
+      "flashcard_back": "蚊子叮咬注入人體的是具感染性的第三期幼蟲（L3），而非微絲蟲；微絲蟲是蚊子吸血時吸入的形態。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_031",
@@ -646,15 +886,23 @@
         "D": "衛氏肺吸蟲(Paragonimus westermani)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者食用浸酒毛蟹（醉蟹）為重要病史，出現咳嗽、血痰，且痰液中發現深褐色蟲卵與卡格里登結晶（Charcot-Leyden crystals），胸部X光有斑狀浸潤與囊體，並伴隨嗜酸性球增多，皆是衛氏肺吸蟲感染的典型表現。異形吸蟲與薑片蟲為腸道吸蟲，不會引起肺部症狀；日本血吸蟲主要侵犯肝門靜脈系統。",
+      "key_point": "衛氏肺吸蟲感染的臨床與實驗室特徵。",
+      "flashcard_summary": "醉蟹食用史 / 帶血絲濃痰 / 深褐色蟲卵 / Charcot-Leyden crystals -> 衛氏肺吸蟲感染",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "醉蟹食用史 / 帶血絲濃痰 / 深褐色蟲卵 / Charcot-Leyden crystals",
+      "flashcard_back": "應診斷為衛氏肺吸蟲感染。該寄生蟲以蟹類為第二中間宿主，侵犯肺部會導致血痰與嗜酸性球增多。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_032",
@@ -667,15 +915,23 @@
         "D": "血清抗體檢查有助於診斷"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "人罹患豬囊尾幼蟲症（cysticercosis）是因為「食入豬肉絛蟲的蟲卵（eggs）」，而非食入未熟帶蟲豬肉。食入未熟帶有囊尾幼蟲的豬肉，人會得到豬肉絛蟲的成蟲寄生（絛蟲病）。囊蟲可侵犯肌肉與內臟器官，若侵犯腦部（腦囊蟲症）常引發癲癇，血清抗體檢查有助於診斷。",
+      "key_point": "豬囊尾幼蟲症的傳播途徑與臨床特徵。",
+      "flashcard_summary": "豬囊尾幼蟲症 / 傳播途徑 -> 食入豬肉絛蟲蟲卵致病，而非食入未熟豬肉中的囊尾幼蟲",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "豬囊尾幼蟲症 / 傳播途徑 / 腦部病變與癲癇",
+      "flashcard_back": "人罹患此症是因食入「豬肉絛蟲蟲卵」而非囊尾幼蟲。食入含囊尾幼蟲的未熟豬肉會導致腸道成蟲感染。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_033",
@@ -688,15 +944,23 @@
         "D": "在瘧疾流行地區,六個月以下的嬰兒常因為得自母體抗體的保護作用,甚少罹患瘧疾"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "帶狀型滋養體（band form trophozoites）是三日瘧原蟲（Plasmodium malariae）的特徵，而非卵形瘧原蟲（Plasmodium ovale）。瘧疾發作過程確實依序為惡寒、發燒、發汗。三日瘧原蟲偏好侵入成熟紅血球，而六個月以下嬰兒常因母體抗體保護而甚少患瘧疾。",
+      "key_point": "三日瘧與卵形瘧原蟲的形態鑑定與臨床特色。",
+      "flashcard_summary": "帶狀型滋養體 -> 三日瘧原蟲的特徵，而非卵形瘧原蟲",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "帶狀型滋養體 / 瘧原蟲鑑定 / 瘧疾發作三階段",
+      "flashcard_back": "帶狀型滋養體為「三日瘧原蟲」之特徵。瘧疾典型發作依序為惡寒、發燒、發汗。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_034",
@@ -709,15 +973,23 @@
         "D": "痢疾阿米巴(Entamoeba histolytica)的囊體中的類染色體(chromatoid bodies)之成分是DNA"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "痢疾阿米巴主要經由糞口途徑傳播，群聚機構（如啟智、精神教養院）與男同性戀者（經由性行為糞口接觸）為其感染高危險群。嗜碘阿米巴的大肝醣泡主要存在於「囊體（cyst）」而非滋養體；哈氏阿米巴不吞噬紅血球；類染色體成分為核糖體核酸（RNA）而非DNA。",
+      "key_point": "阿米巴原蟲的形態特徵與流行病學高危險群。",
+      "flashcard_summary": "痢疾阿米巴高危群 / 其它阿米巴特徵 -> 院生及男同志為高危群；類染色體為RNA；肝醣泡位於嗜碘阿米巴囊體",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "痢疾阿米巴高危群 / 嗜碘阿米巴肝醣泡 / 類染色體成分",
+      "flashcard_back": "男同性戀與教養院生為痢疾阿米巴高危群。大肝醣泡存在於嗜碘阿米巴「囊體」；類染色體成分為RNA。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_035",
@@ -730,15 +1002,23 @@
         "D": "人膚蠅(Dermatobia hominis)傳播之蠅蛆症經常發生於亞洲地區"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "人膚蠅（Dermatobia hominis）主要分布於中南美洲地區，並非亞洲地區。人膚蠅產卵於吸血昆蟲腹部，藉其吸血時孵化幼蟲鑽入宿主皮膚；院內蠅蛆症常發生於有開放性傷口的長期臥床者；耳部感染常伴隨爬動感與惡臭分泌物。",
+      "key_point": "蠅蛆症的傳播媒介與地理分佈。",
+      "flashcard_summary": "人膚蠅地理分佈 -> 主要分布於中南美洲，而非亞洲",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "人膚蠅 / 蠅蛆症 / 地理分佈 / 傳播方式",
+      "flashcard_back": "人膚蠅蠅蛆症主要發生於「中南美洲」而非亞洲。其利用吸血昆蟲攜帶蟲卵傳播。",
+      "category_group": "醫學（二）",
+      "category": "寄生蟲學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_036",
@@ -751,15 +1031,23 @@
         "D": "癌症分期為等距尺度(interval scale)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膽固醇值（mg/100 ml）具有絕對零度，數值之間的比例有意義，屬於等比尺度（ratio scale）。血型為名目尺度（nominal scale）；體溫（攝氏）為等距尺度（interval scale，無絕對零度）；癌症分期為序位尺度（ordinal scale，有順序但無固定間距）。",
+      "key_point": "生物統計中測量尺度的分類與判斷。",
+      "flashcard_summary": "血型、膽固醇、體溫、癌症分期的測量尺度 -> 依序為名目、等比、等距、序位尺度",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "血型 / 膽固醇值 / 攝氏體溫 / 癌症分期 / 測量尺度",
+      "flashcard_back": "膽固醇值為等比尺度；血型為名目尺度；體溫為等距尺度；癌症分期為序位尺度。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_037",
@@ -772,15 +1060,23 @@
         "D": "梅毒"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "狂犬病在臺灣傳染病分類中屬於第一類法定傳染病，必須於24小時內立即通報。瘧疾為第二類；日本腦炎與梅毒則屬於第三類法定傳染病，通報時限不同。",
+      "key_point": "臺灣法定傳染病分類與通報時效。",
+      "flashcard_summary": "狂犬病通報分級 -> 臺灣第一類法定傳染病，須立即通報",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "狂犬病 / 日本腦炎 / 瘧疾 / 梅毒 / 通報分級",
+      "flashcard_back": "狂犬病屬於第一類法定傳染病（需立即通報）。瘧疾為第二類；日本腦炎與梅毒為第三類。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_038",
@@ -793,15 +1089,23 @@
         "D": "型一錯誤加型二錯誤的機率和為1"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "型一錯誤機率（alpha）與型二錯誤機率（beta）之間沒有相加為1的關係。型一錯誤是指對立假設為假卻拒絕虛無假設（誤判有差異）的機率，即顯著水準；型二錯誤是當對立假設為真卻接受虛無假設的機率。若顯著水準不變，欲增加統計檢定力（1-beta），可透過增加樣本數來達成。",
+      "key_point": "假設檢定中型一錯誤與型二錯誤的定義與關係。",
+      "flashcard_summary": "型一錯誤與型二錯誤的關係 -> 兩者機率相加不等於1；增加樣本數可提升檢定力",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "型一錯誤 / 型二錯誤 / 顯著水準 / 統計檢定力",
+      "flashcard_back": "型一錯誤（α）與型二錯誤（β）之和不等於1。增加樣本數可在α不變下降低β、提升檢定力。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_039",
@@ -814,15 +1118,23 @@
         "D": "偽陽性率(False positive rate)增加"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "平行檢定（Simultaneous Testing）是指多項篩檢同時進行，只要其中任一項為陽性即判定為陽性。這種方式會使淨敏感度（Net sensitivity）增加，但淨特異度（Net specificity）會減少，偽陽性率也隨之增加。官方標準答案為A，強調淨敏感度的增加。",
+      "key_point": "篩檢試驗中平行檢定對敏感度與特異度的影響。",
+      "flashcard_summary": "平行檢定對篩檢效度之影響 -> 淨敏感度增加，淨特異度減少",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "平行檢定 / 淨敏感度 / 淨特異度 / 篩檢效度",
+      "flashcard_back": "平行檢定只要任一陽性即算陽性，會增加「淨敏感度」，但會降低「淨特異度」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_040",
@@ -835,15 +1147,23 @@
         "D": "單因子變異數分析"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "本研究欲比較五種不同吸菸狀況組別（三組以上獨立樣本）的肺功能平均值（連續型變數）是否不同，最適當的統計方法為單因子變異數分析（One-way ANOVA）。獨立t檢定僅適用於兩組獨立樣本比較；配對t檢定適用於兩組相關或配對樣本；卡方檢定適用於類別型變數的關聯性分析。",
+      "key_point": "多組連續型變數均值比較的統計方法選擇。",
+      "flashcard_summary": "三組以上獨立樣本平均值比較 -> 使用單因子變異數分析",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "五組吸菸狀況 / 肺功能平均值比較 / 統計方法選擇",
+      "flashcard_back": "比較三組以上獨立樣本之平均值，應選用「單因子變異數分析（One-way ANOVA）」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_041",
@@ -856,15 +1176,23 @@
         "D": "世代研究(cohort study)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該研究使用環保署的鄉鎮空氣污染資料與衛福部的癌症發生資料，缺乏個人生活相關資料，是以「群體（鄉鎮市區）」而非個人為分析單位，此研究設計屬於生態學研究（ecological study）。生態學研究易產生「生態謬誤（ecological fallacy）」，即群體關係不能直接推論至個人層面。",
+      "key_point": "流行病學研究設計中生態學研究的定義。",
+      "flashcard_summary": "以群體為分析單位的研究設計 -> 生態學研究（ecological study）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "鄉鎮市區資料 / 無個人生活資料 / 空氣污染與癌症 / 研究設計",
+      "flashcard_back": "以群體為分析單位、缺乏個人層面暴露與疾病資料的研究，屬於「生態學研究」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_042",
@@ -877,15 +1205,23 @@
         "D": "234"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "造成酸雨效應的主要空氣污染物為硫氧化物（SOx，如二氧化硫）與氮氧化物（NOx），它們在大氣中溶於水會形成硫酸與硝酸。一氧化碳與臭氧不會直接參與形成酸雨的化學反應。",
+      "key_point": "造成酸雨的主要大氣污染物成分。",
+      "flashcard_summary": "酸雨主要污染物 -> 硫氧化物與氮氧化物",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "酸雨效應 / 空氣污染物 / 硫酸與硝酸來源",
+      "flashcard_back": "造成酸雨的主要污染物是「硫氧化物（SOx）」與「氮氧化物（NOx）」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_043",
@@ -898,15 +1234,23 @@
         "D": "不適合進行不確定性分析"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "非致癌物質的風險評估核心假設為「劑量反應具有閾值存在」，即在低於某一閾值（如參考劑量 RfD）時不會引起毒性反應。致癌物評估通常假設無閾值，並使用斜率因子（slope factor）計算多餘癌症風險，以10-6作為可接受風險的基準線。",
+      "key_point": "非致癌物風險評估的核心假設與方法。",
+      "flashcard_summary": "非致癌物風險評估特徵 -> 劑量反應假設具有閾值存在",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "非致癌物 / 風險評估 / 閾值假設 / 斜率因子與10-6",
+      "flashcard_back": "非致癌物評估核心為「劑量反應具有閾值」；而斜率因子與10-6基準線用於致癌物評估。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_044",
@@ -919,15 +1263,23 @@
         "D": "中華瘧蚊、熱帶家蚊"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "臺灣傳播登革熱的病媒蚊主要為埃及斑蚊（Aedes aegypti）與白線斑蚊（Aedes albopictus）。熱帶家蚊傳播絲蟲病與日本腦炎；中華瘧蚊傳播瘧疾；小黑蚊（台灣鋏蠓）為吸血昆蟲但非登革熱病媒。",
+      "key_point": "臺灣登革熱的病媒蚊種類。",
+      "flashcard_summary": "登革熱病媒蚊 -> 埃及斑蚊、白線斑蚊",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "登革熱 / 臺灣病媒蚊種類 / 主要傳播媒介",
+      "flashcard_back": "臺灣登革熱的病媒蚊為「埃及斑蚊」與「白線斑蚊」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_045",
@@ -940,15 +1292,23 @@
         "D": "60 ppm"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "時量平均暴露濃度（TWA）計算公式為每次暴露濃度乘以暴露時間的總和，再除以總工作時間（8小時）。本題中，每小時前10分鐘暴露60 ppm，後50分鐘暴露0 ppm，因此每小時的平均暴露量為 (60 ppm * 10 min + 0 ppm * 50 min) / 60 min = 10 ppm。由於每小時循環相同，8小時的時量平均暴露濃度即為10 ppm。",
+      "key_point": "職業衛生中時量平均暴露濃度（TWA）的計算。",
+      "flashcard_summary": "TWA計算 -> 依時間加權平均計算，每小時暴露10分鐘60ppm的TWA為 10 ppm",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "時量平均暴露濃度 (TWA) / 8小時 / 10分鐘暴露60 ppm / 50分鐘無暴露",
+      "flashcard_back": "TWA為暴露時間加權平均。計算為：(60 ppm * 10 min / 60 min) = 10 ppm。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_046",
@@ -961,15 +1321,23 @@
         "D": "皮膚癌"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "長期職業暴露於有機溶劑苯（benzene），會對骨髓造血系統產生嚴重毒性，最容易誘發白血病（Leukemia，血癌）。石綿暴露與間皮瘤及肺癌相關；氯乙烯與肝血管肉瘤相關；芳香胺（如聯苯胺）與膀胱癌相關。",
+      "key_point": "有機溶劑苯暴露與職業性癌症的關聯。",
+      "flashcard_summary": "苯暴露 -> 易誘發血癌（白血病）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "苯暴露 / 職業病 / 骨髓造血系統毒性 / 易誘發癌症",
+      "flashcard_back": "長期暴露於苯（benzene）最容易導致「血癌（白血病）」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_047",
@@ -982,15 +1350,23 @@
         "D": "31"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "依據我國衛生福利部國民健康署之定義，成人肥胖（Obesity）的身體質量指數（BMI）切點為大於或等於 27 kg/m²。BMI介於18.5至24為正常範圍；24至27為過重；27至30為輕度肥胖；30至35為中度肥胖；35以上為重度肥胖。",
+      "key_point": "臺灣成人肥胖的身體質量指數（BMI）切點定義。",
+      "flashcard_summary": "臺灣成人肥胖BMI切點 -> 大於或等於 27 kg/m²",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "臺灣成人肥胖定義 / 身體質量指數 (BMI) / 衛福部切點",
+      "flashcard_back": "我國成人肥胖的BMI判定標準切點為「大於或等於27」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_048",
@@ -1003,15 +1379,23 @@
         "D": "創新擴散理論 (diffusion of innovations)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "健康信念模式（Health Belief Model, HBM）最適合用來解釋個體對於預防性健康行為（如癌症篩檢）的採行意願。此模式強調自覺罹患性、自覺嚴重性、自覺行動利益、自覺行動障礙及行動線索等因子對行為決策的影響。",
+      "key_point": "健康信念模式在預防性醫療行為上的應用。",
+      "flashcard_summary": "篩檢行為決策解釋模式 -> 健康信念模式（Health Belief Model）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "預防性健康行為 / 癌症篩檢採行意願差異 / 行為科學模式",
+      "flashcard_back": "解釋個人是否接受篩檢等預防性行為，最適用「健康信念模式（HBM）」。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_049",
@@ -1024,15 +1408,23 @@
         "D": "醫病資訊不對稱"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "整體醫療費用的長期成長主要與人口老化、國民所得增加及新醫療科技引進等供需面宏觀因素密切相關。醫病資訊不對稱是醫療市場的本質特徵，會導致市場失靈，但其對整體醫療費用「成長率」的直接影響相對較小。",
+      "key_point": "影響醫療費用成長率的主要因素。",
+      "flashcard_summary": "醫療費用成長率關聯較小的因素 -> 醫病資訊不對稱",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "醫療費用成長率 / 人口老化 / 所得增加與醫療科技 / 資訊不對稱影響",
+      "flashcard_back": "醫療費用成長率主要受人口老化、科技進步和所得影響；醫病資訊不對稱與成長率關聯性較小。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_050",
@@ -1045,15 +1437,23 @@
         "D": "生產製造的成本"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "原開發廠新藥定價昂慢主要是為回收高昂的研發成本、支付專利期保護費用以及負擔高失敗率的臨床試驗費用。相較之外，藥物本身的「生產製造原料與加工成本」占整體售價的比例極低，對定價的影響較小。",
+      "key_point": "新藥研發定價與成本構成因子。",
+      "flashcard_summary": "原研新藥定價影響較小的成本因子 -> 生產製造的成本",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "原研新藥售價昂貴 / 研發費用 / 臨床試驗成本 / 生產製造與加工成本",
+      "flashcard_back": "新藥昂貴主因是回收研發與試驗成本及專利保護；生產製造的直接成本對售價影響較小。",
+      "category_group": "醫學（二）",
+      "category": "公共衛生學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_051",
@@ -1066,15 +1466,23 @@
         "D": "阿米巴原蟲(E. histolytica)引起之結腸發炎"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Metronidazole主要針對厭氧菌（如困難梭狀芽孢桿菌 Clostridioides difficile）及原生動物（如陰道滴蟲 Trichomonas vaginalis、痢疾阿米巴 Entamoeba histolytica）感染，但對屬於革蘭氏陰性雙球菌的淋病雙球菌（Neisseria gonorrhoeae）無效。淋病雙球菌引起的感染臨床上主要以第三代頭孢菌素（如 Ceftriaxone）治療。",
+      "key_point": "Metronidazole的臨床抗菌譜與治療用途。",
+      "flashcard_summary": "Metronidazole非臨床用途 -> 淋病雙球菌引起之感染",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Metronidazole / 臨床用途 / 厭氧菌與滴蟲 / 淋病雙球菌治療",
+      "flashcard_back": "Metronidazole對厭氧菌、阿米巴與滴蟲有效；但「不適用於淋病雙球菌」感染（首選Ceftriaxone）。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_052",
@@ -1087,15 +1495,23 @@
         "D": "cyclophosphamide & 5-fluorouracil:DNA烷基化物(DNA alkylating agents)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Methotrexate（二氫葉酸還原酶抑制劑）與 5-fluorouracil（胸苷酸合成酶抑制劑）均會干擾核酸合成，屬於抗代謝藥物（anti-metabolites）。Cyclophosphamide 則屬於烷基化劑（alkylating agent），透過與DNA形成共價鍵結合來阻斷複製，故其餘配對皆有誤。",
+      "key_point": "抗癌化學治療藥物的分類與作用機轉。",
+      "flashcard_summary": "Methotrexate與5-FU之化療分類 -> 抗代謝藥物（anti-metabolites）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Cyclophosphamide / Methotrexate / 5-Fluorouracil / 藥物機轉分類",
+      "flashcard_back": "Methotrexate與5-FU為「抗代謝藥物（anti-metabolites）」；Cyclophosphamide為「烷基化劑」。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_053",
@@ -1108,15 +1524,23 @@
         "D": "ticlopidine"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Heparin（肝素）屬於抗凝血劑（anticoagulant），主要藉由活化抗凝血酶III（antithrombin III）來抑制凝血因子IIa與Xa，不屬於直接拮抗血小板凝集的藥物。Aspirin（抑制COX-1）、Dipyridamole（抑制PDE）及 Ticlopidine（阻斷ADP受體）皆為抗血小板凝集之藥物。",
+      "key_point": "抗凝血藥物與抗血小板藥物的機轉區分。",
+      "flashcard_summary": "非血小板凝集拮抗劑之藥物 -> 肝素（heparin）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Aspirin / Dipyridamole / Ticlopidine / Heparin / 藥理機轉分類",
+      "flashcard_back": "Heparin為「抗凝血劑」；Aspirin、Dipyridamole及Ticlopidine為「抗血小板凝集拮抗劑」。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_054",
@@ -1129,15 +1553,23 @@
         "D": "可以有效改善婦女產後乳房腫脹及泌乳過量的情形"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Bromocriptine為多巴胺受體致效劑，在肢端肥大症（acromegaly）患者中，能「直接」抑制腦下垂體前葉分泌生長激素（GH），並非藉由促進體制素（somatostatin）的分泌。此外，它能有效抑制泌乳激素（prolactin）分泌並改善巴金森氏症的症狀。",
+      "key_point": "多巴胺致效劑Bromocriptine在內分泌疾病的作用機轉。",
+      "flashcard_summary": "Bromocriptine治療肢端肥大症機轉 -> 直接抑制腦下垂體生長激素分泌，而非藉由增加體制素",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Bromocriptine / 肢端肥大症治療 / 生長激素抑制機轉 / 體制素關係",
+      "flashcard_back": "Bromocriptine治療肢端肥大症是「直接」抑制腦下垂體GH分泌，而非藉由增加體制素分泌。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_055",
@@ -1150,15 +1582,23 @@
         "D": "具有利尿的作用,因此會造成水分與鈉離子流失"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "血管加壓素（Vasopressin）又稱抗利尿激素（ADH），其主要生理作用為增加腎臟集合管對水分的重吸收，具有「抗利尿」作用，因而會減少水分流失並維持體液平衡。血管加壓素亦可活化V1受體引起血管收縮以提升血壓，並能刺激血小板釋放von Willebrand factor。",
+      "key_point": "血管加壓素（Vasopressin/ADH）的生理與藥理作用。",
+      "flashcard_summary": "血管加壓素錯誤描述 -> 具有利尿的作用，因此會造成水分與鈉離子流失",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "血管加壓素 (Vasopressin/ADH) / 腎臟集合管 / 水分與鈉離子代謝 / 血管收縮",
+      "flashcard_back": "Vasopressin具「抗利尿（保留水分）」作用而非利尿作用，不會造成水分與鈉離子大量流失。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_056",
@@ -1171,15 +1611,23 @@
         "D": "conivaptan"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "治療高血鈣常合併使用生理食鹽水與環利尿劑（Loop diuretics，如 furosemide）。Furosemide 會抑制亨耳氏環粗上升支的 Na+/K+/2Cl- 共運輸體，進而降低管腔正電位，減少鈣離子與鎂離子的重吸收並促進其排出。Thiazide 類利尿劑則會促進腎臟重吸收鈣離子，會加重高血鈣，因此禁用於高血鈣患者。",
+      "key_point": "治療血鈣過高的利尿劑選擇與機轉。",
+      "flashcard_summary": "治療高血鈣 the 利尿劑選擇 -> 環利尿劑（furosemide）合併生理食鹽水",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "血鈣過高治療 / 腎臟鈣離子排泄 / Furosemide / Thiazide 比較",
+      "flashcard_back": "高血鈣應選用環利尿劑「Furosemide」以促進鈣排泄；Thiazide會增加鈣重吸收，故禁用。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_057",
@@ -1192,15 +1640,23 @@
         "D": "procainamide"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Procainamide（Ia類抗心律不整藥）為最容易引起藥物誘發型紅斑性狼瘡（DILE）的藥物之一。其他常引起DILE的藥物還包括降血壓藥 Hydralazine 以及抗結核藥 Isoniazid，此副作用多與患者體內慢速乙醯化（slow acetylator）基因型有關。",
+      "key_point": "藥物誘發型紅斑性狼瘡（DILE）的常見致病藥物。",
+      "flashcard_summary": "引起藥物誘發型紅斑性狼瘡的藥物 -> Procainamide",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "藥物誘發型紅斑性狼瘡 (DILE) / 抗心律不整藥 / 慢速乙醯化 / 副作用",
+      "flashcard_back": "常引起類紅斑性狼瘡症狀的抗心律不整藥為Ia類的「Procainamide」。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_058",
@@ -1213,15 +1669,23 @@
         "D": "β3 adrenoceptor"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膽鹼性M2受體（Muscarinic M2 receptor）與 Gi 蛋白偶聯，活化後會抑制腺苷酸環化酶（adenylyl cyclase）的活性，降低胞內 cAMP 濃度。M3 受體與 Gq 蛋白偶聯，活化 PLC；β1 與 β3 受體則與 Gs 蛋白偶聯，會活化腺苷酸環化酶，增加 cAMP 濃度。",
+      "key_point": "自主神經系統受體與胞內G蛋白偶聯關係。",
+      "flashcard_summary": "抑制腺苷酸環化酶活性的受體 -> 膽鹼性 M2 受體（M2 receptor）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "膽鹼性M2受體 / G蛋白偶聯 / 腺苷酸環化酶 (adenylyl cyclase) / cAMP 濃度",
+      "flashcard_back": "M2受體與「Gi 蛋白」偶聯，活化會抑制 adenylyl cyclase 活性；而β受體多與 Gs 偶聯。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_059",
@@ -1234,15 +1698,23 @@
         "D": "latanoprost"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Treprostinil 是前列環素（Prostacyclin, PGI2）的類似物（致效劑），藉由活化血管平滑肌細胞上的 IP 受體，增加 cAMP 以擴張肺血管，用於治療肺動脈高壓。Alprostadil 與 Misoprostol 為 PGE1 衍生物；Latanoprost 為 PGF2α 衍生物，主要用於青光眼治療。",
+      "key_point": "前列環素（PGI2）類似物在肺高壓的應用。",
+      "flashcard_summary": "治療肺高壓的 PGI2 類似物 -> Treprostinil",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "PGI2 致效劑 / 肺高壓 (pulmonary hypertension) / 血管舒張 / cAMP 增加",
+      "flashcard_back": "用於治療肺高壓的PGI2致效劑為「Treprostinil」。Alprostadil及Misoprostol則為PGE1衍生物。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_060",
@@ -1255,15 +1727,23 @@
         "D": "selegiline"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Bromocriptine 屬於麥角類（ergot）多巴胺受體致效劑，主要活化 dopaminergic D2 受體，用於改善巴金森氏症患者的運動症狀。Selegiline 為 MAO-B 抑制劑；Amantadine 主要促進多巴胺釋放；Entacapone 為 COMT 抑制劑，皆非直接作用於D2受體之致效劑。",
+      "key_point": "多巴胺受體致效劑 Bromocriptine 治療巴金森氏症。",
+      "flashcard_summary": "治療巴金森氏症的D2受體致效劑 -> Bromocriptine",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "多巴胺 D2 受體致效劑 / 麥角類衍生物 / 巴金森氏症治療 / 藥物分類",
+      "flashcard_back": "作用於多巴胺D2受體以治療巴金森氏症的致效劑為「Bromocriptine」。Selegiline是MAO-B抑制劑。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_061",
@@ -1276,15 +1756,23 @@
         "D": "ticarcillin"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Ticarcillin 與 piperacillin 屬於抗綠膿桿菌青黴素，臨床上常與 aminoglycoside 併用以產生協同殺菌作用。Amoxicillin 屬於廣效型青黴素，dicloxacillin 與 nafcillin 則為抗葡萄球菌青黴素，三者皆不具備抗綠膿桿菌活性。",
+      "key_point": "Ticarcillin 屬於抗綠膿桿菌青黴素 (antipseudomonal penicillin)。",
+      "flashcard_summary": "抗綠膿桿菌青黴素 / 與 aminoglycoside 併用 / carboxypenicillin / 綠膿桿菌感染 -> Ticarcillin 與 piperacillin 屬於 antipseudomonal penicillins，可與 aminoglycoside 產生協同作用治療綠膿桿菌。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "抗綠膿桿菌青黴素 / 與 aminoglycoside 併用 / carboxypenicillin / 綠膿桿菌感染",
+      "flashcard_back": "Ticarcillin 與 piperacillin 屬於 antipseudomonal penicillins，可與 aminoglycoside 產生協同作用治療綠膿桿菌。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_062",
@@ -1297,15 +1785,23 @@
         "D": "腎衰竭病人使用此藥時,應降低劑量至原治療劑量之一半"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Ceftriaxone 為第三代頭孢菌素，是治療淋病雙球菌（Neisseria gonorrhoeae）的首選藥物。本藥物主要經由膽汁與腎臟雙通道排泄，因此在單純腎衰竭病人中通常不需要調整劑量，此為常見考點。第四代頭孢菌素代表藥物為 cefepime，而 clavulanate 常與 amoxicillin 或 ticarcillin 併用，而非與 ceftriaxone 併用。",
+      "key_point": "Ceftriaxone 的臨床應用與藥物動力學特性。",
+      "flashcard_summary": "Ceftriaxone / 淋病首選藥 / 第三代頭孢菌素 / 腎衰竭劑量調整 -> Ceftriaxone 屬第三代頭孢菌素，為淋病首選，主要由雙通道（膽汁與腎臟）排泄，腎衰竭患者通常不需調劑量。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Ceftriaxone / 淋病首選藥 / 第三代頭孢菌素 / 腎衰竭劑量調整",
+      "flashcard_back": "Ceftriaxone 屬第三代頭孢菌素，為淋病首選，主要由雙通道（膽汁與腎臟）排泄，腎衰竭患者通常不需調劑量。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_063",
@@ -1318,15 +1814,23 @@
         "D": "補充維生素B12及葉酸(folic acid)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Deferoxamine 是一種鐵螯合劑（iron chelator），主要用於治療急性鐵中毒或長期輸血導致的慢性鐵質沉著症，會促進鐵排除，因此無助於改善貧血。口服 ferrous fumarate 與注射 iron dextran 可補充鐵質以治療缺鐵性貧血，而補充維生素 B12 與葉酸則用於治療巨幼紅血球性貧血。",
+      "key_point": "鐵劑與螯合劑對貧血治療的影響。",
+      "flashcard_summary": "Deferoxamine / 鐵螯合劑 / 貧血治療 / 鐵質沉著症 -> Deferoxamine 爲鐵螯合劑，用於治療鐵過載或鐵中毒，無助於治療貧血，反而會加速鐵排除。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Deferoxamine / 鐵螯合劑 / 貧血治療 / 鐵質沉著症",
+      "flashcard_back": "Deferoxamine 爲鐵螯合劑，用於治療鐵過載或鐵中毒，無助於治療貧血，反而會加速鐵排除。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_064",
@@ -1339,15 +1843,23 @@
         "D": "口服raloxifene"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Medroxyprogesterone 是一種孕激素（progestin），可抑制下視丘-腦下垂體-卵巢軸，降低雌激素水平並使子宮內膜萎縮，常用於治療子宮內膜異位症。Flutamide 是雄性素受體拮抗劑，oxandrolone 是合成雄性素，raloxifene 是選擇性雌激素受體調節劑（SERM，主要用於骨質疏鬆），三者皆不適合用於治療子宮內膜異位症引起的經痛。",
+      "key_point": "子宮內膜異位症的藥理治療。",
+      "flashcard_summary": "子宮內膜異位症 / 經痛治療 / 孕激素 / Medroxyprogesterone -> Medroxyprogesterone 作爲孕激素，可藉由抑制雌激素並促使內膜萎縮，用以治療子宮內膜異位症。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "子宮內膜異位症 / 經痛治療 / 孕激素 / Medroxyprogesterone",
+      "flashcard_back": "Medroxyprogesterone 作爲孕激素，可藉由抑制雌激素並促使內膜萎縮，用以治療子宮內膜異位症。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_065",
@@ -1360,15 +1872,23 @@
         "D": "somatropin"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Octreotide 是一種長效的體抑素類似物（somatostatin analog），能顯著抑制生長激素（GH）的釋放，臨床上常用於治療生長激素分泌過多引起的肢端肥大症。Desmopressin 用於治療尿崩症，leuprolide 是 GnRH 類似物，somatropin 則是人工合成的生長激素，會加重肢端肥大症。",
+      "key_point": "肢端肥大症（Acromegaly）的藥物治療。",
+      "flashcard_summary": "肢端肥大症 / 生長激素過多 / 體抑素類似物 / Octreotide -> Octreotide 為 somatostatin 類似物，能抑制生長激素分泌，可用於治療肢端肥大症。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肢端肥大症 / 生長激素過多 / 體抑素類似物 / Octreotide",
+      "flashcard_back": "Octreotide 為 somatostatin 類似物，能抑制生長激素分泌，可用於治療肢端肥大症。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_066",
@@ -1381,15 +1901,23 @@
         "D": "captopril"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Clonidine 為中樞型 alpha-2 受體致效劑，可減少突觸前交感神經的 norepinephrine 釋放。若長期高劑量使用後突然停藥，會導致交感神經活性報復性反彈（rebound hypertension），引起致命性的高血壓，臨床上應漸進式減量。其他藥物如鈣離子阻斷劑 nifedipine、血管擴張劑 hydralazine 及 ACEI captopril 較不會產生如此劇烈的停藥反彈反應。",
+      "key_point": "降血壓藥物的停藥反彈性高血壓（withdrawal hypertension）。",
+      "flashcard_summary": "Clonidine / alpha-2 致效劑 / 驟然停藥 / 反彈性高血壓 -> Clonidine 驟然停藥會引發嚴重的交感神經活性反彈，導致致命性高血壓，臨床上需逐漸減量停藥。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Clonidine / alpha-2 致效劑 / 驟然停藥 / 反彈性高血壓",
+      "flashcard_back": "Clonidine 驟然停藥會引發嚴重的交感神經活性反彈，導致致命性高血壓，臨床上需逐漸減量停藥。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_067",
@@ -1402,15 +1930,23 @@
         "D": "succinylcholine"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Cevimeline 是一種對 M1 與 M3 受體具高度親和力的直接作用型蕈毒鹼致效劑，能刺激唾液腺分泌，臨床上常用於治療薛格連氏症候群或頭頸部放療引起的口乾症。Atropine 為膽鹼受體拮抗劑，會加重口乾；neostigmine 為間接作用的膽鹼酯酶抑制劑；succinylcholine 則是去極化型肌肉鬆弛劑（作用於菸鹼型受體）。",
+      "key_point": "直接作用型蕈毒鹼致效劑與口乾症治療。",
+      "flashcard_summary": "Cevimeline / 蕈毒鹼致效劑 / 薛格連氏症候群 / 口乾症 -> Cevimeline 為直接作用的 M1/M3 受體致效劑，可促進唾液分泌，治療薛格連氏症或放療後的口乾症。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Cevimeline / 蕈毒鹼致效劑 / 薛格連氏症候群 / 口乾症",
+      "flashcard_back": "Cevimeline 為直接作用的 M1/M3 受體致效劑，可促進唾液分泌，治療薛格連氏症或放療後的口乾症。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_068",
@@ -1423,15 +1959,23 @@
         "D": "sulindac"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Sumatriptan 屬於 triptan 類藥物，為 5-HT 1D/1B 受體致效劑，能收縮腦血管並抑制發炎反應，是中重度偏頭痛急性發作（包含伴隨噁心嘔吐）的首選藥物。Acetaminophen 僅能緩解輕度偏頭痛；allopurinol 是黃嘌呤氧化酶抑制劑，用於治療痛風；sulindac 為非類固醇抗發炎藥，對伴隨嚴重噁心嘔吐的偏頭痛療效有限。",
+      "key_point": "偏頭痛急性發作藥物治療。",
+      "flashcard_summary": "Sumatriptan / 5-HT 1D/1B 致效劑 / 偏頭痛急性發作 / 噁心嘔吐 -> Sumatriptan 藉由刺激 5-HT 1D/1B 受體收縮腦血管，是中重度偏頭痛急性發作（伴隨噁心嘔吐）的首選治療藥物。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Sumatriptan / 5-HT 1D/1B 致效劑 / 偏頭痛急性發作 / 噁心嘔吐",
+      "flashcard_back": "Sumatriptan 藉由刺激 5-HT 1D/1B 受體收縮腦血管，是中重度偏頭痛急性發作（伴隨噁心嘔吐）的首選治療藥物。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_069",
@@ -1444,15 +1988,23 @@
         "D": "aprepitant"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Aprepitant 是一種選擇性的 neurokinin 1 (NK1) 受體拮抗劑，能阻斷 substance P 在中樞神經系統的作用，臨床上常與 5-HT3 拮抗劑及類固醇併用，預防化療或手術引起的延遲性噁心嘔吐。Riociguat 用於肺高壓；fasudil 是 Rho 激酶抑制劑；bosentan 為內皮素受體拮抗劑，亦用於肺高壓。",
+      "key_point": "化療引起的嘔吐（CINV）治療與 NK1 受體拮抗劑。",
+      "flashcard_summary": "Aprepitant / NK1 受體拮抗劑 / Substance P / 化療引起嘔吐 (CINV) -> Aprepitant 為 NK1 受體拮抗劑，可阻斷 substance P 作用，常與 5-HT3 拮抗劑併用預防化療及手術後嘔吐。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Aprepitant / NK1 受體拮抗劑 / Substance P / 化療引起嘔吐 (CINV)",
+      "flashcard_back": "Aprepitant 為 NK1 受體拮抗劑，可阻斷 substance P 作用，常與 5-HT3 拮抗劑併用預防化療及手術後嘔吐。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_070",
@@ -1465,15 +2017,23 @@
         "D": "lorcaserin"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Orlistat 是一種胃腸道脂肪酶抑制劑，可藉由抑制脂肪酶阻止飲食中約 30% 的脂肪被水解吸收，並直接隨糞便排出。Phentermine 為交感神經興奮劑（抑制食慾）；topiramate 是一種抗癲癇藥物，與 phentermine 併用用於減重；lorcaserin 則是選擇性 5-HT2C 受體致效劑，藉由中樞作用減少食慾。",
+      "key_point": "減肥藥的作用機轉。",
+      "flashcard_summary": "Orlistat / 脂肪酶抑制劑 / 減少脂肪吸收 / 減肥藥 -> Orlistat 抑制胃腸道脂肪酶，減少飲食脂肪水解吸收，副作用為油便與脂溶性維生素吸收減少。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Orlistat / 脂肪酶抑制劑 / 減少脂肪吸收 / 減肥藥",
+      "flashcard_back": "Orlistat 抑制胃腸道脂肪酶，減少飲食脂肪水解吸收，副作用為油便與脂溶性維生素吸收減少。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_071",
@@ -1486,15 +2046,23 @@
         "D": "抑制NMDA受體"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Ketamine 是一種解離性麻醉劑，其主要作用機轉是作為 NMDA 受體的非競爭性拮抗劑，藉此阻斷 glutamate 的興奮性傳導。多數其他靜脈注射型麻醉劑（如 propofol, midazolam, thiopental）則主要是活化 GABAA 受體。",
+      "key_point": "Ketamine 的麻醉作用機轉。",
+      "flashcard_summary": "Ketamine / NMDA 拮抗劑 / 解離性麻醉 / 靜脈麻醉劑 -> Ketamine 藉由非競爭性抑制 NMDA 受體（阻斷 glutamate 興奮性傳導）發揮作用，可引發解離性麻醉。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Ketamine / NMDA 拮抗劑 / 解離性麻醉 / 靜脈麻醉劑",
+      "flashcard_back": "Ketamine 藉由非競爭性抑制 NMDA 受體（阻斷 glutamate 興奮性傳導）發揮作用，可引發解離性麻醉。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_072",
@@ -1507,15 +2075,23 @@
         "D": "主要經由肝臟代謝"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Levetiracetam 主要經由腎臟排泄（約 66% 以原型藥物經尿液排出），並非主要經由肝臟代謝，故選項 D 敘述錯誤。它可口服給藥且生體可用率極高，其獨特機轉是選擇性結合突觸小泡蛋白 SV2A，進而調節麩胺酸與 GABA 等神經傳導物質的釋放。",
+      "key_point": "Levetiracetam 的藥物動力學與機轉。",
+      "flashcard_summary": "Levetiracetam / SV2A / 癲癇藥物排泄 / 腎臟排泄 -> Levetiracetam 藉由結合突觸小泡蛋白 SV2A 發揮抗癲癇作用，其主要經由腎臟排泄，不需依賴肝臟細胞色素 P450 代謝。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Levetiracetam / SV2A / 癲癇藥物排泄 / 腎臟排泄",
+      "flashcard_back": "Levetiracetam 藉由結合突觸小泡蛋白 SV2A 發揮抗癲癇作用，其主要經由腎臟排泄，不需依賴肝臟細胞色素 P450 代謝。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_073",
@@ -1528,15 +2104,23 @@
         "D": "aplrazolam"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Flumazenil 是 benzodiazepine (BZD) 受體的競爭性拮抗劑，可用於逆轉 BZD 類藥物（如 lorazepam, alprazolam）以及非 BZD 類安眠藥（Z-drugs，如 zolpidem）的中樞鎮靜與呼吸抑制作用。酒精雖然也會作用於 GABAA 受體，但其作用位點不同，其引起的急性中毒與中樞抑制無法被 flumazenil 拮抗。",
+      "key_point": "Flumazenil 的拮抗範圍與機轉。",
+      "flashcard_summary": "Flumazenil / BZD 拮抗劑 / Z-drugs / 酒精中毒 -> Flumazenil 可逆轉作用於 BZD 位點的 BZDs 與 Z-drugs (如 zolpidem)，但無法逆轉酒精或巴比妥鹽的中樞抑制作用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Flumazenil / BZD 拮抗劑 / Z-drugs / 酒精中毒",
+      "flashcard_back": "Flumazenil 可逆轉作用於 BZD 位點的 BZDs 與 Z-drugs (如 zolpidem)，但無法拮抗酒精或巴比妥鹽的中樞抑制作用。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_074",
@@ -1549,14 +2133,22 @@
         "D": "haloperidol"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "考選部公告此題答 A (ziprasidone) 或 B (clozapine) 均給分。Ziprasidone 與 clozapine 皆為第二代非典型抗精神病藥，對 5-HT2 受體具有高親和力，且錐體外症候群（EPS）風險較低；然而，ziprasidone 具有最顯著的 QT 間期延長風險，而 clozapine 亦有此心血管風險及顆粒性白血球缺乏症等副作用。第一代抗精神病藥 haloperidol 及 chlorpromazine 則有較高機率引發 EPS。",
+      "key_point": "非典型抗精神病藥的受體親和力與 QT 延長副作用。",
+      "flashcard_summary": "Ziprasidone 與 Clozapine / 5-HT2 親和力 / 低 EPS 風險 / QT 延長 -> Ziprasidone 與 Clozapine 皆為第二代抗精神病藥，低 EPS 風險但有 QT 延長風險（本題官方判定 A、B 均給分，以 ziprasidone 最具代表性）。",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "Ziprasidone 與 Clozapine / 5-HT2 親和力 / 低 EPS 風險 / QT 延長",
+      "flashcard_back": "Ziprasidone 與 Clozapine 皆為第二代抗精神病藥，低 EPS 風險但有 QT 延長風險（本題官方判定 A、B 均給分，以 ziprasidone 最具代表性）。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_075",
@@ -1569,15 +2161,23 @@
         "D": "prussian blue"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "普魯士藍（prussian blue）在胃腸道中可作為非吸收性離子交換劑，能特異性結合鉈（Tl）或放射性銫（Cs），阻斷其腸肝循環以加速從糞便排除，為此類中毒的首選解毒劑。EDTA 用於鉛中毒；unithiol 用於汞或砷中毒；deferasirox 則為口服鐵螯合劑，用於治療鐵過載。",
+      "key_point": "放射性銫或鉈鹽中毒的解毒劑。",
+      "flashcard_summary": "Prussian blue / 鉈鹽中毒 / 放射性銫污染 / 離子交換劑 -> 普魯士藍在腸道中可特異性結合鉈與銫，阻斷其腸肝循環並促進排除，為鉈中毒與放射性銫污染的專效解毒劑。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Prussian blue / 鉈鹽中毒 / 放射性銫污染 / 離子交換劑",
+      "flashcard_back": "普魯士藍在腸道中可特異性結合鉈與銫，阻斷其腸肝循環並促進排除，為鉈中毒與放射性銫污染的專效解毒劑。",
+      "category_group": "醫學（二）",
+      "category": "藥理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_076",
@@ -1590,15 +2190,23 @@
         "D": "結核(tuberculosis)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膿瘍是一種局限性化膿性發炎，其特徵為組織壞死並液化，形成一個充滿嗜中性球、壞死細胞碎片和水腫液的腔洞。肥厚性瘢痕為纖維修復產物，血腫為局限性積血，而結核典型表現為乾酪樣壞死，故答案為 B。",
+      "key_point": "膿瘍（abscess）的病理特徵。",
+      "flashcard_summary": "右下肺葉圓形病灶 / 液化壞死 / 中性球與黏稠液 / 化膿性發炎 -> 組織壞死並液化形成充滿中性球與壞死細胞的腔洞，是為膿瘍（abscess）的典型病理表現。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "右下肺葉圓形病灶 / 液化壞死 / 中性球與黏稠液 / 化膿性發炎",
+      "flashcard_back": "組織壞死並液化形成充滿中性球與壞死細胞的腔洞，是為膿瘍（abscess）的典型病理表現。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_077",
@@ -1611,15 +2219,23 @@
         "D": "小葉增生(lobular hyperplasia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "懷孕期間，體內孕激素和雌激素水平顯著升高，刺激乳腺的腺泡與小葉進行生理性的增殖與發育，稱為小葉增生（lobular hyperplasia），為哺乳做準備。間質纖維化常見於纖維囊腫變化，鱗狀化生多因發炎，而腺泡細胞異生則為癌前病變，皆非正常的懷孕生理變化。",
+      "key_point": "懷孕期間乳房的生理性適應變化。",
+      "flashcard_summary": "懷孕乳房變化 / 荷爾蒙刺激 / 生理性適應 / 哺乳準備 -> 懷孕時因孕激素與雌激素刺激，乳腺小葉與腺泡會發生生理性的小葉增生（lobular hyperplasia）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "懷孕乳房變化 / 荷爾蒙刺激 / 生理性適應 / 哺乳準備",
+      "flashcard_back": "懷孕時因孕激素與雌激素刺激，乳腺小葉與腺泡會發生生理性的小葉增生（lobular hyperplasia）。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_078",
@@ -1632,15 +2248,23 @@
         "D": "異常細胞鑲嵌(mosaicism)型唐氏症候群(Down syndrome)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "當受檢細胞中同時存在兩種或以上不同染色體組成的細胞株時，稱為鑲嵌型（mosaicism）。本題中部分細胞為正常染色體（46條），另一部分多了一條第21號染色體，顯示為正常與異常核型的混合，故診斷是異常細胞鑲嵌型唐氏症候群。",
+      "key_point": "染色體鑲嵌型（Mosaicism）與唐氏症候群。",
+      "flashcard_summary": "正常細胞與三體細胞並存 / 21號染色體多一條 / 羊水細胞分析 / 染色體核型 -> 同一個體內同時存在正常（46條）與唐氏症（多一條21號）兩種細胞株，為鑲嵌型（mosaicism）唐氏症候群。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "正常細胞與三體細胞並存 / 21號染色體多一條 / 羊水細胞分析 / 染色體核型",
+      "flashcard_back": "同一個體內同時存在正常（46條）與唐氏症（多一條21號）兩種細胞株，為鑲嵌型（mosaicism）唐氏症候群。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_079",
@@ -1653,15 +2277,23 @@
         "D": "交叉α折疊(crossed α-pleated)結構是剛果紅染色陽性的原因"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "甲狀腺髓質癌的腫瘤細胞會分泌大量降鈣素（calcitonin）前驅物，其局部沉積會形成類澱粉物質。阿茲海默症沉積的是 Aβ 蛋白而非 AA 型；剛果紅染色可用於所有類型的類澱粉沉積症，其染色陽性是因其具有獨特的交叉β片狀結構，而非α折疊。",
+      "key_point": "類澱粉沉積症（Amyloidosis）的病理診斷與蛋白質類型。",
+      "flashcard_summary": "類澱粉沉積症 / 甲狀腺髓質癌 / 剛果紅染色 / β片狀結構 -> 甲狀腺髓質癌引發的類澱粉沉積來自降鈣素（calcitonin）；所有類澱粉均具交叉β片狀結構，剛果紅染色皆呈陽性。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "類澱粉沉積症 / 甲狀腺髓質癌 / 剛果紅染色 / β片狀結構",
+      "flashcard_back": "甲狀腺髓質癌引發的類澱粉沉積來自降鈣素（calcitonin）；所有類澱粉均具交叉β片狀結構，剛果紅染色皆呈陽性。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_080",
@@ -1674,15 +2306,23 @@
         "D": "34"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "癌症惡體質的發生主要由促發炎細胞激素驅動，其中腫瘤壞死因子-alpha（TNF-α，過去亦稱 cachectin）是關鍵的致病因子，可由巨噬細胞及腫瘤細胞產生並釋放，導致肌肉與脂肪分解及食慾抑制。IL-10 則屬於抗發炎細胞激素，與惡體質的促發炎分解路徑相反。",
+      "key_point": "癌症惡體質（Cachexia）的免疫與分子機制。",
+      "flashcard_summary": "癌症惡體質 / 體重減輕與肌肉萎縮 / 促發炎細胞激素 / TNF-α 來源 -> 癌症惡體質（cachexia）主要由巨噬細胞與腫瘤細胞釋放的 TNF-α（促發炎因子）所介導，引起代謝率增加與組織分解。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "癌症惡體質 / 體重減輕與肌肉萎縮 / 促發炎細胞激素 / TNF-α 來源",
+      "flashcard_back": "癌症惡體質（cachexia）主要由巨噬細胞與腫瘤細胞釋放的 TNF-α（促發炎因子）所介導，引起代謝率增加與組織分解。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_081",
@@ -1695,15 +2335,23 @@
         "D": "calcitonin"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "老年患者若無骨髓瘤（排除 AL 型）、慢性發炎（排除 AA 型）、長期透析（排除 β2-MG）等病史，但心肌切片呈現剛果紅染色偏光蘋果綠，其沉積物最可能是 transthyretin（TTR，甲狀腺素轉運蛋白），此病變稱為老年性心臟類澱粉沉積症。",
+      "key_point": "老年性系統性類澱粉沉積症（Senile systemic amyloidosis）。",
+      "flashcard_summary": "老年男性心衰竭 / 剛果紅偏光蘋果綠 / 無腫瘤發炎透析 / Transthyretin -> 老年患者單純心肌類澱粉沉積，無其他誘因時，沉積物最可能是野生型 transthyretin (TTR)，稱為老年性心臟類澱粉沉積。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "老年男性心衰竭 / 剛果紅偏光蘋果綠 / 無腫瘤發炎透析 / Transthyretin",
+      "flashcard_back": "老年患者單純心肌類澱粉沉積，無其他誘因時，沉積物最可能是野生型 transthyretin (TTR)，稱為老年性心臟類澱粉沉積。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_082",
@@ -1716,15 +2364,23 @@
         "D": "234"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "TTP、DIC 以及巨大血管瘤皆涉及微血管內纖維蛋白沉積或血管畸形，當紅血球強行通過時會被機械性剪力破壞，產生碎裂紅血球（schistocytes），並伴隨血小板消耗低下與溶血性貧血。免疫性血小板低下紫斑症（ITP）是由自體抗體破壞血小板引起，血液抹片不會出現碎裂紅血球。",
+      "key_point": "微血管病性溶血性貧血（MAHA）與碎裂紅血球。",
+      "flashcard_summary": "溶血性貧血 / 血小板低下 / 碎裂紅血球 / MAHA -> 碎裂紅血球見於微血管病性溶血（TTP, DIC, 巨大血管瘤），由機械性破壞造成；ITP 不會產生碎裂紅血球。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "溶血性貧血 / 血小板低下 / 碎裂紅血球 / MAHA",
+      "flashcard_back": "碎裂紅血球見於微血管病性溶血（TTP, DIC, 巨大血管瘤），由機械性破壞造成；ITP 不會產生碎裂紅血球。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_083",
@@ -1737,15 +2393,23 @@
         "D": "血糖"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "高密度脂蛋白（HDL）能將周邊組織的膽固醇運回肝臟外排（逆向膽固醇運送），其濃度升高對粥狀動脈硬化具有保護作用，而非促進其發生。相對地，C反應蛋白（CRP）、同半胱胺酸（homocysteine）以及高血糖皆是促進粥狀動脈硬化的危險因子。",
+      "key_point": "粥狀動脈硬化（Atherosclerosis）的危險因子與保護因子。",
+      "flashcard_summary": "粥狀動脈硬化 / 膽固醇逆向運送 / 保護因子 / HDL -> 高密度脂蛋白 (HDL) 負責將周邊膽固醇運回肝臟，高濃度具保護作用；高血糖、CRP 與 homocysteine 則是粥狀硬化危險因子。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "粥狀動脈硬化 / 膽固醇逆向運送 / 保護因子 / HDL",
+      "flashcard_back": "高密度脂蛋白 (HDL) 負責將周邊膽固醇運回肝臟，高濃度具保護作用；高血糖、CRP 與 homocysteine 則是粥狀硬化危險因子。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_084",
@@ -1758,15 +2422,23 @@
         "D": "被套細胞淋巴瘤(mantle cell lymphoma)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "瀰漫大B細胞淋巴瘤（DLBCL）是成人中最常見的非何杰金氏淋巴瘤（NHL）類型，約占所有病例的 30% 至 40%，臨床上屬於侵襲性（aggressive）腫瘤。其他選項如周邊T細胞淋巴瘤、退行性大細胞淋巴瘤及被套細胞淋巴瘤的發病率皆遠低於 DLBCL。",
+      "key_point": "成人非何杰金氏淋巴瘤（NHL）的流行病學。",
+      "flashcard_summary": "成人最常見 / 非何杰金氏淋巴瘤 / 侵襲性 / 瀰漫大B細胞淋巴瘤 -> 瀰漫大B細胞淋巴瘤 (DLBCL) 是成年人最常見的惡性非何杰金氏淋巴瘤類型，約占三至四成。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "成人最常見 / 非何杰金氏淋巴瘤 / 侵襲性 / 瀰漫大B細胞淋巴瘤",
+      "flashcard_back": "瀰漫大B細胞淋巴瘤 (DLBCL) 是成年人最常見的惡性非何杰金氏淋巴瘤類型，約占三至四成。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_085",
@@ -1779,15 +2451,23 @@
         "D": "vWF金屬酵素缺乏(vWF metalloprotease deficiency)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該男童在病毒感染後出現急性血小板低下，且骨髓造血正常、類固醇治療反應良好，為典型的兒童急性 ITP。其發病機轉是因感染誘發產生針對血小板表面醣蛋白的自體抗體（抗血小板抗體），導致血小板在脾臟被巨噬細胞加速吞噬破壞。",
+      "key_point": "小兒急性免疫性血小板低下紫斑症（ITP）的病理生理。",
+      "flashcard_summary": "病毒感染後 / 孤立性血小板低下 / 類固醇治療良好 / 兒童 ITP -> 兒童急性 ITP 常由病毒感染誘發，因產生抗血小板抗體結合血小板，使其在脾臟中被加速吞噬破壞。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "病毒感染後 / 孤立性血小板低下 / 類固醇治療良好 / 兒童 ITP",
+      "flashcard_back": "兒童急性 ITP 常由病毒感染誘發，因產生抗血小板抗體結合血小板，使其在脾臟中被加速吞噬破壞。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_086",
@@ -1800,15 +2480,23 @@
         "D": "NUT中線癌(NUT midline carcinoma)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Synaptophysin 和 chromogranin 是經典的神經內分泌標記。嗅母神經胚細胞癌是一種起源於鼻腔嗅上皮的神經外胚層惡性腫瘤，病理上會呈神經內分泌分化，故對這兩種抗原呈陽性反應。鼻咽癌與喉癌主要為鱗狀上皮來源，NUT 中線癌則主要由 NUT 基因重排驅動，三者一般不表現此標記。",
+      "key_point": "嗅神經母細胞瘤（Olfactory neuroblastoma）的神經內分泌免疫標籤。",
+      "flashcard_summary": "上呼吸道腫瘤 / Synaptophysin / Chromogranin / 嗅神經母細胞瘤 -> Synaptophysin 和 chromogranin 為神經內分泌標記，在上呼吸道腫瘤中強烈支持嗅神經母細胞瘤之診斷。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "上呼吸道腫瘤 / Synaptophysin / Chromogranin / 嗅神經母細胞瘤",
+      "flashcard_back": "Synaptophysin 和 chromogranin 為神經內分泌標記，在上呼吸道腫瘤中強烈支持嗅神經母細胞瘤之診斷。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_087",
@@ -1821,15 +2509,23 @@
         "D": "病灶可在肺、脾、肝等器官發現"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "類肉瘤是一種全身性肉芽腫疾病，其典型的病理特徵是「非壞死性肉芽腫」，若見到壞死性肉芽腫則應懷疑結核菌或黴菌感染，因此選項 C 敘述錯誤。此病是由 CD4+ T細胞介導的 TH1 型免疫反應驅動，常表現雙側肺門淋巴結腫大，且病灶可在多器官發現。",
+      "key_point": "類肉瘤（Sarcoidosis）的病理與臨床特徵。",
+      "flashcard_summary": "類肉瘤 / 肺門淋巴結腫大 / CD4+ T細胞驅動 / 肉芽腫類型 -> 類肉瘤的病理特徵為非壞死性（非乾酪樣）肉芽腫；若為壞死性肉芽腫則提示結核等感染。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "類肉瘤 / 肺門淋巴結腫大 / CD4+ T細胞驅動 / 肉芽腫類型",
+      "flashcard_back": "類肉瘤的病理特徵為非壞死性（非乾酪樣）肉芽腫；若為壞死性肉芽腫則提示結核等感染。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_088",
@@ -1842,15 +2538,23 @@
         "D": "細菌性肺炎"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "下肢骨折與骨科手術是深部靜脈血栓（DVT）的高危險因子。當血栓脫落隨血流回流至肺動脈，會阻塞肺血管引發急性肺栓塞，導致術後數日突然出現胸痛、呼吸困難等症狀。敗血症與細菌性肺炎發病通常有其前驅發熱表現，顱內出血則以神經學症狀為主。",
+      "key_point": "長骨骨折與手術後的併發症肺栓塞（Pulmonary embolism）。",
+      "flashcard_summary": "下肢骨折與手術後 / 突然胸痛與呼吸困難 / 深部靜脈血栓 / 肺栓塞 -> 下肢長骨骨折與手術後易併發深部靜脈血栓，血栓脫落隨血流阻塞肺動脈，造成急性肺栓塞。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "下肢骨折與手術後 / 突然胸痛與呼吸困難 / 深部靜脈血栓 / 肺栓塞",
+      "flashcard_back": "下肢長骨骨折與手術後易併發深部靜脈血栓，血栓脫落隨血流阻塞肺動脈，造成急性肺栓塞。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_089",
@@ -1863,15 +2567,23 @@
         "D": "E型肝炎病毒"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "E型肝炎病毒（HEV）主要透過糞口途徑傳播，是旅行者肝炎的常見原因。雖然多數健康感染者症狀輕微，但懷孕婦女（尤其是第三孕期）一旦感染，可能演變為暴發性肝衰竭，死亡率可高達 20%。A型肝炎雖然也透過糞口傳染，但在孕婦中並無如此高的致死率。",
+      "key_point": "造成孕婦高死亡率的肝炎病毒。",
+      "flashcard_summary": "旅行者肝炎 / 糞口傳染 / 孕婦感染高死亡率 / 暴發性肝衰竭 -> E型肝炎病毒 (HEV) 經糞口傳染，對懷孕婦女有高達 20% 的致死風險，易造成暴發性肝衰竭。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "旅行者肝炎 / 糞口傳染 / 孕婦感染高死亡率 / 暴發性肝衰竭",
+      "flashcard_back": "E型肝炎病毒 (HEV) 經糞口傳染，對懷孕婦女有高達 20% 的致死風險，易造成暴發性肝衰竭。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_090",
@@ -1884,15 +2596,23 @@
         "D": "通常預後較好"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "纖維薄層型肝細胞癌是一種特殊類型的肝細胞癌，其特點是好發於年輕人，且病人的背景肝臟通常是正常的，沒有嚴重的慢性肝炎或肝硬化病史，故選項 B 敘述錯誤。病理上可見富含粒線體的嗜酸性腫瘤細胞，被平行的緻密膠原纖維帶所分隔，其預後通常比普通型肝細胞癌佳。",
+      "key_point": "纖維薄層型肝細胞癌（Fibrolamellar hepatocellular carcinoma）的病理生理。",
+      "flashcard_summary": "纖維薄層型肝細胞癌 / 年輕人好發 / 正常背景肝臟 / 平行纖維帶 -> 纖維薄層型肝癌好發於年輕人，背景肝臟通常無肝硬化；細胞富含粒線體，由緻密纖維帶分隔，預後較佳。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "纖維薄層型肝細胞癌 / 年輕人好發 / 正常背景肝臟 / 平行纖維帶",
+      "flashcard_back": "纖維薄層型肝癌好發於年輕人，背景肝臟通常無肝硬化；細胞富含粒線體，由緻密纖維帶分隔，預後較佳。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_091",
@@ -1905,15 +2625,23 @@
         "D": "發炎通常侷限於黏膜層及表淺的黏膜下層"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "原發性硬化性膽管炎（PSC）與潰瘍性結腸炎（UC）有強烈關聯，約 70% 的 PSC 患者併有 UC，但僅有少數（約 5%）的 UC 患者會合併 PSC，因此選項 A 敘述不正確。UC 典型病理特徵包含病變連續性（從直腸向近端延伸）、發炎局限於黏膜及表淺黏膜下層、可見假性瘜肉及可能併發毒性巨結腸症。",
+      "key_point": "潰瘍性結腸炎（UC）的臨床病理特徵。",
+      "flashcard_summary": "潰瘍性結腸炎 / 原發性硬化性膽管炎 / PSC 關聯性 / 發病比例 -> 約 70% 的 PSC 患者有 UC，但僅有極少數（約 5%）的 UC 患者會合併 PSC。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "潰瘍性結腸炎 / 原發性硬化性膽管炎 / PSC 關聯性 / 發病比例",
+      "flashcard_back": "約 70% 的 PSC 患者有 UC，但僅有極少數（約 5%）的 UC 患者會合併 PSC。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_092",
@@ -1926,15 +2654,23 @@
         "D": "靜脈硬化(phlebosclerosis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "長期高血壓主要影響動脈系統，在腎臟會引起良性高血壓腎硬化，其典型病理表現為細動脈硬化（尤其是玻璃樣變性）、小動脈內膜增生以及繼發性的腎小球硬化。靜脈通常不受高血壓的直接壓力影響，因此靜脈硬化最不可能在此病灶中發生。",
+      "key_point": "高血壓性腎硬化的病理特徵。",
+      "flashcard_summary": "高血壓性腎硬化 / 良性腎硬化 / 細動脈病變 / 靜脈硬化 -> 高血壓主要損害動脈與細動脈（玻璃樣硬化）並繼發腎小球硬化，不影響靜脈，故無靜脈硬化。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "高血壓性腎硬化 / 良性腎硬化 / 細動脈病變 / 靜脈硬化",
+      "flashcard_back": "高血壓主要損害動脈與細動脈（玻璃樣硬化）並繼發腎小球硬化，不影響靜脈，故無靜脈硬化。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_093",
@@ -1947,15 +2683,23 @@
         "D": "惡性腫瘤細胞之侵犯"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腦下垂體中風是一種臨床急症，通常是由於預先存在的腦下垂體腺瘤（pituitary adenoma）發生急性嚴重出血或梗塞壞死所引起，導致腦下垂體突然腫大並壓迫周圍組織，最常見的原發性病變為嚴重出血。",
+      "key_point": "腦下垂體中風（Pituitary apoplexy）的病因。",
+      "flashcard_summary": "腦下垂體中風 / 腦下垂體腺瘤 / 急性壓迫 / 嚴重出血 -> 腦下垂體中風最常見的原因為腦下垂體腺瘤發生急性嚴重出血或梗塞。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腦下垂體中風 / 腦下垂體腺瘤 / 急性壓迫 / 嚴重出血",
+      "flashcard_back": "腦下垂體中風最常見的原因為腦下垂體腺瘤發生急性嚴重出血或梗塞。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_094",
@@ -1968,15 +2712,23 @@
         "D": "慢性纖維性甲狀腺炎(chronic fibrosing thyroiditis)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "橋本氏甲狀腺炎為自體免疫性疾病，表現為無痛性對稱性甲狀腺腫大，血中抗微粒體抗體（抗 TPO 抗體）陽性。病理特徵是甲狀腺實質內有大量淋巴細胞浸潤、顯著的淋巴濾泡形成伴生長中心，以及甲狀腺濾泡上皮細胞的 Hürthle 細胞化生。",
+      "key_point": "橋本氏甲狀腺炎（Hashimoto's thyroiditis）的診斷特徵。",
+      "flashcard_summary": "對稱性甲狀腺腫大 / 抗微粒體抗體 (TPO-Ab) / 淋巴濾泡形成 / Hürthle細胞化生 -> 橋本氏甲狀腺炎為自體免疫疾病，特徵為抗微粒體抗體陽性，病理見淋巴濾泡與嗜酸性 Hürthle 細胞。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "對稱性甲狀腺腫大 / 抗微粒體抗體 (TPO-Ab) / 淋巴濾泡形成 / Hürthle細胞化生",
+      "flashcard_back": "橋本氏甲狀腺炎為自體免疫疾病，特徵為抗微粒體抗體陽性，病理見淋巴濾泡與嗜酸性 Hürthle 細胞。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_095",
@@ -1989,15 +2741,23 @@
         "D": "大部分高度鱗狀上皮內病灶(high-grade squamous intraepithelial lesion, HSIL)會持續存在(persist)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大部分的低度鱗狀上皮內病灶（LSIL，相當於 CIN 1）具有很高的自然消退率（約 60% 會自行回復），而非持續存在，故選項 A 敘述不正確。約 10% 的 LSIL 會進展為高度鱗狀上皮內病灶（HSIL），而大部分 HSIL（CIN 2/3）會持續存在，具較高惡變風險。",
+      "key_point": "子宮頸鱗狀上皮內病灶（LSIL/HSIL）的臨床轉歸。",
+      "flashcard_summary": "LSIL (CIN 1) / HSIL (CIN 2/3) / 自然消退率 / 臨床轉歸 -> 大部分 LSIL (約 60%) 會自行消退 (regress)；而大部分 HSIL 则會持續存在 (persist)，有進展為侵襲癌風險。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "LSIL (CIN 1) / HSIL (CIN 2/3) / 自然消退率 / 臨床轉歸",
+      "flashcard_back": "大部分 LSIL (約 60%) 會自行消退 (regress)；而大部分 HSIL 則會持續存在 (persist)，有進展為侵襲癌風險。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_096",
@@ -2010,15 +2770,23 @@
         "D": "慢性非細菌性前列腺炎(chronic abacterial prostatitis)的病人一般沒有反覆泌尿道感染的病史,其發生率\n 是各種前列腺炎中最低的"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "慢性非細菌性前列腺炎（又稱慢性骨盆疼痛症候群）是臨床上最常見的前列腺炎類型，占所有病例的 90% 以上，其發生率是所有類型中最高的，而非最低的，因此選項 D 敘述錯誤。急性與慢性細菌性前列腺炎常有反覆尿路感染病史；BCG 灌注治療是引起肉芽腫性前列腺炎最常見的原因。",
+      "key_point": "前列腺炎的分類與流行病學。",
+      "flashcard_summary": "前列腺炎分類 / 慢性非細菌性前列腺炎 / BCG 治療副作用 / 發生率最高 -> 慢性非細菌性前列腺炎是發生率最高（>90%）的前列腺炎類型；肉芽腫性前列腺炎常與膀胱癌灌注 BCG 有關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "前列腺炎分類 / 慢性非細菌性前列腺炎 / BCG 治療副作用 / 發生率最高",
+      "flashcard_back": "慢性非細菌性前列腺炎是發生率最高（>90%）的前列腺炎類型；肉芽腫性前列腺炎常與膀胱癌灌注 BCG 有關。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_097",
@@ -2031,15 +2799,23 @@
         "D": "部分腫瘤會有KIT gene的活化性突變(activating mutations)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "精原細胞瘤（seminoma）是成年男性最常見的睪丸生殖細胞腫瘤，其好發年齡通常在 30 至 40 歲之間，極少發生於嬰兒時期（嬰兒期最常見的生殖細胞腫瘤為卵黃囊瘤），因此選項 C 錯誤。精原細胞瘤特徵性地表現生殖幹細胞標記 OCT3/4 與 NANOG，且常有 isochromosome 12p 變異以及約 25% 伴隨 KIT 基因突變。",
+      "key_point": "睪丸精原細胞瘤（Seminoma）的臨床與分子特徵。",
+      "flashcard_summary": "睪丸精原細胞瘤 (Seminoma) / Isochromosome 12p / OCT3/4 / 好發年齡 -> 精原細胞瘤好發於 30-40 歲青年，嬰兒期極罕見（嬰兒最常見為卵黃囊瘤）；會表現 OCT3/4 並具 i(12p)。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "睪丸精原細胞瘤 (Seminoma) / Isochromosome 12p / OCT3/4 / 好發年齡",
+      "flashcard_back": "精原細胞瘤好發於 30-40 歲青年，嬰兒期極罕見（嬰兒最常見為卵黃囊瘤）；會表現 OCT3/4 並具 i(12p)。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_098",
@@ -2052,15 +2828,23 @@
         "D": "Stress granules"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "狂犬病病毒感染神經細胞後，會在海馬迴錐體細胞或小腦普金氏細胞（Purkinje cells）的細胞質中形成特異性的嗜酸性包涵體，稱為內基氏體（Negri bodies），這是病理診斷狂犬病的金標準。Lewy body 見於帕金森氏症；Kuru plaque 見於庫賈氏病。",
+      "key_point": "狂犬病的病理學診斷特徵。",
+      "flashcard_summary": "狂犬病診斷 / 嗜酸性胞質內包涵體 / 普金氏細胞 / Negri body -> 狂犬病毒感染的特徵是在神經細胞（如海馬迴、小腦普金氏細胞）質內見到嗜酸性的內基氏體（Negri body）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "狂犬病診斷 / 嗜酸性胞質內包涵體 / 普金氏細胞 / Negri body",
+      "flashcard_back": "狂犬病毒感染的特徵是在神經細胞（如海馬迴、小腦普金氏細胞）質內見到嗜酸性的內基氏體（Negri body）。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_099",
@@ -2073,15 +2857,23 @@
         "D": "紅斑性狼瘡(lupus erythematosus)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "類肉瘤病（sarcoidosis）是一種以非壞死性肉芽腫為特徵的全身性疾病，約有 25% 的患者會出現眼部病變，其中最常見的表現即是雙側肉芽腫性葡萄膜炎，常伴隨淚腺發炎。惡性黑色素瘤與淋巴瘤為腫瘤病變，紅斑性狼瘡主要引起非肉芽腫性血管炎或視網膜病變。",
+      "key_point": "類肉瘤病（Sarcoidosis）眼部受累的表現。",
+      "flashcard_summary": "肉芽腫性葡萄膜炎 / 全身性肉芽腫 / 雙側眼部受累 / 類肉瘤病 -> 類肉瘤病 (sarcoidosis) 常見眼部併發症為雙側肉芽腫性葡萄膜炎，此源於其全身性非壞死性肉芽腫的發病機制。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肉芽腫性葡萄膜炎 / 全身性肉芽腫 / 雙側眼部受累 / 類肉瘤病",
+      "flashcard_back": "類肉瘤病 (sarcoidosis) 常見眼部併發症為雙側肉芽腫性葡萄膜炎，此源於其全身性非壞死性肉芽腫的發病機制。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-2_100",
@@ -2094,15 +2886,23 @@
         "D": "B12"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "長期酗酒、胃病常嘔吐或營養不良會導致維生素 B1（硫胺素）缺乏，引發 Wernicke-Korsakoff 症候群。臨床特徵包含記憶力喪失與虛談；病理學上可見下視丘乳頭體（mammillary bodies）、第三及第四腦室壁出現急性充血、點狀出血及壞死。維生素 B12 缺乏主要引起惡性貧血及脊髓亞急性聯合變性。",
+      "key_point": "Wernicke-Korsakoff 症候群與維生素 B1 缺乏。",
+      "flashcard_summary": "虛談與記憶衰退 / 乳頭體出血壞死 / 酗酒或頻繁嘔吐 / 維生素 B1 缺乏 -> 維生素 B1 缺乏會引發 Wernicke-Korsakoff 症候群，典型病理表現為乳頭體及腦室周圍充血出血。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "虛談與記憶衰退 / 乳頭體出血壞死 / 酗酒或頻繁嘔吐 / 維生素 B1 缺乏",
+      "flashcard_back": "維生素 B1 缺乏會引發 Wernicke-Korsakoff 症候群，典型病理表現為乳頭體及腦室周圍充血出血。",
+      "category_group": "醫學（二）",
+      "category": "病理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     }
   ]
 }

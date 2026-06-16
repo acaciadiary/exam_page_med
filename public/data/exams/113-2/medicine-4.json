@@ -4,7 +4,7 @@
   "title": "113 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=113070&q=1&s=22&t=Q",
-  "updated_at": "2026-06-11T14:37:07.579645+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "113-2_medicine-4_001",
@@ -967,15 +967,23 @@
         "D": "右外側延腦(medulla)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Wallenberg syndrome（外側延腦症候群）由後下小腦動脈或椎動脈閉塞所致，病灶位於右外側延腦。同側（右側）受損表現包括：顏面麻木（三叉神經脊髓束核）、肢體失調（小腦腳）及霍納氏症候群（交感神經下行束）；對側（左側）痛溫覺減退係因脊髓視丘束在延腦交叉而行。視丘或中腦病灶不會同時產生同側霍納及對側痛溫覺損失的組合，橋腦外側雖類似，但顏面失調側別需判斷。",
+      "key_point": "右外側延腦梗塞（Wallenberg syndrome）的典型臨床表現為同側顏面、同側霍納氏症候群、同側肢體失調，以及對側肢體痛溫覺喪失。",
+      "flashcard_summary": "同側顏面麻木＋霍納＋共濟失調＋對側痛溫覺損失 -> 外側延腦梗塞（Wallenberg syndrome）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "右側顏面麻木、右側霍納氏症候群、右側肢體失調、左側痛溫覺下降",
+      "flashcard_back": "同側顏面＋霍納＋共濟失調，對側肢體痛溫覺損失 → Wallenberg syndrome，病灶在同側外側延腦。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_047",
@@ -988,15 +996,23 @@
         "D": "睡眠週期性肢體抽動症(periodic limb movements in sleep)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "不寧腿症候群（Restless Legs Syndrome, RLS）的典型表現為靜止時下肢出現難以言喻的不適感，必須移動才能緩解，且夜晚更嚴重。已知相關病因包括缺鐵性貧血（多巴胺代謝異常）、慢性腎臟病、懷孕及睡眠週期性肢體抽動症（PLMs，常與RLS共病）。癲癇症並非RLS的相關因素，且兩者機轉完全不同，故為「最不可能相關」選項。",
+      "key_point": "不寧腿症候群（RLS）與缺鐵性貧血、慢性腎病及睡眠週期性肢體抽動症相關，但與癲癇症無直接相關。",
+      "flashcard_summary": "RLS（靜止下肢不適）相關因子 -> 缺鐵、慢性腎病、PLMs；與癲癇無關",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "靜止時下肢不適、需移動才緩解、夜晚加重、失眠",
+      "flashcard_back": "不寧腿症候群（RLS）的相關因素包括缺鐵、腎病、PLMs；癲癇症與RLS無直接關聯，是最不相關的選項。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_048",
@@ -1009,15 +1025,23 @@
         "D": "perampanel"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Levetiracetam主要經腎臟排除，幾乎不依賴肝臟代謝，對肝硬化病人最安全。Phenytoin與valproic acid均高度依賴肝臟代謝，肝硬化時藥物濃度不易預測且毒性風險增加，尤其valproic acid本身具肝毒性。Perampanel雖然也適合部分局部性發作，但其半衰期長且大量肝臟代謝，在肝功能不全患者需謹慎。本題同時有糖尿病和高血壓，levetiracetam對代謝影響最小，為最佳選擇。",
+      "key_point": "肝硬化病人發生癲癇時，應選擇不經肝臟代謝、腎臟排除的levetiracetam，避免使用高肝臟代謝率的抗癲癇藥。",
+      "flashcard_summary": "肝硬化癲癇用藥 -> levetiracetam（腎排除，對肝臟負擔最小）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肝硬化、中風後癲癇、抗癲癇藥選擇",
+      "flashcard_back": "肝功能不全時應選腎臟排除為主的levetiracetam，避免高肝代謝的phenytoin或valproic acid。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_049",
@@ -1030,15 +1054,23 @@
         "D": "prochlorperazine"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性偏頭痛發作的治療藥物包括：triptan類（如sumatriptan）、麥角胺類（如dihydroergotamine）及抗嘔吐藥（如prochlorperazine）。Erenumab是針對CGRP受體的單株抗體，每月注射一次，屬於預防性療法，不用於急性發作處置。考生容易混淆「預防」與「急性治療」類別，erenumab、fremanezumab等CGRP抗體皆屬預防性。",
+      "key_point": "Erenumab是CGRP受體拮抗劑，用於預防偏頭痛，而非急性期治療藥物。",
+      "flashcard_summary": "Erenumab -> 偏頭痛預防藥（CGRP抗體），非急性治療藥物",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性偏頭痛治療、CGRP抗體、預防vs急性",
+      "flashcard_back": "Erenumab（CGRP受體單株抗體）是預防性偏頭痛用藥，不能用於急性發作；急性發作用triptan、DHE或止吐藥。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_050",
@@ -1051,15 +1083,23 @@
         "D": "鏈球菌腦膜炎(streptococcal meningitis)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "抗NMDA受體腦炎好發於年輕女性，典型四聯症：行為/精神症狀、癲癇、運動障礙（口面部不自主動作）及意識障礙。腦部MRI在早期常為正常，確診靠CSF或血清抗NMDA受體抗體。隱球菌腦膜炎及鏈球菌腦膜炎通常有明顯發燒且CSF細胞數升高；腸病毒腦炎也可有神經症狀，但不自主運動及精神症狀組合較少見。",
+      "key_point": "年輕女性急性發病、合併精神症狀（幻覺、妄想）、癲癇、不自主運動，MRI正常，高度懷疑抗NMDA受體腦炎。",
+      "flashcard_summary": "年輕女性＋精神症狀＋癲癇＋口面不自主動作＋正常MRI -> 抗NMDA受體腦炎",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "年輕女性、精神症狀＋癲癇、口面不自主運動、MRI正常",
+      "flashcard_back": "此組合高度提示抗NMDA受體腦炎，確診需查血清或CSF的NMDA受體抗體，早期MRI可正常。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_051",
@@ -1072,15 +1112,23 @@
         "D": "巴金森氏病(Parkinson disease)是運動障礙疾病,不會有非動作(non-motor)相關症狀"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "選項D「不會有非動作相關症狀」為錯誤敘述，是本題答案。巴金森氏病的非動作症狀包括：嗅覺減退、自律神經功能障礙（便秘、姿態性低血壓）、睡眠障礙（REM行為障礙）、情緒障礙（憂鬱）及認知功能下降，這些症狀往往在運動症狀出現前已存在。Parkinson-Plus syndrome（如CBD、MSA、PSP）為正確描述，後天性巴金森原因亦為常考知識點。",
+      "key_point": "巴金森氏病除動作症狀外，亦有多種非動作症狀（如嗅覺減退、便秘、睡眠障礙、認知退化、憂鬱）。",
+      "flashcard_summary": "巴金森氏病 -> 動作症狀＋非動作症狀（嗅覺、便秘、REM睡眠障礙等）並存",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "巴金森氏病、非動作症狀、嗅覺減退、便秘、REM行為障礙",
+      "flashcard_back": "巴金森氏病有豐富的非動作症狀（嗅覺、自律神經、睡眠、情緒等），「只有運動障礙無非動作症狀」為錯誤觀念。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_052",
@@ -1093,15 +1141,23 @@
         "D": "治療可用排銅藥物(如penicillamine)或抑制銅離子吸收(如zinc sulphate)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "威爾森氏病（Wilson disease）是體隱性遺傳疾病，ATP7B基因突變導致銅無法正常排入膽汁，銅在肝、腦、眼、腎等沉積。血清ceruloplasmin（銅藍蛋白）通常低於正常值（<20 mg/dL），而非高於正常值，這是常見考點。選項C描述「ceruloplasmin濃度高於正常值」為錯誤。治療包括排銅藥（penicillamine, trientine）或抑制吸收（zinc salt）皆正確。",
+      "key_point": "威爾森氏病因銅代謝異常（ATP7B基因突變），血清ceruloplasmin濃度通常低於正常值，而非高於正常值。",
+      "flashcard_summary": "威爾森氏病 -> ceruloplasmin降低（非升高），ATP7B突變，排銅治療",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "威爾森氏病、ATP7B、ceruloplasmin、銅代謝異常",
+      "flashcard_back": "威爾森氏病的ceruloplasmin低於正常值（非升高），血清銅降低但尿銅升高；治療用penicillamine或zinc。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_053",
@@ -1114,15 +1170,23 @@
         "D": "右側肢體對溫度感覺(temperature sensation)有明顯下降"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "題目描述左半身無力（運動）＋右半身針刺（痛覺）下降，符合左側脊髓半切（Brown-Séquard syndrome）。在此情況下：同側（左側）運動功能喪失（Babinski sign異常）、同側關節位置覺與震動覺損失；對側（右側）痛溫覺損失。選項B「右側震動覺明顯下降」為錯誤，因為震動覺走後索，損傷側（左側）才會有震動覺下降，右側震動覺應保留。選項D（右側溫度覺下降）是正確的對側症狀。",
+      "key_point": "Brown-Séquard syndrome（脊髓半切）：同側運動/深感覺損失，對側痛溫覺損失；同側震動覺不會下降。",
+      "flashcard_summary": "脊髓半切（Brown-Séquard） -> 同側運動＋深感覺損失，對側痛溫覺損失；對側震動覺保留",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "左半身無力、右半身痛覺下降、脊髓半切、後索vs脊髓視丘束",
+      "flashcard_back": "Brown-Séquard：同側運動+後索（振動/位置）損失，對側痛溫覺損失；對側震動覺應保留，不會下降。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_054",
@@ -1135,15 +1199,23 @@
         "D": "週期性麻痺(periodic paralysis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肌電圖上的自發性活動電位（顫波、正相尖波）代表「去神經（denervation）」現象，出現於軸索損傷後肌肉失去神經支配的狀態。週期性麻痺的病因為離子通道（鈉、鉀、鈣通道）基因突變，並無神經損傷或去神經現象，因此肌電圖幾乎不見顫波或正相尖波。運動神經元疾病、多發性肌炎及糖尿病多發性神經病變皆可能出現去神經現象。",
+      "key_point": "週期性麻痺（periodic paralysis）是離子通道疾病，肌肉無去神經現象，肌電圖不出現顫波或正相尖波。",
+      "flashcard_summary": "肌電圖去神經電位 -> 神經/肌肉損傷疾病；週期性麻痺（離子通道病）不出現去神經電位",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肌電圖顫波/正相尖波、去神經現象、週期性麻痺",
+      "flashcard_back": "去神經電位（顫波/正相尖波）見於軸索損傷疾病；週期性麻痺屬離子通道病，無去神經，肌電圖正常或輕微變化。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_055",
@@ -1156,15 +1228,23 @@
         "D": "運動神經元疾病(motor neuron disease)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "重症肌無力（MG）是神經肌肉接合處的自體免疫疾病，乙醯膽鹼受體抗體（AChR-Ab）阻斷神經肌肉傳導。典型特徵是「波動性」肌無力：活動後加重（日落現象）、休息後改善（晨輕暮重）。眼瞼下垂和複視是最常見的表現。腦動脈瘤壓迫動眼神經也可造成眼瞼下垂，但通常伴有複視且無晨輕暮重現象；GBS及MND不典型表現為單純眼瞼下垂。",
+      "key_point": "單側眼瞼下垂無複視、晨輕暮重是重症肌無力（myasthenia gravis）的典型表現。",
+      "flashcard_summary": "晨輕暮重眼瞼下垂無複視 -> 重症肌無力（MG），神經肌肉接合處自體免疫疾病",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "單側眼瞼下垂、無複視、晨輕暮重、活動後加重",
+      "flashcard_back": "眼瞼下垂晨輕暮重（疲勞加重、休息改善）→ 重症肌無力（MG）；若合併複視且驟發，需排除動脈瘤壓迫第三對腦神經。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_056",
@@ -1177,15 +1257,23 @@
         "D": "可能發生在脊髓硬腦膜"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腦膜瘤（meningioma）是成人最常見的原發性顱內腫瘤（約佔37%），並非第二常見，選項A為錯誤敘述。腦膜瘤的發生率隨年齡增加、女性發生率高於男性（可能與雌激素受體有關）、可發生於脊髓硬腦膜均為正確敘述。過去認為第二常見的是神經膠質瘤，但腦膜瘤早已超越成為最常見的原發性腦腫瘤。",
+      "key_point": "腦膜瘤是最常見的原發性顱內腫瘤，而非第二常見。",
+      "flashcard_summary": "腦膜瘤 -> 最常見原發性顱內腫瘤，非第二常見；女性、老年高發",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腦膜瘤、最常見原發性顱內腫瘤、女性、年齡相關",
+      "flashcard_back": "腦膜瘤是成人最常見的原發性顱內腫瘤（非第二），女性多發、隨年齡增加、可發生於脊髓。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_057",
@@ -1198,15 +1286,23 @@
         "D": "parkin"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "ALS（漸凍人）的家族性病例中，SOD1基因突變佔約20%，是最早發現也最常被考的致病基因，其他包括C9orf72（最常見）、TDP-43、FUS。APP基因突變與阿茲海默症相關，LRRK2與parkin基因突變與巴金森氏病相關，這是常見混淆點。",
+      "key_point": "SOD1（超氧化物歧化酶1）基因突變是家族性肌萎縮性側索硬化（ALS）的最常見致病基因。",
+      "flashcard_summary": "ALS致病基因 -> SOD1（超氧化物歧化酶1），其他：C9orf72、TDP-43；APP/LRRK2/parkin屬其他神經退化疾病",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ALS（漸凍人）、家族性、SOD1基因",
+      "flashcard_back": "ALS家族性病例相關基因：SOD1、C9orf72、TDP-43、FUS；SOD1是最早發現的致病基因，APP/LRRK2/parkin與ALS無關。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_058",
@@ -1219,15 +1315,23 @@
         "D": "隱球菌腦膜炎"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "病毒性腦膜炎的CSF特徵：WBC輕度升高（以淋巴球為主）、蛋白質正常或輕度升高（<100 mg/dL）、葡萄糖正常。細菌性腦膜炎：WBC升高（以嗜中性球為主）、蛋白質明顯升高、葡萄糖降低。結核性腦膜炎：淋巴球增多、蛋白質高、葡萄糖明顯低。隱球菌腦膜炎：印度墨水染色陽性，葡萄糖低。本題淋巴球為主＋蛋白正常＋葡萄糖正常，符合病毒性。",
+      "key_point": "CSF以淋巴球為主、蛋白質正常、葡萄糖正常，最符合病毒性腦膜炎的典型表現。",
+      "flashcard_summary": "CSF淋巴球為主＋蛋白正常＋葡萄糖正常 -> 病毒性腦膜炎",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CSF淋巴球90%、蛋白50 mg/dL、葡萄糖70 mg/dL、發燒頸僵",
+      "flashcard_back": "淋巴球主導＋蛋白質正常＋葡萄糖正常 → 病毒性腦膜炎；細菌性為中性球主導＋蛋白升高＋葡萄糖低。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_059",
@@ -1240,15 +1344,23 @@
         "D": "思覺失調症合併焦慮症狀"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "陳先生目前無幻聽和妄想（正性症狀已緩解），但表現出少話（言語貧乏）、衛生習慣差、不愛洗澡（意志力缺乏/自我照顧退縮）等，屬於思覺失調症的負性症狀。負性症狀對抗精神病藥物的反應較差，是造成功能障礙的主因。認知障礙雖也存在，但本題所列症狀（少話、退縮）更符合負性症狀的定義，非單純認知退化。",
+      "key_point": "思覺失調症負性症狀包括情感淡漠、言語貧乏、意志力缺乏、社交退縮，與正性症狀（幻覺、妄想）不同。",
+      "flashcard_summary": "思覺失調症少話退縮意志缺乏 -> 負性症狀（非正性症狀），對藥物反應較差",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "思覺失調症、少話、退縮、衛生習慣差、幻聽妄想已緩解",
+      "flashcard_back": "幻聽妄想為正性症狀；言語貧乏、退縮、意志缺乏為負性症狀，對藥物反應差，是功能障礙主因。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_060",
@@ -1261,15 +1373,23 @@
         "D": "抗精神病藥物作用在多巴胺(dopamine)接受器,會導致姿態性低血壓"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "選項D「抗精神病藥物作用在多巴胺接受器，會導致姿態性低血壓」敘述不正確。姿態性低血壓是抗精神病藥物阻斷α1腎上腺素受體（alpha-1 adrenergic receptor）所致，並非多巴胺受體阻斷的效果。其餘選項皆正確：鋰鹽長期使用確有甲狀腺及心臟毒性；clozapine與fluvoxamine有交互作用（fluvoxamine抑制CYP1A2使clozapine濃度上升）；valproic acid抑制lamotrigine代謝，使lamotrigine濃度升高增加過敏風險。",
+      "key_point": "抗精神病藥物引起姿態性低血壓的主要機制是抗α1腎上腺素作用，而非多巴胺受體作用。",
+      "flashcard_summary": "抗精神病藥物姿態性低血壓 -> α1腎上腺素受體阻斷（非多巴胺受體）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "抗精神病藥物、姿態性低血壓、α1受體、多巴胺受體",
+      "flashcard_back": "抗精神病藥物引起姿態性低血壓是因阻斷α1腎上腺素受體，而非多巴胺受體；錐體外症候群才是D2阻斷的副作用。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "113-2_medicine-4_061",

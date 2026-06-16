@@ -4,7 +4,7 @@
   "title": "109 年第一次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-11T14:37:13.277907+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "109-1_medicine-3_001",
@@ -17,15 +17,23 @@
         "D": "妊娠糖尿病發生時,為了減少妊娠併發症,應積極以藥物控制孕婦血糖,其中,以DPP-IV抑制劑\n (dipeptidyl peptidase IVinhibitor)最被建議為第一線藥物"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "懷孕期間，二尖瓣狹窄（mitral stenosis）是死亡率最高的瓣膜性心臟病，因為懷孕會增加血容積與心輸出量，易誘發肺水腫與心臟衰竭，故 C 正確。子癲前症患者目前指引建議在懷孕 12-16 週起給予低劑量 aspirin 以預防發生，非絕對禁用；孕婦禁用 ARB/ACEI，因有致畸胎風險；妊娠糖尿病的第一線藥物為胰島素，不建議使用 DPP-IV 抑制劑。",
+      "key_point": "孕婦合併內科疾病（高血壓、瓣膜心臟病、糖尿病）之治療原則。",
+      "flashcard_summary": "孕期內科處置 -> 孕期二尖瓣狹窄死亡率最高；禁用 ARB，糖尿病首選胰島素，子癲前症可用低劑量 aspirin。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "孕婦合併高血壓 / 瓣膜性心臟病 / 妊娠糖尿病藥物 / 血管張力素受體阻斷劑",
+      "flashcard_back": "孕婦禁用 ARB；二尖瓣狹窄在孕期死亡率最高；妊娠糖尿病首選胰島素；子癲前症可用低劑量 aspirin。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_002",
@@ -38,15 +46,23 @@
         "D": "身體約束(physical restraint)及benzodiazepines注射,目前被建議用於譫妄的治療"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "失智症（dementia）是譫妄最主要的前置因子，約有三分之二的譫妄個案發生在失智症患者身上，故 B 正確。老年人住院譫妄發生率很高（可達 15-50%）；抗膽鹼劑和偏向鴉片類的藥物是誘發譫妄的常見藥物而非治療藥物；身體約束與 benzodiazepines 通常會加重譫妄（除非是酒精戒斷引起的譫妄），不應常規使用。",
+      "key_point": "譫妄（delirium）的前置因子與處置原則。",
+      "flashcard_summary": "譫妄與失智症 -> 失智症為譫妄主因（前置因子），應避免使用抗膽鹼藥或不當約束。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "譫妄 / 前置因子 / 失智症 / 誘發藥物與非藥物處置",
+      "flashcard_back": "失智症是譫妄最強的前置因子；抗膽鹼藥與身體約束會惡化譫妄；BZD僅用於酒精戒斷譫妄。",
+      "category_group": "醫學（三）",
+      "category": "神經內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_003",
@@ -59,15 +75,23 @@
         "D": "sulfonylureas"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "雙胍類（biguanides，如 Metformin）口服降血糖藥會干擾迴腸末端鈣離子依賴型的維生素 B12-內在因子複合物重吸收，長期使用可能導致維生素 B12 缺乏與巨幼紅血球性貧血。其餘選項如 acarbose、TZD 及 sulfonylureas 均無此副作用。",
+      "key_point": "Metformin（Biguanides）引起的維生素 B12 缺乏副作用。",
+      "flashcard_summary": "降血糖藥與B12缺乏 -> 雙胍類（Biguanides/Metformin）會抑制迴腸吸收維生素 B12。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "口服降血糖藥 / 維生素B12缺乏 / 雙胍類 / 巨幼紅血球性貧血",
+      "flashcard_back": "雙胍類（如 Metformin）長期使用會減少腸道吸收維生素 B12，可能引發貧血。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_004",
@@ -80,15 +104,23 @@
         "D": "燒傷可能造成尿液中鈉濃度低於 20 mM的低容積型低血鈉"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "心衰竭、肝硬化或腎病症候群造成的高容積型低血鈉症，其病理生理機轉是有效動脈血容量下降，刺激腎臟保水保鈉，因此尿液中的鈉濃度通常會「低於 20 mM」，而非大於 20 mM，故 C 的描述錯誤（且為正確答案）。甲狀腺功能低下會引起黏液性水腫，常表現為等容積型低血鈉；低容積會刺激 ADH（vasopressin）分泌；燒傷會造成大量體液流失（低容積），但腎臟功能健全會保留鈉，尿鈉亦會小於 20 mM。",
+      "key_point": "低血鈉症的鑑別診斷與尿鈉濃度。",
+      "flashcard_summary": "低血鈉鑑別診斷 -> 心衰竭的高容積低血鈉尿鈉通常 < 20 mM；低容積刺激釋放加壓素。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "低血鈉鑑別診斷 / 尿鈉濃度 / 高容積型低血鈉 / 心衰竭",
+      "flashcard_back": "心衰竭等引起的高容積型低血鈉，因有效血容積不足使腎臟保留鈉，尿鈉通常 < 20 mM。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_005",
@@ -101,15 +133,23 @@
         "D": "血中胰島素(insulin)濃度"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "隨著年齡增長，老年人的運動最大心率（公式：220 - 年齡）、動脈血氧分壓（PaO2 會隨年齡逐漸下降）以及腎絲球過濾率（GFR，40歲後每年約下降 1 mL/min）均會顯著下降。然而，在健康的狀況下，血中胰島素（insulin）的基礎濃度與分泌量在老年人中並不會顯著下降，故 D 正確。",
+      "key_point": "老年人生理功能的改變（與年輕人對比）。",
+      "flashcard_summary": "老年生理變化 -> 隨年齡增長，最大心率、PaO2 與 GFR 均下降，但健康老人的胰島素濃度不降。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "老年生理變化 / 運動最大心率 / 腎絲球過濾率 / 胰島素濃度",
+      "flashcard_back": "老人最大心率、PaO2 及 GFR 均下降；但健康老人的血中胰島素基礎濃度最不會下降。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_006",
@@ -122,15 +162,23 @@
         "D": "因器材技術進步,經導管主動脈置換術(TAVR),在外科開刀風險較高的病人族群的治療結果已與傳統瓣\n 膜置換手術相近"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "主動脈瓣狹窄（AS）在疾病早期，左心室為了克服輸出阻力會產生向心性肥大（hypertrophy）以維持心輸出量，此時代償機制尚未崩潰，左心室「不會擴大」，直到晚期衰竭才會擴大，故 B 的敘述錯誤。二瓣性主動脈瓣是常見先天異常，易致鈣化狹窄；一旦出現心衰竭症狀，若不手術，平均存活期小於 2 年；對高手術風險者，TAVR 的預後與傳統手術相當。",
+      "key_point": "主動脈瓣狹窄（AS）的病理生理與代償機制。",
+      "flashcard_summary": "AS代償機制 -> 早期 AS 產生左心室肥大而非擴大，晚期才擴大；心衰竭出現後預後極差（<2年）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "主動脈瓣狹窄 / 左心室肥大與擴大 / 存活時間 / 經導管主動脈置換術",
+      "flashcard_back": "AS 早期代償為左心室心肌向心性肥厚（非擴大）；晚期失代償才出現擴大；心衰竭出現後存活期小於2年。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_007",
@@ -143,15 +191,23 @@
         "D": "amiodarone"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "蜘蛛網膜下腔出血（SAH）常引發交感神經風暴，心電圖上可見巨大的倒置 T 波與 QT 延長；低血鈣會使動作電位第二相（平台期）延長，導致 QT 延長；Amiodarone 為第三類抗心律不整藥，會阻斷鉀離子通道，使復極化延長而導致 QT 延長。甲狀腺功能亢進（hyperthyroidism）會縮短動作電位期間，使 QT 間期縮短（甲狀腺低下則會延長 QT），故 C 最不可能出現 QT 延長。",
+      "key_point": "心電圖 QT 間期延長（long QT）的誘因。",
+      "flashcard_summary": "QT延長病因 -> 甲狀腺亢進會縮短 QT 間期；低血鈣、SAH、amiodarone 則會延長 QT。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "QT間期延長 / 蜘蛛網膜下出血 / 低血鈣 / 甲狀腺功能亢進",
+      "flashcard_back": "甲狀腺亢進會縮短動作電位，使 QT 間期縮短；低血鈣、SAH 及 amiodarone 皆會延長 QT。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_008",
@@ -164,15 +220,23 @@
         "D": "肺動脈瓣狹窄(pulmonary stenosis)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者具有右心室頂起（RV heave，代表右心室肥大），且在左側第二肋間（肺動脈瓣聽診區）可觸及收縮期顫抖，並聽到收縮期噴射性雜音。此外，肺動脈瓣關閉延遲會導致第二心音呈寬分裂（wide split S2，且分裂程度會隨呼吸變化，呼氣時仍有分裂但吸氣時更寬），這些皆為肺動脈瓣狹窄（pulmonary stenosis）的經典表現。",
+      "key_point": "肺動脈瓣狹窄（pulmonary stenosis）的臨床與聽診特徵。",
+      "flashcard_summary": "肺動脈瓣狹窄聽診 -> 左側第二肋間收縮期雜音、顫抖與寬分裂第二心音（S2）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "右心室頂起 / 左側第二肋間收縮期雜音 / 寬分裂第二心音",
+      "flashcard_back": "左側第二肋間收縮期顫抖與雜音，伴隨寬分裂 S2，最符合肺動脈瓣狹窄的特徵。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_009",
@@ -185,15 +249,23 @@
         "D": "立即給與快速輸液治療normal saline 500 mL"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者表現為急性下壁心肌梗塞（ECG 為下壁導聯 II、III、aVF 的 ST 段上升且 III > II，且有右心室導聯 ST 上升），臨床呈現低血壓、心跳緩慢（50次/分）、肺部乾淨無囉音、右心室擴大，這是典型的右心室心肌梗塞（RVMI）合併心因性休克。此時右心室收縮力下降極度依賴前負荷（preload），因此禁用硝化甘油等血管擴張劑，首要的立即處置是快速給予生理食鹽水輸液（normal saline 500 mL）以增加前負荷，提升血壓。",
+      "key_point": "右心室心肌梗塞（RVMI）之立即治療原則。",
+      "flashcard_summary": "右心室心肌梗塞處置 -> 低血壓且肺部乾淨，首選快速輸液（NS 500 mL）以維持前負荷，禁用硝化甘油。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "右心室心肌梗塞 / 低血壓 / 肺部無囉音 / 輸液治療",
+      "flashcard_back": "RVMI 導致前負荷不足引發低血壓，首要處置是快速補液（NS 500 mL），禁用硝化甘油。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_010",
@@ -206,15 +278,23 @@
         "D": "第四級"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據紐約心臟協會（NYHA）分級：第一級為身體活動不受限制，日常活動不引起症狀；第二級為身體活動輕微受限，休息時無症狀，但執行日常活動（如工作搬貨走了5趟就喘，需休息）會出現疲倦、心悸或呼吸困難；第三級為身體活動明顯受限，小於日常活動即可引起症狀；第四級為休息時即有症狀。該患者日常搬貨走了5趟就喘，休息能緩解，符合輕度受限的第二級（Class II）。",
+      "key_point": "紐約心臟協會（NYHA）心功能分級。",
+      "flashcard_summary": "NYHA功能分級 -> 日常活動輕微受限，休息時無症狀，屬於第二級（Class II）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "心臟衰竭 / NYHA功能分類 / 日常活動受限",
+      "flashcard_back": "日常活動（如搬貨）引起氣喘且需休息，但休息時無症狀，符合 NYHA 第二級。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_011",
@@ -227,15 +307,23 @@
         "D": "常分布在身體四肢的伸肌表面(extensor surface)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "黃色脂肪瘤不僅與 LDL 膽固醇過高有關，不同類型的脂肪瘤還與其他血脂異常相關。例如，發疹性黃瘤（eruptive xanthoma）與極高的甘油三酯（TG）或 VLDL 濃度密切相關，常在甘油三酯嚴重升高時快速出現。因此，選項 A 稱「只與 LDL 有關，與甘油三脂無關」是錯誤的。黃瘤常見於皮下、肌腱鞘以及伸肌表面。",
+      "key_point": "黃色脂肪瘤（xanthoma）與不同血脂異常的關聯。",
+      "flashcard_summary": "黃瘤與血脂 -> 黃瘤與高 LDL 及高 TG（如發疹性黃瘤）均有關，非僅與 LDL 相關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "黃色脂肪瘤 / 甘油三酯 / 低密度脂蛋白 / 分布位置",
+      "flashcard_back": "黃瘤不僅見於高 LDL，發疹性黃瘤與高甘油三酯（TG）密切相關；常見於皮下與肌腱表面。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_012",
@@ -248,15 +336,23 @@
         "D": "在cardiac tamponade時有一個Beck’s triad:低血壓,心音聲音消失,頸靜脈怒張有明顯的X descent以及消失\n 的Y descent"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性心包膜發炎時，心包膜摩擦音（pericardial friction rub）是特徵性體徵，其聲音是高頻（high-pitched）像刮刮聲，而非低頻（low-pitched），因此選項 B 錯誤（為正確答案）。心包膜有壁層與臟層，含 15-50 mL 潤滑液；早期 ECG 可見廣泛性 ST 段呈凹面向上上升；Beck's triad 包括低血壓、心音遙遠、頸靜脈怒張（呈現顯著 X descent 但 Y descent 消失）。",
+      "key_point": "急性心包膜炎與心包填塞的臨床與聽診特徵。",
+      "flashcard_summary": "心包膜炎與填塞 -> 心包摩擦音為高頻音；填塞時出現 Beck's triad 且 Y descent 消失。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性心包膜炎 / 心包摩擦音 / 心包填塞 / 頸靜脈波形",
+      "flashcard_back": "心包摩擦音是高頻（high-pitched）刮擦聲，非低頻；心包填塞時 Y descent 會消失。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_013",
@@ -269,15 +365,23 @@
         "D": "女性、酗酒、以及30歲以上的感染是慢性C型肝炎快速進展之重要因素"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "慢性 C 型肝炎快速進展為肝硬化的重要危險因子包括：男性（非女性）、酗酒、合併 B 肝或 HIV 感染、以及感染時年齡大於 40 歲。因此，選項 D 稱「女性」為快速進展之因素是錯誤的（符合題意）。約 20-25% 的慢性 C 肝在 20-30 年後進展為肝硬化，肝硬化後每年有 1-4% 產生肝癌，且 C 肝為西方國家肝移植主因。",
+      "key_point": "C型肝炎慢性化與快速進展之風險因子。",
+      "flashcard_summary": "C型肝炎惡化因子 -> 男性、酗酒與高齡感染會加速 C 肝進展；女性進展較慢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "C型肝炎自然病史 / 肝硬化進展 / 快速惡化因子",
+      "flashcard_back": "慢性 C 肝惡化為肝硬化的危險因子包括男性、酗酒及高齡感染（女性進展較慢）。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_014",
@@ -290,15 +394,23 @@
         "D": "70歲婦女,已有數次劇烈上腹痛,每次持續1~2小時,常於大餐之後發生,於2個月前才發作1次急性心肌\n 梗塞。腹部X光看不到異常處,超音波顯示有1顆直徑大小0.4公分的膽結石"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "口服膽鹽溶石劑（UDCA）僅適用於：有症狀、膽囊功能良好、結石小（直徑 < 5-10 mm）、X光透光性（放射線穿透性，代表非鈣化結石），且病人有手術高風險（如近 2 個月有急性心肌梗塞，手術風險極高）的情況。選項 A 無症狀不需治療；選項 B X光見鈣化結石對 UDCA 無效；選項 C 為急性膽囊炎需緊急手術或引流。",
+      "key_point": "口服膽鹽溶石劑（UDCA）的治療適應症。",
+      "flashcard_summary": "UDCA溶石適應症 -> 適用於有症狀、透光性小結石（<10mm）且手術高風險 of patients。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "膽囊結石治療 / 口服膽鹽溶石 / UDCA適應症",
+      "flashcard_back": "UDCA 適用於小於 10mm、X 光透光性結石且有手術高風險（如近期心肌梗塞）的有症狀患者。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_015",
@@ -311,15 +423,23 @@
         "D": "對於疼痛嚴重的病人,morphine是最適當的止痛劑"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "奧迪氏括約肌痙攣（Oddi sphincter dysfunction）會阻礙膽汁與胰液排出，引起類似膽結石的右上腹痛及 AST/ALT、Alk-P 暫時升高，確診黃金標準是進行括約肌測壓（manometry）。在止痛藥選擇上，嗎啡（morphine）會促使奧迪氏括約肌收縮（痙攣），從而加重疼痛，因此嗎啡是禁忌，常用 meperidine（demerol）代替，故 D 敘述錯誤。",
+      "key_point": "奧迪氏括約肌功能障礙（SOD）的診斷與止痛藥禁忌。",
+      "flashcard_summary": "奧迪氏括約肌痙攣 -> 嗎啡會促使括約肌收縮加重疼痛，不宜作為止痛劑。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "奧迪氏括約肌痙攣 / 膽道壓測量 / 嗎啡止痛禁忌",
+      "flashcard_back": "嗎啡會誘發奧迪氏括約肌收縮而加重疼痛，故在 Oddi 痙攣的患者中禁用嗎啡止痛。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_016",
@@ -332,15 +452,23 @@
         "D": "基因型A不管有無接受抗病毒藥物治療,相對其他基因型,有較高機會產生表面抗原(HBsAg)消失或是e\n 抗原(HBeAg)消失"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "B型肝炎病毒（HBV）目前已知有至少 8 種亞型與 A 至 J 共 10 種基因型（Genotypes），故 A 正確。基本上，感染後的臨床病程嚴重度與病毒的「基因型」（Genotype）有密切關係，而非亞型（Subtype），因此選項 B 的敘述錯誤。例如，基因型 B 在台灣常見，其發生肝硬化與肝癌的風險顯著低於基因型 C 或 D。",
+      "key_point": "B型肝炎病毒基因型與臨床之關係。",
+      "flashcard_summary": "HBV基因型與臨床 -> 臨床病程嚴重度主要與基因型有關，而非亞型。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "B型肝炎病毒 / 基因型A-J / 臨床病程嚴重度 / 亞型與基因型差異",
+      "flashcard_back": "B 肝臨床病程嚴重度主要是與「基因型」而非「亞型」相關；基因型 B 的肝癌風險低於 C 與 D。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_017",
@@ -353,14 +481,22 @@
         "D": "約99%病患不會成為慢性帶原"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性 B 型肝炎絕大多數（約 95-99%）成人在感染後會自行痊癒，不會演變成慢性帶原。對於非重症的急性 B 肝患者，給予口服抗病毒藥物（nucleoside/nucleotide analogues）並不能縮短疾病病程或改善預後，甚至可能干擾人體免疫系統產生保護性抗體（anti-HBs），因此一般不建議使用，僅建議用於併發肝衰竭的重症患者。本題官方正確答案為 B，但因後續公告一律給分，故 correct_answer 維持為空字串。",
+      "key_point": "急性 B 型肝炎的抗病毒藥物治療指引。",
+      "flashcard_summary": "急性B肝治療 -> 抗病毒藥物不可縮短急性 B 肝病程，故限於重症患者使用。",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "急性B型肝炎 / 抗病毒藥物 / 重症治療 / 慢性化機率",
+      "flashcard_back": "口服抗病毒藥物無法縮短急性 B 肝病程，僅用於重症；成人感染急性 B 肝約 99% 可自行痊癒。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_018",
@@ -373,15 +509,23 @@
         "D": "靜脈曲張出血的病人,最好能輸血將血紅素維持在10 g/dL以上"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於中至大條食道靜脈曲張，使用非選擇性 β 阻斷劑（如 propranolol 或 nadolol）可收縮內臟血管、減少肝門靜脈血流，能有效降低第一次出血的風險（A 正確）。內視鏡結紮（EVL）是預防首次出血的有效方法，但它僅是局部物理阻斷，並「不能」降低肝門靜脈壓力（C 錯誤）。靜脈曲張出血的輸血原則為保守性（維持 Hb 在 7-8 g/dL 即可），過度輸血至 10 g/dL 以上反而會增加門脈壓力而加重出血（D 錯誤）。",
+      "key_point": "肝硬化食道靜脈曲張出血的預防與治療。",
+      "flashcard_summary": "食道靜脈曲張預防 -> 非選擇性 β 阻斷劑可降門脈壓防出血；輸血目標 Hb 7-8 g/dL，防門脈壓反彈。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "食道靜脈曲張 / 非選擇性β阻斷劑 / 內視鏡結紮 / 輸血限制",
+      "flashcard_back": "非選擇性 β 阻斷劑能預防首次出血；輸血應採保守原則（維持 Hb 7-8 g/dL），避免門脈壓過高。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_019",
@@ -394,15 +538,23 @@
         "D": "儘管手術完整切除腫瘤,縫合處復發(anastomotic recurrences)為大腸直腸癌術後最常見的復發部位,因此\n 大腸鏡是最重要的追蹤檢查"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於第二、三期直腸癌，術前給予同時化放療（CCRT）能有效縮小腫瘤、增加保留肛門的機會並降低局部復發率（A 正確）。肛門癌主要與 HPV 感染（特別是 16、18 型）有關，與大腸癌的危險因子不同；K-ras 基因突變的患者對 EGFR 單株抗體（如 cetuximab）反應極差（必須是 wild-type 才有反應）；術後最常見的復發部位是遠端轉移（如肝、肺），而非吻合口復發。",
+      "key_point": "大腸直腸癌與肛門癌的治療與基因變異。",
+      "flashcard_summary": "直腸癌與標靶治療 -> 直腸癌術前 CCRT 降復發；K-ras 突變對 cetuximab 反應差。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "直腸癌 / 術前同時化放療 / K-ras突變 / Cetuximab反應",
+      "flashcard_back": "二、三期直腸癌術前 CCRT 可降低復發率；K-ras 突變者對 cetuximab 治療無效（需野生型）。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_020",
@@ -415,15 +567,23 @@
         "D": "在急性發作時,bowel rest加上total parenteral nutrition(TPN)也具有inducing remission of active Crohn's\n disease的效果,其效果甚至與glucocorticoids相當"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在克隆氏症（Crohn's disease）急性發作時，實施腸道休息（bowel rest）並配合全靜脈營養（TPN），能有效誘導疾病緩解，其緩解效果與口服類固醇（glucocorticoids）相當（D 正確）。Sulfasalazine 會被腸道細菌分解為 5-ASA（具抗發炎作用）與 sulfapyridine（具抗菌及主要副作用來源，無抗發炎作用）；類固醇僅用於誘導緩解，因副作用大，絕不可作為長期維持治療（maintenance therapy）的首選；Anti-TNF 療法在慢性 B 肝患者中具有高度引起 B 肝病毒再活化（reactivation）的風險，使用前需預防性給予抗病毒藥。",
+      "key_point": "發炎性腸道疾病（IBD）的藥物與非藥物治療。",
+      "flashcard_summary": "IBD治療原則 -> 克隆氏症急性期可用 TPN 配合腸道休息誘導緩解；類固醇不作維持治療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "克隆氏症 / 腸道休息與全靜脈營養 / 類固醇維持治療 / B肝再活化",
+      "flashcard_back": "克隆氏症急性發作時，TPN與腸道休息的誘導緩解效果與類固醇相當；類固醇不可作維持治療。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_021",
@@ -436,15 +596,23 @@
         "D": "除菌治療後慣例要在7天內執行urea breath test來確認除菌成功"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在早期胃癌病患中，即使病灶已切除，進行幽門螺旋桿菌除菌治療仍能顯著降低異時性（metachronous）胃癌的復發率，因此必須治療，故 B 正確。消化性潰瘍痊癒後若不除菌，潰瘍復發率極高，必須除菌；在除菌治療中，PPI 的使用能提高胃內 pH 值，從而使抗生素保持穩定並提高除菌效果，非常重要；除菌成功確認（如 urea breath test）一般建議在治療結束「至少 4 週」後進行，而非 7 天內。",
+      "key_point": "幽門螺旋桿菌（H. pylori）的除菌治療適應症與原則。",
+      "flashcard_summary": "幽門螺旋桿菌治療 -> 早期胃癌術後仍需除菌以防復發；PPI 具協同抗生素效果；檢驗需在停藥4週後。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "幽門螺旋桿菌 / 早期胃癌切除 / 除菌確認時間 / 質子幫浦抑制劑協同",
+      "flashcard_back": "早期胃癌術後除菌可降異時性胃癌復發；PPI 能提高胃 pH 值增強抗生素除菌力；除菌確認需在停藥4週後。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_022",
@@ -457,15 +625,23 @@
         "D": "葉酸"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該 CKD 第 5 期（肌酸酐 6.5）患者合併輕度貧血（Hb 11.6 g/dL），且鐵蛋白偏低、B12 與葉酸均嚴重缺乏。根據指引，在 initiated 紅血球生成素（ESA）治療前，必須先補充足夠的鐵劑、維生素 B12 及葉酸以防無效紅血球生成。此外，該患者 Hb 為 11.6 g/dL，已高於使用 ESA 的指引臨界值（一般 Hb < 10 g/dL 才考慮開始使用），過早使用會增加心血管風險，因此使用紅血球生成素最不適當。",
+      "key_point": "慢性腎臟病合併貧血及多重營養素缺乏的治療優先順序。",
+      "flashcard_summary": "CKD貧血處置 -> 貧血合併 B12、葉酸缺乏且 Hb=11.6 時，不應使用紅血球生成素（EPO）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性腎病貧血 / 紅血球生成素指引 / 維生素B12與葉酸缺乏 / 鐵蛋白",
+      "flashcard_back": "CKD 貧血患者 Hb ≥ 10 g/dL 且合併 B12、葉酸及鐵缺乏時，應先補充營養素，最不宜直接使用 EPO。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_023",
@@ -478,15 +654,23 @@
         "D": "血液透析"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於末期腎臟病（ESRD）患者，腎臟移植（kidney transplantation）的長期存活率與生活品質均顯著優於透析治療。即使是 ABO 血型不相符或 HLA 不相符的腎臟移植，其 5 年存活率仍顯著高於長期血液透析（hemodialysis），故血液透析的 5 年存活率最差。",
+      "key_point": "末期腎病不同腎臟替代療法的 5 年存活率比較。",
+      "flashcard_summary": "ESRD替代療法存活率 -> 腎臟移植的 5 年存活率顯著高於血液透析。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "末期腎病 / 腎臟替代療法 / 腎移植與透析存活率 / ABO不相符移植",
+      "flashcard_back": "腎臟移植（包括 HLA/ABO 不相符移植）的 5 年存活率均顯著優於血液透析或腹膜透析。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_024",
@@ -499,15 +683,23 @@
         "D": "拔除腹膜透析導管"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腹膜透析（PD）患者併發黴菌性腹膜炎（本題培養出念珠菌 candidiasis）是一種嚴重的併發症，容易導致腹膜纖維化與透析失效。臨床指引明確建議，一旦確診為黴菌性腹膜炎，必須立即「拔除腹膜透析導管」，並同時給予抗黴菌藥物治療，改用暫時性血液透析，僅用藥物治療而不拔管通常無法根除感染。",
+      "key_point": "腹膜透析併發黴菌性腹膜炎的處置。",
+      "flashcard_summary": "黴菌性腹膜炎處置 -> 腹膜透析患者一旦確診黴菌感染，必須立即拔除透析導管。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腹膜透析 / 黴菌性腹膜炎 / 念珠菌感染 / 導管處置",
+      "flashcard_back": "腹膜透析併發黴菌性腹膜炎（如念珠菌）時，首要且最關鍵的處置為立即拔除腹膜透析導管。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_025",
@@ -520,15 +712,23 @@
         "D": "靜脈輸液治療不宜補充>每日尿液流失量,以免發生醫源性體液容積增加"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "阻塞後多尿症（postobstructive diuresis）主要發生在「雙側」尿路完全阻塞（或單一腎臟的單側阻塞）疏通後，此時滯留的溶質（如尿素）產生滲透壓利尿，導致尿液流失大量水分與鈉離子（低張尿，可能導致高血鈉）。單純的單側尿路阻塞疏通後，由於健側腎臟可代償，極少發生此現象，故 A 描述錯誤（符合題意）。治療時輸液量不宜完全等量補充尿流失量，以免造成醫源性體液過量。",
+      "key_point": "尿路疏通後多尿症（postobstructive diuresis）的病理生理。",
+      "flashcard_summary": "阻塞後多尿症 -> 僅見於雙側或獨腎阻塞解除後；溶質利尿引起低張尿，輸液不宜過量。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "阻塞後多尿症 / 雙側與單側阻塞 / 滲透壓利尿 / 輸液原則",
+      "flashcard_back": "阻塞後多尿症僅發生於雙側（或獨腎單側）完全阻塞解除後；治療時輸液量不宜超過尿流失量。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_026",
@@ -541,15 +741,23 @@
         "D": "hypertensive nephrosclerosis"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該 28 歲女性表現為漸進性腎功能惡化（肌酸酐升至 2.4 mg/dL），並有嚴重的正球性貧血（Hb 8.5 g/dL），其貧血程度與腎功能不全不成比例（肌酸酐 1.3 時即有 Hb 9.0），且鐵蛋白偏高、大便潛血陰性、尿液檢查無蛋白尿或血尿等異常。這些特徵（腎小球無明顯病變、嚴重腎素/EPO不足性貧血、無顯著尿液異常）高度指向慢性小管間質性疾病（chronic tubulointerstitial disorders），因為小管間質受損會直接影響 EPO 的製造，且早期無尿蛋白或血尿。",
+      "key_point": "慢性小管間質性腎病（chronic tubulointerstitial disorders）的臨床特徵。",
+      "flashcard_summary": "慢性小管間質腎病 -> 表現為與腎功能惡化不成比例的嚴重貧血，且尿液檢查常無異常。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "漸進性腎惡化 / 嚴重正球性貧血 / 尿液檢查無異常 / 鐵儲存正常",
+      "flashcard_back": "腎功能惡化伴隨不成比例的嚴重貧血，且尿液檢查無異常，最可能為慢性小管間質性腎病。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_027",
@@ -562,15 +770,23 @@
         "D": "患有蛋白尿之第4期慢性腎臟病患者,應採用低蛋白飲食療法"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於第 4 期慢性腎臟病（GFR < 30 mL/min）的患者，為了延緩腎功能惡化並減輕尿毒症狀，應採用低蛋白飲食療法（約 0.6-0.8 g/kg/day，D 正確）。CKD 合併高血壓首選藥物為 ACEI 或 ARB（具保護腎臟、減少蛋白尿作用，而非 β-blocker）；退化性關節炎患者禁用 NSAID，因為 NSAID 會收縮入球小動脈，導致急性腎損傷；雖然 ACEI/ARB 能減少蛋白尿，但「不建議合併使用」兩者，因會大副增加高血鉀與急性腎衰竭的風險。",
+      "key_point": "慢性腎臟病的治療原則與用藥禁忌。",
+      "flashcard_summary": "CKD治療原則 -> 第 4 期 CKD 應採低蛋白飲食；降壓首選 ACEI/ARB（不可聯用），禁用 NSAID。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性腎臟病第4期 / 低蛋白飲食 / 降血壓藥首選 / 類固醇與NSAID禁忌 / ACEI與ARB合併",
+      "flashcard_back": "CKD 第 4 期應採低蛋白飲食；高血壓首選 ACEI/ARB（但不可合併使用）；關節炎禁用 NSAID。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_028",
@@ -583,15 +799,23 @@
         "D": "血清纖維母細胞生長因子23(FGF-23)值過高,與慢性腎臟病病患的死亡率有正相關"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腎絲球過濾率下降導致血磷滯留，會促進骨細胞分泌 FGF-23。FGF-23 的主要作用包括促進尿磷排出以及抑制 1-alpha-hydroxylase，從而減少活性維生素 D3 的生成（促使低血鈣，B 正確）。然而，FGF-23 對副甲狀腺是起「抑制」作用，而非刺激其生成（低血鈣與低活性維生素 D3 才是刺激 PTH 分泌的主因），故 C 的敘述錯誤。血清 FGF-23 過高與 CKD 患者的左心室肥大及高死亡率密切相關。",
+      "key_point": "慢性腎臟病-礦物質骨病變（CKD-MBD）中 FGF-23 的調控。",
+      "flashcard_summary": "FGF-23的作用 -> FGF-23 抑制活性維生素 D3 及副甲狀腺素（PTH）的生成。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CKD-MBD / 纖維母細胞生長因子23 / 活性維生素D3 / 副甲狀腺素調控",
+      "flashcard_back": "FGF-23 會「抑制」活性維生素 D3 生成與「抑制」副甲狀腺素（PTH）生成。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_029",
@@ -604,15 +828,23 @@
         "D": "因為關節有發炎,因此病人血中的CRP和ESR值常會有上升的情形"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "退化性關節炎（OA）本質上是關節軟骨的磨損與退化，屬於非全身發炎性疾病。因此，患者血中的發炎指標如 C-反應蛋白（CRP）和紅血球沉降率（ESR）通常保持在「正常範圍」，不會像類風濕性關節炎（RA）那樣顯著上升，故 D 敘述錯誤。OA 好發於老年人，侵犯 DIP、Knee、Hip，X 光可見關節腔變窄、骨刺，但無骨侵蝕。",
+      "key_point": "退化性關節炎（OA）與發炎性指標。",
+      "flashcard_summary": "退化性關節炎指標 -> OA 為非全身發炎性疾病，CRP 與 ESR 通常正常，X 光無 bone erosion。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "退化性關節炎 / 關節腔變窄 / 骨侵蝕 / 發炎指標CRP與ESR",
+      "flashcard_back": "OA 的 CRP 及 ESR 通常正常（若上升應懷疑 RA 或感染）；X 光無 bone erosion。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_030",
@@ -625,15 +857,23 @@
         "D": "若併發雷諾氏症要使用非類固醇類消炎止痛藥治療"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "乾燥症合併腺體外系統性表現（如血管炎、間質性肺炎、腎小球腎炎等）時，治療首選為全身性糖皮質激素（類固醇）聯合免疫抑制劑（如 Cyclophosphamide 或 Azathioprine），故 B 正確。乾燥症合併關節炎首選為 hydroxychloroquine 或 methotrexate，非 anti-TNF；合併淋巴瘤需進行全身性化療，單用類固醇無效；雷諾氏症主要使用鈣離子阻斷劑（CCB）治療，而非 NSAID。",
+      "key_point": "乾燥症（Sjögren's syndrome）腺體外表現的治療。",
+      "flashcard_summary": "乾燥症腺體外表現 -> 併發血管炎首選類固醇加免疫抑制劑；雷諾氏症用 CCB，淋巴癌需化療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "乾燥症 / 腺體外表現 / 血管炎治療 / 雷諾氏症 / 淋巴癌",
+      "flashcard_back": "乾燥症併發血管炎需使用類固醇合併免疫抑制劑；雷諾氏症首選 CCB；淋巴癌需化療。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_031",
@@ -646,15 +886,23 @@
         "D": "僵直性脊椎炎病人女性比較多"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "僵直性脊椎炎（AS）患者中，HLA-B27 的陽性率高達 90% 以上（C 正確），但 HLA-B27 陰性並不能完全排除此病（A 錯誤）。眼睛最常見的表現是急性前葡萄膜炎（虹彩炎），而非結膜炎（B 錯誤）；此外，此病好發於年輕男性，男女性比例約為 2-3:1（D 錯誤）。",
+      "key_point": "僵直性脊椎炎（AS）的臨床與遺傳特徵。",
+      "flashcard_summary": "AS特徵 -> 絕大多數患者為 HLA-B27 陽性，好發於男性，常伴隨虹彩炎。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "僵直性脊椎炎 / HLA-B27 / 虹彩炎 / 好發性別",
+      "flashcard_back": "AS 患者高達 90% 為 HLA-B27 陽性，好發於年輕男性，最常見的眼睛表現為前葡萄膜炎（虹彩炎）。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_032",
@@ -667,15 +915,23 @@
         "D": "epinephrine 0.5 mg肌肉注射"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者在蜜蜂叮咬後出現蕁麻疹、呼吸困難、低血壓（88/54 mmHg）與心跳過速，此為典型的過敏性休克。過敏性休克的第一線首選且最關鍵的緊急給藥是肌肉注射腎上腺素（epinephrine 0.3-0.5 mg IM），這能迅速收縮血管提升血壓並阻張支氣管，故 D 正確。類固醇及抗組織胺起效慢，僅為輔助用藥，不可替代腎上腺素。",
+      "key_point": "蜂叮致過敏性休克（Anaphylaxis）的緊急處置。",
+      "flashcard_summary": "過敏性休克處置 -> 首選肌肉注射 epinephrine（腎上腺素），類固醇起效慢僅為輔助。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "蜂叮 / 過敏性休克 / 低血壓與呼吸困難 / 腎上腺素肌肉注射",
+      "flashcard_back": "過敏性休克首選處置為立即肌肉注射 epinephrine（0.3-0.5 mg），類固醇與抗組織胺僅為輔助。",
+      "category_group": "醫學（三）",
+      "category": "急診醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_033",
@@ -688,15 +944,23 @@
         "D": "原有用藥都不停,加上prednisolone 0.5 mg/kg/day"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該患者在服用抗結核藥物後出現發燒、多發性小關節痛、ANA 陽性及 anti-histone 陽性，但 anti-dsDNA 陰性，這是典型的藥物引發紅斑性狼瘡（DILE）。在四合一結核藥物中，isoniazid（INH）是已知的強烈誘發 DILE 藥物，因此最妥當的處置是立即停用 isoniazid，故 B 正確。Losartan 與 HCTZ 雖可能引起光敏感但非典型誘發藥物。",
+      "key_point": "藥物引發之紅斑性狼瘡（DILE）與致病藥物。",
+      "flashcard_summary": "藥物型狼瘡 -> INH為常見誘發藥物，患者出現關節痛與 anti-histone (+) 時應立即停用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "藥物型紅斑性狼瘡 / 肺結核藥物 / isoniazid / 抗組織蛋白抗體",
+      "flashcard_back": "抗結核藥中的 isoniazid（INH）易誘發藥物型狼瘡（ANA、anti-histone 陽性），首要處置為停藥。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_034",
@@ -709,15 +973,23 @@
         "D": "hMSH2或hMLH1之基因變異將導致細胞內DNA mismatch repair機制的缺損"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "林奇氏症候群（HNPCC）是一種常染色體顯性遺傳的癌症綜合徵，患者診斷大腸癌的中位年齡約為 45-50 歲，顯著「年輕」於一般散發性大腸癌的中位年齡（約 69 歲），因此選項 A 錯誤（為正確答案）。HNPCC 主要由錯配修復（MMR）基因如 MSH2、MLH1、MSH6、PMS2 等發生胚系突變所致，導致微衛星不穩定（MSI），且家族成員好發子宮內膜癌、卵巢癌、胃癌等。",
+      "key_point": "林奇氏症候群（Lynch syndrome/HNPCC）的臨床與遺傳基礎。",
+      "flashcard_summary": "HNPCC特徵 -> 診斷年齡比一般大腸癌年輕；由 MSH2/MLH1 等 MMR 基因突變引起。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "林奇氏症候群 / HNPCC / DNA錯配修復 / 診斷年齡 / 家族癌症風險",
+      "flashcard_back": "HNPCC 患者大腸癌診斷年齡顯著較年輕；由 MMR 基因（如 MSH2、MLH1）突變導致。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_035",
@@ -730,15 +1002,23 @@
         "D": "晚期頭頸癌有效的藥物治療,包括化學治療、標靶治療"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "人類乳突病毒（HPV，尤其是 16 型）與口咽癌密切相關。相較於非 HPV 相關的頭頸癌，HPV 陽性的頭頸癌患者對化放療反應更好，且具有「顯著較佳」的預後，因此選項 B 稱預後較差是錯誤的（符合題意）。頭頸癌治療後易在呼吸消化道產生第二原發癌（場域癌化效應）；晚期頭頸癌可以採用順鉑化療、EGFR 標靶（cetuximab）或免疫治療。",
+      "key_point": "頭頸部鱗狀細胞癌與人類乳突病毒（HPV）的關係。",
+      "flashcard_summary": "HPV與頭頸癌 -> HPV 相關口咽癌的治療反應與預後顯著優於非 HPV 相關者。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "頭頸癌 / 人類乳突病毒 / 口咽癌預後 / 場域癌化效應",
+      "flashcard_back": "HPV 相關的口咽癌患者對治療反應較佳，且預後顯著優於非 HPV 相關的頭頸癌。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_036",
@@ -751,15 +1031,23 @@
         "D": "睪丸癌:human chorionic gonadotropin(hCG)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "乳酸去氫酶（LDH）是反映細胞損傷與代謝活躍的指標，常用於生殖細胞瘤（如睪丸癌）、淋巴瘤、黑色素瘤的評估與預後，而非攝護腺癌的特異性或常用腫瘤指標，故 B 配對錯誤。PSA 專用於攝護腺癌的篩檢與追蹤；AFP 及 hCG 常用於睪丸生殖細胞瘤（特別是非精原細胞瘤與絨毛膜癌）。",
+      "key_point": "常見癌症之腫瘤標記配對。",
+      "flashcard_summary": "腫瘤標記配對 -> PSA用於攝護腺癌，AFP/hCG用於睪丸癌；LDH非攝護腺癌常用指標。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "攝護腺癌標記 / 睪丸癌標記 / 乳酸去氫酶 / 腫瘤指數",
+      "flashcard_back": "PSA 用於攝護腺癌；AFP 與 hCG 用於睪丸生殖細胞瘤；LDH 非攝護腺癌常用指標。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_037",
@@ -772,15 +1060,23 @@
         "D": "lenalidomide、steroid與bortezomib是治療此病的有效處方"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該 75 歲女性表現為貧血、腎功能不全（creatinine 3.4）、嚴重骨折（脊椎塌陷），骨髓抹片顯示大量異常漿細胞，診斷為多發性骨髓瘤（MM）。對於老年且不適合自體造血幹細胞移植的 MM 患者，標準初線治療是使用包含 bortezomib（標靶）、lenalidomide（免疫調節）與 dexamethasone 的低劑量口服/皮下標靶組合（VRd 處方），而非「立即給予高劑量靜脈輸注化學治療」，故 B 錯誤。約 3% 患者為無分泌型骨髓瘤，血尿中測不到 M 蛋白。",
+      "key_point": "多發性骨髓瘤（multiple myeloma）的診斷與初線治療。",
+      "flashcard_summary": "多發性骨髓瘤治療 -> 老年患者首選標靶及免疫調節藥物（如 VRd），而非高劑量靜脈化療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "多發性骨髓瘤 / 漿細胞浸潤 / 腎功能不全與骨塌陷 / 老年人首選治療",
+      "flashcard_back": "多發性骨髓瘤好發於老人，首選治療為標靶組合（如 VRd），而非高劑量靜脈化療。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_038",
@@ -793,15 +1089,23 @@
         "D": "治療有反應者,在停藥之後,還是可能有高達約20%的病人在半年內復發"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "獲得性血友病 A 是由於體內產生對抗第八因子的自身抗體（factor VIII inhibitor）所致，臨床上以自發性皮膚瘀青、肌肉內血腫、黏膜出血為主，與先天性血友病不同，獲得性血友病患者「極少」出現關節腔出血（hemarthrosis），故 A 錯誤。此病可繼發於妊娠、自體免疫疾病或腫瘤，但半數為特發性；嚴重出血可用繞道藥物（如 recombinant FVIIa 或 APCC）止血，緩解後仍有約 20% 患者可能在半年內復發。",
+      "key_point": "獲得性第八因子缺乏症（Acquired Hemophilia A）的臨床特徵。",
+      "flashcard_summary": "獲得性血友病A -> 以皮膚黏膜出血為主，極少發生關節腔出血；出血可用 rFVIIa 止血。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "獲得性血友病A / 第八因子抗體 / 關節腔出血 / 繞道止血藥物",
+      "flashcard_back": "獲得性血友病 A 罕見關節腔出血（以皮膚黏膜出血為主）；出血時可用 rFVIIa 止血。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_039",
@@ -814,15 +1118,23 @@
         "D": "病人應避免劇烈活動"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "當懷疑假性血小板低下症（EDTA-induced pseudothrombocytopenia）時，是由於血液在 EDTA 採血管中會發生體外血小板聚集，應使用含有「檸檬酸鈉」（sodium citrate）或「草酸鹽」的採血管重新採血複查，而非使用肝素（heparin）採血管，故 B 敘述錯誤。老年人新發重度血小板低下（5 K/μL）且有口腔血皰，需做骨髓檢查以排除 MDS 或白血病；因有活動性黏膜出血且 PLT < 10K，應立即輸注血小板並給予第一線類固醇或 IVIG，並嚴格限制活動以防腦出血。",
+      "key_point": "嚴重血小板低下（ITP）的診斷與假性血小板低下鑑別。",
+      "flashcard_summary": "假性血小板低下鑑別 -> 懷疑 EDTA 導致假性低下時，應以藍頭管（檸檬酸鈉）採血重測而非肝素管。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "假性血小板低下 / 採血管選擇 / EDTA誘導 / 嚴重血小板低下處置",
+      "flashcard_back": "懷疑 EDTA 引起的假性血小板低下，應使用藍頭（檸檬酸鈉）管重測，而非肝素管。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_040",
@@ -835,15 +1147,23 @@
         "D": "周邊血球免疫分型檢查(immunophenotyping)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該 24 歲女性外周血呈現極度白血球增多（171.25 k/μL）伴隨各階段未成熟粒細胞（原粒、早幼粒、中幼粒、晚幼粒細胞）及嗜鹼性球增加（3.5%），此為慢性骨髓性白血病（CML）慢性期的經典表現。CML 的確診依賴於骨髓染色體核型分析（偵測費城染色體）、周邊血 BCR/ABL1 基因檢測，並可測白血球 LAP 分數（CML 顯著降低）。流式細胞儀周邊血球免疫分型（immunophenotyping）常用於急性白血病或淋巴瘤的分類，對診斷 CML 並無實質幫助且較不需要，故選 D。",
+      "key_point": "慢性骨髓性白血病（CML）的診斷步驟。",
+      "flashcard_summary": "CML診斷 -> 依賴染色體核型分析與 BCR-ABL1 基因檢測，不需要流式細胞儀球免疫分型。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性骨髓性白血病 / 費城染色體 / BCR-ABL1基因 / 免疫分型檢測",
+      "flashcard_back": "CML 確診依賴染色體及 BCR-ABL1 基因檢測，流式細胞儀免疫分型對 CML 診斷無太大幫助。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_041",
@@ -856,15 +1176,23 @@
         "D": "CHK2"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "帶有 BRCA1 基因胚系突變的女性，其一生中罹患卵巢癌的累積風險高達 39% 至 44%（A 正確），顯著高於 BRCA2 的 11% 至 17% 以及 Lynch 症候群相關基因（如 MSH2）的 9% 至 12%，更遠高於 CHEK2。因此，BRCA1 突變導致卵巢癌發生的風險在所有選項中是最高的。",
+      "key_point": "遺傳性基因突變與卵巢癌風險之評估。",
+      "flashcard_summary": "遺傳性卵巢癌風險 -> BRCA1 突變導致的一生卵巢癌風險最高，約 39-44%。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "遺傳性卵巢癌 / BRCA1與BRCA2 / 累積風險比例",
+      "flashcard_back": "BRCA1 基因突變賦予的一生卵巢癌風險最高（高達39-44%），高於 BRCA2。",
+      "category_group": "醫學（三）",
+      "category": "血液腫瘤科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_042",
@@ -877,15 +1205,23 @@
         "D": "使用progestin治療不孕症"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "子宮內膜癌是一種雌激素依賴性腫瘤（I型）。凡是造成無拮抗性雌激素暴露的因素，如肥胖（脂肪會轉化雌激素）、單獨使用雌激素（estrogen-only）治療停經症候群、或使用具弱雌激素效應的 tamoxifen 治療乳癌，均是顯著的危險因子。黃體素（progestin）能對抗雌激素對內膜的增生作用，是一種保護因子，且可用於治療早期內膜癌或不孕症，故 D 不是危險因子。",
+      "key_point": "子宮內膜癌的危險因子與保護因子。",
+      "flashcard_summary": "子宮內膜癌因應 -> 肥胖與單用雌激素是危險因子；黃體素（progestin）具有保護內膜作用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "子宮內膜癌危險因子 / 雌激素暴露 / 黃體素保護作用 / Tamoxifen",
+      "flashcard_back": "肥胖、單用雌激素、使用 tamoxifen 均為內膜癌危險因子；黃體素（progestin）具保護作用。",
+      "category_group": "醫學（三）",
+      "category": "其他",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_043",
@@ -898,15 +1234,23 @@
         "D": "臨床治療以支氣管擴張劑為主,部分特定病患也可以使用吸入型類固醇"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "慢性阻塞性肺病（COPD）的氣道發炎主要由嗜中性球（neutrophils）、巨噬細胞（macrophages）以及 CD8+ T 淋巴球介導，且在穩定期的部分特定患者（或急性惡化期）中亦有嗜酸性球（eosinophils）的參與。因此，選項 B 稱「並無 T lymphocytes 或 eosinophils 參與」是錯誤的。",
+      "key_point": "慢性阻塞性肺病（COPD）的發炎細胞種類。",
+      "flashcard_summary": "COPD發炎機制 -> 氣道發炎主要由中性球及巨噬細胞主導，但亦有 T 淋巴球與嗜酸球參與。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性阻塞性肺病 / 發炎細胞 / 嗜中性球與巨噬細胞 / 淋巴球參與",
+      "flashcard_back": "COPD 氣道發炎主要為中性球與巨噬細胞，但亦有 T 淋巴球及嗜酸性球參與。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_044",
@@ -919,15 +1263,23 @@
         "D": "支氣管囊腫(bronchogenic cyst)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "成人前縱膈腔最常見的腫瘤為胸腺瘤（thymoma，約占30%），這也符合前縱膈腔腫瘤著名的「4T」鑑別診斷：Thymoma（胸腺瘤）、Teratoma（畸胎瘤）、Thyroid mass（甲狀腺腫塊）、Terrible lymphoma（淋巴瘤）。神經性腫瘤好發於後縱膈腔；支氣管囊腫與食道腫瘤主要位於中縱膈腔。",
+      "key_point": "成人前縱膈腔常見腫瘤類型。",
+      "flashcard_summary": "前縱膈腔腫瘤 -> 胸腺瘤為最常見的前縱膈腔腫瘤，而神經性腫瘤多位於後縱膈。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "前縱膈腔腫瘤 / 4T鑑別診斷 / 胸腺瘤",
+      "flashcard_back": "胸腺瘤（thymoma）是成人最常見的前縱膈腔腫瘤；後縱膈腔以神經性腫瘤最常見。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_045",
@@ -940,15 +1292,23 @@
         "D": "少部分的間皮瘤(mesothelioma)為良性"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "絕大多數間皮瘤為惡性，但有極少部分的間皮瘤（如分化良好的乳頭狀間皮瘤 WDPM）為良性（D 正確）。Pleural mesothelioma 比腹膜間皮瘤更常見；由於間皮細胞在發炎時也會呈現高度非典型，因此僅靠胸水或腹水細胞學（cytology）通常「不足以」確診，通常需要組織切片及免疫組化染色；惡性間皮瘤預後極差，中位生存期通常僅為 9-12 個月而非 3 年。",
+      "key_point": "惡性與良性間皮瘤（mesothelioma）的病理生理特徵。",
+      "flashcard_summary": "間皮瘤特徵 -> 僅極少數間皮瘤為良性；細胞學檢查常難確診，需切片證實，惡性預後極差。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "間皮瘤 / 胸水細胞學診斷限制 / 良性間皮瘤 / 預後與生存期",
+      "flashcard_back": "僅少數間皮瘤為良性；單靠水 cytology 難確診，需切片；惡性者預後差（生存期約1年）。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_046",
@@ -961,15 +1321,23 @@
         "D": "lordotic view"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "診斷肺尖（lung apices）或中葉肺塌陷等病灶時，胸部前凸位照法（lordotic view）是最適當的。此照法可以將鎖骨投影移開，避免鎖骨遮擋肺尖區域，使肺尖病變（如結核或腫瘤）更為清晰。PA view 常見鎖骨重疊；lateral view 與 lateral decubitus view 無法有效排除鎖骨對肺尖的遮擋。",
+      "key_point": "診斷肺尖部病灶的胸部 X 光照法（Lordotic view）。",
+      "flashcard_summary": "肺尖X光照法 -> lordotic view（前凸位）可移開鎖骨重疊以清楚診斷肺尖病灶。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肺尖病灶 / 胸部X光照法 / 鎖骨遮擋排除",
+      "flashcard_back": "診斷肺尖病灶最適合用前凸位（lordotic view）照法，可移開鎖骨的重疊投影。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_047",
@@ -982,15 +1350,23 @@
         "D": "先給予支氣管擴張劑吸入治療,並考慮使用非侵襲性呼吸器治療"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者動脈血氣顯示嚴重的呼吸性酸中毒（pH 7.274、pCO2 78 mmHg）與嚴重缺氧（pO2 40 mmHg），且有高血壓及慢性咳嗽史，此為典型的 COPD 急性惡化併發呼吸衰竭。此時的首要且最正確處置為先給予吸入型支氣管擴張劑，並考慮使用非侵襲性正壓呼吸器（NIV/BiPAP）以幫助排出 CO2，故 D 正確。給予重碳酸鈉無助於呼吸性酸中毒；患者意識清楚且血壓穩定，不應立即氣管插管；茶鹼靜脈注射非首選且易中毒。",
+      "key_point": "慢性阻塞性肺病（COPD）急性惡化伴高碳酸血症呼吸衰竭之處置。",
+      "flashcard_summary": "COPD急性惡化處置 -> 首選吸入型支氣管擴張劑與非侵襲性呼吸器（NIV）改善高碳酸血症，暫不插管。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "COPD急性惡化 / 呼吸性酸中毒 / pCO2上升與缺氧 / 非侵襲性呼吸器",
+      "flashcard_back": "COPD 急性惡化伴呼吸性酸中毒時，首選吸入型支氣管擴張劑及非侵襲性呼吸器（NIV）治療。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_048",
@@ -1003,15 +1379,23 @@
         "D": "rifampin, ethambutol及streptomycin抗藥,但isoniazid敏感"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "多重抗藥性結核病（MDR-TB）的定義是結核分枝桿菌對第一線結核藥物中最重要的「isoniazid（異菸鹼醯胺）和 rifampin（利福平）同時產生抗藥性」，不論對其他藥物是否抗藥。因此符合該定義的配對為 C。",
+      "key_point": "多重抗藥性結核病（MDR-TB）的定義。",
+      "flashcard_summary": "MDR-TB定義 -> 對 isoniazid 與 rifampin 同時產生抗藥性。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "多重抗藥性結核病 / MDR-TB定義 / 關鍵抗藥藥物",
+      "flashcard_back": "MDR-TB 的定義為結核菌同時對 isoniazid（INH）與 rifampin（RIF）產生抗藥性。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_049",
@@ -1024,15 +1408,23 @@
         "D": "為避免呼吸器相關肺炎,必須將病人頭部抬高至少60度,以避免產生吸入性肺炎"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "為預防呼吸器相關肺炎（VAP），指引建議應將病人床頭抬高 30 至 45 度（而非 60 度，抬高 60 度會增加病人下滑剪力且難以長時間耐受），因此選項 D 的描述錯誤。早期（5-7天內）發生的 VAP 多由敏感菌（如 S. pneumoniae、H. influenzae）引起，晚期（>7天）則多由多重抗藥菌（如 P. aeruginosa、A. baumannii）引起；氣管插管可防大吸入但無法阻斷微量吸入（microaspiration）。",
+      "key_point": "呼吸器相關肺炎（VAP）的病原菌與預防措施。",
+      "flashcard_summary": "VAP預防與臨床 -> 預防 VAP 床頭應抬高 30-45 度而非 60 度；晚期 VAP 易見抗藥性綠膿桿菌。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "呼吸器相關肺炎 / VAP預防床頭高度 / 早期與晚期致病菌 / 微量吸入",
+      "flashcard_back": "預防 VAP 床頭應抬高 30 至 45 度以防吸入，而非抬高 60 度。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_050",
@@ -1045,15 +1437,23 @@
         "D": "甲狀腺荷爾蒙是維持生命所不可或缺的,一旦缺乏會造成人體對寒冷的耐受性降低,體重異常增加、身體\n 黏液性腫(myxedema)、神智和身體活動變得笨拙和遲鈍"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "甲狀腺荷爾蒙的主要生理功能是提高大部分組織的基礎代謝率（BMR），增加細胞的氧氣消耗，並加速脂肪、碳水化合物和蛋白質的分解代謝，以提供能量。因此，選項 B 中稱其能「降低細胞對氧氣的消耗並降低代謝」是完全相反且錯誤的。幼年缺乏會導致不可逆的呆小症；過多會引起消瘦、心悸、甚至心衰竭；成人缺乏則會表現為黏液性水腫、怕冷、體重上升及遲鈍。",
+      "key_point": "甲狀腺荷爾蒙的生理與代謝效應。",
+      "flashcard_summary": "甲狀腺素生理作用 -> 增加基礎代謝率與細胞氧氣消耗，促進脂肪與醣類分解。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "甲狀腺荷爾蒙 / 基礎代謝率 / 氧氣消耗 / 呆小症與黏液性水腫",
+      "flashcard_back": "甲狀腺荷爾蒙會「增加」細胞氧氣消耗並「促進」脂肪與碳水化合物的分解代謝。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_051",
@@ -1066,15 +1466,23 @@
         "D": "糖尿病的腎臟病變在早期就會有肌酸酐上升的現象"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "糖尿病腎病變（diabetic nephropathy）的早期特徵是出現微量白蛋白尿（microalbuminuria），此時腎絲球過濾率通常正常或甚至呈高過濾狀態，血中肌酸酐（creatinine）完全正常。直到病程進入中晚期，才會出現血肌酸酐上升，因此選項 D 的敘述錯誤。其罹病與血糖控制及罹病時間長短密切相關；糖尿病自主神經病變可能導致胃腸蠕動異常而出現腹瀉或便秘。",
+      "key_point": "糖尿病腎病變（DN）的早期臨床指標。",
+      "flashcard_summary": "糖尿病腎病變早期 -> 早期指標為微量白蛋白尿，血中肌酸酐在晚期才會上升。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "糖尿病腎病變 / 早期診斷指標 / 微量白蛋白尿 / 血肌酸酐變化",
+      "flashcard_back": "糖尿病腎病變早期僅表現為微量白蛋白尿，血肌酸酐在早期是正常的（晚期才上升）。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_052",
@@ -1087,15 +1495,23 @@
         "D": "診斷的條件包括高三酸甘油脂血症及低密度脂蛋白膽固醇升高"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據代謝症候群的診斷標準，血脂異常的指標包括：高三酸甘油脂（TG ≥ 150 mg/dL）以及「低高密度脂蛋白膽固醇（男 < 40, 女 < 50 mg/dL）」。診斷標準中「並不包含」低密度脂蛋白膽固醇（LDL-C）的升高，因此選項 D 的描述錯誤（且為正確答案）。代謝症候群與胰島素阻抗及腹部肥胖有關，會顯著增加心血管疾病風險。",
+      "key_point": "代謝症候群（Metabolic syndrome）的診斷標準。",
+      "flashcard_summary": "代謝症候群標準 -> 診斷指標包含高 TG 與低 HDL-C，不包含高 LDL-C。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "代謝症候群 / 診斷標準 / 三酸甘油脂 / 高密度與低密度脂蛋白",
+      "flashcard_back": "代謝症候群診斷指標包括高 TG 與「低 HDL-C」，但不包含高 LDL-C。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_053",
@@ -1108,15 +1524,23 @@
         "D": "無法降低重度肥胖病人的死亡率"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "臨床大規模研究已證實，對於重度肥胖患者，減重手術不僅能顯著改善第二型糖尿病等代謝共病，還能有效「降低重度肥胖病人的長期整體死亡率」，因此選項 D 稱無法降低死亡率是錯誤的（符合題意）。減重手術的好處包括改變腸胃道荷爾蒙（如 GLP-1 增加）分泌；合併限制型（如胃袖狀切除）與吸收不良型（如胃繞道）手術能達到更佳的減重效果。",
+      "key_point": "減重手術（Bariatric surgery）的臨床效益。",
+      "flashcard_summary": "減重手術效益 -> 能降低重度肥胖患者的長期整體死亡率，並改善第二型糖尿病。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "減重手術 / 糖尿病控制 / 腸道荷爾蒙 / 長期死亡率",
+      "flashcard_back": "減重手術能降低重度肥胖患者的長期整體死亡率，並顯著改善其第二型糖尿病。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_054",
@@ -1129,15 +1553,23 @@
         "D": "glucagon-like peptide 1(GLP-1)受體促進劑"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在各種口服降血糖藥物中，meglitinide（非磺醯脲類胰島素促泌劑，如 repaglinide）直接刺激胰臟 β 細胞釋放胰島素，其作用為非血糖依賴性，因此容易發生低血糖的副作用（C 正確）。而 DPP-4 抑制劑、SGLT2 抑制劑、GLP-1 受體促進劑的作用均為血糖依賴性或非促泌機制，單獨使用時發生低血糖的機率極低。",
+      "key_point": "降血糖藥物引起低血糖的風險比較。",
+      "flashcard_summary": "降糖藥與低血糖 -> Meglitinide 屬於胰島素促泌劑，較 DPP-4、SGLT2 抑制劑及 GLP-1 促進劑易引起低血糖。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "降血糖藥 / 低血糖風險 / 胰島素促泌劑 / 血糖依賴性機制",
+      "flashcard_back": "促泌劑 meglitinide 因直接刺激胰島素釋放，比 DPP-4、SGLT2 抑制劑等更易引發低血糖。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_055",
@@ -1150,15 +1582,23 @@
         "D": "頸部核磁共振"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於甲狀腺結節（或腺瘤），術前評估其良惡性最精準、最直接且最具有成本效益的方法是甲狀腺細針穿刺細胞學檢查（FNAC，A 正確）。超音波可用於評估結節特徵與引導穿刺，但不能確診；電腦斷層（CT）與核磁共振（MRI）主要用於評估巨大腫瘤對周圍組織的壓迫與浸潤，不作為良惡性鑑別的首選。",
+      "key_point": "術前診斷甲狀腺瘤良惡性最準確的方式。",
+      "flashcard_summary": "甲狀腺結節診斷 -> 術前良惡性診斷首選且最精準的方法為細針穿刺細胞學檢查（FNAC）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "甲狀腺結節 / 良惡性鑑別 / 細針穿刺細胞學檢查 / 超音波限制",
+      "flashcard_back": "甲狀腺結節術前良惡性診斷最準確的方法是細針穿刺細胞學檢查（FNAC）。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_056",
@@ -1171,15 +1611,23 @@
         "D": "做 1 mg dexamethasone suppression test"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於懷疑庫欣氏症候群（Cushing's syndrome）的患者，由於皮質醇分泌呈生理週期性波動，因此「隨機」抽血檢測血中 ACTH 或 cortisol 的濃度完全不具診斷價值（A 最不適當）。初線篩檢試驗包括：24小時尿液游離皮質醇（C 正確）、1 mg dexamethasone 抑制試驗（D 正確）或深夜唾液皮質醇。而上午 8 點與下午 4 點的對比抽血則可用於評估皮質醇的分泌晝夜節律（B 正確，常用於進一步確認）。",
+      "key_point": "庫欣氏症候群（Cushing's syndrome）的診斷與篩檢試驗。",
+      "flashcard_summary": "庫欣氏症篩檢 -> 隨機測量皮質醇無診斷價值；篩檢應採用 24 小時尿液游離皮質醇或 1mg DST。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "庫欣氏症候群 / 隨機皮質醇測量 / 24小時尿液游離皮質醇 / dexamethasone抑制試驗",
+      "flashcard_back": "診斷庫欣氏症時隨機測量 cortisol 與 ACTH 無價值；應首選 24 小時尿液皮質醇或 1mg DST。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_057",
@@ -1192,15 +1640,23 @@
         "D": "使用口服sucralfate藥物治療胃炎"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "長期使用胃酸抑制劑（如 H2 阻斷劑、PPI）會提高胃液 pH 值，促使胃內細菌過度繁殖並反流吸入，增加 HAP/VAP 風險；而 sucralfate 屬於胃黏膜保護劑，不會改變胃酸 pH 值，因此使用 sucralfate 治療胃炎最不會增加 HAP 的風險（D 正確）。平躺（易引起吸入）、全天麻醉止痛（抑制咳嗽反射）以及延長插管（提供細菌繁殖溫床）均會顯著增加 HAP 風險。",
+      "key_point": "醫療照護相關肺炎（HAP）的預防。",
+      "flashcard_summary": "HAP預防 -> Sucralfate 不改變胃液酸鹼度，使用它治療胃炎較不會增加 HAP 風險。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "醫療照護相關肺炎 / 胃酸酸鹼值 / 黏膜保護劑Sucralfate / 插管與平躺",
+      "flashcard_back": "Sucralfate 不改變胃酸 pH 值，比起 PPI 等胃酸抑制藥物，最不會增加 HAP 的發生率。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_058",
@@ -1213,15 +1669,23 @@
         "D": "在年輕人,感染性單核細胞增多症的潛伏期為5〜10天"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "感染性單核細胞增多症（infectious mononucleosis，主要由 EBV 引起）的典型臨床三聯徵（triad）是發燒、喉嚨痛（咽喉炎）、淋巴結腫大（C 正確）。免疫正常者帶狀疱疹復發率很低（< 5%，而非大於10%）；水痘傳染力極強，易感者接觸患者後的感染率大於 90%（而非小於40%）；在年輕人中，傳染性單核球增多症的潛伏期較長，通常為 30 至 50 天（而非5-10天）。",
+      "key_point": "疱疹病毒相關感染（帶狀疱疹、水痘、EBV 單核球增多症）。",
+      "flashcard_summary": "感染性單核球增多症 -> 典型三聯徵為發燒、喉嚨痛與淋巴結腫大，其潛伏期為 30-50 天。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "感染性單核球增多症 / 典型三聯徵 / 帶狀疱疹復發率 / 水痘傳染力與潛伏期",
+      "flashcard_back": "單核球增多症典型表現為發燒、喉嚨痛、淋巴結腫大；潛伏期為 30-50 天。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_059",
@@ -1234,15 +1698,23 @@
         "D": "invasive cervical carcinoma"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在 HIV 感染患者中，被定義為 AIDS 的惡性腫瘤包括：卡波西氏肉瘤（Kaposi's sarcoma）、特定非何杰金氏淋巴瘤（如 Burkitt's lymphoma、原發性中樞神經系統淋巴瘤）以及侵襲性子宮內膜頸癌（invasive cervical carcinoma）。何杰金氏淋巴瘤（Hodgkin's lymphoma）雖然在 HIV 患者中發生率也上升，但它「不是」官方定義的 AIDS 相關指標性疾病，故選 A。",
+      "key_point": "後天免疫不全症候群相關疾病（AIDS-defining conditions）。",
+      "flashcard_summary": "AIDS指標腫瘤 -> Kaposi 肉瘤與 Burkitt 淋巴瘤屬於 AIDS 指標疾病；Hodgkin 淋巴瘤則非。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "AIDS指標性疾病 / 卡波西氏肉瘤 / 淋巴瘤分類 / 子宮頸癌",
+      "flashcard_back": "Kaposi 肉瘤、Burkitt 淋巴瘤、侵襲性子宮頸癌為 AIDS 指標性疾病；Hodgkin 淋巴瘤非定義疾病。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_060",
@@ -1255,15 +1727,23 @@
         "D": "<1%"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "當感染 HIV 的孕婦接受合併抗反轉錄病毒治療（cART），且體內血漿 HIV 病毒量控制在測不到的極低水平（如 < 20 copies/mL）時，生下嬰兒發生母嬰垂直感染的機會可以大幅降至「小於 1%」（< 1%），故 D 正確。如果不進行任何預防，感染率可達 15-25% 以上。",
+      "key_point": "HIV 孕婦母嬰垂直感染預防。",
+      "flashcard_summary": "HIV母嬰垂直感染 -> 孕婦接受有效治療使病毒量測不到時，嬰兒感染率低於 1%。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "HIV母嬰垂直感染 / 病毒量測不到 / 抗反轉錄病毒治療 / 感染機率",
+      "flashcard_back": "HIV 孕婦經有效抗病毒治療使病毒量測不到時，嬰兒垂直感染機率可降至 < 1%。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_061",
@@ -1276,15 +1756,23 @@
         "D": "治療療程完成4週即可停止治療"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "隱球菌腦膜炎常見於免疫缺陷（如HIV感染者，口腔白斑為提示）患者，首選篩檢HIV。急性期標準治療為amphotericin B加上flucytosine的合併療法。由於隱球菌腦膜炎極易復發，在完成誘導期治療後，通常需要長期的維持治療（通常至少一年），因此治療4週即停藥是不適當的。",
+      "key_point": "隱球菌腦膜炎的臨床診斷、危險因子與抗黴菌治療原則。",
+      "flashcard_summary": "發燒頭痛+口腔白斑+腦壓高 -> 隱球菌腦膜炎，需篩檢HIV且治療不可僅4週即停。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "發燒與頭痛 / 口腔白斑 / 腦壓>600 mmH2O / 腦膜炎",
+      "flashcard_back": "懷疑隱球菌腦膜炎並篩檢HIV；急性期使用amphotericin B+flucytosine，隨後需進行長期維持治療，不可僅治4週。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_062",
@@ -1297,15 +1785,23 @@
         "D": "低血鉀症(hypokalemia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者因心衰竭使用利尿劑治療後出現反覆意識喪失，心電圖提示尖端扭轉性室速（TdP）。此情況最常由利尿劑引起的低血鉀或低血鎂症所誘發，這會導致QT間期延長並激發惡性心律不整。高血鉀常表現為高尖T波與QRS寬大；高血鈣則會縮短QT間期。",
+      "key_point": "利尿劑引起的低血鉀症與尖端扭轉性室速（Torsades de Pointes）之關聯。",
+      "flashcard_summary": "利尿劑後TdP -> 應注意低血鉀症或低血鎂症導致的QT延長。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "利尿劑治療 / 反覆不省人事 / 尖端扭轉性室速 (TdP) / 電解質異常",
+      "flashcard_back": "最可能合併低血鉀症（或低血鎂症），因利尿劑增加鉀排出，導致QT間期延長並誘發TdP。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_063",
@@ -1318,15 +1814,23 @@
         "D": "暫時性節律器心跳維持70次/分"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Torsades de Pointes（TdP）的首選治療為靜脈注射硫酸鎂（magnesium sulfate）。若硫酸鎂治療無效，可使用isoproterenol（異丙腎上腺素）滴注以加速心跳至100~120次/分，藉由縮短QT間期來抑制TdP。Amiodarone會延長QT間期，在此為絕對禁忌症；暫時性節律器通常需要設定在較高心率（>90-100次/分）才有效，維持70次/分不足以抑制發作。",
+      "key_point": "尖端扭轉性室速（TdP）在硫酸鎂無效時的二線治療處置。",
+      "flashcard_summary": "硫酸鎂無效之TdP -> 滴注isoproterenol加速心跳（100-120 bpm）或超速節律，禁用amiodarone。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "硫酸鎂無效 / 尖端扭轉性室速 (TdP) / 藥物與節律器處置",
+      "flashcard_back": "滴注isoproterenol加速心率至100-120 bpm以縮短QT間期，或考慮超速節律（overdrive pacing），禁用amiodarone。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_064",
@@ -1339,15 +1843,23 @@
         "D": "Escherichia coli"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者有泰國旅遊史與糖尿病史，出現發燒、肺部大片浸潤以及脾臟膿瘍，且膿瘍及痰液染色顯示細胞內革蘭氏陰性桿菌（安全針狀），此為典型的類鼻疽（Melioidosis）表現。致病菌為類鼻疽伯克氏菌（Burkholderia pseudomallei），主要存在於東南亞及台灣南部的土壤與水中，高風險者如糖尿病患易受感染並形成多處膿瘍。",
+      "key_point": "類鼻疽（Melioidosis）的流行病學接觸史與臨床特徵。",
+      "flashcard_summary": "泰國旅遊+糖尿病+肺炎+脾臟膿瘍 -> 類鼻疽桿菌 (Burkholderia pseudomallei) 感染。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "泰國旅遊史 / 糖尿病 / 肺炎伴脾臟膿瘍 / 細胞內革蘭氏陰性桿菌",
+      "flashcard_back": "最可能為類鼻疽桿菌（Burkholderia pseudomallei）感染，好發於糖尿病患，常形成內臟多發性膿瘍。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_065",
@@ -1360,15 +1872,23 @@
         "D": "cefazolin"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "類鼻疽桿菌對許多常見抗生素具有內生性抗藥性。對於急性期重症患者，首選的靜脈注射抗生素為第三代頭孢菌素 ceftazidime，或是碳青黴烯類（如 meropenem、imipenem）。第一代頭孢菌素（cefazolin）、氨基糖苷類（amikacin）以及氟喹諾酮類（ciprofloxacin）對此菌無效或療效不佳，不建議用於急性治療。",
+      "key_point": "類鼻疽（Melioidosis）急性重症期的抗生素首選藥物。",
+      "flashcard_summary": "類鼻疽急性期治療 -> 首選 ceftazidime 或 carbapenems。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "類鼻疽 (Burkholderia pseudomallei) / 急性期重症 / 首選抗生素",
+      "flashcard_back": "急性重症期首選靜脈注射 ceftazidime 或 carbapenems（如 meropenem），不宜使用 aminoglycosides 或第一代頭孢菌素。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_066",
@@ -1381,15 +1901,23 @@
         "D": "社會層面包含人格特質及應對方式(coping style)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在生理心理社會模式中，生理層面涵蓋生物因素以及直接影響生理功能的物理/生物環境因素（如毒素、氣候、病原體）。基因與疾病史屬於生理層面，而非心理層面。情感、意志、人格特質及應對方式（coping style）則屬於心理層面；社會層面主要包含人際關係、社會支持與家庭功能。",
+      "key_point": "生理心理社會模式（Biopsychosocial Model）各層面定義與歸類。",
+      "flashcard_summary": "生理心理社會模式 -> 生理含環境因素，心理含人格特質與應對，社會含家庭與支持系統。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "生理心理社會模式 / 生理、心理、社會三層面 / 因子歸類",
+      "flashcard_back": "生理層面包含環境影響因素與基因疾病；心理層面包含情感人格與應對方式；社會層面包含家庭與社會支持。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_067",
@@ -1402,15 +1930,23 @@
         "D": "老年憂鬱量表(geriatric depression scale, GDS)篩檢及評估憂鬱狀況"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "簡式智能評估量表（MMSE）主要用於快速評估個體的「認知功能障礙」（如篩檢失智症），評估項目包括定向力、注意力和記憶力等，並非用於篩檢「智商與溝通能力」。巴氏量表評估基本日常生活活動能力（ADLs），IADLs評估社區獨立生活能力，老年憂鬱量表（GDS）則用於評估憂鬱狀況。",
+      "key_point": "周全性老年評估（CGA）常用量表之評估目的與鑑別。",
+      "flashcard_summary": "MMSE目的 -> 篩檢認知功能（失智症），非智商或溝通能力。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "周全性老年評估 / MMSE 評估目的 / 認知功能與智商篩檢",
+      "flashcard_back": "簡式智能評估量表（MMSE）用於篩檢認知功能（失智症），而非評估智商或溝通能力。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_068",
@@ -1423,15 +1959,23 @@
         "D": "性接觸傳染病(sexually transmitted infection)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據 USPSTF 建議，對於青少年 and 高風險成人，預防性接觸傳染病（STI）需要進行高強度的「密集諮詢（intensive behavioral counseling）」以切實改變高風險行為。而預防酗酒、皮膚癌以及菸品使用等項目，通常可透過臨床上的「簡短諮詢（brief counseling）」或指引來達成預防成效。",
+      "key_point": "美國預防醫學工作小組（USPSTF）對預防性諮詢強度的分類建議。",
+      "flashcard_summary": "預防性諮詢強度 -> 性接觸傳染病（STI）需密集諮詢，菸酒/皮膚癌預防可簡短諮詢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "USPSTF 青少年預防 / 密集諮詢項目 / 簡短諮詢區分",
+      "flashcard_back": "性接觸傳染病（STI）的預防需進行「密集諮詢（intensive counseling）」，而菸酒與皮膚癌預防可採簡短諮詢。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_069",
@@ -1444,15 +1988,23 @@
         "D": "bismuth subsalicylate是預防的選擇,但小孩不建議使用"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "旅行者腹瀉最常見的病原為產毒性大腸桿菌（ETEC），而非沙門氏菌。去東南亞等抗藥性高的地區發生腹瀉時，治療首選藥物已改為 azithromycin（孕婦亦可安全使用）。Bismuth subsalicylate 可作為預防藥物，但因其含有水楊酸，兒童使用有導致雷氏症候群（Reye's syndrome）之風險而不建議使用。",
+      "key_point": "旅行者腹瀉（Traveler's diarrhea）的病原、預防與治療原則。",
+      "flashcard_summary": "旅行者腹瀉 -> 東南亞首選azithromycin；Bismuth subsalicylate兒童因雷氏症候群風險禁用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "旅行者腹瀉 / ETEC / 東南亞首選用藥 / Bismuth subsalicylate 兒童禁忌",
+      "flashcard_back": "旅行者腹瀉最常見為大腸桿菌；東南亞首選azithromycin（孕婦可用）；Bismuth subsalicylate可用於預防，但兒童因雷氏症候群風險禁用。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_070",
@@ -1465,15 +2017,23 @@
         "D": "Life span perspective"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Smilkstein 提出的家庭 APGAR 量表（評估適應度、夥伴關係、成長度、情感與解決力）主要建立在「系統論（Systems approach）」的概念模式上。系統論將家庭視為一個動態平衡、成員相互作用的開放系統，透過各層面的滿意度來評估家庭系統的運作功能。",
+      "key_point": "家庭APGAR評估量表的理論基礎與概念模式。",
+      "flashcard_summary": "Family APGAR 理論基礎 -> 系統論 (Systems approach)。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Family APGAR 量表 / Smilkstein 1978 / 評估概念模式 / 系統論",
+      "flashcard_back": "Family APGAR 量表主要源自於系統論（Systems approach），將家庭視為一個有機系統進行評估。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_071",
@@ -1486,15 +2046,23 @@
         "D": "確認群體→確認問題→介入實施→策略規劃→評估成效"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "社區導向基層醫療（COPC）的循環順序共有五大步驟，首要為定義與確認所要服務的特定社區（確認群體），接著調查與診斷該社區的健康需求（確認問題），隨後研擬解決策略（策略規劃），實際付諸實行（介入實施），最後評估方案的成效以作為下一循環的調整基準。",
+      "key_point": "社區導向基層醫療（COPC）循環的實施步驟與順序。",
+      "flashcard_summary": "COPC 循環順序 -> 確認群體 -> 確認問題 -> 策略規劃 -> 介入實施 -> 評估成效。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "COPC / 社區導向基層醫療 / 循環順序 / 五大步驟",
+      "flashcard_back": "COPC 步驟為：確認群體 -> 確認問題 -> 策略規劃 -> 介入實施 -> 評估成效。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_072",
@@ -1507,15 +2075,23 @@
         "D": "A:美國,B:加拿大,C:英國"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "英國實行公醫制度（NHS），基層醫療網絡健全，醫療支出占 GDP 比例最低（約 8.5%，為 A）。美國以專科醫療為主導，醫療高度市場化，導致醫療支出占 GDP 比例最高（約 16.2%，為 C）。加拿大實行全民公費醫療制度，基層醫療發展與照護成本介於兩者之間（約 10.4%，為 B）。",
+      "key_point": "英國、加拿大與美國之醫療花費占GDP比例與基層醫療發展之關聯。",
+      "flashcard_summary": "醫療花費占GDP (英、加、美) -> 英國最低 (8.5%)，加拿大居中 (10.4%)，美國最高 (16.2%)。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "醫療花費占 GDP 比例 / 英國、加拿大、美國 / 基層醫療與照護成本",
+      "flashcard_back": "醫療支出占 GDP 比例由低到高為英國（NHS，基層健全） < 加拿大 < 美國（高度市場化，專科主導）。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_073",
@@ -1528,15 +2104,23 @@
         "D": "建議病人接受經皮內視鏡胃造口術(percutaneous endoscopic gastrostomy)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "瀕死期癌末患者因多重器官衰竭，強行給予人工營養（如全靜脈營養 TPN 或鼻胃管餵食）無法改善存活期，反而易引發水腫、腹水及肺部水腫。此時最適當的處置是與家屬共同討論人工營養與水分的利弊得失，尊重患者既有權益與舒適感，以減緩不適為主。",
+      "key_point": "瀕死期癌末病人無法進食時的安寧緩和營養水分處置原則。",
+      "flashcard_summary": "瀕死癌末進食困難 -> 與家屬討論人工營養水分之利弊，避免強行給予引發水腫與痰液。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "瀕死癌末病人 / 意識不清無法進食 / 營養處置 / 人工營養與水分",
+      "flashcard_back": "應與家屬討論人工營養與水分的利弊，瀕死期強行給予靜脈營養或插鼻胃管通常弊大於利，應以舒適護理為主。",
+      "category_group": "醫學（三）",
+      "category": "家庭醫學科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_074",
@@ -1549,15 +2133,23 @@
         "D": "肝細胞癌(hepatocellular carcinoma)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在未施打對比劑的腹部電腦斷層（non-contrast CT）中，正常的肝臟密度（CT值）應大於或等於脾臟。當肝臟發生脂肪肝（fatty liver）時，脂肪浸潤使肝臟的射線吸收度降低，影像上呈現比脾臟更暗（低密度）的狀態。此特徵結合食慾不振與疲倦，最符合脂肪肝的表現。",
+      "key_point": "無造影劑腹部電腦斷層上脂肪肝的特徵與診斷。",
+      "flashcard_summary": "無造影劑CT肝臟密度低於脾臟 -> 脂肪肝 (fatty liver)。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "無造影劑 CT / 肝臟密度低於脾臟 / 食慾不振與倦怠 / 腹部影像特徵",
+      "flashcard_back": "診斷最可能是脂肪肝（fatty liver），特徵為無造影劑下肝臟CT值（密度）明顯低於脾臟。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_075",
@@ -1570,15 +2162,23 @@
         "D": "肺動脈栓塞(pulmonary embolism)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "50歲男性患者有胸痛和咳嗽，且胸部影像顯示異常陰影（如實體腫塊或結節），臨床上必須高度懷疑並首要排除肺癌。良性的葉間積液或侷限性肋膜積液通常隨姿勢改變或沿葉間裂呈梭形分布，與肺癌的惡性浸潤和實質腫塊表現不同。",
+      "key_point": "肺癌的臨床表現與胸部影像學初步診斷。",
+      "flashcard_summary": "中年男性肺部異常陰影伴胸痛咳嗽 -> 應高度懷疑肺癌。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "中年男性胸痛咳嗽 / 肺部腫塊影像 / 最需排除之診斷",
+      "flashcard_back": "最可能的診斷為肺癌，需進行切片或細胞學檢查確診，與良性葉間積液或肋膜積液做鑑別。",
+      "category_group": "醫學（三）",
+      "category": "胸腔內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_076",
@@ -1591,15 +2191,23 @@
         "D": "給予硝化甘油(nitroglycerin)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "右心室心肌梗塞（RVI）患者的右心室收縮力下降，極度依賴足夠的前負荷（preload）以維持心輸出量。硝化甘油（nitroglycerin）具有顯著的靜脈舒張作用，會大幅降低前負荷，在患者已處於低血壓（76/44 mmHg）狀態下使用會導致血壓進一步崩潰，因此為最不恰當的處置。其他選項如給予氧氣、抗血小板藥物及在無法進行緊急冠狀動脈介入術時考慮血栓溶解治療，皆為急性冠心症的標準治療流程。",
+      "key_point": "右心室心肌梗塞併低血壓患者忌用硝化甘油以避免前負荷不足。",
+      "flashcard_summary": "右心室心肌梗塞 / 低血壓 / 硝化甘油 -> 硝化甘油降低前負荷，在右心室梗塞低血壓時禁用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "右心室心肌梗塞 / 低血壓 / 硝化甘油",
+      "flashcard_back": "右心室心肌梗塞高度依賴前負荷維持心輸出量，硝化甘油會舒張靜脈降低前負荷，使低血壓更嚴重，屬禁忌症。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_077",
@@ -1612,15 +2220,23 @@
         "D": "立即安排電腦斷層檢查"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者有高血壓病史，突發撕裂性胸痛放射至背部與腹部，合併單側股動脈搏動消失及下肢缺血表現，臨床上高度懷疑急性主動脈剝離（aortic dissection）侵犯至髂/股動脈。此時最迫切且適當的處置是立即安排電腦斷層血管攝影（CTA）以確診並評估剝離範圍。治療上應積極降壓而非維持高血壓，且須使用止痛藥以降低交感神經興奮，在尚未排除主動脈剝離前不應使用肝素，以防出血惡化。",
+      "key_point": "主動脈剝離合併單側下肢缺血的緊急診斷處置。",
+      "flashcard_summary": "撕裂性胸痛 / 單側股動脈搏動消失 / 下肢缺血 -> 懷疑主動脈剝離，首選立即安排電腦斷層血管攝影。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "撕裂性胸痛 / 單側股動脈搏動消失 / 下肢缺血",
+      "flashcard_back": "高度懷疑急性主動脈剝離，應立即安排電腦斷層血管攝影（CTA）以確立診斷，且需積極控制血壓與疼痛。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_078",
@@ -1633,15 +2249,23 @@
         "D": "可使用電腦斷層進行診斷"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者表現為下巴紅腫疼痛且舌頭向後移位，提示雙側頜下及舌下間隙感染，此為典型的路德維希咽峽炎（Ludwig's angina）。這是一種進展極快且可能導致急性呼吸道阻塞的致死性感染，臨床上必須立即住院並密切監測氣道、給予靜脈抗生素治療，絕不可僅給予口服抗生素並門診追蹤。診斷上通常可安排電腦斷層以評估膿瘍範圍，且感染多源自牙科感染（如蛀牙或口腔衛生不良）。",
+      "key_point": "路德維希咽峽炎（Ludwig's angina）的臨床表徵與呼吸道緊急處理。",
+      "flashcard_summary": "下巴紅腫 / 舌頭後移 / 呼吸道風險 -> 懷疑Ludwig's angina，須住院收治並密切監測氣道與靜脈抗生素治療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "下巴紅腫 / 舌頭後移 / 呼吸道風險",
+      "flashcard_back": "應懷疑Ludwig's angina，屬呼吸道急症，須住院接受靜脈抗生素與氣道評估，不可僅口服抗生素門診追蹤。",
+      "category_group": "醫學（三）",
+      "category": "感染科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_079",
@@ -1654,15 +2278,23 @@
         "D": "陳先生的成年長子"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據台灣《安寧緩和醫療條例》與《病人自主權利法》，病人若於神智清醒時已立下正式委任書，指定醫療委任代理人，則在病人昏迷無法表達意願時，其醫療決策（包括簽署DNR）應由該代理人代為決定。本例中陳先生已書面委任王先生，且明確交代不告知家人，因此醫師應找其友人王先生討論，此委任權力優於分居的妻子或父母等法定家屬。",
+      "key_point": "醫療委任代理人在病人昏迷時的決策權限。",
+      "flashcard_summary": "病人昏迷 / 已立醫療委任書指定代理人 / DNR決定 -> 優先由受委任代理人做決策，其權力優於法定親屬。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "病人昏迷 / 已立醫療委任書指定代理人 / DNR決定",
+      "flashcard_back": "應優先諮詢受委任之醫療代理人，其決策權高於法定親屬，符合病人自主原則。",
+      "category_group": "醫學（三）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "109-1_medicine-3_080",
@@ -1675,15 +2307,23 @@
         "D": "依醫院規定,決定是否對到院前死亡的病人急救"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "對於到院前死亡（OHCA）的病人，急診醫師應根據患者的臨床狀況（如有無不可逆死亡徵象、有無DNR意願等）來專業判斷是否施行CPR和插管急救，而非盲目施救或一概不救。健保署若以「到院前死亡」為由逕行核刪相關急救費用並不合理，醫師應依據專業臨床判斷提出申覆、據理力爭，以維護醫療自主權與病人權益。",
+      "key_point": "到院前死亡（OHCA）之急救決策與健保申覆。",
+      "flashcard_summary": "OHCA / CPR與插管健保核刪 / 急救決策 -> 應依臨床判斷施救，不合理之健保核刪應提出申覆爭取。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "OHCA / CPR與插管健保核刪 / 急救決策",
+      "flashcard_back": "急診醫師應依專業臨床判斷決定是否施救，若健保不合理核刪，應提出申覆據理力爭。",
+      "category_group": "醫學（三）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     }
   ]
 }

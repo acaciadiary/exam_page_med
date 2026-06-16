@@ -4,7 +4,7 @@
   "title": "112 年第二次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=112080&q=1&s=11&t=Q",
-  "updated_at": "2026-06-11T14:37:08.771000+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "112-2_medicine-3_001",
@@ -17,15 +17,23 @@
         "D": "測血中鎂(magnesium)濃度"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "當健檢發現低血鈣時，首要步驟為檢測血中白蛋白以計算游離鈣濃度，並測量血磷、副甲狀腺素（PTH）與血鎂濃度以尋找病因（如副甲狀腺功能低下或低血鎂症），故(A)、(B)、(D)均為適當的優先評估。而 1,25(OH)2D（活性維生素D）在體內的合成受副甲狀腺素與磷的多重回饋調控，其測定在低血鈣初步評估中實用價值較低（通常先測25-hydroxyvitamin D評估儲存量），故(C)最不適當。",
+      "key_point": "低血鈣（hypocalcemia）的初步臨床鑑別診斷與流程。",
+      "flashcard_summary": "低血鈣評估 / hypocalcemia / 初步檢查 / 白蛋白 / PTH / 活性維生素D -> 優先檢測白蛋白、PTH、磷、鎂，而非1,25(OH)2D。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "低血鈣評估 / hypocalcemia / 初步檢查 / 白蛋白 / PTH / 活性維生素D",
+      "flashcard_back": "評估低血鈣時，應優先檢測白蛋白、PTH、磷與鎂，而非直接檢測活性維生素D 1,25(OH)2D。",
+      "category_group": "醫學（三）",
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_002",
@@ -38,15 +46,23 @@
         "D": "使用β2-adrenergic agonists支氣管擴張劑"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "使用非類固醇抗發炎藥物（NSAIDs）會抑制腎臟合成前列腺素，導致腎素釋放減少與低醛固酮血症，進而減少遠端腎小管的鉀離子排泄，最易誘發高血鉀，故(C)正確。(A) 胰島素及(D) β2促效劑會促進鉀離子進入細胞內，易造成低血鉀；(B) 鎂缺乏常伴隨腎臟排水與失鉀，引起難治性低血鉀。",
+      "key_point": "非類固醇抗發炎藥物（NSAID）引致高血鉀的藥理機制與其他藥物對鉀離子的影響。",
+      "flashcard_summary": "高血鉀 / hyperkalemia / NSAID / 胰島素 / 鉀離子轉移 -> NSAIDs易導致高血鉀；胰島素及β2促效劑導致低血鉀。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "高血鉀 / hyperkalemia / NSAID / 胰島素 / 鉀離子轉移",
+      "flashcard_back": "NSAIDs抑制前列腺素與醛固酮合成，減少腎臟排鉀，最易導致高血鉀；胰島素與β2促效劑則會使鉀進入細胞而降血鉀。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_003",
@@ -59,15 +75,23 @@
         "D": "抽血檢驗creatinine是否上升"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "病患有飲酒習慣且主訴疲倦、尿液變深，需高度懷疑黃疸或肝膽功能異常。初步評估應(A) 抽血檢驗膽紅素確認是否有高膽紅素血症，(B) 驗尿確認尿膽素原是否升高以鑑別診斷黃疸病因，(C) 理學檢查視診鞏膜與舌下黏膜是否有黃疸表徵。而肌酸酐（creatinine）是評估腎小球濾過率之指標，與黃疸及尿液顏色變深的直接鑑別診斷無關，故(D)最不適當。",
+      "key_point": "深色尿與黃疸（jaundice）臨床診斷的初步評估。",
+      "flashcard_summary": "深色尿 / 黃疸評估 / 鞏膜舌下 / 尿膽素原 / 肌酸酐 -> 優先評估黃疸指標，肌酸酐非最優先。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "深色尿 / 黃疸評估 / 鞏膜舌下 / 尿膽素原 / 肌酸酐",
+      "flashcard_back": "尿液變深應先評估黃疸（膽紅素、鞏膜視診、尿膽素原），而肌酸酐與深色尿的診斷最無直接關係。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_004",
@@ -80,15 +104,23 @@
         "D": "prednisolone"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "關節液穿刺發現「針狀、強烈負雙折射性結晶被白血球吞噬」，為急性痛風性關節炎發作之典型診斷。急性期治療的首要目標是消炎止痛，可用秋水仙素(A)、NSAIDs如ibuprofen(C)或類固醇(D)。而降尿酸藥物febuxostat(B)在急性發作期不應首度開始使用，否則會因血尿酸濃度大幅變動而促使關節內的結晶再次溶解並釋放，延長或加重關節發炎。",
+      "key_point": "急性痛風發作（Acute gout attack）的用藥原則與禁忌。",
+      "flashcard_summary": "急性痛風 / 負雙折射針狀結晶 / 急性期治療 / 降尿酸藥物 -> 急性期禁用或不首度使用降尿酸藥（如febuxostat）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性痛風 / 負雙折射針狀結晶 / 急性期治療 / 降尿酸藥物",
+      "flashcard_back": "急性痛風發作期應使用Colchicine、NSAIDs或類固醇消炎，不可在此時首度開始投與Febuxostat等降尿酸藥。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_005",
@@ -101,15 +133,23 @@
         "D": "sodium bicarbonate"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者有痛風病史，且腎結石在超音波可見但X光片無法顯影，代表其為X光透光性的尿酸結石。治療尿酸結石應利用 allopurinol(A) 減少尿酸生成，並以口服 citrate(B) 或 bicarbonate(D) 鹼化尿液，提高尿酸在尿中的溶解度。而促尿酸排泄藥 probenecid(C) 會增加尿液中的尿酸排出量，使尿酸極易在尿路沉澱，會加重結石，故屬禁用。",
+      "key_point": "尿酸結石（X光透光性結石）的藥理處置與促尿酸排泄藥之禁忌。",
+      "flashcard_summary": "尿酸結石 / X光透光 / 鹼化尿液 / 促尿酸排泄藥 -> 禁用probenecid，可用鹼化尿液藥及allopurinol。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "尿酸結石 / X光透光 / 鹼化尿液 / 促尿酸排泄藥",
+      "flashcard_back": "尿酸結石患者禁用probenecid等促尿酸排泄藥，以免增加尿中尿酸濃度而加重結石；應選鹼化尿液藥與Allopurinol。",
+      "category_group": "醫學（三）",
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_006",
@@ -122,15 +162,23 @@
         "D": "懷疑冠狀動脈心臟病之病人,於檢查前均應服用aspirin,但因心導管屬無菌操作,所以並不需預防性投與抗\n 生素"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大型臨床隨機對照試驗已證實，口服 N-acetylcysteine (NAC) 併不能降低顯影劑造成的急性腎臟損傷風險，目前臨床指引已不再推薦其作為常規預防措施，故(C)敘述錯誤。預防CIN最有效的手段仍是術前與術後給予充足的靜脈輸液擴容。(A)、(B)、(D)均為符合臨床指引與造影風險之正確敘述。",
+      "key_point": "顯影劑引起之急性腎損傷（CIN）預防措施之實證醫學實踐。",
+      "flashcard_summary": "心導管 / 顯影劑腎病變 / 預防措施 / NAC / 輸液 -> 實證不推薦NAC預防顯影劑腎病變，輸液為主要預防手段。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "心導管 / 顯影劑腎病變 / 預防措施 / NAC / 輸液",
+      "flashcard_back": "預防顯影劑腎病變最有效的是充足點滴輸液，實證研究已證實N-acetylcysteine (NAC) 無顯著預防效果。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_007",
@@ -143,15 +191,23 @@
         "D": "有機硝酸鹽類(nitrate)經人體代謝後,可釋放一氧化氮(NO)與血管平滑肌adenylyl cyclase結合,造成血\n 管擴張"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Beta blockers能減慢心率、抑制心肌收縮，降低耗氧以緩解心絞痛，且被證實能降低心肌梗塞後患者的死亡率，故(A)正確。(B) 短效型dihydropyridine類CCB會引起反射性心跳過速並增加死亡率，屬禁忌；(C) Aspirin是「不可逆」抑制COX-1；(D) nitrate釋放之NO是活化「guanylyl cyclase」增加cGMP，而非AC。",
+      "key_point": "冠心病（CAD）臨床藥物治療的藥理機轉與療效評估。",
+      "flashcard_summary": "冠心病藥物 / beta blocker / CCB / aspirin結合 / nitrate機轉 -> Beta blocker可降心肌梗塞後死亡率；Aspirin為不可逆抑制。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "冠心病藥物 / beta blocker / CCB / aspirin結合 / nitrate機轉",
+      "flashcard_back": "Beta blocker可降低心肌梗塞後死亡率；Aspirin為不可逆抑制COX-1；Nitrate是活化guanylyl cyclase（非AC）。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_008",
@@ -164,15 +220,23 @@
         "D": "除了考慮乙型交感神經阻斷劑(beta blocker),鈣離子阻斷劑(calcium channel blocker)等,還要增加利尿\n 劑的使用量,避免心臟衰竭"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該病患有心尖及LLSB收縮期雜音且有惡性心律不整病史，心臟超音波提示肥厚型心肌症（HCM），故(A)正確。有猝死生還病史應置入ICD(B)；左室流出道（LVOT）嚴重阻塞可考慮酒精消融、手術或換心(C)。然而，在HOCM病人中，應「避免」使用利尿劑或血管擴張劑，因為降低前負荷會使左心室容積減小，反而會加劇LVOT阻塞，故(D)錯誤。",
+      "key_point": "肥厚型阻塞性心肌症（HOCM）的藥物治療原則與禁忌。",
+      "flashcard_summary": "肥厚型心肌症 / HOCM / LVOT阻塞 / 藥物禁忌 / 利尿劑 -> HOCM應避免使用利尿劑（防前負荷減少加重阻塞）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肥厚型心肌症 / HOCM / LVOT阻塞 / 藥物禁忌 / 利尿劑",
+      "flashcard_back": "HOCM患者禁用或應避免利尿劑與血管擴張劑，因降低前負荷會使心室腔變小，加重左心室流道阻塞。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_009",
@@ -185,15 +249,23 @@
         "D": "ventricular tachycardia"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "心房顫動（AF）在心電圖上的典型特徵包括：P波消失，代之以快速、振幅與形狀不規則的顫動波（f波），且 QRS 波群的 R-R 間期呈現完全不規則（irregularly irregular）的表現。從臨床表現與標準答案(C)推斷，該65歲男性的心電圖具有上述AF的經典變化。",
+      "key_point": "心房顫動（Atrial Fibrillation）的心電圖診斷特徵。",
+      "flashcard_summary": "心電圖 / P波消失 / RR間期不規則 / 心房顫動 / AF -> 心房顫動（atrial fibrillation）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "心電圖 / P波消失 / RR間期不規則 / 心房顫動 / AF",
+      "flashcard_back": "P波消失且R-R間期完全不規則（irregularly irregular）是診斷心房顫動（atrial fibrillation）的經典特徵。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_010",
@@ -206,15 +278,23 @@
         "D": "確診的病人常合併有貧血"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肺高壓（PH）患者因肺血管阻力增高及心臟負荷增加，長期處於慢性缺氧狀態，進而常會刺激促紅血球生成素釋放，導致「紅血球增多症（erythrocytosis）」，而非貧血，故(D)錯誤。(A) 其早期症狀如活動性喘、疲累缺乏專一性；(B) 心臟超音波是最佳的篩檢工具；(C) 右心導管檢查（RHC）是確診肺高壓的黃金標準。",
+      "key_point": "肺高壓（Pulmonary Hypertension）的篩檢、確診與臨床病理特徵。",
+      "flashcard_summary": "肺高壓 / 確診標準 / 篩檢 / 紅血球增多症 -> 右心導管為確診標準，常伴隨紅血球增多（非貧血）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肺高壓 / 確診標準 / 篩檢 / 紅血球增多症",
+      "flashcard_back": "肺高壓篩檢用心臟超音波，確診靠右心導管；患者因慢性缺氧常合併紅血球增多症（非貧血）。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_011",
@@ -227,15 +307,23 @@
         "D": "症狀嚴重的病人可以使用dihydropyridine鈣離子阻斷劑減輕症狀"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "雷諾氏現象可分為原發性與次發性。原發性（Raynaud's disease）通常病情較輕微、對稱，且極少造成組織壞疽；次發性（常與硬皮症、SLE等結締組織病或動脈硬化相關）則通常症狀嚴重、不對稱，且易導致指端潰瘍或壞死，故(B)錯誤。(A) 硬皮症患者常合併有此現象；(C) 50歲以上新發作常與動脈粥狀硬化有關；(D) dihydropyridine類CCB（如nifedipine）能有效舒張血管，為治療首選藥物。",
+      "key_point": "雷諾氏現象（Raynaud's phenomenon）之分類、病因與嚴重度差異。",
+      "flashcard_summary": "雷諾氏現象 / Raynaud's / 原發性 vs. 次發性 / 硬皮症 -> 原發性症狀較輕；次發性症狀較重。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "雷諾氏現象 / Raynaud's / 原發性 vs. 次發性 / 硬皮症",
+      "flashcard_back": "原發性雷諾氏現象症狀通常較輕且對稱；次發性雷諾氏現象（如合併硬皮症）症狀較嚴重且可能造成指端壞死。",
+      "category_group": "醫學（三）",
+      "category": "免疫風濕科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_012",
@@ -248,15 +336,23 @@
         "D": "colchicine用於治療急性不明原因性心包膜炎(acute idiopathic pericarditis)病人的標準治療期程不可超過兩\n 週,否則轉變成慢性心包膜炎的機率會增加"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性心包膜炎主要包括纖維素性（fibrinous）與滲出性（effusive）兩大臨床病理分類，故(A)正確。(B) 胸痛是急性心包膜炎最典型的主訴（常隨前傾而改善）；(C) 約有85%以上的病患在病程中可聽見特異性的心包膜摩擦音（pericardial friction rub）；(D) Colchicine的標準療程通常為3個月，可有效降低復發率，而非不宜超過兩週。",
+      "key_point": "急性心包膜炎（Acute pericarditis）的分類、臨床特徵與藥物治療。",
+      "flashcard_summary": "急性心包膜炎 / 胸痛 / 摩擦音 / Colchicine療程 -> 主要症狀為胸痛，Colchicine標準療程為3個月。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性心包膜炎 / 胸痛 / 摩擦音 / Colchicine療程",
+      "flashcard_back": "急性心包膜炎最主要症狀為胸痛，多數可聽見心包膜摩擦音；Colchicine療程通常需3個月以減少復發。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_013",
@@ -269,15 +365,23 @@
         "D": "一位50歲女性診斷有擴大型心肌症(dilated cardiomyopathy),平常可以躺平一覺睡到天亮,最近2個禮拜腳\n 漸漸腫起來,需要頭部墊兩個枕頭才有辦法躺下來睡"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "NYHA Class II 定義為：休息時無症狀，但日常普通身體活動（如走路）會引起輕微的症狀。選項(C)中，病人平常的普通活動是走到20公尺外的超商買報紙，最近走同樣距離會覺得明顯比之前喘和累，代表其日常活動輕微受限且引起症狀，符合 Class II。(A) 無症狀，屬 Class I；(B) 走一半就完全無法走，屬低於日常普通活動即受限的 Class III；(D) 有端坐呼吸（orthopnea），屬 Class IV。",
+      "key_point": "紐約心臟學會心功能分級（NYHA Functional Classification）的臨床評估。",
+      "flashcard_summary": "NYHA分級 / 心功能 / Class II / 日常活動受限 -> Class II 代表日常活動輕微受限且引起症狀。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "NYHA分級 / 心功能 / Class II / 日常活動受限",
+      "flashcard_back": "NYHA Class II指日常普通活動（如走路）會引起輕微的症狀；Class III為小於日常活動即有症狀；Class IV為休息時亦有症狀。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_014",
@@ -290,15 +394,23 @@
         "D": "5"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "病患為78歲男性，有高血壓、糖尿病史，且LVEF 29%併心衰水腫症狀。其CHA2DS2-VASc評分計算為：年齡>=75歲得2分；高血壓得1分；糖尿病得1分；心臟衰竭/左心室功能不全（LVEF<40%）得1分；無中風史、無血管疾病史，男性性別得0分。總計得分 = 2 + 1 + 1 + 1 = 5 分，故選(D)。",
+      "key_point": "心房顫動血栓風險 CHA2DS2-VASc 評分系統之計算。",
+      "flashcard_summary": "CHA2DS2-VASc / 心房顫動 / 評分計算 / 78歲男性 / 心衰 / 高血壓 / 糖尿病 -> 5分。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CHA2DS2-VASc / 心房顫動 / 評分計算 / 78歲男性 / 心衰 / 高血壓 / 糖尿病",
+      "flashcard_back": "78歲男性 (2分) + 高血壓 (1分) + 糖尿病 (1分) + LVEF 29%心衰 (1分) = 5分。",
+      "category_group": "醫學（三）",
+      "category": "心臟內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_015",
@@ -311,15 +423,23 @@
         "D": "患者無需每半年接受腹部超音波檢查"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者有高度的家族聚集性（母親、哥哥均帶原），表示其感染途徑最可能為周產期母嬰垂直感染，故(C)正確。(A) HBsAg陽性代表體內仍有病毒複製；(B) HBeAg陰性且ALT正常，代表其處於非活動性帶原期，非免疫耐受期；(D) 患者雖肝功能正常，但有肝癌家族史（阿姨），是肝細胞癌的高危險群，仍需每半年定期接受超音波與胎兒蛋白篩檢。",
+      "key_point": "B型肝炎帶原的家族傳播途徑與臨床篩檢指引。",
+      "flashcard_summary": "B型肝炎帶原 / 家族聚集 / 垂直感染 / 肝癌家族史篩檢 -> 家族聚集暗示垂直感染，有肝癌家族史需定期超音波篩檢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "B型肝炎帶原 / 家族聚集 / 垂直感染 / 肝癌家族史篩檢",
+      "flashcard_back": "家族多名成員帶原暗示垂直感染為主要途徑；有肝癌家族史的B肝帶原者必須每半年定期超音波追蹤。",
+      "category_group": "醫學（三）",
+      "category": "肝膽腸胃科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "112-2_medicine-3_016",

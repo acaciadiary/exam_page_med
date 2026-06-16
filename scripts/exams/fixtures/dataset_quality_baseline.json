@@ -1,0 +1,1852 @@
+{
+  "dataset_count": 90,
+  "total_questions": 7789,
+  "total_issues": 90,
+  "reports": [
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-1.json",
+      "id": "108-1_medicine-1",
+      "title": "108 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 23,
+        "B": 24,
+        "C": 28,
+        "D": 23
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 49,
+          "question_number": 49,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 58,
+          "question_number": 58,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-2.json",
+      "id": "108-1_medicine-2",
+      "title": "108 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 28,
+        "C": 22,
+        "D": 24
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 16,
+          "question_number": 16,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 74,
+          "question_number": 74,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-3.json",
+      "id": "108-1_medicine-3",
+      "title": "108 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 22,
+        "B": 20,
+        "C": 22,
+        "D": 16
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-4.json",
+      "id": "108-1_medicine-4",
+      "title": "108 年第一次醫師國考：醫學（四）",
+      "question_count": 79,
+      "answers": {
+        "A": 15,
+        "B": 21,
+        "C": 18,
+        "D": 23
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 25,
+          "question_number": 25,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 47,
+          "question_number": 47,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-5.json",
+      "id": "108-1_medicine-5",
+      "title": "108 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 27,
+        "B": 20,
+        "C": 13,
+        "D": 20
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\108-1\\medicine-6.json",
+      "id": "108-1_medicine-6",
+      "title": "108 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 20,
+        "C": 21,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-1.json",
+      "id": "108-2_medicine-1",
+      "title": "108 年第二次醫師國考：醫學（一）",
+      "question_count": 99,
+      "answers": {
+        "A": 20,
+        "B": 28,
+        "C": 28,
+        "D": 23
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [2]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-2.json",
+      "id": "108-2_medicine-2",
+      "title": "108 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 19,
+        "B": 24,
+        "C": 24,
+        "D": 32
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 41,
+          "question_number": 41,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-3.json",
+      "id": "108-2_medicine-3",
+      "title": "108 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 15,
+        "C": 19,
+        "D": 26
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-4.json",
+      "id": "108-2_medicine-4",
+      "title": "108 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 21,
+        "B": 20,
+        "C": 20,
+        "D": 19
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-5.json",
+      "id": "108-2_medicine-5",
+      "title": "108 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 6,
+        "B": 28,
+        "C": 28,
+        "D": 17
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 9,
+          "question_number": 9,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\108-2\\medicine-6.json",
+      "id": "108-2_medicine-6",
+      "title": "108 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 16,
+        "B": 23,
+        "C": 24,
+        "D": 16
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 4,
+          "question_number": 4,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-1.json",
+      "id": "109-1_medicine-1",
+      "title": "109 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 23,
+        "B": 32,
+        "C": 22,
+        "D": 22
+      },
+      "issue_count": 5,
+      "issues": [
+        {
+          "index": 73,
+          "question_number": 73,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 100,
+          "question_number": 100,
+          "code": "empty_option",
+          "message": "A 選項為空"
+        },
+        {
+          "index": 100,
+          "question_number": 100,
+          "code": "empty_option",
+          "message": "B 選項為空"
+        },
+        {
+          "index": 100,
+          "question_number": 100,
+          "code": "empty_option",
+          "message": "C 選項為空"
+        },
+        {
+          "index": 100,
+          "question_number": 100,
+          "code": "empty_option",
+          "message": "D 選項為空"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-2.json",
+      "id": "109-1_medicine-2",
+      "title": "109 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 28,
+        "C": 25,
+        "D": 22
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 75,
+          "question_number": 75,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-3.json",
+      "id": "109-1_medicine-3",
+      "title": "109 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 19,
+        "C": 16,
+        "D": 29
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 17,
+          "question_number": 17,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-4.json",
+      "id": "109-1_medicine-4",
+      "title": "109 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 22,
+        "C": 19,
+        "D": 18
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 28,
+          "question_number": 28,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 69,
+          "question_number": 69,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-5.json",
+      "id": "109-1_medicine-5",
+      "title": "109 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 12,
+        "B": 28,
+        "C": 21,
+        "D": 18
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 13,
+          "question_number": 13,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-1\\medicine-6.json",
+      "id": "109-1_medicine-6",
+      "title": "109 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 21,
+        "C": 22,
+        "D": 19
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-1.json",
+      "id": "109-2_medicine-1",
+      "title": "109 年第二次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 17,
+        "C": 33,
+        "D": 24
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 4,
+          "question_number": 4,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 58,
+          "question_number": 58,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-2.json",
+      "id": "109-2_medicine-2",
+      "title": "109 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 19,
+        "C": 31,
+        "D": 24
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 8,
+          "question_number": 8,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 100,
+          "question_number": 100,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-3.json",
+      "id": "109-2_medicine-3",
+      "title": "109 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 11,
+        "B": 22,
+        "C": 20,
+        "D": 26
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 8,
+          "question_number": 8,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-4.json",
+      "id": "109-2_medicine-4",
+      "title": "109 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 10,
+        "B": 23,
+        "C": 21,
+        "D": 24
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 2,
+          "question_number": 2,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 14,
+          "question_number": 14,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-5.json",
+      "id": "109-2_medicine-5",
+      "title": "109 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 22,
+        "C": 26,
+        "D": 12
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 44,
+          "question_number": 44,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\109-2\\medicine-6.json",
+      "id": "109-2_medicine-6",
+      "title": "109 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 18,
+        "C": 23,
+        "D": 24
+      },
+      "issue_count": 8,
+      "issues": [
+        {
+          "index": 26,
+          "question_number": 26,
+          "code": "empty_option",
+          "message": "A 選項為空"
+        },
+        {
+          "index": 26,
+          "question_number": 26,
+          "code": "empty_option",
+          "message": "B 選項為空"
+        },
+        {
+          "index": 26,
+          "question_number": 26,
+          "code": "empty_option",
+          "message": "C 選項為空"
+        },
+        {
+          "index": 26,
+          "question_number": 26,
+          "code": "empty_option",
+          "message": "D 選項為空"
+        },
+        {
+          "index": 27,
+          "question_number": 27,
+          "code": "empty_option",
+          "message": "A 選項為空"
+        },
+        {
+          "index": 27,
+          "question_number": 27,
+          "code": "empty_option",
+          "message": "B 選項為空"
+        },
+        {
+          "index": 27,
+          "question_number": 27,
+          "code": "empty_option",
+          "message": "C 選項為空"
+        },
+        {
+          "index": 27,
+          "question_number": 27,
+          "code": "empty_option",
+          "message": "D 選項為空"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-1.json",
+      "id": "110-1_medicine-1",
+      "title": "110 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 19,
+        "B": 19,
+        "C": 32,
+        "D": 30
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-2.json",
+      "id": "110-1_medicine-2",
+      "title": "110 年第一次醫師國考：醫學（二）",
+      "question_count": 99,
+      "answers": {
+        "A": 26,
+        "B": 28,
+        "C": 28,
+        "D": 16
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 87,
+          "question_number": 88,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [22]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-3.json",
+      "id": "110-1_medicine-3",
+      "title": "110 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 20,
+        "B": 22,
+        "C": 22,
+        "D": 15
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 64,
+          "question_number": 64,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-4.json",
+      "id": "110-1_medicine-4",
+      "title": "110 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 22,
+        "B": 19,
+        "C": 27,
+        "D": 12
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-5.json",
+      "id": "110-1_medicine-5",
+      "title": "110 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 20,
+        "B": 17,
+        "C": 17,
+        "D": 26
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\110-1\\medicine-6.json",
+      "id": "110-1_medicine-6",
+      "title": "110 年第一次醫師國考：醫學（六）",
+      "question_count": 79,
+      "answers": {
+        "A": 17,
+        "B": 15,
+        "C": 27,
+        "D": 20
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [64]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-1.json",
+      "id": "110-2_medicine-1",
+      "title": "110 年第二次醫師國考：醫學（一）",
+      "question_count": 99,
+      "answers": {
+        "A": 25,
+        "B": 21,
+        "C": 24,
+        "D": 28
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 64,
+          "question_number": 64,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [98]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-2.json",
+      "id": "110-2_medicine-2",
+      "title": "110 年第二次醫師國考：醫學（二）",
+      "question_count": 98,
+      "answers": {
+        "A": 27,
+        "B": 19,
+        "C": 21,
+        "D": 26
+      },
+      "issue_count": 6,
+      "issues": [
+        {
+          "index": 10,
+          "question_number": 10,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 12,
+          "question_number": 12,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 25,
+          "question_number": 25,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 38,
+          "question_number": 39,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 39,
+          "question_number": 40,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [27, 56]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-3.json",
+      "id": "110-2_medicine-3",
+      "title": "110 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 21,
+        "C": 20,
+        "D": 20
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 16,
+          "question_number": 16,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-4.json",
+      "id": "110-2_medicine-4",
+      "title": "110 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 21,
+        "B": 17,
+        "C": 21,
+        "D": 18
+      },
+      "issue_count": 3,
+      "issues": [
+        {
+          "index": 49,
+          "question_number": 49,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 60,
+          "question_number": 60,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 66,
+          "question_number": 66,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-5.json",
+      "id": "110-2_medicine-5",
+      "title": "110 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 25,
+        "C": 20,
+        "D": 16
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\110-2\\medicine-6.json",
+      "id": "110-2_medicine-6",
+      "title": "110 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 17,
+        "B": 26,
+        "C": 24,
+        "D": 13
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-1.json",
+      "id": "111-1_medicine-1",
+      "title": "111 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 26,
+        "B": 25,
+        "C": 31,
+        "D": 18
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-2.json",
+      "id": "111-1_medicine-2",
+      "title": "111 年第一次醫師國考：醫學（二）",
+      "question_count": 99,
+      "answers": {
+        "A": 25,
+        "B": 27,
+        "C": 25,
+        "D": 19
+      },
+      "issue_count": 4,
+      "issues": [
+        {
+          "index": 10,
+          "question_number": 10,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 12,
+          "question_number": 12,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 48,
+          "question_number": 49,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [26]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-3.json",
+      "id": "111-1_medicine-3",
+      "title": "111 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 18,
+        "C": 28,
+        "D": 14
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 36,
+          "question_number": 36,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 59,
+          "question_number": 59,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-4.json",
+      "id": "111-1_medicine-4",
+      "title": "111 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 20,
+        "B": 20,
+        "C": 20,
+        "D": 19
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-5.json",
+      "id": "111-1_medicine-5",
+      "title": "111 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 9,
+        "B": 16,
+        "C": 28,
+        "D": 26
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 67,
+          "question_number": 67,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-1\\medicine-6.json",
+      "id": "111-1_medicine-6",
+      "title": "111 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 17,
+        "B": 16,
+        "C": 21,
+        "D": 24
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 23,
+          "question_number": 23,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 55,
+          "question_number": 55,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-1.json",
+      "id": "111-2_medicine-1",
+      "title": "111 年第二次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 27,
+        "B": 32,
+        "C": 18,
+        "D": 22
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 65,
+          "question_number": 65,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-2.json",
+      "id": "111-2_medicine-2",
+      "title": "111 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 30,
+        "B": 26,
+        "C": 27,
+        "D": 17
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-3.json",
+      "id": "111-2_medicine-3",
+      "title": "111 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 14,
+        "B": 18,
+        "C": 20,
+        "D": 26
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 6,
+          "question_number": 6,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 29,
+          "question_number": 29,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-4.json",
+      "id": "111-2_medicine-4",
+      "title": "111 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 20,
+        "B": 25,
+        "C": 18,
+        "D": 16
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 65,
+          "question_number": 65,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-5.json",
+      "id": "111-2_medicine-5",
+      "title": "111 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 12,
+        "B": 16,
+        "C": 20,
+        "D": 31
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 67,
+          "question_number": 67,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\111-2\\medicine-6.json",
+      "id": "111-2_medicine-6",
+      "title": "111 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 13,
+        "B": 20,
+        "C": 24,
+        "D": 19
+      },
+      "issue_count": 4,
+      "issues": [
+        {
+          "index": 24,
+          "question_number": 24,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 30,
+          "question_number": 30,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 58,
+          "question_number": 58,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 60,
+          "question_number": 60,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-1.json",
+      "id": "112-1_medicine-1",
+      "title": "112 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 21,
+        "C": 24,
+        "D": 31
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-2.json",
+      "id": "112-1_medicine-2",
+      "title": "112 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 26,
+        "B": 30,
+        "C": 21,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-3.json",
+      "id": "112-1_medicine-3",
+      "title": "112 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 17,
+        "C": 23,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-4.json",
+      "id": "112-1_medicine-4",
+      "title": "112 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 13,
+        "B": 25,
+        "C": 25,
+        "D": 17
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-5.json",
+      "id": "112-1_medicine-5",
+      "title": "112 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 24,
+        "C": 17,
+        "D": 20
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-1\\medicine-6.json",
+      "id": "112-1_medicine-6",
+      "title": "112 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 24,
+        "B": 16,
+        "C": 19,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-1.json",
+      "id": "112-2_medicine-1",
+      "title": "112 年第二次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 19,
+        "B": 31,
+        "C": 28,
+        "D": 22
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-2.json",
+      "id": "112-2_medicine-2",
+      "title": "112 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 20,
+        "B": 29,
+        "C": 25,
+        "D": 26
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-3.json",
+      "id": "112-2_medicine-3",
+      "title": "112 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 16,
+        "C": 26,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-4.json",
+      "id": "112-2_medicine-4",
+      "title": "112 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 18,
+        "C": 22,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-5.json",
+      "id": "112-2_medicine-5",
+      "title": "112 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 14,
+        "B": 22,
+        "C": 24,
+        "D": 20
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\112-2\\medicine-6.json",
+      "id": "112-2_medicine-6",
+      "title": "112 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 22,
+        "B": 26,
+        "C": 19,
+        "D": 13
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-1.json",
+      "id": "113-1_medicine-1",
+      "title": "113 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 35,
+        "B": 28,
+        "C": 19,
+        "D": 18
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-2.json",
+      "id": "113-1_medicine-2",
+      "title": "113 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 21,
+        "B": 17,
+        "C": 31,
+        "D": 31
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-3.json",
+      "id": "113-1_medicine-3",
+      "title": "113 年第一次醫師國考：醫學（三）",
+      "question_count": 79,
+      "answers": {
+        "A": 11,
+        "B": 25,
+        "C": 21,
+        "D": 22
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [2]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-4.json",
+      "id": "113-1_medicine-4",
+      "title": "113 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 19,
+        "C": 23,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-5.json",
+      "id": "113-1_medicine-5",
+      "title": "113 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 17,
+        "B": 23,
+        "C": 23,
+        "D": 17
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-1\\medicine-6.json",
+      "id": "113-1_medicine-6",
+      "title": "113 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 24,
+        "C": 20,
+        "D": 17
+      },
+      "issue_count": 4,
+      "issues": [
+        {
+          "index": 14,
+          "question_number": 14,
+          "code": "empty_option",
+          "message": "A 選項為空"
+        },
+        {
+          "index": 14,
+          "question_number": 14,
+          "code": "empty_option",
+          "message": "B 選項為空"
+        },
+        {
+          "index": 14,
+          "question_number": 14,
+          "code": "empty_option",
+          "message": "C 選項為空"
+        },
+        {
+          "index": 14,
+          "question_number": 14,
+          "code": "empty_option",
+          "message": "D 選項為空"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-1.json",
+      "id": "113-2_medicine-1",
+      "title": "113 年第二次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 26,
+        "B": 28,
+        "C": 30,
+        "D": 16
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-2.json",
+      "id": "113-2_medicine-2",
+      "title": "113 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 17,
+        "B": 33,
+        "C": 26,
+        "D": 24
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-3.json",
+      "id": "113-2_medicine-3",
+      "title": "113 年第二次醫師國考：醫學（三）",
+      "question_count": 79,
+      "answers": {
+        "A": 17,
+        "B": 18,
+        "C": 22,
+        "D": 22
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [70]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-4.json",
+      "id": "113-2_medicine-4",
+      "title": "113 年第二次醫師國考：醫學（四）",
+      "question_count": 79,
+      "answers": {
+        "A": 15,
+        "B": 22,
+        "C": 21,
+        "D": 19
+      },
+      "issue_count": 3,
+      "issues": [
+        {
+          "index": 18,
+          "question_number": 18,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 32,
+          "question_number": 32,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": null,
+          "question_number": null,
+          "code": "missing_sequence_numbers",
+          "message": "題號序列缺漏: [77]"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-5.json",
+      "id": "113-2_medicine-5",
+      "title": "113 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 17,
+        "B": 18,
+        "C": 27,
+        "D": 17
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 56,
+          "question_number": 56,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\113-2\\medicine-6.json",
+      "id": "113-2_medicine-6",
+      "title": "113 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 22,
+        "C": 19,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-1.json",
+      "id": "114-1_medicine-1",
+      "title": "114 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 29,
+        "B": 17,
+        "C": 30,
+        "D": 24
+      },
+      "issue_count": 4,
+      "issues": [
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "empty_option",
+          "message": "A 選項為空"
+        },
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "empty_option",
+          "message": "B 選項為空"
+        },
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "empty_option",
+          "message": "C 選項為空"
+        },
+        {
+          "index": 77,
+          "question_number": 77,
+          "code": "empty_option",
+          "message": "D 選項為空"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-2.json",
+      "id": "114-1_medicine-2",
+      "title": "114 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 22,
+        "B": 26,
+        "C": 24,
+        "D": 28
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-3.json",
+      "id": "114-1_medicine-3",
+      "title": "114 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 16,
+        "B": 20,
+        "C": 21,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-4.json",
+      "id": "114-1_medicine-4",
+      "title": "114 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 17,
+        "C": 25,
+        "D": 19
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-5.json",
+      "id": "114-1_medicine-5",
+      "title": "114 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 11,
+        "B": 18,
+        "C": 28,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-1\\medicine-6.json",
+      "id": "114-1_medicine-6",
+      "title": "114 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 19,
+        "C": 25,
+        "D": 21
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-1.json",
+      "id": "114-2_medicine-1",
+      "title": "114 年第二次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 24,
+        "B": 25,
+        "C": 24,
+        "D": 27
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-2.json",
+      "id": "114-2_medicine-2",
+      "title": "114 年第二次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 30,
+        "B": 15,
+        "C": 29,
+        "D": 26
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-3.json",
+      "id": "114-2_medicine-3",
+      "title": "114 年第二次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 19,
+        "B": 19,
+        "C": 21,
+        "D": 19
+      },
+      "issue_count": 2,
+      "issues": [
+        {
+          "index": 54,
+          "question_number": 54,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        },
+        {
+          "index": 73,
+          "question_number": 73,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-4.json",
+      "id": "114-2_medicine-4",
+      "title": "114 年第二次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 11,
+        "B": 25,
+        "C": 27,
+        "D": 17
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-5.json",
+      "id": "114-2_medicine-5",
+      "title": "114 年第二次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 15,
+        "B": 10,
+        "C": 25,
+        "D": 29
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 42,
+          "question_number": 42,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\114-2\\medicine-6.json",
+      "id": "114-2_medicine-6",
+      "title": "114 年第二次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 25,
+        "B": 17,
+        "C": 18,
+        "D": 19
+      },
+      "issue_count": 1,
+      "issues": [
+        {
+          "index": 76,
+          "question_number": 76,
+          "code": "missing_answer",
+          "message": "缺少標準答案"
+        }
+      ]
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-1.json",
+      "id": "115_medicine-1",
+      "title": "115 年第一次醫師國考：醫學（一）",
+      "question_count": 100,
+      "answers": {
+        "A": 13,
+        "B": 24,
+        "C": 31,
+        "D": 32
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-2.json",
+      "id": "115_medicine-2",
+      "title": "115 年第一次醫師國考：醫學（二）",
+      "question_count": 100,
+      "answers": {
+        "A": 23,
+        "B": 31,
+        "C": 23,
+        "D": 23
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-3.json",
+      "id": "115_medicine-3",
+      "title": "115 年第一次醫師國考：醫學（三）",
+      "question_count": 80,
+      "answers": {
+        "A": 14,
+        "B": 28,
+        "C": 12,
+        "D": 26
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-4.json",
+      "id": "115_medicine-4",
+      "title": "115 年第一次醫師國考：醫學（四）",
+      "question_count": 80,
+      "answers": {
+        "A": 24,
+        "B": 17,
+        "C": 25,
+        "D": 14
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-5.json",
+      "id": "115_medicine-5",
+      "title": "115 年第一次醫師國考：醫學（五）",
+      "question_count": 80,
+      "answers": {
+        "A": 11,
+        "B": 21,
+        "C": 19,
+        "D": 29
+      },
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "path": "public\\data\\exams\\115\\medicine-6.json",
+      "id": "115_medicine-6",
+      "title": "115 年第一次醫師國考：醫學（六）",
+      "question_count": 80,
+      "answers": {
+        "A": 18,
+        "B": 19,
+        "C": 18,
+        "D": 25
+      },
+      "issue_count": 0,
+      "issues": []
+    }
+  ]
+}

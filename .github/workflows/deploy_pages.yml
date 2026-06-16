@@ -49,7 +49,7 @@ jobs:
         run: pytest tests/parser
 
       - name: Validate bundled datasets
-        run: python scripts/exams/validate_dataset.py "public/data/exams/**/*.json" --out reports/dataset-quality.json
+        run: python scripts/exams/validate_dataset.py "public/data/exams/**/*.json" --out reports/dataset-quality.json --baseline scripts/exams/fixtures/dataset_quality_baseline.json
 
       - name: Build
         run: npm run build

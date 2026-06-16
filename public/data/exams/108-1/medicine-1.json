@@ -4,7 +4,7 @@
   "title": "108 年第一次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=108030&q=1&s=11&t=Q",
-  "updated_at": "2026-06-11T14:44:59.945236+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "108-1_medicine-1_001",
@@ -17,15 +17,23 @@
         "D": "中小腦腳(middle cerebellar peduncle)含橋腦核(pontine nucleus)發出之神經纖維"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "背側脊髓小腦徑主要傳遞同側下半身肢體的本體感覺，其神經纖維起源於脊髓的 Clarke's column，並在同側不交叉向上延伸，經由下小腦腳進入小腦，故選項B敘述左右交叉為錯誤。上小腦腳主要為小腦的輸出路徑，但亦包含傳入的腹側脊髓小腦徑；中小腦腳則由橋腦核發出的交叉纖維組成，傳遞大腦皮質的運動指令。",
+      "key_point": "背側脊髓小腦徑（dorsal spinocerebellar tract）的起點與路徑特徵（同側不交叉）。",
+      "flashcard_summary": "背側脊髓小腦徑 / Clarke's column / 下小腦腳 / 是否交叉 -> 背側脊髓小腦徑為同側不交叉，經下小腦腳入小腦；腹側脊髓小腦徑會交叉。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "背側脊髓小腦徑 / Clarke's column / 下小腦腳 / 是否交叉",
+      "flashcard_back": "背側脊髓小腦徑起源於同側的 Clarke's column，維持同側不交叉，經由下小腦腳進入小腦；而腹側脊髓小腦徑則會交叉。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_002",
@@ -38,15 +46,23 @@
         "D": "外側環杓肌(lateral cricoarytenoid muscle)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "喉部肌肉中，除了環狀甲骨肌是由喉上神經的喉外支（喉外神經）支配外，其餘所有喉內肌均由喉返神經支配。因此，當甲狀腺切除手術中不慎傷及喉外神經時，環狀甲骨肌的功能最可能受損，導致患者無法拉緊聲帶，進而影響發高音的能力。",
+      "key_point": "喉外神經（external laryngeal nerve）所支配的喉部肌肉。",
+      "flashcard_summary": "喉外神延 / 喉部肌肉支配 / 甲狀腺手術損傷 / 環狀甲骨肌 -> 喉外神經僅支配環狀甲骨肌，其餘喉內肌皆由喉返神經支配。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "喉外神經 / 喉部肌肉支配 / 甲狀腺手術損傷 / 環狀甲骨肌",
+      "flashcard_back": "喉外神經僅支配環狀甲骨肌，其餘喉部內在肌皆由喉返神經支配。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_003",
@@ -59,15 +75,23 @@
         "D": "蝶竇(sphenoid sinus)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "半月裂孔位於中鼻道，是額竇、前篩竇以及上頜竇分泌物引流至鼻腔的主要通道。而蝶竇的開口位於鼻腔後上方的蝶篩隱窩，其分泌物不會流經半月裂孔，因此選項D為正確答案。另外，後篩竇開口於上鼻道，中篩竇則開口於篩泡上。",
+      "key_point": "鼻旁竇（paranasal sinuses）開口位置與半月裂孔的解剖關係。",
+      "flashcard_summary": "半月裂孔 / 鼻旁竇引流 / 中鼻道 / 蝶篩隱窩 -> 額竇、前篩竇、上頜竇引流至半月裂孔，蝶竇則引流至蝶篩隱窩。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "半月裂孔 / 鼻旁竇引流 / 中鼻道 / 蝶篩隱窩",
+      "flashcard_back": "額竇、前篩竇、上頜竇經半月裂孔（中鼻道）引流；蝶竇引流至蝶篩隱窩，後篩竇引流至上鼻道。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_004",
@@ -80,15 +104,23 @@
         "D": "外展神經(abducent nerve)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "雙眼同時看向正上方需要上直肌與下斜肌的協同收縮。這兩條肌肉皆由動眼神經（CN III）所支配，因此答案為C。滑車神經（CN IV）僅支配上斜肌（使眼球向下、外展），外展神經（CN VI）僅支配外直肌（使眼球外展），而眼神經主要負責感覺傳遞。",
+      "key_point": "控制眼球向上運動（直視上方）的神經與肌肉支配。",
+      "flashcard_summary": "雙眼向上看 / 上直肌 / 下斜肌 / 眼球運動神經支配 -> 向上看由上直肌及下斜肌作用，兩者皆受動眼神經（CN III）支配。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "雙眼向上看 / 上直肌 / 下斜肌 / 眼球運動神經支配",
+      "flashcard_back": "眼球向上看需收縮上直肌與下斜肌，兩者皆由動眼神經（CN III）支配。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_005",
@@ -101,15 +133,23 @@
         "D": "上腔靜脈(superior vena cava)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "胸骨柄位於胸骨的上部，其後方直接鄰接主動脈弓及其三大分支。左心室主要位於胸骨體中下部的左側後方；肺動脈幹起點較低，位於胸骨角左側附近；上腔靜脈則偏右側。因此，在胸骨柄正中間的穿刺傷，最直接且最可能傷及的構造是主動脈弓。",
+      "key_point": "胸骨柄（manubrium of sternum）後方的縱隔腔構造解剖關係。",
+      "flashcard_summary": "胸骨柄正中穿刺傷 / 縱隔腔構造 / 主動脈弓 -> 胸骨柄後方緊鄰主動脈弓，正中穿刺傷最易傷及此處。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "胸骨柄正中穿刺傷 / 縱隔腔構造 / 主動脈弓",
+      "flashcard_back": "胸骨柄後方主要緊鄰主動脈弓及其大分支，正中穿刺最易傷及主動脈弓。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_006",
@@ -122,15 +162,23 @@
         "D": "正中臍韌帶(median umbilical ligament)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在胎兒出生後，原本將含氧血由胎盤送回胎兒肝臟的左臍靜脈會發生閉鎖，退化形成肝圓韌帶，走在肝鐮韌帶的游離緣內。而靜脈導管退化為靜脈韌帶；臍尿管退化為正中臍韌帶；胎兒的臍動脈則退化為內側臍韌帶。",
+      "key_point": "胎兒臍靜脈（umbilical vein）閉鎖後的成人解剖殘跡。",
+      "flashcard_summary": "臍靜脈殘跡 / 肝臟解剖 / 肝圓韌帶 / 胎兒循環退化 -> 胎兒臍靜脈閉鎖退化後，形成成人的肝圓韌帶。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "臍靜脈殘跡 / 肝臟解剖 / 肝圓韌帶 / 胎兒循環退化",
+      "flashcard_back": "胎兒的左臍靜脈於出生後閉鎖退化，形成肝圓韌帶，位於肝鐮韌帶的游離緣。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_007",
@@ -143,15 +191,23 @@
         "D": "肝門靜脈"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "橫膈有三個主要通道：下腔靜脈孔位於T8高度的中央腱中，容納下腔靜脈穿過；食道裂孔位於T10高度的肌肉部（主要由右腳形成），容納食道及迷走神經；主動脈裂孔位於T12高度的橫膈後方，容納主動脈、胸管及奇靜脈。因此，穿過中央腱的只有下腔靜脈，答案為B。",
+      "key_point": "橫膈三個主要裂孔的位置與穿經構造。",
+      "flashcard_summary": "橫膈裂孔 / 中央腱 / T8 / 下腔靜脈 -> 下腔靜脈穿過位於T8高度的橫膈中央腱。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "橫膈裂孔 / 中央腱 / T8 / 下腔靜脈",
+      "flashcard_back": "下腔靜脈孔位於T8高度的中央腱內，通往下腔靜脈；食道裂孔在T10（肌肉部），主動脈裂孔在T12（後方）。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_008",
@@ -164,15 +220,23 @@
         "D": "後側壁"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "陰部神經與陰部內血管一同走在陰部管（又稱 Alcock's canal）內，而此管位於坐骨肛門窩的外側壁，附著於內閉孔肌的筋膜上。坐骨肛門窩的內側壁主要由肛提肌與外肛門括約肌構成。因此，陰部神經是定位於該窩的外側壁，答案為B。",
+      "key_point": "坐骨肛門窩（ischioanal fossa）的邊界與陰部管（pudendal canal）的位置。",
+      "flashcard_summary": "陰部神經 / 坐骨肛門窩 / 陰部管 / 內閉孔肌筋膜 -> 陰部神經位於坐骨肛門窩的外側壁，包埋於陰部管內。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "陰部神經 / 坐骨肛門窩 / 陰部管 / 內閉孔肌筋膜",
+      "flashcard_back": "陰部神經與陰部內血管走在陰部管內，位於坐骨肛門窩的外側壁（內閉孔肌筋膜覆蓋處）。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_009",
@@ -185,15 +249,23 @@
         "D": "股靜脈(femoral vein)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大隱靜脈起自足背靜脈弓的內側，行經內踝的前方，沿著小腿與大腿的內側一路往上回流，最終穿過隱靜脈裂孔注入股靜脈，因此為走在下肢內側的代表性血管。小隱靜脈則行經外踝後方，沿小腿後外側上行注入膕靜脈。股靜脈與膕靜脈屬於深部靜脈，非主要沿下肢內側表淺行走的構造。",
+      "key_point": "下肢淺表靜脈（大隱與小隱靜脈）的解剖走型與位置。",
+      "flashcard_summary": "大隱靜脈 / 小隱靜脈 / 內踝 / 下肢內側 -> 大隱靜脈行經內踝前方並沿下肢內側上行，小隱靜脈則經外踝後方沿後側上行。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "大隱靜脈 / 小隱靜脈 / 內踝 / 下肢內側",
+      "flashcard_back": "大隱靜脈走在下肢內側並通過內踝前方；小隱靜脈走在下肢後外側並通過外踝後方。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_010",
@@ -206,15 +278,23 @@
         "D": "腋神經(axillary nerve)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肱骨不同部位骨折常伴隨特定的神經損傷：肱骨外科頸骨折最易傷及繞行的腋神經與後肱繞動脈；肱骨中段骨折易傷及走在橈神經溝的橈神經；內上髁骨折則易傷及尺神經。因此，外科頸骨折最可能傷及腋神經，答案選D。",
+      "key_point": "肱骨骨折部位與易受損神經的解剖對應關係。",
+      "flashcard_summary": "肱骨外科頸骨折 / 肱骨中段骨折 / 內上髁骨折 / 神經損傷 -> 外科頸傷及腋神經，中段傷及橈神經，內上髁傷及尺神經。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肱骨外科頸骨折 / 肱骨中段骨折 / 內上髁骨折 / 神經損傷",
+      "flashcard_back": "外科頸骨折傷及腋神經；中段骨折傷及橈神經；內上髁骨折傷及尺神經。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_011",
@@ -227,15 +307,23 @@
         "D": "外展(abduction)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "跗骨隧道位於內踝後下方，通道內包含的肌腱有脛後肌腱、屈趾長肌腱及屈拇長肌腱。當此處所有肌腱受損時，主要負責腳趾關節彎曲的屈趾長肌與屈拇長肌功能將喪失，因此腳趾的屈曲動作受影響最為嚴重。腳趾的伸直則是由前側的伸趾/伸拇長肌負責，不通過跗骨隧道。",
+      "key_point": "跗骨隧道（tarsal tunnel）內通過的肌腱及其功能。",
+      "flashcard_summary": "跗骨隧道 / 內踝後方 / 穿經肌腱 / 腳趾屈曲 -> 跗骨隧道內含屈趾長肌與屈拇長肌腱，受損會損害腳趾屈曲功能。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "跗骨隧道 / 內踝後方 / 穿經肌腱 / 腳趾屈曲",
+      "flashcard_back": "跗骨隧道內含屈趾長肌腱與屈拇長肌腱，受損時會導致腳趾無法「屈曲」。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_012",
@@ -248,15 +336,23 @@
         "D": "杏仁核(amygdala)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "齒狀迴、穹束與下視丘的乳頭體，皆為邊緣系統中負責記憶傳遞的經典巴貝茲迴路（Papez circuit）核心成員。杏仁核雖然廣義上屬於邊緣系統，但其主要負責情緒（如恐懼、憤怒）的處理，並不直接參與此核心記憶環路的運作。因此，在巴貝茲迴路與記憶處理的脈絡下，杏仁核與前三者的功能與結構關聯性最不相關。",
+      "key_point": "邊緣系統中的 Papez 迴路（巴貝茲迴路）組成構造與杏仁核的功能定位。",
+      "flashcard_summary": "巴貝茲迴路 / 邊緣系統 / 記憶環路 / 杏仁核 -> 齒狀迴、穹束與乳頭體參與巴貝茲迴路，而杏仁核主導情緒且不屬於該經典環路。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "巴貝茲迴路 / 邊緣系統 / 記憶環路 / 杏仁核",
+      "flashcard_back": "齒狀迴、穹束與乳頭體皆屬於巴貝茲迴路的記憶環路；杏仁核主要負責情緒，不參與此迴路。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_013",
@@ -269,15 +365,23 @@
         "D": "初級視覺皮質(primary visual cortex)接受外側膝狀體(lateral geniculate body)傳入之訊息"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "初級視覺皮質位於枕葉的距狀溝周圍，負責接收來自視丘外側膝狀體傳遞的視覺訊號。視覺聯合皮質同樣主要分布於枕葉，並向顳葉與頂葉延伸以進行顏色、形狀與運動等高級認知判斷，而非位於額葉（額葉主要負責運動控制與高階決策，如額葉眼野控制眼球共軛運動）。因此選項A敘述錯誤，為正確答案。",
+      "key_point": "視覺皮質（初級與聯合皮質）的解剖位置與傳導通路。",
+      "flashcard_summary": "視覺皮質 / 枕葉 / 外側膝狀體 / 視覺聯合皮質位置 -> 初級與聯合視覺皮質皆位於枕葉，後者不位於額葉。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "視覺皮質 / 枕葉 / 外側膝狀體 / 視覺聯合皮質位置",
+      "flashcard_back": "初級與聯合視覺皮質皆主要位於枕葉，聯合皮質延伸至顳葉及頂葉，而非額葉。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_014",
@@ -290,15 +394,23 @@
         "D": "三叉神經(trigeminal nerve)之眼神經(ophthalmic nerve)參與其機轉"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "瞳孔光反射的傳入（感覺）神經為視神經（CN II），傳出（運動）神經為動眼神經（CN III）之副交感纖維，三叉神經之眼神經（CN V1）主要負責角膜反射的傳入，並未參與瞳孔光反射，故選項D錯誤。光線刺激後，訊號經由視神經傳至中腦的頂蓋前區，再經由後聯合進行雙側交叉投射至雙側的 Edinger-Westphal 核，使得雙眼瞳孔皆收縮。",
+      "key_point": "瞳孔光反射（pupillary light reflex）的傳入與傳出神經路徑。",
+      "flashcard_summary": "瞳孔光反射 / 傳入神經 / 頂蓋前區 / 後聯合 / 傳出神經 -> 瞳孔光反射之傳入為CN II、傳出為CN III，經頂蓋前區與後聯合傳遞，與CN V1無關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "瞳孔光反射 / 傳入神經 / 頂蓋前區 / 後聯合 / 傳出神經",
+      "flashcard_back": "瞳孔光反射由視神經（CN II）傳入，動眼神經（CN III）傳出；中腦頂蓋前區及後聯合參與雙側投射，不涉及三叉神經（CN V1）。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_015",
@@ -311,15 +423,23 @@
         "D": "可參與前庭眼球反射(vestibulo-ocular reflex)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "前庭神經核主要與小腦的絨球小結葉（前庭小腦）以及小腦深部的頂核相聯繫，而非負責大腦小腦計畫運動輸出的齒狀核，因此選項C錯誤。前庭神經核發出的前庭脊髓徑參與維持身體姿勢與平衡，且部分纖維會經由內側縱束投射至控制眼球運動的腦神經核，以參與前庭眼球反射。",
+      "key_point": "前庭神經核（vestibular nuclei）與小腦核及其他結構的連結關係。",
+      "flashcard_summary": "前庭神經核 / 小腦核連結 / 內側縱束 / 前庭眼球反射 -> 前庭神經核連結小腦頂核（非齒狀核），並透過內側縱束調控前庭眼球反射。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "前庭神經核 / 小腦核連結 / 內側縱束 / 前庭眼球反射",
+      "flashcard_back": "前庭神經核主要與小腦的「頂核」相連，而非「齒狀核」；其纖維走在內側縱束中，參與前庭眼球反射與前庭脊髓徑。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_016",
@@ -348,7 +468,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_017",
@@ -377,7 +497,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_018",
@@ -406,7 +526,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_019",
@@ -435,7 +555,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_020",
@@ -464,7 +584,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_021",
@@ -493,7 +613,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_022",
@@ -522,7 +642,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_023",
@@ -551,7 +671,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_024",
@@ -580,7 +700,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_025",
@@ -609,7 +729,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_026",
@@ -638,7 +758,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_027",
@@ -667,7 +787,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_028",
@@ -696,7 +816,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_029",
@@ -725,7 +845,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_030",
@@ -754,7 +874,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_031",
@@ -783,7 +903,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_032",
@@ -812,7 +932,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_033",
@@ -841,7 +961,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_034",
@@ -870,7 +990,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_035",
@@ -899,7 +1019,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_036",
@@ -928,7 +1048,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_037",
@@ -957,7 +1077,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_038",
@@ -986,7 +1106,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_039",
@@ -1015,7 +1135,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_040",
@@ -1044,7 +1164,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_041",
@@ -1073,7 +1193,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_042",
@@ -1102,7 +1222,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_043",
@@ -1131,7 +1251,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_044",
@@ -1160,7 +1280,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_045",
@@ -1189,7 +1309,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_046",
@@ -1218,7 +1338,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_047",
@@ -1247,7 +1367,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_048",
@@ -1276,7 +1396,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_049",
@@ -1304,7 +1424,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_050",
@@ -1333,7 +1453,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_051",
@@ -1362,7 +1482,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_052",
@@ -1391,7 +1511,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_053",
@@ -1420,7 +1540,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_054",
@@ -1449,7 +1569,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_055",
@@ -1478,7 +1598,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_056",
@@ -1507,7 +1627,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_057",
@@ -1536,7 +1656,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_058",
@@ -1564,7 +1684,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_059",
@@ -1593,7 +1713,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_060",
@@ -1626,7 +1746,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_061",
@@ -1655,7 +1775,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_062",
@@ -1684,7 +1804,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_063",
@@ -1713,7 +1833,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_064",
@@ -1742,7 +1862,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_065",
@@ -1771,7 +1891,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_066",
@@ -1800,7 +1920,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_067",
@@ -1829,7 +1949,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_068",
@@ -1858,7 +1978,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_069",
@@ -1887,7 +2007,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_070",
@@ -1916,7 +2036,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_071",
@@ -1945,7 +2065,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_072",
@@ -1974,7 +2094,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_073",
@@ -2003,7 +2123,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_074",
@@ -2032,7 +2152,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_075",
@@ -2061,7 +2181,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_076",
@@ -2090,7 +2210,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_077",
@@ -2119,7 +2239,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_078",
@@ -2148,7 +2268,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_079",
@@ -2177,7 +2297,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_080",
@@ -2206,7 +2326,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_081",
@@ -2235,7 +2355,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_082",
@@ -2264,7 +2384,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_083",
@@ -2293,7 +2413,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_084",
@@ -2322,7 +2442,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_085",
@@ -2351,7 +2471,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_086",
@@ -2380,7 +2500,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_087",
@@ -2409,7 +2529,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_088",
@@ -2438,7 +2558,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_089",
@@ -2467,7 +2587,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_090",
@@ -2496,7 +2616,7 @@
       "category_confidence": "high",
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-11T14:44:59.945236+00:00"
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_091",
@@ -2509,15 +2629,23 @@
         "D": "glutathione reductase利用ATP可直接將GSSG還原成2個GSH"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)錯誤，穀胱甘肽還原酶（glutathione reductase）是利用 NADPH（而非 ATP）作為還原劑，將氧化態的穀胱甘肽雙硫鍵（GSSG）還原成兩個還原態的 GSH 分子。其餘選項均正確：GSH 是由麩胺酸（Glu）、半胱胺酸（Cys）及甘胺酸（Gly）組成的三肽；白三烯（如 LTC4）的合成需要 GSH 參與；GSH 被氧化時會經由雙硫鍵縮合形成 GSSG。",
+      "key_point": "穀胱甘肽還原酶使用 NADPH 將 GSSG 還原成 GSH，而非使用 ATP。",
+      "flashcard_summary": "穀胱甘肽（GSH）/ 氧化態還原（GSSG -> GSH）/ 能量與還原力來源 -> 穀胱甘肽還原酶催化 GSSG 還原為 GSH 時，是利用 NADPH 提供還原力，而非直接利用 ATP。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "穀胱甘肽（GSH）/ 氧化態還原（GSSG -> GSH）/ 能量與還原力來源",
+      "flashcard_back": "穀胱甘肽還原酶催化 GSSG 還原為 GSH 時，是利用 NADPH 提供還原力，而非直接利用 ATP。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_092",
@@ -2530,15 +2658,23 @@
         "D": "tyrosine"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，腎上腺素（epinephrine）屬於兒茶酚胺類（catecholamines）激素，其生合成的起始前驅物為酪胺酸（tyrosine），經由 L-DOPA、多巴胺、去甲腎上腺素等中間產物逐步合成。選項 A 甘胺酸主要用於合成血紅素及嘌呤；選項 B 色胺酸為血清素的前驅物；選項 C 組胺酸為組織胺的前驅物。",
+      "key_point": "酪胺酸（tyrosine）為腎上腺素等兒茶酚胺類激素生合成的前驅物。",
+      "flashcard_summary": "腎上腺素（epinephrine）生合成 / 兒茶酚胺前驅物 / 胺基酸來源 -> 腎上腺素及其他兒茶酚胺激素是由酪胺酸（tyrosine）合成；色胺酸則是血清素的前驅物。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腎上腺素（epinephrine）生合成 / 兒茶酚胺前驅物 / 胺基酸來源",
+      "flashcard_back": "腎上腺素及其他兒茶酚胺激素是由酪胺酸（tyrosine）合成；色胺酸則是血清素的前驅物。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_093",
@@ -2551,15 +2687,23 @@
         "D": "oxaloacetate"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)正確，麩胺酸（glutamic acid）為五碳的酸性胺基酸，其對應的 α-酮酸為三羧酸循環（TCA cycle）的中間產物 α-酮戊二酸（α-ketoglutarate），兩者可藉由轉氨基作用（transamination）直接相互轉化。選項 B 丙酮酸對應丙胺酸；選項 D 草醯乙酸對應天門冬胺酸；選項 C 乙醯乙酸為酮體，不參與此類直接轉氨基反應。",
+      "key_point": "α-酮戊二酸（α-ketoglutarate）經由轉氨基作用直接合成麩胺酸（glutamic acid）。",
+      "flashcard_summary": "麩胺酸（glutamic acid）合成 / 轉氨基作用 / 對應的酮酸前驅物 -> 麩胺酸經由轉氨基作用直接對應的酮酸是 α-酮戊二酸（α-ketoglutarate）；丙酮酸對應丙胺酸，草醯乙酸對應天門冬胺酸。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "麩胺酸（glutamic acid）合成 / 轉氨基作用 / 對應的酮酸前驅物",
+      "flashcard_back": "麩胺酸經由轉氨基作用直接對應的酮酸是 α-酮戊二酸（α-ketoglutarate）；丙酮酸對應丙胺酸，草醯乙酸對應天門冬胺酸。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_094",
@@ -2572,15 +2716,23 @@
         "D": "tyrosine"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)正確，血清素（serotonin，即 5-羥色胺）在體內是由必需胺基酸色胺酸（tryptophan）經過羥化及去羧作用合成而來。選項 A 精胺酸是一氧化氮（NO）的前驅物；選項 B 麩胺酸是抑制性神經傳導物質 GABA 的前驅物；選項 D 酪胺酸則是用於合成兒茶酚胺類神經傳導物質與甲狀腺素。",
+      "key_point": "色胺酸（tryptophan）是血清素（serotonin）生合成的前驅胺基酸。",
+      "flashcard_summary": "血清素（serotonin / 5-HT）生合成 / 胺基酸前驅物 -> 血清素是由色胺酸（tryptophan）合成；酪胺酸則是用於合成多巴胺及腎上腺素等兒茶酚胺。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "血清素（serotonin / 5-HT）生合成 / 胺基酸前驅物",
+      "flashcard_back": "血清素是由色胺酸（tryptophan）合成；酪胺酸則是用於合成多巴胺及腎上腺素等兒茶酚胺。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_095",
@@ -2593,15 +2745,23 @@
         "D": "合成ATP的過程中涉及ATP synthase之四級結構變化"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)錯誤，ATP 合成酶（ATP synthase）位於粒線體內膜，其利用質子泵回流時產生的質子濃度梯度，在面向粒線體基質（matrix）的 F1 次單位催化 ADP 與無機磷酸合成 ATP，因此新合成的 ATP 會直接釋放至粒線體基質中，而非內外膜之間的間隙。其餘選項均正確，合成過程中確實涉及轉子部分的構型與四級結構變化。",
+      "key_point": "ATP 合成酶（ATP synthase）是在粒線體基質（matrix）中形成 ATP。",
+      "flashcard_summary": "ATP 合成酶（ATP synthase）/ ATP 釋放位置 / 粒線體構造 -> ATP 合成酶在內膜催化 ATP 合成，產生的 ATP 直接釋放於基質（matrix），而非膜間隙。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ATP 合成酶（ATP synthase）/ ATP 釋放位置 / 粒線體構造",
+      "flashcard_back": "ATP 合成酶在內膜催化 ATP 合成，產生的 ATP 直接釋放於基質（matrix），而非膜間隙。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_096",
@@ -2614,15 +2774,23 @@
         "D": "Cytochrome c(Cyt c)可協助將電子由complex III傳遞至complex IV"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)錯誤，輔酶 Q（Coenzyme Q）是電子傳遞鏈中脂溶性的電子載體，負責接收來自複合體 I（NADH 氧化）或複合體 II（FADH2 氧化）的電子，並將其遞送至複合體 III，其並不在複合體 I 與 II 之間傳遞電子。其餘選項均正確：氧分子（O2）為電子的最終接受者；NADH 的氧化發生於複合體 I；細胞色素 c 則負責將電子自複合體 III 傳遞至 IV。",
+      "key_point": "輔酶 Q（CoQ）負責將電子由複合體 I 或 II 傳遞至複合體 III，而非在 I 與 II 之間傳遞。",
+      "flashcard_summary": "電子傳遞鏈 / 輔酶 Q（CoQ）/ 電子傳遞路徑 -> 輔酶 Q 是將電子由複合體 I 或 II 傳至複合體 III，並非在複合體 I 與 II 之間傳遞。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "電子傳遞鏈 / 輔酶 Q（CoQ）/ 電子傳遞路徑",
+      "flashcard_back": "輔酶 Q 是將電子由複合體 I 或 II 傳至複合體 III，並非在複合體 I 與 II 之間傳遞。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_097",
@@ -2635,15 +2803,23 @@
         "D": "形成pRb-E2F複合體"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(C)正確，在 G1 期向 S 期過渡的調節中，CDK2 會將 retinoblastoma protein (pRb) 磷酸化。磷酸化後的 pRb 會喪失與轉錄因子 E2F 的結合能力，游離的 E2F 便能進入核內活化 DNA 複製所需酵素的基因轉錄，推動細胞週期。相反地，p53 與 p21 的活化會抑制 CDK，阻止細胞進入 S 期；形成 pRb-E2F 複合體則是處於抑制狀態。",
+      "key_point": "CDK2 磷酸化 pRb 可釋放轉錄因子 E2F，啟動 S 期所需的基因表達。",
+      "flashcard_summary": "細胞週期 G1 進 S 期 / pRb 磷酸化 / E2F 釋放 -> CDK2 磷酸化 pRb 會使其與 E2F 分解，釋放的 E2F 轉錄因子可刺激 DNA 合成所需酶類的生成。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "細胞週期 G1 進 S 期 / pRb 磷酸化 / E2F 釋放",
+      "flashcard_back": "CDK2 磷酸化 pRb 會使其與 E2F 分解，釋放的 E2F 轉錄因子可刺激 DNA 合成所需酶類的生成。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_098",
@@ -2656,15 +2832,23 @@
         "D": "Ras蛋白"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(A)正確，類固醇受體（steroid receptors）位於細胞質或細胞核內，結合配體後會直接作為轉錄因子調控基因表達，完全不涉及細胞膜上的 G 蛋白訊息傳遞路徑。選項 B 腺苷酸環化酶與選項 C 磷脂酶 C 分別為 Gs 與 Gq 路徑的效應器，選項 D Ras 則屬於單體小 G 蛋白，皆與 G 蛋白路徑密切相關。",
+      "key_point": "類固醇受體（steroid receptors）為細胞內受體，不經由 G 蛋白訊息傳遞。",
+      "flashcard_summary": "G 蛋白訊息傳遞 / 類固醇受體 / 訊息轉導無關蛋白 -> 類固醇受體為細胞內受體，直接調控基因轉錄，與膜上 G 蛋白訊息傳遞路徑無關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "G 蛋白訊息傳遞 / 類固醇受體 / 訊息轉導無關蛋白",
+      "flashcard_back": "類固醇受體為細胞內受體，直接調控基因轉錄，與膜上 G 蛋白訊息傳遞路徑無關。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_099",
@@ -2677,15 +2861,23 @@
         "D": "以螺旋-環-螺旋結構(helix-loop-helix motif)與鈣離子結合"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(B)錯誤，攜鈣素（Calmodulin）每個分子含有四個以螺旋-環-螺旋（helix-loop-helix，即 EF-hand）結構組成的鈣離子結合區。與鈣結合後會暴露出一具疏水性的兩性 α 螺旋（amphipathic α-helix，而非 β-sheet）結構域，用來與標靶蛋白（如多種蛋白激酶）相互作用以調節活性。",
+      "key_point": "攜鈣素（Calmodulin）利用兩性 α 螺旋（amphipathic α-helix）與標靶蛋白質結合，而非 β 折疊。",
+      "flashcard_summary": "攜鈣素（Calmodulin）/ 鈣離子結合結構 / 與標靶蛋白作用結構 -> 攜鈣素以 EF-hand（螺旋-環-螺旋）結合鈣離子，並以兩性 α 螺旋（非 β 折疊）與標靶蛋白作用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "攜鈣素（Calmodulin）/ 鈣離子結合結構 / 與標靶蛋白作用結構",
+      "flashcard_back": "攜鈣素以 EF-hand（螺旋-環-螺旋）結合鈣離子，並以兩性 α 螺旋（非 β 折疊）與標靶蛋白作用。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "108-1_medicine-1_100",
@@ -2698,15 +2890,23 @@
         "D": "CaCl2處理細菌後再以熱休克法(heat shock)將質體送入細菌中"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "正解(D)正確，實驗室中將質體 DNA 轉入細菌最常用的方法，是先用低溫的氯化鈣（CaCl2）處理細菌以增加細胞壁的通透性（使其成為感受態細胞），隨後短暫置於 42°C 進行熱休克（heat shock），使質體得以進入菌體。其餘選項如低電壓電泳法、噬菌體轉染法與微注射法，皆非實驗室中最常用的細菌轉型方法。",
+      "key_point": "實驗室中最常用氯化鈣（CaCl2）配合熱休克（heat shock）進行細菌質體轉型。",
+      "flashcard_summary": "細菌轉型（transformation）/ 質體送入細菌 / 最常用實驗室方法 -> 細菌轉型最常用 CaCl2 溶液處理使其成為感受態細胞，再藉由熱休克（heat shock）將質體導入。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "細菌轉型（transformation）/ 質體送入細菌 / 最常用實驗室方法",
+      "flashcard_back": "細菌轉型最常用 CaCl2 溶液處理使其成為感受態細胞，再藉由熱休克（heat shock）將質體導入。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     }
   ]
 }

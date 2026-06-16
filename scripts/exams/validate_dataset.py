@@ -117,10 +117,38 @@ def validate_many(paths: list[str]) -> dict[str, Any]:
     }
 
 
+def issue_signature(dataset_path: str, issue: dict[str, Any]) -> str:
+    return json.dumps(
+        {
+            "path": dataset_path.replace("\\", "/"),
+            "index": issue.get("index"),
+            "question_number": issue.get("question_number"),
+            "code": issue.get("code"),
+            "message": issue.get("message"),
+        },
+        ensure_ascii=False,
+        sort_keys=True,
+    )
+
+
+def collect_issue_signatures(report: dict[str, Any]) -> set[str]:
+    signatures: set[str] = set()
+    for dataset_report in report.get("reports", []):
+        dataset_path = str(dataset_report.get("path", ""))
+        for current_issue in dataset_report.get("issues", []):
+            signatures.add(issue_signature(dataset_path, current_issue))
+    return signatures
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate generated frontend exam datasets.")
     parser.add_argument("paths", nargs="+", help="Dataset JSON paths or glob patterns")
     parser.add_argument("--out", default=None, help="Optional report JSON path")
+    parser.add_argument(
+        "--baseline",
+        default=None,
+        help="Optional baseline report JSON. Existing known issues in the baseline will not fail validation.",
+    )
     args = parser.parse_args()
 
     expanded: list[str] = []
@@ -136,6 +164,23 @@ def main() -> None:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(output, encoding="utf-8")
     print(output)
+
+    if args.baseline:
+        baseline_path = Path(args.baseline)
+        baseline_report = json.loads(baseline_path.read_text(encoding="utf-8"))
+        baseline_signatures = collect_issue_signatures(baseline_report)
+        current_signatures = collect_issue_signatures(report)
+        new_signatures = sorted(current_signatures - baseline_signatures)
+
+        summary = {
+            "baseline_issue_count": len(baseline_signatures),
+            "current_issue_count": len(current_signatures),
+            "new_issue_count": len(new_signatures),
+        }
+        print(json.dumps(summary, ensure_ascii=False, indent=2))
+        if new_signatures:
+            raise SystemExit(1)
+        raise SystemExit(0)
 
     if report["total_issues"] > 0:
         raise SystemExit(1)

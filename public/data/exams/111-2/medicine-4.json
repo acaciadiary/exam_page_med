@@ -4,7 +4,7 @@
   "title": "111 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111080&q=1&s=22&t=Q",
-  "updated_at": "2026-06-11T14:37:10.196905+00:00",
+  "updated_at": "2026-06-16T16:08:23.648153+00:00",
   "questions": [
     {
       "id": "111-2_medicine-4_001",
@@ -17,15 +17,23 @@
         "D": "Oxacillin + Clindamycin"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者出現發燒、低血壓休克、全身紅疹及局部皮膚化膿紅腫，高度符合毒性休克症候群（TSS）。針對此症，首選治療策略為給予對抗金黃色葡萄球菌或鏈球菌的乙內醯胺類抗生素（如Oxacillin），並合併使用克林黴素（Clindamycin）；Clindamycin為蛋白質合成抑制劑，能有效抑制毒素的製造，對改善病情與降低死亡率至關重要。單用Ampicillin、Oxacillin或合併Gentamicin皆無法有效抑制毒素釋放。",
+      "key_point": "毒性休克症候群的經驗性治療應使用乙內醯胺類抗生素合併克林黴素以抑制毒素製造。",
+      "flashcard_summary": "毒性休克症候群（TSS）治療 -> 首選Oxacillin + Clindamycin以協同殺菌並抑制毒素分泌",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "毒性休克症候群（TSS） / 局部皮膚感染伴休克與皮疹 / 合併抗生素治療 / 抑制毒素製造",
+      "flashcard_back": "TSS首選治療為Oxacillin（或Vancomycin）加上Clindamycin，其中Clindamycin具抑制細菌毒素釋放之效果。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_002",
@@ -38,15 +46,23 @@
         "D": "Bartonellaquintana"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "貓抓病（Cat scratch disease）是由漢氏巴通體（*Bartonella henselae*）所引起的人畜共通傳染病，主要經由被貓抓傷或咬傷而傳播。五日熱巴通體（*Bartonella quintana*）則為戰壕熱（trench fever）的病原；犬布氏桿菌與洋蔥伯克氏菌之臨床特徵及傳播媒介均不同，非此病之致病菌。",
+      "key_point": "貓抓病（Cat scratch disease）的致病原為漢氏巴通體（Bartonella henselae）。",
+      "flashcard_summary": "貓抓病致致病原 -> 漢氏巴通體（*Bartonella henselae*）；五日熱巴通體則引起戰壕熱",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "貓抓病（Cat scratch disease） / 致病原 / 巴通體屬 / 貓抓咬傷",
+      "flashcard_back": "貓抓病的致病原為漢氏巴通體（*Bartonella henselae*），主要導致局部淋巴結腫大與發燒。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_003",
@@ -59,15 +75,23 @@
         "D": "熱性痙攣(Febrile convulsion)是可能的併發症"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "嬰兒玫瑰疹（Roseola infantum）的典型臨床表現為持續高燒數天後，體溫驟降且軀幹迅速出現不癢的紅疹。此病最主要的致病原為人類疱疹病毒第六型（HHV-6）及第七型（HHV-7），而人類疱疹病毒第八型（HHV-8）則是卡波西氏肉瘤的病原，故選項B錯誤。Nagayama spots為軟顎及懸雍垂處的黏膜疹，多見於亞洲病童，且高燒期間可能併發熱性痙攣。",
+      "key_point": "嬰兒玫瑰疹的主要致病原為人類疱疹病毒第六型（HHV-6）。",
+      "flashcard_summary": "嬰兒玫瑰疹特點 -> 由HHV-6/7引起（非HHV-8），典型為燒退疹出，可見Nagayama spots",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "嬰兒玫瑰疹（Roseola） / 燒退疹出 / 致病病毒 / 黏膜Nagayama spots / 併發症",
+      "flashcard_back": "嬰兒玫瑰疹主要由HHV-6（或HHV-7）感染引起，而非HHV-8；臨床特徵為燒退才出疹，常伴Nagayama spots及熱性痙攣風險。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_004",
@@ -80,15 +104,23 @@
         "D": "治療先天性梅毒首選的抗生素是Penicillin-G"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "母體IgG抗體可通過胎盤，導致未受感染的新生兒在血液VDRL篩檢中亦可能呈現陽性反應，因此不能單憑新生兒VDRL陽性直接確診先天性梅毒，須比對母子抗體效價（通常高於母體4倍以上始具診斷意義），故選項A敘述錯誤。此垂直感染可能於孕期任何階段發生，早期多侵犯肝脾致腫大與黃疸，晚期侵犯神經與骨關節，且Penicillin-G為臨床上首選的治療藥物。",
+      "key_point": "新生兒VDRL陽性可能受母體IgG抗體轉移影響，確診先天性梅毒需比對效價或結合臨床特徵。",
+      "flashcard_summary": "先天性梅毒診斷與治療 -> 新生兒VDRL陽性不等於確診（可能為母體抗體移入）；治療首選Penicillin-G",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "先天性梅毒 / 新生兒VDRL陽性意義 / 確診條件 / 首選抗生素",
+      "flashcard_back": "新生兒VDRL陽性可能為母體抗體轉移，確診需比對效價（>母體4倍）或合併臨床特徵；首選藥物為Penicillin-G。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_005",
@@ -101,15 +133,23 @@
         "D": "新生兒餵食量(Feeding amount)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "中性環境溫度（NTE）是指新生兒能維持正常體溫且氧氣消耗與代謝率最少的外界環境溫度。其調控設定高度依賴於影響嬰兒散熱的物理環境因子（如對流、輻射及空氣相對濕度）以及新生兒本身的發育成熟度（出生週數與體重）；新生兒的每日餵食量並不會直接影響NTE的調控與設定。",
+      "key_point": "中性環境溫度（NTE）受散熱因子與嬰兒發育成熟度影響，與餵食量無關。",
+      "flashcard_summary": "中性環境溫度（NTE）影響因素 -> 受對流、濕度及出生週數/體重影響；與餵食量無關",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "中性環境溫度（NTE） / 定義 / 影響設定之因素 / 餵食量角色",
+      "flashcard_back": "NTE是代謝氧耗最少且維持體溫的環境溫度，主要受散熱因子（對流、濕度）與嬰兒成熟度（週數）影響，與餵食量無關。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_006",
@@ -122,15 +162,23 @@
         "D": "Noonan syndrome"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "新生兒期出現低位耳、下頜發育不全等面部異常，並合併因副甲狀腺發育不良導致的低血鈣性肌肉強直（tetany），為迪喬治症候群（DiGeorge syndrome, 22q11.2微缺失）的典型特徵。該病因胚胎發育時第三、四咽囊發育障礙所致，常合併胸腺發育不良（T細胞免疫缺陷）及先天性心臟病。特納氏症、Wiskott-Aldrich症候群及Noonan症候群的面部或病理生理特徵均與此低血鈣表現不同。",
+      "key_point": "迪喬治症候群（DiGeorge syndrome）因副甲狀腺發育不良常在新生兒期引發低血鈣性肌肉強直。",
+      "flashcard_summary": "迪喬治症候群（DiGeorge syndrome） -> 22q11.2缺失，特徵包括低血鈣抽搐、面部異常（低位耳/小頷）及心血管/免疫異常",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "新生兒低血鈣抽搐（tetany） / 低位耳 / 下頜發育不良 / 咽囊發育障礙",
+      "flashcard_back": "診斷為迪喬治症候群（DiGeorge syndrome），由22q11.2缺失導致第三、四咽囊發育不全，特徵為低血鈣、免疫缺陷與心臟畸形。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_007",
@@ -143,15 +191,23 @@
         "D": "喉頭軟化症(laryngomalacia)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "新生兒出生後口鼻冒泡（因唾液無法吞嚥）、餵食時嗆咳與發紺，且放置胃管受阻無法通過，為食道閉鎖（esophageal atresia, EA）的典型臨床表現。此病常伴隨氣管食道廔管（TEF）。先天性橫膈膜疝氣多以呼吸窘迫與舟狀腹表現；後鼻孔閉鎖主要在閉口時呼吸困難；喉頭軟化症則以吸氣性喘鳴（stridor）為主，且皆不會導致胃管無法置入。",
+      "key_point": "食道閉鎖的典型表現為新生兒口鼻冒泡泡、餵食嗆咳及胃管置入受阻。",
+      "flashcard_summary": "食道閉鎖（EA） -> 新生兒口鼻冒泡、餵食嗆咳、胃管置入受阻",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "新生兒口鼻冒泡 / 餵食嗆咳與發紺 / 胃管置入受阻 / 氣管食道廔管",
+      "flashcard_back": "典型食道閉鎖（EA）表現，唾液無法下嚥導致冒泡，胃管置入受限，需行X光檢查（含管路折返顯影）確診。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_008",
@@ -164,15 +220,23 @@
         "D": "體溫36.8°C"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "足月（40週）新生兒的平均體重約為3.3公斤，身長約為50公分，體溫介於36.5至37.5°C之間，頭圍平均則為33至35公分。頭圍達38公分顯著超出正常上限（通常>97百分位），提示可能存在腦積水（hydrocephalus）或其他顱內病變，屬於明顯異常指標，需進一步腦部超音波評估。",
+      "key_point": "足月新生兒正常頭圍約在33-35公分，38公分顯著偏大，提示有腦積水等異常。",
+      "flashcard_summary": "足月新生兒頭圍標準 -> 平均為 33-35 公分；38 公分顯著偏大，屬異常",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "足月新生兒正常生長數值 / 體重與身長 / 平均頭圍 / 異常大頭圍",
+      "flashcard_back": "足月兒平均頭圍為33-35公分；若頭圍達38公分屬異常偏大（巨頭症），需懷疑腦積水等問題。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_009",
@@ -185,15 +249,23 @@
         "D": "沙門氏菌敗血症(Salmonellosis)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性膽囊水腫（Acute hydrops of the gallbladder）指無結石性的膽囊急性擴張，在兒童常繼發於全身性感染或發炎反應，如川崎氏病、病毒性肝炎、沙門氏菌敗血症或鏈球菌感染。囊腫性纖維化（Cystic fibrosis）主要導致膽汁黏稠，其膽囊病變多表現為小膽囊（microgallbladder）、膽石症或膽道硬化，極不易出現急性膽囊水腫，故選項B正確。",
+      "key_point": "囊腫性纖維化不易導致急性膽囊水腫，後者主要與川崎氏病或感染有關。",
+      "flashcard_summary": "急性膽囊水腫病因 -> 常見於川崎氏病、發炎/感染；囊腫性纖維化（CF）不易引起此症",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性膽囊水腫 / 兒童無結石膽囊擴張 / 川崎氏病關聯 / 囊腫性纖維化表現",
+      "flashcard_back": "急性膽囊水腫常繼發於川崎氏病、肝炎或沙門氏菌感染；囊腫性纖維化則主要引起小膽囊或膽石症，不易見到急性膽囊水腫。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_010",
@@ -206,15 +278,23 @@
         "D": "Autoimmune hepatitis"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "吉爾博特症候群（Gilbert syndrome）是因膽紅素尿苷雙磷酸轉移酶（UGT1A1）活性降低所致的良性遺傳性疾病，特徵為壓力、感染（感冒）、飢餓或月經來潮時出現一過性、間接型（非結合型）膽紅素升高，無溶血且其餘肝功能皆正常。杜賓-強森症候群（Dubin-Johnson）以直接型膽紅素升高為主；威爾森氏症與自體免疫性肝炎則會伴隨嚴重的肝功能指標（ALT/AST）異常，不會僅有輕微間接型黃疸。",
+      "key_point": "吉爾博特症候群（Gilbert syndrome）為常因壓力或感冒誘發的良性間接型黃疸。",
+      "flashcard_summary": "吉爾博特症候群（Gilbert syndrome） -> 壓力/感冒誘發的輕微間接型黃疸，無溶血且其餘肝功能正常",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "間接型膽紅素上升 / 壓力或感冒誘發黃疸 / 肝功能正常且無溶血 / UGT1A1活性降低",
+      "flashcard_back": "診斷為吉爾博特症候群（Gilbert syndrome），為良性間接型高膽紅素血症，常由生理壓力誘發，不需特殊治療。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_011",
@@ -227,15 +307,23 @@
         "D": "鋇劑灌腸檢查(barium enema examination)可見病變處狹窄"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在先天性巨結腸症（Hirschsprung disease）患者中，由於直腸神經節細胞缺失，導致直腸指檢或氣囊充氣時「肛門內括約肌無法反射性放鬆」，即直腸肛門抑制反射（RAIR）消失，故括約肌壓力不會下降，選項A敘述錯誤。直腸指診拔出手指時常伴隨氣體與糞便噴出（爆發式排泄）；直腸吸取式切片（rectal biopsy）為診斷黃金標準；鋇劑灌腸則可顯示遠端病變處狹窄與近端正常大腸擴張之間的轉移帶（transition zone）。",
+      "key_point": "先天性巨結腸症患者在直腸內壓測定中，肛門內括約肌無法反射性放鬆（壓力不降）。",
+      "flashcard_summary": "先天性巨結腸症診斷 -> RAIR反射消失（括約肌壓力不降）；確診靠直腸切片，鋇劑灌腸可見轉移帶",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "先天性巨結腸症 / 肛門直腸壓力測定（RAIR） / 診斷黃金標準 / 鋇劑灌腸特徵",
+      "flashcard_back": "患者缺乏肛門內括約肌的反射性放鬆（RAIR消失，壓力不降）；確診靠直腸組織切片（無神經節細胞）；鋇劑灌腸可見轉移帶與狹窄段。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_012",
@@ -248,15 +336,23 @@
         "D": "腎病症候群(Nephrotic syndrome)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者在皮膚化膿性感染約一個月後，出現水腫、少尿、血尿（OB 3+、RBC高）及輕微蛋白尿，高度符合急性鏈球菌感染後腎絲球腎炎（APSGN）之臨床特徵。APSGN好發於兒童，潛伏期在皮膚感染後約3-6週，發病機制為免疫複合物沉積於腎絲球。急性腎盂腎炎以發燒與膿尿為主；腎病症候群則會出現大量蛋白尿（>3.5g/day或兒童比值高）與嚴重水腫，但無明顯前驅感染關聯。",
+      "key_point": "皮膚感染數週後出現水腫、少尿與血尿，高度符合急性鏈球菌感染後腎絲球腎炎。",
+      "flashcard_summary": "急性鏈球菌感染後腎絲球腎炎（APSGN） -> 皮膚或咽喉鏈球菌感染後，出現血尿、水腫、高血壓及C3下降",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "兒童皮膚感染後 / 數週出現血尿與眼皮水腫 / 少尿與高血壓 / 補體C3下降",
+      "flashcard_back": "診斷為急性鏈球菌感染後腎絲球腎炎（APSGN），屬免疫複合物疾病，典型潛伏期為喉嚨感染後1-2週或皮膚感染後3-6週，常有補體C3下降。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_013",
@@ -269,15 +365,23 @@
         "D": "血液不易凝固(Hypocoagulability)的狀態"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腎病症候群（Nephrotic syndrome）的患者由於尿中大量流失抗凝血物質（如Antithrombin III），且肝臟補償性製造更多凝血因子（如fibrinogen），體內實處於「高凝血狀態」（hypercoagulability），極易併發血栓，而非「血液不易凝固」，故選項D錯誤。其餘特徵如大量蛋白尿、低白蛋白血症導致的血管內滲透壓降低、以及肝臟製造脂蛋白增加造成的高血脂症，皆為典型的病理生理表現。",
+      "key_point": "腎病症候群由於尿中抗凝血蛋白流失，患者血液處於高凝血狀態而非低凝血狀態。",
+      "flashcard_summary": "腎病症候群凝血狀態 -> 處於高凝血（hypercoagulability）狀態，易發生血栓，非低凝血",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腎病症候群 / 四大特徵 / 凝血狀態變化 / 血栓風險",
+      "flashcard_back": "特徵包含大量蛋白尿、低白蛋白血症、水腫及高血脂；患者因尿中流失Antithrombin III而處於「高凝血（易血栓）狀態」。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_014",
@@ -290,15 +394,23 @@
         "D": "此代謝性酸中毒(Metabolic acidosis)可能因癲癇發作而引起"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "計算該病患的陰離子間隙（Anion Gap, AG）為：Na⁺ - (Cl⁻ + HCO₃⁻) = 140 - (98 + 17) = 25 mEq/L，遠大於正常值（約12），屬於「高陰離子間隙」（high anion gap）代謝性酸中毒，故選項B描述錯誤。此酸中毒主要是癲癇大發作時肌肉強烈收縮產生乳酸積聚（乳酸中毒）所致；同時病患PaCO₂值為46 mmHg且pH偏低，合併有呼吸性酸中毒，治療以控制癲癇發作及提供適當呼吸支持為主。",
+      "key_point": "癲癇大發作引起的乳酸酸中毒，屬於高陰離子間隙代謝性酸中毒。",
+      "flashcard_summary": "癲癇發作後酸中毒 -> 混合性酸中毒伴高陰離子間隙（High AG，乳酸中毒）；治療為控痙攣與給氧通氣",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "癲癇大發作後酸鹼異常 / 陰離子間隙（AG）計算 / 乳酸中毒 / 混合性酸中毒",
+      "flashcard_back": "癲癇發作易引起乳酸堆積，導致高陰離子間隙（High AG）代謝性酸中毒；若PaCO2亦升則合併呼吸性酸中毒；治療為控制抽搐與支持呼吸。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_015",
@@ -311,15 +423,23 @@
         "D": "頻繁的肌跳躍(Myoclonic jerks)是重症前兆"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腸病毒重症（尤其是EV71）若侵犯腦幹引起腦炎，易併發交感神經風暴與急性肺水腫，此時給予大量輸液會加劇肺水腫與腦水腫，因此臨床上需限制液體輸入量（fluid restriction）而非大量補液，故選項A敘述錯誤。腸病毒重症好發於5歲以下幼童，頻繁的肌跳躍（myoclonic jerks）是中樞神經受損的關鍵重症前兆，且EV71為腦幹脊髓炎之主要致病原。",
+      "key_point": "腸病毒重症病患為防止急性肺水腫與腦水腫，液體管理應採限制輸液而非大量補液。",
+      "flashcard_summary": "腸病毒重症水份管理 -> 預防肺/腦水腫需限制輸液，禁忌大量補液；肌跳躍為神經系統重症前兆",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腸病毒重症（EV71） / 限水 vs 大量輸液 / 腦幹脊髓炎 / 重症前兆",
+      "flashcard_back": "腸病毒重症易發肺水腫與腦水腫，治療須「限制輸液（限水）」而非大量補液；肌跳躍為神經受損之重症前兆。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_016",
@@ -332,15 +452,23 @@
         "D": "Guillian-Barré syndrome"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "幼童突發雙腳無法行走（常因小腿肌肉劇烈疼痛引起）、發燒，且血清中肌酸激酶（CK）異常升高至正常值20倍，高度符合急性肌炎（Acute myositis，常見為病毒性感染如流感引起的良性急性肌炎）。急性橫斷性脊髓炎、重症肌無力及吉蘭-巴雷症候群（GBS）皆屬於神經系統病變，其肌肉本身並無急性發炎壞死，故不會出現CK值如此高倍數上升的現象。",
+      "key_point": "幼童突發步行困難伴隨發燒與CK值顯著升高，高度診斷為急性肌炎。",
+      "flashcard_summary": "急性肌炎（Acute myositis） -> 幼童發燒、雙腿痛無法行走、CK值顯著升高",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "幼童發燒 / 雙下肢突發無法行走 / 肌肉痛 / CK值高20倍",
+      "flashcard_back": "診斷為急性肌炎（Acute myositis），高CK值為肌肉發炎壞死之指標，常與流感等病毒感染相關；神經性疾病如GBS的CK值多為正常。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_017",
@@ -353,15 +481,23 @@
         "D": "Viral myositis"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者在腹瀉後出現漸進性四肢無力與感覺異常，伴隨深部肌腱反射減弱，且腦脊髓液呈現典型的「蛋白-細胞分離」（蛋白質顯著升高至105 mg/dL，而白血球為0），高度診斷為急性發炎性脫髓鞘多發性神經病變（AIDP，即吉蘭-巴雷症候群 GBS）。小兒麻痺症會有發燒與不對稱性無力，且CSF白血球會升高；重症肌無力不會有感覺異常，且CSF正常；病毒性肌炎則以肌肉痛與CK值升高為主。",
+      "key_point": "吉蘭-巴雷症候群（AIDP）在CSF檢查中呈現典型的蛋白-細胞分離現象。",
+      "flashcard_summary": "吉蘭-巴雷症候群（AIDP/GBS） -> 前驅感染後進行性對稱無力、腱反射減弱，CSF呈現蛋白細胞分離",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腹瀉後漸進性四肢無力 / 深部肌腱反射減弱 / 腦脊髓液蛋白細胞分離 / 脫髓鞘病變",
+      "flashcard_back": "診斷為吉蘭-巴雷症候群（GBS / AIDP），核心特徵為前驅感染史、反射減弱，以及CSF高蛋白但細胞數正常（蛋白細胞分離）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_018",
@@ -374,15 +510,23 @@
         "D": "身體中線兩側的皮膚呈現半紅半白(Harlequin color change),係屬暫時性的,無任何意義"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "胎頭血腫（Cephalohematoma）是骨膜下的出血，受限於骨縫邊緣，因此「絕不會越過骨縫」；會越過骨縫的軟腫塊則是產瘤（Caput succedaneum），故選項B敘述錯誤。Moro反射不對稱常提示鎖骨骨折或臂神經叢損傷；毒性紅斑為新生兒期常見且良性的無害皮疹；丑角顏色變化則為暫時性自主神經調節不成熟所致，均屬正常或自限性表現。",
+      "key_point": "胎頭血腫是骨膜下出血，因此其界限清楚且絕不會越過骨縫。",
+      "flashcard_summary": "新生兒產瘤與胎頭血腫區分 -> 越過骨縫者為產瘤（Caput），不越過骨縫者為胎頭血腫（Cephalohematoma）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "新生兒頭部腫塊 / 越過骨縫 vs 不越過骨縫 / 產瘤 vs 胎頭血腫",
+      "flashcard_back": "產瘤（Caput）會越過骨縫，為皮下水腫；胎頭血腫（Cephalohematoma）是骨膜下出血，因此限制在骨縫內、不越過骨縫。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_019",
@@ -395,15 +539,23 @@
         "D": "1 mg 升糖素(glucagon)靜脈注射後,病人血糖值為90 mg/dL"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "高胰島素血症（Hyperinsulinism）會強烈抑制脂肪分解與酮體生成，因此在低血糖發作時，典型表現為「低酮體性低血糖」，血清酮體應被壓抑在極低水準（<0.6 mmol/L）；若酮體高達3.0 mmol/L，表示酮體生成未受抑制，不支持該診斷，故選C。此外，此時血中胰島素值仍屬可測得範圍（>2-3 μU/mL）、游離脂肪酸偏低，以及注射Glucagon後因肝醣充足而出現明顯的血糖回升，皆符合高胰島素症特徵。",
+      "key_point": "高胰島素血症性低血糖症由於胰島素抑制脂肪分解與酮體生成，呈現低酮性低血糖。",
+      "flashcard_summary": "高胰島素血症低血糖特徵 -> 游離脂肪酸及酮體皆低下（不應出現高酮體）；注射升糖素會使血糖大幅上升",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "高胰島素血症低血糖 / 酮體濃度 / 游離脂肪酸 / 升糖素刺激試驗反應",
+      "flashcard_back": "高胰島素血症具「抑制酮體與游離脂肪酸」特性，呈低酮性低血糖（酮體不高）；且因肝醣儲存多，注射升糖素後血糖會顯著上升（>30 mg/dL）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_020",
@@ -416,15 +568,23 @@
         "D": "陰毛發育(development of pubic hair)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "男童青春期第二性徵的發育順序中，最先出現的特徵是睪丸變大（體積化達4 mL，約在Tanner第二期），接著是陰毛發育與陰莖變長。男性的身高生長衝刺（growth spurt）在發育過程中出現得相對較晚（通常在Tanner第四期，即睪丸與陰莖已顯著發育後），與女性在乳房發育初期即出現生長衝刺不同，故為選項中最晚出現者。",
+      "key_point": "男童青春期發育的最早特徵是睪丸變大，而生長衝刺（growth spurt）則發生在發育晚期。",
+      "flashcard_summary": "男童青春期發育順序 -> 睪丸變大最早，生長衝刺（growth spurt）發生在較晚期",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "男童青春期發育順序 / 最早特徵 / 最晚特徵 / 生長衝刺時機",
+      "flashcard_back": "男童發育最先為睪丸變大（≧4 mL）；生長衝刺（growth spurt）則發生在較晚的發育階段（約Tanner第四期），為選項中最晚出現者。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_021",
@@ -437,15 +597,23 @@
         "D": "吞噬細胞趨化性缺陷(phagocyte chemotaxis defect)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "幼童反覆出現皮膚與臟器膿瘍、骨髓炎及全身性濕疹，是吞噬細胞功能異常（如趨化性缺陷或殺菌功能缺陷）的典型表現，如Job氏症候群（高IgE症候群）即伴隨中性球趨化缺陷與嚴重濕疹。T細胞缺陷主要表現為嚴重的病毒、真菌或伺機性感染及發育不良；自然殺手細胞或補體缺陷之臨床表現主要為病毒感染或特定細菌腦膜炎，而非反覆局部化膿性膿瘍。",
+      "key_point": "幼童反覆臟器與皮膚膿瘍、骨髓炎及全身性濕疹，常見於吞噬細胞趨化性缺陷。",
+      "flashcard_summary": "反覆膿瘍與濕疹缺陷 -> 吞噬細胞趨化性或功能缺陷（如Job氏症候群/高IgE症候群）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "反覆臟器與皮膚膿瘍 / 骨髓炎 / 全身性濕疹 / 先天免疫缺陷",
+      "flashcard_back": "高機率為吞噬細胞趨化性缺陷（如Job's syndrome，常伴隨高IgE）或吞噬細胞功能異常，導致無法有效清除細菌引起膿瘍與骨髓炎。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_022",
@@ -458,15 +626,23 @@
         "D": "Tachypnea"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "吸氣性喘鳴（Stridor）是氣流通過狹窄的「上呼吸道」（喉部或氣管，如哮吼、喉頭軟化症或氣管異物）所產生的粗糙高頻聲音，而非下呼吸道特徵。下呼吸道阻塞（如氣喘、細支氣管炎）則以呼氣延長及哮鳴音（Wheezing）為主，並常因呼吸費力而出現肋間凹陷（Intercostal retraction）與呼吸急促（Tachypnea）。",
+      "key_point": "喘鳴音（Stridor）是上呼吸道阻塞的特徵，而下呼吸道阻塞主要表現為哮鳴音（Wheezing）。",
+      "flashcard_summary": "上下呼吸道阻塞鑑別 -> 上呼吸道阻塞見Stridor（喘鳴）；下呼吸道阻塞見Wheezing（哮鳴）、肋間凹陷、呼吸急促",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "呼吸音鑑別 / 哮鳴音（Wheezing） vs 喘鳴音（Stridor） / 上呼吸道 vs 下呼吸道阻塞",
+      "flashcard_back": "Stridor（喘鳴）提示「上呼吸道」阻塞；Wheezing（哮鳴）則提示「下呼吸道」阻塞（如氣喘、細支氣管炎）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_023",
@@ -479,15 +655,23 @@
         "D": "ANA 陽性在少關節亞型(Oligoarthritis)的比例,較其他亞型為高"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在幼年特發性關節炎（JIA）中，慢性無症狀性前葡萄膜炎（Uveitis）最常合併發生於「少關節亞型」（Oligoarthritis，特別是ANA陽性者），而非「多關節亞型」，故選項C敘述錯誤。JIA確診高度仰賴臨床診斷（需關節炎持續大於6週且排除其他原因），實驗室檢查僅為輔助與預後參考；且抗核抗體（ANA）陽性率在少關節型患者中確實最高。",
+      "key_point": "JIA患者中，慢性無症狀性前葡萄膜炎（Uveitis）最常合併發生於少關節亞型。",
+      "flashcard_summary": "JIA與葡萄膜炎 -> 葡萄膜炎及ANA陽性最常見於少關節型（Oligoarthritis），而非多關節型",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "幼年特發性關節炎（JIA） / 葡萄膜炎（Uveitis）好發亞型 / ANA陽性率最高亞型 / 臨床診斷基礎",
+      "flashcard_back": "葡萄膜炎最常合併發生於「少關節型（Oligoarthritis）」，此型之ANA陽性率也最高；JIA本質上是臨床排他性診斷。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_024",
@@ -500,15 +684,23 @@
         "D": "異位性皮膚炎如果使用局部型類固醇效果不好者,可考慮使用topical calcineurin inhibitors 來治療"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "異位性皮膚炎病童因皮膚障壁受損，傷口最常受到的細菌感染是「金黃色葡萄球菌」（*Staphylococcus aureus*），而非鏈球菌，故選項C敘述錯誤。該病診斷基於典型皮疹分布及慢性復發性搔癢；第一代抗組織胺具嗜睡副作用，適合睡前使用以改善夜間搔癢；局部類固醇無效或需避免長期使用時，可選用局部鈣調磷酸酶抑制劑（topical calcineurin inhibitors）。",
+      "key_point": "異位性皮膚炎病童皮膚屏障受損，傷口最常受到的感染菌為金黃色葡萄球菌。",
+      "flashcard_summary": "異位性皮膚炎常見感染 -> 最常見感染菌為金黃色葡萄球菌；類固醇無效可用calcinuerin抑制劑",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "異位性皮膚炎 / 傷口最常見感染菌 / 第一代抗組織胺使用 / 類固醇替代藥物",
+      "flashcard_back": "最常見感染菌為金黃色葡萄球菌（非鏈球菌）；第一代抗組織胺宜睡前使用防嗜睡；類固醇無效時可用calcinuerin抑制劑。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_025",
@@ -521,15 +713,23 @@
         "D": "Bruton 氏免疫球蛋白缺乏症(Bruton agammaglobulinemia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "男嬰在出生6個月後（母體抗體消失）開始出現反覆細菌感染（中耳炎、肺炎），且伴隨家族男性夭折史、無扁桃腺（B細胞缺乏導致淋巴組織發育不全）及所有免疫球蛋白（IgG, IgA, IgM）顯著低下的表現，為典型布魯頓氏無γ球蛋白血症（Bruton agammaglobulinemia，即XLA）的特徵。嬰兒暫時性低免疫球蛋白血症通常較輕微且有扁桃腺；SCID發病更早且合併嚴重T細胞功能異常與伺機性感染。",
+      "key_point": "Bruton氏無γ球蛋白血症（XLA）是由於B細胞發育成熟受阻，導致無扁桃腺與體液免疫缺陷。",
+      "flashcard_summary": "Bruton氏無γ球蛋白血症（XLA） -> X-linked遺傳，男嬰6個月後反覆感染、無扁桃腺、所有免疫球蛋白低下",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "男嬰 / 出生6個月後反覆細菌感染 / 無扁桃腺 / 家族男性夭折史 / 全球蛋白低下",
+      "flashcard_back": "診斷為布魯頓氏無γ球蛋白血症（Bruton / XLA），為X-linked遺傳，因B細胞發育受阻導致無扁桃腺與體液免疫缺陷。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_026",
@@ -542,15 +742,23 @@
         "D": "Chronic myelogenous leukemia(CML)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "唐氏症（Down syndrome）兒童罹患白血病的機率是一般兒童的數十倍，其中急性骨髓性白血病（AML，特別是急性巨核細胞白血病 M7 型）與唐氏症有極高度的特異性關聯。在新生兒期，唐氏症患兒也容易出現暫時性骨髓增生症（TMD）。雖然一般兒童以ALL最常見，但在唐氏症特異性考題中，官方正確答案為急性骨髓性白血病（AML）。",
+      "key_point": "唐氏症（Down syndrome）兒童罹患白血病之風險高，其中與急性骨髓性白血病（AML）關聯特異且強烈。",
+      "flashcard_summary": "唐氏症伴隨之白血病 -> 關聯度最高且最常考的類型為急性骨髓性白血病（AML）",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "唐氏症（Down syndrome） / 伴隨白血病高風險 / 特異性白血病類型 / M7型",
+      "flashcard_back": "唐氏症兒童最常/最具特異性關聯的白血病是急性骨髓性白血病（AML，尤其是急性巨核細胞白血病 M7 型）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_027",
@@ -563,15 +771,23 @@
         "D": "如果病人有嚴重的口腔黏膜炎(Mucositis),且已使用quinolone 類藥物做預防性抗生素,仍應給與\n Vancomycin"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "萬古黴素（Vancomycin）如果快速靜脈輸注（特別是小於60分鐘或小於10分鐘），會引發嚴重的非免疫性組織胺釋放，導致「紅人症候群」（Red Man Syndrome）及嚴重低血壓與心血管崩潰；因此即便在休克狀態下，亦不可加快輸注速率，必須維持至少60分鐘以上的緩慢滴注。其餘選項如人工血管導管感染、MRSA定殖史、嚴重口腔黏膜炎且曾使用Quinolone預防，皆為嗜中性球低下發燒時合併使用萬古黴素的適當臨床指引。",
+      "key_point": "萬古黴素（Vancomycin）靜脈輸注時間必須大於60分鐘，以防止紅人症候群與嚴重低血壓。",
+      "flashcard_summary": "萬古黴素輸注速率與指引 -> 靜注時間必須 ≧60 分鐘以防紅人症候群；休克時亦嚴禁快速注射",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "萬古黴素（Vancomycin）輸注速率 / 紅人症候群 / 嗜中性球低下發燒使用指引 / 快速輸注風險",
+      "flashcard_back": "萬古黴素靜脈輸注時間必須大於60分鐘（禁用小於10分鐘快速注射），以防紅人症候群與低血壓；指引建議導管感染或MRSA史時應加用。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_028",
@@ -584,15 +800,23 @@
         "D": "急性非化膿性頸淋巴結腫大,單側或雙側,直徑至少1.5 公分"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "川崎氏病（Kawasaki disease）的四肢末端脫屑（特別是手腳指尖周圍）是發生在疾病的「亞急性期」（通常在發病後第2至3週），而非發病「一週內」（急性期），故選項B敘述錯誤。其餘四項主要診斷準據包括：發燒大於5天、廣泛性多形性皮疹、雙眼非化膿性結膜炎、口腔黏膜變化（草莓舌、嘴唇紅裂）及急性非化膿性單側頸部淋巴結腫大（≧1.5公分）。",
+      "key_point": "川崎氏病的指尖皮膚脫屑典型發生在病程第2至3週的亞急性期，而非發病第一週內。",
+      "flashcard_summary": "川崎氏病診斷指引 -> 指尖脫屑屬亞急性期表現（第2-3週，非1週內）；發燒大於5天加上四項主要指標可診斷",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "川崎氏病（Kawasaki）主要診斷準據 / 指尖脫屑時機 / 頸部淋巴結規格",
+      "flashcard_back": "指尖脫屑發生在發病第2-3週（亞急性期），而非第1週內；頸部淋巴結腫大需為非化膿性且直徑≧1.5公分。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_029",
@@ -605,15 +829,23 @@
         "D": "焦慮(Anxiety)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在兒童胸痛的鑑別診斷中，心因性原因（包括先天性心臟病、心肌炎等）非常罕見，僅占所有個案的不到5%，因此相對最少見。兒童胸痛最常見的病因是肌肉骨骼問題（如肋軟骨炎、肌肉拉傷），其次是呼吸道疾病（氣喘、肺炎）以及心理因素（焦慮、過度換氣）。",
+      "key_point": "兒童胸痛多屬良性，心因性原因（如先天性心臟病）相對極為罕見（<5%）。",
+      "flashcard_summary": "兒童胸痛常見病因 -> 肌肉骨骼與焦慮最常見；心因性（先天性心臟病）相對極少見",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "兒童胸痛原因 / 常見與少見病因 / 心因性比率 / 肋軟骨炎",
+      "flashcard_back": "兒童胸痛多為良性，最常見為肌肉骨骼（如肋軟骨炎）或焦慮所致；心因性原因（如先天性心臟病）極為少見（<5%）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_030",
@@ -626,15 +858,23 @@
         "D": "總肺靜脈回流異常(total anomalous pulmonary venous return)合併阻塞"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "先天肺動脈瓣膜缺失症合併心室中隔缺損（APVS with VSD）的特徵為嚴重的肺動脈瓣狹窄與逆流，臨床上會於左胸前骨旁聽到明顯的「來回型（to-and-fro）心雜音」；且因肺動脈極度擴張壓迫氣管，常導致嬰兒呼吸急促與肝臟腫大。法洛氏四合症主要是收縮期噴射性雜音，無舒張期逆流音；三尖瓣閉鎖與TAPVR合併阻塞的影像與雜音表現均與此不同。",
+      "key_point": "先天肺動脈瓣膜缺失症合併VSD的特徵是左胸前聽到的收縮期與舒張期來回型心雜音。",
+      "flashcard_summary": "先天肺動脈瓣膜缺失症合併VSD -> 臨床特徵為左胸來回型（to-and-fro）心雜音，常伴隨呼吸急促與肺動脈極度擴張",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "嬰兒呼吸急促 / 左胸來回型心雜音（to-and-fro） / 肝臟腫大 / 肺動脈極度擴張",
+      "flashcard_back": "最可能診斷為先天肺動脈瓣膜缺失症伴心室中隔缺損（APVS with VSD），其逆流與狹窄混合產生來回型雜音。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_031",
@@ -647,15 +887,23 @@
         "D": "高雪氏症(Gaucher Disease)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腎上腺腦白質失養症（ALD）為一種 X 染色體聯鎖隱性遺傳疾病，主要影響男性。臨床特徵包括極長鏈脂肪酸（VLCFA）代謝異常，導致中樞神經系統髓鞘脫失（出現視力減退、共濟失調、無法行走等）及腎上腺皮質功能不全（促腎上腺皮質激素增加導致皮膚變黑）。舅舅同樣在幼年發病死亡的家族史，高度支持此 X 聯鎖隱性遺傳病，故選 C。",
+      "key_point": "腎上腺腦白質失養症（ALD）的臨床表現與遺傳模式。",
+      "flashcard_summary": "視力減退 / 步態不穩 / 皮膚變黑 / 舅舅幼年死亡家族史 / VLCFA 代謝異常 -> 腎上腺腦白質失養症（ALD）為 X 聯鎖隱性遺傳疾病，因 VLCFA 堆積導致神經髓鞘脫失與腎上腺皮質功能不全（皮膚變黑）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "視力減退 / 步態不穩 / 皮膚變黑 / 舅舅幼年死亡家族史 / VLCFA 代謝異常",
+      "flashcard_back": "腎上腺腦白質失養症（ALD）為 X 聯鎖隱性遺傳疾病，因 VLCFA 堆積導致神經髓鞘脫失與腎上腺皮質功能不全（皮膚變黑）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_032",
@@ -668,15 +916,23 @@
         "D": "唐氏症(Down syndrome)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "努南氏症候群（Noonan syndrome）為體染色體顯性遺傳病，男女均可發病，臨床特徵包括身材矮小、輕度智能障礙/學習遲緩、特殊面部特徵（眼裂下垂、耳位低、眼距寬）以及先天性心臟病（以右側心臟為主，最常見為肺動脈瓣狹窄）。Turner syndrome（特納氏症）雖然也有類似的外觀（如蹼狀頸、身材矮小），但僅發生於女性（45,XO），且心臟病變以左側為主（如主動脈縮窄），故選 B。",
+      "key_point": "努南氏症候群（Noonan syndrome）的臨床特徵（與 Turner syndrome 鑑別）。",
+      "flashcard_summary": "男童 / 身材矮小 / 眼裂下垂、耳位低 / 肺動脈狹窄 / 努南氏症 vs 特納氏症 -> 努南氏症為體染色體顯性遺傳，男女皆可發病，常合併肺動脈狹窄；特納氏症僅見於女性（45,XO），常合併左側心臟病變（主動脈縮窄）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "男童 / 身材矮小 / 眼裂下垂、耳位低 / 肺動脈狹窄 / 努南氏症 vs 特納氏症",
+      "flashcard_back": "努南氏症為體染色體顯性遺傳，男女皆可發病，常合併肺動脈狹窄；特納氏症僅見於女性（45,XO），常合併左側心臟病變（主動脈縮窄）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_033",
@@ -689,15 +945,23 @@
         "D": "C4"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "唐氏症（Down syndrome）患童中，約有 15% 會出現寰樞椎不穩定（Atlantoaxial instability），這主要是因為韌帶鬆弛導致第一頸椎（C1，寰椎）與第二頸椎（C2，樞椎）之間的對齊異常與過度活動，其中最主要的病變節段在第一頸椎（C1），因此好發於 C1 寰椎與樞椎的滑脫，故選 A。",
+      "key_point": "唐氏症患童之寰樞椎不穩定（Atlantoaxial instability）好發解剖部位。",
+      "flashcard_summary": "唐氏症 / 頸椎曲度異常 / 寰樞椎不穩定 / 最易受累頸椎節段 -> 唐氏症患童易因韌帶鬆弛導致寰樞椎不穩定（Atlantoaxial instability），病變主要發生在第一頸椎（C1，寰椎）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "唐氏症 / 頸椎曲度異常 / 寰樞椎不穩定 / 最易受累頸椎節段",
+      "flashcard_back": "唐氏症患童易因韌帶鬆弛導致寰樞椎不穩定（Atlantoaxial instability），病變主要發生在第一頸椎（C1，寰椎）。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_034",
@@ -710,15 +974,23 @@
         "D": "長期口服類固醇(long term oral corticosteroid)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "慢性蕁麻疹的治療首選為二代抗組織胺（可加量至 4 倍），對於難治性個案可合併使用生物製劑 Omalizumab（抗 IgE 單株抗體）或環孢素。口服類固醇僅建議在急性惡化時進行極短期的過渡治療，不建議長期口服使用，以免引發嚴重的全身性副作用（如庫欣氏症、骨質疏鬆等），故選 D。",
+      "key_point": "慢性蕁麻疹的藥物治療原則與系統性類固醇的使用限制。",
+      "flashcard_summary": "慢性蕁麻疹 / 第一線治療 / 難治型治療選擇 / 類固醇使用禁忌 -> 慢性蕁麻疹首選為抗組織胺，難治型可考慮 Omalizumab 或環孢素；系統性類固醇僅限短期用於急性惡化，不宜長期使用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性蕁麻疹 / 第一線治療 / 難治型治療選擇 / 類固醇使用禁忌",
+      "flashcard_back": "慢性蕁麻疹首選為抗組織胺，難治型可考慮 Omalizumab 或環孢素；系統性類固醇僅限短期用於急性惡化，不宜長期使用。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_035",
@@ -731,15 +1003,23 @@
         "D": "口服類固醇是首選治療"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "乾癬是一種全身性發炎疾病，常合併關節炎、肥胖、代謝症候群，並顯著增加心肌梗塞等心血管疾病共病風險。口服或注射全身性類固醇並非乾癬的首選治療，且在停藥後極易誘發嚴重的膿疱型乾癬（pustular psoriasis）或紅皮症型乾癬，臨床上應避免使用，故選 D。",
+      "key_point": "乾癬的系統性共病與系統性類固醇治療禁忌。",
+      "flashcard_summary": "乾癬 / 全身性共病 / 系統性類固醇禁忌 / 停藥後遺症 -> 乾癬共病包括關節炎、心血管疾病（心肌梗塞）與肥胖；全身性類固醇為禁忌，停藥後易誘發嚴重且致命的膿疱型乾癬。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "乾癬 / 全身性共病 / 系統性類固醇禁忌 / 停藥後遺症",
+      "flashcard_back": "乾癬共病包括關節炎、心血管疾病（心肌梗塞）與肥胖；全身性類固醇為禁忌，停藥後易誘發嚴重且致命的膿疱型乾癬。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_036",
@@ -752,15 +1032,23 @@
         "D": "若常處於悶熱潮濕環境,治療後仍容易復發"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "汗斑是由馬拉色菌（Malassezia）引起的真菌感染，在伍氏燈（Wood's lamp）下呈現黃色至黃綠色螢光，悶熱潮濕環境下極易復發。治療上以局部或口服抗黴菌藥（如 itraconazole, ketoconazole）為主，而 Griseofulvin 主要對皮膚癬菌（Dermatophytes）有效，對馬拉色菌無效，因此不能作為汗斑的治療選擇，故選 C。",
+      "key_point": "汗斑（pityriasis versicolor）的病因、診斷與抗黴菌藥物選用。",
+      "flashcard_summary": "汗斑 / 致病菌 / 伍氏燈螢光 / griseofulvin 療效限制 -> 汗斑由馬拉色菌引起，伍氏燈下呈黃綠色螢光；治療需使用唑類（Azoles）抗黴菌藥，Griseofulvin 對馬拉色菌無效。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "汗斑 / 致病菌 / 伍氏燈螢光 / griseofulvin 療效限制",
+      "flashcard_back": "汗斑由馬拉色菌引起，伍氏燈下呈黃綠色螢光；治療需使用唑類（Azoles）抗黴菌藥，Griseofulvin 對馬拉色菌無效。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_037",
@@ -773,15 +1061,23 @@
         "D": "可由克沙奇病毒(coxsackievirus)感染造成,病程表現大多比腸病毒(enterovirus)71 型感染嚴重,重症比率\n 也較高"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "此病患呈現典型手足口病（HFMD）表現，多由克沙奇病毒（如 Coxsackie A16）或腸病毒 71 型（EV71）引起。大部分由克沙奇病毒引起的病例為良性且具自限性，恢復期常伴隨脫甲症（onychomadesis）。然而，腸病毒 71 型（EV71）具有較高的中樞神經系統侵犯風險，其重症與致死率明顯高於克沙奇病毒，因此選項 D 敘述相反，是錯誤的。",
+      "key_point": "手足口病（Hand-foot-mouth disease）的致病原、預後與腸病毒 71 型重症風險。",
+      "flashcard_summary": "手足口病 / 腸病毒 71 型 vs 克沙奇病毒 / 脫甲症 / 重症風險 -> 手足口病大多為自限性，恢復期可能出現脫甲症；腸病毒 71 型（EV71）的重症與併發症率遠高於克沙奇病毒。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "手足口病 / 腸病毒 71 型 vs 克沙奇病毒 / 脫甲症 / 重症風險",
+      "flashcard_back": "手足口病大多為自限性，恢復期可能出現脫甲症；腸病毒 71 型（EV71）的重症與併發症率遠高於克沙奇病毒。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_038",
@@ -794,15 +1090,23 @@
         "D": "色素性基底細胞癌(pigmented basal cell carcinoma)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "靜脈湖（Venous lake）常發生於中老年人的下唇或耳部，呈現無痛、暗藍色或紫色的軟性丘疹，是由於擴張的真皮小靜脈所致，壓迫時可暫時退色。組織病理學特徵會見到真皮層內有極度擴張且充滿紅血球的薄壁血管腔，外覆單層內皮細胞，符合靜脈湖的診斷，故選 B。",
+      "key_point": "唇部靜脈湖（Venous lake）的臨床表現與病理診斷。",
+      "flashcard_summary": "中老年下唇 / 暗紫色無痛軟性丘疹 / 壓迫褪色 / 真皮層擴張薄壁血管腔 -> 唇部靜脈湖（Venous lake）為擴張的真皮小靜脈，呈暗紫色無痛丘疹，病理可見真皮內充滿紅血球的擴張薄壁血管。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "中老年下唇 / 暗紫色無痛軟性丘疹 / 壓迫褪色 / 真皮層擴張薄壁血管腔",
+      "flashcard_back": "唇部靜脈湖（Venous lake）為擴張的真皮小靜脈，呈暗紫色無痛丘疹，病理可見真皮內充滿紅血球的擴張薄壁血管。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_039",
@@ -815,15 +1119,23 @@
         "D": "圓盤狀皮膚疹"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "全身性紅斑性狼瘡（SLE）的經典皮膚診斷特徵包含：雙側臉頰蝴蝶斑（malar rash）、圓盤狀紅斑（discoid rash）、光敏感性（photosensitivity）以及無疤痕性掉髮或口腔潰瘍。反覆蕁麻疹發作雖然可能在部分患者以蕁麻疹性血管炎表現，但它並不是 SLE 的核心診斷皮膚特徵，故選 C。",
+      "key_point": "全身性紅斑性狼瘡（SLE）的皮膚診斷標準特徵。",
+      "flashcard_summary": "SLE 皮膚診斷特徵 / 蝴蝶斑 / 圓盤狀斑 / 光敏感性 -> SLE 的核心診斷皮膚特徵為臉頰蝴蝶斑、圓盤狀疹與光敏感；蕁麻疹發作並非其主要診斷依據。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "SLE 皮膚診斷特徵 / 蝴蝶斑 / 圓盤狀斑 / 光敏感性",
+      "flashcard_back": "SLE 的核心診斷皮膚特徵為臉頰蝴蝶斑、圓盤狀疹與光敏感；蕁麻疹發作並非其主要診斷依據。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_040",
@@ -836,15 +1148,23 @@
         "D": "蒙古斑(mongolian spot)好發於亞洲人等有色人種,最常見的部位為嬰兒的下腹部"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "由於廷得耳效應（Tyndall effect），位於真皮深層的黑色素會使皮膚外觀呈現藍灰色，這與表皮層色素沉澱的褐色不同，故選項 A 正確。Hori 氏母斑為後天獲得性，多於青春期後或成年才出現，非出生即有；Ito 氏母斑主要分布在肩頸與上臂部，分布於三叉神經且伴隨鞏膜色素沉澱者為 Ota 氏母斑；蒙古斑好發於嬰兒的薦椎/臀部而非下腹部。",
+      "key_point": "真皮黑色素細胞增生疾病（Dermal melanocytosis）的臨床特徵與鑑別診斷。",
+      "flashcard_summary": "真皮黑色素增生 / 藍灰色光學效應 / Hori 氏母斑發病年齡 / Ota 氏 vs Ito 氏分布 -> 真皮層黑色素因廷得耳效應呈藍灰色；Hori 氏母斑為後天性；Ota 氏沿三叉神經分布且常累及鞏膜，Ito 氏分布於肩頸部。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "真皮黑色素增生 / 藍灰色光學效應 / Hori 氏母斑發病年齡 / Ota 氏 vs Ito 氏分布",
+      "flashcard_back": "真皮層黑色素因廷得耳效應呈藍灰色；Hori 氏母斑為後天性；Ota 氏沿三叉神經分布且常累及鞏膜，Ito 氏分布於肩頸部。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_041",
@@ -857,15 +1177,23 @@
         "D": "酒精(alcohol)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "接觸特定化學物質可能引起黑色素細胞毒性，導致皮膚出現類似白斑的脫色斑塊（化學性白斑，chemical leukoderma）。其中，酚類（phenols，如對苯二酚衍生物、烷基酚等）與兒茶酚類化合物是臨床上最常見引起此類職業性皮膚白斑的化學物質，故選 A。",
+      "key_point": "化學性白斑（化學性脫色斑）常見的致病化學物質。",
+      "flashcard_summary": "職業性皮膚白斑 / 化學性脫色斑 / 黑色素細胞毒性化學物 -> 酚類（phenols）及兒茶酚類化合物易對黑色素細胞產生毒性，造成接觸部位的化學性脫色斑（化學性白斑）。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "職業性皮膚白斑 / 化學性脫色斑 / 黑色素細胞毒性化學物",
+      "flashcard_back": "酚類（phenols）及兒茶酚類化合物易對黑色素細胞產生毒性，造成接觸部位的化學性脫色斑（化學性白斑）。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_042",
@@ -878,15 +1206,23 @@
         "D": "不論男女,topical minoxidil 為雄性禿的治療選項"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "雄性禿（androgenetic alopecia）的病理特徵是毛囊漸進性微小化（miniaturization），表現為粗硬的終毛轉變為細小的毳毛（vellus hair），臨床上多以「頭髮變細、局部漸進性稀疏」為主訴，而非像休止期掉髮（telogen effluvium）那樣出現大量急性掉髮，故選項 B 敘述錯誤。評估男性掉髮常用 Hamilton-Norwood 分期，且不論男女皆可使用外用 minoxidil 治療。",
+      "key_point": "雄性禿（Androgenetic alopecia）的病理生理特徵、診斷與治療。",
+      "flashcard_summary": "雄性禿 / 毛囊變化 / 大量急性掉髮與漸進稀疏鑑別 / minoxidil 使用對象 -> 雄性禿主訴為頭髮漸進性變細與稀疏（毳毛增加），非急性大量掉髮；外用 minoxidil 男女皆適用。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "雄性禿 / 毛囊變化 / 大量急性掉髮與漸進稀疏鑑別 / minoxidil 使用對象",
+      "flashcard_back": "雄性禿主訴為頭髮漸進性變細與稀疏（毳毛增加），非急性大量掉髮；外用 minoxidil 男女皆適用。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_043",
@@ -899,15 +1235,23 @@
         "D": "incontinentia pigmenti"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "斑色魚鱗癬（Harlequin ichthyosis）是臨床上最嚴重的一種先天性魚鱗癬，為體染色體隱性遺傳。新生兒出生時全身會被極厚、覆蓋盔甲般的角質層板包覆，並伴隨眼瞼外翻、唇外翻以及深部龜裂，病嬰常因呼吸受限、感染或脫水而於出生後不久夭折，故選 C。",
+      "key_point": "斑色魚鱗癬（Harlequin ichthyosis）的臨床表現與預後。",
+      "flashcard_summary": "新生兒 / 全身極厚盔甲狀角質 / 眼瞼外翻與深部龜裂 / 致命性先天魚鱗癬 -> 斑色魚鱗癬（Harlequin ichthyosis）為最嚴重的體染色體隱性遺傳魚鱗癬，嬰兒全身包覆盔甲狀厚角質，死亡率極高。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "新生兒 / 全身極厚盔甲狀角質 / 眼瞼外翻與深部龜裂 / 致命性先天魚鱗癬",
+      "flashcard_back": "斑色魚鱗癬（Harlequin ichthyosis）為最嚴重的體染色體隱性遺傳魚鱗癬，嬰兒全身包覆盔甲狀厚角質，死亡率極高。",
+      "category_group": "醫學（四）",
+      "category": "皮膚科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_044",
@@ -920,15 +1264,23 @@
         "D": "左側無力合併左側肢體共濟失調(ataxia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "小血管中風（lacunar stroke）的特徵是不會出現大腦皮質症狀（如失語症 aphasia、半邊忽略 hemineglect 或共軛眼球偏斜等）。「共濟失調性輕偏癱（ataxic hemiparesis）」表現為偏癱側肢體有無力且合併共濟失調，是典型的腔隙性中風症候群之一（病灶常位於內囊後肢或橋腦），故選 D。",
+      "key_point": "小血管中風（腔隙性腦梗塞 Lacunar stroke）的典型臨床症候群。",
+      "flashcard_summary": "腔隙性中風 / 皮質症狀排除 / 共濟失調性輕偏癱 / 病灶定位 -> 小血管（腔隙性）中風不具皮質症狀（如失語、忽略）；「同側無力合併共濟失調」為其典型症候群，病灶常在內囊或橋腦。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "腔隙性中風 / 皮質症狀排除 / 共濟失調性輕偏癱 / 病灶定位",
+      "flashcard_back": "小血管（腔隙性）中風不具皮質症狀（如失語、忽略）；「同側無力合併共濟失調」為其典型症候群，病灶常在內囊或橋腦。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_045",
@@ -941,15 +1293,23 @@
         "D": "收縮壓控制在160 mmHg 以下"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該病患腦部電腦斷層顯示右側大面積中大腦動脈（MCA）梗塞，於 2 天後因嚴重的腦水腫與占位效應（mass effect）導致中線偏移與腦疝脫，臨床上稱為惡性 MCA 梗塞（Malignant MCA syndrome）。此時唯一能顯著降低死亡率、提高存活機會的治療是進行去骨瓣減壓手術（decompressive craniectomy），以緩解顱內壓，故選 C。",
+      "key_point": "惡性中大腦動脈腦梗塞（Malignant MCA infarction）的減壓手術治療。",
+      "flashcard_summary": "大面積 MCA 梗塞 / 嚴重腦水腫與中線偏移 / 降低死亡率首選治療 / 減壓手術 -> 惡性中大腦動脈梗塞會引發嚴重腦水腫與腦疝脫，黃金治療期內行去骨瓣減壓手術（craniectomy）能顯著提高存活率。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "大面積 MCA 梗塞 / 嚴重腦水腫與中線偏移 / 降低死亡率首選治療 / 減壓手術",
+      "flashcard_back": "惡性中大腦動脈梗塞會引發嚴重腦水腫與腦疝脫，黃金治療期內行去骨瓣減壓手術（craniectomy）能顯著提高存活率。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_046",
@@ -962,15 +1322,23 @@
         "D": "非細菌性血栓性心内膜炎(nonbacterial thrombotic endocarditis)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "感染性心內膜炎（infective endocarditis）所產生的感染性栓子易引起腦部微動脈瘤（mycotic aneurysms）或出血性腦中風，此時使用抗凝血劑會顯著增加腦出血風險，故除非有機械瓣膜等極強適應症，否則不建議使用抗凝血劑。非瓣膜性房顫、機械性瓣膜置換與非細菌性血栓性心內膜炎皆為抗凝血劑的標準或建議適應症，故選 C。",
+      "key_point": "感染性心內膜炎中風預防之抗凝血劑使用禁忌。",
+      "flashcard_summary": "感染性心內膜炎 / 機械性瓣膜 / 非細菌性血栓性心內膜炎 / 抗凝血劑中風預防限制 -> 感染性心內膜炎因感染性栓子易併發出血性腦病變，故不建議使用抗凝血劑；機械瓣膜與非細菌性血栓性心內膜炎則需使用抗凝血劑。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "感染性心內膜炎 / 機械性瓣膜 / 非細菌性血栓性心內膜炎 / 抗凝血劑中風預防限制",
+      "flashcard_back": "感染性心內膜炎因感染性栓子易併發出血性腦病變，故不建議使用抗凝血劑；機械瓣膜與非細菌性血栓性心內膜炎則需使用抗凝血劑。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_047",
@@ -983,15 +1351,23 @@
         "D": "如果抗癲癇藥物不能有效控制病情或癲癇發作影響生活品質,癲癇手術是可能的選擇"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "亞洲人在處方 carbamazepine 或 phenytoin 等藥物前，應篩檢是否攜帶人類組織配對抗原 HLA-B*1502 基因（而非 HLA-B*1500），以預防嚴重的史蒂芬斯-強森症候群（SJS/TEN）過敏反應，故選項 A 敘述不適當。Valproic acid 具有高致畸胎性，育齡婦女應儘量避免使用；而 phenytoin 和 carbamazepine 為肝藥酶誘導劑，會降低避孕藥效果。",
+      "key_point": "亞洲人抗癲癇藥物嚴重過敏關聯基因檢測。",
+      "flashcard_summary": "癲癇藥物過敏篩檢基因 / valproic acid 孕婦限制 / 避孕藥交互作用 -> 處方 carbamazepine/phenytoin 前應篩檢 HLA-B*1502（而非 HLA-B*1500）；育齡婦女避用具高致畸胎性的 valproic acid；酵素誘導型癲癇藥會降低避孕藥療效。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "癲癇藥物過敏篩檢基因 / valproic acid 孕婦限制 / 避孕藥交互作用",
+      "flashcard_back": "處方 carbamazepine/phenytoin 前應篩檢 HLA-B*1502（而非 HLA-B*1500）；育齡婦女避用具高致畸胎性的 valproic acid；酵素誘導型癲癇藥會降低避孕藥療效。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_048",
@@ -1004,15 +1380,23 @@
         "D": "十年內發展成巴金森氏病的危險率增加"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該患者表現符合快速動眼期睡眠行為障礙（RBD）。RBD 的一線藥物為 Clonazepam 或 Melatonin，而選擇性血清素/正腎上腺素回收抑制劑（SSRI/SNRI）等抗憂鬱劑反而常會誘發或惡化 RBD 的症狀（使 REM 期肌肉失張力失效更嚴重），故選項 C 敘述不適當。RBD 常見於老年男性，PSG 表現為 REM 期肌肉失張力消失（muscle atonia loss），且患者未來發展為巴金森氏病等突觸核蛋白病變（synucleinopathies）的機率極高。",
+      "key_point": "快速動眼期睡眠行為障礙（RBD）的臨床特徵、多項生理檢查與治療藥物。",
+      "flashcard_summary": "RBD（快速動眼期睡眠行為障礙） / PSG 診斷特徵 / 藥物誘發與惡化 / 遠期神經退化風險 -> RBD 特徵為後半夜發作且醒後能記住夢境，PSG 顯示 REM 期肌肉失張力消失；抗憂鬱劑（SSRI/SNRI）會惡化症狀；患者未來發展巴金森氏病風險顯著升高。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "RBD（快速動眼期睡眠行為障礙）/ PSG 診斷特徵 / 藥物誘發與惡化 / 遠期神經退化風險",
+      "flashcard_back": "RBD 特徵為後半夜發作且醒後能記住夢境，PSG 顯示 REM 期肌肉失張力消失；抗憂鬱劑（SSRI/SNRI）會惡化症狀；患者未來發展巴金森氏病風險顯著升高。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_049",
@@ -1025,15 +1409,23 @@
         "D": "onabotulinum toxin type A"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "三環抗憂鬱劑 Amitriptyline 是目前唯一被指引強烈推薦並證實對慢性緊縮性頭痛（chronic tension-type headache）預防具有明確療效的藥物。Verapamil 主要用於叢集性頭痛（cluster headache）的預防；肉毒桿菌素 A（onabotulinum toxin type A）則是被證實對慢性偏頭痛有效，而非緊縮性頭痛，故選 B。",
+      "key_point": "慢性緊縮性頭痛（Chronic tension-type headache）的預防性治療首選藥物。",
+      "flashcard_summary": "慢性緊縮性頭痛 / 預防性藥物首選 / amitriptyline vs 肉毒桿菌素 -> 慢性緊縮性頭痛的預防性治療首選為三環抗憂鬱劑 Amitriptyline；肉毒桿菌素 A 則用於慢性偏頭痛預防而非緊縮性頭痛。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "慢性緊縮性頭痛 / 預防性藥物首選 / amitriptyline vs 肉毒桿菌素",
+      "flashcard_back": "慢性緊縮性頭痛的預防性治療首選為三環抗憂鬱劑 Amitriptyline；肉毒桿菌素 A 則用於慢性偏頭痛預防而非緊縮性頭痛。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_050",
@@ -1046,15 +1438,23 @@
         "D": "跨皮質失語症(transcortical aphasia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在各種失語症分類中，複誦能力（repetition）是否保存是關鍵的鑑別點。跨皮質失語症（transcortical aphasia，包括運動性、感覺性與混合性）的最大特點就是「複誦能力相對良好或保存」，能夠模仿與重複字句；相比之下，傳導性失語症（conduction aphasia）與 Wernicke 失語症的複誦能力皆嚴重受損，故選 D。",
+      "key_point": "各類型失語症（Aphasia）中「複誦能力（Repetition）」的保存與鑑別。",
+      "flashcard_summary": "急性失語症 / 複誦能力保存 / 跨皮質失語症 vs 傳導性失語症 -> 跨皮質失語症（transcortical aphasia）的特徵是複誦能力良好/保存；傳導性失語症則是複誦能力嚴重受損。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "急性失語症 / 複誦能力保存 / 跨皮質失語症 vs 傳導性失語症",
+      "flashcard_back": "跨皮質失語症（transcortical aphasia）的特徵是複誦能力良好/保存；傳導性失語症則是複誦能力嚴重受損。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_051",
@@ -1067,15 +1467,23 @@
         "D": "PSEN-1"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "該患者有年輕發病的反覆中風史、失智症狀以及顯著的中風與失智家族史。腦部 MRI 典型呈現兩側顳葉前部（anterior temporal poles）與外囊（external capsule）的腦白質病變（高訊號），這是 CADASIL（體染色體顯性腦動脈血管病變）的特徵。CADASIL 的致病基因是位於第 19 對染色體上的 Notch-3 基因突變，故選 A。",
+      "key_point": "體染色體顯性腦動脈血管病變合併皮質下腦梗塞及腦白質病變（CADASIL）之致病基因與 MRI 表徵。",
+      "flashcard_summary": "CADASIL / 遺傳性中風與失智 / 顳葉前部腦白質病變 / 致病基因 -> CADASIL 為體染色體顯性遺傳，特徵為年輕反覆皮質下中風與失智，MRI 可見顳葉前部與外囊白質病變，致病基因為 Notch-3 突變。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CADASIL / 遺傳性中風與失智 / 顳葉前部腦白質病變 / 致病基因",
+      "flashcard_back": "CADASIL 為體染色體顯性遺傳，特徵為年輕反覆皮質下中風與失智，MRI 可見顳葉前部與外囊白質病變，致病基因為 Notch-3 突變。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_052",
@@ -1088,15 +1496,23 @@
         "D": "本態性顫抖(essential tremor)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者呈現不對稱性的靜止性震顫（右手姆指與食指顫抖）、動作遲緩（寫字字體變小、擺手減少）與齒輪狀僵硬（右腳僵硬、面具臉），這些都是巴金森氏病（PD）的四大核心運動症狀。本態性震顫（essential tremor）主要是對稱性的姿勢性或動作性震顫，不伴隨動作遲緩或僵硬，故選 C。",
+      "key_point": "巴金森氏病（Parkinson's disease）之早期典型運動與非運動症狀。",
+      "flashcard_summary": "不對稱靜止性震顫 / 寫字變小（小字症）/ 擺臂減少 / 面具臉 -> 巴金森氏病特徵為單側起病之靜止性震顫、動作遲緩（小字症、面具臉、擺臂減少）與僵硬；本態性震顫為對稱之姿勢性震顫，無遲緩與僵硬。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "不對稱靜止性震顫 / 寫字變小（小字症）/ 擺臂減少 / 面具臉 / 巴金森氏病 vs 本態性震顫",
+      "flashcard_back": "巴金森氏病特徵為單側起病之靜止性震顫、動作遲緩（小字症、面具臉、擺臂減少）與僵硬；本態性震顫為對稱之姿勢性震顫，無遲緩與僵硬。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_053",
@@ -1109,15 +1525,23 @@
         "D": "肉毒桿菌中毒使用類固醇無效"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肉毒桿菌毒素主要作用於神經肌肉接頭的突觸前膜（presynaptic terminal），阻斷乙醯膽鹼（ACh）釋放。這會導致下行性運動癱瘓，且極易波及呼吸肌導致呼吸衰竭，故選項 C 敘述「不會影響呼吸」是錯誤的。此外，因其阻斷自律神經節與副交感神經的乙醯膽鹼傳導，故會伴隨明顯的自律神經症狀（如瞳孔放大、口乾、便秘）；而類固醇對肉毒桿菌中毒無效。",
+      "key_point": "肉毒桿菌中毒（Botulism）與重症肌無力（MG）的病理生理與症狀比較。",
+      "flashcard_summary": "肉毒桿菌中毒 / 突觸前 vs 突觸後 -> 肉毒桿菌毒素作用於突觸前，會阻斷乙醯膽鹼釋放，導致嚴重呼吸肌麻痺（呼吸衰竭）與顯著自律神經症狀，使用類固醇無效。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "肉毒桿菌中毒 / 突觸前 vs 突觸後 / 自律神經症狀 / 呼吸衰竭風險 / 類固醇療效",
+      "flashcard_back": "肉毒桿菌毒素作用於突觸前，會阻斷乙醯膽鹼釋放，導致嚴重呼吸肌麻痺（呼吸衰竭）與顯著自律神經症狀，使用類固醇無效（與作用於突觸後的重症肌無力不同）。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_054",
@@ -1130,15 +1554,23 @@
         "D": "肘隧道症候群(cubital tunnel syndrome)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "多發性肌炎（polymyositis）是一種自體免疫性肌肉發炎疾病，其最典型的臨床表現為對稱性、漸進性的「近端肢體無力」（例如梳頭困難、大腿無力起立或登階困難）。而糖尿病多發性神經病變、肘隧道症候群多以肢體遠端（distal）感覺或運動異常為主；肌萎縮性側索硬化症（ALS）初期也多由單側不對稱的遠端無力（如手部肌肉萎縮或垂足）開始，故選 A。",
+      "key_point": "以近端肌肉無力（Proximal muscle weakness）為首發表現的疾病鑑別。",
+      "flashcard_summary": "近端肌肉無力 / 梳頭與登階困難 / 多發性肌炎 / 遠端無力疾病鑑別 -> 多發性肌炎典型表現為對稱性近端肢體無力（梳頭、站立困難）；而糖尿病神經病變、ALS 及周邊神經壓迫則多以遠端無力或感覺異常起病。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "近端肌肉無力 / 梳頭與登階困難 / 多發性肌炎 / 遠端無力疾病鑑別",
+      "flashcard_back": "多發性肌炎典型表現為對稱性近端肢體無力（梳頭、站立困難）；而糖尿病神經病變、ALS 及周邊神經壓迫則多以遠端無力或感覺異常起病。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_055",
@@ -1151,15 +1583,23 @@
         "D": "慢性脫髓鞘多發性神經病變(chronic inflammatory demyelinating polyneuropathy)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "長期茹素女性易缺乏維生素 B12，導致亞急性合併退化症（SCD）。病變主要累及脊髓後柱（posterior column，造成深部感覺如振動與位置覺喪失）及側皮質脊髓束（corticospinal tract，造成錐體路徑徵象、痙攣步態與膝反射增強）；若伴隨周邊神經病變，則會出現腳踝腱反射減弱。痛覺與溫覺（由脊髓視丘束傳導）正常，此臨床特徵完全符合 SCD，故選 C。",
+      "key_point": "亞急性合併退化症（SCD）的病因、受損脊髓傳導路徑與臨床反射表現。",
+      "flashcard_summary": "長年茹素 / 亞急性合併退化症（SCD） / 維生素 B12 缺乏 -> SCD 由維生素 B12 缺乏引起，侵犯後柱（深部位置、振動覺喪失，痛溫覺正常）與側皮質脊髓束（痙攣步態，膝 DTR 增強）；周邊神經受累導致踝 DTR 減弱。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "長年茹素 / 亞急性合併退化症（SCD）/ 維生素 B12 缺乏 / 脊髓後柱與側束受損 / 深部與淺部感覺鑑別",
+      "flashcard_back": "SCD 由維生素 B12 缺乏引起，侵犯後柱（深部位置、振動覺喪失，痛溫覺正常）與側皮質脊髓束（痙攣步態，膝 DTR 增強）；周邊神經受累導致踝 DTR 減弱。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_056",
@@ -1172,15 +1612,23 @@
         "D": "隱球菌"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "第一型單純疱疹病毒（HSV-1）腦炎是一種嚴重的壞死性腦炎，具有極強的親腦顳葉（particularly medial temporal lobe）與額葉下部（orbitofrontal lobe）傾向。在腦部磁振造影（MRI）上，T2 或 FLAIR 影像會出現單側或雙側顳葉內側的異常高訊號病灶，此特徵是鑑別 HSV 腦炎的重要依據，故選 A。",
+      "key_point": "單純疱疹病毒腦炎（HSV encephalitis）的腦部解剖侵犯特異性。",
+      "flashcard_summary": "單純疱疹腦炎 / 顳葉內側與額葉 / MRI T2/FLAIR 高訊號 -> 單純疱疹病毒（HSV-1）腦炎具有高度侵犯腦部顳葉前部/內側與額葉的特徵，MRI 典型表現為該區 T2/FLAIR 異常高訊號。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "單純疱疹腦炎 / 顳葉內側與額葉 / MRI T2/FLAIR 高訊號 / 壞死性腦炎",
+      "flashcard_back": "單純疱疹病毒（HSV-1）腦炎具有高度侵犯腦部顳葉前部/內側與額葉的特徵，MRI 典型表現為該區 T2/FLAIR 異常高訊號。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_057",
@@ -1193,15 +1641,23 @@
         "D": "高惡性度神經膠質瘤的病人較可能發生癲癇發作(seizures)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "雖然高惡性度神經膠質瘤（如 GBM）會因腫瘤快速生長、壓迫與嚴重的腦水腫，導致病人更容易出現局灶性神經缺損（如偏癱、失語）及認知功能障礙；但「癲癇發作（seizures）」在「低惡性度神經膠質瘤」的患者中更為常見，這是因為低惡性度腫瘤生長緩慢，鄰近皮質有充足時間形成慢性癲癇病灶，故選項 D 錯誤。",
+      "key_point": "高惡性度與低惡性度神經膠質瘤臨床表現（尤其是癲癇發作率）的比較。",
+      "flashcard_summary": "膠質瘤 / 高惡性度 vs 低惡性度 -> 高惡性度膠質瘤因進展快、水腫重，更易導致偏癱、失語及認知障礙；但癲癇發作在低惡性度膠質瘤患者中發生率反而更高。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "膠質瘤 / 高惡性度 vs 低惡性度 / 局灶神經缺損 / 癲癇發作頻率",
+      "flashcard_back": "高惡性度膠質瘤因進展快、水腫重，更易導致偏癱、失語及認知障礙；但癲癇發作在低惡性度膠質瘤患者中發生率反而更高。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_058",
@@ -1214,15 +1670,23 @@
         "D": "腦脊髓液中葡萄糖量是在正常範圍"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "多發性硬化症（MS）患者的腦脊髓液總蛋白濃度通常正常或僅有輕微升高，極少超過 100 mg/dL（若大於 100 mg/dL 應考慮其他診斷），故選項 A 敘述錯誤。急性期可見輕微的單核白血球增加；其最特徵性的免疫電泳表現為 CSF 中可偵測到獨有的寡株落帶（oligoclonal bands, OCBs），且腦脊髓液中的葡萄糖量應維持在正常範圍。",
+      "key_point": "多發性硬化症（MS）急性發作時之腦脊髓液（CSF）分析特徵。",
+      "flashcard_summary": "多發性硬化症（MS） / CSF 蛋白濃度 / 獨特免疫電泳特徵 / 腦脊髓液糖值 -> MS 的 CSF 蛋白濃度很少超過 100 mg/dL；診斷金標準為 CSF 中出現血清所沒有 of oligoclonal bands（寡株落帶）；CSF 糖值維持正常。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "多發性硬化症（MS）/ CSF 蛋白濃度 / 獨特免疫電泳特徵 / 腦脊髓液糖值",
+      "flashcard_back": "MS 的 CSF 蛋白濃度很少超過 100 mg/dL；診斷金標準為 CSF 中出現血清所沒有的寡株落帶（oligoclonal bands）；CSF 糖值維持正常。",
+      "category_group": "醫學（四）",
+      "category": "神經科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_059",
@@ -1235,15 +1699,23 @@
         "D": "無病識感"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "個案說話速度快且話題不斷變化代表「意念飛躍（flight of ideas）」；自稱能力過人且執行拯救地球任務代表「誇大妄想（grandiose delusion）」；不理解為何需要住院代表「無病識感（poor insight）」。這些都是典型躁症發作的症狀。描述中並沒有出現喪失自我認同、失憶或環境不真實感等「解離現象（dissociation）」，故選 B。",
+      "key_point": "躁症（Manic episode）發作的精神症狀識別（意念飛躍、誇大妄想、病識感）。",
+      "flashcard_summary": "躁症發作 / 話題快速變化 / 拯救地球任務 / 拒絕住院 -> 躁症表現包括意念飛躍、誇大妄想與缺乏病識感；解離現象涉及記憶、身份認同的分離，不屬於躁症典型描述。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "躁症發作 / 話題快速變化 / 拯救地球任務 / 拒絕住院 / 解離現象鑑別",
+      "flashcard_back": "躁症表現包括意念飛躍、誇大妄想與缺乏病識感；解離現象涉及記憶、身份認同的分離，不屬於躁症典型描述。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_060",
@@ -1256,15 +1728,23 @@
         "D": "memantine 多用於治療輕度阿茲海默失智症(Alzheimer's disease)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Donepezil 為乙醯膽鹼酶抑制劑（AChEI），相較於他類藥物（如 Rivastigmine），它對中樞神經系統的選擇性較高，外周副作用（如胃腸道不適）相對較少，故選 B。Cholinesterase inhibitors 類藥物主要被批准用於輕中度失智症，而非重度；Memantine 則為 NMDA 受體拮抗劑（antagonist，非 agonist），主要適用於中重度患者而非輕度。",
+      "key_point": "阿茲海默失智症藥物 Donepezil 與 Memantine 的藥理比較與副作用。",
+      "flashcard_summary": "阿茲海默症藥物 / donepezil 選擇性 -> Donepezil 對中樞選擇性高，胃腸副作用較少；Memantine 為 NMDA 受體拮抗劑，主要用於中重度阿茲海默症的治療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "阿茲海默症藥物 / donepezil 選擇性 / memantine 受體機制 / 適用嚴重度分期",
+      "flashcard_back": "Donepezil 對中樞選擇性高，胃腸副作用較少；Memantine 為 NMDA 受體拮抗劑，主要用於中重度阿茲海默症的治療。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_061",
@@ -1277,15 +1757,23 @@
         "D": "抗憂鬱劑在憂鬱症與雙相情緒障礙症(bipolar disorder)鬱期,都是首選藥物"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "鋰鹽和 valproic acid 是治療躁期的情緒穩定劑，但抗憂鬱劑在急性躁期是使用禁忌；非典型抗精神病藥物如 aripiprazole、quetiapine 已獲得 FDA 核准作為難治型憂鬱症的輔助治療藥物，故選 B。rTMS 目前在思覺失調症上並非一線核可的標準治療；抗憂鬱劑若單獨使用於雙相情緒障礙症鬱期，極易誘發轉躁（manic switch），因此並非首選。",
+      "key_point": "雙相情緒障礙症、憂鬱症與思覺失調症之藥物與物理治療原則。",
+      "flashcard_summary": "躁期治療禁忌 / 難治型憂鬱症輔助藥物 / 雙相鬱期用藥原則 -> 急性躁期禁用抗憂鬱劑；aripiprazole 可作為難治型憂鬱症之輔助治療；雙相情緒障礙症鬱期不宜單獨首選抗憂鬱劑，以防轉躁。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "躁期治療禁忌 / 難治型憂鬱症輔助藥物 / 雙相鬱期用藥原則",
+      "flashcard_back": "急性躁期禁用抗憂鬱劑；aripiprazole 可作為難治型憂鬱症之輔助治療；雙相情緒障礙症鬱期不宜單獨首選抗憂鬱劑，以防轉躁。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_062",
@@ -1298,15 +1786,23 @@
         "D": "思考置入(thought insertion)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "病人深信電視在報導自己家屬於關係妄想；深信錢被偷、有人要對他不利益屬於被害妄想；深信女傭抽走他的想法屬於思考抽離。太太內在被取代則屬於替身妄想（Capgras syndrome）。個案陳述中並未提及「有外來的想法被塞入腦中」的思考置入（thought insertion）症狀，故選 D。",
+      "key_point": "思覺失調症各類妄想與思考障礙症狀之鑑別（關係妄想、思考抽離、被害妄想）。",
+      "flashcard_summary": "關係妄想 / 被害妄想 / 思考抽離 / 思考置入 / 替身妄想 -> 關係妄想是將無關外在事件與自己連結；思考抽離是感覺想法被外力奪走；思考置入是感覺外來思想塞入腦中（本題無此症狀）；替身妄想為卡普格拉症候群。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "關係妄想 / 被害妄想 / 思考抽離 / 思考置入 / 替身妄想",
+      "flashcard_back": "關係妄想是將無關外在事件與自己連結；思考抽離是感覺想法被外力奪走；思考置入是感覺外來思想塞入腦中（本題無此症狀）；替身妄想為卡普格拉症候群。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_063",
@@ -1319,15 +1815,23 @@
         "D": "妄想症(delusional disorder)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "功能性腸胃障礙（例如腸躁症 irritable bowel syndrome, IBS、功能性消化不良）與大腦-腸道軸（brain-gut axis）的功能失調密切相關，患者中最常見的共病精神疾患為焦慮疾患（anxiety disorders，盛行率可高達 30-40% 甚至更高），其次為憂鬱疾患，故選 A。",
+      "key_point": "功能性腸胃障礙（如腸躁症 IBS）最常見的共病精神疾患。",
+      "flashcard_summary": "功能性腸胃障礙 / 腸躁症 / 大腦-腸道軸 / 最常共病精神疾病 -> 功能性腸胃障礙（如腸躁症）與腦腸軸失調有關，臨床上最常見的共病精神疾患為焦慮疾患。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "功能性腸胃障礙 / 腸躁症 / 大腦-腸道軸 / 最常共病精神疾病",
+      "flashcard_back": "功能性腸胃障礙（如腸躁症）與腦腸軸失調有關，臨床上最常見的共病精神疾患為焦慮疾患。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_064",
@@ -1340,15 +1844,23 @@
         "D": "嚴重個案合併藥物與心理治療,會比使用單一治療效果好"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "許多臨床指引與研究證實，對於中重度或慢性的憂鬱症患者，合併抗憂鬱藥物與心理治療（如認知行為治療）的療效顯著優於單一藥物或單一心理治療，故選項 D 正確。睡眠剝奪治療雖能快速緩解憂鬱，但療效極短暫（一旦入睡即復發）；照光治療仍有誘發躁症發作的風險；癲癇是經顱磁刺激（rTMS）最嚴重但罕見的副作用，最常見者為局部頭痛或頭皮不適。",
+      "key_point": "憂鬱症之多元治療模式（藥物、心理、物理治療）的療效與副作用。",
+      "flashcard_summary": "憂鬱症治療 / 合併治療優勢 / 睡眠剝奪療效時間 / 照光治療與轉躁 / rTMS 常見副作用 -> 重度憂鬱症合併藥物與心理治療療效最佳；睡眠剝奪療效短暫且易復發；照光治療仍有轉躁風險；rTMS 最常見副作用為局部頭痛，癲癇極罕見。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "憂鬱症治療 / 合併治療優勢 / 睡眠剝奪療效時間 / 照光治療與轉躁 / rTMS 常見副作用",
+      "flashcard_back": "重度憂鬱症合併藥物與心理治療療效最佳；睡眠剝奪療效短暫且易復發；照光治療仍有轉躁風險；rTMS 最常見副作用為局部頭痛，癲癇極罕見。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_065",
@@ -1361,14 +1873,22 @@
         "D": "強迫症(obsessive-compulsive disorder)女性罹病率高於男性"
       },
       "correct_answer": null,
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "本題原意為探討精神疾病的性別盛行率。社交焦慮症、泛焦慮症與恐慌症在流行病學上皆呈現女性罹病率高於男性的特徵。然而，強迫症（OCD）在不同年齡層與研究中的性別盛行率差異有所爭議（兒童期為男性較多，成年期則男女相近或女性略多），導致各選項在嚴格定義下存在學術爭議，因此考選部最終將本題更正為「一律給分」（即 correct_answer 為空字串 \"\"）。",
+      "key_point": "各類焦慮障礙與強迫症在不同年齡與研究中的性別盛行率差異。",
+      "flashcard_summary": "焦慮症性別盛行率 / 強迫症性別差異 / 考選部一律給分爭議 -> 社交焦慮症、泛焦慮症與恐慌症女性盛行率高於男性；強迫症在兒童期男性較多，成人期男女相當或女性略多，因數據爭議本題一律給分。",
+      "review_status": "ai_generated",
       "correct_answers": [],
       "answer_status": "corrected_pending_review",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。"
+      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "flashcard_front": "焦慮症性別盛行率 / 強迫症性別差異 / 考選部一律給分爭議",
+      "flashcard_back": "社交焦慮症、泛焦慮症與恐慌症女性盛行率高於男性；強迫症在兒童期男性較多，成人期男女相當或女性略多，因數據爭議本題一律給分。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_066",
@@ -1381,15 +1901,23 @@
         "D": "高劑量或混合使用可產生肝臟毒性,長期使用會提高各類生理疾病和意外事故的風險"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "戒斷症候群（withdrawal syndrome）是長期使用 BZD 突然停藥後產生的慢性適應性後果，而非服藥當下的「急性副作用」；BZD 的急性副作用主要包括嗜睡、肌肉協調受損（共濟失調）、注意力不集中及老年人跌倒風險等，故選項 A 錯誤。短效型 BZD 因作用迅速且易產生耐受性，確實具較高的成癮與濫用風險。",
+      "key_point": "苯二氮平（BZD）的急性副作用與慢性戒斷症狀之區別。",
+      "flashcard_summary": "BZD 急性副作用 / 戒斷症候群時機 / 短效 BZD 成癮風險 -> BZD 急性副作用為嗜睡、共濟失調等；戒斷症狀是長期使用後停藥的表現，而非急性副作用；短效 BZD 因作用快、耐受性強更易成癮。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "BZD 急性副作用 / 戒斷症候群時機 / 短效 BZD 成癮風險",
+      "flashcard_back": "BZD 急性副作用為嗜睡、共濟失調等；戒斷症狀是長期使用後停藥的表現，而非急性副作用；短效 BZD 因作用快、耐受性強更易成癮。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_067",
@@ -1402,15 +1930,23 @@
         "D": "234"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "1. 鴉片類、兒茶酚胺（多巴胺）與 GABA 系統是調控獎賞通路及成癮的主要神經傳傳導物質系統，敘述正確。2. 海洛因急性中毒典型表現為中樞神經抑制、呼吸抑制及瞳孔縮小（針尖樣瞳孔），而非興奮與多話，敘述錯誤。3. 海洛因戒斷症狀通常在停藥後 6-8 小時出現，並在 7-10 天內緩解，敘述正確。4. 戒斷症狀與腦橋藍斑（locus ceruleus）的去甲基腎上腺素（noradrenergic）神經元過度活化（而非活性降低）有關，臨床常用 clonidine 來抑制此活化以緩解自律神經症狀，敘述錯誤。",
+      "key_point": "海洛因（鴉片類物質）中毒與戒斷的病理生理機制與臨床表現。",
+      "flashcard_summary": "鴉片類中毒症狀 / 海洛因戒斷時間 / 藍斑核去甲基腎上腺素變化 -> 鴉片中毒呈針尖瞳孔與呼吸抑制；海洛因戒斷於 6-8 小時出現，7-10 天緩解；戒斷時藍斑核去甲基腎上腺素神經元會過度活化；成癮與鴉片、多巴胺、GABA 系統有關。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "鴉片類中毒症狀 / 海洛因戒斷時間 / 藍斑核去甲基腎上腺素變化 / 成癮主要神經傳導物質",
+      "flashcard_back": "鴉片中毒呈針尖瞳孔與呼吸抑制；海洛因戒斷於 6-8 小時出現，7-10 天緩解；戒斷時藍斑核去甲基腎上腺素神經元會過度活化；成癮與鴉片、多巴胺、GABA 系統有關。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_068",
@@ -1423,15 +1959,23 @@
         "D": "認知退化進展後,發生自發性巴金森氏的特徵"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據 DSM-5，路易氏體重大或輕度認知障礙症的四大核心診斷特徵（core diagnostic features）包括：波動性認知功能、反覆且具體的視幻覺、快速動眼期睡眠行為障礙（RBD）以及自發性的巴金森氏症狀。系統性的妄想（如被害妄想）雖常出現在病程中，但僅被列為支持性特徵（suggestive/supportive features），而非核心診斷特徵，故選 A。",
+      "key_point": "DSM-5 中路易氏體核心與支持性診斷特徵之區別。",
+      "flashcard_summary": "路易氏體失智症（DLB）/ 四大核心診斷特徵 / 妄想分類角色 -> DLB 四大核心特徵為波動性認知、具體視幻覺、RBD 與自發性巴金森氏症；妄想（如系統性妄想）僅為支持性特徵而非核心特徵。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "路易氏體失智症（DLB）/ 四大核心診斷特徵 / 妄想分類角色",
+      "flashcard_back": "DLB 四大核心特徵為波動性認知、具體視幻覺、RBD 與自發性巴金森氏症；妄想（如系統性妄想）僅為支持性特徵而非核心特徵。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_069",
@@ -1444,15 +1988,23 @@
         "D": "替代性治療可降低病人戒菸期間的戒斷症狀"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "臨床流行病學顯示，思覺失調症（schizophrenia）患者的吸菸率極高，門診與住院患者中吸菸比例常高達 70-80% 以上，顯著高於一般大眾與其他精神疾患（如憂鬱症或焦慮症），因此選項 C 敘述「約有 30% 吸菸，較其他精神疾病少」是錯誤的。尼古丁能暫時改善思覺失調症患者的感覺門控（sensory gating）赤字，因此患者對菸草有極高的依賴性。",
+      "key_point": "思覺失調症患者尼古丁依賴的高盛行率與臨床特徵。",
+      "flashcard_summary": "思覺失調症 / 尼古丁依賴盛行率 / 感覺門控赤字改善 / 孕婦戒菸時機 -> 思覺失調症患者吸菸率極高（約 70-80%），顯著高於其他精神疾病患者；尼古丁能改善其感覺門控缺陷；孕婦於前三個月戒菸能降低胎兒體重過輕風險。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "思覺失調症 / 尼古丁依賴盛行率 / 感覺門控赤字改善 / 孕婦戒菸時機",
+      "flashcard_back": "思覺失調症患者吸菸率極高（約 70-80%），顯著高於其他精神疾病患者；尼古丁能改善其感覺門控缺陷；孕婦於前三個月戒菸能降低胎兒體重過輕風險。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_070",
@@ -1465,15 +2017,23 @@
         "D": "維持注意力(sustain attention)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "譫妄症（delirium）的核心特徵是注意力的障礙。當病人反覆固著（perseveration）在回答上一個問題、無法隨對話內容更換話題時，代表病人難以將注意力從先前的刺激轉移到新的刺激，這反映了「轉換注意力（shift attention）」功能的受損，故選 B。",
+      "key_point": "譫妄症患者的注意力障礙表現與注意力轉換（Shift attention）赤字。",
+      "flashcard_summary": "譫妄注意力障礙 / 反覆固著回答（perseveration）/ 注意力轉換功能 -> 譫妄患者因無法轉換注意力（shift attention）障礙，導致其思維或言語固著在先前的問題上（perseveration），無法跟隨話題轉移。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "譫妄注意力障礙 / 反覆固著回答（perseveration）/ 注意力轉換功能",
+      "flashcard_back": "譫妄患者因無法轉換注意力（shift attention）障礙，導致其思維或言語固著在先前的問題上（perseveration），無法跟隨話題轉移。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_071",
@@ -1486,15 +2046,23 @@
         "D": "與一般族群相比,此症的手足罹患其他發展障礙症的比例並未較高"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "自閉症（ASD）好發於男性（比例約為 4:1），但在確診的女性患者中，其合併重度智能不足（intellectual disability）與認知功能受損的比例顯著高於男性患者，故選項 B 正確。自閉症是一種多基因（polygenic）且多因素影響的疾病，其手足罹患自閉症或其他神經發育障礙的機率也顯著高於一般族群。",
+      "key_point": "自閉症類群障礙症（ASD）的性別罹病比例與臨床智力特徵。",
+      "flashcard_summary": "自閉症（ASD）/ 男女罹病比例 / 女性患者智力特徵 / 遺傳與手足風險 -> ASD 男多於女（4:1），但女性患者合併智能不足的比例較男性更高；ASD 為多基因疾病，其手足罹患發育障礙風險顯著升高。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "自閉症（ASD）/ 男女罹病比例 / 女性患者智力特徵 / 遺傳與手足風險",
+      "flashcard_back": "ASD 男多於女（4:1），但女性患者合併智能不足的比例較男性更高；ASD 為多基因疾病，其手足罹患發育障礙風險顯著升高。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_072",
@@ -1507,15 +2075,23 @@
         "D": "通常增加多巴胺之藥物,譬如治療過動症之藥物有可能用來治療妥瑞氏症狀"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "妥瑞氏症的抽搐症狀起因於多巴胺過度活躍。因此，使用「增加多巴胺」的藥物（例如治療過動症的刺激劑 Methylphenidate）反而可能「惡化」或誘發抽搐症狀；治療妥瑞氏症主要是使用「多巴胺受器拮抗劑」（如 haloperidol, aripiprazole）來減少多巴胺作用，故選項 D 錯誤。",
+      "key_point": "妥瑞氏症的腦區迴路病理與多巴胺藥物治療反應。",
+      "flashcard_summary": "妥瑞氏症 / 多巴胺藥物影響 / 腦區 CSTC 迴路 / 常見共病 -> 妥瑞氏症抽搐症狀常因多巴胺過度活躍所致，增加多巴胺的藥物（如 ADHD 刺激劑）會惡化症狀；治療需使用多巴胺受器拮抗劑。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "妥瑞氏症 / 多巴胺藥物影響 / 腦區 CSTC 迴路 / 常見共病",
+      "flashcard_back": "妥瑞氏症抽搐症狀常因多巴胺過度活躍所致，增加多巴胺的藥物（如 ADHD 刺激劑）會惡化症狀；治療需使用多巴胺受器拮抗劑。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_073",
@@ -1528,15 +2104,23 @@
         "D": "精神疾病,例如思覺失調症或酒癮,並非重要因素"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在自殺統計中，女性嘗試自殺率高，但「自殺死亡率」男性顯著高於女性；老年人通常是自殺死亡率最高之年齡層；精神疾病（包括憂鬱症、思覺失調症、酒精依賴）是極強的危險因子。在醫師族群的研究中，精神科、麻醉科等科別的醫師被指出有較高的自殺死亡風險，故選項 B 正確。",
+      "key_point": "自殺死亡危險因子之性別、職業、年齡與精神疾病關聯。",
+      "flashcard_summary": "自殺死亡危險因子 / 自殺企圖與死亡性別差異 / 自殺死亡率最高年齡 / 醫師高風險科別 -> 自殺死亡率男性高於女性（企圖率女性高）；老年人死亡率最高；精神疾病為極重要因子；醫師中精神科與麻醉科等為高風險群。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "自殺死亡危險因子 / 自殺企圖與死亡性別差異 / 自殺死亡率最高年齡 / 醫師高風險科別",
+      "flashcard_back": "自殺死亡率男性高於女性（企圖率女性高）；老年人死亡率最高；精神疾病為極重要因子；醫師中精神科與麻醉科等為高風險群。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_074",
@@ -1549,15 +2133,23 @@
         "D": "血管性失智症(vascular dementia)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "血管性失智症（Vascular dementia）患者的頭部磁振造影（MRI）典型表現常包括多發性腦梗塞、腔隙性腦梗塞（lacunar infarcts）以及廣泛的腦室周圍白質高訊號病變（leukoaraiosis）。這些缺血性改變阻斷了大腦皮質與皮質下的聯繫，導致突發或階梯式退化的認知功能缺損，符合本題之影像特徵與診斷，故選 D。",
+      "key_point": "血管性失智症（Vascular dementia）在頭部磁振造影（MRI）上的特徵。",
+      "flashcard_summary": "血管性失智症 / MRI 影像特徵 / 臨床退化病程特點 -> 血管性失智症於 MRI 常見多發腔隙性梗塞與大範圍腦室旁白質病變（高訊號）；臨床病程常呈階梯式退化或突發性波動。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "血管性失智症 / MRI 影像特徵 / 臨床退化病程特點",
+      "flashcard_back": "血管性失智症於 MRI 常見多發腔隙性梗塞與大範圍腦室旁白質病變（高訊號）；臨床病程常呈階梯式退化或突發性波動。",
+      "category_group": "醫學（四）",
+      "category": "精神科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_075",
@@ -1570,15 +2162,23 @@
         "D": "頸部磁振造影多可見頸長肌纖維化現象"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "先天性肌肉斜頸症（CMT）主要是由於一側的「胸鎖乳突肌」（sternocleidomastoid, SCM，而非頸長肌）發生纖維化與攣縮所致，故選項 D 敘述錯誤。此病大多發生在右側，且 CMT 患兒合併發育性髖關節發育不良（DDH）的機率較高，故建議在 6 週大前進行髖關節超音波檢查以早期診斷。",
+      "key_point": "先天性肌肉斜頸症（CMT）的病變肌肉與合併症篩檢。",
+      "flashcard_summary": "先天性肌肉斜頸症（CMT）/ 纖維化病變肌肉 / 伴隨發育異常篩檢 / 好發側別 -> CMT 是胸鎖乳突肌（SCM，非頸長肌）纖維化攣縮引起；多發生於右側；因易合併發育性髖關節發育不良（DDH），6週前應做髖關節超音波篩檢。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "先天性肌肉斜頸症（CMT）/ 纖維化病變肌肉 / 伴隨發育異常篩檢 / 好發側別",
+      "flashcard_back": "CMT 是胸鎖乳突肌（SCM，非頸長肌）纖維化攣縮引起；多發生於右側；因易合併發育性髖關節發育不良（DDH），6週前應做髖關節超音波篩檢。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_076",
@@ -1591,15 +2191,23 @@
         "D": "15:2"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據美國心臟協會（AHA）心肺復甦指引，對於兒童與嬰兒的 CPR，若施救者為單人（single rescuer），壓胸與人工呼吸的比例一律為 30:2，故選 B。只有在施救者為雙人（two rescuers）時，對兒童與嬰兒的比例才會調整為 15:2 以增加每分鐘人工呼吸的頻率。成人 CPR 不論單雙人施救皆維持 30:2。",
+      "key_point": "單人施救者對兒童實施心肺復甦術（CPR）的壓胸與吹氣比例。",
+      "flashcard_summary": "兒童 CPR / 單人施救者 / 雙人施救者 / 壓胸與吹氣比例 -> 兒童及嬰兒 CPR，單人施救時比例為 30:2；雙人施救時為 15:2。成人 CPR 不論單雙人皆為 30:2。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "兒童 CPR / 單人施救者 / 雙人施救者 / 壓胸與吹氣比例",
+      "flashcard_back": "兒童及嬰兒 CPR，單人施救時比例為 30:2；雙人施救時為 15:2。成人 CPR 不論單雙人皆為 30:2。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_077",
@@ -1612,15 +2220,23 @@
         "D": "老人"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "流行病學與保護性個案數據統計顯示，兒童性侵害（child sexual abuse）的加害者中，絕大多數（約 80-90% 以上）為受害者所認識的熟人（如親屬、鄰居、保母、家庭友人等），而非陌生人，故選 B。",
+      "key_point": "兒童性侵害加害者的常見身份類型。",
+      "flashcard_summary": "兒童性侵害 / 加害者身份盛行率 / 熟人 vs 陌生人 -> 兒童性侵害中，最常見的加害者身分為熟人（如親人、鄰友、師長等），而非陌生人。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "兒童性侵害 / 加害者身份盛行率 / 熟人 vs 陌生人",
+      "flashcard_back": "兒童性侵害中，最常見的加害者身分為熟人（如親人、鄰友、師長等），而非陌生人。",
+      "category_group": "醫學（四）",
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_078",
@@ -1633,15 +2249,23 @@
         "D": "血管收縮劑如norepinephrine 不適合用在此病人身上"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "患者有肝硬化與糖尿病史，因接觸海產（魚鰭刺傷）且快速進展至出血性水泡與敗血性休克，高度懷疑創傷弧菌（Vibrio vulnificus）感染。創傷弧菌首選藥物為三代頭孢子素（如 ceftriaxone）合併去氧羥四環素（doxycycline），故 B 正確。該菌進展極快，應立即照會外科清創，不可延遲；此時患者已進入敗血性休克，必須給予大量輸液與血管收縮劑（如 norepinephrine）支持。",
+      "key_point": "創傷弧菌（Vibrio vulnificus）壞死性筋膜炎的風險因子、臨床表徵與抗生素、外科治療原則。",
+      "flashcard_summary": "創傷弧菌（Vibrio vulnificus）/ 肝硬化與糖尿病 / 海水接觸刺傷與黑色出血水泡 / 首選抗生素組合 / 外科處置時機 -> 創傷弧菌好發於肝硬化/糖尿病患者，呈壞死性出血水泡；首選治療為三代頭孢子素（ceftriaxone）合併 doxycycline，且須立即行外科清創，並以 norepinephrine 處理敗血性休克。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "創傷弧菌（Vibrio vulnificus）/ 肝硬化與糖尿病 / 海水接觸刺傷與黑色出血水泡 / 首選抗生素組合 / 外科處置時機",
+      "flashcard_back": "創傷弧菌好發於肝硬化/糖尿病患者，呈壞死性出血水泡；首選治療為三代頭孢子素（ceftriaxone）合併 doxycycline，且須立即行外科清創，並以 norepinephrine 處理敗血性休克。",
+      "category_group": "醫學（四）",
+      "category": "其他",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_079",
@@ -1654,15 +2278,23 @@
         "D": "請她詢問兒子保險公司業務員只開立前次住院之診斷書是否有幫助"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "根據《醫師法》規定，醫師非親自診察病人，不得開立診斷書。由於該兒童已兩年未由林醫師看診且當日未到診，醫師無法得知其目前一切正常之生理狀況，若依母親要求開立，將違反親自診察原則並涉及開立不實診斷書之法律責任，故選項 B 之作法最不恰當。",
+      "key_point": "醫師開立診斷證明書之法律與倫理規範（親自診察原則）。",
+      "flashcard_summary": "診斷證明書開立規範 / 醫師法親自診察原則 / 病患未到診 / 法律責任 -> 醫師法規定非親自診察病人不得開立診斷書；病患未到診時，不可依家屬要求開立證明目前狀況之診斷書，否則涉及違法。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "診斷證明書開立規範 / 醫師法親自診察原則 / 病患未到診 / 法律責任",
+      "flashcard_back": "醫師法規定非親自診察病人不得開立診斷書；病患未到診時，不可依家屬要求開立證明目前狀況之診斷書，否則涉及違法。",
+      "category_group": "醫學（四）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     },
     {
       "id": "111-2_medicine-4_080",
@@ -1675,15 +2307,23 @@
         "D": "需由法定代理人決定是否停止洗腎"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "吳先生的意識與智能均正常，具備完整的醫療決策能力（competence）。在尊重病人自主權（autonomy）與《病人自主權利法》等原則下，病人有權在充分知情後拒絕維持生命治療（如血液透析）。即使醫護人員或機構有宗教信仰，亦不能將其強加於病人身上並強行治療，因此應尊重吳先生自主決定停止洗腎的選擇，故選 A。",
+      "key_point": "具自主能力病人拒絕維持生命治療之自主權尊重。",
+      "flashcard_summary": "病人自主權（Autonomy）/ 拒絕維持生命治療 / 洗腎終止決策 / 醫療決策能力 -> 具備醫療決策能力的病人，在知情同意後有權拒絕洗腎等維持生命治療；醫護人員應尊重其自主決定，而非以自身宗教或價值觀強行治療。",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "病人自主權（Autonomy）/ 拒絕維持生命治療 / 洗腎終止決策 / 醫療決策能力",
+      "flashcard_back": "具備醫療決策能力的病人，在知情同意後有權拒絕洗腎等維持生命治療；醫護人員應尊重其自主決定，而非以自身宗教或價值觀強行治療。",
+      "category_group": "醫學（四）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
     }
   ]
 }
