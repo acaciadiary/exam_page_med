@@ -15,6 +15,7 @@ import {
   getAvailableYears,
   getExamStage,
   getStageLabel,
+  getSubjectNumber,
   getSubjectLabel,
   groupExamsByStage,
 } from "../lib/examMetadata";
@@ -66,9 +67,9 @@ export function AppShell({
   const activeStage = activeExam ? getExamStage(activeExam) : "stage-1";
   const years = useMemo(() => getAvailableYears(exams), [exams]);
   const activeYear = activeExam?.year ?? years[0] ?? "";
-  const activeStageExams = groupedExams[activeStage].filter(
-    (exam) => exam.year === activeYear,
-  );
+  const activeStageExams = groupedExams[activeStage]
+    .filter((exam) => exam.year === activeYear)
+    .sort((left, right) => getSubjectNumber(left) - getSubjectNumber(right));
   const progress =
     questionCount === 0 ? 0 : Math.round((answeredCount / questionCount) * 100);
 

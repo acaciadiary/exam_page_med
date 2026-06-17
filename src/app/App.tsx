@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { AlertCircle } from "lucide-react";
 import { AppShell } from "../components/AppShell";
@@ -40,6 +40,7 @@ export default function App() {
   );
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [isDatasetLoading, setIsDatasetLoading] = useState(false);
+  const loadRequestIdRef = useRef(0);
   const [pendingQuestion, setPendingQuestion] = useState<{
     examId: string;
     questionId: string;
@@ -66,6 +67,7 @@ export default function App() {
 
   useEffect(() => {
     let cancelled = false;
+    const requestId = ++loadRequestIdRef.current;
 
     async function load() {
       try {
@@ -75,6 +77,9 @@ export default function App() {
         );
 
         const manifest = await loadManifest();
+        const activeExamExists = manifest.exams.some(
+          (exam) => exam.id === activeExamId,
+        );
         const selected =
           manifest.exams.find((exam) => exam.id === activeExamId) ??
           manifest.exams[0];
@@ -83,18 +88,18 @@ export default function App() {
           throw new Error("目前找不到任何考卷資料。");
         }
 
-        if (selected.id !== activeExamId) {
+        if ((!activeExamId || !activeExamExists) && selected.id !== activeExamId) {
           setActiveExamId(selected.id);
         }
 
         const dataset = await loadExamData(selected.path);
 
-        if (!cancelled) {
+        if (!cancelled && requestId === loadRequestIdRef.current) {
           setState({ status: "ready", manifest, dataset });
           setIsDatasetLoading(false);
         }
       } catch (error) {
-        if (!cancelled) {
+        if (!cancelled && requestId === loadRequestIdRef.current) {
           setIsDatasetLoading(false);
           setState({
             status: "error",
