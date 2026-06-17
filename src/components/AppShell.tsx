@@ -1,5 +1,6 @@
 import {
   BookOpenCheck,
+  ChevronDown,
   ClipboardX,
   Layers3,
   NotebookPen,
@@ -9,7 +10,6 @@ import {
 import { useMemo, type ReactNode } from "react";
 import clsx from "clsx";
 import type { AppPage } from "../app/routes";
-import { useHorizontalDragScroll } from "../hooks/useHorizontalDragScroll";
 import {
   findExamForYear,
   getAvailableYears,
@@ -59,11 +59,23 @@ export function AppShell({
   const groupedExams = groupExamsByStage(exams);
   const activeExam = exams.find((exam) => exam.id === activeExamId);
   const activeStage = activeExam ? getExamStage(activeExam) : "stage-1";
-  const activeStageExams = groupedExams[activeStage];
   const years = useMemo(() => getAvailableYears(exams), [exams]);
   const activeYear = activeExam?.year ?? years[0] ?? "";
+  const activeStageExams = groupedExams[activeStage].filter(
+    (exam) => exam.year === activeYear,
+  );
   const progress =
     questionCount === 0 ? 0 : Math.round((answeredCount / questionCount) * 100);
+
+  const handleStageChange = (stage: "stage-1" | "stage-2") => {
+    const firstExam =
+      groupedExams[stage].find((exam) => exam.year === activeYear) ??
+      groupedExams[stage][0];
+
+    if (firstExam) {
+      onExamChange(firstExam.id);
+    }
+  };
 
   return (
     <div
@@ -105,7 +117,7 @@ export function AppShell({
                     醫師國考複習站
                   </h1>
                   <p className="mt-1 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                    年份、考試、科目、錯題本、便利貼都放回上方了
+                    年份、考試與題庫都能直接切換
                   </p>
                 </div>
               </div>
@@ -137,79 +149,69 @@ export function AppShell({
               </div>
             </div>
 
-            <div className="grid gap-3 xl:grid-cols-[auto_auto_1fr_auto]">
-              <FilterGroup label="年份">
-                {years.map((year) => (
-                  <SelectorButton
-                    key={year}
-                    active={year === activeYear}
-                    onClick={() => {
-                      const nextExam = findExamForYear({
-                        exams,
-                        year,
-                        activeExam,
-                        activeStage,
-                      });
+            <div className="grid gap-3 xl:grid-cols-[13rem_auto_minmax(16rem,24rem)_auto]">
+              <SelectGroup label="年份">
+                <select
+                  value={activeYear}
+                  onChange={(event) => {
+                    const nextExam = findExamForYear({
+                      exams,
+                      year: event.target.value,
+                      activeExam,
+                      activeStage,
+                    });
 
-                      if (nextExam) {
-                        onExamChange(nextExam.id);
-                      }
-                    }}
-                  >
-                    {year}
-                  </SelectorButton>
-                ))}
-              </FilterGroup>
-
-              <FilterGroup label="考試">
-                <SelectorButton
-                  active={activeStage === "stage-1"}
-                  onClick={() => {
-                    const firstExam =
-                      groupedExams["stage-1"].find(
-                        (exam) => exam.year === activeYear,
-                      ) ?? groupedExams["stage-1"][0];
-
-                    if (firstExam) {
-                      onExamChange(firstExam.id);
+                    if (nextExam) {
+                      onExamChange(nextExam.id);
                     }
                   }}
+                  className={selectClassName}
+                  aria-label="選擇年份"
                 >
-                  {getStageLabel("stage-1")}
-                </SelectorButton>
-                <SelectorButton
-                  active={activeStage === "stage-2"}
-                  onClick={() => {
-                    const firstExam =
-                      groupedExams["stage-2"].find(
-                        (exam) => exam.year === activeYear,
-                      ) ?? groupedExams["stage-2"][0];
+                  {years.map((year) => (
+                    <option key={year} value={year}>
+                      {year}
+                    </option>
+                  ))}
+                </select>
+              </SelectGroup>
 
-                    if (firstExam) {
-                      onExamChange(firstExam.id);
-                    }
-                  }}
-                >
-                  {getStageLabel("stage-2")}
-                </SelectorButton>
-              </FilterGroup>
-
-              <FilterGroup label="科目" scrollable>
-                {activeStageExams.map((exam) => (
-                  <SelectorButton
-                    key={exam.id}
-                    active={exam.id === activeExamId}
-                    onClick={() => onExamChange(exam.id)}
+              <div className="min-w-0">
+                <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
+                  考試
+                </p>
+                <div className="inline-flex h-11 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 p-1">
+                  <SegmentButton
+                    active={activeStage === "stage-1"}
+                    onClick={() => handleStageChange("stage-1")}
                   >
-                    {getSubjectLabel(exam)}
-                  </SelectorButton>
-                ))}
-              </FilterGroup>
+                    {getStageLabel("stage-1")}
+                  </SegmentButton>
+                  <SegmentButton
+                    active={activeStage === "stage-2"}
+                    onClick={() => handleStageChange("stage-2")}
+                  >
+                    {getStageLabel("stage-2")}
+                  </SegmentButton>
+                </div>
+              </div>
+
+              <SelectGroup label="目前題庫">
+                <select
+                  value={activeExam?.id ?? ""}
+                  onChange={(event) => onExamChange(event.target.value)}
+                  className={selectClassName}
+                  aria-label="選擇目前題庫"
+                >
+                  {activeStageExams.map((exam) => (
+                    <option key={exam.id} value={exam.id}>
+                      {getSubjectLabel(exam)}
+                    </option>
+                  ))}
+                </select>
+              </SelectGroup>
 
               <div className="flex flex-wrap items-start justify-start gap-2 xl:justify-end">
-                <SummaryPill>
-                  目前題庫：{activeExam ? getSubjectLabel(activeExam) : "未選擇"}
-                </SummaryPill>
                 <SummaryPill>作答進度：{answeredCount} / {questionCount}</SummaryPill>
                 <SummaryPill>完成率：{progress}%</SummaryPill>
               </div>
@@ -253,36 +255,33 @@ export function AppShell({
   );
 }
 
-function FilterGroup({
+const selectClassName =
+  "h-11 w-full appearance-none rounded-[0.85rem] border border-[#e6d6c9] bg-white/84 px-4 pr-10 text-sm font-semibold text-[#6f5b50] outline-none transition hover:border-[#f1aac8] focus:border-[#f1aac8] focus:ring-4 focus:ring-[#ffd9e8]/55";
+
+function SelectGroup({
   label,
-  scrollable = false,
   children,
 }: {
   label: string;
-  scrollable?: boolean;
   children: ReactNode;
 }) {
-  const dragScrollProps = useHorizontalDragScroll();
-
   return (
-    <div className="min-w-0">
-      <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
+    <label className="block min-w-0">
+      <span className="mb-2 block text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
         {label}
-      </p>
-      <div
-        {...(scrollable ? dragScrollProps : {})}
-        className={clsx(
-          "flex gap-2 rounded-[0.95rem] border border-[#e6d6c9] bg-white/76 p-2",
-          scrollable && "horizontal-drag-scroll max-w-full",
-        )}
-      >
+      </span>
+      <span className="relative block">
         {children}
-      </div>
-    </div>
+        <ChevronDown
+          size={16}
+          className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#9a7469]"
+        />
+      </span>
+    </label>
   );
 }
 
-function SelectorButton({
+function SegmentButton({
   active,
   onClick,
   children,
@@ -294,10 +293,9 @@ function SelectorButton({
   return (
     <button
       type="button"
-      onPointerDown={(event) => event.stopPropagation()}
       onClick={onClick}
       className={clsx(
-        "h-10 shrink-0 rounded-[0.7rem] px-4 text-sm font-semibold transition",
+        "inline-flex min-w-24 items-center justify-center rounded-[0.7rem] px-4 text-sm font-semibold transition",
         active
           ? "bg-[#f7e2ea] text-[#8a4561] shadow-[0_10px_24px_rgba(181,133,117,0.18)]"
           : "text-[#806b60] hover:bg-white hover:text-[#3f342d]",
@@ -345,7 +343,7 @@ function PageButton({
 
 function SummaryPill({ children }: { children: ReactNode }) {
   return (
-    <div className="inline-flex h-10 items-center rounded-full border border-[#efd9d0] bg-white/82 px-4 text-sm font-semibold text-[#6f5b50]">
+    <div className="inline-flex h-11 items-center rounded-full border border-[#efd9d0] bg-white/82 px-4 text-sm font-semibold text-[#6f5b50]">
       {children}
     </div>
   );

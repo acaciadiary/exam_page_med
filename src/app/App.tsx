@@ -5,7 +5,10 @@ import { AppShell } from "../components/AppShell";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
 import { FlashcardMode } from "../features/flashcards/FlashcardMode";
-import { MistakeNotebookPage } from "../features/mistakes/MistakeNotebookPage";
+import {
+  MistakeNotebookPage,
+  type MistakeEntry,
+} from "../features/mistakes/MistakeNotebookPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
@@ -14,7 +17,7 @@ import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
 import { isAcceptedAnswer } from "../lib/text";
 import { buildSearchForPage, readPageFromSearch, type AppPage } from "./routes";
-import type { ExamDataset, ExamManifest, Mode } from "../types/exam";
+import type { AnswerState, ExamDataset, ExamManifest, Mode } from "../types/exam";
 import type { StickyNoteItem } from "../types/stickyNote";
 
 type LoadState =
@@ -37,7 +40,12 @@ export default function App() {
   );
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [isDatasetLoading, setIsDatasetLoading] = useState(false);
-  const [pendingQuestionId, setPendingQuestionId] = useState<string | null>(null);
+  const [pendingQuestion, setPendingQuestion] = useState<{
+    examId: string;
+    questionId: string;
+  } | null>(null);
+  const [allMistakes, setAllMistakes] = useState<MistakeEntry[]>([]);
+  const [isMistakesLoading, setIsMistakesLoading] = useState(false);
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
     [],
@@ -112,30 +120,75 @@ export default function App() {
   const markedFlashcards = useMarkedItems(storageKeys.markedFlashcards(examId));
 
   const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
-  const wrongQuestionCount = useMemo(() => {
-    if (!readyDataset) return 0;
-
-    return readyDataset.questions.filter((question) => {
-      const selected = answers[question.id];
-      return selected && !isAcceptedAnswer(selected, question);
-    }).length;
-  }, [answers, readyDataset]);
 
   useEffect(() => {
-    if (page !== "exam" || !pendingQuestionId) return undefined;
+    if (state.status !== "ready") return undefined;
 
-    const frameId = window.requestAnimationFrame(() => {
-      const target = document.getElementById(pendingQuestionId);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        window.location.hash = pendingQuestionId;
+    let cancelled = false;
+    const manifest = state.manifest;
+    const currentDataset = state.dataset;
+
+    async function collectMistakes() {
+      setIsMistakesLoading(true);
+
+      const entries: MistakeEntry[] = [];
+
+      for (const exam of manifest.exams) {
+        const examAnswers =
+          exam.id === examId ? answers : readStoredAnswers(exam.id);
+
+        if (Object.keys(examAnswers).length === 0) {
+          continue;
+        }
+
+        const dataset =
+          currentDataset.id === exam.id
+            ? currentDataset
+            : await loadExamData(exam.path);
+
+        for (const question of dataset.questions) {
+          const selectedAnswer = examAnswers[question.id];
+
+          if (selectedAnswer && !isAcceptedAnswer(selectedAnswer, question)) {
+            entries.push({ exam, question, selectedAnswer });
+          }
+        }
       }
 
-      setPendingQuestionId(null);
+      if (!cancelled) {
+        setAllMistakes(entries);
+        setIsMistakesLoading(false);
+      }
+    }
+
+    collectMistakes().catch(() => {
+      if (!cancelled) {
+        setAllMistakes([]);
+        setIsMistakesLoading(false);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [answers, examId, readyDataset, state]);
+
+  useEffect(() => {
+    if (page !== "exam" || !pendingQuestion || readyDataset?.id !== pendingQuestion.examId) {
+      return undefined;
+    }
+
+    const frameId = window.requestAnimationFrame(() => {
+      const target = document.getElementById(pendingQuestion.questionId);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.location.hash = pendingQuestion.questionId;
+        setPendingQuestion(null);
+      }
     });
 
     return () => window.cancelAnimationFrame(frameId);
-  }, [page, pendingQuestionId, readyDataset?.id]);
+  }, [page, pendingQuestion, readyDataset?.id]);
 
   const handlePageChange = (nextPage: AppPage) => {
     if (nextPage === page) return;
@@ -203,7 +256,7 @@ export default function App() {
       theme={theme}
       answeredCount={answeredCount}
       questionCount={dataset.questions.length}
-      wrongQuestionCount={wrongQuestionCount}
+      wrongQuestionCount={allMistakes.length}
       stickyNoteCount={stickyNotes.length}
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
@@ -231,11 +284,12 @@ export default function App() {
 
         {page === "mistakes" ? (
           <MistakeNotebookPage
-            dataset={dataset}
-            answers={answers}
-            onOpenQuestion={(questionId) => {
+            mistakes={allMistakes}
+            loading={isMistakesLoading}
+            onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
-              setPendingQuestionId(questionId);
+              setActiveExamId(targetExamId);
+              setPendingQuestion({ examId: targetExamId, questionId });
               handlePageChange("exam");
             }}
           />
@@ -287,4 +341,16 @@ export default function App() {
       </div>
     </AppShell>
   );
+}
+
+function readStoredAnswers(examId: string): AnswerState {
+  try {
+    const stored = window.localStorage.getItem(storageKeys.answers(examId));
+    if (!stored) return {};
+
+    const parsed = JSON.parse(stored);
+    return parsed && typeof parsed === "object" ? (parsed as AnswerState) : {};
+  } catch {
+    return {};
+  }
 }
