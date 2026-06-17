@@ -4,7 +4,7 @@
   "title": "113 年第一次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=113020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-11T14:37:07.916866+00:00",
+  "updated_at": "2026-06-17T01:30:59.122118+00:00",
   "questions": [
     {
       "id": "113-1_medicine-1_001",
@@ -17,15 +17,23 @@
         "D": "E-W神經核(Edinger-Westphal nucleus)與動眼神經核(oculomotor nucleus)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "角膜反射的感覺傳入來自角膜，經三叉神經第一支進入三叉神經脊髓核。反射弧再連到顏面運動神經核，經顏面神經使眼輪匝肌收縮而閉眼。動眼神經核與 Edinger-Westphal 核主要參與眼球運動與瞳孔反射，並非本反射的主要核。",
+      "key_point": "角膜反射的傳入主要走三叉神經 V1，傳出則由顏面神經支配眼輪匝肌閉眼。",
+      "flashcard_summary": "角膜反射 / V1 傳入 / 閉眼動作 -> 三叉神經脊髓核接顏面運動神經核，完成角膜反射",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "角膜反射 / V1 傳入 / 閉眼動作 / 顏面神經",
+      "flashcard_back": "看到角膜反射要先想傳入是三叉神經 V1，傳出是顏面神經到眼輪匝肌。常見混淆是把瞳孔光反射用到這題，誤選動眼神經相關核。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_002",
@@ -38,15 +46,23 @@
         "D": "頂枕溝(parieto-occipital sulcus)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大腦內側面的初級視覺皮質位於距狀溝周圍，也就是枕葉的典型視覺區。中央溝對應初級運動與體感覺皮質，側腦溝與頂枕溝則不是初級視覺皮質的主要定位。只要記住 V1 圍繞 calcarine sulcus，就能快速作答。",
+      "key_point": "初級視覺皮質位於枕葉內側、圍繞距狀溝分布。",
+      "flashcard_summary": "內側面視覺區 / V1 / 枕葉 -> 初級視覺皮質圍繞距狀溝",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "內側面視覺區 / V1 / 枕葉 / calcarine sulcus",
+      "flashcard_back": "看到初級視覺皮質的定位題，優先想到距狀溝。它是內側枕葉辨認 V1 的關鍵地標。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_003",
@@ -59,10 +75,10 @@
         "D": "運動前區(premotor area)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "依常見神經解剖整理，基底核輸出經丘腦多影響運動前區、補充運動區與其他運動調控區，而不特別強調直接投射到主要運動區，因此原始答案標為 A。不過本題官方已註明一律給分，表示選項設計或敘述存在爭議。作答時要知道標準概念，同時留意國考勘誤與給分資訊。",
+      "key_point": "基底核經丘腦主要調節運動前區、補充運動區等運動相關皮質，題目因表述爭議已官方一律給分。",
+      "flashcard_summary": "基底核輸出 / 經丘腦 / 一律給分 -> 常見整理偏向調節運動相關聯合皮質，本題官方全給分",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A",
         "B",
@@ -71,7 +87,15 @@
       ],
       "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "第3題一律給分"
+      "answer_note": "第3題一律給分",
+      "flashcard_front": "基底核輸出 / 經丘腦 / SMA / premotor / 一律給分",
+      "flashcard_back": "基底核經丘腦主要參與高階運動規劃與調節，常連到補充運動區與運動前區。本題有爭議，考場上遇到類似題要特別注意官方更正。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_004",
@@ -84,15 +108,23 @@
         "D": "視叉上核(suprachiasmatic nucleus)與後側核(posterior nucleus)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "下視丘的視上核與室旁核會合成 ADH 與 oxytocin，軸突經下視丘至腦下腺束進入腦下腺後葉。後葉本身主要負責儲存與釋放，而非合成這些激素。視叉上核主要與晝夜節律有關，不是本題重點。",
+      "key_point": "腦下腺後葉釋放的 ADH 與 oxytocin 由視上核和室旁核神經元產生並送達。",
+      "flashcard_summary": "後葉激素 / ADH / oxytocin -> 由視上核與室旁核製造，經軸突送到腦下腺後葉",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "後葉激素 / ADH / oxytocin / 視上核 / 室旁核",
+      "flashcard_back": "遇到腦下腺後葉來源題，要想到激素是在下視丘的視上核與室旁核製造，再送到後葉釋放。不要把視叉上核的生理功能混進來。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_005",
@@ -105,15 +137,23 @@
         "D": "交感神經節前神經元(preganglionic sympathetic neuron)的細胞體位於中間帶"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膠狀質位在背角，與痛溫覺調節密切相關，A 正確。前角的大型運動神經元支配骨骼肌，側角或中間帶則可見自主神經節前神經元，C、D 也合理。Clarke 背核雖與後脊髓小腦徑有關，但位置常描述在胸腰段中間帶基部，而非一般背角表層，因此 B 最不恰當。",
+      "key_point": "Clarke 背核位於脊髓中間帶偏內側，不是典型的背角結構。",
+      "flashcard_summary": "脊髓灰質定位 / Clarke 背核 -> 與後脊髓小腦徑有關，但不屬典型背角表層結構",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "脊髓灰質定位 / 膠狀質 / Clarke 背核 / 前角 / 中間帶",
+      "flashcard_back": "這類題先分清背角、前角與中間帶的代表結構。Clarke 背核和小腦脊髓徑有關，但位置不宜簡化成背角表層。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_006",
@@ -126,15 +166,23 @@
         "D": "1245"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "鼓膜感覺支配較複雜，外側面主要有耳顳神經（V3）與迷走神經耳支，內側面則與舌咽神經相關，另有少部分顏面神經參與。前庭耳蝸神經是特殊感覺神經，主管聽覺與平衡，不負責鼓膜的一般體感覺。所以排除 3 後，答案為包含 1、2、4、5 的 D。",
+      "key_point": "鼓膜外側與相關區域的體感覺可來自 V、VII、IX、X，前庭耳蝸神經不負責一般體感覺。",
+      "flashcard_summary": "鼓膜感覺 / V VII IX X / 排除 VIII -> 一般體感覺不由前庭耳蝸神經負責",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "鼓膜感覺 / V3 / VII / IX / X / 排除 VIII",
+      "flashcard_back": "鼓膜題目重點是分清一般體感覺與特殊感覺。前庭耳蝸神經只管聽覺和平衡，不拿來做鼓膜觸痛覺支配。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_007",
@@ -147,15 +195,23 @@
         "D": "支配頸闊肌(platysma muscle)之收縮"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "鎖骨上神經來自頸神經叢的 C3、C4，不是臂神經叢，因此 A 錯。它主要支配鎖骨上方、肩峰附近與上胸前部的皮膚感覺，所以 C 正確。肌肉收縮如頸闊肌由顏面神經支配，喉前皮膚也不是其典型重點。",
+      "key_point": "鎖骨上神經是頸神經叢皮支，負責肩上方與鎖骨附近皮膚感覺。",
+      "flashcard_summary": "鎖骨上神經 / 頸神經叢 / 肩部皮膚 -> 支配肩上方與鎖骨附近的皮膚感覺",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "supraclavicular nerve / 頸神經叢 / C3 C4 / 肩部皮膚",
+      "flashcard_back": "看到鎖骨上神經，先聯想到頸神經叢的皮支，而不是臂神經叢。它考的是肩上區與鎖骨附近的皮膚感覺分布。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_008",
@@ -168,15 +224,23 @@
         "D": "枕小神經(lesser occipital nerve)參與耳後部分頭皮感覺訊息傳送"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "頭皮由皮膚、緻密結締組織、帽狀腱膜、疏鬆結締組織與顱骨膜組成。供應頭皮的血管與神經主要位在第二層緻密結締組織中，因此 B 所述位置錯誤。頭皮可有一定程度移動，耳後感覺也確可由枕小神經參與。",
+      "key_point": "頭皮血管主要走在緻密結締組織層，不是在顱頂腱膜與顱骨膜之間。",
+      "flashcard_summary": "頭皮五層 / 血管位置 -> 頭皮血管神經主要位於緻密結締組織層",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "SCALP 五層 / 血管位置 / 緻密結締組織 / 帽狀腱膜",
+      "flashcard_back": "頭皮定位題常考第二層緻密結締組織，因為血管神經就在這裡。腱膜下的疏鬆結締組織是頭皮可移動的原因，但不是主要血管層。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_009",
@@ -189,15 +253,23 @@
         "D": "鼻中隔(nasal septum)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "篩骨會形成上鼻甲與中鼻甲，也參與鼻中隔上部構成。下鼻甲則是單獨的一塊骨頭，不是篩骨延伸。這題最容易因為三個鼻甲一起背而誤以為都屬於篩骨。",
+      "key_point": "下鼻甲是獨立骨，不屬於篩骨的一部分。",
+      "flashcard_summary": "篩骨構成 / 鼻甲 -> 下鼻甲是獨立骨，不由篩骨組成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "篩骨構成 / superior concha / middle concha / inferior concha",
+      "flashcard_back": "鼻甲題要記得只有上、中鼻甲屬於篩骨。下鼻甲是獨立骨，是最常見的考點陷阱。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_010",
@@ -210,15 +282,23 @@
         "D": "後床突(posterior clinoid process)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "乙狀竇溝位於顱後窩內面，反映乙狀竇通往頸靜脈孔的走行，因此 C 正確。盲孔位於前顱窩，弓狀隆起位於中顱窩岩部，後床突則屬蝶鞍附近中顱窩區域。判斷顱窩位置時，最好先建立前、中、後顱窩的骨性地標。",
+      "key_point": "後顱窩可見乙狀竇溝，與靜脈竇走行相關。",
+      "flashcard_summary": "後顱窩 / 乙狀竇溝 -> groove for sigmoid sinus 位於後顱窩",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "後顱窩 / sigmoid sinus groove / 顱窩定位 / 靜脈竇",
+      "flashcard_back": "後顱窩常見地標包含小腦、腦幹與乙狀竇溝。遇到顱窩定位題，用骨性與靜脈竇溝地標最快。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_011",
@@ -231,15 +311,23 @@
         "D": "鼓膜張肌(tensor tympani muscle)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "顏面神經的運動分支支配表情肌，也支配鐙骨肌，因此 C 正確。嚼肌與內翼肌屬咀嚼肌群，由三叉神經下頷支支配；鼓膜張肌同樣也是 V3。這題常用來區分中耳小肌與咀嚼肌的神經來源。",
+      "key_point": "CN VII 支配鐙骨肌；咀嚼肌群與鼓膜張肌則屬 V3 支配。",
+      "flashcard_summary": "CN VII / 鐙骨肌 -> stapedius 由顏面神經支配，tensor tympani 屬 V3",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "CN VII / stapedius / CN V3 / 咀嚼肌 / tensor tympani",
+      "flashcard_back": "記憶上可把鐙骨肌和顏面神經綁在一起；咀嚼肌與鼓膜張肌則歸到 V3。不要把兩個中耳小肌混成同一條神經。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_012",
@@ -252,15 +340,23 @@
         "D": "外翼肌(lateral pterygoid muscle)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "顳頷韌帶位於關節外側，可限制下頷骨後移，避免下頷骨頭向後方擠壓外耳道或發生後脫臼，因此 A 正確。莖突下頷韌帶較偏輔助穩定，翼肌則主要參與運動而非防止後脫位。題目核心是辨認最重要的被動穩定結構。",
+      "key_point": "顳頷韌帶是防止下頷骨向後位移與後方脫臼的重要穩定構造。",
+      "flashcard_summary": "TMJ / 後方脫臼 -> 顳頷韌帶是限制後移的主要穩定構造",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "TMJ / 後方脫臼 / 外側韌帶 / temporomandibular ligament",
+      "flashcard_back": "顳頷關節問到防止向後脫位，先想顳頷韌帶。它限制下頷骨頭往後移，是關節的重要保護機制。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_013",
@@ -273,15 +369,23 @@
         "D": "後大腦動脈(posterior cerebral artery)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "翼點附近骨板較薄，深部有腦膜中動脈前支經過，外傷後容易造成硬腦膜外血腫。這類病人常先有短暫清醒期，再逐漸惡化，是經典考點。靜脈竇或大腦動脈並不是翼點外傷造成 epidural hematoma 的典型來源。",
+      "key_point": "翼點受傷後延遲出現硬腦膜外血腫，典型是腦膜中動脈破裂。",
+      "flashcard_summary": "翼點外傷 / 硬腦膜外血腫 -> 典型為腦膜中動脈破裂",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "pterion / epidural hematoma / lucid interval / middle meningeal artery",
+      "flashcard_back": "看到翼點外傷加上數小時後惡化，就要聯想到腦膜中動脈破裂造成硬腦膜外血腫。這是神經外傷的高頻經典題。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_014",
@@ -294,15 +398,23 @@
         "D": "膈神經(phrenic nerve)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "壁層胸膜的肋胸膜由肋間神經支配，因此靠近肋骨處的感覺訊號由肋間神經傳入。中央膈胸膜與縱隔胸膜則多由膈神經支配。這題常考的是依位置區分壁層胸膜的感覺神經來源。",
+      "key_point": "靠近肋骨的壁層胸膜痛覺由肋間神經傳遞，膈神經則偏膈胸膜與縱隔胸膜。",
+      "flashcard_summary": "壁層胸膜 / 靠肋骨 -> costal pleura 的感覺由肋間神經傳遞",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "壁層胸膜 / 肋胸膜 / intercostal nerve / phrenic nerve",
+      "flashcard_back": "胸膜感覺題先分區域：靠肋骨想肋間神經，靠膈中央或縱隔想膈神經。不要整個壁層胸膜都只背成膈神經。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_015",
@@ -315,15 +427,23 @@
         "D": "左冠狀動脈(left coronary artery)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在大多數右優勢冠循環的人，房室結由右冠狀動脈供血，因此 C 正確。前室間動脈主要供應前壁與心室中隔前部，左邊緣動脈供應左心室側壁，左冠狀動脈本身則太籠統。這題要抓住 AV node 與 RCA 的高頻配對。",
+      "key_point": "房室結的血液供應多來自右冠狀動脈發出的 AV nodal branch。",
+      "flashcard_summary": "AV node blood supply / RCA -> 房室結多由右冠狀動脈供應",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "AV node blood supply / RCA / 右優勢循環 / AV nodal branch",
+      "flashcard_back": "房室結供血考題最常見答案是右冠狀動脈。除非題目特別談左優勢循環，否則先選 RCA。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_016",
@@ -336,15 +456,23 @@
         "D": "供應血液給部分的胸膜(pleura)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "支氣管動脈屬於肺的營養性血流，供應支氣管、部分肺組織、食道與臟層胸膜等結構。常見來源是胸主動脈，右側也可能與後肋間動脈共幹，但不是『通常主幹由左側第二肋間動脈分出』。因此 A 為錯誤敘述。",
+      "key_point": "支氣管動脈多直接來自胸主動脈，並非通常由左第二肋間動脈分出。",
+      "flashcard_summary": "支氣管動脈 / 胸主動脈 / 營養性血流 -> 主要來自胸主動脈，供應支氣管及部分肺支持組織",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "bronchial artery / 營養性血流 / 胸主動脈 / 食道胸膜",
+      "flashcard_back": "支氣管動脈考的是來源與供應範圍：多源自胸主動脈，供應支氣管與部分肺支持組織。不要把它和肺動脈的功能混在一起。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_017",
@@ -357,15 +485,23 @@
         "D": "腹部肌肉癱瘓"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "高位胸椎脊髓損傷會使胸段肋間肌麻痺，導致胸廓無法有效擴張，肺活量明顯下降。橫膈主要由 C3 到 C5 的膈神經支配，因此單純高位胸髓損傷初期通常仍可保留。腹肌較影響用力呼氣與咳嗽，但不是初期肺活量大降的主因。",
+      "key_point": "高位胸髓損傷早期肺活量下降，主因是肋間肌失去支配而胸廓擴張能力變差。",
+      "flashcard_summary": "高位胸髓損傷 / 肺活量下降 -> 主要因肋間肌麻痺使胸廓擴張受限",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "高位胸髓損傷 / 肺活量下降 / 肋間肌 / 膈神經保留",
+      "flashcard_back": "判斷脊髓損傷後呼吸功能時，要先看膈神經有沒有受影響。高位胸髓傷主要讓肋間肌失能，所以胸廓擴張下降最明顯。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_018",
@@ -378,15 +514,23 @@
         "D": "十二指腸上升段(ascending part of duodenum)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "主胰管與膽管匯合形成肝胰壺腹後，開口於十二指腸下降段的大十二指腸乳頭。這是消化道與膽胰解剖的高頻考點。若題目問副胰管，才可能聯想到小十二指腸乳頭。",
+      "key_point": "膽總管與主胰管通常在十二指腸降部的大十二指腸乳頭共同開口。",
+      "flashcard_summary": "主胰管 / 膽管 / 大乳頭 -> 共同開口於十二指腸下降段",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "主胰管 / 膽管 / 肝胰壺腹 / 大十二指腸乳頭 / 降部",
+      "flashcard_back": "看到膽管與主胰管共同開口，直接聯想十二指腸第二部。大乳頭是經典定位點。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_019",
@@ -399,15 +543,23 @@
         "D": "腹橫肌腱膜(aponeurosis of transversus abdominis)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腹股溝深環位於腹橫筋膜上，位於下腹壁血管外側，是腹股溝管的內口。腹外斜肌腱膜形成的是淺環，不可混淆。內斜肌與腹橫肌則提供部分腹股溝管壁與提睪肌來源。",
+      "key_point": "腹股溝深環是腹橫筋膜上的開口，為精索進入腹股溝管的入口。",
+      "flashcard_summary": "腹股溝深環 / 腹橫筋膜 -> deep inguinal ring 是腹橫筋膜上的開口",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "deep inguinal ring / transversalis fascia / 下腹壁血管外側 / 淺環對照",
+      "flashcard_back": "腹股溝題目先分深環與淺環：深環在腹橫筋膜，淺環在腹外斜肌腱膜。這是判斷腹股溝疝方向的基礎。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_020",
@@ -420,15 +572,23 @@
         "D": "下胰十二指腸動脈(inferior pancreaticoduodenal artery)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "下胰十二指腸動脈是上腸繫膜動脈的典型分支，與上胰十二指腸動脈形成吻合。前、後上胰十二指腸動脈通常來自胃十二指腸動脈，而左結腸動脈來自下腸繫膜動脈。這題重點在分清 SMA 與 celiac / IMA 的分支。",
+      "key_point": "上腸繫膜動脈會發出下胰十二指腸動脈，供應中腸起始區與胰十二指腸交界。",
+      "flashcard_summary": "SMA 分支 / 下胰十二指腸動脈 -> inferior pancreaticoduodenal artery 來自上腸繫膜動脈",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "SMA 分支 / inferior pancreaticoduodenal / celiac 對照 / IMA 對照",
+      "flashcard_back": "分支題常考胰十二指腸上下來源：上屬腹腔幹系統，下屬上腸繫膜動脈。左結腸動脈則是下腸繫膜動脈。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_021",
@@ -441,15 +601,23 @@
         "D": "迷走神經(vagus nerve)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "闌尾的早期內臟痛會經交感傳入纖維回到脊髓，與中腸相關路徑連結，臨床上常表現為臍周痛。對應選項中，以內臟小神經最符合闌尾的傳導路徑。迷走神經主要攜帶副交感纖維，並不是疼痛傳導主路徑。",
+      "key_point": "闌尾屬中腸，其內臟痛纖維多隨 T10 到 T12 交感路徑回傳，常對應內臟小神經。",
+      "flashcard_summary": "闌尾疼痛 / 中腸 / 交感傳入 -> 主要隨內臟小神經相關路徑傳導",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "appendix pain / 臍周痛 / 中腸 / 交感傳入 / lesser splanchnic",
+      "flashcard_back": "闌尾痛先想中腸內臟痛與交感路徑，而不是迷走神經。考題常用『早期臍周痛』來提示你走內臟傳入。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_022",
@@ -462,15 +630,23 @@
         "D": "薦骨粗隆韌帶(sacrotuberous ligament)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "坐骨肛門窩的外側壁主要是閉孔內肌及其筋膜，內側壁則是提肛肌與外肛門括約肌。坐骨粗隆、薦骨粗隆韌帶及後方的臀大肌都與其邊界相關。閉孔外肌位於骨盆外側，不構成此窩的邊界，因此 A 為正確答案。",
+      "key_point": "坐骨肛門窩外側壁由閉孔內肌與其筋膜形成，不是閉孔外肌。",
+      "flashcard_summary": "坐骨肛門窩 / 邊界 / 閉孔內外肌 -> 不參與邊界的是閉孔外肌",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ischioanal fossa / obturator internus / obturator externus / 邊界",
+      "flashcard_back": "坐骨肛門窩的陷阱是把閉孔內肌和閉孔外肌搞混。形成外側壁的是閉孔內肌與其筋膜。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_023",
@@ -483,15 +659,23 @@
         "D": "中直腸動脈(middle rectal artery)是陰部內動脈的分支"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "陰部內動脈是髂內動脈的分支，經坐骨大孔離盆，再經坐骨小孔進入會陰與坐骨肛門窩，A、B、C 皆正確。中直腸動脈一般來自髂內動脈前支系統，並非陰部內動脈的典型分支，因此 D 最不恰當。這題重點在記住 internal pudendal artery 的路徑與主要分支。",
+      "key_point": "中直腸動脈通常來自髂內動脈前幹或其分支，不是陰部內動脈的典型分支。",
+      "flashcard_summary": "陰部內動脈 / 路徑 / 分支 -> 中直腸動脈不是其典型分支",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "internal pudendal artery / greater sciatic foramen / lesser sciatic foramen / middle rectal artery",
+      "flashcard_back": "陰部內動脈的路徑是先出骨盆再折返進會陰；中直腸動脈不要硬背成它的分支。考題常把『路徑正確、分支錯誤』混在一起。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_024",
@@ -504,15 +688,23 @@
         "D": "輸精管壺腹(ampulla of ductus deferens)位於輸精管與副睪管(duct of epididymis)交接處"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "輸精管由精索進入腹股溝管後，進一步跨過外髂血管進入骨盆，因此 A 正確。它在骨盆內是跨過輸尿管上方，臨床常記成『輸精管跨過輸尿管』，所以 C 錯。壺腹位於輸精管末端近前列腺處，並非與副睪管交界處。",
+      "key_point": "輸精管進入骨盆時會跨過外髂血管，之後在骨盆內越過輸尿管上方。",
+      "flashcard_summary": "輸精管 / 外髂血管 / 跨輸尿管 -> 進骨盆時跨外髂血管，骨盆內越過輸尿管上方",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ductus deferens / crosses external iliac vessels / crosses over ureter / ampulla",
+      "flashcard_back": "男性骨盆高頻句型是『輸精管跨過輸尿管』。進盆入口則要記外髂血管，不要和腹股溝管出口混淆。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_025",
@@ -525,15 +717,23 @@
         "D": "大前庭腺(greater vestibular gland)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "陰囊、陰道前庭與大前庭腺多回流到淺腹股溝淋巴結，屬表淺外生殖器的典型路徑。卵巢則源自腹後壁，淋巴沿卵巢血管回到腰旁（para-aortic）淋巴結，因此和其他三者不同。這是生殖系統淋巴引流的經典對照題。",
+      "key_point": "卵巢淋巴沿卵巢血管回流至腰旁主動脈淋巴結，與外陰結構不同。",
+      "flashcard_summary": "卵巢淋巴 / para-aortic -> 卵巢回流至腰旁淋巴結，與外陰結構不同",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ovary lymph / para-aortic nodes / 外陰結構 / superficial inguinal nodes",
+      "flashcard_back": "遇到卵巢淋巴，不要被它位在骨盆內誤導；它跟睪丸一樣偏向腹後壁來源，所以走 para-aortic。外陰結構才多走淺腹股溝。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_026",
@@ -546,15 +746,23 @@
         "D": "肩胛骨關節盂(glenoid cavity of scapula)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "肱骨小頭位於遠端肱骨外側，與橈骨頭關節面接觸，構成肱橈關節。尺骨滑車切跡對應的是肱骨滑車，不是肱骨小頭。這題是在考肘關節內外側骨性配對。",
+      "key_point": "肱骨小頭與橈骨頭形成肱橈關節，是肘關節外側的接觸面。",
+      "flashcard_summary": "肱骨小頭 / 橈骨頭 -> capitulum 與 radial head 形成關節",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "capitulum / radial head / humeroradial joint / trochlea 對照",
+      "flashcard_back": "肘關節骨性配對可簡化成：小頭配橈骨，滑車配尺骨。背熟這一組，很多關節題都會變簡單。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_027",
@@ -567,15 +775,23 @@
         "D": "內蹠神經(medial plantar nerve)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "足背大趾與第二趾之間的第一蹼間是深腓神經很重要的皮膚感覺區，臨床常拿來檢查其功能。淺腓神經支配大多數足背皮膚，但通常不含這個小區域。隱神經與內蹠神經的感覺分布位置也不同。",
+      "key_point": "第一蹼間的足背皮膚感覺是深腓神經的代表性皮節範圍。",
+      "flashcard_summary": "第一蹼間 / 足背感覺 -> 最具代表性的神經是深腓神經",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "第一蹼間 / 足背 / deep fibular nerve / 淺腓神經對照",
+      "flashcard_back": "足背感覺考試最常考第一蹼間，這是深腓神經的招牌分布。其他大部分足背區域才偏向淺腓神經。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_028",
@@ -588,15 +804,23 @@
         "D": "枕動脈(occipital artery)位於其內"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "枕下三角由頭後大直肌、頭上斜肌與頭下斜肌圍成，內有椎動脈與枕下神經。枕大神經並不在三角內，而是從其下緣附近穿出向上走行，因此 C 正確。上外側與上內側邊界的肌肉名稱、以及枕動脈是否位於三角內，都是常見混淆點。",
+      "key_point": "枕大神經穿過枕下三角下方附近向上行，是辨認枕下區的重要地標。",
+      "flashcard_summary": "枕下三角 / 枕大神經 -> greater occipital nerve 從三角下緣附近穿出",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "suboccipital triangle / greater occipital nerve / 椎動脈 / 枕下神經",
+      "flashcard_back": "判斷枕下三角時，先分清『三角內』與『三角外』：椎動脈和枕下神經在內，枕大神經多從下緣附近穿出。這是考點核心。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_029",
@@ -609,15 +833,23 @@
         "D": "肌皮神經(musculocutaneous nerve)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "橈神經在肘附近分為淺支與深支，深支穿過旋後肌後稱為後骨間神經。它主要支配前臂後群伸肌，是純運動性的重要分支。這題要把橈神經分支和正中、尺神經分開記憶。",
+      "key_point": "後骨間神經是橈神經深支穿過旋後肌後的延續。",
+      "flashcard_summary": "後骨間神經 / 橈神經深支 -> posterior interosseous nerve 為橈神經的分支",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "posterior interosseous nerve / radial nerve / deep branch / supinator",
+      "flashcard_back": "後骨間神經其實就是橈神經深支穿過旋後肌後的新名稱。只要看到前臂後群伸肌，就很常和它有關。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_030",
@@ -630,15 +862,23 @@
         "D": "下臀動脈(inferior gluteal artery)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "髖部的 cruciate anastomosis 典型成員包括內側迴旋股動脈、外側迴旋股動脈的橫支、下臀動脈與第一穿通動脈。上臀動脈較常與轉子吻合相關，而不是十字吻合的核心成員，所以最不受影響的是 C。這題常考兩種吻合的成員差異。",
+      "key_point": "十字吻合主要牽涉內外側迴旋股動脈與下臀動脈，上臀動脈通常不在其中。",
+      "flashcard_summary": "十字吻合 / 上下臀動脈對照 -> superior gluteal artery 不屬 cruciate anastomosis 核心成員",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "cruciate anastomosis / inferior gluteal / circumflex femoral / superior gluteal 對照",
+      "flashcard_back": "髖部吻合題要分 cruciate 和 trochanteric：十字吻合偏下臀動脈，轉子吻合才常想到上臀動脈。看到兩者一起出現時要特別小心。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_031",
@@ -651,15 +891,23 @@
         "D": "脛骨(tibia)、距骨(talus)與跟骨(calcaneus)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "踝關節是脛骨遠端、內踝與腓骨外踝共同夾住距骨滑車所形成的滑膜關節，因此答案為脛骨、腓骨與距骨。跟骨主要與距骨形成距下關節，不是踝關節的直接構成骨。這題常見陷阱是把跟骨與距骨混在一起。",
+      "key_point": "踝關節由脛骨、腓骨與距骨共同構成踝穴與距骨滑車的關節面。",
+      "flashcard_summary": "踝關節 / 踝穴 / talus -> 由脛骨、腓骨與距骨共同構成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "踝關節 / 踝穴 / 內外踝 / talus",
+      "flashcard_back": "看到踝關節先想到 tibia 與 fibula 夾住 talus 的滑車。跟骨屬距下關節，不直接列入踝關節構成。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_032",
@@ -672,15 +920,23 @@
         "D": "內胚層(endoderm)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "外側中胚層會裂開形成體壁中胚層與臟壁中胚層，中間的空隙就是胚內體腔。軸旁中胚層主要形成體節，中間中胚層偏向泌尿生殖系統，內胚層則不形成此體腔。這是胚層衍生物的基本配對題。",
+      "key_point": "胚內體腔最早出現在外側中胚層，之後分裂成體壁層與臟壁層。",
+      "flashcard_summary": "胚內體腔 / 外側中胚層 -> 最早出現在 lateral mesoderm",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "胚內體腔 / lateral mesoderm / 體壁層 / 臟壁層",
+      "flashcard_back": "胚內體腔的關鍵是外側中胚層裂開。只要記住 somatic 與 splanchnic mesoderm 之間形成腔隙，就能快速判斷。",
+      "category_group": "醫學（一）",
+      "category": "胚胎及發育生物學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_033",
@@ -693,15 +949,23 @@
         "D": "副神經(accessory nerve)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "第二咽弓又稱 hyoid arch，其肌肉衍生物包括表情肌、鐙骨肌等，支配神經是第七對顏面神經。第一咽弓對應三叉神經，第三咽弓對應舌咽神經。國考很常把咽弓衍生物與腦神經配對一起考。",
+      "key_point": "第二咽弓衍生的肌肉由顏面神經支配。",
+      "flashcard_summary": "第二咽弓 / 表情肌 -> 支配神經是顏面神經",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "第二咽弓 / hyoid arch / 表情肌 / CN VII",
+      "flashcard_back": "咽弓神經配對要背熟：第二咽弓對顏面神經。看到表情肌、鐙骨肌等衍生物，就要聯想到 CN VII。",
+      "category_group": "醫學（一）",
+      "category": "胚胎及發育生物學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_034",
@@ -714,15 +978,23 @@
         "D": "發育過程中均呈現中空管狀的結構"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "十二指腸源自前腸末端與中腸前段，不是前腸與後腸，因此 A 錯。它的血供來自腹腔動脈幹與上腸繫膜動脈，而不是下腸繫膜動脈，所以 B 也錯。發育中曾短暫被上皮增生填塞後再再通，不會全程維持中空管狀，故 D 不對。",
+      "key_point": "十二指腸因胃旋轉而偏向右側，且大部分次發性後腹膜化。",
+      "flashcard_summary": "十二指腸發育 / 胃旋轉 -> 旋轉至右側且大部分貼附後腹壁",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "十二指腸發育 / 胃旋轉 / 右移 / 次發性後腹膜",
+      "flashcard_back": "十二指腸的經典發育重點是隨胃旋轉向右偏，並貼附後腹壁。血供則分屬腹腔幹與 SMA，是前腸與中腸交界特徵。",
+      "category_group": "醫學（一）",
+      "category": "胚胎及發育生物學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_035",
@@ -735,15 +1007,23 @@
         "D": "右心房壓力高於左心房"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "新生兒第一次呼吸後肺泡張開、血氧上升，會使肺血管阻力明顯下降，更多血液流入肺循環。左心房回流增加後，左房壓會高於右房壓，促使卵圓孔功能性關閉。因此正確改變是肺部血流量上升。",
+      "key_point": "出生後肺泡擴張使肺血管阻力下降，肺血流量上升。",
+      "flashcard_summary": "出生後循環 / 肺阻力下降 -> 肺部血流量上升",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "出生後循環轉換 / 肺血管阻力下降 / 肺血流上升 / 卵圓孔",
+      "flashcard_back": "胎兒到新生兒循環轉換的核心是肺部張開後肺阻力下降，所以肺血流增加。不要把胎兒期右心優勢套用到出生後。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_036",
@@ -756,15 +1036,23 @@
         "D": "端腦(telencephalon)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "中腦的腔室在發育後保留成狹窄的大腦導水管，連接第三腦室與第四腦室。端腦形成側腦室，間腦形成第三腦室，菱腦則形成第四腦室。只要把腦泡與腦室衍生物對上就能作答。",
+      "key_point": "大腦導水管是中腦腔室狹窄後所形成的通道。",
+      "flashcard_summary": "大腦導水管 / 中腦 -> cerebral aqueduct 衍生自 mesencephalon",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "cerebral aqueduct / mesencephalon / 第三腦室 / 第四腦室",
+      "flashcard_back": "導水管是中腦留下來的腔道，專門連接第三與第四腦室。腦泡衍生題最適合用腦室對照記憶。",
+      "category_group": "醫學（一）",
+      "category": "胚胎及發育生物學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_037",
@@ -777,15 +1065,23 @@
         "D": "可殺死細菌、真菌、病毒等致病微生物(pathogenic microorganisms)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "福馬林中的甲醛可與蛋白質形成交聯，使組織固定、變硬並抑制自溶，也具有殺菌能力。它不是以充分固定脂質聞名，脂質在一般石蠟處理中反而容易流失。故說它可與脂質充分作用、完整保存細胞膜並不正確。",
+      "key_point": "福馬林主要固定蛋白質而非脂質，因此對細胞膜脂質保存有限。",
+      "flashcard_summary": "福馬林固定 / 蛋白質交聯 -> 主要固定蛋白質，不是充分保存脂質",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "formalin / protein cross-link / 固定 / 自溶抑制 / 脂質保存差",
+      "flashcard_back": "固定劑考點要抓住福馬林主要作用在蛋白質。若題目強調脂質完整保存，通常不是福馬林的優勢。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_038",
@@ -798,15 +1094,23 @@
         "D": "具纖毛的偽複層柱狀上皮(ciliated pseudostratified columnar epithelium)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "氣管內襯為呼吸上皮，也就是具纖毛的偽複層柱狀上皮，並含杯狀細胞以清除吸入顆粒。複層扁平上皮較常見於摩擦較大的口腔、食道等處。這是呼吸道組織學最基本的辨識點。",
+      "key_point": "氣管典型上皮是具纖毛的偽複層柱狀呼吸上皮。",
+      "flashcard_summary": "氣管上皮 / 呼吸上皮 -> 具纖毛的偽複層柱狀上皮",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "trachea / respiratory epithelium / cilia / pseudostratified columnar",
+      "flashcard_back": "一看到氣管就先想偽複層纖毛柱狀上皮加杯狀細胞。不要和食道的複層扁平上皮混淆。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_039",
@@ -819,15 +1123,23 @@
         "D": "軟骨組織的再生非常旺盛,受傷時可完整癒合"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "軟骨組織缺乏血管、淋巴與神經，營養多從軟骨膜或滑液擴散而來，因此修復能力較差。透明軟骨主要是第二型膠原蛋白，不是第一型；附加生長來自軟骨膜內層細胞分化，而不是成熟軟骨細胞直接主導。故唯一正確為無血管結構。",
+      "key_point": "軟骨是無血管組織，營養主要靠擴散供應。",
+      "flashcard_summary": "軟骨 / avascular -> 軟骨組織沒有血管，修復能力有限",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "cartilage / avascular / type II collagen / appositional growth",
+      "flashcard_back": "軟骨最核心特徵是 avascular，所以修復差。若題目把 type I collagen 或旺盛再生放進透明軟骨，多半是陷阱。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_040",
@@ -840,15 +1152,23 @@
         "D": "不負責形成髓磷脂(myelin)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "衛星細胞位於周邊神經系統的神經節，圍繞神經元細胞本體提供支持與代謝調節。形成周邊髓鞘的是許旺細胞，而不是衛星細胞。它們體積不大，H&E 下也不是多核柱狀細胞。",
+      "key_point": "周邊神經節的衛星細胞包繞神經元胞體，但不負責形成髓鞘。",
+      "flashcard_summary": "衛星細胞 / 神經節 / 髓鞘對照 -> 包繞胞體但不形成髓鞘",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "satellite cell / PNS ganglion / 包繞胞體 / Schwann cell 對照",
+      "flashcard_back": "神經膠細胞題先分位置與功能：衛星細胞包神經節胞體，許旺細胞做髓鞘。不要把 PNS 兩種支持細胞角色混用。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_041",
@@ -861,15 +1181,23 @@
         "D": "是很薄的扁平(squamous)細胞"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "第二型肺泡細胞為立方形細胞，數量較多但覆蓋表面積較少，負責分泌 surfactant 以降低表面張力。第一型肺泡細胞才是薄而扁平、覆蓋大部分肺泡表面的細胞。氣血屏障也不包含肺泡巨噬細胞。",
+      "key_point": "第二型肺泡細胞的代表功能是分泌肺泡界面活性劑。",
+      "flashcard_summary": "第二型肺泡細胞 / surfactant -> type II pneumocyte 主要分泌界面活性劑",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "type II pneumocyte / surfactant / cuboidal / type I 對照",
+      "flashcard_back": "肺泡細胞題要記住：type I 薄扁負責交換，type II 分泌 surfactant 並可再生。不要把兩者表面積與外形搞反。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_042",
@@ -882,15 +1210,23 @@
         "D": "潘氏細胞(Paneth cells)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "賁門腺以分泌黏液為主，因此細胞內可見 mucinogen granules。胰腺泡細胞與耳下腺腺泡細胞屬漿液性分泌，富含酶原顆粒；潘氏細胞則含抗菌顆粒而非黏原顆粒。這題是在分辨黏液腺與漿液腺細胞。",
+      "key_point": "胃賁門腺細胞屬黏液分泌細胞，含有黏原顆粒。",
+      "flashcard_summary": "黏原顆粒 / 胃賁門腺 -> cardiac glandular cells 含 mucinogen granules",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "mucinogen granules / cardiac gland / mucous cell / serous acinus 對照",
+      "flashcard_back": "黏原顆粒出現在黏液分泌細胞，如胃賁門腺。若看到胰臟、耳下腺或潘氏細胞，多半不是 mucinogen。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_043",
@@ -903,10 +1239,10 @@
         "D": "黏液腺(mucous gland)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膽囊黏膜下無明顯黏膜肌層，固有層內可見結締組織、小靜脈與淋巴管，部分區域也可見腺體，尤其靠近頸部。至於穿孔型微血管是否作為『最不可能』選項，教材描述可能不一致，因此官方已宣布本題一律給分。作答上仍建議掌握膽囊固有層以血管、淋巴與結締組織為主。",
+      "key_point": "膽囊固有層常見小血管與淋巴管，本題因敘述爭議已官方一律給分。",
+      "flashcard_summary": "膽囊固有層 / 組成 / 一律給分 -> 以結締組織與小血管淋巴管為主，本題官方全給分",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A",
         "B",
@@ -915,7 +1251,15 @@
       ],
       "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "第43題一律給分"
+      "answer_note": "第43題一律給分",
+      "flashcard_front": "膽囊固有層 / 小血管 / 淋巴管 / 腺體 / 一律給分",
+      "flashcard_back": "本題核心是膽囊固有層的基本組成，但官方已全給分，表示選項存在爭議。遇到這類題目要同時記知識點與留意勘誤。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_044",
@@ -928,15 +1272,23 @@
         "D": "外根鞘(external root sheath)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "真皮乳頭位在毛球基部，內有豐富微血管，提供毛囊增殖細胞氧氣與養分。玻璃膜與內外根鞘主要屬支持或包覆構造，不是主要血供來源。這是毛囊組織學的基本定位題。",
+      "key_point": "毛囊底部的真皮乳頭富含血管，供應毛母質生長所需營養。",
+      "flashcard_summary": "毛囊血供 / 真皮乳頭 -> dermal papilla 富含血管供應毛囊",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "hair follicle / dermal papilla / 毛球 / 血管供應",
+      "flashcard_back": "毛囊需要血供時，先想到真皮乳頭位在毛球底部。它是毛髮生長所需營養的主要來源。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_045",
@@ -949,15 +1301,23 @@
         "D": "腎上腺髓質(adrenal medulla)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "束狀帶細胞因含大量脂質前驅物而呈泡沫狀，是分泌 cortisol 等 glucocorticoids 的主要區帶。球小帶分泌醛固酮，網狀帶偏向雄性素，髓質則分泌兒茶酚胺。題目結合形態與功能，答案明確是束狀帶。",
+      "key_point": "腎上腺束狀帶細胞富含脂滴，主要分泌糖皮質素。",
+      "flashcard_summary": "束狀帶 / 脂滴 / 糖皮質素 -> zona fasciculata 分泌 glucocorticoid",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "zona fasciculata / lipid droplets / cortisol / adrenal cortex",
+      "flashcard_back": "腎上腺皮質區帶配對要背熟：球小帶鹽、束狀帶糖、網狀帶性。看到大量脂滴加 glucocorticoid，就選束狀帶。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_046",
@@ -970,15 +1330,23 @@
         "D": "尿道(urethra)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "輸卵管內襯上皮由纖毛細胞與分泌細胞組成，通常呈單層柱狀，常見明顯黏膜皺褶，與圖示最相符。陰道是複層扁平上皮，輸出小管則常見高低不齊的波浪狀管腔邊界，尿道上皮則依部位變化較大。故答案選輸卵管最合理。",
+      "key_point": "輸卵管黏膜典型為具纖毛的單層柱狀上皮並伴高度皺褶。",
+      "flashcard_summary": "輸卵管上皮 / 纖毛 / 黏膜皺褶 -> 典型為單層柱狀上皮，常見於 uterine tube",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "圖像題 / 輸卵管上皮 / 單層柱狀 / 纖毛 / 黏膜皺褶",
+      "flashcard_back": "辨認輸卵管時要抓住纖毛單層柱狀上皮與多摺疊黏膜。若是陰道則會看到複層扁平上皮，差異很大。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_047",
@@ -991,15 +1359,23 @@
         "D": "膽固醇"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "細胞膜主要由 phospholipid bilayer 與蛋白質組成，磷脂雙層提供基本屏障與流動性。膽固醇雖可調節流動性，但不是題目所問的主要化學組成。甘油與三酸甘油酯則不是細胞膜的主體骨架。",
+      "key_point": "細胞膜的基本骨架是磷脂雙層，再嵌入各種膜蛋白。",
+      "flashcard_summary": "細胞膜組成 / 磷脂雙層 -> 細胞膜主要由蛋白質與磷脂質構成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "cell membrane / phospholipid bilayer / membrane protein / cholesterol 對照",
+      "flashcard_back": "細胞膜組成題先背『磷脂雙層加蛋白質』。膽固醇是調節成分，不是基本雙層的主角。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_048",
@@ -1012,15 +1388,23 @@
         "D": "節細胞(ganglion cell)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大多數視網膜細胞如感光細胞、雙極細胞與水平細胞主要以漸進電位傳遞訊號。節細胞則具有閾值並能產生 action potential，其軸突組成視神經。無軸突細胞多為局部調節，並非主要外傳動作電位的類型。",
+      "key_point": "視網膜節細胞會產生動作電位，是視覺訊息輸出到中樞的主要神經元。",
+      "flashcard_summary": "視網膜 / 動作電位 -> 具有閾值並產生 action potential 的是 ganglion cell",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "retina / ganglion cell / action potential / bipolar cell 對照",
+      "flashcard_back": "視網膜中真正把訊號用 action potential 傳出的是 ganglion cell。其他多數細胞主要靠 graded potential。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_049",
@@ -1033,15 +1417,23 @@
         "D": "intermediolateral column"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "交感節前神經元的細胞體位於胸腰髓的 intermediolateral column，也就是側角。dorsal root ganglion 是感覺神經元胞體所在；substantia gelatinosa 與 Rexed lamina IX 分別對應背角痛覺調節與軀體運動神經元。故答案為中間外側柱。",
+      "key_point": "脊髓中的自主神經節前神經元位於中間外側柱。",
+      "flashcard_summary": "自主神經節前神經元 / 側角 -> 位於 spinal cord 的 intermediolateral column",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "preganglionic neuron / spinal cord / intermediolateral column / lateral horn",
+      "flashcard_back": "自主神經節前神經元在脊髓要先想側角，也就是 intermediolateral column。感覺神經元則在 dorsal root ganglion，不要混淆。",
+      "category_group": "醫學（一）",
+      "category": "解剖學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_050",
@@ -1054,15 +1446,23 @@
         "D": "增加膀胱括約肌收縮"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "副交感神經會明顯增加稀薄水樣唾液，交感神經也可促進較黏稠、蛋白較多的唾液分泌，因此兩者在『增加唾液分泌』方向上較一致。心跳速率與腸胃蠕動則通常呈相反作用；膀胱括約肌也主要受交感與副交感不同方向調控。題目考的是少數同向效應的例外。",
+      "key_point": "交感與副交感神經對唾液分泌都可有促進作用，只是分泌性質不同。",
+      "flashcard_summary": "自律神經 / 唾液分泌 -> 交感與副交感通常都可增加分泌，只是性質不同",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "autonomic / 唾液分泌 / 同向作用 / 稀薄 vs 黏稠",
+      "flashcard_back": "自律神經大多拮抗，但唾液分泌是常見例外，兩者都能促進。差別在副交感偏水樣、交感偏黏稠蛋白性。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_051",
@@ -1075,15 +1475,23 @@
         "D": "第V層"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "大型錐體神經元，包含 Betz cells，主要集中在大腦皮質第 V 層，負責向腦幹、脊髓等處輸出訊息。第 IV 層偏向接受丘腦感覺輸入，第 I 層細胞稀少。這題是在考六層新皮質的功能分工。",
+      "key_point": "大腦皮質第 V 層含大型錐體細胞，是主要皮質輸出層。",
+      "flashcard_summary": "大腦皮質第 V 層 / 錐體細胞 -> 主要輸出神經元密度最高的層次",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "neocortex layer V / pyramidal neuron / Betz cell / output layer",
+      "flashcard_back": "皮質分層題常用一句話記：IV 層收輸入，V 層送輸出。看到大型錐體細胞就先想第五層。",
+      "category_group": "醫學（一）",
+      "category": "組織學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_052",
@@ -1096,15 +1504,23 @@
         "D": "因持續服用抗癌藥物,使N-acetyltransferase活性受到強烈的抑制"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "黑暗訊號需經 retinohypothalamic tract 到視交叉上核，再透過交感路徑影響松果體分泌 melatonin，因此 A、C、D 的缺損都可能影響褪黑激素變化。geniculate ganglion 屬顏面神經感覺節，並非此晝夜節律路徑的必要節點，所以最不可能影響的是 B。這題關鍵在褪黑激素神經路徑的完整性。",
+      "key_point": "褪黑激素的晝夜變化依賴視網膜到下視丘再到松果體路徑，與 geniculate ganglion 無直接關鍵關係。",
+      "flashcard_summary": "褪黑激素節律 / SCN 路徑 -> 最不影響者為 geniculate ganglion 缺損",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "melatonin rhythm / retinohypothalamic tract / SCN / pineal gland / geniculate ganglion",
+      "flashcard_back": "褪黑激素晝夜節律靠視網膜-SCN-交感-松果體這條路。geniculate ganglion 不在這條主軸上，是這題的排除點。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_053",
@@ -1117,15 +1533,23 @@
         "D": "漸進電位若為去極化,則不隨距離而消減"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "graded potential 具有時間加成與空間加成，且幅度會隨刺激強度改變，也可能是去極化或過極化。它屬被動傳導，因此會隨距離遞減。若訊號不衰減地長距離傳播，那是動作電位的特性。",
+      "key_point": "漸進電位會隨距離衰減，這是它和動作電位的重要差異。",
+      "flashcard_summary": "漸進電位 / 衰減 -> graded potential 會隨距離遞減",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "graded potential / summation / amplitude varies / decremental",
+      "flashcard_back": "漸進電位的重點是可加成、可變幅、可衰減。題目若說不隨距離消減，就在描述 action potential 而不是 graded potential。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_054",
@@ -1138,15 +1562,23 @@
         "D": "甘胺酸(glycine)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "BZDs 會結合在 GABA_A 受體的 benzodiazepine binding site，增強 GABA 對氯離子通道開啟的效果，因此具有鎮靜與助眠作用。它不是作用在 dopamine、glutamate 或 glycine 受體的 BZD 位點。這是神經藥理與生理常見整合題。",
+      "key_point": "benzodiazepines 是 GABA_A 受體的正向變構調節劑。",
+      "flashcard_summary": "benzodiazepine / GABA_A -> BZD 結合 GABA 受體的 benzodiazepine 位點",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "benzodiazepine / GABA_A / positive allosteric modulator / sleep",
+      "flashcard_back": "看到 BZD 就要聯想到 GABA_A 受體，不是直接開通道，而是增強 GABA 效果。這是常見藥理機轉題。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_055",
@@ -1159,15 +1591,23 @@
         "D": "肌凝蛋白輕鏈(myosin light chain)"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "平滑肌不像骨骼肌依賴 troponin，而是由 Ca2+ 結合 calmodulin，進一步活化 myosin light-chain kinase 來促進收縮。tropomyosin 與 myosin light chain 都參與後續過程，但不是 Ca2+ 的第一個主要結合標的。這是平滑肌與骨骼肌調控差異的重點。",
+      "key_point": "平滑肌收縮的 Ca2+ 先結合 calmodulin，再活化 MLCK。",
+      "flashcard_summary": "平滑肌收縮 / Ca2+ -> 鈣離子主要先結合 calmodulin",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "smooth muscle / Ca2+ / calmodulin / MLCK / troponin 對照",
+      "flashcard_back": "平滑肌題看到鈣離子就先想 calmodulin，不是 troponin。Ca2+-calmodulin 之後才去活化 MLCK。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_056",
@@ -1180,15 +1620,23 @@
         "D": "不受影響"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "γ-motor neuron 支配肌梭內梭肌，dynamic γ 主要增強對快速伸長與長度變化的敏感度，使牽張反射調節更精細。它不會讓牽張反射消失，反而可增加肌梭輸入效能。故最合適的變化是對長度改變敏感度上升。",
+      "key_point": "dynamic γ-motor neuron 會提高肌梭對肌肉長度變化的敏感度。",
+      "flashcard_summary": "dynamic gamma / 肌梭敏感度 -> 增加對骨骼肌長度變化的敏感度",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "dynamic gamma motor neuron / muscle spindle / length sensitivity / stretch reflex",
+      "flashcard_back": "γ 系統的重點是調整肌梭靈敏度，不是直接產生主要張力。dynamic γ 特別強化對長度變化的回應。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_057",
@@ -1201,15 +1649,23 @@
         "D": "維生素K"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "惡性貧血通常源自內在因子缺乏導致維生素 B12 吸收不良，進而造成巨球性貧血與神經症狀。治療重點是補充 vitamin B12，而不是 A、D 或 K。這題是營養素功能與臨床表現的經典配對。",
+      "key_point": "惡性貧血是維生素 B12 缺乏所致，補充 B12 最能改善。",
+      "flashcard_summary": "惡性貧血 / 內在因子 -> 最適合補充維生素 B12",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "pernicious anemia / intrinsic factor / vitamin B12 / megaloblastic anemia",
+      "flashcard_back": "看到惡性貧血就先想內在因子缺乏與 B12 吸收障礙。治療上要補 B12，而不是只補葉酸。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_058",
@@ -1222,15 +1678,23 @@
         "D": "心室壓力維持不變"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "S1 是房室瓣關閉，S2 是半月瓣關閉，兩者之間主要是心室收縮與射血期，因此心室容積會快速下降。心房去極化發生在心室收縮前，心室壓力也不是全程維持不變。這題要把心音和心週期事件正確對應。",
+      "key_point": "第一心音到第二心音之間對應心室收縮期，心室容積整體下降。",
+      "flashcard_summary": "第一到第二心音 / 心室收縮期 -> 心室容積快速下降",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "S1 to S2 / ventricular systole / ejection / ventricular volume falls",
+      "flashcard_back": "聽到 S1 到 S2，就先想心室收縮期。這段時間最代表性的容積變化就是心室把血射出、容積下降。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_059",
@@ -1243,15 +1707,23 @@
         "D": "增加靜脈順應性(increase of venous compliance)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "慢性貧血會降低血液攜氧能力，身體代償性增加心輸出量以維持組織氧供，故 A 最可能。心肌梗塞與心肌炎會削弱幫浦功能；靜脈順應性增加則降低回心血量，也不利於輸出量上升。這題是在考心輸出量的代償反應。",
+      "key_point": "慢性中度貧血可因周邊阻力下降與代償性心跳加快而增加心輸出量。",
+      "flashcard_summary": "心輸出量增加 / 慢性貧血 -> moderate chronic anemia 最可能增加 cardiac output",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "cardiac output / chronic anemia / compensation / venous return / MI 對照",
+      "flashcard_back": "心輸出量增加常見於高代謝或代償狀態，如貧血。若是心肌病變或靜脈回流下降，通常會讓心輸出量變差。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_060",
@@ -1264,15 +1736,23 @@
         "D": "分布到微動脈的交感神經活性增加,減少微動脈半徑,增加周邊總阻力"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "動脈壓下降時，壓力感受器反射會減少迷走神經活性並增加交感活性，使心跳加快、收縮力上升、靜脈回流增加及周邊阻力上升。選項 A 把副交感增加與心跳加快連在一起，方向完全相反，因此最不可能發生。其餘 B、C、D 都是典型代償反應。",
+      "key_point": "大失血時為恢復血壓會降低副交感、增加交感，不會靠增加副交感來讓心跳變快。",
+      "flashcard_summary": "大失血 / 壓力感受器反射 -> 不會靠增加副交感神經來加快心跳",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "hemorrhage / baroreflex / sympathetic up / parasympathetic down / BP recovery",
+      "flashcard_back": "失血時的反射方向很重要：交感上升、迷走下降。若題目說副交感增加卻讓心跳變快，通常就是錯誤選項。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_061",
@@ -1285,15 +1765,23 @@
         "D": "心臟代謝率增加"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "adenosine、nitric oxide 與心肌代謝率上升都會促進冠狀動脈擴張，以增加供血。若心跳速率減慢，心肌耗氧量下降，局部代謝性舒張因子減少，血管較可能呈現相對收縮。故四個選項中最可能引起收縮的是心跳速率減緩。",
+      "key_point": "冠狀動脈張力與心肌代謝需求密切耦合，心跳減慢時代謝性舒張刺激減少而較易收縮。",
+      "flashcard_summary": "冠狀動脈 / 代謝調控 / 心跳減慢 -> 耗氧下降使血管較可能收縮",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "coronary flow / adenosine / nitric oxide / metabolic demand / bradycardia",
+      "flashcard_back": "冠狀動脈最受代謝需求控制，代謝越高越擴張。若心率下降、耗氧下降，擴張刺激變少，才較容易收縮。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_062",
@@ -1306,15 +1794,23 @@
         "D": "1>2=3"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "鼻腔中的吸入空氣雖受濕化影響，但氧分壓仍高於肺泡氣。呼出氣是肺泡氣與解剖死腔空氣的混合，因此其氧分壓通常介於吸入氣與肺泡氣之間。故正確排序為 inspired air > expired air > alveolar air。",
+      "key_point": "吸入空氣氧分壓最高，呼出氣因含死腔氣體而高於純肺泡氣。",
+      "flashcard_summary": "氧分壓排序 / 吸入 呼出 肺泡 -> inspired air > expired air > alveolar air",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "PO2 排序 / inspired air / alveolar air / expired air / dead space",
+      "flashcard_back": "呼出氣不是純肺泡氣，因為混入死腔空氣，所以 PO2 會比肺泡氣高一點。整體排序就是吸入最高、肺泡最低。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_063",
@@ -1327,15 +1823,23 @@
         "D": "兩組大白鼠的中樞化學感受器(central chemoreceptor)活性相同"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "中樞化學感受器感受的是腦脊髓液中的 H+ 變化，而 CO2 可自由穿過血腦障壁；若碳酸酐酶抑制劑無法進入中樞，其對中樞 chemoreceptor 的直接影響應相同。周邊化學感受器如主動脈體可能受到系統性藥物影響，但題目最穩定的判斷是兩組的中樞 chemoreceptor 活性相同。這題重點在分清血腦障壁隔絕了哪些效應。",
+      "key_point": "藥物無法穿越血腦障壁時，不會直接改變中樞化學感受器對 CO2 的反應。",
+      "flashcard_summary": "CA 抑制劑 / 不過 BBB / 中樞化學感受器 -> 兩組 central chemoreceptor 活性相同",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "carbonic anhydrase inhibitor / BBB 不通過 / CO2 inhalation / central chemoreceptor",
+      "flashcard_back": "CO2 能進中樞，但不能過 BBB 的藥物進不去。若藥物只在周邊，中央化學感受器的直接反應不應因此改變。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_064",
@@ -1348,15 +1852,23 @@
         "D": "作用於氯離子通道(Cl- channel),協助酸鹼中和"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "secretin 由十二指腸 S cells 分泌，主要刺激胰臟管細胞與膽道上皮分泌富含 bicarbonate 的液體，協助中和進入十二指腸的胃酸。它不是由胰臟製造，也不會促進胃酸分泌。選項 D 只提 Cl- channel 太狹隘，A 才是正確完整描述。",
+      "key_point": "胰泌素作用在胰管細胞，促進 HCO3- 分泌以中和胃酸。",
+      "flashcard_summary": "胰泌素 / 胰管細胞 / HCO3- -> 促進酸鹼中和",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "secretin / pancreatic duct cell / bicarbonate / acid neutralization",
+      "flashcard_back": "胰泌素的招牌作用是『胰管分泌 HCO3- 中和酸』。來源在十二指腸，不在胰臟本身。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_065",
@@ -1369,15 +1881,23 @@
         "D": "乳糖(lactose)主要透過葡萄糖運輸蛋白-5(glucose transporter-5, GLUT-5)直接吸收"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "小腸 enterocyte 的葡萄糖與半乳糖主要由 apical SGLT1 與鈉共同運輸進入細胞；果糖則走 GLUT5。SGLT2 主要在腎近曲小管，不是小腸主力；乳糖必須先分解成單醣才可被吸收。故最正確為半乳糖經 SGLT1 吸收。",
+      "key_point": "半乳糖和葡萄糖都經由小腸刷狀緣的 SGLT1 吸收。",
+      "flashcard_summary": "腸道單醣吸收 / SGLT1 -> 半乳糖主要經 SGLT1 直接吸收",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "enterocyte sugar uptake / SGLT1 / GLUT5 / SGLT2 對照 / lactose digestion",
+      "flashcard_back": "小腸單醣吸收要背熟：glucose、galactose 走 SGLT1，fructose 走 GLUT5。SGLT2 是腎臟常考陷阱。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_066",
@@ -1390,15 +1910,23 @@
         "D": "Na+-Cl-"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "thick ascending limb 的刷膜主要使用 Na+-K+-2Cl- cotransporter 吸收溶質，這也是 loop diuretics 的作用標的。Na+-Cl- cotransporter 則是遠曲小管的代表。故本題正確答案是 Na+-K+-2Cl-。",
+      "key_point": "亨利氏袢粗上行支再吸收鈉的主要 apical transporter 是 NKCC2。",
+      "flashcard_summary": "亨利氏袢粗上行支 / NKCC2 -> 鈉主要靠 Na+-K+-2Cl- 同向運輸子再吸收",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "TAL / NKCC2 / loop diuretic / Na-K-2Cl / DCT 對照",
+      "flashcard_back": "腎臟轉運體定位高頻考點：粗上行支是 NKCC2，遠曲小管才是 NCC。看到 loop diuretic 也要想到同一位置。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_067",
@@ -1411,15 +1939,23 @@
         "D": "尿液滲透壓及血漿ADH濃度均減少"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "水分攝取受限會使血漿滲透壓上升，刺激下視丘與後葉增加 ADH 分泌。ADH 促使集合管水通透性增加，使尿液更濃縮，因此尿液滲透壓也上升。故尿滲透壓與 ADH 皆增加。",
+      "key_point": "限水後 ADH 上升，集合管吸水增加，尿滲透壓也上升。",
+      "flashcard_summary": "限水 / ADH / 尿滲透壓 -> 兩者都會上升",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "water deprivation / ADH / urine osmolality / collecting duct",
+      "flashcard_back": "限水後的標準反應是 ADH 上升、尿液濃縮。若題目出現一增一減，多半就是干擾選項。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_068",
@@ -1432,15 +1968,23 @@
         "D": "在成年女性,若腎上腺雄性素分泌過量,可能造成腎上腺性徵異常綜合症(adrenogenital syndrome)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "腎上腺網狀帶分泌的 DHEA、DHEAS 等雄性素主要受 ACTH 調控，與性腺受到的 LH/FSH 調控不同。DHEAS 濃度常在年輕成人達高峰，過量也可能造成兒童假性性早熟或女性男性化表現。故最不適當的是說主要受 gonadotropins 調控。",
+      "key_point": "腎上腺皮質雄性素主要受 ACTH 影響，不是 gonadotropins 主導。",
+      "flashcard_summary": "腎上腺雄性素 / ACTH -> 主要不受 gonadotropins 調控",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "adrenal androgen / ACTH / DHEAS / precocious pseudopuberty / adrenogenital",
+      "flashcard_back": "腎上腺雄性素和性腺雄性素要分開記：前者看 ACTH，後者才看 gonadotropins。這是內分泌常見陷阱。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_069",
@@ -1453,15 +1997,23 @@
         "D": "切除交感神經的動物,仍可保有完整之對抗壓力反應的能力"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "急性壓力會使 hypothalamus 啟動 HPA axis，造成 ACTH 與後續 glucocorticoid 上升，也會同步活化交感-腎上腺髓質系統。對兒茶酚胺的允許作用來自 glucocorticoids，不是 ACTH 本身；切除交感神經也不可能保留完整急性壓力反應。故 A 最恰當。",
+      "key_point": "急性壓力反應會同時活化 HPA 軸與交感神經系統。",
+      "flashcard_summary": "急性壓力 / HPA 軸 / 交感神經 -> ACTH 升高且交感神經同步活化",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "acute stress / ACTH / HPA axis / sympathetic activation / catecholamine",
+      "flashcard_back": "急性壓力不要只背一條路，要同時想到 HPA 軸和交感神經。允許作用則主要是 glucocorticoid 的概念。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_070",
@@ -1474,15 +2026,23 @@
         "D": "脂肪組織:促進脂肪分解作用"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "甲狀腺素可提高心臟對兒茶酚胺的敏感性、促進腦部發育，也能增加脂肪分解，這些都是經典作用。對骨骼肌而言，過量甲狀腺素常導致蛋白質分解增加與肌肉消耗，因此把它概括成『增加蛋白質合成作用』最不恰當。題目考的是典型生理效應而不是單一情境下的合成反應。",
+      "key_point": "甲狀腺素雖促進整體代謝，但對肌肉並不以『增加蛋白質合成』作為最典型描述。",
+      "flashcard_summary": "甲狀腺素作用 / 肌肉 -> 最不恰當的是單純說增加蛋白質合成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "thyroid hormone / beta-adrenergic sensitivity / brain development / lipolysis / muscle catabolism",
+      "flashcard_back": "甲狀腺素最常見考點是升代謝、增心臟反應、促神經發育。若題目把肌肉單純寫成增加蛋白質合成，往往不夠準確。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_071",
@@ -1495,15 +2055,23 @@
         "D": "小腸鈣吸收作用增加"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "低血鈣會刺激副甲狀腺素分泌，減少尿鈣排出並提升腎臟 1α-hydroxylase 活性，使活性維生素 D 增加，進一步提高腸鈣吸收。肝臟主要進行 25-hydroxylation，不是製造 1,25-(OH)2D3 的主要器官。故最不恰當的是 B。",
+      "key_point": "低血鈣時會增加 PTH 與腎臟活化維生素 D，不是肝臟直接增加 1,25-(OH)2D3 分泌。",
+      "flashcard_summary": "低血鈣 / 活性維生素 D -> 不是肝臟分泌 1,25-(OH)2D3 增加",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "hypocalcemia / PTH / kidney 1-alpha hydroxylase / intestinal Ca absorption / liver 對照",
+      "flashcard_back": "活性維生素 D 最後一步在腎臟，不在肝臟。看到低血鈣時，先想到 PTH 上升、腎臟活化 vitamin D。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_072",
@@ -1516,15 +2084,23 @@
         "D": "升糖素(glucagon)升高可促進胰島素的分泌作用"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "迷走神經活化可促進胰島 β 細胞分泌胰島素，是進食期常見反應。血糖濃度是最主要調控因子，而 GLP-1 與升糖素在特定條件下也可促進胰島素分泌。故錯誤選項是說副交感神經會抑制胰島素。",
+      "key_point": "副交感活性通常促進胰島素分泌，不是抑制。",
+      "flashcard_summary": "胰島素分泌 / 副交感神經 -> 副交感活化會促進，不會抑制分泌",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "insulin secretion / parasympathetic / glucose / GLP-1 / glucagon",
+      "flashcard_back": "進食生理中副交感是幫助胰島素分泌的，不是壓抑。這題的核心是把神經調控方向記正確。",
+      "category_group": "醫學（一）",
+      "category": "生理學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_073",
@@ -1537,15 +2113,23 @@
         "D": "implanted blastocyst"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "secondary oocyte、zygote 與 morula 都仍包覆在 zona pellucida 內，以避免異位著床。當囊胚準備著床時會先脫離透明帶，之後才能與子宮內膜接觸。故 implanted blastocyst 不再具有透明帶。",
+      "key_point": "透明帶在囊胚著床前存在，hatching 後著床中的囊胚不再有透明帶。",
+      "flashcard_summary": "透明帶 / 著床前後 -> implanted blastocyst 不再具有 zona pellucida",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "zona pellucida / hatching / morula / implanted blastocyst",
+      "flashcard_back": "透明帶存在到囊胚孵化之前，著床前必須先脫去。看到 implanted blastocyst 就要直接排除 zona pellucida。",
+      "category_group": "醫學（一）",
+      "category": "胚胎及發育生物學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_074",
@@ -1558,15 +2142,23 @@
         "D": "Vmax不變,KM上升"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "competitive inhibitor 與受質競爭活性位，增加達到相同反應速率所需的受質濃度，因此表觀 KM 上升。若受質濃度足夠高，仍可克服抑制而達到原本 Vmax。這是 Michaelis-Menten 常考的標準變化。",
+      "key_point": "競爭性抑制會使表觀 KM 上升，但 Vmax 不變。",
+      "flashcard_summary": "競爭性抑制 / Michaelis-Menten -> Vmax 不變，KM 上升",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "competitive inhibition / Vmax unchanged / Km increased / active site competition",
+      "flashcard_back": "競爭性抑制記一組就夠：Vmax 不變、Km 上升。因為高濃度受質仍能把抑制劑比下去。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_075",
@@ -1579,15 +2171,23 @@
         "D": "R基團(R group;side chain)之間氫鍵(hydrogen bond)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "alpha helix 的穩定來自同一條多肽主鏈上相隔四個殘基的 C=O 與 N-H 之間形成氫鍵。側鏈之間的靜電與疏水作用可影響結構偏好，但不是 α 螺旋的主要穩定來源。故最核心的答案是主幹胜肽鍵間氫鍵。",
+      "key_point": "α 螺旋主要靠主鏈胜肽鍵之間的氫鍵穩定。",
+      "flashcard_summary": "α 螺旋 / 主鏈氫鍵 -> 主要穩定因素是胜肽主幹的 hydrogen bond",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "alpha helix / backbone hydrogen bond / peptide bond / side chain 對照",
+      "flashcard_back": "蛋白質二級結構最重要的是主鏈氫鍵，不是側鏈交互作用。看到 α 螺旋就先想 backbone H-bond。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_076",
@@ -1600,15 +2200,23 @@
         "D": "isomerases"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Enzyme Commission 的經典六大類包括 oxidoreductases、transferases、hydrolases、lyases、isomerases 與 ligases。dehydrogenase 是某些 oxidoreductases 的具體酵素名稱，不是 EC 的大類名稱。故不屬於 EC 類別的是 B。",
+      "key_point": "EC 酵素六大類是依反應型態命名，dehydrogenase 只是氧化還原酶中的一種常見名稱。",
+      "flashcard_summary": "EC 六大類 / 反應型態 -> dehydrogenase 不是獨立的 EC 類別",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "EC classes / lyase / hydrolase / isomerase / dehydrogenase",
+      "flashcard_back": "EC 大類要記反應型態，不要被常見酵素名字混淆。dehydrogenase 屬於 oxidoreductase 的子類，不是獨立大類。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_077",
@@ -1621,15 +2229,23 @@
         "D": "氧化形式之lipoate受到hydroxyethyl TPP還原並接受acetyl group"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "lipoate 以 lipoamide 形式共價連到 E2 的 lysine，先接受 hydroxyethyl-TPP 的乙醯基與電子，再把乙醯基轉給 CoA。之後還原型 lipoamide 由 E3 經 FAD 與 NAD+ 重新氧化。選項 A 不僅把 NADP 寫成氧化來源，也把流程描述錯置，因此為錯誤敘述。",
+      "key_point": "lipoate 在 PDH complex 中以雙硫鍵形式參與酰基轉移，但其再氧化是經 FAD/NAD+，不是 NADP。",
+      "flashcard_summary": "lipoate / PDH / FAD 與 NAD+ -> 錯誤在把再氧化寫成 NADP 參與",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "PDH complex / lipoate / lipoamide / FAD / NAD+ / acetyl transfer",
+      "flashcard_back": "lipoate 題要記住它綁在 E2 lysine 上搬運 acyl group，最後靠 FAD 再到 NAD+ 重新氧化。NADP 不是這條路徑的角色。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_078",
@@ -1642,15 +2258,23 @@
         "D": "硫胺素(thiamine)"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "transaminases 需要 pyridoxal phosphate 參與胺基轉移，PLP 來源是維生素 B6。methylcobalamin 主要與甲基轉移相關，folate 參與一碳單位代謝，thiamine 則與脫羧反應有關。故答案為 PLP。",
+      "key_point": "轉胺酶的輔酶是吡哆醛磷酸 PLP。",
+      "flashcard_summary": "轉胺酶 / PLP -> transaminases 的輔酶是 pyridoxal phosphate",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "transaminase / PLP / vitamin B6 / amino acid metabolism",
+      "flashcard_back": "胺基酸轉胺反應看到哪個輔酶都不如先背 PLP。它幾乎是 transamination 的招牌配對。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_079",
@@ -1663,15 +2287,23 @@
         "D": "氫鍵(hydrogen bonds)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "ATP、GTP 等 nucleoside triphosphates 的高能量主要來自相鄰磷酸基間的 phosphoanhydride bonds。phosphodiester bonds 常見於核酸骨架，glycosidic bonds 是鹼基與糖的連結。故能量傳遞的關鍵是磷酸酐鍵。",
+      "key_point": "核苷三磷酸主要藉由磷酸酐鍵儲存與傳遞高能量。",
+      "flashcard_summary": "核苷三磷酸 / 高能鍵 -> 能量主要儲存在 phosphoanhydride bonds",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "NTP energy / phosphoanhydride bond / ATP / phosphodiester 對照",
+      "flashcard_back": "ATP 高能鍵最常考的是磷酸酐鍵，不是磷酸二酯鍵。後者是 DNA/RNA 骨架的連結方式。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_080",
@@ -1684,15 +2316,23 @@
         "D": "將DNA與RNA做置換"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "topoisomerase 的主要作用是改變 DNA supercoiling，幫助複製與轉錄時解除扭轉張力。它不改變鹼基配對專一性，也不直接增加核苷酸數量，更不是做 DNA 與 RNA 置換。這是核酸代謝的基本概念題。",
+      "key_point": "拓樸異構酶透過切斷與重新接合 DNA 來調整超螺旋狀態。",
+      "flashcard_summary": "拓樸異構酶 / supercoil -> 主要功能是改變 DNA 分子的超螺旋",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "topoisomerase / supercoil / torsional stress / DNA replication",
+      "flashcard_back": "拓樸異構酶想到的就是 supercoil 管理員。凡是描述改變超螺旋或放鬆扭轉壓力，多半就是它。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_081",
@@ -1705,15 +2345,23 @@
         "D": "Dam甲基化酶(Dam methylase)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "base excision repair 先由 DNA glycosylase 辨識並移除異常鹼基，形成 AP site；接著才由 AP endonuclease 切開骨架，再由 polymerase 與 ligase 完成修補。Dam methylase 是錯配修復中辨識新舊股的相關概念，不是 BER 的第一步。故答案為 DNA glycosylase。",
+      "key_point": "鹼基切除修復的第一步是 DNA glycosylase 去除受損鹼基。",
+      "flashcard_summary": "鹼基切除修復 / 第一步 -> 先由 DNA glycosylase 去除受損鹼基",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "BER / DNA glycosylase / AP site / AP endonuclease / DNA ligase",
+      "flashcard_back": "BER 的流程順序很愛考：先 glycosylase 拔鹼基，再 endonuclease 切，再補再封。記好第一步就能解題。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_082",
@@ -1726,15 +2374,23 @@
         "D": "具有3'端到5'端核酸外切酶(exonuclease)活性"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Klenow fragment 是 E. coli DNA polymerase I 去除 N 端小片段後留下的大型 C 端片段，因此仍具 DNA polymerase 與 3'→5' proofreading exonuclease 活性。被移除的是 5'→3' exonuclease 功能，所以說它具有此活性是錯的。故答案為 B。",
+      "key_point": "Klenow fragment 保留聚合酶與 3'→5' 校對外切酶活性，但沒有 5'→3' 外切酶。",
+      "flashcard_summary": "Klenow fragment / 活性 -> 沒有 5' 到 3' exonuclease 活性",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Klenow fragment / DNA pol I / proofreading / lacks 5-to-3 exonuclease",
+      "flashcard_back": "記 Klenow 最好用減法：保留聚合與 3'→5' 校對，失去 5'→3' 外切酶。這是分子生物學高頻題。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_083",
@@ -1747,15 +2403,23 @@
         "D": "prenylation"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "Ras 蛋白 C 端經過 prenylation 後可增加脂溶性，讓蛋白附著在細胞膜上執行訊號傳遞。ubiquitination 常與蛋白降解有關，acetylation 與 adenylation 也不是 Ras 典型膜定位修飾。故答案是 prenylation。",
+      "key_point": "Ras 需經 prenylation 才能錨定在細胞膜內側面傳遞訊息。",
+      "flashcard_summary": "Ras / 細胞膜定位 -> 透過 prenylation 錨定於膜上",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Ras / membrane anchoring / prenylation / signaling protein",
+      "flashcard_back": "小 G 蛋白 Ras 的膜定位考點幾乎都指向 prenylation。只要題目問 Ras 為何能貼膜，多半就是這個修飾。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_084",
@@ -1768,15 +2432,23 @@
         "D": "σ"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "σ subunit 在 transcription initiation 時負責辨識 promoter，形成開放複合體後多會脫離。elongation 主要依賴核心酶的 α、β、β' 等次單元。故在轉錄延伸過程中參與最少的是 σ。",
+      "key_point": "原核 RNA polymerase 的 sigma 因子主要用於啟動子辨識，延伸期參與最少。",
+      "flashcard_summary": "原核 RNA 聚合酶 / sigma -> elongation 時參與最少的是 σ 次單元",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "prokaryotic RNA polymerase / sigma factor / promoter recognition / elongation",
+      "flashcard_back": "σ 因子是起跑員，不是長跑員。它幫助找到 promoter，但延伸主要靠 core enzyme 完成。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_085",
@@ -1789,15 +2461,23 @@
         "D": "(5')GGC"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "anticodon 5'-ICG 反向互補後可辨識以 CG 開頭、第三位符合 inosine wobble 規則的 arginine codon。選項中只有 5'-CGA 屬精胺酸 codon，且可與該 anticodon 配對。這題重點是 wobble 規則與反密碼子的方向性。",
+      "key_point": "含 inosine 的 anticodon 具擺動配對能力，可辨識特定第三位鹼基的多個 codon。",
+      "flashcard_summary": "擺動假說 / inosine / anticodon -> 5'-ICG 可辨識的精胺酸 codon 包含 CGA",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "wobble hypothesis / inosine / anticodon 5-ICG / arginine codon",
+      "flashcard_back": "看到 inosine 要想到它可和 U、C、A 擺動配對；再別忘記 anticodon 與 codon 是反向互補。方向判斷錯了最容易失分。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_086",
@@ -1810,15 +2490,23 @@
         "D": "ribosomal RNase"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "在脊椎動物中，RNA polymerase I 主要轉錄大部分核糖體 RNA，也就是 18S、5.8S 和 28S。RNA polymerase III 則負責 5S rRNA 與 tRNA。故合成 18S 與 28S rRNA 的酶是 RNA polymerase I。",
+      "key_point": "真核 RNA polymerase I 負責合成 18S、5.8S 與 28S rRNA 前驅物。",
+      "flashcard_summary": "RNA polymerase I / rRNA -> 負責合成 18S 與 28S rRNA",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "RNA polymerase I / 18S / 28S / rRNA / polymerase III 對照",
+      "flashcard_back": "rRNA 題最常考分工：Pol I 做大顆的 rRNA，Pol III 做 5S。把這個分工背熟就很穩。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_087",
@@ -1831,15 +2519,23 @@
         "D": "兩莫耳的ATP以及兩莫耳的NADH"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "glycolysis 每 1 莫耳葡萄糖淨得 2 ATP 與 2 NADH，但在無氧條件下 lactate dehydrogenase 會把 NADH 再氧化回 NAD+，供糖解持續進行。故最後淨能量只剩 2 ATP，不保留額外 NADH。答案為 2 莫耳 ATP。",
+      "key_point": "無氧糖解把 1 莫耳葡萄糖轉成 2 莫耳乳酸時，淨產生 2 莫耳 ATP。",
+      "flashcard_summary": "無氧糖解 / 乳酸生成 -> 每莫耳葡萄糖淨產生 2 莫耳 ATP",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "anaerobic glycolysis / lactate / net ATP 2 / NADH recycled",
+      "flashcard_back": "無氧糖解的關鍵是 LDH 把 NADH 用掉換回 NAD+，所以最後記成『只剩 2 ATP』。不要把有氧代謝的 NADH 收益帶進來。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_088",
@@ -1852,15 +2548,23 @@
         "D": "glucose-6-phosphate與maltose"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "amylose 與 amylopectin 先被 α-amylase 分解成 maltose、maltotriose 與 limit dextrins，最後刷狀緣酵素再轉為 glucose。選項中最符合整體消化產物概念的是 glucose 與 maltose。glucose-1-phosphate 或 glucose-6-phosphate 則屬細胞內代謝中間物，不是腸道消化產物。",
+      "key_point": "飲食中的澱粉經消化主要產生葡萄糖與麥芽糖等寡醣中間產物。",
+      "flashcard_summary": "植物性澱粉消化 / maltose 與 glucose -> 澱粉在消化道會被水解成 glucose 與 maltose",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "starch digestion / amylase / maltose / glucose / brush border",
+      "flashcard_back": "飲食澱粉在腸道是先變成 maltose 等中間產物，再被分解成 glucose。帶有 phosphate 的糖多是細胞內代謝物，不是消化道內容物。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_089",
@@ -1873,15 +2577,23 @@
         "D": "aspartate, arginine, threonine"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "N-linked glycosylation 典型連接在 asparagine；O-linked glycosylation 常連接在 serine 或 threonine。其餘選項列出的 amino acid 並不是常見醣鏈接位點。故正確組合為 asparagine、serine、threonine。",
+      "key_point": "糖蛋白可經 N-linked 與 O-linked glycosylation 連到 Asn、Ser、Thr。",
+      "flashcard_summary": "糖蛋白鍵結位點 / N-link O-link -> 可連到 asparagine、serine、threonine",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "glycoprotein / N-linked / O-linked / Asn / Ser / Thr",
+      "flashcard_back": "醣蛋白的標準位點要記成 N-link to Asn，O-link to Ser/Thr。只要看到這三個殘基同列，通常就是正解。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_090",
@@ -1894,15 +2606,23 @@
         "D": "與膽固醇的量有關"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "膽鹽由膽固醇衍生，生合成速率決定步驟由 cholesterol 7α-hydroxylase 催化，過程也需 cytochrome P450 參與。它們具有親水與疏水兩端，因此能乳化脂質、促進小腸吸收。錯誤之處在於把膽鹽描述成非極性分子。",
+      "key_point": "膽鹽是兩親性分子，不是單純非極性分子。",
+      "flashcard_summary": "膽鹽 / amphipathic -> 錯誤敘述是把膽鹽說成非極性分子",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "bile salts / amphipathic / 7-alpha-hydroxylase / cholesterol / lipid absorption",
+      "flashcard_back": "膽鹽最重要的化學特性是 amphipathic，這也是它能乳化脂質的原因。若題目寫成單純非極性，就是典型錯誤。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_091",
@@ -1915,15 +2635,23 @@
         "D": "N-acetylglutamate"
       },
       "correct_answer": "C",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "高雪氏症是因 glucocerebrosidase 缺乏，導致 glucocerebroside 在巨噬細胞內累積。glucocerebroside 屬於 sphingolipid 類，因此本病本質上是鞘脂質代謝障礙。不是 glycogen、choline 或 N-acetylglutamate 的主要代謝疾病。",
+      "key_point": "Gaucher disease 是 sphingolipid 代謝異常造成的溶小體儲積症。",
+      "flashcard_summary": "Gaucher disease / sphingolipid -> 屬於鞘脂質代謝異常的溶小體儲積症",
+      "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "Gaucher disease / lysosomal storage / glucocerebrosidase / sphingolipid",
+      "flashcard_back": "看到 Gaucher 就要直接連到 sphingolipid 累積，尤其是 glucocerebroside。這是溶小體儲積症的經典配對。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_092",
@@ -1936,15 +2664,23 @@
         "D": "內質網"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "ω-oxidation 發生在 endoplasmic reticulum，尤其是肝臟微粒體系統，與 β-oxidation 主要在粒線體不同。這條路徑會在脂肪酸末端甲基進行氧化。故正確位置是內質網。",
+      "key_point": "脂肪酸的 ω-oxidation 主要在平滑內質網進行。",
+      "flashcard_summary": "ω-oxidation / 位置 -> 主要發生於內質網",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "omega oxidation / ER / microsome / beta oxidation 對照",
+      "flashcard_back": "脂肪酸氧化最常考位置分工：β-oxidation 想粒線體，ω-oxidation 想內質網。把兩者分清就不易失分。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_093",
@@ -1957,15 +2693,23 @@
         "D": "甲硫胺酸(methionine)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "glutamate 可轉成 glutamate semialdehyde，再進一步形成 proline；同一路徑也與 ornithine、arginine 代謝互相關聯。其他選項如 tryptophan、valine、methionine 並不是這兩者的主要來源。故答案為 glutamate。",
+      "key_point": "proline 與 arginine 代謝都可由 glutamate 路徑衍生。",
+      "flashcard_summary": "proline 與 arginine / 前驅物 -> 主要由 glutamate 代謝轉換形成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "proline synthesis / arginine metabolism / glutamate / ornithine pathway",
+      "flashcard_back": "胺基酸家族記憶時，proline 與 arginine 常和 glutamate 家族放在一起。看到這兩個一起問，先想 glutamate。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_094",
@@ -1978,15 +2722,23 @@
         "D": "麩胺酸(glutamate)"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "leucine 與 lysine 是純 ketogenic amino acids，代謝產物偏向 acetyl-CoA 或 acetoacetate，因此在飢餓時較易促進 ketosis。methionine、arginine、glutamate 則不是純生酮胺基酸。故最容易導致酮症的是白胺酸。",
+      "key_point": "白胺酸是純生酮胺基酸，過度代謝最容易增加酮體生成。",
+      "flashcard_summary": "生酮胺基酸 / 白胺酸 -> 過度代謝最容易導致 ketosis",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ketogenic amino acid / leucine / starvation / ketosis / lysine 對照",
+      "flashcard_back": "記生酮胺基酸最經典就是 leucine、lysine。若題目問最容易造成酮症，白胺酸通常很有力。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_095",
@@ -1999,15 +2751,23 @@
         "D": "ubiquinone:cytochrome c oxidoreductase"
       },
       "correct_answer": "B",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "complex I 是 NADH dehydrogenase，complex II 是 succinate dehydrogenase，complex III 是 ubiquinone-cytochrome c oxidoreductase，complex IV 則是 cytochrome oxidase。它負責把電子傳給氧並生成水。故答案為 cytochrome oxidase。",
+      "key_point": "電子傳遞鏈 complex IV 就是 cytochrome c oxidase。",
+      "flashcard_summary": "電子傳遞鏈 / complex IV -> 對應 cytochrome oxidase",
+      "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ETC complex IV / cytochrome oxidase / oxygen reduction / complex map",
+      "flashcard_back": "電子傳遞鏈分段要整組記：I NADH、II succinate、III cytochrome bc1、IV cytochrome oxidase。問 complex IV 就直接選 cytochrome oxidase。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_096",
@@ -2020,15 +2780,23 @@
         "D": "PH domain"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "EF-hand domain 是典型鈣離子結合結構，存在於 calmodulin 等 Ca2+-binding proteins。SH2、PTB 與 PH domain 分別偏向辨識 phosphotyrosine、特定蛋白序列或膜脂質，不是主要鈣結合位點。故答案為 EF hand domain。",
+      "key_point": "calmodulin 以 EF-hand motif 結合 Ca2+ 並啟動下游訊息。",
+      "flashcard_summary": "calmodulin / Ca2+ 結合 -> 主要藉由 EF-hand domain",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "calmodulin / Ca2+ binding / EF-hand / signaling domain",
+      "flashcard_back": "只要題目把 calmodulin 和鈣結合結構放一起，答案幾乎都是 EF-hand。其他 domain 多用在蛋白或脂質訊號辨識。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_097",
@@ -2041,15 +2809,23 @@
         "D": "serotonin"
       },
       "correct_answer": "A",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "atrial natriuretic factor 作用於具 guanylyl cyclase 活性的受體，增加 cGMP。glucagon 常透過 Gs-cAMP，dopamine 與 serotonin 也有多種受體亞型，其中部分可經 cAMP 傳遞。故最明確不以 cAMP 為主的是 ANF。",
+      "key_point": "ANF 的主要 second messenger 是 cGMP，不是 cAMP。",
+      "flashcard_summary": "ANF / second messenger -> 主要使用 cGMP，不是 cAMP",
+      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "ANF / cGMP / guanylyl cyclase receptor / cAMP 對照",
+      "flashcard_back": "心房利鈉因子的招牌訊號是 cGMP，不是 cAMP。題目若在 second messenger 中要找例外，ANF 很常出現。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_098",
@@ -2062,15 +2838,23 @@
         "D": "酪胺酸(tyrosine)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "tyrosine 先轉為 DOPA，再經 dopamine、norepinephrine 到 epinephrine，是 catecholamine 的經典生合成路徑。其他選項不是這條激素路徑的主要前驅物。故答案為酪胺酸。",
+      "key_point": "兒茶酚胺由酪胺酸經 DOPA 路徑合成。",
+      "flashcard_summary": "兒茶酚胺前驅物 / tyrosine -> catecholamine hormones 由酪胺酸生成",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "catecholamine synthesis / tyrosine / DOPA / dopamine / epinephrine",
+      "flashcard_back": "兒茶酚胺路徑起點一定先想 tyrosine。只要考前驅物，酪胺酸幾乎就是標準答案。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_099",
@@ -2083,15 +2867,23 @@
         "D": "GCTAGC"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "palindromic sequence 的定義是其互補股以相反方向讀取時序列相同，這也是多數限制酶辨識的形式。GCTAGC 的反向互補後仍可對應相同讀法，因此符合迴文序列。其餘選項不符合典型反向互補對稱。",
+      "key_point": "迴文序列在雙股 DNA 上正反向讀取相同，GCTAGC 符合此特性。",
+      "flashcard_summary": "迴文序列 / reverse complement -> GCTAGC 為限制酶可辨識的 palindrome",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "palindromic sequence / restriction enzyme / reverse complement / GCTAGC",
+      "flashcard_back": "判斷迴文序列要看 reverse complement 是否相同，不是只看順著念好不好看。這是限制酶辨識序列的經典概念。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "medium",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     },
     {
       "id": "113-1_medicine-1_100",
@@ -2104,15 +2896,23 @@
         "D": "反轉錄酶(reverse transcriptase)"
       },
       "correct_answer": "D",
-      "explanation": "",
-      "key_point": "",
-      "flashcard_summary": "",
-      "review_status": "empty",
+      "explanation": "標準 polymerase chain reaction 是針對 DNA 模板進行擴增，核心材料包含雙股 DNA、primer、耐熱 DNA polymerase 與 dNTPs。reverse transcriptase 是 RT-PCR 處理 RNA 時才需要的酶，並非一般 PCR 必備。故答案為反轉錄酶。",
+      "key_point": "一般 PCR 需要 DNA 模板、引子與 DNA polymerase，不需要 reverse transcriptase。",
+      "flashcard_summary": "PCR / 必需材料 -> 一般 PCR 不需要 reverse transcriptase",
+      "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
-      "answer_source": "official_correction"
+      "answer_source": "official_correction",
+      "flashcard_front": "PCR essentials / DNA template / primer / DNA polymerase / reverse transcriptase",
+      "flashcard_back": "普通 PCR 擴增 DNA，不需 reverse transcriptase。只有從 RNA 起始的 RT-PCR 才會先用到反轉錄酶。",
+      "category_group": "醫學（一）",
+      "category": "生物化學",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "gemini-pro-manual",
+      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
     }
   ]
 }
