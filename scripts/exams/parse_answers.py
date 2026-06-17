@@ -41,6 +41,7 @@ def parse_answer_grid(text: str) -> dict[int, str]:
     
     number_re = re.compile(r"(?P<body>(?:\d{1,3}\s+){4,}\d{1,3})\s*$")
     answer_re = re.compile(r"(?P<body>(?:[A-D#]\s+){4,}[A-D#])\s*$")
+    compact_answer_re = re.compile(r"^\s*(?P<body>[A-D#]{4,})\s*$")
     
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -56,6 +57,12 @@ def parse_answer_grid(text: str) -> dict[int, str]:
         ans_match = answer_re.search(line)
         if ans_match:
             row = [token for token in re.findall(r"[A-D#]", ans_match.group("body"))]
+            answer_rows.append(row)
+            continue
+
+        compact_ans_match = compact_answer_re.match(line)
+        if compact_ans_match:
+            row = [normalize_answer(char) for char in compact_ans_match.group("body")]
             answer_rows.append(row)
             continue
             
