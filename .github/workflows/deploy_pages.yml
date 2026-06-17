@@ -52,6 +52,9 @@ jobs:
         run: python scripts/exams/validate_dataset.py "public/data/exams/**/*.json" --out reports/dataset-quality.json --baseline scripts/exams/fixtures/dataset_quality_baseline.json
 
       - name: Build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run build
 
       - name: Setup Pages
