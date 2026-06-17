@@ -6,6 +6,7 @@ import {
   ALL_CATEGORIES,
   buildCategoryOptions,
   filterQuestionsByCategory,
+  getDerivedQuestionCategory,
 } from "../../lib/categoryFilters";
 import type { ExamDataset, ExamQuestion } from "../../types/exam";
 import { Flashcard } from "./Flashcard";
@@ -26,8 +27,8 @@ export function FlashcardMode({
   const [pendingFlashcardId, setPendingFlashcardId] = useState<string | null>(null);
   const categoryOptions = useMemo(() => buildCategoryOptions(dataset), [dataset]);
   const visibleQuestions = useMemo(
-    () => filterQuestionsByCategory(dataset.questions, activeCategory),
-    [activeCategory, dataset.questions],
+    () => filterQuestionsByCategory(dataset, activeCategory),
+    [activeCategory, dataset],
   );
 
   useEffect(() => {
@@ -51,7 +52,7 @@ export function FlashcardMode({
 
   const handleNavigateToFlashcard = (question: ExamQuestion) => {
     setPendingFlashcardId(question.id);
-    setActiveCategory(question.category || ALL_CATEGORIES);
+    setActiveCategory(getDerivedQuestionCategory(dataset, question) || ALL_CATEGORIES);
   };
 
   return (

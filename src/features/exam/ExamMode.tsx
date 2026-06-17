@@ -29,8 +29,8 @@ export function ExamMode({
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
   const categoryOptions = useMemo(() => buildCategoryOptions(dataset), [dataset]);
   const visibleQuestions = useMemo(
-    () => filterQuestionsByCategory(dataset.questions, activeCategory),
-    [activeCategory, dataset.questions],
+    () => filterQuestionsByCategory(dataset, activeCategory),
+    [activeCategory, dataset],
   );
 
   useEffect(() => {
