@@ -7,7 +7,7 @@ import {
   PencilLine,
   RotateCcw,
 } from "lucide-react";
-import { useMemo, type ReactNode } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import clsx from "clsx";
 import type { AppPage } from "../app/routes";
 import {
@@ -39,6 +39,11 @@ type AppShellProps = {
   onReset: () => void;
 };
 
+type DropdownOption = {
+  label: string;
+  value: string;
+};
+
 export function AppShell({
   children,
   exams,
@@ -67,6 +72,12 @@ export function AppShell({
   const progress =
     questionCount === 0 ? 0 : Math.round((answeredCount / questionCount) * 100);
 
+  const yearOptions = years.map((year) => ({ label: year, value: year }));
+  const subjectOptions = activeStageExams.map((exam) => ({
+    label: getSubjectLabel(exam),
+    value: exam.id,
+  }));
+
   const handleStageChange = (stage: "stage-1" | "stage-2") => {
     const firstExam =
       groupedExams[stage].find((exam) => exam.year === activeYear) ??
@@ -74,6 +85,19 @@ export function AppShell({
 
     if (firstExam) {
       onExamChange(firstExam.id);
+    }
+  };
+
+  const handleYearChange = (year: string) => {
+    const nextExam = findExamForYear({
+      exams,
+      year,
+      activeExam,
+      activeStage,
+    });
+
+    if (nextExam) {
+      onExamChange(nextExam.id);
     }
   };
 
@@ -150,31 +174,12 @@ export function AppShell({
             </div>
 
             <div className="grid gap-3 xl:grid-cols-[13rem_auto_minmax(16rem,24rem)_auto]">
-              <SelectGroup label="年份">
-                <select
-                  value={activeYear}
-                  onChange={(event) => {
-                    const nextExam = findExamForYear({
-                      exams,
-                      year: event.target.value,
-                      activeExam,
-                      activeStage,
-                    });
-
-                    if (nextExam) {
-                      onExamChange(nextExam.id);
-                    }
-                  }}
-                  className={selectClassName}
-                  aria-label="選擇年份"
-                >
-                  {years.map((year) => (
-                    <option key={year} value={year}>
-                      {year}
-                    </option>
-                  ))}
-                </select>
-              </SelectGroup>
+              <Dropdown
+                label="年份"
+                value={activeYear}
+                options={yearOptions}
+                onChange={handleYearChange}
+              />
 
               <div className="min-w-0">
                 <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
@@ -196,20 +201,12 @@ export function AppShell({
                 </div>
               </div>
 
-              <SelectGroup label="目前題庫">
-                <select
-                  value={activeExam?.id ?? ""}
-                  onChange={(event) => onExamChange(event.target.value)}
-                  className={selectClassName}
-                  aria-label="選擇目前題庫"
-                >
-                  {activeStageExams.map((exam) => (
-                    <option key={exam.id} value={exam.id}>
-                      {getSubjectLabel(exam)}
-                    </option>
-                  ))}
-                </select>
-              </SelectGroup>
+              <Dropdown
+                label="目前題庫"
+                value={activeExam?.id ?? ""}
+                options={subjectOptions}
+                onChange={onExamChange}
+              />
 
               <div className="flex flex-wrap items-start justify-start gap-2 xl:justify-end">
                 <SummaryPill>作答進度：{answeredCount} / {questionCount}</SummaryPill>
@@ -255,29 +252,69 @@ export function AppShell({
   );
 }
 
-const selectClassName =
-  "h-11 w-full appearance-none rounded-[0.85rem] border border-[#e6d6c9] bg-white/84 px-4 pr-10 text-sm font-semibold text-[#6f5b50] outline-none transition hover:border-[#f1aac8] focus:border-[#f1aac8] focus:ring-4 focus:ring-[#ffd9e8]/55";
-
-function SelectGroup({
+function Dropdown({
   label,
-  children,
+  value,
+  options,
+  onChange,
 }: {
   label: string;
-  children: ReactNode;
+  value: string;
+  options: DropdownOption[];
+  onChange: (value: string) => void;
 }) {
+  const [open, setOpen] = useState(false);
+  const selected = options.find((option) => option.value === value);
+
   return (
-    <label className="block min-w-0">
-      <span className="mb-2 block text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
+    <div
+      className="relative min-w-0"
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) {
+          setOpen(false);
+        }
+      }}
+    >
+      <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
         {label}
-      </span>
-      <span className="relative block">
-        {children}
+      </p>
+      <button
+        type="button"
+        onClick={() => setOpen((current) => !current)}
+        className="flex h-11 w-full items-center justify-between gap-3 rounded-[0.85rem] border border-[#e6d6c9] bg-white/84 px-4 text-left text-sm font-semibold text-[#6f5b50] outline-none transition hover:border-[#f1aac8] focus:border-[#f1aac8] focus:ring-4 focus:ring-[#ffd9e8]/55"
+        aria-expanded={open}
+      >
+        <span className="truncate">{selected?.label ?? "請選擇"}</span>
         <ChevronDown
           size={16}
-          className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#9a7469]"
+          className={clsx("shrink-0 text-[#9a7469] transition", open && "rotate-180")}
         />
-      </span>
-    </label>
+      </button>
+
+      {open && (
+        <div className="absolute left-0 right-0 top-[calc(100%+0.35rem)] z-50 max-h-72 overflow-y-auto rounded-[0.9rem] border border-[#e6d6c9] bg-white/95 p-1.5 shadow-[0_18px_50px_rgba(181,133,117,0.2)] backdrop-blur-xl">
+          {options.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onMouseDown={(event) => event.preventDefault()}
+              onClick={() => {
+                onChange(option.value);
+                setOpen(false);
+              }}
+              className={clsx(
+                "flex h-10 w-full items-center rounded-[0.7rem] px-3 text-left text-sm font-semibold transition",
+                option.value === value
+                  ? "bg-[#f7e2ea] text-[#8a4561]"
+                  : "text-[#806b60] hover:bg-[#fff0f6] hover:text-[#3f342d]",
+              )}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }
 
