@@ -5,12 +5,17 @@ import { AppShell } from "../components/AppShell";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
 import { FlashcardMode } from "../features/flashcards/FlashcardMode";
+import { MistakeNotebookPage } from "../features/mistakes/MistakeNotebookPage";
+import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useMarkedItems } from "../hooks/useMarkedItems";
 import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
+import { isAcceptedAnswer } from "../lib/text";
+import { buildSearchForPage, readPageFromSearch, type AppPage } from "./routes";
 import type { ExamDataset, ExamManifest, Mode } from "../types/exam";
+import type { StickyNoteItem } from "../types/stickyNote";
 
 type LoadState =
   | { status: "loading" }
@@ -18,6 +23,9 @@ type LoadState =
   | { status: "error"; message: string };
 
 export default function App() {
+  const [page, setPage] = useState<AppPage>(() =>
+    readPageFromSearch(window.location.search),
+  );
   const [theme, setTheme] = useLocalStorage<"light" | "dark">(
     storageKeys.theme,
     "light",
@@ -29,10 +37,24 @@ export default function App() {
   );
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [isDatasetLoading, setIsDatasetLoading] = useState(false);
+  const [pendingQuestionId, setPendingQuestionId] = useState<string | null>(null);
+  const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
+    storageKeys.stickyNotes,
+    [],
+  );
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setPage(readPageFromSearch(window.location.search));
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -43,13 +65,14 @@ export default function App() {
         setState((current) =>
           current.status === "ready" ? current : { status: "loading" },
         );
+
         const manifest = await loadManifest();
         const selected =
           manifest.exams.find((exam) => exam.id === activeExamId) ??
           manifest.exams[0];
 
         if (!selected) {
-          throw new Error("找不到可用的題庫資料。");
+          throw new Error("目前找不到任何考卷資料。");
         }
 
         if (selected.id !== activeExamId) {
@@ -57,6 +80,7 @@ export default function App() {
         }
 
         const dataset = await loadExamData(selected.path);
+
         if (!cancelled) {
           setState({ status: "ready", manifest, dataset });
           setIsDatasetLoading(false);
@@ -66,7 +90,7 @@ export default function App() {
           setIsDatasetLoading(false);
           setState({
             status: "error",
-            message: error instanceof Error ? error.message : "題庫載入失敗。",
+            message: error instanceof Error ? error.message : "載入考卷時發生錯誤。",
           });
         }
       }
@@ -88,6 +112,58 @@ export default function App() {
   const markedFlashcards = useMarkedItems(storageKeys.markedFlashcards(examId));
 
   const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
+  const wrongQuestionCount = useMemo(() => {
+    if (!readyDataset) return 0;
+
+    return readyDataset.questions.filter((question) => {
+      const selected = answers[question.id];
+      return selected && !isAcceptedAnswer(selected, question);
+    }).length;
+  }, [answers, readyDataset]);
+
+  useEffect(() => {
+    if (page !== "exam" || !pendingQuestionId) return undefined;
+
+    const frameId = window.requestAnimationFrame(() => {
+      const target = document.getElementById(pendingQuestionId);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.location.hash = pendingQuestionId;
+      }
+
+      setPendingQuestionId(null);
+    });
+
+    return () => window.cancelAnimationFrame(frameId);
+  }, [page, pendingQuestionId, readyDataset?.id]);
+
+  const handlePageChange = (nextPage: AppPage) => {
+    if (nextPage === page) return;
+
+    const nextSearch = buildSearchForPage(nextPage, window.location.search);
+    const nextUrl = `${window.location.pathname}${nextSearch}`;
+    window.history.pushState({}, "", nextUrl);
+    setPage(nextPage);
+  };
+
+  const handleAddNote = (text: string) => {
+    setStickyNotes((current) => [
+      {
+        id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+        text,
+        createdAt: new Date().toISOString(),
+      },
+      ...current,
+    ]);
+  };
+
+  const handleRemoveNote = (id: string) => {
+    setStickyNotes((current) => current.filter((note) => note.id !== id));
+  };
+
+  const handleClearNotes = () => {
+    setStickyNotes([]);
+  };
 
   if (state.status === "loading") {
     return (
@@ -95,7 +171,7 @@ export default function App() {
         <div className="rounded-[1.5rem] border border-white/80 bg-white/72 px-8 py-7 text-center shadow-[0_18px_60px_rgba(181,133,117,0.18)] backdrop-blur-2xl">
           <div className="mx-auto h-12 w-12 animate-spin rounded-full border-2 border-[#f6a9c6] border-t-transparent" />
           <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">
-            正在翻開 Ariel 的國考筆記
+            正在載入考卷資料...
           </p>
         </div>
       </div>
@@ -107,7 +183,7 @@ export default function App() {
       <div className="grid min-h-screen place-items-center bg-slate-950 px-6 text-white">
         <div className="max-w-md rounded-lg border border-red-300/30 bg-red-500/10 p-6">
           <AlertCircle className="text-red-200" />
-          <h1 className="mt-4 text-xl font-semibold">題庫載入失敗</h1>
+          <h1 className="mt-4 text-xl font-semibold">考卷載入失敗</h1>
           <p className="mt-2 text-sm leading-6 text-red-100/80">
             {state.message}
           </p>
@@ -122,11 +198,15 @@ export default function App() {
     <AppShell
       exams={manifest.exams}
       activeExamId={activeExamId || dataset.id}
+      page={page}
       mode={mode}
       theme={theme}
       answeredCount={answeredCount}
       questionCount={dataset.questions.length}
+      wrongQuestionCount={wrongQuestionCount}
+      stickyNoteCount={stickyNotes.length}
       onExamChange={setActiveExamId}
+      onPageChange={handlePageChange}
       onModeChange={setMode}
       onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
       onReset={resetAnswers}
@@ -143,16 +223,33 @@ export default function App() {
               className="absolute inset-0 z-30 grid min-h-80 place-items-center rounded-[1.5rem] bg-[#fff8f4]/72 backdrop-blur-sm"
             >
               <div className="rounded-full border border-[#efd9d0] bg-white/86 px-5 py-3 text-sm font-semibold tracking-[0.12em] text-[#9c7b70] shadow-[0_18px_50px_rgba(181,133,117,0.16)]">
-                正在切換題庫...
+                正在切換考卷...
               </div>
             </motion.div>
           ) : null}
         </AnimatePresence>
 
-        {dataset.questions.length === 0 ? (
+        {page === "mistakes" ? (
+          <MistakeNotebookPage
+            dataset={dataset}
+            answers={answers}
+            onOpenQuestion={(questionId) => {
+              setMode("exam");
+              setPendingQuestionId(questionId);
+              handlePageChange("exam");
+            }}
+          />
+        ) : page === "notes" ? (
+          <StickyNotesPage
+            notes={stickyNotes}
+            onAddNote={handleAddNote}
+            onRemoveNote={handleRemoveNote}
+            onClearNotes={handleClearNotes}
+          />
+        ) : dataset.questions.length === 0 ? (
           <EmptyState
-            title="尚無題目"
-            description="目前題庫檔案沒有題目，請先重新建立或檢查資料來源。"
+            title="這一卷目前沒有題目"
+            description="資料已載入，但目前還沒有可顯示的題目內容。"
           />
         ) : (
           <AnimatePresence mode="wait">

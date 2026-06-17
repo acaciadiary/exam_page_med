@@ -21,8 +21,8 @@ export function isAcceptedAnswer(
 
 export function formatCorrectAnswers(question: ExamQuestion) {
   const answers = acceptedAnswers(question);
-  if (!answers.length) return "待匯入";
-  if (question.answer_status === "all_credit") return "一律給分";
+  if (!answers.length) return "尚未提供";
+  if (question.answer_status === "all_credit") return "全部給分";
   return answers.join(" / ");
 }
 
