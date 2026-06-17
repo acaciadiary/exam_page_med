@@ -1,5 +1,6 @@
 import {
   BookOpenCheck,
+  BookmarkCheck,
   ChevronDown,
   ClipboardX,
   Layers3,
@@ -15,8 +16,8 @@ import {
   getAvailableYears,
   getExamStage,
   getStageLabel,
-  getSubjectNumber,
   getSubjectLabel,
+  getSubjectNumber,
   groupExamsByStage,
 } from "../lib/examMetadata";
 import type { ExamManifestItem, Mode } from "../types/exam";
@@ -32,6 +33,7 @@ type AppShellProps = {
   answeredCount: number;
   questionCount: number;
   wrongQuestionCount: number;
+  favoriteCount: number;
   stickyNoteCount: number;
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
@@ -55,6 +57,7 @@ export function AppShell({
   answeredCount,
   questionCount,
   wrongQuestionCount,
+  favoriteCount,
   stickyNoteCount,
   onExamChange,
   onPageChange,
@@ -84,9 +87,7 @@ export function AppShell({
       groupedExams[stage].find((exam) => exam.year === activeYear) ??
       groupedExams[stage][0];
 
-    if (firstExam) {
-      onExamChange(firstExam.id);
-    }
+    if (firstExam) onExamChange(firstExam.id);
   };
 
   const handleYearChange = (year: string) => {
@@ -97,9 +98,7 @@ export function AppShell({
       activeStage,
     });
 
-    if (nextExam) {
-      onExamChange(nextExam.id);
-    }
+    if (nextExam) onExamChange(nextExam.id);
   };
 
   return (
@@ -113,18 +112,6 @@ export function AppShell({
         className={clsx(
           "pointer-events-none fixed inset-0 z-0 bg-[url('/assets/pastel-study-desk.png')] bg-cover bg-top opacity-35 transition-opacity duration-500",
           theme === "dark" && "opacity-10",
-        )}
-      />
-      <div
-        className={clsx(
-          "pointer-events-none fixed inset-0 z-0 bg-[linear-gradient(180deg,rgba(255,248,244,0.74)_0%,rgba(255,248,244,0.92)_38%,#fff8f4_100%)] transition-opacity duration-500",
-          theme === "dark" && "opacity-0",
-        )}
-      />
-      <div
-        className={clsx(
-          "pointer-events-none fixed inset-0 z-0 bg-[linear-gradient(180deg,rgba(25,22,30,0.68)_0%,rgba(25,22,30,0.9)_42%,#19161e_100%)] transition-opacity duration-500",
-          theme === "dark" ? "opacity-100" : "opacity-0",
         )}
       />
       <div className="pointer-events-none fixed inset-0 z-0 journal-paper opacity-70" />
@@ -161,6 +148,14 @@ export function AppShell({
                   badge={wrongQuestionCount}
                 >
                   我的錯題本
+                </PageButton>
+                <PageButton
+                  active={page === "favorites"}
+                  onClick={() => onPageChange("favorites")}
+                  icon={<BookmarkCheck size={16} />}
+                  badge={favoriteCount}
+                >
+                  我的收藏
                 </PageButton>
                 <PageButton
                   active={page === "notes"}
@@ -271,9 +266,7 @@ function Dropdown({
     <div
       className="relative min-w-0"
       onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget)) {
-          setOpen(false);
-        }
+        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
       }}
     >
       <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">

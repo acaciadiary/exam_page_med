@@ -1,4 +1,4 @@
-export type AppPage = "exam" | "mistakes" | "notes";
+export type AppPage = "exam" | "mistakes" | "favorites" | "notes";
 
 const pageParam = "page";
 
@@ -6,7 +6,7 @@ export function readPageFromSearch(search: string): AppPage {
   const params = new URLSearchParams(search);
   const page = params.get(pageParam);
 
-  if (page === "mistakes" || page === "notes") {
+  if (page === "mistakes" || page === "favorites" || page === "notes") {
     return page;
   }
 

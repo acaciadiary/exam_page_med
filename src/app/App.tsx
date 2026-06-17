@@ -4,6 +4,10 @@ import { AlertCircle } from "lucide-react";
 import { AppShell } from "../components/AppShell";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
+import {
+  FavoritesPage,
+  type FavoriteEntry,
+} from "../features/favorites/FavoritesPage";
 import { FlashcardMode } from "../features/flashcards/FlashcardMode";
 import {
   MistakeNotebookPage,
@@ -47,6 +51,8 @@ export default function App() {
   } | null>(null);
   const [allMistakes, setAllMistakes] = useState<MistakeEntry[]>([]);
   const [isMistakesLoading, setIsMistakesLoading] = useState(false);
+  const [favorites, setFavorites] = useState<FavoriteEntry[]>([]);
+  const [isFavoritesLoading, setIsFavoritesLoading] = useState(false);
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
     [],
@@ -179,6 +185,70 @@ export default function App() {
   }, [answers, examId, readyDataset, state]);
 
   useEffect(() => {
+    if (state.status !== "ready") return undefined;
+
+    let cancelled = false;
+    const manifest = state.manifest;
+    const currentDataset = state.dataset;
+
+    async function collectFavorites() {
+      setIsFavoritesLoading(true);
+
+      const entries: FavoriteEntry[] = [];
+
+      for (const exam of manifest.exams) {
+        const markedQuestionIds =
+          exam.id === examId
+            ? markedQuestions.marked
+            : readStoredStringArray(storageKeys.markedQuestions(exam.id));
+        const markedFlashcardIds =
+          exam.id === examId
+            ? markedFlashcards.marked
+            : readStoredStringArray(storageKeys.markedFlashcards(exam.id));
+        const favoriteIds = Array.from(
+          new Set([...markedQuestionIds, ...markedFlashcardIds]),
+        );
+
+        if (favoriteIds.length === 0) continue;
+
+        const dataset =
+          currentDataset.id === exam.id
+            ? currentDataset
+            : await loadExamData(exam.path);
+
+        for (const question of dataset.questions) {
+          if (!favoriteIds.includes(question.id)) continue;
+
+          const inQuestions = markedQuestionIds.includes(question.id);
+          const inFlashcards = markedFlashcardIds.includes(question.id);
+
+          entries.push({
+            exam,
+            question,
+            source: inQuestions && inFlashcards ? "both" : inQuestions ? "question" : "flashcard",
+          });
+        }
+      }
+
+      if (!cancelled) {
+        setFavorites(entries);
+        setIsFavoritesLoading(false);
+      }
+    }
+
+    collectFavorites().catch(() => {
+      if (!cancelled) {
+        setFavorites([]);
+        setIsFavoritesLoading(false);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [examId, markedFlashcards.marked, markedQuestions.marked, state]);
+
+  useEffect(() => {
     if (page !== "exam" || !pendingQuestion || readyDataset?.id !== pendingQuestion.examId) {
       return undefined;
     }
@@ -255,13 +325,14 @@ export default function App() {
   return (
     <AppShell
       exams={manifest.exams}
-      activeExamId={activeExamId || dataset.id}
+      activeExamId={dataset.id}
       page={page}
       mode={mode}
       theme={theme}
       answeredCount={answeredCount}
       questionCount={dataset.questions.length}
       wrongQuestionCount={allMistakes.length}
+      favoriteCount={favorites.length}
       stickyNoteCount={stickyNotes.length}
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
@@ -291,6 +362,17 @@ export default function App() {
           <MistakeNotebookPage
             mistakes={allMistakes}
             loading={isMistakesLoading}
+            onOpenQuestion={(targetExamId, questionId) => {
+              setMode("exam");
+              setActiveExamId(targetExamId);
+              setPendingQuestion({ examId: targetExamId, questionId });
+              handlePageChange("exam");
+            }}
+          />
+        ) : page === "favorites" ? (
+          <FavoritesPage
+            favorites={favorites}
+            loading={isFavoritesLoading}
             onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
               setActiveExamId(targetExamId);
@@ -357,5 +439,19 @@ function readStoredAnswers(examId: string): AnswerState {
     return parsed && typeof parsed === "object" ? (parsed as AnswerState) : {};
   } catch {
     return {};
+  }
+}
+
+function readStoredStringArray(key: string): string[] {
+  try {
+    const stored = window.localStorage.getItem(key);
+    if (!stored) return [];
+
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed)
+      ? parsed.filter((item): item is string => typeof item === "string")
+      : [];
+  } catch {
+    return [];
   }
 }
