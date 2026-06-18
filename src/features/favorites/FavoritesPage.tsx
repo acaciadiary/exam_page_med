@@ -1,5 +1,6 @@
 import { ArrowRight, BookmarkCheck, Trash2 } from "lucide-react";
 import clsx from "clsx";
+import { useMemo, useState } from "react";
 import { EmptyState } from "../../components/EmptyState";
 import { getStageLabel, getSubjectLabel, getExamStage } from "../../lib/examMetadata";
 import { compactText } from "../../lib/text";
@@ -29,6 +30,15 @@ export function FavoritesPage({
   onClearFavorites,
   onToggleTag,
 }: FavoritesPageProps) {
+  const [activeTag, setActiveTag] = useState<FavoriteTag | "全部">("全部");
+  const filteredFavorites = useMemo(
+    () =>
+      activeTag === "全部"
+        ? favorites
+        : favorites.filter((favorite) => favorite.tags.includes(activeTag)),
+    [activeTag, favorites],
+  );
+
   return (
     <section className="space-y-6">
       <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-6 shadow-[0_18px_60px_rgba(181,133,117,0.16)] backdrop-blur-2xl">
@@ -42,6 +52,23 @@ export function FavoritesPage({
             </h2>
             <div className="mt-4 inline-flex rounded-full bg-[#fff1f6] px-4 py-2 text-sm font-semibold text-[#9a496b]">
               目前共 {favorites.length} 題收藏
+            </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <FavoriteTagFilterButton
+                active={activeTag === "全部"}
+                onClick={() => setActiveTag("全部")}
+              >
+                全部收藏
+              </FavoriteTagFilterButton>
+              {favoriteTagOptions.map((tag) => (
+                <FavoriteTagFilterButton
+                  key={tag}
+                  active={activeTag === tag}
+                  onClick={() => setActiveTag(tag)}
+                >
+                  {tag}
+                </FavoriteTagFilterButton>
+              ))}
             </div>
           </div>
 
@@ -66,9 +93,14 @@ export function FavoritesPage({
           title="目前還沒有收藏"
           description="在題目或背卡按下書籤後，收藏會集中顯示在這裡。"
         />
+      ) : filteredFavorites.length === 0 ? (
+        <EmptyState
+          title={`目前沒有「${activeTag}」題目`}
+          description="可以先在收藏題目下方點選標籤，之後就能從這裡快速整理。"
+        />
       ) : (
         <div className="grid gap-4">
-          {favorites.map(({ exam, question, source, tags }) => (
+          {filteredFavorites.map(({ exam, question, source, tags }) => (
             <article
               key={`${exam.id}-${question.id}`}
               className="rounded-[1.2rem] border border-white/80 bg-white/82 p-5 shadow-[0_14px_44px_rgba(181,133,117,0.13)] backdrop-blur-2xl"
@@ -130,6 +162,31 @@ export function FavoritesPage({
 }
 
 const favoriteTagOptions: FavoriteTag[] = ["待複習", "很重要", "易混淆"];
+
+function FavoriteTagFilterButton({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={clsx(
+        "inline-flex h-10 items-center justify-center rounded-full border px-4 text-sm font-semibold transition",
+        active
+          ? "border-[#f1aac8] bg-[#ffddea] text-[#9a496b] shadow-[0_8px_24px_rgba(238,148,185,0.18)]"
+          : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]",
+      )}
+    >
+      {children}
+    </button>
+  );
+}
 
 function getSourceLabel(source: FavoriteEntry["source"]) {
   if (source === "both") return "題目與背卡";
