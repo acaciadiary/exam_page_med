@@ -18,6 +18,12 @@ type ExamModeProps = {
   answers: AnswerState;
   markedQuestions: MarkedApi;
   onAnswer: (questionId: string, answer: AnswerOptionKey) => void;
+  reviewMode?: {
+    title: string;
+    description: string;
+    questionIds: string[];
+    onExit: () => void;
+  };
 };
 
 export function ExamMode({
@@ -25,12 +31,19 @@ export function ExamMode({
   answers,
   markedQuestions,
   onAnswer,
+  reviewMode,
 }: ExamModeProps) {
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
   const categoryOptions = useMemo(() => buildCategoryOptions(dataset), [dataset]);
   const visibleQuestions = useMemo(
-    () => filterQuestionsByCategory(dataset, activeCategory),
-    [activeCategory, dataset],
+    () => {
+      const categoryQuestions = filterQuestionsByCategory(dataset, activeCategory);
+      if (!reviewMode) return categoryQuestions;
+
+      const reviewIdSet = new Set(reviewMode.questionIds);
+      return categoryQuestions.filter((question) => reviewIdSet.has(question.id));
+    },
+    [activeCategory, dataset, reviewMode],
   );
 
   useEffect(() => {
@@ -51,6 +64,28 @@ export function ExamMode({
             依科目快速篩題，作答後立即顯示正誤、詳解與考點提示。收藏的題目會自動保存，下次回來繼續複習。
           </p>
         </div>
+
+        {reviewMode && (
+          <div className="mb-5 rounded-[1.2rem] border border-[#f2c9d8] bg-[#fff0f6]/88 p-4 shadow-[0_14px_42px_rgba(181,133,117,0.12)]">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-sm font-semibold text-[#9a496b]">
+                  {reviewMode.title}
+                </p>
+                <p className="mt-1 text-sm leading-6 text-[#725b52]">
+                  {reviewMode.description}
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={reviewMode.onExit}
+                className="inline-flex h-10 items-center justify-center rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+              >
+                退出再練
+              </button>
+            </div>
+          </div>
+        )}
 
         <CategoryFilter
           options={categoryOptions}
@@ -133,7 +168,10 @@ function MobileMarkedQuestions({
                 </p>
                 <button
                   type="button"
-                  onClick={onClearMarked}
+                  onClick={() => {
+                    if (!window.confirm("確定要清除本卷全部題目收藏嗎？")) return;
+                    onClearMarked();
+                  }}
                   className="rounded-full border border-[#efd9d0] bg-white/72 px-3 py-1.5 text-xs font-semibold text-[#8d7167] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
                 >
                   清除收藏

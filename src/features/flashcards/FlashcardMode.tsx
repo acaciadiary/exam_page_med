@@ -152,7 +152,10 @@ function MobileMarkedFlashcards({
                 </p>
                 <button
                   type="button"
-                  onClick={onClearMarked}
+                  onClick={() => {
+                    if (!window.confirm("確定要清空本卷全部背卡收藏嗎？")) return;
+                    onClearMarked();
+                  }}
                   className="rounded-full border border-[#efd9d0] bg-white/72 px-3 py-1.5 text-xs font-semibold text-[#8d7167] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
                 >
                   清空收藏

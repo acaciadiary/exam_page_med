@@ -46,7 +46,10 @@ export function MarkedQuestionSidebar({
           {!collapsed && marked.length > 0 && (
             <button
               type="button"
-              onClick={onClearMarked}
+              onClick={() => {
+                if (!window.confirm("確定要清除本卷全部題目收藏嗎？")) return;
+                onClearMarked();
+              }}
               className="inline-flex items-center gap-1.5 rounded-full border border-[#efd9d0] bg-white/72 px-3 py-2 text-xs font-semibold text-[#8d7167] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
               aria-label="清除所有收藏"
               title="清除所有收藏"

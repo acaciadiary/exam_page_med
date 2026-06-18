@@ -7,6 +7,7 @@ import { ExamMode } from "../features/exam/ExamMode";
 import {
   FavoritesPage,
   type FavoriteEntry,
+  type FavoriteTag,
 } from "../features/favorites/FavoritesPage";
 import { FlashcardMode } from "../features/flashcards/FlashcardMode";
 import {
@@ -53,6 +54,7 @@ export default function App() {
   const [isMistakesLoading, setIsMistakesLoading] = useState(false);
   const [favorites, setFavorites] = useState<FavoriteEntry[]>([]);
   const [isFavoritesLoading, setIsFavoritesLoading] = useState(false);
+  const [mistakePracticeIds, setMistakePracticeIds] = useState<Record<string, string[]>>({});
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
     [],
@@ -129,6 +131,10 @@ export default function App() {
   );
   const markedQuestions = useMarkedItems(storageKeys.markedQuestions(examId));
   const markedFlashcards = useMarkedItems(storageKeys.markedFlashcards(examId));
+  const [favoriteTags, setFavoriteTags] = useLocalStorage<Record<string, FavoriteTag[]>>(
+    storageKeys.favoriteTags(examId),
+    {},
+  );
 
   const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
 
@@ -205,6 +211,10 @@ export default function App() {
           exam.id === examId
             ? markedFlashcards.marked
             : readStoredStringArray(storageKeys.markedFlashcards(exam.id));
+        const examFavoriteTags =
+          exam.id === examId
+            ? favoriteTags
+            : readStoredFavoriteTags(storageKeys.favoriteTags(exam.id));
         const favoriteIds = Array.from(
           new Set([...markedQuestionIds, ...markedFlashcardIds]),
         );
@@ -226,6 +236,7 @@ export default function App() {
             exam,
             question,
             source: inQuestions && inFlashcards ? "both" : inQuestions ? "question" : "flashcard",
+            tags: examFavoriteTags[question.id] ?? [],
           });
         }
       }
@@ -246,7 +257,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [examId, markedFlashcards.marked, markedQuestions.marked, state]);
+  }, [examId, favoriteTags, markedFlashcards.marked, markedQuestions.marked, state]);
 
   useEffect(() => {
     if (page !== "exam" || !pendingQuestion || readyDataset?.id !== pendingQuestion.examId) {
@@ -290,11 +301,13 @@ export default function App() {
   };
 
   const handleClearNotes = () => {
+    if (!window.confirm("確定要清空全部便利貼嗎？這個動作無法復原。")) return;
     setStickyNotes([]);
   };
 
   const handleClearAllMistakes = () => {
     if (state.status !== "ready" || allMistakes.length === 0) return;
+    if (!window.confirm("確定要清空目前所有錯題紀錄嗎？答錯紀錄會從錯題本移除。")) return;
 
     const mistakeIdsByExam = new Map<string, string[]>();
 
@@ -319,23 +332,85 @@ export default function App() {
     }
 
     setAllMistakes([]);
+    setMistakePracticeIds({});
   };
 
   const handleClearAllFavorites = () => {
     if (state.status !== "ready" || favorites.length === 0) return;
+    if (!window.confirm("確定要清空全部收藏嗎？題目收藏與背卡收藏都會移除。")) return;
 
     for (const exam of state.manifest.exams) {
       if (exam.id === examId) {
         markedQuestions.clearMarked();
         markedFlashcards.clearMarked();
+        setFavoriteTags({});
         continue;
       }
 
       writeStoredStringArray(storageKeys.markedQuestions(exam.id), []);
       writeStoredStringArray(storageKeys.markedFlashcards(exam.id), []);
+      writeStoredFavoriteTags(storageKeys.favoriteTags(exam.id), {});
     }
 
     setFavorites([]);
+  };
+
+  const handleStartMistakePractice = () => {
+    if (allMistakes.length === 0) return;
+
+    const idsByExam: Record<string, string[]> = {};
+    for (const mistake of allMistakes) {
+      idsByExam[mistake.exam.id] = [
+        ...(idsByExam[mistake.exam.id] ?? []),
+        mistake.question.id,
+      ];
+    }
+
+    const firstMistake = allMistakes[0];
+    setMistakePracticeIds(idsByExam);
+    setMode("exam");
+    setActiveExamId(firstMistake.exam.id);
+    handlePageChange("exam");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleToggleFavoriteTag = (
+    targetExamId: string,
+    questionId: string,
+    tag: FavoriteTag,
+  ) => {
+    const toggleTags = (current: Record<string, FavoriteTag[]>) => {
+      const currentTags = current[questionId] ?? [];
+      const nextTags = currentTags.includes(tag)
+        ? currentTags.filter((item) => item !== tag)
+        : [...currentTags, tag];
+      const next = { ...current };
+
+      if (nextTags.length === 0) {
+        delete next[questionId];
+      } else {
+        next[questionId] = nextTags;
+      }
+
+      return next;
+    };
+
+    if (targetExamId === examId) {
+      setFavoriteTags(toggleTags);
+    } else {
+      writeStoredFavoriteTags(
+        storageKeys.favoriteTags(targetExamId),
+        toggleTags(readStoredFavoriteTags(storageKeys.favoriteTags(targetExamId))),
+      );
+    }
+
+    setFavorites((current) =>
+      current.map((entry) =>
+        entry.exam.id === targetExamId && entry.question.id === questionId
+          ? { ...entry, tags: toggleTags({ [questionId]: entry.tags })[questionId] ?? [] }
+          : entry,
+      ),
+    );
   };
 
   if (state.status === "loading") {
@@ -383,7 +458,10 @@ export default function App() {
       onPageChange={handlePageChange}
       onModeChange={setMode}
       onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
-      onReset={resetAnswers}
+      onReset={() => {
+        if (!window.confirm("確定要清空本卷作答嗎？")) return;
+        resetAnswers();
+      }}
     >
       <div className="relative">
         <AnimatePresence>
@@ -403,11 +481,21 @@ export default function App() {
           ) : null}
         </AnimatePresence>
 
+        <DailyReviewHint
+          mistakeCount={allMistakes.length}
+          favoriteCount={favorites.length}
+          noteCount={stickyNotes.length}
+          onGoMistakes={() => handlePageChange("mistakes")}
+          onGoFavorites={() => handlePageChange("favorites")}
+          onGoNotes={() => handlePageChange("notes")}
+        />
+
         {page === "mistakes" ? (
           <MistakeNotebookPage
             mistakes={allMistakes}
             loading={isMistakesLoading}
             onClearMistakes={handleClearAllMistakes}
+            onStartPractice={handleStartMistakePractice}
             onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
               setActiveExamId(targetExamId);
@@ -420,6 +508,7 @@ export default function App() {
             favorites={favorites}
             loading={isFavoritesLoading}
             onClearFavorites={handleClearAllFavorites}
+            onToggleTag={handleToggleFavoriteTag}
             onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
               setActiveExamId(targetExamId);
@@ -454,6 +543,16 @@ export default function App() {
                   answers={answers}
                   markedQuestions={markedQuestions}
                   onAnswer={answerQuestion}
+                  reviewMode={
+                    mistakePracticeIds[dataset.id]?.length
+                      ? {
+                          title: "錯題再練模式",
+                          description: `目前只顯示這份題庫中的 ${mistakePracticeIds[dataset.id].length} 題錯題。`,
+                          questionIds: mistakePracticeIds[dataset.id],
+                          onExit: () => setMistakePracticeIds({}),
+                        }
+                      : undefined
+                  }
                 />
               </motion.div>
             ) : (
@@ -503,6 +602,33 @@ function readStoredStringArray(key: string): string[] {
   }
 }
 
+function readStoredFavoriteTags(key: string): Record<string, FavoriteTag[]> {
+  const validTags: FavoriteTag[] = ["待複習", "很重要", "易混淆"];
+
+  try {
+    const stored = window.localStorage.getItem(key);
+    if (!stored) return {};
+
+    const parsed = JSON.parse(stored);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
+
+    return Object.fromEntries(
+      Object.entries(parsed)
+        .map(([questionId, tags]) => [
+          questionId,
+          Array.isArray(tags)
+            ? tags.filter((tag): tag is FavoriteTag =>
+                validTags.includes(tag as FavoriteTag),
+              )
+            : [],
+        ])
+        .filter(([, tags]) => tags.length > 0),
+    );
+  } catch {
+    return {};
+  }
+}
+
 function writeStoredAnswers(examId: string, answers: AnswerState) {
   try {
     window.localStorage.setItem(
@@ -520,4 +646,73 @@ function writeStoredStringArray(key: string, values: string[]) {
   } catch {
     // Local storage can be unavailable in private browsing.
   }
+}
+
+function writeStoredFavoriteTags(key: string, values: Record<string, FavoriteTag[]>) {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(values));
+  } catch {
+    // Local storage can be unavailable in private browsing.
+  }
+}
+
+function DailyReviewHint({
+  mistakeCount,
+  favoriteCount,
+  noteCount,
+  onGoMistakes,
+  onGoFavorites,
+  onGoNotes,
+}: {
+  mistakeCount: number;
+  favoriteCount: number;
+  noteCount: number;
+  onGoMistakes: () => void;
+  onGoFavorites: () => void;
+  onGoNotes: () => void;
+}) {
+  const hasMistakes = mistakeCount > 0;
+  const hasFavorites = favoriteCount > 0;
+  const hasNotes = noteCount > 0;
+  const suggestion = hasMistakes
+    ? `先把 ${mistakeCount} 題錯題重看一次，再回來寫新題。`
+    : hasFavorites
+      ? `今天可以從 ${favoriteCount} 題收藏開始暖身。`
+      : hasNotes
+        ? `先快速翻一下 ${noteCount} 張便利貼，幫記憶熱機。`
+        : "今天先挑一份題庫做 10 題，建立手感就好。";
+
+  return (
+    <section className="mb-6 rounded-[1.25rem] border border-white/80 bg-white/78 p-4 shadow-[0_14px_42px_rgba(181,133,117,0.12)] backdrop-blur-2xl">
+      <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+          <p className="text-sm font-semibold text-[#b36a84]">今日建議複習</p>
+          <p className="mt-1 text-sm leading-6 text-[#725b52]">{suggestion}</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={onGoMistakes}
+            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+          >
+            看錯題
+          </button>
+          <button
+            type="button"
+            onClick={onGoFavorites}
+            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+          >
+            看收藏
+          </button>
+          <button
+            type="button"
+            onClick={onGoNotes}
+            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+          >
+            看便利貼
+          </button>
+        </div>
+      </div>
+    </section>
+  );
 }

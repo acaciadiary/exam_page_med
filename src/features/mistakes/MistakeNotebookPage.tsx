@@ -19,6 +19,7 @@ type MistakeNotebookPageProps = {
   loading: boolean;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onClearMistakes: () => void;
+  onStartPractice: () => void;
 };
 
 export function MistakeNotebookPage({
@@ -26,6 +27,7 @@ export function MistakeNotebookPage({
   loading,
   onOpenQuestion,
   onClearMistakes,
+  onStartPractice,
 }: MistakeNotebookPageProps) {
   return (
     <section className="space-y-6">
@@ -46,15 +48,26 @@ export function MistakeNotebookPage({
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={onClearMistakes}
-            disabled={loading || mistakes.length === 0}
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            <Trash2 size={16} />
-            一鍵清空
-          </button>
+          <div className="flex flex-wrap gap-2 lg:justify-end">
+            <button
+              type="button"
+              onClick={onStartPractice}
+              disabled={loading || mistakes.length === 0}
+              className="inline-flex h-11 items-center justify-center rounded-full bg-[#b8e2d4] px-4 text-sm font-semibold text-[#355249] shadow-[0_8px_22px_rgba(123,190,168,0.24)] transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              開始錯題再練
+            </button>
+
+            <button
+              type="button"
+              onClick={onClearMistakes}
+              disabled={loading || mistakes.length === 0}
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              <Trash2 size={16} />
+              一鍵清空
+            </button>
+          </div>
         </div>
       </div>
 

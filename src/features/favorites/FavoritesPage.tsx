@@ -1,13 +1,17 @@
 import { ArrowRight, BookmarkCheck, Trash2 } from "lucide-react";
+import clsx from "clsx";
 import { EmptyState } from "../../components/EmptyState";
 import { getStageLabel, getSubjectLabel, getExamStage } from "../../lib/examMetadata";
 import { compactText } from "../../lib/text";
 import type { ExamManifestItem, ExamQuestion } from "../../types/exam";
 
+export type FavoriteTag = "待複習" | "很重要" | "易混淆";
+
 export type FavoriteEntry = {
   exam: ExamManifestItem;
   question: ExamQuestion;
   source: "question" | "flashcard" | "both";
+  tags: FavoriteTag[];
 };
 
 type FavoritesPageProps = {
@@ -15,6 +19,7 @@ type FavoritesPageProps = {
   loading: boolean;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onClearFavorites: () => void;
+  onToggleTag: (examId: string, questionId: string, tag: FavoriteTag) => void;
 };
 
 export function FavoritesPage({
@@ -22,6 +27,7 @@ export function FavoritesPage({
   loading,
   onOpenQuestion,
   onClearFavorites,
+  onToggleTag,
 }: FavoritesPageProps) {
   return (
     <section className="space-y-6">
@@ -62,7 +68,7 @@ export function FavoritesPage({
         />
       ) : (
         <div className="grid gap-4">
-          {favorites.map(({ exam, question, source }) => (
+          {favorites.map(({ exam, question, source, tags }) => (
             <article
               key={`${exam.id}-${question.id}`}
               className="rounded-[1.2rem] border border-white/80 bg-white/82 p-5 shadow-[0_14px_44px_rgba(181,133,117,0.13)] backdrop-blur-2xl"
@@ -93,6 +99,28 @@ export function FavoritesPage({
                   <ArrowRight size={16} />
                 </button>
               </div>
+
+              <div className="mt-4 flex flex-wrap gap-2 border-t border-[#f0ded6] pt-4">
+                {favoriteTagOptions.map((tag) => {
+                  const active = tags.includes(tag);
+
+                  return (
+                    <button
+                      key={tag}
+                      type="button"
+                      onClick={() => onToggleTag(exam.id, question.id, tag)}
+                      className={clsx(
+                        "rounded-full border px-3 py-1.5 text-xs font-semibold transition",
+                        active
+                          ? "border-[#f1aac8] bg-[#ffddea] text-[#9a496b]"
+                          : "border-[#efd9d0] bg-white/70 text-[#806b60] hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]",
+                      )}
+                    >
+                      {tag}
+                    </button>
+                  );
+                })}
+              </div>
             </article>
           ))}
         </div>
@@ -100,6 +128,8 @@ export function FavoritesPage({
     </section>
   );
 }
+
+const favoriteTagOptions: FavoriteTag[] = ["待複習", "很重要", "易混淆"];
 
 function getSourceLabel(source: FavoriteEntry["source"]) {
   if (source === "both") return "題目與背卡";

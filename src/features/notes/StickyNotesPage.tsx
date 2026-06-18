@@ -17,6 +17,7 @@ export function StickyNotesPage({
   onClearNotes,
 }: StickyNotesPageProps) {
   const [draft, setDraft] = useState("");
+  const [query, setQuery] = useState("");
   const [copied, setCopied] = useState(false);
   const sortedNotes = useMemo(
     () =>
@@ -26,6 +27,14 @@ export function StickyNotesPage({
       ),
     [notes],
   );
+  const visibleNotes = useMemo(() => {
+    const keyword = query.trim().toLocaleLowerCase();
+    if (!keyword) return sortedNotes;
+
+    return sortedNotes.filter((note) =>
+      note.text.toLocaleLowerCase().includes(keyword),
+    );
+  }, [query, sortedNotes]);
 
   const handleAddNote = () => {
     const text = draft.trim();
@@ -112,14 +121,33 @@ export function StickyNotesPage({
         </div>
       </div>
 
+      {sortedNotes.length > 0 && (
+        <div className="rounded-[1.2rem] border border-white/80 bg-white/78 p-4 shadow-[0_14px_42px_rgba(181,133,117,0.12)] backdrop-blur-2xl">
+          <label className="block text-sm font-semibold text-[#5b4841]">
+            搜尋便利貼
+          </label>
+          <input
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="輸入關鍵字，例如：腎臟、抗生素、兒科"
+            className="mt-3 h-11 w-full rounded-full border border-[#efd9d0] bg-white px-4 text-sm text-[#4b3b35] outline-none transition placeholder:text-[#aa8a7d] focus:border-[#f1aac8] focus:ring-4 focus:ring-[#ffd9e8]/55"
+          />
+        </div>
+      )}
+
       {sortedNotes.length === 0 ? (
         <EmptyState
           title="目前還沒有便利貼"
           description="先寫下你的重點、提醒或容易忘記的觀念，之後就能集中整理。"
         />
+      ) : visibleNotes.length === 0 ? (
+        <EmptyState
+          title="找不到符合的便利貼"
+          description="換個關鍵字試試看，或先清空搜尋內容。"
+        />
       ) : (
         <div className="grid gap-4 md:grid-cols-2">
-          {sortedNotes.map((note) => (
+          {visibleNotes.map((note) => (
             <article
               key={note.id}
               className="rounded-[1.2rem] border border-[#f2d7a9] bg-[#fff9e8] p-5 shadow-[0_12px_32px_rgba(181,133,117,0.12)]"
