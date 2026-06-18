@@ -4,7 +4,7 @@
   "title": "111 年第二次醫師國考：醫學（五）",
   "subject": "medicine-5",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111080&q=1&s=33&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:31.590501+00:00",
   "questions": [
     {
       "id": "111-2_medicine-5_001",
@@ -1930,23 +1930,28 @@
         "C": "與WT2 基因表現有關",
         "D": "最常轉移到肺臟及肝臟"
       },
-      "correct_answer": null,
-      "explanation": "威爾姆氏腫瘤是小兒最常見的腎臟惡性腫瘤，約佔兒童腫瘤5%，常轉移至肺與肝，約10%合併先天發育異常（如 WAGR）。此題原本考點為 WT2 基因與 Wilms tumor 關係（經典腫瘤與 WT1 突變直接相關，部分合併症候群與 WT2 相關），因選項描述有爭議，官方最後更正為無標準答案（全部給分），答題時維持空值以符合官方答案。",
-      "key_point": "了解威爾姆氏腫瘤（Wilms' tumor）的臨床與基因特徵及官方更正答案。",
+      "correct_answer": "#",
+      "explanation": "官方更正為全體給分題；此題不再適合用單一答案背誦。複習時可保留題幹概念，但正式作答依官方更正註記處理。",
+      "key_point": "官方更正全體給分，不背單一答案",
       "flashcard_summary": "威爾姆氏腫瘤 / 兒童腎腫瘤 -> Wilms 腫瘤為兒童常見腎惡性腫瘤，與 WT1 關係密切；此題因選項爭議官方列為無標準答案。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第67題一律給分；原標準答案為 C。",
       "flashcard_front": "威爾姆氏腫瘤 / 兒童腎腫瘤 / WT1 基因 / 肺肝轉移 / 官方答案更正",
-      "flashcard_back": "Wilms 腫瘤為兒童常見腎惡性腫瘤，與 WT1 關係密切；此題因選項爭議官方列為無標準答案。",
+      "flashcard_back": "官方更正為全體給分題；不要背單一選項。這張卡只用來提醒題幹相關概念，正解以官方更正註記為準。",
       "category_group": "醫學（五）",
       "category": "泌尿科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:31.590501+00:00"
     },
     {
       "id": "111-2_medicine-5_068",

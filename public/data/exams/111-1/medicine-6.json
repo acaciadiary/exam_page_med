@@ -4,7 +4,7 @@
   "title": "111 年第一次醫師國考：醫學（六）",
   "subject": "medicine-6",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111020&q=1&s=44&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:29.705959+00:00",
   "questions": [
     {
       "id": "111-1_medicine-6_001",
@@ -654,23 +654,28 @@
         "C": "Moraxella catarrhalis",
         "D": "Staphylococcus aureus"
       },
-      "correct_answer": null,
-      "explanation": "急性中耳炎（AOM）與急性鼻竇炎（ARS）最常見的三大主要致病菌為 Streptococcus pneumoniae（肺炎鏈球菌）、Haemophilus influenzae（流感嗜血桿菌）與 Moraxella catarrhalis（卡他莫拉菌）。Staphylococcus aureus（金黃色葡萄球菌）主要與慢性中耳炎/鼻竇炎或術後感染相關，在急性感染中相對少見，原題目應選 D，但官方最後更正為無正解（不計分）。",
-      "key_point": "急性中耳炎與急性鼻竇炎的常見致病菌",
+      "correct_answer": "#",
+      "explanation": "官方更正為全體給分題；此題不再適合用單一答案背誦。複習時可保留題幹概念，但正式作答依官方更正註記處理。",
+      "key_point": "官方更正全體給分，不背單一答案",
       "flashcard_summary": "急性中耳炎與鼻竇炎 / 三大主要致病菌 / 金黃色葡萄球菌 / 常見菌種比較 -> 肺炎鏈球菌、流感嗜血桿菌與卡他莫拉菌為主要急性致病菌，本題無正解。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第23題一律給分；原標準答案為 D。",
       "flashcard_front": "急性中耳炎與鼻竇炎 / 三大主要致病菌 / 金黃色葡萄球菌 / 常見菌種比較",
-      "flashcard_back": "三大急性致病菌為 S. pneumoniae、H. influenzae 及 M. catarrhalis。S. aureus 非常見急性感染菌（本題無正解）。",
+      "flashcard_back": "官方更正為全體給分題；不要背單一選項。這張卡只用來提醒題幹相關概念，正解以官方更正註記為準。",
       "category_group": "醫學（六）",
       "category": "耳鼻喉科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:29.705959+00:00"
     },
     {
       "id": "111-1_medicine-6_024",
@@ -1581,23 +1586,26 @@
         "C": "停經婦女體內雄性素仍維持不減",
         "D": "女性外生殖器發育是受到雌激素刺激而形成的"
       },
-      "correct_answer": null,
-      "explanation": "本題官方公佈更正答案為選擇C、D或CD者均給分。選項D為明確錯誤，女性外生殖器的胚胎發育是由於「缺乏雄性素（DHT）刺激」而朝女性方向發育，而非受雌激素刺激形成。選項C亦存在爭議，停經後女性由於卵巢濾泡耗竭，雖然卵巢基質和腎上腺能持續分泌雄性素，但整體血清雄性素濃度與生育年齡相比仍有顯著下降，非「維持不減」，因此兩者均被認定為錯誤選項並予給分。",
-      "key_point": "雌激素與雄性素的生理功能、來源及胚胎發育影響（本題官方更正為C或D或CD均給分）。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. 停經婦女體內雄性素仍維持不減；D. 女性外生殖器發育是受到雌激素刺激而形成的」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "女性外生殖器發育與性激素 -> 缺乏雄性素刺激而發育；停經後雄性素仍有下降（C、D均給分）",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第55題答C或D或CD者均給分；原標準答案為 D。",
       "flashcard_front": "女性外生殖器發育 / 停經後雄性素濃度 / 111-1國考第55題更正",
-      "flashcard_back": "女性外生殖器發育是因缺乏雄性素刺激；停經後雄性素雖由腎上腺等分泌但濃度仍有下降。此題選C、D或CD均給分。",
+      "flashcard_back": "官方更正接受：「C. 停經婦女體內雄性素仍維持不減；D. 女性外生殖器發育是受到雌激素刺激而形成的」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（六）",
       "category": "婦產科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:29.705959+00:00"
     },
     {
       "id": "111-1_medicine-6_056",

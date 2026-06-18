@@ -4,7 +4,7 @@
   "title": "111 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111080&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:31.118911+00:00",
   "questions": [
     {
       "id": "111-2_medicine-4_001",
@@ -1872,23 +1872,28 @@
         "C": "恐慌症(panic disorder)女性罹病率高於男性",
         "D": "強迫症(obsessive-compulsive disorder)女性罹病率高於男性"
       },
-      "correct_answer": null,
-      "explanation": "本題原意為探討精神疾病的性別盛行率。社交焦慮症、泛焦慮症與恐慌症在流行病學上皆呈現女性罹病率高於男性的特徵。然而，強迫症（OCD）在不同年齡層與研究中的性別盛行率差異有所爭議（兒童期為男性較多，成年期則男女相近或女性略多），導致各選項在嚴格定義下存在學術爭議，因此考選部最終將本題更正為「一律給分」（即 correct_answer 為空字串 \"\"）。",
-      "key_point": "各類焦慮障礙與強迫症在不同年齡與研究中的性別盛行率差異。",
+      "correct_answer": "#",
+      "explanation": "官方更正為全體給分題；此題不再適合用單一答案背誦。複習時可保留題幹概念，但正式作答依官方更正註記處理。",
+      "key_point": "官方更正全體給分，不背單一答案",
       "flashcard_summary": "焦慮症性別盛行率 / 強迫症性別差異 / 考選部一律給分爭議 -> 社交焦慮症、泛焦慮症與恐慌症女性盛行率高於男性；強迫症在兒童期男性較多，成人期男女相當或女性略多，因數據爭議本題一律給分。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第65題一律給分；原標準答案為 D。",
       "flashcard_front": "焦慮症性別盛行率 / 強迫症性別差異 / 考選部一律給分爭議",
-      "flashcard_back": "社交焦慮症、泛焦慮症與恐慌症女性盛行率高於男性；強迫症在兒童期男性較多，成人期男女相當或女性略多，因數據爭議本題一律給分。",
+      "flashcard_back": "官方更正為全體給分題；不要背單一選項。這張卡只用來提醒題幹相關概念，正解以官方更正註記為準。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:31.118911+00:00"
     },
     {
       "id": "111-2_medicine-4_066",

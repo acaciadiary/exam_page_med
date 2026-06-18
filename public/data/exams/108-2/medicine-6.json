@@ -4,7 +4,7 @@
   "title": "108 年第二次醫師國考：醫學（六）",
   "subject": "medicine-6",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=108080&q=1&s=44&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:19.852942+00:00",
   "questions": [
     {
       "id": "108-2_medicine-6_001",
@@ -103,23 +103,26 @@
         "C": "propofol",
         "D": "midazolam"
       },
-      "correct_answer": null,
-      "explanation": "在常用的靜脈麻醉藥物中，Ketamine（氯胺酮）具有擬交感神經作用，可釋放內源性兒茶酚胺並直接鬆弛氣道平滑肌，具有顯著的支氣管擴張效果。Propofol（丙泊酚）亦被證實能有效降低氣道阻力並擴張支氣管，臨床上對氣喘病患友善。本題因 Ketamine 與 Propofol 均具此效果，官方核定答案為B或C均給分，此處依題目要求保留 correct_answer 為空字串。",
-      "key_point": "具有支氣管擴張效果的靜脈麻醉藥物。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. ketamine；C. propofol」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "靜脈麻醉藥物 / 支氣管擴張效果 / Ketamine與Propofol -> Ketamine 與 Propofol 均可降低氣道阻力、擴張支氣管，適用於氣喘患者。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第4題答B、C給分；原標準答案為 B。",
       "flashcard_front": "靜脈麻醉藥物 / 支氣管擴張效果 / Ketamine與Propofol / 官方更正",
-      "flashcard_back": "Ketamine 與 Propofol 均具有鬆弛氣道平滑肌及擴張支氣管的效果，常選用於氣喘或COPD患者的麻醉誘導。",
+      "flashcard_back": "官方更正接受：「B. ketamine；C. propofol」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（六）",
       "category": "麻醉科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:19.852942+00:00"
     },
     {
       "id": "108-2_medicine-6_005",

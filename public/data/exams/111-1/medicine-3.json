@@ -4,7 +4,7 @@
   "title": "111 年第一次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:28.278285+00:00",
   "questions": [
     {
       "id": "111-1_medicine-3_001",
@@ -1031,23 +1031,26 @@
         "C": "腫瘤細胞影響調節T細胞(regulatory T cells)可以抑制免疫細胞功能",
         "D": "腫瘤細胞產生CTLA-4可讓毒殺T細胞(cytotoxic T cells)不活化"
       },
-      "correct_answer": null,
-      "explanation": "腫瘤細胞會透過多種機制進行免疫逃脫，包含減少 class I MHC 的表達以逃避 T 細胞毒殺，或是活化調節型 T 細胞（Tregs）來抑制免疫反應。本題官方更正為答 A 或 D 或 AD 均給分。A選項錯誤，因為干擾素-γ（IFN-γ）主要是促進抗腫瘤免疫的促發炎細胞激素，而非抑制免疫的細胞激素。D選項亦錯誤，因為 CTLA-4 是表達在 T 細胞（特別是活化 T 細胞和 Tregs）表面上的受體，並非由腫瘤細胞所直接產生。",
-      "key_point": "腫瘤細胞免疫逃脫機制與免疫檢查點（IFN-γ 及 CTLA-4）的生理作用。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 腫瘤細胞分泌interferon-γ等抑制免疫之細胞激素,可以抑制免疫反應；D. 腫瘤細胞產生CTLA-4可讓毒殺T細胞(cytotoxic T cells)不活化」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, D",
       "flashcard_summary": "腫瘤免疫逃脫機制與因子 -> IFN-γ 促進免疫而非抑制；CTLA-4 為 T 細胞表面受體而非腫瘤細胞直接產生。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第36題答A或D或AD者均給分；原標準答案為 A。",
       "flashcard_front": "腫瘤免疫逃脫 / 干擾素-γ (IFN-γ) 角色 / CTLA-4 表達細胞 / 官方答案更正",
-      "flashcard_back": "IFN-γ 為促進抗腫瘤免疫的細胞激素；CTLA-4 表達在 T 細胞表面（而非腫瘤細胞本身產生），結合 APC 的 CD80/CD86 以抑制 T 細胞。",
+      "flashcard_back": "官方更正接受：「A. 腫瘤細胞分泌interferon-γ等抑制免疫之細胞激素,可以抑制免疫反應；D. 腫瘤細胞產生CTLA-4可讓毒殺T細胞(cytotoxic T cells)不活化」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "血液腫瘤科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:28.278285+00:00"
     },
     {
       "id": "111-1_medicine-3_037",
@@ -1697,23 +1700,26 @@
         "C": "僅24",
         "D": "1234"
       },
-      "correct_answer": null,
-      "explanation": "根據手部衛生指引，當手部有明顯髒污（1）或照護困難梭狀桿菌（C. difficile）等具孢子病原菌的患者後（2），酒精無法有效去除髒污或殺滅孢子，因此不能單獨使用酒精性乾洗手液，必須以肥皂和清水洗手。至於在置放導尿管等無菌操作前（3），標準指引允許使用乾洗手，但部分規範亦建議濕洗手。因選項3在指引中存在實務詮釋差異，考選部最終更正為答 A 或 B 或 AB 均給分。",
-      "key_point": "手部衛生之酒精性乾洗手液的使用禁忌與限制（明顯髒污與困難梭狀桿菌孢子）。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 僅12；B. 僅23」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "酒精乾洗手禁忌 -> 手部有明顯髒污或照護 C. difficile 患者後，應使用肥皂與清水洗手而非酒精乾洗手。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第59題答A或B或AB者均給分；原標準答案為 A。",
       "flashcard_front": "酒精性乾洗手液 / 禁用或限制情境 / 困難梭狀桿菌 (C. difficile) / 手部明顯髒污 / 導尿管置放前 / 答案更正",
-      "flashcard_back": "手部明顯髒污或照護 C. difficile（有孢子）患者後，酒精乾洗手無效，必須使用肥皂及清水洗手。",
+      "flashcard_back": "官方更正接受：「A. 僅12；B. 僅23」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "感染科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:28.278285+00:00"
     },
     {
       "id": "111-1_medicine-3_060",

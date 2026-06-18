@@ -4,7 +4,7 @@
   "title": "108 年第二次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=108080&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:18.939274+00:00",
   "questions": [
     {
       "id": "108-2_medicine-3_001",
@@ -2220,23 +2220,26 @@
         "C": "腹瀉",
         "D": "失眠"
       },
-      "correct_answer": null,
-      "explanation": "路易絲湖急性高山病（AMS）評估標準包括頭痛（核心症狀）、胃腸症狀（噁心、嘔吐）、疲倦虛弱與頭暈。腹瀉（C）從未列入評估項目；此外，2018年修訂版評估表中，亦將睡眠障礙（D，失眠）移除。因此本題中腹瀉與失眠皆不屬於評估指標，官方最後更正答C、D皆給分。",
-      "key_point": "掌握路易絲湖急性高山病評估表的症狀評估標準。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. 腹瀉；D. 失眠」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "高山病路易絲湖評估 -> 評估指標包含頭痛與胃腸症狀，不含腹瀉，且2018年起已移除失眠項目。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第77題答C、D給分；原標準答案為 C。",
       "flashcard_front": "路易絲湖急性高山病 / 症狀評估 / 頭痛、噁心嘔吐 / 腹瀉、失眠 / 2018年修訂",
-      "flashcard_back": "路易絲湖評估表包含頭痛、胃腸不適、頭暈與疲倦。腹瀉從未列入，且2018年版已刪除失眠指標。",
+      "flashcard_back": "官方更正接受：「C. 腹瀉；D. 失眠」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "急診醫學科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:18.939274+00:00"
     },
     {
       "id": "108-2_medicine-3_078",

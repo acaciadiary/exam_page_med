@@ -4,7 +4,7 @@
   "title": "110 年第一次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=110020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:25.470257+00:00",
   "questions": [
     {
       "id": "110-1_medicine-3_001",
@@ -1671,23 +1671,26 @@
         "C": "partly controlled",
         "D": "uncontrolled"
       },
-      "correct_answer": null,
-      "explanation": "根據 GINA 氣喘控制指引，評估控制程度的指標包含：白天症狀大於每週2次、因氣喘夜間醒來、需要使用緩解劑（SABA）大於每週2次、以及任何活動受限。此患者在使用吸入性類固醇下，每週仍需使用 SABA 3-4次且偶爾夜間胸悶醒來，屬於控制不良。由於本題在官方公佈答案中列為無標準答案（一律給分），因此依規定保持 correct_answer 欄位為空值，但備考時仍應熟記 GINA 控制評估標準。",
-      "key_point": "氣喘控制程度的評估準則與官方更正答案說明。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. partly controlled；D. uncontrolled」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "氣喘控制評估 / 症狀頻率 / 夜間睡眠影響 / 官方更正題 -> 官方更正為無標準答案（原考點為GINA氣喘控制度評估）。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第64題答C、D給分；原標準答案為 D。",
       "flashcard_front": "氣喘控制評估 / 症狀頻率 / 夜間睡眠影響 / 官方更正題",
-      "flashcard_back": "評估指標包含白天症狀、夜間醒來、緩解劑使用次數與活動受限；此題因官方更正無標準答案，作答時需注意各版本定義差異。",
+      "flashcard_back": "官方更正接受：「C. partly controlled；D. uncontrolled」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "胸腔內科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:25.470257+00:00"
     },
     {
       "id": "110-1_medicine-3_065",

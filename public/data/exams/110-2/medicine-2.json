@@ -4,7 +4,7 @@
   "title": "110 年第二次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=110101&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.534314+00:00",
   "questions": [
     {
       "id": "110-2_medicine-2_001",
@@ -277,23 +277,26 @@
         "C": "人類免疫缺失病毒(human immunodeficiency virus)",
         "D": "狂犬病病毒(rabies virus)"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正後，答案為 C（人類免疫缺失病毒）或 D（狂犬病病毒）均給分。人類免疫缺失病毒（HIV）在感染過程中，其外套膜蛋白（gp120/gp41）能與未受感染細胞的 CD4 及輔助受體結合，促使鄰近細胞膜融合，形成多核巨大細胞（syncytia）。狂犬病病毒在特定的細胞培養環境下，亦有報導可引發類似的細胞融合病變。",
-      "key_point": "本題經更正後答案為 C 或 D，兩者均可引發細胞融合形成巨細胞。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. 人類免疫缺失病毒(human immunodeficiency virus)；D. 狂犬病病毒(rabies virus)」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "細胞病變效應 / 細胞融合 / 多核巨大細胞 / 病毒感染鑑定 -> C（HIV）或 D（狂犬病病毒）均給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第10題答C、D給分；原標準答案為 C。",
       "flashcard_front": "細胞病變效應 / 細胞融合 / 多核巨大細胞 / 病毒感染鑑定",
-      "flashcard_back": "HIV（反轉錄病毒）與副黏液病毒、狂犬病病毒可藉套膜蛋白引發細胞融合病變；本題C或D均給分。",
+      "flashcard_back": "官方更正接受：「C. 人類免疫缺失病毒(human immunodeficiency virus)；D. 狂犬病病毒(rabies virus)」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:26.424002+00:00"
     },
     {
       "id": "110-2_medicine-2_011",
@@ -334,23 +337,27 @@
         "C": "34",
         "D": "13"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正答案為 A (12)、B (23) 或 D (13) 均給分。單純疱疹病毒（2）常經密切及性接觸傳染；茲卡病毒（3）已被證實可存在於精液中，具性傳播能力；A型肝炎病毒（1）雖主經糞口傳播，但在特定性行為（如口肛接觸）中亦有高度傳染風險。麻疹病毒（4）主要經由呼吸道飛沫或空氣傳播，非性行為傳染。",
-      "key_point": "本題官方更正答案為 A、B 或 D 均給分，單純疱疹、茲卡與A型肝炎病毒皆可經性傳播。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 12；B. 23；D. 13」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B, D",
       "flashcard_summary": "性傳播病毒 / 單純疱疹病毒 / 茲卡病毒 / A型肝炎病毒 / 麻疹 -> HSV、Zika、HAV可經性行為感染，麻疹不可",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第12題答A、B、D給分；原標準答案為 B。",
       "flashcard_front": "性傳播病毒 / 單純疱疹病毒 / 茲卡病毒 / A型肝炎病毒 / 麻疹",
-      "flashcard_back": "HSV、Zika、HAV均可經性行為或性接觸途徑傳播，而麻疹則為飛沫傳播；本題A、B、D皆給分。",
+      "flashcard_back": "官方更正接受：「A. 12；B. 23；D. 13」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:26.424002+00:00"
     },
     {
       "id": "110-2_medicine-2_013",
@@ -710,23 +717,26 @@
         "C": "節肢動物的排泄物是重要的過敏原",
         "D": "致敏生物的體型微小,需要電子顯微鏡才可以看見"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正後答案為 A（貓狗等寵物過敏原）或 C（節肢動物排泄物）均給分。塵蟎（Dermatophagoides）是節肢動物蛛形綱的一員，其屍體碎屑與排泄物為臺灣最主要的吸入性過敏原，同時貓狗的皮屑過敏原亦極為常見。塵蟎通常在潮濕溫暖（濕度約 70-80%）的環境中快速繁殖（B錯），其體長約為 0.2-0.5 毫米，不需要電子顯微鏡、用光學顯微鏡即可看見（D錯）。",
-      "key_point": "本題官方更正為 A 或 C 均給分，塵蟎（節肢動物）與寵物過敏原皆為臺灣重要過敏原。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 貓狗等寵物產生的過敏原屬於此類；C. 節肢動物的排泄物是重要的過敏原」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, C",
       "flashcard_summary": "臺灣過敏原 / 塵蟎 / 節肢動物排泄物 / 寵物過敏原 / 濕度高溫 -> A（寵物）或 C（節肢動物排泄物）均可",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第25題答A、C給分；原標準答案為 C。",
       "flashcard_front": "臺灣過敏原 / 塵蟎 / 節肢動物排泄物 / 寵物過敏原 / 濕度高溫",
-      "flashcard_back": "塵蟎（節肢動物）排泄物及貓狗等寵物過敏原均為重要過敏原；塵蟎好發於潮濕環境，本題A或C均給分。",
+      "flashcard_back": "官方更正接受：「A. 貓狗等寵物產生的過敏原屬於此類；C. 節肢動物的排泄物是重要的過敏原」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:26.424002+00:00"
     },
     {
       "id": "110-2_medicine-2_026",
@@ -756,6 +766,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "110-2_medicine-2_027",
+      "question_number": 27,
+      "question_text": "2018年諾貝爾獎頒給開發以CTLA-4及PD-1分子為基礎的癌症免疫治療學者。阻斷個體內CTLA-4及PD-1分子 的作用對於腫瘤細胞的主要影響是：",
+      "options": {
+        "A": "抑制了間質細胞及自然殺手細胞的作用，而增加腫瘤細胞的生長及移轉",
+        "B": "抑制腫瘤內B淋巴球的磷酸酶活性，而增加腫瘤細胞的生長及移轉",
+        "C": "經由抑制淋巴球活化時的負性調控作用，增加抗腫瘤T淋巴球的活性，進而殺死腫瘤細胞",
+        "D": "經由活化含有ITIMs（immunoreceptor tyrosine-based inhibitory motifs）結構的分子作用，抑制腫瘤細胞的生 長及分化"
+      },
+      "correct_answer": "C",
+      "explanation": "官方答案為「C. 經由抑制淋巴球活化時的負性調控作用，增加抗腫瘤T淋巴球的活性，進而殺死腫瘤細胞」。複習時請先抓題幹線索，再回到選項確認。",
+      "key_point": "補回缺漏題號 27：2018年諾貝爾獎頒給開發以CTLA-4及PD-1分子為基礎的癌症免疫治療學者。阻斷個體內CTLA-4及PD-1分子 的",
+      "flashcard_summary": "2018年諾貝爾獎頒給開發以CTLA-4及PD-1分子為基礎的癌症免疫治療學者。阻斷個體內CTLA-4及PD-1分子 的作用對於腫瘤細胞的主要影響是： -> C. 經由抑制淋巴球活化時的負性調控作用，增加抗腫瘤T淋巴球的活性，進而殺死腫瘤細胞",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "2018年諾貝爾獎頒給開發以CTLA-4及PD-1分子為基礎的癌症免疫治療學者。阻斷個體內CTLA-4及PD-1分子 的作用對於腫瘤細胞的主要影響是：",
+      "flashcard_back": "官方答案為「C. 經由抑制淋巴球活化時的負性調控作用，增加抗腫瘤T淋巴球的活性，進而殺死腫瘤細胞」。複習時請先抓題幹線索，再回到選項確認。",
+      "category_group": "醫學",
+      "category": "基礎醫學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.521115+00:00"
     },
     {
       "id": "110-2_medicine-2_028",
@@ -1086,23 +1125,26 @@
         "C": "鉛的慢性暴露會使近端腎小管表皮細胞之核內產生含鉛包含體,引起糖尿、蛋白尿",
         "D": "鉛暴露在人體的半衰期約為200天"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正答案為 C 或 D 均給分。鉛在體內不同部位的半衰期差異極大：在血液中半衰期約為30天，而在骨骼中長達20至30年，因此直接說「在人體的半衰期為200天」（D）是不準確的。此外，慢性鉛暴露會造成腎臟近端腎小管表皮細胞核內出現含鉛包含體，導致范可尼氏症候群（Fanconi syndrome，表現為糖尿、氨基酸尿與蛋白尿，C），但部分臨床文獻認為其特徵性在不同階段有討論，故C亦給分。",
-      "key_point": "本題官方更正為 C 或 D 均給分，鉛在人體不同組織之半衰期極大且近端腎小管病變引發范可尼氏症。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. 鉛的慢性暴露會使近端腎小管表皮細胞之核內產生含鉛包含體,引起糖尿、蛋白尿；D. 鉛暴露在人體的半衰期約為200天」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "鉛中毒 / 體內半衰期 / 近端腎小管包含體 / 范可尼氏症候群 -> C 或 D 均給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第39題答C、 D給分；原標準答案為 D。",
       "flashcard_front": "鉛中毒 / 體內半衰期 / 近端腎小管包含體 / 范可尼氏症候群",
-      "flashcard_back": "鉛的血液半衰期短但骨骼半衰期長達數十年；近端腎小管受損可引發糖尿等，本題C或D均給分。",
+      "flashcard_back": "官方更正接受：「C. 鉛的慢性暴露會使近端腎小管表皮細胞之核內產生含鉛包含體,引起糖尿、蛋白尿；D. 鉛暴露在人體的半衰期約為200天」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "公共衛生學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:26.424002+00:00"
     },
     {
       "id": "110-2_medicine-2_040",
@@ -1114,23 +1156,26 @@
         "C": "電鍍工廠勞工發生鼻中膈穿孔的風險較高,最可能是因為硫酸暴露所引起",
         "D": "鉛蓄電池勞工暴露鉛危害,可能導致其所生嬰兒認知發展受損"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正答案為 B 或 C 均給分。電鍍工廠勞工發生鼻中膈穿孔的特徵性職業病主因是暴露於「鉻酸（六價鉻）」或其酸霧，而非硫酸（C選項描述最不恰當，故為原正解）。此外，回收黃金常使用汞合金法（將金溶解於汞中再加熱將汞蒸發），但隨著現代化生產與法規改進，黃金回收業者的汞暴露風險在不同文獻討論中亦有歧異，故B與C皆給分。",
-      "key_point": "本題官方更正為 B 或 C 均給分，電鍍工廠鼻中膈穿孔主因鉻酸，黃金回收具汞暴露風險。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 銀樓黃金回收業者,有汞金屬暴露風險；C. 電鍍工廠勞工發生鼻中膈穿孔的風險較高,最可能是因為硫酸暴露所引起」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "職業暴露 / 鼻中膈穿孔 / 黃金回收 / 汞暴露 / 鉻酸與硫酸 -> B 或 C 均給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第40題答B、C給分；原標準答案為 C。",
       "flashcard_front": "職業暴露 / 鼻中膈穿孔 / 黃金回收 / 汞暴露 / 鉻酸與硫酸",
-      "flashcard_back": "鼻中膈穿孔是電鍍廠接觸鉻酸（六價鉻）的典型危害而非硫酸；黃金回收具汞風險，本題B或C均給分。",
+      "flashcard_back": "官方更正接受：「B. 銀樓黃金回收業者,有汞金屬暴露風險；C. 電鍍工廠勞工發生鼻中膈穿孔的風險較高,最可能是因為硫酸暴露所引起」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "公共衛生學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:26.424002+00:00"
     },
     {
       "id": "110-2_medicine-2_041",
@@ -1570,6 +1615,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "110-2_medicine-2_056",
+      "question_number": 56,
+      "question_text": "2019年底爆發的新型冠狀病毒感染，患者為逃避發燒篩檢隔離而服用ibuprofen。此藥物主要作用於腦部減少 何種自泌素（autacoids）的生成？",
+      "options": {
+        "A": "PGD 2",
+        "B": "PGF 2",
+        "C": "PGE 2",
+        "D": "PGI 2"
+      },
+      "correct_answer": "C",
+      "explanation": "官方答案為「C. PGE 2」。複習時請先抓題幹線索，再回到選項確認。",
+      "key_point": "補回缺漏題號 56：2019年底爆發的新型冠狀病毒感染，患者為逃避發燒篩檢隔離而服用ibuprofen。此藥物主要作用於腦部減少 何種自泌素",
+      "flashcard_summary": "2019年底爆發的新型冠狀病毒感染，患者為逃避發燒篩檢隔離而服用ibuprofen。此藥物主要作用於腦部減少 何種自泌素（autacoids）的生成？ -> C. PGE 2",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "C"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "2019年底爆發的新型冠狀病毒感染，患者為逃避發燒篩檢隔離而服用ibuprofen。此藥物主要作用於腦部減少 何種自泌素（autacoids）的生成？",
+      "flashcard_back": "官方答案為「C. PGE 2」。複習時請先抓題幹線索，再回到選項確認。",
+      "category_group": "醫學",
+      "category": "基礎醫學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.521115+00:00"
     },
     {
       "id": "110-2_medicine-2_057",

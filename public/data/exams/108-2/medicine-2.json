@@ -4,7 +4,7 @@
   "title": "108 年第二次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=108100&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:18.466277+00:00",
   "questions": [
     {
       "id": "108-2_medicine-2_001",
@@ -1176,23 +1176,26 @@
         "C": "甲地人口比乙地老化,則甲地之粗死亡率必小於乙地",
         "D": "甲乙兩地間年齡標準化死亡率之差異,不會隨標準人口年齡組成不同而有變異"
       },
-      "correct_answer": null,
-      "explanation": "年齡標準化死亡率是將各年齡別死亡率套入相同的標準人口結構中計算，故兩地各年齡別死亡率完全相同時，其標準化死亡率必定相同。粗死亡率會受實際人口結構影響而不一定相同；若甲地人口較老，其粗死亡率會大於乙地；標準化死亡率之差異會隨標準人口年齡組成不同而有變異，官方最後更正答B、D皆給分。",
-      "key_point": "理解粗死亡率與年齡標準化死亡率的區別與計算邏輯。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 甲乙兩地之年齡標準化死亡率必定相同；D. 甲乙兩地間年齡標準化死亡率之差異,不會隨標準人口年齡組成不同而有變異」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, D",
       "flashcard_summary": "標準化與粗死亡率 -> 年齡別死亡率相同時，標準化死亡率必定相同，粗死亡率則受人口結構影響而不同。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第41題答B、D給分；原標準答案為 B。",
       "flashcard_front": "粗死亡率 / 年齡標準化死亡率 / 年齡別死亡率相同 / 人口老化",
-      "flashcard_back": "年齡別死亡率相同時，兩地年齡標準化死亡率必定相同，但粗死亡率會受人口年齡結構不同而有異。",
+      "flashcard_back": "官方更正接受：「B. 甲乙兩地之年齡標準化死亡率必定相同；D. 甲乙兩地間年齡標準化死亡率之差異,不會隨標準人口年齡組成不同而有變異」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "公共衛生學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:18.466277+00:00"
     },
     {
       "id": "108-2_medicine-2_042",

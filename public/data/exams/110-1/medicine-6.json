@@ -4,7 +4,7 @@
   "title": "110 年第一次醫師國考：醫學（六）",
   "subject": "medicine-6",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=110020&q=1&s=44&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.524879+00:00",
   "questions": [
     {
       "id": "110-1_medicine-6_001",
@@ -1832,6 +1832,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "110-1_medicine-6_064",
+      "question_number": 64,
+      "question_text": "1965年 Melzack及Wall兩位學者提出的門閾學說（gate control theory）是刺激X神經纖維，以抑制Y神經纖維的 傳遞。下列敘述何者正確？",
+      "options": {
+        "A": "X = A型（神經纖維）， Y = B型（神經纖維）",
+        "B": "X = A型（神經纖維）， Y = C型（神經纖維）",
+        "C": "X = B型（神經纖維）， Y = A型（神經纖維）",
+        "D": "X = C型（神經纖維）， Y = A型（神經纖維）"
+      },
+      "correct_answer": "B",
+      "explanation": "官方答案為「B. X = A型（神經纖維）， Y = C型（神經纖維）」。複習時請先抓題幹線索，再回到選項確認。",
+      "key_point": "補回缺漏題號 64：1965年 Melzack及Wall兩位學者提出的門閾學說（gate control theory）是刺激X神經纖維，以",
+      "flashcard_summary": "1965年 Melzack及Wall兩位學者提出的門閾學說（gate control theory）是刺激X神經纖維，以抑制Y神經纖維的 傳遞。下列敘述何者正確 -> B. X = A型（神經纖維）， Y = C型（神經纖維）",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "1965年 Melzack及Wall兩位學者提出的門閾學說（gate control theory）是刺激X神經纖維，以抑制Y神經纖維的 傳遞。下列敘述何者正確？",
+      "flashcard_back": "官方答案為「B. X = A型（神經纖維）， Y = C型（神經纖維）」。複習時請先抓題幹線索，再回到選項確認。",
+      "category_group": "醫學",
+      "category": "復健科",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.519369+00:00"
     },
     {
       "id": "110-1_medicine-6_065",

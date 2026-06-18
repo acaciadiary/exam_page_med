@@ -4,7 +4,7 @@
   "title": "109 年第一次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=109020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:20.826340+00:00",
   "questions": [
     {
       "id": "109-1_medicine-2_001",
@@ -2166,23 +2166,26 @@
         "C": "ixabepilone-M期",
         "D": "vincristine-S期"
       },
-      "correct_answer": null,
-      "explanation": "Irinotecan 是 topoisomerase I 抑制劑，作用於 S 期；Ixabepilone 屬於 epothilone 類微管抑制劑，作用於 M 期。Capecitabine 在體內轉化為 5-FU，作用於 S 期而非 M 期；Vincristine 抑制微管聚合，作用於 M 期而非 S 期。官方因此題 Irinotecan（S期）與 Ixabepilone（M期）皆正確，故將正確答案更正為複選或給分，在此維持空字串。",
-      "key_point": "細胞週期專一性抗癌藥物的作用時相。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. irinotecan-DNA synthesis(S)期；C. ixabepilone-M期」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "抗癌藥細胞週期 -> Irinotecan 作用於 S 期，Ixabepilone 作用於 M 期。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第75題答B、C給分；原標準答案為 C。",
       "flashcard_front": "細胞週期專一性藥物 / Irinotecan / Ixabepilone",
-      "flashcard_back": "Irinotecan 作用於 S 期；Ixabepilone 作用於 M 期。",
+      "flashcard_back": "官方更正接受：「B. irinotecan-DNA synthesis(S)期；C. ixabepilone-M期」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "藥理學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:20.826340+00:00"
     },
     {
       "id": "109-1_medicine-2_076",

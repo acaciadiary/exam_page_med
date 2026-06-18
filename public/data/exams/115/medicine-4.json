@@ -4,7 +4,7 @@
   "title": "115 年第一次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=115020&q=1&s=0104&t=Q",
-  "updated_at": "2026-06-10T18:34:01.383316+00:00",
+  "updated_at": "2026-06-18T04:41:48.742168+00:00",
   "questions": [
     {
       "id": "115_medicine-4_001",
@@ -833,8 +833,8 @@
         "D": "自閉症約有50%病患有智能不足的問題"
       },
       "correct_answer": "A",
-      "explanation": "依題庫官方答案本題為 A，但選項文字本身可能有描述瑕疵，因為自閉症常伴隨語言與社交溝通障礙。其餘選項如已有血液 biomarker 可診斷、已有很有效藥物治療核心症狀等明顯不正確。此題建議後續再對照原始 PDF 複核。",
-      "flashcard_summary": "自閉症題目 -> 依官方答案 A，建議後續複核原題",
+      "explanation": "考點是把題幹線索連到「A. 自閉症的語言表達能力通常不會受到影響」。複習時先記概念關係，再回到選項，避免只背答案字母。",
+      "flashcard_summary": "自閉症、語言表達、biomarker、核心症狀治療 -> A. 自閉症的語言表達能力通常不會受到影響",
       "correct_answers": [
         "A",
         "B",
@@ -844,16 +844,16 @@
       "answer_status": "all_credit",
       "answer_source": "official_correction",
       "answer_note": "第29題一律給分",
-      "key_point": "此題選項文字可能有瑕疵，依官方答案保留 A。",
+      "key_point": "自閉症、語言表達、biomarker、核心症狀治療 => 自閉症的語言表達能力通常不會受到影響",
       "flashcard_front": "自閉症、語言表達、biomarker、核心症狀治療",
-      "flashcard_back": "這題依官方答案作答，但選項文字疑似有 OCR 或題幹瑕疵，之後最好回原始題本再核對一次。",
+      "flashcard_back": "考點是把題幹線索連到「A. 自閉症的語言表達能力通常不會受到影響」。複習時先記概念關係，再回到選項，避免只背答案字母。",
       "category_group": "醫學（四）",
-      "category": "精神科",
-      "category_confidence": "low",
-      "category_source": "auto",
+      "category": "藥理學",
+      "category_confidence": "medium",
+      "category_source": "rule_rework_low_confidence",
       "review_status": "ai_generated",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-10T18:19:08.444375+00:00"
+      "explanation_model": "local-rule-rework-v1.1",
+      "explanation_generated_at": "2026-06-18T04:41:48.742168+00:00"
     },
     {
       "id": "115_medicine-4_030",

@@ -4,7 +4,7 @@
   "title": "109 年第二次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109080&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:23.603809+00:00",
   "questions": [
     {
       "id": "109-2_medicine-3_001",
@@ -223,23 +223,26 @@
         "C": "6",
         "D": "7"
       },
-      "correct_answer": null,
-      "explanation": "根據CHA2DS2-VASc評分標準：年齡76歲（Age >= 75歲）得2分、女性（Sex category, female）得1分、高血壓（Hypertension）得1分、糖尿病（Diabetes mellitus）得1分。病患心室收縮功能正常且無心臟衰竭（0分）、無中風或血管疾病病史（0分），故總評分為 2 + 1 + 1 + 1 = 5分。本題題目未提供選項標註，依題意與學理評估正確分數為5分（對應選項B）。",
-      "key_point": "心房顫動中風風險評估 CHA2DS2-VASc 評分",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 5；C. 6」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "CHA2DS2-VASc 評分 -> 76歲女性合併高血壓與糖尿病，總評分為5分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第8題答B、C給分；原標準答案為 C。",
       "flashcard_front": "CHA2DS2-VASc / 心房顫動 / 中風風險 / 評分計算",
-      "flashcard_back": "年齡≥75得2分，高血壓、糖尿病、女性各得1分，該76歲女性心房顫動患者總分為5分。",
+      "flashcard_back": "官方更正接受：「B. 5；C. 6」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:23.603809+00:00"
     },
     {
       "id": "109-2_medicine-3_009",

@@ -4,7 +4,7 @@
   "title": "111 年第一次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=111020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.534314+00:00",
   "questions": [
     {
       "id": "111-1_medicine-2_001",
@@ -277,23 +277,27 @@
         "C": "多形核白血球(polymorphonuclear leukocyte)",
         "D": "細胞激素(cytokine)"
       },
-      "correct_answer": null,
-      "explanation": "病毒感染引起的第四型超敏反應（遲發型超敏反應）主要由致敏的 T 細胞所介導。然而，在此免疫致病過程中，T 細胞釋放的發炎細胞激素（D）扮演關鍵角色，且干擾素（B）與召集的多形核白血球（C）也共同參與了局部的組織損傷與發炎反應。由於此過程涉及多種介導因子，考選部最終更正答案為：選擇 B、C、D 或是其組合之答案者均給分，此處保留 correct_answer 為空字串以符合官方更正規定。",
-      "key_point": "病毒感染引發第四型超敏反應的免疫致病機制與官方更正答案。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 干擾素；C. 多形核白血球(polymorphonuclear leukocyte)；D. 細胞激素(cytokine)」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C, D",
       "flashcard_summary": "第四型超敏反應 / 病毒 -> 由 T 細胞介導，涉及細胞激素、干擾素與發炎細胞的活化。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第10題答B或C或D或BC或BD或CD或BCD者均給分；原標準答案為 C。",
       "flashcard_front": "第四型超敏反應 / 病毒發炎 / 細胞激素 / 官方多正解",
-      "flashcard_back": "第四型超敏反應由 T 細胞介導，但發炎過程涉及細胞激素（D）、干擾素（B）及白血球（C）的交互作用，故多重選項均給分。",
+      "flashcard_back": "官方更正接受：「B. 干擾素；C. 多形核白血球(polymorphonuclear leukocyte)；D. 細胞激素(cytokine)」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:27.818540+00:00"
     },
     {
       "id": "111-1_medicine-2_011",
@@ -334,23 +338,28 @@
         "C": "HA",
         "D": "NA"
       },
-      "correct_answer": null,
-      "explanation": "Baloxavir marboxil（紓伏效）是一種新型流感病毒抑制劑，其機轉為抑制流感病毒 RNA 聚合酶複合物中的 PA 次單元（cap-dependent endonuclease，帽端依賴性核酸內切酶），進而阻斷病毒轉錄時的「搶帽（cap-snatching）」機制。由於本題選項中僅列出 PB2（A）等而未提供正確的 PA 靶點，考選部最終更正為此題「一律給分」，此處保留 correct_answer 為空字串以符合官方規定。",
-      "key_point": "抗流感新藥 Baloxavir marboxil 的靶點（PA 核酸內切酶）與一律給分說明。",
+      "correct_answer": "#",
+      "explanation": "官方更正為全體給分題；此題不再適合用單一答案背誦。複習時可保留題幹概念，但正式作答依官方更正註記處理。",
+      "key_point": "官方更正全體給分，不背單一答案",
       "flashcard_summary": "Baloxavir 靶點 -> 專一性抑制流感病毒 RNA 聚合酶中的 PA 次單元，阻斷病毒轉錄。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第12題一律給分；原標準答案為 A。",
       "flashcard_front": "Baloxavir marboxil / 流感新藥 / PA 次單元 / 一律給分",
-      "flashcard_back": "Baloxavir 抑制流感聚合酶的 PA 次單元（內切酶）以阻斷病毒搶帽與轉錄；選項中無 PA 故官方更正一律給分。",
+      "flashcard_back": "官方更正為全體給分題；不要背單一選項。這張卡只用來提醒題幹相關概念，正解以官方更正註記為準。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:27.818540+00:00"
     },
     {
       "id": "111-1_medicine-2_013",
@@ -728,6 +737,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "111-1_medicine-2_026",
+      "question_number": 26,
+      "question_text": "2018年諾貝爾醫學獎得主Tasuku Honjo因為發現PD-1分子而獲獎，他另外一個著名的發現是AID（activation- induced cytidine deaminase）分子，下列有關AID的敘述何者錯誤？",
+      "options": {
+        "A": "AID在germinal center B細胞表現量高，可促進somatic hypermutation",
+        "B": "B細胞所產生的抗體轉換為IgE時，也是由AID分子調控",
+        "C": "class switch recombination（CSR）起因為AID將cytosine轉變成uridine，之後的DNA修復過程產生DNA雙股斷 裂，最後造成DNA重組",
+        "D": "class switch recombination由特定的DNA序列recombination signal sequence（RSS）所主導，造成抗體重鏈的 固定區（constant region of heavy chain）從IgM轉換成其他類型"
+      },
+      "correct_answer": "D",
+      "explanation": "本題是在找錯誤或不適當敘述；官方答案為「D. class switch recombination由特定的DNA序列recombination signal sequence（RSS）所主導，造成抗體重鏈的 固定區（constant region of heavy chain）從IgM轉換成其他類型」。複習時要反向確認正確概念。",
+      "key_point": "補回缺漏題號 26：2018年諾貝爾醫學獎得主Tasuku Honjo因為發現PD-1分子而獲獎，他另外一個著名的發現是AID（activa",
+      "flashcard_summary": "2018年諾貝爾醫學獎得主Tasuku Honjo因為發現PD-1分子而獲獎，他另外一個著名的發現是AID（activation- induced cytidi -> D. class switch recombination由特定的DNA序列recombination signal sequ",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "2018年諾貝爾醫學獎得主Tasuku Honjo因為發現PD-1分子而獲獎，他另外一個著名的發現是AID（activation- induced cytidine deaminase）分子，下列有關AID的敘述何者錯誤？",
+      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案為「D. class switch recombination由特定的DNA序列recombination signal sequence（RSS）所主導，造成抗體重鏈的 固定區（constant region of heavy chain）從IgM轉換成其他類型」。複習時要反向確認正確概念。",
+      "category_group": "醫學",
+      "category": "基礎醫學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.521115+00:00"
     },
     {
       "id": "111-1_medicine-2_027",
@@ -1377,23 +1415,28 @@
         "C": "效用極大化(utility maximization)",
         "D": "服務量極大化(service maximization)"
       },
-      "correct_answer": null,
-      "explanation": "醫院市場行為的傳統經濟學與管理學模式通常包括利潤極大化、效用極大化（如追求品質與量）、服務量極大化等。此題因各選項模式在學術界均有被提出來討論，或是題目定義上存在爭議，因此官方最後公布本題無正解（不予計分）。",
-      "key_point": "解釋醫院市場行為與生產決策模式。",
+      "correct_answer": "#",
+      "explanation": "官方更正為全體給分題；此題不再適合用單一答案背誦。複習時可保留題幹概念，但正式作答依官方更正註記處理。",
+      "key_point": "官方更正全體給分，不背單一答案",
       "flashcard_summary": "醫院市場行為模式 -> 包含利潤、效用、服務量極大化，本題因定義爭議官方更正為無正解。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "all_credit",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第49題一律給分；原標準答案為 A。",
       "flashcard_front": "醫院市場行為模式 / 官方更正答案 / 決策模式爭議",
-      "flashcard_back": "醫院市場行為模式包括利潤極大化、效用極大化、服務量（數量）極大化等，本題因定義或選項爭議，官方更正為無正解。",
+      "flashcard_back": "官方更正為全體給分題；不要背單一選項。這張卡只用來提醒題幹相關概念，正解以官方更正註記為準。",
       "category_group": "醫學（二）",
       "category": "公共衛生學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:46:28.694443+00:00"
     },
     {
       "id": "111-1_medicine-2_050",

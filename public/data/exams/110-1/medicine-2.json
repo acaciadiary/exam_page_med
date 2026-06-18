@@ -4,7 +4,7 @@
   "title": "110 年第一次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=110020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.524879+00:00",
   "questions": [
     {
       "id": "110-1_medicine-2_001",
@@ -614,6 +614,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "110-1_medicine-2_022",
+      "question_number": 22,
+      "question_text": "2018年諾貝爾醫學獎頒發給2位對癌症免疫療法有重大貢獻的科學家，James P. Allison與Tasuku Honjo因開發 CTLA-4與PD-1在癌症治療的應用而獲獎。下列有關免疫系統和腫瘤細胞交互作用的敘述，何者錯誤？",
+      "options": {
+        "A": "腫瘤細胞如果表現腫瘤特定抗原，可以引發專一性的毒殺性T細胞（cytotoxic T cells）來清除腫瘤",
+        "B": "腫瘤細胞如果累積突變，可以表現CTLA-4在其細胞表面，因此抑制T細胞的反應",
+        "C": "除了毒殺性T細胞（cytotoxic T cells）之外，自然殺手細胞（natural killer cells）也會清除腫瘤",
+        "D": "讓癌症病人施打對抗CTLA-4或PD-1的抗體是一種癌症的免疫療法，可以阻斷抑制訊號，進而活化T細胞來 清除腫瘤"
+      },
+      "correct_answer": "B",
+      "explanation": "本題是在找錯誤或不適當敘述；官方答案為「B. 腫瘤細胞如果累積突變，可以表現CTLA-4在其細胞表面，因此抑制T細胞的反應」。複習時要反向確認正確概念。",
+      "key_point": "補回缺漏題號 22：2018年諾貝爾醫學獎頒發給2位對癌症免疫療法有重大貢獻的科學家，James P. Allison與Tasuku Hon",
+      "flashcard_summary": "2018年諾貝爾醫學獎頒發給2位對癌症免疫療法有重大貢獻的科學家，James P. Allison與Tasuku Honjo因開發 CTLA-4與PD-1在癌症 -> B. 腫瘤細胞如果累積突變，可以表現CTLA-4在其細胞表面，因此抑制T細胞的反應",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "2018年諾貝爾醫學獎頒發給2位對癌症免疫療法有重大貢獻的科學家，James P. Allison與Tasuku Honjo因開發 CTLA-4與PD-1在癌症治療的應用而獲獎。下列有關免疫系統和腫瘤細胞交互作用的敘述，何者錯誤？",
+      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案為「B. 腫瘤細胞如果累積突變，可以表現CTLA-4在其細胞表面，因此抑制T細胞的反應」。複習時要反向確認正確概念。",
+      "category_group": "醫學",
+      "category": "基礎醫學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.519369+00:00"
     },
     {
       "id": "110-1_medicine-2_023",
@@ -2514,23 +2543,26 @@
         "C": "氣喘",
         "D": "肺氣腫"
       },
-      "correct_answer": null,
-      "explanation": "本題官方公佈之更正答案為(A)或(B)皆給分。原發性纖毛運動障礙（PCD）患者因黏液纖毛清除功能異常，極易造成呼吸道黏液積聚與反覆感染，臨床上會引起慢性咳嗽與多痰等慢性支氣管炎(A)的表現；且長期的反覆發炎破壞支氣管壁結構，最典型且嚴重的後遺症即是引發支氣管擴張症(B)。氣喘與肺氣腫則非 PCD 的直接病理結果。",
-      "key_point": "原發性纖毛運動障礙與呼吸道慢性病變之因果關係。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 慢性支氣管炎；B. 支氣管擴張」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "PCD與肺部病變 -> PCD 常因黏液堆積與反覆感染，引起慢性支氣管炎與支氣管擴張。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第88題答A、B給分；原標準答案為 B。",
       "flashcard_front": "原發性纖毛運動障礙 (PCD) / 黏液清除受損 / 支氣管擴張 / 慢性支氣管炎",
-      "flashcard_back": "PCD 因黏液滯留與反覆感染，易引起慢性支氣管炎或進一步導致支氣管擴張。",
+      "flashcard_back": "官方更正接受：「A. 慢性支氣管炎；B. 支氣管擴張」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（二）",
       "category": "病理學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:25.010124+00:00"
     },
     {
       "id": "110-1_medicine-2_089",

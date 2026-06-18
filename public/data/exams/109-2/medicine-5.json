@@ -4,7 +4,7 @@
   "title": "109 年第二次醫師國考：醫學（五）",
   "subject": "medicine-5",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109080&q=1&s=33&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:24.535293+00:00",
   "questions": [
     {
       "id": "109-2_medicine-5_001",
@@ -1267,23 +1267,25 @@
         "C": "該患兒之疾病以Gross type C最常見",
         "D": "若沒有其他更緊急的狀況,患兒應儘速接受手術治療"
       },
-      "correct_answer": null,
-      "explanation": "官方此題答案更正為一律給分（答案欄位保留為空字串）。正常情況下，先天性食道閉鎖患者有高達 90% 會伴隨氣管食道瘻管（TEF），但仍有少數類型（如 Gross Type A）為單純食道閉鎖而無瘻管，因此「必定伴隨」之敘述有爭議。臨床上，此疾病以 Gross Type C 最為常見，且多伴隨其他器官異常（如 VACTERL 症候群），應做全身檢查，無其他緊急狀況下應儘速手術治療。",
-      "key_point": "先天性食道閉鎖與氣管食道瘻管的分類與臨床特徵。",
+      "correct_answer": "D",
+      "explanation": "官方更正為多重給分答案：「D. 若沒有其他更緊急的狀況,患兒應儘速接受手術治療」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：D",
       "flashcard_summary": "食道閉鎖與瘻管特徵 -> 官方無公布答案。食道閉鎖最常見為 Gross Type C，多伴隨其他系統異常。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第44題答D給分；原標準答案為 A。",
       "flashcard_front": "先天性食道閉鎖 / 氣管食道瘻管 / Gross分類 / VACTERL聯合畸形",
-      "flashcard_back": "官方此題無正解。食道閉鎖最常見為 Gross Type C；少數類型如 Type A 並無伴隨瘻管。",
+      "flashcard_back": "官方更正接受：「D. 若沒有其他更緊急的狀況,患兒應儘速接受手術治療」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（五）",
       "category": "小兒外科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:24.535293+00:00"
     },
     {
       "id": "109-2_medicine-5_045",

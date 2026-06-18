@@ -4,7 +4,7 @@
   "title": "108 年第二次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=108100&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.523139+00:00",
   "questions": [
     {
       "id": "108-2_medicine-1_001",
@@ -34,6 +34,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "108-2_medicine-1_002",
+      "question_number": 2,
+      "question_text": "①額神經（frontal nerve） ②鼻睫神經（nasociliary nerve） ③動眼神經（oculomotor nerve） ④淚神經 （lacrimal nerve） ⑤滑車神經（trochlear nerve） ⑥外旋神經（abducent nerve）等六條神經中，那些不經由總 腱環（common tendinous ring）內進出眼眶？",
+      "options": {
+        "A": "①③⑤",
+        "B": "②③⑥",
+        "C": "②④⑥",
+        "D": "①④⑤"
+      },
+      "correct_answer": "D",
+      "explanation": "官方答案為「D. ①④⑤」。複習時請先抓題幹線索，再回到選項確認。",
+      "key_point": "補回缺漏題號 2：①額神經（frontal nerve） ②鼻睫神經（nasociliary nerve） ③動眼神經（oculomoto",
+      "flashcard_summary": "①額神經（frontal nerve） ②鼻睫神經（nasociliary nerve） ③動眼神經（oculomotor nerve） ④淚神經 （lacri -> D. ①④⑤",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "D"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "①額神經（frontal nerve） ②鼻睫神經（nasociliary nerve） ③動眼神經（oculomotor nerve） ④淚神經 （lacrimal nerve） ⑤滑車神經（trochlear nerve） ⑥外旋神經（abducent n",
+      "flashcard_back": "官方答案為「D. ①④⑤」。複習時請先抓題幹線索，再回到選項確認。",
+      "category_group": "醫學",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.519369+00:00"
     },
     {
       "id": "108-2_medicine-1_003",

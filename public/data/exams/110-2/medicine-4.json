@@ -4,7 +4,7 @@
   "title": "110 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=110080&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:27.345411+00:00",
   "questions": [
     {
       "id": "110-2_medicine-4_001",
@@ -1412,23 +1412,26 @@
         "C": "橫竇(transverse sinus)",
         "D": "海綿竇(cavernous sinus)"
       },
-      "correct_answer": null,
-      "explanation": "腦靜脈竇栓塞（CVST）最常發生於上矢狀竇（superior sagittal sinus，約占60%以上），其次為橫竇（transverse sinus）。因為不同文獻數據與統計略有重疊，考選部於疑義處理後公告此題答案更正為 A（上矢狀竇）或 C（橫竇）均給分。作答時依原卷將 correct_answer 保持空字串以符合原 dataset 輸入。",
-      "key_point": "腦靜脈竇栓塞（CVST）最常累及的血管（官方更正A與C均給分）",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 上矢狀竇(superior sagittal sinus)；C. 橫竇(transverse sinus)」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, C",
       "flashcard_summary": "CVST最常見血管 -> 上矢狀竇（最常見）與橫竇（次常見），官方更正A與C皆給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第49題答A、C給分；原標準答案為 A。",
       "flashcard_front": "腦靜脈竇栓塞 (CVST) / 最常受累血管 / 官方更正雙正解",
-      "flashcard_back": "最常發生的血管為上矢狀竇（A），橫竇（C）為次常見；考選部更正A或C皆給分。",
+      "flashcard_back": "官方更正接受：「A. 上矢狀竇(superior sagittal sinus)；C. 橫竇(transverse sinus)」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:27.345411+00:00"
     },
     {
       "id": "110-2_medicine-4_050",
@@ -1730,23 +1733,26 @@
         "C": "目前基因研究指出有幾個基因之位置與此病症相關,在第18 對染色體長臂及第22 對染色體長臂被認為是較\n 相關之區域",
         "D": "目前研究顯示環境因素可以解釋其病因之70%,生物體質病因大約為30%"
       },
-      "correct_answer": null,
-      "explanation": "雙相情緒障礙症具有極高的遺傳性（遺傳率 heritability 估計高達70-80%），因此環境解釋70%、體質解釋30%的D選項顯然錯誤。而B選項的雙胞胎研究數據在不同教科書文獻中存在爭議與落差，因此考選部經疑義處理後，公告本題更正為 B 或 D 均給分。作答時依原卷將 correct_answer 保持空字串以符合原 dataset 輸入。",
-      "key_point": "雙相情緒障礙症（Bipolar disorder）的遺傳與病因（官方更正B與D均給分）",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 雙胞胎研究指出單卵雙胞胎之共病率有70~90%,而同性別異卵雙胞胎為16~35%；D. 目前研究顯示環境因素可以解釋其病因之70%,生物體質病因大約為30%」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, D",
       "flashcard_summary": "雙相障礙病因 -> 生物遺傳占主導（約70-80%），環境占次要，官方更正B與D皆為正確答案",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第60題答B、D給分；原標準答案為 D。",
       "flashcard_front": "雙相情緒障礙症 (bipolar) / 遺傳率與環境比例 / 雙胞胎共病率 / 官方更正雙正解",
-      "flashcard_back": "遺傳體質因素解釋了約70-80%的雙相障礙病因，環境僅佔20-30%，D選項顛倒；B選項數據有文獻爭議，B或D均給分。",
+      "flashcard_back": "官方更正接受：「B. 雙胞胎研究指出單卵雙胞胎之共病率有70~90%,而同性別異卵雙胞胎為16~35%；D. 目前研究顯示環境因素可以解釋其病因之70%,生物體質病因大約為30%」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:27.345411+00:00"
     },
     {
       "id": "110-2_medicine-4_061",
@@ -1903,23 +1909,26 @@
         "C": "失眠常有潛在的生理或心理疾病,使用zolpidem 和BZD 類藥物是「治標不治本」,只能暫時緩和症狀",
         "D": "沒有任何醫學研究支持長期使用短效型zolpidem 和BZD 類藥物來治療失眠"
       },
-      "correct_answer": null,
-      "explanation": "本題由於官方答案標註為一律給分（無標準答案），故保留正確答案為空字串。Z-drugs（如 zolpidem、zopiclone）雖然對 GABA_A 受體具較高的選擇性，但臨床上仍有明確的耐受性、成癮性、夢遊、失憶與睡眠自動化行為等不良反應，因此原選項中的敘述存在醫學爭議，導致此題無標準答案。",
-      "key_point": "非苯二氮平類安眠藥（Z-drugs）之藥理與安全性爭議",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 是新興的安眠藥物,在GABA receptor 作用上選擇性比benzodiazepine(BZD)高,不易成癮；D. 沒有任何醫學研究支持長期使用短效型zolpidem 和BZD 類藥物來治療失眠」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, D",
       "flashcard_summary": "Z-drugs / Zolpidem / 耐受性與成癮性 -> Z-drugs 雖具選擇性，仍有成癮、耐受及失憶等睡眠自動化行為風險",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第66題答A、D給分；原標準答案為 A。",
       "flashcard_front": "Z-drugs / Zolpidem / 耐受性與成癮性",
-      "flashcard_back": "Z-drugs 雖較具受體選擇性，但仍具成癮與耐受風險，並可能引起失憶與睡眠自動化行為。",
+      "flashcard_back": "官方更正接受：「A. 是新興的安眠藥物,在GABA receptor 作用上選擇性比benzodiazepine(BZD)高,不易成癮；D. 沒有任何醫學研究支持長期使用短效型zolpidem 和BZD 類藥物來治療失眠」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:27.345411+00:00"
     },
     {
       "id": "110-2_medicine-4_067",

@@ -4,7 +4,7 @@
   "title": "109 年第二次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109080&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:24.075140+00:00",
   "questions": [
     {
       "id": "109-2_medicine-4_001",
@@ -45,23 +45,26 @@
         "C": "Roseola infantum",
         "D": "Erythema multiforme"
       },
-      "correct_answer": null,
-      "explanation": "本題男童發燒喉嚨痛，在服用抗生素兩週後仍發燒且出現嚴重的黏膜與皮膚病變。臨床上需高度懷疑藥物過敏引起的史蒂芬強生症候群（SJS）或多形性紅斑（EM）。因兩者在臨床早期或嚴重度判定上存在重疊，且單憑圖像常難以絕對區分，官方最終更正為「答B或D皆給分」。紅喉斑與草莓舌等川崎氏症表徵通常不用抗生素治療兩週，猩紅熱對抗生素通常有良好療效且少見嚴重黏膜壞死。",
-      "key_point": "藥物引起之重症皮膚黏膜過敏反應與鑑別診斷",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. Stevens-Johnson syndrome；D. Erythema multiforme」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, D",
       "flashcard_summary": "抗生素後皮膚黏膜病變 -> 臨床需懷疑 SJS（B）與 EM（D），本題答 B 或 D 皆給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第2題答B、D給分；原標準答案為 B。",
       "flashcard_front": "抗生素使用後發燒 / 黏膜糜爛與皮疹 / SJS vs EM / 藥物過敏反應",
-      "flashcard_back": "抗生素引發的嚴重皮膚黏膜病變，需鑑別史蒂芬強生症候群（SJS）與多形性紅斑（EM）；官方答B或D均給分。",
+      "flashcard_back": "官方更正接受：「B. Stevens-Johnson syndrome；D. Erythema multiforme」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:24.075140+00:00"
     },
     {
       "id": "109-2_medicine-4_003",
@@ -396,23 +399,27 @@
         "C": "血清滲透壓(Serum osmolality)<280 mOsm/kg 合併血鈉值(serum sodium)<135 mEq/L",
         "D": "限水治療後無法改變低血鈉的情形"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正為「答B、C或D皆給分」（輸入 correct_answer 需為空字串）。診斷 SIADH 的核心準則為低血清滲透壓（<275-280 mOsm/kg）、高尿滲透壓（>100 mOsm/kg）、臨床上體液等容積（euvolemia）。必須「排除」心、肝、腎、甲狀腺及腎上腺功能不全（即選項A是排除條件）。因題目問的是「不是排除條件」（即是診斷條件本身），而選項B、C屬於診斷必備條件，且限水治療改善（而非無法改變）才是診斷支持依據，題目敘述與邏輯混亂致使B、C、D均符合題意，故官方更正答案。",
-      "key_point": "抗利尿激素不適當分泌症候群（SIADH）的診斷與排除條件",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 尿液滲透壓(Urine osmolality)>100 mOsm/kg；C. 血清滲透壓(Serum osmolality)<280 mOsm/kg 合併血鈉值(serum sodium)<135 mEq/L；D. 限水治療後無法改變低血鈉的情形」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C, D",
       "flashcard_summary": "SIADH 排除與診斷 -> 排除甲狀腺與腎上腺異常；診斷需具低血滲與高尿滲，本題答 B/C/D 皆給分",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第14題答B、C、D給分；原標準答案為 D。",
       "flashcard_front": "SIADH診斷 / 排除條件 / 尿液與血清滲透壓 / 限水治療效應",
-      "flashcard_back": "SIADH需排除甲狀腺/腎上腺/心肝腎疾病；其必備診斷包含低血清滲透壓、高尿滲透壓。本題答B、C或D皆給分。",
+      "flashcard_back": "官方更正接受：「B. 尿液滲透壓(Urine osmolality)>100 mOsm/kg；C. 血清滲透壓(Serum osmolality)<280 mOsm/kg 合併血鈉值(serum sodium)<135 mEq/L；D. 限水治療後無法改變低血鈉的情形」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:24.075140+00:00"
     },
     {
       "id": "109-2_medicine-4_015",

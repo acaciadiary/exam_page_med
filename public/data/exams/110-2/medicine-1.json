@@ -4,7 +4,7 @@
   "title": "110 年第二次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=110101&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:49:01.534314+00:00",
   "questions": [
     {
       "id": "110-2_medicine-1_001",
@@ -1843,23 +1843,26 @@
         "C": "鈉離子通道(Na+ channel)",
         "D": "水通道(H2O channel)"
       },
-      "correct_answer": null,
-      "explanation": "在遠曲小管（DCT）的管腔側，鈉離子的再吸收是透過 Na+-Cl- 同向運輸子（NCC）進行。這一轉運的主動動力來自基底側（組織間液側）細胞膜上的 Na+/K+-ATPase 所建立的低細胞內鈉濃度梯度。為了維持此幫浦與膜電位持續運作，基底側的鉀離子通道（K+ channel）進行 K+ 的再循環，且進入細胞的 Cl- 必須經由基底側的氯離子通道（Cl- channel）排出。因這兩類通道在維持轉運動力上皆不可或缺，考選部此題最終更正答案為 A 或 B 均給分。",
-      "key_point": "理解遠曲小管（DCT）鈉氯同向運輸（NCC）的電化學梯度與基底膜通道之關係。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 鉀離子通道(K+ channel)；B. 氯離子通道(Cl- channel)」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "遠曲小管鈉再吸收 -> Luminal側 NCC 運作，極有賴於基底膜側鉀離子或氯離子通道的維持。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第64題答A、B給分；原標準答案為 B。",
       "flashcard_front": "遠曲小管 Na 再吸收 / NCC 運輸子 / 基底膜通道 / 鉀通道與氯通道 / 答案更正",
-      "flashcard_back": "遠曲小管 NCC 轉運依賴基底膜 Na/K 幫浦，其運作有賴基底膜的鉀通道（A）與氯通道（B）搭配。",
+      "flashcard_back": "官方更正接受：「A. 鉀離子通道(K+ channel)；B. 氯離子通道(Cl- channel)」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（一）",
       "category": "生理學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:25.948832+00:00"
     },
     {
       "id": "110-2_medicine-1_065",
@@ -2817,6 +2820,35 @@
       "category_source": "auto",
       "explanation_model": "gemini-pro-manual",
       "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+    },
+    {
+      "id": "110-2_medicine-1_098",
+      "question_number": 98,
+      "question_text": "1977年諾貝爾獎得主Rosalyn Yalow的獲獎貢獻是開發radioimmunoassay（RIA）方法來偵測下列何類賀爾蒙？",
+      "options": {
+        "A": "steroid hormones",
+        "B": "peptide hormones",
+        "C": "eicosanoid hormones",
+        "D": "retinoid hormones"
+      },
+      "correct_answer": "B",
+      "explanation": "官方答案為「B. peptide hormones」。複習時請先抓題幹線索，再回到選項確認。",
+      "key_point": "補回缺漏題號 98：1977年諾貝爾獎得主Rosalyn Yalow的獲獎貢獻是開發radioimmunoassay（RIA）方法來偵測下列",
+      "flashcard_summary": "1977年諾貝爾獎得主Rosalyn Yalow的獲獎貢獻是開發radioimmunoassay（RIA）方法來偵測下列何類賀爾蒙？ -> B. peptide hormones",
+      "review_status": "ai_generated",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_answer",
+      "flashcard_front": "1977年諾貝爾獎得主Rosalyn Yalow的獲獎貢獻是開發radioimmunoassay（RIA）方法來偵測下列何類賀爾蒙？",
+      "flashcard_back": "官方答案為「B. peptide hormones」。複習時請先抓題幹線索，再回到選項確認。",
+      "category_group": "醫學",
+      "category": "解剖學",
+      "category_confidence": "medium",
+      "category_source": "sequence_repair",
+      "explanation_model": "official-sequence-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:49:01.521115+00:00"
     },
     {
       "id": "110-2_medicine-1_099",

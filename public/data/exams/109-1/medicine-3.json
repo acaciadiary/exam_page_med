@@ -4,7 +4,7 @@
   "title": "109 年第一次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:21.289136+00:00",
   "questions": [
     {
       "id": "109-1_medicine-3_001",
@@ -480,23 +480,26 @@
         "C": "若需使用nucleoside analogue或nucleotide analogue治療,建議使用到HBsAg seroconversion後3個月,或是\n HBeAg seroconversion後6個月",
         "D": "約99%病患不會成為慢性帶原"
       },
-      "correct_answer": null,
-      "explanation": "急性 B 型肝炎絕大多數（約 95-99%）成人在感染後會自行痊癒，不會演變成慢性帶原。對於非重症的急性 B 肝患者，給予口服抗病毒藥物（nucleoside/nucleotide analogues）並不能縮短疾病病程或改善預後，甚至可能干擾人體免疫系統產生保護性抗體（anti-HBs），因此一般不建議使用，僅建議用於併發肝衰竭的重症患者。本題官方正確答案為 B，但因後續公告一律給分，故 correct_answer 維持為空字串。",
-      "key_point": "急性 B 型肝炎的抗病毒藥物治療指引。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. nucleoside analogue或nucleotide analogue治療可以縮短疾病病程；D. 約99%病患不會成為慢性帶原」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, D",
       "flashcard_summary": "急性B肝治療 -> 抗病毒藥物不可縮短急性 B 肝病程，故限於重症患者使用。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第17題答B、D給分；原標準答案為 B。",
       "flashcard_front": "急性B型肝炎 / 抗病毒藥物 / 重症治療 / 慢性化機率",
-      "flashcard_back": "口服抗病毒藥物無法縮短急性 B 肝病程，僅用於重症；成人感染急性 B 肝約 99% 可自行痊癒。",
+      "flashcard_back": "官方更正接受：「B. nucleoside analogue或nucleotide analogue治療可以縮短疾病病程；D. 約99%病患不會成為慢性帶原」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "肝膽腸胃科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:21.289136+00:00"
     },
     {
       "id": "109-1_medicine-3_018",

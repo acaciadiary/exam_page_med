@@ -4,7 +4,7 @@
   "title": "111 年第二次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=111080&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:30.662694+00:00",
   "questions": [
     {
       "id": "111-2_medicine-3_001",
@@ -161,23 +161,26 @@
         "C": "合併藥物催迫(pharmacological stress)之核醫心肌灌注造影可用以檢出心肌缺血(ischemia)及心肌梗塞後之\n 疤痕(scar)",
         "D": "電腦斷層(multi-detector CT)測得之鈣化分數(calcium score)可準確診斷冠狀動脈心臟病,但對疾病預後之\n 應用尚不明確"
       },
-      "correct_answer": null,
-      "explanation": "官方公佈此題更正為「答B或D者均給分」。選項B中，運動心電圖檢查的死亡風險約為萬分之一而非千分之一。選項D中，電腦斷層鈣化分數主要用於評估心血管風險與預後（預後應用已明確），但對診斷狹窄程度之準確度有限，不能單靠其診斷冠狀動脈心臟病。",
-      "key_point": "冠狀動脈心臟病非侵入式檢查（運動心電圖與電腦斷層鈣化分數）的臨床局限與風險。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 運動心電圖是最廣泛使用的檢查評估工具,但因運動檢查有千分之一的死亡風險,故檢查場所必須備有急救\n 器材；D. 電腦斷層(multi-detector CT)測得之鈣化分數(calcium score)可準確診斷冠狀動脈心臟病,但對疾病預後之\n 應用尚不明確」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, D",
       "flashcard_summary": "冠心病非侵入檢查限制 -> 運動心電圖死亡風險約萬分之一，電腦斷層鈣化分數適用於預後評估而非確診。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第6題答B或D或BD者均給分；原標準答案為 B。",
       "flashcard_front": "冠心病非侵入檢查 / 運動心電圖死亡風險 / 電腦斷層鈣化分數限制",
-      "flashcard_back": "運動心電圖死亡風險約萬分之一；電腦斷層鈣化分數可用於評估中長期預後，但不能單獨用作狹窄的準確診斷。",
+      "flashcard_back": "官方更正接受：「B. 運動心電圖是最廣泛使用的檢查評估工具,但因運動檢查有千分之一的死亡風險,故檢查場所必須備有急救\n 器材；D. 電腦斷層(multi-detector CT)測得之鈣化分數(calcium score)可準確診斷冠狀動脈心臟病,但對疾病預後之\n 應用尚不明確」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:30.662694+00:00"
     },
     {
       "id": "111-2_medicine-3_007",
@@ -827,23 +830,26 @@
         "C": "遠端腎小管(distal convoluted tubule)",
         "D": "集尿管(collecting duct)"
       },
-      "correct_answer": null,
-      "explanation": "官方公布此題更正為「答C或D者均給分」。抗利尿荷爾蒙（ADH）主要作用於集尿管（D），透過結合V2受體促使水通道蛋白（AQP-2）插入細胞膜以增加水分通透性；然而，遠端小管的後段（late distal tubule，C）在生理功能與結構上與集尿管相近，亦受ADH調控，因此兩者皆可視為正確答案。",
-      "key_point": "抗利尿荷爾蒙（ADH）作用於腎小管水分重吸收的解剖部位。",
+      "correct_answer": "C",
+      "explanation": "官方更正為多重給分答案：「C. 遠端腎小管(distal convoluted tubule)；D. 集尿管(collecting duct)」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：C, D",
       "flashcard_summary": "ADH作用部位 -> ADH作用於集尿管及遠端小管後段以增加水分通透性。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "C",
+        "D"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第29題答C或D或CD者均給分；原標準答案為 D。",
       "flashcard_front": "抗利尿荷爾蒙 / ADH作用部位 / 水分通透性 / 遠端腎小管後段 / 集尿管",
-      "flashcard_back": "ADH主要作用在集尿管與遠端小管後段，藉由插入 Aquaporin-2 增加水分重吸收。",
+      "flashcard_back": "官方更正接受：「C. 遠端腎小管(distal convoluted tubule)；D. 集尿管(collecting duct)」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（三）",
       "category": "腎臟科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:30.662694+00:00"
     },
     {
       "id": "111-2_medicine-3_030",

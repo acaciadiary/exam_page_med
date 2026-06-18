@@ -4,7 +4,7 @@
   "title": "108 年第一次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=108030&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:17.994637+00:00",
   "questions": [
     {
       "id": "108-1_medicine-4_001",
@@ -712,23 +712,26 @@
         "C": "肺功能檢查常見到阻塞性的異常",
         "D": "美觀為手術的考量主因之一"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正為無正解（一律給分）。漏斗胸（Funnel chest）在流行病學上是「男孩發生率顯著高於女孩」（約3-4:1），因此B選項稱女孩較高是錯誤的；此外，漏斗胸病患的肺功能檢查主要為正常或呈現輕度限制性通氣障礙，阻塞性異常（C選項）同樣較罕見。美觀常為手術考量主因之一。",
-      "key_point": "漏斗胸的流行病學與病理生理特徵（本題官方公佈無正解）。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 女孩發生的機率比男孩高；C. 肺功能檢查常見到阻塞性的異常」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "漏斗胸特徵說明（無正解） -> 男孩發生率高於女孩，肺功能以限制性障礙為主",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第25題答B、C給分；原標準答案為 B。",
       "flashcard_front": "漏斗胸 (Funnel chest) / 男女性別比 / 肺功能檢查型態 / 官方更正答案",
-      "flashcard_back": "本題無正解。漏斗胸是「男孩發生率高於女孩（約3~4:1）」；肺功能以限制性障礙為主而非阻塞性。",
+      "flashcard_back": "官方更正接受：「B. 女孩發生的機率比男孩高；C. 肺功能檢查常見到阻塞性的異常」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:17.994637+00:00"
     },
     {
       "id": "108-1_medicine-4_026",
@@ -1349,23 +1352,26 @@
         "C": "顱內囊狀(saccular type)動脈瘤",
         "D": "顱內梭狀(fusiform type)動脈瘤"
       },
-      "correct_answer": null,
-      "explanation": "本題官方更正為無正解（一律給分）。蜘蛛膜下腔出血（SAH）若指「自發性（非外傷性）」，最常見病極為腦囊狀動脈瘤破裂（約占80-85%）；但若將所有原因計入，最常見的原因其實是「頭部外傷（trauma）」。因題目語意未指明自發性或外傷性，導致選項 A 與 C 均有其正確性，故官方予以全部給分。",
-      "key_point": "蜘蛛膜下腔出血（SAH）最常見病因的判定（本題官方公佈無正解）。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 頭部外傷(trauma)；C. 顱內囊狀(saccular type)動脈瘤」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, C",
       "flashcard_summary": "SAH最常見病因說明（無正解） -> 自發性以囊狀動脈瘤破裂居多，全因則以頭部外傷最常見",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第47題答A、C給分；原標準答案為 C。",
       "flashcard_front": "蜘蛛膜下腔出血 (SAH) / 腦動脈瘤破裂 / 頭部外傷 / 最常見病因 (無正解)",
-      "flashcard_back": "本題無正解。自發性SAH主因為「囊狀動脈瘤破裂」；但整體SAH最常見原因為「頭部外傷（trauma）」。",
+      "flashcard_back": "官方更正接受：「A. 頭部外傷(trauma)；C. 顱內囊狀(saccular type)動脈瘤」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:17.994637+00:00"
     },
     {
       "id": "108-1_medicine-4_048",

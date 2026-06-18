@@ -4,7 +4,7 @@
   "title": "108 年第一次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=108030&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:17.034329+00:00",
   "questions": [
     {
       "id": "108-1_medicine-1_001",
@@ -1408,23 +1408,26 @@
         "C": "調控自律神經",
         "D": "記憶能力"
       },
-      "correct_answer": null,
-      "explanation": "尾核（caudate nucleus）為基底核的一部分，除參與紋狀體-皮質迴路以調控動作執行外，亦透過聯絡皮質與前額葉的連結，參與認知、決策及情緒控制。由於其在認知/情緒環路與動作調控中均扮演關鍵角色，因此「情緒控制」與「動作執行」均為合理答案，官方最終判定答A或B皆給分。本題依據考題輸入，正確答案為空字串。",
-      "key_point": "尾核（caudate nucleus）的功能與神經迴路調控關係。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 情緒控制；B. 動作執行」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "尾核 / Caudate nucleus / 動作執行 / 情緒控制 -> 尾核兼具動作執行與情緒控制等多重生理調控功能（答A或B均給分）。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第49題答A、B給分；原標準答案為 B。",
       "flashcard_front": "尾核 / Caudate nucleus / 動作執行 / 情緒控制",
-      "flashcard_back": "尾核參與動作執行（基底核動作迴路）與情緒控制（前額葉-基底核聯絡環路），答 A 或 B 均給分。",
+      "flashcard_back": "官方更正接受：「A. 情緒控制；B. 動作執行」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（一）",
       "category": "生理學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:17.034329+00:00"
     },
     {
       "id": "108-1_medicine-1_050",
@@ -1668,23 +1671,26 @@
         "C": "僅23",
         "D": "1234"
       },
-      "correct_answer": null,
-      "explanation": "動脈粥狀硬化會使大動脈硬化，導致動脈順應性（compliance）下降。順應性下降會使收縮壓上升（1增加）、脈搏壓明顯增加（3增加）。至於舒張壓（2），由於彈性回彈力下降，在老年或硬化後期通常下降；但在早期常因周邊阻力增加而上升。因此，考選部判定僅選項1與3增加（B）或選項1、2、3皆增加（A）均為正確答案。本題依據考題輸入，正確答案為空字串。",
-      "key_point": "動脈粥狀硬化對動脈順應性、收縮壓、舒張壓及脈搏壓的生理影響。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 僅123；B. 僅13」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "動脈硬化 / 順應性 / 收縮壓與舒張壓 / 脈搏壓 -> 動脈粥狀硬化會降低順應性，使收縮壓與脈搏壓增加（答A或B皆給分）。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第58題答A、B給分；原標準答案為 B。",
       "flashcard_front": "動脈硬化 / 順應性 / 收縮壓與舒張壓 / 脈搏壓",
-      "flashcard_back": "動脈粥狀硬化會降低血管順應性，使收縮壓與脈搏壓增加（舒張壓可能增加或降低），答 A 或 B 均給分。",
+      "flashcard_back": "官方更正接受：「A. 僅123；B. 僅13」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（一）",
       "category": "生理學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:17.034329+00:00"
     },
     {
       "id": "108-1_medicine-1_059",

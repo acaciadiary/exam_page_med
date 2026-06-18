@@ -4,7 +4,7 @@
   "title": "109 年第一次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=109020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:47:54.224317+00:00",
   "questions": [
     {
       "id": "109-1_medicine-1_001",
@@ -2104,23 +2104,26 @@
         "C": "Müllerian duct可被由睪丸Sertoli cell所分泌之Müllerian-inhibiting substance所抑制",
         "D": "Testosterone負責促進睪丸的生成"
       },
-      "correct_answer": null,
-      "explanation": "胚胎發育中，Sertoli cells 分泌的 MIS（或稱 AMH）會抑制 Müllerian duct 的發育，此為選項 C 的正確描述。選項 A 錯誤，因為男性外生殖器分化主要由雙氫睪固酮（DHT）負責，而非睪固酮（testosterone）。選項 B 錯誤，睪丸由原始性腺發育而來，Wolffian duct 只發育為附屬器官。選項 D 錯誤，睪丸生成是由 SRY 基因決定。由於考選部最終將 A 與 C 均列為正確答案，此題答案維持為空字串，以符合官方原題設定。",
-      "key_point": "胚胎生殖系統發育與性腺分化。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. Testosterone負責男性外生殖器之分化；C. Müllerian duct可被由睪丸Sertoli cell所分泌之Müllerian-inhibiting substance所抑制」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, C",
       "flashcard_summary": "胚胎性腺發育 -> MIS抑制Müllerian duct，DHT負責外生殖器分化。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第73題答A、C給分；原標準答案為 C。",
       "flashcard_front": "胚胎性腺分化 / 穆勒氏管抑制物質 / 睪丸發育",
-      "flashcard_back": "Sertoli細胞分泌MIS抑制Müllerian duct；外生殖器分化主要由 DHT 負責。",
+      "flashcard_back": "官方更正接受：「A. Testosterone負責男性外生殖器之分化；C. Müllerian duct可被由睪丸Sertoli cell所分泌之Müllerian-inhibiting substance所抑制」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（一）",
       "category": "胚胎及發育生物學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:20.337271+00:00"
     },
     {
       "id": "109-1_medicine-1_074",
@@ -2881,14 +2884,14 @@
       "question_number": 100,
       "question_text": "下列何者不是type II限制酶的辨認序列?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "圖示 A（圖片選項，請對照官方題本）",
+        "B": "圖示 B（圖片選項，請對照官方題本）",
+        "C": "圖示 C（圖片選項，請對照官方題本）",
+        "D": "圖示 D（圖片選項，請對照官方題本）"
       },
       "correct_answer": "B",
-      "explanation": "II型限制酶（Type II restriction enzymes）主要辨認 DNA 雙股中的特異性迴文序列（palindromic sequence），即正讀和反讀互補股序列相同（如 5'-GAATTC-3' 及其互補股）。此類限制酶在辨認位點內或附近進行精確切割，產生黏性末端或鈍端。若選項中缺少對稱雙股迴文特徵，則非其辨認序列。本題因題目選項內容缺失，官方公布答案為 B，作答時需注意迴文序列的判定規則。",
-      "key_point": "II型限制酶辨認DNA序列的特徵與對稱性。",
+      "explanation": "本題為圖片選項題，文字資料無法呈現 A-D 圖形內容；作答與複習需對照官方題本圖片，正解仍依官方答案欄位判定。",
+      "key_point": "圖片選項題，需對照官方題本圖示",
       "flashcard_summary": "II型限制酶辨認序列 -> II型限制酶辨認並切斷特異性的雙股DNA迴文對稱序列，是基因工程的重要工具。",
       "review_status": "ai_generated",
       "correct_answers": [
@@ -2897,13 +2900,15 @@
       "answer_status": "standard",
       "answer_source": "official_correction",
       "flashcard_front": "分子生物 / II型限制酶 / 辨認序列 / 迴文序列 / 雙股對稱",
-      "flashcard_back": "II型限制酶特異性地辨認並切割 DNA 中的雙股對稱迴文序列（如GAATTC）；非迴文序列則無法被其辨認。",
+      "flashcard_back": "本題選項是圖片，請對照官方題本的圖示 A-D；不要只看文字佔位。正解依官方答案欄位。",
       "category_group": "醫學（一）",
       "category": "生物化學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "image-option-placeholder-v1",
+      "explanation_generated_at": "2026-06-18T04:47:54.224317+00:00",
+      "option_asset_status": "image_options_missing_asset",
+      "answer_note": " 本題選項為圖片型選項；目前資料庫未含圖片資產，已以圖示 A-D 佔位。"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "title": "109 年第一次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=109020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-16T16:08:23.648153+00:00",
+  "updated_at": "2026-06-18T04:45:21.730559+00:00",
   "questions": [
     {
       "id": "109-1_medicine-4_001",
@@ -799,23 +799,26 @@
         "C": "此類缺損不屬於感染性心內膜炎(Infective endocarditis)之高風險族群",
         "D": "若因過多左向右分流而造成明顯的肺高壓,即使臨床症狀可用藥物控制,仍建議盡早接受手術修補"
       },
-      "correct_answer": null,
-      "explanation": "膜邊型 VSD 是最常見的類型，且常有機會因三尖瓣組織貼附而自行癒合。然而，B選項宣稱其「不太可能自行癒合」且「引起主動脈瓣脫垂機率最高」是不對的，因為動脈下型（subarterial VSD）更難自癒且最易致主動脈瓣脫垂。C選項對於感染性心內膜炎高風險群的定義在醫學上有爭議，故考選部決定此題「答 B、C 皆給分」，在此維持 correct_answer 為空字串以符合輸入檔。",
-      "key_point": "膜邊型心室中膈缺損（Perimembranous VSD）的預後與併發症（爭議題）。",
+      "correct_answer": "B",
+      "explanation": "官方更正為多重給分答案：「B. 此類缺損不太可能會自行癒合,而且在各型的心室中膈缺損中,日後會造成主動脈瓣脫垂(Aortic cusp\n prolapse)的機率最高；C. 此類缺損不屬於感染性心內膜炎(Infective endocarditis)之高風險族群」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：B, C",
       "flashcard_summary": "膜邊型VSD -> 最常見，可自行癒合；動脈下型最常致主動脈瓣脫垂。本題答B、C均給分。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "B",
+        "C"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第28題答B、C給分；原標準答案為 B。",
       "flashcard_front": "膜邊型 VSD / 自行癒合機會 / 主動脈瓣脫垂 / 爭議題目 (109-1_28)",
-      "flashcard_back": "膜邊型VSD是最常見型，有機會自行癒合；動脈下型VSD才最常引起主動脈瓣脫垂。本題因B、C敘述皆有誤，答B或C均給分。",
+      "flashcard_back": "官方更正接受：「B. 此類缺損不太可能會自行癒合,而且在各型的心室中膈缺損中,日後會造成主動脈瓣脫垂(Aortic cusp\n prolapse)的機率最高；C. 此類缺損不屬於感染性心內膜炎(Infective endocarditis)之高風險族群」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:21.730559+00:00"
     },
     {
       "id": "109-1_medicine-4_029",
@@ -1987,23 +1990,26 @@
         "C": "症狀必須造成明顯的社交、學業或工作功能的損害",
         "D": "必須和廣泛性發展障礙(pervasive developmental disorder)、思覺失調症(schizophrenia)、其他精神病\n 態、情緒疾患、焦慮症、解離症、人格疾患作區辨"
       },
-      "correct_answer": null,
-      "explanation": "根據最新 DSM-5 診斷標準，ADHD 的發病年齡門檻已由 7 歲放寬至「12 歲之前」。且症狀必須在「兩個或以上的情境」（如家裡與學校）中表現，造成功能損害，而非單一情境。由於A與B的選項描述在此皆有不妥之處，考選部最終更正本題答案為「答 A 或 B 者均給分」，在此依規定保留 correct_answer 為空字串。",
-      "key_point": "注意力缺損/過動症（ADHD）的最新 DSM-5 診斷標準（爭議題）。",
+      "correct_answer": "A",
+      "explanation": "官方更正為多重給分答案：「A. 至少有部分過動、衝動難控制、注意力不集中的症狀在7歲之前即已出現；B. 只要有部分症狀在一個情境中出現就算」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "key_point": "官方更正多重答案：A, B",
       "flashcard_summary": "ADHD診斷 -> 症狀需在12歲前出現且存在於兩個以上情境。本題答A或B均給分。",
       "review_status": "ai_generated",
-      "correct_answers": [],
-      "answer_status": "corrected_pending_review",
+      "correct_answers": [
+        "A",
+        "B"
+      ],
+      "answer_status": "multiple_correct",
       "answer_source": "official_correction",
-      "answer_note": "官方更正答案標註 #，需人工確認備註。",
+      "answer_note": "官方更正：第69題答A、B給分；原標準答案為 B。",
       "flashcard_front": "ADHD 診斷標準 / 起病年齡 / 情境限制 / 爭議題目 (109-1_69)",
-      "flashcard_back": "最新 DSM-5 規定症狀需在 12 歲前出現，且必須在兩個或以上情境（非單一情境）中出現。本題答 A 或 B 均給分。",
+      "flashcard_back": "官方更正接受：「A. 至少有部分過動、衝動難控制、注意力不集中的症狀在7歲之前即已出現；B. 只要有部分症狀在一個情境中出現就算」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "official-correction-repair-v1",
+      "explanation_generated_at": "2026-06-18T04:45:21.730559+00:00"
     },
     {
       "id": "109-1_medicine-4_070",
