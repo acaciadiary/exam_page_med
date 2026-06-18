@@ -44,7 +44,7 @@ class MoexSubject:
 PHYSICIAN_115_FIRST: list[MoexSubject] = [
     MoexSubject(
         id="115-1-physician-medicine-1",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="301",
         subject_code="0101",
@@ -55,7 +55,7 @@ PHYSICIAN_115_FIRST: list[MoexSubject] = [
     ),
     MoexSubject(
         id="115-1-physician-medicine-2",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="301",
         subject_code="0102",
@@ -65,7 +65,7 @@ PHYSICIAN_115_FIRST: list[MoexSubject] = [
     ),
     MoexSubject(
         id="115-1-physician-medicine-3",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="302",
         subject_code="0103",
@@ -76,7 +76,7 @@ PHYSICIAN_115_FIRST: list[MoexSubject] = [
     ),
     MoexSubject(
         id="115-1-physician-medicine-4",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="302",
         subject_code="0104",
@@ -87,7 +87,7 @@ PHYSICIAN_115_FIRST: list[MoexSubject] = [
     ),
     MoexSubject(
         id="115-1-physician-medicine-5",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="302",
         subject_code="0105",
@@ -98,7 +98,7 @@ PHYSICIAN_115_FIRST: list[MoexSubject] = [
     ),
     MoexSubject(
         id="115-1-physician-medicine-6",
-        year="115",
+        year="115-1",
         exam_code="115020",
         category_code="302",
         subject_code="0106",
