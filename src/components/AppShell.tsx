@@ -1,6 +1,7 @@
 import {
   BookOpenCheck,
   BookmarkCheck,
+  ArrowUp,
   ChevronDown,
   ClipboardX,
   Layers3,
@@ -129,7 +130,7 @@ export function AppShell({
                     醫師國考複習站
                   </h1>
                   <p className="mt-1 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                    年份、考試與題庫都能直接切換
+                    你的專屬國考筆記
                   </p>
                 </div>
               </div>
@@ -244,6 +245,16 @@ export function AppShell({
       <main className="relative z-10 mx-auto max-w-[92rem] px-4 py-8 sm:px-6 lg:px-8">
         {children}
       </main>
+
+      <button
+        type="button"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className="fixed bottom-5 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:bottom-6 sm:right-6"
+        aria-label="返回頂部"
+        title="返回頂部"
+      >
+        <ArrowUp size={20} />
+      </button>
     </div>
   );
 }

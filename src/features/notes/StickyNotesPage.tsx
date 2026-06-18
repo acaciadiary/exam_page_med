@@ -1,4 +1,4 @@
-import { Trash2 } from "lucide-react";
+import { Check, Copy, Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { EmptyState } from "../../components/EmptyState";
 import type { StickyNoteItem } from "../../types/stickyNote";
@@ -17,6 +17,7 @@ export function StickyNotesPage({
   onClearNotes,
 }: StickyNotesPageProps) {
   const [draft, setDraft] = useState("");
+  const [copied, setCopied] = useState(false);
   const sortedNotes = useMemo(
     () =>
       [...notes].sort(
@@ -32,6 +33,22 @@ export function StickyNotesPage({
 
     onAddNote(text);
     setDraft("");
+  };
+
+  const handleCopyNotes = async () => {
+    if (sortedNotes.length === 0) return;
+
+    const text = sortedNotes
+      .map((note, index) => `${index + 1}. ${formatNoteTime(note.createdAt)}\n${note.text}`)
+      .join("\n\n");
+
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    } catch {
+      setCopied(false);
+    }
   };
 
   return (
@@ -50,14 +67,26 @@ export function StickyNotesPage({
             </p>
           </div>
 
-          <button
-            type="button"
-            onClick={onClearNotes}
-            disabled={notes.length === 0}
-            className="inline-flex h-11 items-center justify-center rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            清空全部便利貼
-          </button>
+          <div className="flex flex-wrap gap-2 lg:justify-end">
+            <button
+              type="button"
+              onClick={handleCopyNotes}
+              disabled={sortedNotes.length === 0}
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {copied ? <Check size={16} /> : <Copy size={16} />}
+              {copied ? "已複製" : "複製全部便利貼"}
+            </button>
+
+            <button
+              type="button"
+              onClick={onClearNotes}
+              disabled={notes.length === 0}
+              className="inline-flex h-11 items-center justify-center rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              清空全部便利貼
+            </button>
+          </div>
         </div>
 
         <div className="mt-6 rounded-[1.25rem] bg-[#fff8f4] p-4">
