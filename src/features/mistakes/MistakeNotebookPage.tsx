@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Trash2 } from "lucide-react";
 import { EmptyState } from "../../components/EmptyState";
 import { getExamStage, getStageLabel, getSubjectLabel } from "../../lib/examMetadata";
 import { formatCorrectAnswers } from "../../lib/text";
@@ -18,27 +18,43 @@ type MistakeNotebookPageProps = {
   mistakes: MistakeEntry[];
   loading: boolean;
   onOpenQuestion: (examId: string, questionId: string) => void;
+  onClearMistakes: () => void;
 };
 
 export function MistakeNotebookPage({
   mistakes,
   loading,
   onOpenQuestion,
+  onClearMistakes,
 }: MistakeNotebookPageProps) {
   return (
     <section className="space-y-6">
       <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-6 shadow-[0_18px_60px_rgba(181,133,117,0.16)] backdrop-blur-2xl">
-        <p className="text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
-          我的錯題本
-        </p>
-        <h2 className="mt-3 text-3xl font-semibold text-[#3f342d]">
-          全部錯題
-        </h2>
-        <p className="mt-3 text-sm leading-7 text-[#725b52]">
-          這裡會集中整理所有年份、所有科目中你曾經答錯的題目。
-        </p>
-        <div className="mt-4 inline-flex rounded-full bg-[#fff1f6] px-4 py-2 text-sm font-semibold text-[#9a496b]">
-          目前共 {mistakes.length} 題答錯
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+          <div>
+            <p className="text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
+              我的錯題本
+            </p>
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f342d]">
+              全部錯題
+            </h2>
+            <p className="mt-3 text-sm leading-7 text-[#725b52]">
+              這裡會集中整理所有年份、所有科目中你曾經答錯的題目。
+            </p>
+            <div className="mt-4 inline-flex rounded-full bg-[#fff1f6] px-4 py-2 text-sm font-semibold text-[#9a496b]">
+              目前共 {mistakes.length} 題答錯
+            </div>
+          </div>
+
+          <button
+            type="button"
+            onClick={onClearMistakes}
+            disabled={loading || mistakes.length === 0}
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            <Trash2 size={16} />
+            一鍵清空
+          </button>
         </div>
       </div>
 

@@ -124,7 +124,7 @@ export default function App() {
 
   const readyDataset = state.status === "ready" ? state.dataset : null;
   const examId = readyDataset?.id ?? "pending";
-  const { answers, answerQuestion, resetAnswers } = useExamProgress(
+  const { answers, answerQuestion, removeAnswers, resetAnswers } = useExamProgress(
     storageKeys.answers(examId),
   );
   const markedQuestions = useMarkedItems(storageKeys.markedQuestions(examId));
@@ -293,6 +293,51 @@ export default function App() {
     setStickyNotes([]);
   };
 
+  const handleClearAllMistakes = () => {
+    if (state.status !== "ready" || allMistakes.length === 0) return;
+
+    const mistakeIdsByExam = new Map<string, string[]>();
+
+    for (const mistake of allMistakes) {
+      mistakeIdsByExam.set(mistake.exam.id, [
+        ...(mistakeIdsByExam.get(mistake.exam.id) ?? []),
+        mistake.question.id,
+      ]);
+    }
+
+    for (const [targetExamId, questionIds] of mistakeIdsByExam) {
+      if (targetExamId === examId) {
+        removeAnswers(questionIds);
+        continue;
+      }
+
+      const storedAnswers = readStoredAnswers(targetExamId);
+      for (const questionId of questionIds) {
+        delete storedAnswers[questionId];
+      }
+      writeStoredAnswers(targetExamId, storedAnswers);
+    }
+
+    setAllMistakes([]);
+  };
+
+  const handleClearAllFavorites = () => {
+    if (state.status !== "ready" || favorites.length === 0) return;
+
+    for (const exam of state.manifest.exams) {
+      if (exam.id === examId) {
+        markedQuestions.clearMarked();
+        markedFlashcards.clearMarked();
+        continue;
+      }
+
+      writeStoredStringArray(storageKeys.markedQuestions(exam.id), []);
+      writeStoredStringArray(storageKeys.markedFlashcards(exam.id), []);
+    }
+
+    setFavorites([]);
+  };
+
   if (state.status === "loading") {
     return (
       <div className="grid min-h-screen place-items-center bg-[#fff8f4] px-6 text-[#4b3b35]">
@@ -362,6 +407,7 @@ export default function App() {
           <MistakeNotebookPage
             mistakes={allMistakes}
             loading={isMistakesLoading}
+            onClearMistakes={handleClearAllMistakes}
             onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
               setActiveExamId(targetExamId);
@@ -373,6 +419,7 @@ export default function App() {
           <FavoritesPage
             favorites={favorites}
             loading={isFavoritesLoading}
+            onClearFavorites={handleClearAllFavorites}
             onOpenQuestion={(targetExamId, questionId) => {
               setMode("exam");
               setActiveExamId(targetExamId);
@@ -453,5 +500,24 @@ function readStoredStringArray(key: string): string[] {
       : [];
   } catch {
     return [];
+  }
+}
+
+function writeStoredAnswers(examId: string, answers: AnswerState) {
+  try {
+    window.localStorage.setItem(
+      storageKeys.answers(examId),
+      JSON.stringify(answers),
+    );
+  } catch {
+    // Local storage can be unavailable in private browsing.
+  }
+}
+
+function writeStoredStringArray(key: string, values: string[]) {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(values));
+  } catch {
+    // Local storage can be unavailable in private browsing.
   }
 }

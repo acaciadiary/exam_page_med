@@ -14,5 +14,15 @@ export function useExamProgress(key: string) {
     }));
   }
 
-  return { answers, answerQuestion, resetAnswers };
+  function removeAnswers(questionIds: string[]) {
+    const removableIds = new Set(questionIds);
+
+    setAnswers((current) =>
+      Object.fromEntries(
+        Object.entries(current).filter(([questionId]) => !removableIds.has(questionId)),
+      ),
+    );
+  }
+
+  return { answers, answerQuestion, removeAnswers, resetAnswers };
 }
