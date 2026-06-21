@@ -1,0 +1,44 @@
+{
+  "name": "醫師國考複習站",
+  "short_name": "醫師國考",
+  "description": "醫師國考題庫練習、閃卡複習、錯題整理與本機筆記工具。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "background_color": "#fff8f4",
+  "theme_color": "#fff8f4",
+  "orientation": "portrait-primary",
+  "categories": ["education", "medical", "productivity"],
+  "lang": "zh-Hant-TW",
+  "icons": [
+    {
+      "src": "pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "考試練習",
+      "short_name": "考試",
+      "url": ".?page=exam"
+    },
+    {
+      "name": "錯題本",
+      "short_name": "錯題",
+      "url": ".?page=mistakes"
+    },
+    {
+      "name": "收藏題目",
+      "short_name": "收藏",
+      "url": ".?page=favorites"
+    },
+    {
+      "name": "便利貼",
+      "short_name": "筆記",
+      "url": ".?page=notes"
+    }
+  ]
+}
