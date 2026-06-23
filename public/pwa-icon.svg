@@ -1,7 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="醫師國考複習站">
-  <rect width="512" height="512" rx="112" fill="#fff8f4"/>
-  <rect x="96" y="76" width="320" height="360" rx="36" fill="#ffffff" stroke="#ead5cc" stroke-width="16"/>
-  <path d="M150 164h212M150 228h212M150 292h132" fill="none" stroke="#725b52" stroke-width="28" stroke-linecap="round"/>
-  <circle cx="352" cy="326" r="58" fill="#ffddea" stroke="#b36a84" stroke-width="18"/>
-  <path d="M352 292v68M318 326h68" fill="none" stroke="#9a496b" stroke-width="20" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ariel's Med">
+  <defs>
+    <linearGradient id="bg" x1="64" x2="448" y1="40" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b8e2d4"/>
+      <stop offset="0.55" stop-color="#dce8dc"/>
+      <stop offset="1" stop-color="#ffddea"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="142" x2="370" y1="118" y2="394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#fff0f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="94" y="88" width="324" height="336" rx="76" fill="#fffdf9" opacity="0.45"/>
+  <rect x="118" y="104" width="276" height="304" rx="58" fill="url(#paper)" stroke="#f1aac8" stroke-width="14"/>
+  <path d="M170 164h118M170 214h172M170 264h104" fill="none" stroke="#725b52" stroke-width="18" stroke-linecap="round" opacity="0.62"/>
+  <circle cx="334" cy="310" r="58" fill="#b8e2d4" stroke="#4c806e" stroke-width="14"/>
+  <path d="M334 278v64M302 310h64" fill="none" stroke="#fffdf9" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="358" fill="#4b3b35" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" text-anchor="middle">AM</text>
 </svg>
