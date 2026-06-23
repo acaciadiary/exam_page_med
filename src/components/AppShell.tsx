@@ -229,7 +229,7 @@ export function AppShell({
             badge={favoriteCount}
             theme={theme}
           >
-            收藏
+            收藏區
           </SidebarLink>
           <SidebarLink
             active={page === "notes"}
@@ -238,7 +238,7 @@ export function AppShell({
             badge={stickyNoteCount}
             theme={theme}
           >
-            便條
+            便條貼
           </SidebarLink>
         </nav>
 
@@ -380,7 +380,7 @@ export function AppShell({
           active={page === "favorites"}
           onClick={() => onPageChange("favorites")}
           icon={<BookmarkCheck size={20} />}
-          label="收藏"
+          label="收藏區"
           badge={favoriteCount}
           theme={theme}
         />
@@ -388,7 +388,7 @@ export function AppShell({
           active={page === "notes"}
           onClick={() => onPageChange("notes")}
           icon={<NotebookPen size={20} />}
-          label="便條"
+          label="便條貼"
           badge={stickyNoteCount}
           theme={theme}
         />

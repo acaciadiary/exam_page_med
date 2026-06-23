@@ -10,9 +10,9 @@ type ThemeToggleProps = {
 };
 
 const options: Array<{ value: AppTheme; label: string; icon: ReactNode }> = [
-  { value: "light", label: "筆記", icon: <Sun size={15} /> },
+  { value: "light", label: "質感粉", icon: <Sun size={15} /> },
   { value: "clinical", label: "專業藍", icon: <Stethoscope size={15} /> },
-  { value: "dark", label: "黑暗", icon: <Moon size={15} /> },
+  { value: "dark", label: "深夜黑", icon: <Moon size={15} /> },
 ];
 
 export function ThemeToggle({ theme, onChange }: ThemeToggleProps) {
