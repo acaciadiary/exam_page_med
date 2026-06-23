@@ -168,7 +168,7 @@ export function DiseaseComparePage({
       <aside className="rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto">
         <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
           <GitCompare size={18} className="text-[#b8527a]" />
-          <span className="font-hand font-bold text-base text-[#4b3b35]">魔王對照目錄</span>
+          <span className="font-hand font-bold text-base text-[#4b3b35]">必考統整</span>
         </div>
         
         <div className="space-y-4">
@@ -208,7 +208,7 @@ export function DiseaseComparePage({
             疾病鑑別與對照專區
           </h2>
           <p className="mt-2 text-sm text-[#725b52] leading-6 font-reading">
-            本專區精選 10 組國考經典魔王對照組，透過雙向比對核心相異處（高亮顯示），並整合歷屆考題與自訂對照筆記（同步至便利貼），幫助您直擊考點、秒殺陷阱。
+            本專區精選 10 組國考經典比較對照組，透過雙向比對核心相異處（高亮顯示），並整合歷屆考題與自訂對照筆記（同步至便利貼），幫助您直擊考點、秒殺陷阱。
           </p>
         </div>
 

@@ -93,7 +93,7 @@ export function DiseaseComparison({ group, currentQuestionId }: DiseaseCompariso
       <div className="flex flex-wrap items-start justify-between gap-3 border-b border-[#f1aac8]/30 pb-3">
         <div>
           <span className="inline-flex items-center gap-1 rounded-full bg-[#fdf0f4] px-2.5 py-0.5 text-xs font-bold text-[#b8527a]">
-            🧠 經典國考魔王對照
+            🧠 經典比較表格統整
           </span>
           <h3 className="mt-2 text-base font-bold text-[#6f4054] sm:text-lg">
             {group.title}

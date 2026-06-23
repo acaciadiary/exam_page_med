@@ -11,7 +11,7 @@ import {
   GitCompare,
   Settings,
 } from "lucide-react";
-import { useMemo, useState, type ReactNode } from "react";
+import { useMemo, useState, useEffect, type ReactNode } from "react";
 import clsx from "clsx";
 import { motion } from "motion/react";
 import type { AppPage } from "../app/routes";
@@ -104,6 +104,60 @@ export function AppShell({
 
     if (nextExam) onExamChange(nextExam.id);
   };
+
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    let ticking = false;
+
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
+          const maxScrollY = document.documentElement.scrollHeight - window.innerHeight;
+
+          // 1. Always show at the top of the page
+          if (currentScrollY < 10) {
+            setIsVisible(true);
+            setLastScrollY(currentScrollY);
+            ticking = false;
+            return;
+          }
+
+          // 2. Always show at the bottom of the page (within 10px buffer)
+          if (currentScrollY >= maxScrollY - 10) {
+            setIsVisible(true);
+            setLastScrollY(currentScrollY);
+            ticking = false;
+            return;
+          }
+
+          // 3. Threshold to avoid jittery behavior (15px)
+          if (Math.abs(currentScrollY - lastScrollY) < 15) {
+            ticking = false;
+            return;
+          }
+
+          // 4. Determine direction
+          if (currentScrollY > lastScrollY) {
+            // Scrolling down -> hide
+            setIsVisible(false);
+          } else {
+            // Scrolling up -> show
+            setIsVisible(true);
+          }
+
+          setLastScrollY(currentScrollY);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
 
   return (
     <div
@@ -208,7 +262,12 @@ export function AppShell({
       {/* Main Content Area (shifted right on Desktop) */}
       <div className="flex min-h-screen flex-col lg:pl-64">
         {/* Top Header */}
-        <header className="sticky top-0 z-30 px-3 pt-3 sm:px-5 sm:pt-5">
+        <header
+          className={clsx(
+            "sticky top-0 z-30 px-3 pt-3 sm:px-5 sm:pt-5 transition-transform duration-300 ease-in-out",
+            !isVisible && "max-lg:-translate-y-full"
+          )}
+        >
           <div className="mx-auto w-full max-w-[92rem] rounded-[1.25rem] border border-white/80 bg-white/78 px-4 py-3 shadow-[0_12px_40px_rgba(181,133,117,0.12)] backdrop-blur-2xl sm:px-6">
             {/* Desktop Header Layout */}
             <div className="hidden lg:flex items-center justify-between gap-4">
@@ -294,12 +353,13 @@ export function AppShell({
       {/* Mobile Floating Bottom Navigation Bar */}
       <nav
         className={clsx(
-          "fixed bottom-4 left-1/2 z-40 flex h-16 w-[92%] max-w-[28rem] -translate-x-1/2 items-center justify-around rounded-full border bg-white/78 px-3 shadow-[0_12px_36px_rgba(181,133,117,0.2)] backdrop-blur-2xl lg:hidden",
+          "fixed bottom-4 left-1/2 z-40 flex h-16 w-[92%] max-w-[28rem] -translate-x-1/2 items-center justify-around rounded-full border bg-white/78 px-3 shadow-[0_12px_36px_rgba(181,133,117,0.2)] backdrop-blur-2xl lg:hidden transition-transform duration-300 ease-in-out",
           theme === "dark"
             ? "border-white/10 bg-[#2b2430]/78"
             : theme === "clinical"
             ? "border-[#a3bed0]/45 bg-white/86"
-            : "border-white/80 bg-white/78"
+            : "border-white/80 bg-white/78",
+          !isVisible && "translate-y-[calc(100%+1.5rem)]"
         )}
       >
         <MobileNavLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={20} />} label="題庫" theme={theme} />
@@ -334,7 +394,11 @@ export function AppShell({
       <button
         type="button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-24 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:bottom-6 sm:right-6 lg:bottom-6 lg:right-6"
+        className={clsx(
+          "fixed right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:right-6 lg:right-6",
+          "bottom-24 sm:bottom-6 lg:bottom-6",
+          !isVisible && "max-sm:translate-y-18"
+        )}
         aria-label="回到頂部"
         title="回到頂部"
       >
