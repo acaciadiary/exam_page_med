@@ -6,9 +6,7 @@ const STATIC_ASSETS = [
   "./pwa-icon.svg",
   "./pwa-icon-192.png",
   "./pwa-icon-512.png",
-  "./data/manifest.json",
-  "./assets/pastel-study-desk.png",
-  "./assets/clinical-atlas-bg.png"
+  "./data/manifest.json"
 ];
 
 self.addEventListener("install", (event) => {

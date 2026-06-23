@@ -158,12 +158,24 @@ export default function App() {
       const entries: MistakeEntry[] = [];
       const stats = new Map<string, { answered: number; correct: number }>();
 
-      for (const exam of manifest.exams) {
+      const examsWithAnswers = manifest.exams.filter((exam) => {
         const examAnswers = exam.id === examId ? answers : readStoredAnswers(exam.id);
-        if (Object.keys(examAnswers).length === 0) continue;
+        return Object.keys(examAnswers).length > 0;
+      });
 
-        const dataset =
-          currentDataset.id === exam.id ? currentDataset : await loadExamData(exam.path);
+      const loadedDatasets = await Promise.all(
+        examsWithAnswers.map(async (exam) => {
+          const dataset =
+            currentDataset.id === exam.id ? currentDataset : await loadExamData(exam.path);
+          return {
+            exam,
+            dataset,
+            examAnswers: exam.id === examId ? answers : readStoredAnswers(exam.id),
+          };
+        })
+      );
+
+      for (const { exam, dataset, examAnswers } of loadedDatasets) {
         const label = getSubjectLabel(exam);
 
         for (const question of dataset.questions) {
@@ -228,7 +240,7 @@ export default function App() {
 
       const entries: FavoriteEntry[] = [];
 
-      for (const exam of manifest.exams) {
+      const examsWithFavorites = manifest.exams.map((exam) => {
         const markedQuestionIds =
           exam.id === examId
             ? markedQuestions.marked
@@ -243,11 +255,24 @@ export default function App() {
             : readStoredFavoriteTags(storageKeys.favoriteTags(exam.id));
         const favoriteIds = Array.from(new Set([...markedQuestionIds, ...markedFlashcardIds]));
 
-        if (favoriteIds.length === 0) continue;
+        return {
+          exam,
+          markedQuestionIds,
+          markedFlashcardIds,
+          examFavoriteTags,
+          favoriteIds,
+        };
+      }).filter(item => item.favoriteIds.length > 0);
 
-        const dataset =
-          currentDataset.id === exam.id ? currentDataset : await loadExamData(exam.path);
+      const loadedDatasets = await Promise.all(
+        examsWithFavorites.map(async (item) => {
+          const dataset =
+            currentDataset.id === item.exam.id ? currentDataset : await loadExamData(item.exam.path);
+          return { ...item, dataset };
+        })
+      );
 
+      for (const { exam, dataset, markedQuestionIds, markedFlashcardIds, examFavoriteTags, favoriteIds } of loadedDatasets) {
         for (const question of dataset.questions) {
           if (!favoriteIds.includes(question.id)) continue;
 

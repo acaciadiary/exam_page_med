@@ -19,6 +19,14 @@ export async function loadManifest() {
   return loadJson<ExamManifest>("data/manifest.json");
 }
 
+const examDataCache: Record<string, ExamDataset> = {};
+
 export async function loadExamData(path: string) {
-  return loadJson<ExamDataset>(path);
+  if (examDataCache[path]) {
+    return examDataCache[path];
+  }
+  const data = await loadJson<ExamDataset>(path);
+  examDataCache[path] = data;
+  return data;
 }
+
