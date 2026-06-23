@@ -123,6 +123,48 @@ select {
   border-color: rgb(255 255 255 / 0.14) !important;
 }
 
+.theme-clinical .journal-paper {
+  background-image:
+    linear-gradient(rgba(39, 86, 125, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(39, 86, 125, 0.045) 1px, transparent 1px),
+    radial-gradient(circle at 18% 22%, rgba(218, 237, 249, 0.62), transparent 24rem),
+    radial-gradient(circle at 88% 18%, rgba(218, 242, 234, 0.52), transparent 22rem),
+    radial-gradient(circle at 62% 82%, rgba(232, 238, 247, 0.66), transparent 24rem);
+}
+
+.theme-clinical [class*="bg-white"] {
+  background-color: rgb(255 255 255 / 0.86) !important;
+}
+
+.theme-clinical [class*="border-white"] {
+  border-color: rgb(163 190 210 / 0.45) !important;
+}
+
+.theme-clinical h1,
+.theme-clinical h2,
+.theme-clinical h3 {
+  color: #20384f !important;
+}
+
+.theme-clinical p,
+.theme-clinical a,
+.theme-clinical span {
+  color: inherit;
+}
+
+.theme-clinical .font-hand {
+  letter-spacing: 0.01em;
+}
+
+.theme-clinical .theme-control button[aria-label*="專業藍"] {
+  background: #dbeafe !important;
+  color: #1f4e79 !important;
+}
+
+.theme-clinical button:hover {
+  border-color: rgb(84 139 181 / 0.55);
+}
+
 .theme-dark textarea {
   background-color: rgb(32 27 37 / 0.82) !important;
   border-color: rgb(255 255 255 / 0.14) !important;

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { AlertCircle } from "lucide-react";
+import { AlertCircle, ArrowRight, ClipboardCheck, Radar, Sparkles } from "lucide-react";
 import { AppShell } from "../components/AppShell";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
@@ -13,31 +13,38 @@ import { FlashcardMode } from "../features/flashcards/FlashcardMode";
 import {
   MistakeNotebookPage,
   type MistakeEntry,
+  type MistakeStatus,
 } from "../features/mistakes/MistakeNotebookPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useMarkedItems } from "../hooks/useMarkedItems";
+import { getExamDisplayTitle, getSubjectLabel } from "../lib/examMetadata";
 import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
-import { isAcceptedAnswer } from "../lib/text";
+import { compactText, isAcceptedAnswer } from "../lib/text";
 import { buildSearchForPage, readPageFromSearch, type AppPage } from "./routes";
 import type { AnswerState, ExamDataset, ExamManifest, Mode } from "../types/exam";
 import type { StickyNoteItem } from "../types/stickyNote";
+import type { AppTheme } from "../components/ThemeToggle";
 
 type LoadState =
   | { status: "loading" }
   | { status: "ready"; manifest: ExamManifest; dataset: ExamDataset }
   | { status: "error"; message: string };
 
+type PerformanceStat = {
+  label: string;
+  answered: number;
+  correct: number;
+  accuracy: number;
+};
+
 export default function App() {
   const [page, setPage] = useState<AppPage>(() =>
     readPageFromSearch(window.location.search),
   );
-  const [theme, setTheme] = useLocalStorage<"light" | "dark">(
-    storageKeys.theme,
-    "light",
-  );
+  const [theme, setTheme] = useLocalStorage<AppTheme>(storageKeys.theme, "light");
   const [mode, setMode] = useLocalStorage<Mode>(storageKeys.activeMode, "exam");
   const [activeExamId, setActiveExamId] = useLocalStorage<string>(
     storageKeys.activeExam,
@@ -51,10 +58,15 @@ export default function App() {
     questionId: string;
   } | null>(null);
   const [allMistakes, setAllMistakes] = useState<MistakeEntry[]>([]);
+  const [performanceStats, setPerformanceStats] = useState<PerformanceStat[]>([]);
   const [isMistakesLoading, setIsMistakesLoading] = useState(false);
   const [favorites, setFavorites] = useState<FavoriteEntry[]>([]);
   const [isFavoritesLoading, setIsFavoritesLoading] = useState(false);
   const [mistakePracticeIds, setMistakePracticeIds] = useState<Record<string, string[]>>({});
+  const [mistakeStatuses, setMistakeStatuses] = useLocalStorage<Record<string, MistakeStatus>>(
+    storageKeys.mistakeStatus,
+    {},
+  );
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
     [],
@@ -85,16 +97,11 @@ export default function App() {
         );
 
         const manifest = await loadManifest();
-        const activeExamExists = manifest.exams.some(
-          (exam) => exam.id === activeExamId,
-        );
+        const activeExamExists = manifest.exams.some((exam) => exam.id === activeExamId);
         const selected =
-          manifest.exams.find((exam) => exam.id === activeExamId) ??
-          manifest.exams[0];
+          manifest.exams.find((exam) => exam.id === activeExamId) ?? manifest.exams[0];
 
-        if (!selected) {
-          throw new Error("目前找不到任何考卷資料。");
-        }
+        if (!selected) throw new Error("找不到題庫資料。");
 
         if ((!activeExamId || !activeExamExists) && selected.id !== activeExamId) {
           setActiveExamId(selected.id);
@@ -111,7 +118,7 @@ export default function App() {
           setIsDatasetLoading(false);
           setState({
             status: "error",
-            message: error instanceof Error ? error.message : "載入考卷時發生錯誤。",
+            message: error instanceof Error ? error.message : "題庫載入失敗。",
           });
         }
       }
@@ -145,42 +152,61 @@ export default function App() {
     const manifest = state.manifest;
     const currentDataset = state.dataset;
 
-    async function collectMistakes() {
+    async function collectMistakesAndStats() {
       setIsMistakesLoading(true);
 
       const entries: MistakeEntry[] = [];
+      const stats = new Map<string, { answered: number; correct: number }>();
 
       for (const exam of manifest.exams) {
-        const examAnswers =
-          exam.id === examId ? answers : readStoredAnswers(exam.id);
-
-        if (Object.keys(examAnswers).length === 0) {
-          continue;
-        }
+        const examAnswers = exam.id === examId ? answers : readStoredAnswers(exam.id);
+        if (Object.keys(examAnswers).length === 0) continue;
 
         const dataset =
-          currentDataset.id === exam.id
-            ? currentDataset
-            : await loadExamData(exam.path);
+          currentDataset.id === exam.id ? currentDataset : await loadExamData(exam.path);
+        const label = getSubjectLabel(exam);
 
         for (const question of dataset.questions) {
           const selectedAnswer = examAnswers[question.id];
+          if (!selectedAnswer) continue;
 
-          if (selectedAnswer && !isAcceptedAnswer(selectedAnswer, question)) {
-            entries.push({ exam, question, selectedAnswer });
+          const current = stats.get(label) ?? { answered: 0, correct: 0 };
+          current.answered += 1;
+          if (isAcceptedAnswer(selectedAnswer, question)) current.correct += 1;
+          stats.set(label, current);
+
+          if (!isAcceptedAnswer(selectedAnswer, question)) {
+            const key = mistakeKey(exam.id, question.id);
+            entries.push({
+              exam,
+              question,
+              selectedAnswer,
+              status: mistakeStatuses[key] ?? "first",
+            });
           }
         }
       }
 
       if (!cancelled) {
         setAllMistakes(entries);
+        setPerformanceStats(
+          Array.from(stats.entries())
+            .map(([label, stat]) => ({
+              label,
+              answered: stat.answered,
+              correct: stat.correct,
+              accuracy: stat.answered === 0 ? 0 : Math.round((stat.correct / stat.answered) * 100),
+            }))
+            .sort((a, b) => a.accuracy - b.accuracy),
+        );
         setIsMistakesLoading(false);
       }
     }
 
-    collectMistakes().catch(() => {
+    collectMistakesAndStats().catch(() => {
       if (!cancelled) {
         setAllMistakes([]);
+        setPerformanceStats([]);
         setIsMistakesLoading(false);
       }
     });
@@ -188,7 +214,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [answers, examId, readyDataset, state]);
+  }, [answers, examId, mistakeStatuses, readyDataset, state]);
 
   useEffect(() => {
     if (state.status !== "ready") return undefined;
@@ -215,16 +241,12 @@ export default function App() {
           exam.id === examId
             ? favoriteTags
             : readStoredFavoriteTags(storageKeys.favoriteTags(exam.id));
-        const favoriteIds = Array.from(
-          new Set([...markedQuestionIds, ...markedFlashcardIds]),
-        );
+        const favoriteIds = Array.from(new Set([...markedQuestionIds, ...markedFlashcardIds]));
 
         if (favoriteIds.length === 0) continue;
 
         const dataset =
-          currentDataset.id === exam.id
-            ? currentDataset
-            : await loadExamData(exam.path);
+          currentDataset.id === exam.id ? currentDataset : await loadExamData(exam.path);
 
         for (const question of dataset.questions) {
           if (!favoriteIds.includes(question.id)) continue;
@@ -285,6 +307,13 @@ export default function App() {
     setPage(nextPage);
   };
 
+  const openQuestion = (targetExamId: string, questionId: string) => {
+    setMode("exam");
+    setActiveExamId(targetExamId);
+    setPendingQuestion({ examId: targetExamId, questionId });
+    handlePageChange("exam");
+  };
+
   const handleAddNote = (text: string) => {
     setStickyNotes((current) => [
       {
@@ -301,13 +330,13 @@ export default function App() {
   };
 
   const handleClearNotes = () => {
-    if (!window.confirm("確定要清空全部便利貼嗎？這個動作無法復原。")) return;
+    if (!window.confirm("確定清空所有便條？")) return;
     setStickyNotes([]);
   };
 
   const handleClearAllMistakes = () => {
     if (state.status !== "ready" || allMistakes.length === 0) return;
-    if (!window.confirm("確定要清空目前所有錯題紀錄嗎？答錯紀錄會從錯題本移除。")) return;
+    if (!window.confirm("確定清空所有錯題紀錄？")) return;
 
     const mistakeIdsByExam = new Map<string, string[]>();
 
@@ -325,9 +354,7 @@ export default function App() {
       }
 
       const storedAnswers = readStoredAnswers(targetExamId);
-      for (const questionId of questionIds) {
-        delete storedAnswers[questionId];
-      }
+      for (const questionId of questionIds) delete storedAnswers[questionId];
       writeStoredAnswers(targetExamId, storedAnswers);
     }
 
@@ -337,7 +364,7 @@ export default function App() {
 
   const handleClearAllFavorites = () => {
     if (state.status !== "ready" || favorites.length === 0) return;
-    if (!window.confirm("確定要清空全部收藏嗎？題目收藏與背卡收藏都會移除。")) return;
+    if (!window.confirm("確定清空所有收藏？")) return;
 
     for (const exam of state.manifest.exams) {
       if (exam.id === examId) {
@@ -360,13 +387,14 @@ export default function App() {
 
     const idsByExam: Record<string, string[]> = {};
     for (const mistake of allMistakes) {
+      if (mistake.status === "mastered") continue;
       idsByExam[mistake.exam.id] = [
         ...(idsByExam[mistake.exam.id] ?? []),
         mistake.question.id,
       ];
     }
 
-    const firstMistake = allMistakes[0];
+    const firstMistake = allMistakes.find((mistake) => mistake.status !== "mastered") ?? allMistakes[0];
     setMistakePracticeIds(idsByExam);
     setMode("exam");
     setActiveExamId(firstMistake.exam.id);
@@ -386,11 +414,8 @@ export default function App() {
         : [...currentTags, tag];
       const next = { ...current };
 
-      if (nextTags.length === 0) {
-        delete next[questionId];
-      } else {
-        next[questionId] = nextTags;
-      }
+      if (nextTags.length === 0) delete next[questionId];
+      else next[questionId] = nextTags;
 
       return next;
     };
@@ -413,14 +438,23 @@ export default function App() {
     );
   };
 
+  const handleMistakeStatusChange = (
+    targetExamId: string,
+    questionId: string,
+    status: MistakeStatus,
+  ) => {
+    setMistakeStatuses((current) => ({
+      ...current,
+      [mistakeKey(targetExamId, questionId)]: status,
+    }));
+  };
+
   if (state.status === "loading") {
     return (
       <div className="grid min-h-screen place-items-center bg-[#fff8f4] px-6 text-[#4b3b35]">
         <div className="rounded-[1.5rem] border border-white/80 bg-white/72 px-8 py-7 text-center shadow-[0_18px_60px_rgba(181,133,117,0.18)] backdrop-blur-2xl">
           <div className="mx-auto h-12 w-12 animate-spin rounded-full border-2 border-[#f6a9c6] border-t-transparent" />
-          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">
-            正在載入考卷資料...
-          </p>
+          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">載入題庫中...</p>
         </div>
       </div>
     );
@@ -431,10 +465,8 @@ export default function App() {
       <div className="grid min-h-screen place-items-center bg-slate-950 px-6 text-white">
         <div className="max-w-md rounded-lg border border-red-300/30 bg-red-500/10 p-6">
           <AlertCircle className="text-red-200" />
-          <h1 className="mt-4 text-xl font-semibold">考卷載入失敗</h1>
-          <p className="mt-2 text-sm leading-6 text-red-100/80">
-            {state.message}
-          </p>
+          <h1 className="mt-4 text-xl font-semibold">題庫載入失敗</h1>
+          <p className="mt-2 text-sm leading-6 text-red-100/80">{state.message}</p>
         </div>
       </div>
     );
@@ -457,9 +489,9 @@ export default function App() {
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
       onModeChange={setMode}
-      onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onThemeChange={setTheme}
       onReset={() => {
-        if (!window.confirm("確定要清空本卷作答嗎？")) return;
+        if (!window.confirm("確定重置本科作答？")) return;
         resetAnswers();
       }}
     >
@@ -475,20 +507,22 @@ export default function App() {
               className="absolute inset-0 z-30 grid min-h-80 place-items-center rounded-[1.5rem] bg-[#fff8f4]/72 backdrop-blur-sm"
             >
               <div className="rounded-full border border-[#efd9d0] bg-white/86 px-5 py-3 text-sm font-semibold tracking-[0.12em] text-[#9c7b70] shadow-[0_18px_50px_rgba(181,133,117,0.16)]">
-                正在切換考卷...
+                正在切換題庫...
               </div>
             </motion.div>
           ) : null}
         </AnimatePresence>
 
-        <DailyReviewHint
-          mistakeCount={allMistakes.length}
-          favoriteCount={favorites.length}
-          noteCount={stickyNotes.length}
-          onGoMistakes={() => handlePageChange("mistakes")}
-          onGoFavorites={() => handlePageChange("favorites")}
-          onGoNotes={() => handlePageChange("notes")}
-        />
+        {page === "exam" && (
+          <DailyStudyPanel
+            mistakes={allMistakes}
+            favorites={favorites}
+            stats={performanceStats}
+            onOpenQuestion={openQuestion}
+            onGoMistakes={() => handlePageChange("mistakes")}
+            onGoFavorites={() => handlePageChange("favorites")}
+          />
+        )}
 
         {page === "mistakes" ? (
           <MistakeNotebookPage
@@ -496,12 +530,8 @@ export default function App() {
             loading={isMistakesLoading}
             onClearMistakes={handleClearAllMistakes}
             onStartPractice={handleStartMistakePractice}
-            onOpenQuestion={(targetExamId, questionId) => {
-              setMode("exam");
-              setActiveExamId(targetExamId);
-              setPendingQuestion({ examId: targetExamId, questionId });
-              handlePageChange("exam");
-            }}
+            onOpenQuestion={openQuestion}
+            onStatusChange={handleMistakeStatusChange}
           />
         ) : page === "favorites" ? (
           <FavoritesPage
@@ -509,12 +539,7 @@ export default function App() {
             loading={isFavoritesLoading}
             onClearFavorites={handleClearAllFavorites}
             onToggleTag={handleToggleFavoriteTag}
-            onOpenQuestion={(targetExamId, questionId) => {
-              setMode("exam");
-              setActiveExamId(targetExamId);
-              setPendingQuestion({ examId: targetExamId, questionId });
-              handlePageChange("exam");
-            }}
+            onOpenQuestion={openQuestion}
           />
         ) : page === "notes" ? (
           <StickyNotesPage
@@ -524,10 +549,7 @@ export default function App() {
             onClearNotes={handleClearNotes}
           />
         ) : dataset.questions.length === 0 ? (
-          <EmptyState
-            title="這一卷目前沒有題目"
-            description="資料已載入，但目前還沒有可顯示的題目內容。"
-          />
+          <EmptyState title="沒有題目" description="目前這份資料沒有可練習的題目。" />
         ) : (
           <AnimatePresence mode="wait">
             {mode === "exam" ? (
@@ -546,8 +568,8 @@ export default function App() {
                   reviewMode={
                     mistakePracticeIds[dataset.id]?.length
                       ? {
-                          title: "錯題再練模式",
-                          description: `目前只顯示這份題庫中的 ${mistakePracticeIds[dataset.id].length} 題錯題。`,
+                          title: "錯題練習",
+                          description: `本次練習 ${mistakePracticeIds[dataset.id].length} 題未掌握錯題。`,
                           questionIds: mistakePracticeIds[dataset.id],
                           onExit: () => setMistakePracticeIds({}),
                         }
@@ -563,16 +585,127 @@ export default function App() {
                 exit={{ opacity: 0, y: -12, filter: "blur(8px)" }}
                 transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
               >
-                <FlashcardMode
-                  dataset={dataset}
-                  markedFlashcards={markedFlashcards}
-                />
+                <FlashcardMode dataset={dataset} markedFlashcards={markedFlashcards} />
               </motion.div>
             )}
           </AnimatePresence>
         )}
       </div>
     </AppShell>
+  );
+}
+
+function DailyStudyPanel({
+  mistakes,
+  favorites,
+  stats,
+  onOpenQuestion,
+  onGoMistakes,
+  onGoFavorites,
+}: {
+  mistakes: MistakeEntry[];
+  favorites: FavoriteEntry[];
+  stats: PerformanceStat[];
+  onOpenQuestion: (examId: string, questionId: string) => void;
+  onGoMistakes: () => void;
+  onGoFavorites: () => void;
+}) {
+  const activeMistakes = mistakes.filter((mistake) => mistake.status !== "mastered");
+  const firstMistake = activeMistakes.find((mistake) => mistake.status === "final") ?? activeMistakes[0];
+  const firstFavorite = favorites.find((favorite) => favorite.tags.includes("考前必看")) ?? favorites[0];
+  const weakest = stats.find((stat) => stat.answered >= 3) ?? stats[0];
+
+  return (
+    <section className="mb-6 grid gap-4 xl:grid-cols-[minmax(0,1.3fr)_minmax(20rem,0.7fr)]">
+      <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="flex items-center gap-2 text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
+              <ClipboardCheck size={16} />
+              今日任務
+            </p>
+            <h2 className="mt-2 text-2xl font-semibold text-[#3f342d]">10 分鐘，把題庫拉回可掌控</h2>
+          </div>
+        </div>
+
+        <div className="mt-5 grid gap-3 md:grid-cols-3">
+          <TaskCard
+            title="錯題回顧"
+            description={firstMistake ? compactText(firstMistake.question.question_text, 76) : "目前沒有待複習錯題"}
+            action={firstMistake ? "開始" : "查看"}
+            onClick={() =>
+              firstMistake ? onOpenQuestion(firstMistake.exam.id, firstMistake.question.id) : onGoMistakes()
+            }
+          />
+          <TaskCard
+            title="收藏卡片"
+            description={firstFavorite ? compactText(firstFavorite.question.flashcard_summary || firstFavorite.question.question_text, 76) : "尚未收藏重點題"}
+            action={firstFavorite ? "複習" : "查看"}
+            onClick={() =>
+              firstFavorite ? onOpenQuestion(firstFavorite.exam.id, firstFavorite.question.id) : onGoFavorites()
+            }
+          />
+          <TaskCard
+            title="弱科練習"
+            description={weakest ? `${weakest.label} 目前正確率 ${weakest.accuracy}%` : "作答後會自動分析弱點"}
+            action="看雷達"
+            onClick={onGoMistakes}
+          />
+        </div>
+      </div>
+
+      <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl">
+        <p className="flex items-center gap-2 text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
+          <Radar size={16} />
+          弱點雷達
+        </p>
+        <div className="mt-4 grid gap-3">
+          {stats.length === 0 ? (
+            <p className="text-sm leading-6 text-[#725b52]">答幾題後，這裡會顯示各科正確率。</p>
+          ) : (
+            stats.slice(0, 6).map((stat) => (
+              <div key={stat.label}>
+                <div className="mb-1 flex items-center justify-between text-xs font-semibold text-[#725b52]">
+                  <span>{stat.label}</span>
+                  <span>{stat.accuracy}% · {stat.answered} 題</span>
+                </div>
+                <div className="h-2 overflow-hidden rounded-full bg-[#f2e3dd]">
+                  <div className="h-full rounded-full bg-[#b8e2d4]" style={{ width: `${stat.accuracy}%` }} />
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TaskCard({
+  title,
+  description,
+  action,
+  onClick,
+}: {
+  title: string;
+  description: string;
+  action: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="group min-h-36 rounded-[1.05rem] border border-[#efd9d0] bg-white/72 p-4 text-left transition hover:-translate-y-0.5 hover:border-[#f1aac8] hover:bg-[#fff7fb]"
+    >
+      <Sparkles size={17} className="text-[#b36a84]" />
+      <p className="mt-3 text-sm font-bold text-[#3f342d]">{title}</p>
+      <p className="mt-2 line-clamp-3 text-sm leading-6 text-[#725b52]">{description}</p>
+      <span className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-[#9a496b]">
+        {action}
+        <ArrowRight size={14} />
+      </span>
+    </button>
   );
 }
 
@@ -603,7 +736,7 @@ function readStoredStringArray(key: string): string[] {
 }
 
 function readStoredFavoriteTags(key: string): Record<string, FavoriteTag[]> {
-  const validTags: FavoriteTag[] = ["待複習", "很重要", "易混淆"];
+  const validTags: FavoriteTag[] = ["高頻", "易混淆", "考前必看"];
 
   try {
     const stored = window.localStorage.getItem(key);
@@ -617,9 +750,7 @@ function readStoredFavoriteTags(key: string): Record<string, FavoriteTag[]> {
         .map(([questionId, tags]) => [
           questionId,
           Array.isArray(tags)
-            ? tags.filter((tag): tag is FavoriteTag =>
-                validTags.includes(tag as FavoriteTag),
-              )
+            ? tags.filter((tag): tag is FavoriteTag => validTags.includes(tag as FavoriteTag))
             : [],
         ])
         .filter(([, tags]) => tags.length > 0),
@@ -631,10 +762,7 @@ function readStoredFavoriteTags(key: string): Record<string, FavoriteTag[]> {
 
 function writeStoredAnswers(examId: string, answers: AnswerState) {
   try {
-    window.localStorage.setItem(
-      storageKeys.answers(examId),
-      JSON.stringify(answers),
-    );
+    window.localStorage.setItem(storageKeys.answers(examId), JSON.stringify(answers));
   } catch {
     // Local storage can be unavailable in private browsing.
   }
@@ -656,63 +784,6 @@ function writeStoredFavoriteTags(key: string, values: Record<string, FavoriteTag
   }
 }
 
-function DailyReviewHint({
-  mistakeCount,
-  favoriteCount,
-  noteCount,
-  onGoMistakes,
-  onGoFavorites,
-  onGoNotes,
-}: {
-  mistakeCount: number;
-  favoriteCount: number;
-  noteCount: number;
-  onGoMistakes: () => void;
-  onGoFavorites: () => void;
-  onGoNotes: () => void;
-}) {
-  const hasMistakes = mistakeCount > 0;
-  const hasFavorites = favoriteCount > 0;
-  const hasNotes = noteCount > 0;
-  const suggestion = hasMistakes
-    ? `先把 ${mistakeCount} 題錯題重看一次，再回來寫新題。`
-    : hasFavorites
-      ? `今天可以從 ${favoriteCount} 題收藏開始暖身。`
-      : hasNotes
-        ? `先快速翻一下 ${noteCount} 張便利貼，幫記憶熱機。`
-        : "今天先挑一份題庫做 10 題，建立手感就好。";
-
-  return (
-    <section className="mb-6 rounded-[1.25rem] border border-white/80 bg-white/78 p-4 shadow-[0_14px_42px_rgba(181,133,117,0.12)] backdrop-blur-2xl">
-      <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-        <div>
-          <p className="text-sm font-semibold text-[#b36a84]">今日建議複習</p>
-          <p className="mt-1 text-sm leading-6 text-[#725b52]">{suggestion}</p>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={onGoMistakes}
-            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-          >
-            看錯題
-          </button>
-          <button
-            type="button"
-            onClick={onGoFavorites}
-            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-          >
-            看收藏
-          </button>
-          <button
-            type="button"
-            onClick={onGoNotes}
-            className="rounded-full border border-[#efd9d0] bg-white px-3 py-2 text-xs font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-          >
-            看便利貼
-          </button>
-        </div>
-      </div>
-    </section>
-  );
+function mistakeKey(examId: string, questionId: string) {
+  return `${examId}:${questionId}`;
 }

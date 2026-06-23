@@ -35,11 +35,6 @@ export function QuestionCard({
           <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#c4869b]">
             Note {question.question_number.toString().padStart(3, "0")}
           </p>
-          {question.category && (
-            <p className="mt-2 inline-flex rounded-full bg-[#f8eae3] px-3 py-1 text-xs font-semibold text-[#7d6259]">
-              {question.category}
-            </p>
-          )}
           <h2 className="mt-3 break-words text-lg font-semibold leading-8 text-[#4b3b35] sm:text-xl">
             {question.question_text}
           </h2>
@@ -61,7 +56,7 @@ export function QuestionCard({
             你的答案：{selected}
           </span>
           <span className="rounded-full bg-[#e9f6f1] px-3 py-1 font-semibold text-[#4c806e]">
-            正確答案：{formatCorrectAnswers(question)}
+            正解：{formatCorrectAnswers(question)}
           </span>
           {question.answer_source === "official_correction" && (
             <span className="rounded-full bg-[#fff3cb] px-3 py-1 font-semibold text-[#87693d]">
@@ -75,7 +70,7 @@ export function QuestionCard({
                 : "rounded-full bg-[#fff0f3] px-3 py-1 font-semibold text-[#9a496b]"
             }
           >
-            {isCorrect ? "答對了" : "再看一次"}
+            {isCorrect ? "答對了" : "再複習一次"}
           </span>
           {question.answer_note && (
             <span className="basis-full text-xs font-medium leading-6 text-[#8a7066]">

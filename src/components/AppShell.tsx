@@ -1,7 +1,7 @@
 import {
+  ArrowUp,
   BookOpenCheck,
   BookmarkCheck,
-  ArrowUp,
   ChevronDown,
   ClipboardX,
   Layers3,
@@ -22,7 +22,7 @@ import {
   groupExamsByStage,
 } from "../lib/examMetadata";
 import type { ExamManifestItem, Mode } from "../types/exam";
-import { ThemeToggle } from "./ThemeToggle";
+import { ThemeToggle, type AppTheme } from "./ThemeToggle";
 
 type AppShellProps = {
   children: ReactNode;
@@ -30,7 +30,7 @@ type AppShellProps = {
   activeExamId: string;
   page: AppPage;
   mode: Mode;
-  theme: "light" | "dark";
+  theme: AppTheme;
   answeredCount: number;
   questionCount: number;
   wrongQuestionCount: number;
@@ -39,7 +39,7 @@ type AppShellProps = {
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
   onModeChange: (mode: Mode) => void;
-  onThemeToggle: () => void;
+  onThemeChange: (theme: AppTheme) => void;
   onReset: () => void;
 };
 
@@ -63,7 +63,7 @@ export function AppShell({
   onExamChange,
   onPageChange,
   onModeChange,
-  onThemeToggle,
+  onThemeChange,
   onReset,
 }: AppShellProps) {
   const groupedExams = groupExamsByStage(exams);
@@ -107,12 +107,14 @@ export function AppShell({
       className={clsx(
         "study-journal min-h-screen overflow-hidden bg-[#fff8f4] text-[#4b3b35] transition-colors duration-500",
         theme === "dark" && "theme-dark bg-[#19161e] text-[#f8edf3]",
+        theme === "clinical" && "theme-clinical bg-[#f4f8fb] text-[#26384a]",
       )}
     >
       <div
         className={clsx(
           "pointer-events-none fixed inset-0 z-0 bg-[url('/assets/pastel-study-desk.png')] bg-cover bg-top opacity-35 transition-opacity duration-500",
           theme === "dark" && "opacity-10",
+          theme === "clinical" && "opacity-12 saturate-50",
         )}
       />
       <div className="pointer-events-none fixed inset-0 z-0 journal-paper opacity-70" />
@@ -127,20 +129,17 @@ export function AppShell({
                 </div>
                 <div>
                   <h1 className="text-xl font-semibold tracking-[0.04em] text-[#3f342d] sm:text-2xl">
-                    醫師國考複習站
+                    醫師國考複習筆記
                   </h1>
                   <p className="mt-1 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                    你的專屬國考筆記
+                    題庫、錯題、卡片與每日任務
                   </p>
                 </div>
               </div>
 
               <div className="flex flex-wrap items-center gap-2">
-                <PageButton
-                  active={page === "exam"}
-                  onClick={() => onPageChange("exam")}
-                >
-                  考題練習
+                <PageButton active={page === "exam"} onClick={() => onPageChange("exam")}>
+                  題庫
                 </PageButton>
                 <PageButton
                   active={page === "mistakes"}
@@ -148,7 +147,7 @@ export function AppShell({
                   icon={<ClipboardX size={16} />}
                   badge={wrongQuestionCount}
                 >
-                  我的錯題本
+                  錯題
                 </PageButton>
                 <PageButton
                   active={page === "favorites"}
@@ -156,7 +155,7 @@ export function AppShell({
                   icon={<BookmarkCheck size={16} />}
                   badge={favoriteCount}
                 >
-                  我的收藏
+                  收藏
                 </PageButton>
                 <PageButton
                   active={page === "notes"}
@@ -164,68 +163,49 @@ export function AppShell({
                   icon={<NotebookPen size={16} />}
                   badge={stickyNoteCount}
                 >
-                  我的便利貼
+                  便條
                 </PageButton>
-                <ThemeToggle theme={theme} onToggle={onThemeToggle} />
+                <ThemeToggle theme={theme} onChange={onThemeChange} />
               </div>
             </div>
 
             <div className="grid gap-3 xl:grid-cols-[13rem_auto_minmax(16rem,24rem)_auto]">
-              <Dropdown
-                label="年份"
-                value={activeYear}
-                options={yearOptions}
-                onChange={handleYearChange}
-              />
+              <Dropdown label="年度" value={activeYear} options={yearOptions} onChange={handleYearChange} />
 
               <div className="min-w-0">
                 <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                  考試
+                  階段
                 </p>
                 <div className="inline-flex h-11 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 p-1">
-                  <SegmentButton
-                    active={activeStage === "stage-1"}
-                    onClick={() => handleStageChange("stage-1")}
-                  >
+                  <SegmentButton active={activeStage === "stage-1"} onClick={() => handleStageChange("stage-1")}>
                     {getStageLabel("stage-1")}
                   </SegmentButton>
-                  <SegmentButton
-                    active={activeStage === "stage-2"}
-                    onClick={() => handleStageChange("stage-2")}
-                  >
+                  <SegmentButton active={activeStage === "stage-2"} onClick={() => handleStageChange("stage-2")}>
                     {getStageLabel("stage-2")}
                   </SegmentButton>
                 </div>
               </div>
 
               <Dropdown
-                label="目前題庫"
+                label="科目"
                 value={activeExam?.id ?? ""}
                 options={subjectOptions}
                 onChange={onExamChange}
               />
 
               <div className="flex flex-wrap items-start justify-start gap-2 xl:justify-end">
-                <SummaryPill>作答進度：{answeredCount} / {questionCount}</SummaryPill>
-                <SummaryPill>完成率：{progress}%</SummaryPill>
+                <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
+                <SummaryPill>完成度：{progress}%</SummaryPill>
               </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-2 border-t border-[#f0ded6] pt-4">
               <div className="inline-flex h-11 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 p-1">
-                <ModeButton
-                  active={mode === "exam"}
-                  onClick={() => onModeChange("exam")}
-                  icon={<BookOpenCheck size={16} />}
-                >
-                  作答模式
+                <ModeButton active={mode === "exam"} onClick={() => onModeChange("exam")} icon={<BookOpenCheck size={16} />}>
+                  題目模式
                 </ModeButton>
-                <ModeButton
-                  active={mode === "flashcards"}
-                  onClick={() => onModeChange("flashcards")}
-                  icon={<Layers3 size={16} />}
-                >
-                  背卡模式
+                <ModeButton active={mode === "flashcards"} onClick={() => onModeChange("flashcards")} icon={<Layers3 size={16} />}>
+                  卡片模式
                 </ModeButton>
               </div>
 
@@ -235,7 +215,7 @@ export function AppShell({
                 className="inline-flex h-11 items-center justify-center gap-2 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
               >
                 <RotateCcw size={16} />
-                清空本卷作答
+                重置本科作答
               </button>
             </div>
           </div>
@@ -250,8 +230,8 @@ export function AppShell({
         type="button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         className="fixed bottom-5 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:bottom-6 sm:right-6"
-        aria-label="返回頂部"
-        title="返回頂部"
+        aria-label="回到頂部"
+        title="回到頂部"
       >
         <ArrowUp size={20} />
       </button>
@@ -280,9 +260,7 @@ function Dropdown({
         if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
       }}
     >
-      <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-        {label}
-      </p>
+      <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">{label}</p>
       <button
         type="button"
         onClick={() => setOpen((current) => !current)}
@@ -290,10 +268,7 @@ function Dropdown({
         aria-expanded={open}
       >
         <span className="truncate">{selected?.label ?? "請選擇"}</span>
-        <ChevronDown
-          size={16}
-          className={clsx("shrink-0 text-[#9a7469] transition", open && "rotate-180")}
-        />
+        <ChevronDown size={16} className={clsx("shrink-0 text-[#9a7469] transition", open && "rotate-180")} />
       </button>
 
       {open && (
@@ -323,15 +298,7 @@ function Dropdown({
   );
 }
 
-function SegmentButton({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: ReactNode;
-}) {
+function SegmentButton({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
   return (
     <button
       type="button"

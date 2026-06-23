@@ -3,29 +3,33 @@ import type { ExamManifestItem } from "../types/exam";
 export type ExamStage = "stage-1" | "stage-2";
 
 const subjectLabels: Record<number, string> = {
-  1: "醫學（一）",
-  2: "醫學（二）",
-  3: "醫學（三）",
-  4: "醫學（四）",
-  5: "醫學（五）",
-  6: "醫學（六）",
+  1: "醫學一",
+  2: "醫學二",
+  3: "醫學三",
+  4: "醫學四",
+  5: "醫學五",
+  6: "醫學六",
 };
 
-export function getSubjectNumber(exam: ExamManifestItem) {
+export function getSubjectNumber(exam: ExamManifestItem | { subject: string }) {
   const match = exam.subject.match(/medicine-(\d+)/);
   return match ? Number(match[1]) : 1;
 }
 
-export function getExamStage(exam: ExamManifestItem): ExamStage {
+export function getExamStage(exam: ExamManifestItem | { subject: string }): ExamStage {
   return getSubjectNumber(exam) <= 2 ? "stage-1" : "stage-2";
 }
 
 export function getStageLabel(stage: ExamStage) {
-  return stage === "stage-1" ? "醫師一" : "醫師二";
+  return stage === "stage-1" ? "第一階段" : "第二階段";
 }
 
-export function getSubjectLabel(exam: ExamManifestItem) {
-  return subjectLabels[getSubjectNumber(exam)] ?? exam.title;
+export function getSubjectLabel(exam: ExamManifestItem | { subject: string }) {
+  return subjectLabels[getSubjectNumber(exam)] ?? exam.subject;
+}
+
+export function getExamDisplayTitle(exam: ExamManifestItem | { year: string; subject: string }) {
+  return `${exam.year} ${getStageLabel(getExamStage(exam))} ${getSubjectLabel(exam)}`;
 }
 
 export function groupExamsByStage(exams: ExamManifestItem[]) {

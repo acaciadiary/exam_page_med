@@ -8,6 +8,7 @@ export const storageKeys = {
   markedQuestions: (examId: string) => `${prefix}:marked-questions:${examId}`,
   markedFlashcards: (examId: string) => `${prefix}:marked-flashcards:${examId}`,
   favoriteTags: (examId: string) => `${prefix}:favorite-tags:${examId}`,
+  mistakeStatus: `${prefix}:mistake-status`,
   focusSeconds: `${prefix}:focus-seconds`,
   stickyNotes: `${prefix}:sticky-notes`,
 };
