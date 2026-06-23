@@ -386,6 +386,14 @@ export default function App() {
     handlePageChange("exam");
   };
 
+  useEffect(() => {
+    (window as any).__openQuestion = openQuestion;
+    return () => {
+      delete (window as any).__openQuestion;
+    };
+  }, [openQuestion]);
+
+
   const handleAddNote = (text: string) => {
     setStickyNotes((current) => [
       {

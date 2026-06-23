@@ -1,0 +1,478 @@
+{
+  "comparison_groups": [
+    {
+      "id": "crohn_vs_uc",
+      "title": "克隆氏症 (Crohn's Disease) vs 潰瘍性結腸炎 (Ulcerative Colitis)",
+      "category": "內科學 (胃腸肝膽科) / 病理學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "Crohn 著重於全層發炎、跳躍式病灶、非乾酪性肉芽腫；UC 則限於黏膜與黏膜下層、連續性病灶、隱窩膿瘍。",
+      "common_traps": "考題常將「全層發炎 (Transmural)」與「黏膜層 (Mucosa)」的侵犯深度混淆，或將瘻管 (Fistula) 誤植為 UC 的特徵（瘻管是 Crohn 的特徵）。",
+      "highlight_keywords": [
+        "全層性發炎",
+        "全層發炎",
+        "Transmural",
+        "黏膜與黏膜下層",
+        "Mucosa & Submucosa",
+        "非乾酪性肉芽腫",
+        "Non-caseating granuloma",
+        "隱窩膿瘍",
+        "Crypt abscess",
+        "跳躍式病灶",
+        "Skip lesions",
+        "連續性病灶",
+        "鵝卵石樣外觀",
+        "Cobblestone",
+        "鉛管樣外觀",
+        "Lead-pipe sign",
+        "抽菸是其危險因子",
+        "抽菸反而對其有保護作用"
+      ],
+      "diseases": [
+        {
+          "name": "克隆氏症 (Crohn's Disease)",
+          "aliases": ["Crohn", "克隆氏", "克隆", "Crohn's disease", "Crohn disease"],
+          "features": {
+            "好發部位": "迴腸末端與右側大腸為主（但可侵犯由口至肛門任何部位）",
+            "侵犯深度": "全層性發炎 (Transmural) ➜ 易形成瘻管/狹窄/膿瘍",
+            "病理特徵": "非乾酪性肉芽腫 (Non-caseating granuloma)、跳躍式病灶 (Skip lesions)",
+            "臨床表現": "右下腹痛、腹瀉、瘻管、肛門周圍病變",
+            "大腸鏡外觀": "鵝卵石樣外觀 (Cobblestone)、縱向潰瘍",
+            "治療與其他": "以內科治療為主，手術無法根治且易在吻合口復發。抽菸是其危險因子。"
+          }
+        },
+        {
+          "name": "潰瘍性結腸炎 (Ulcerative Colitis)",
+          "aliases": ["UC", "潰瘍性結腸炎", "潰結", "Ulcerative colitis"],
+          "features": {
+            "好發部位": "直腸往近端大腸連續性延伸",
+            "侵犯深度": "限於黏膜與黏膜下層 (Mucosa & Submucosa) ➜ 易出血",
+            "病理特徵": "隱窩膿瘍 (Crypt abscess)、無肉芽腫發炎",
+            "臨床表現": "黏液血便、裡急後重、左下腹痛",
+            "大腸鏡外觀": "偽息肉 (Pseudopolyps)、鉛管樣外觀 (Lead-pipe sign)",
+            "治療與其他": "全結腸直腸切除術可達到治癒效果。抽菸反而對其有保護作用。"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "111-1_medicine-2_093",
+          "note": "考病理與大體特徵：跳躍式病灶與全壁性發炎之鑑別"
+        },
+        {
+          "question_id": "109-2_medicine-5_029",
+          "note": "比較 UC 及 Crohn's 的大體與顯微特徵差異"
+        }
+      ]
+    },
+    {
+      "id": "ra_vs_oa",
+      "title": "風濕性關節炎 (Rheumatoid Arthritis) vs 退化性關節炎 (Osteoarthritis)",
+      "category": "內科學 (免疫風濕科) / 骨科學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "RA 是自體免疫、對稱性、晨僵 >1小時，且侵犯 PIP/MCP/MTP；OA 是磨損退化、非對稱性、晨僵 <30分鐘，且侵犯 DIP (Heberden's) 與 PIP (Bouchard's)。",
+      "common_traps": "考題愛考「關節受侵犯位置的區別」，特別是 DIP (遠端指間關節) 是 OA 典型受侵犯處，但 RA 幾乎不會侵犯 DIP。",
+      "highlight_keywords": [
+        "自體免疫",
+        "晨僵",
+        "DIP",
+        "PIP",
+        "MCP",
+        "Heberden",
+        "Bouchard",
+        "對稱性",
+        "非對稱性",
+        "活動後改善",
+        "活動後加劇"
+      ],
+      "diseases": [
+        {
+          "name": "類風濕性關節炎 (Rheumatoid Arthritis)",
+          "aliases": ["RA", "類風濕性關節炎", "風濕性關節炎", "Rheumatoid arthritis"],
+          "features": {
+            "病理機轉": "滑膜發炎 (Synovitis) 介導之全身性自體免疫疾病",
+            "晨僵時間": "典型大於 1 小時，且活動後會改善",
+            "好發關節": "PIP (近端指關節)、MCP (掌指關節)、MTP、手腕；對稱性發作（DIP 幾乎不侵犯）",
+            "X光表現": "關節周邊骨質流失 (Periarticular osteopenia)、對稱性關節腔變窄",
+            "理學特徵": "天鵝頸變形 (Swan-neck)、鈕扣孔變形 (Boutonniere)",
+            "血清標記": "RF (Rheumatoid Factor)、Anti-CCP 陽性 (具高特異性)"
+          }
+        },
+        {
+          "name": "退化性關節炎 (Osteoarthritis)",
+          "aliases": ["OA", "退化性關節炎", "骨關節炎", "Osteoarthritis"],
+          "features": {
+            "病理機轉": "關節軟骨磨損、軟骨下骨質增生與骨刺形成",
+            "晨僵時間": "短於 30 分鐘，活動後疼痛加劇、休息可緩解",
+            "好發關節": "DIP (遠端指關節)、PIP、承重關節（如膝關節、髖關節）；非對稱性發作",
+            "X光表現": "非對稱性關節腔變窄、軟骨下骨質硬化 (Subchondral sclerosis)、骨刺 (Osteophyte)",
+            "理學特徵": "Heberden's nodes (DIP 結節)、Bouchard's nodes (PIP 結節)",
+            "血清標記": "發炎指標 (ESR, CRP) 多正常，無特異性自體抗體"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "tension_vs_simple_pneumothorax",
+      "title": "張力性氣胸 (Tension Pneumothorax) vs 單純性氣胸 (Simple Pneumothorax)",
+      "category": "外科學 (胸腔外科) / 急診醫學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "張力性氣胸是臨床緊急診斷，患者血流動力學不穩定（低血壓、頸靜脈怒張、氣管偏健側），必須立即針刺減壓或插胸管，絕對不可以等待 X 光照相！",
+      "common_traps": "常考「張力性氣胸的處理順序」，選項會誘騙你「先照 Chest X-ray 確診再處置」或「先抽血」。記住，張力性氣胸是直接理學診斷，直接處置！",
+      "highlight_keywords": [
+        "血流動力學不穩定",
+        "氣管偏向正常側",
+        "氣管偏向健側",
+        "低血壓",
+        "頸靜脈怒張",
+        "立即針刺減壓",
+        "插胸管",
+        "不可以等待",
+        "不可照X光",
+        "臨床診斷",
+        "血流動力學穩定"
+      ],
+      "diseases": [
+        {
+          "name": "張力性氣胸 (Tension Pneumothorax)",
+          "aliases": ["張力性氣胸", "Tension pneumothorax"],
+          "features": {
+            "病理機轉": "單向瓣膜效應 (One-way valve)，空氣只進不出，使胸腔內壓持續升高",
+            "血流動力學": "不穩定 ➜ 縱膈腔移位，壓迫下腔靜脈回流 ➜ 導致阻塞性休克、低血壓",
+            "理學檢查": "患側呼吸音消失、叩診呈鼓音、頸靜脈怒張、氣管顯著偏向健側",
+            "臨床處置": "醫療急症！立即進行針刺減壓 (Needle decompression) 或插胸管引流，絕對不可等待 X 光。"
+          }
+        },
+        {
+          "name": "單純性氣胸 (Simple Pneumothorax)",
+          "aliases": ["單純性氣胸", "自發性氣胸", "Spontaneous pneumothorax", "Simple pneumothorax"],
+          "features": {
+            "病理機轉": "肺部氣泡破裂，氣體進入肋膜腔，但肋膜腔與大氣/肺泡壓力達平衡，無持續蓄壓",
+            "血流動力學": "穩定 ➜ 無縱膈腔擺動與大靜脈壓迫，血壓通常正常",
+            "理學檢查": "患側呼吸音減弱、叩診呈反響音、氣管無明顯位移、無頸靜脈怒張",
+            "臨床處置": "生命徵象穩定。可先照胸部 X 光確診。小範圍 (<20% 或 <2cm) 可給氧觀察；大範圍則置入胸管引流。"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-2_medicine-5_002",
+          "note": "考張力性氣胸的診斷處置原則，不可等待照X光"
+        },
+        {
+          "question_id": "109-2_medicine-5_029",
+          "note": "比較張力性氣胸與心包膜填塞的理學檢查差異"
+        }
+      ]
+    },
+    {
+      "id": "t1dm_vs_t2dm",
+      "title": "第一型糖尿病 (T1DM) vs 第二型糖尿病 (T2DM)",
+      "category": "內科學 (新陳代謝科) / 小兒科學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "T1DM 是自體免疫破壞β細胞，胰島素絕對缺乏，好發年輕高瘦者，易發 DKA；T2DM 是胰島素阻抗與相對缺乏，好發肥胖者，易發 HHS。",
+      "common_traps": "常考「自體免疫抗體」的存在性，以及急性併發症的配對（T1DM ➜ DKA；T2DM ➜ HHS / NKHS）。",
+      "highlight_keywords": [
+        "自體免疫破壞",
+        "胰島素阻抗",
+        "絕對缺乏",
+        "相對缺乏",
+        "DKA",
+        "HHS",
+        "ICA",
+        "GADA",
+        "HLADR",
+        "家族遺傳傾向"
+      ],
+      "diseases": [
+        {
+          "name": "第一型糖尿病 (Type 1 DM)",
+          "aliases": ["Type 1 DM", "T1DM", "第一型糖尿病", "第1型糖尿病"],
+          "features": {
+            "發病年齡與體型": "青少年/兒童為主，體型多偏瘦",
+            "病因機轉": "自體免疫破壞胰臟 T 細胞，導致胰島素絕對缺乏",
+            "自體抗體": "陽性 (如 GADA, ICA, IA-2A)",
+            "遺傳與 HLA": "與 HLA-DR3/DR4 強烈相關，但同卵雙胞胎一致率較 T2DM 低",
+            "急性併發症": "酮酸中毒 (Diabetic Ketoacidosis, DKA)",
+            "治療方式": "終身依賴胰島素注射治療"
+          }
+        },
+        {
+          "name": "第二型糖尿病 (Type 2 DM)",
+          "aliases": ["Type 2 DM", "T2DM", "第二型糖尿病", "第2型糖尿病"],
+          "features": {
+            "發病年齡與體型": "中老年人為主（但有年輕化趨勢），多合併肥胖/超重",
+            "病因機轉": "胰島素阻抗 (Insulin resistance) 伴隨胰島素相對缺乏",
+            "自體抗體": "陰性",
+            "遺傳與 HLA": "具極強家族遺傳傾向，同卵雙胞胎一致率高達 90% 以上，無特定 HLA 關聯",
+            "急性併發症": "高滲透壓高血糖狀態 (HHS/NKHS)",
+            "治療方式": "生活作息調整、口服降血糖藥 (OAD)，後期可能需要胰島素"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-3_063",
+          "note": "考糖尿病的分類、診斷與病理成因"
+        }
+      ]
+    },
+    {
+      "id": "gout_vs_pseudogout",
+      "title": "痛風 (Gout) vs 假性痛風 (Pseudogout)",
+      "category": "內科學 (免疫風濕科) / 病理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "痛風是尿酸鈉結晶 (MSU)，偏光鏡下呈針狀、強烈負雙折射 (黃色)；假性痛風是焦磷酸鈣結晶 (CPPD)，呈菱形/磚塊狀、弱正雙折射 (藍色)。",
+      "common_traps": "結晶的「形狀」與「偏光鏡顏色/雙折射性」是國考超常考的秒殺考點，切記不要記反！",
+      "highlight_keywords": [
+        "尿酸鈉結晶",
+        "焦磷酸鈣結晶",
+        "MSU",
+        "CPPD",
+        "針狀",
+        "菱形",
+        "負雙折射",
+        "正雙折射",
+        "黃色",
+        "藍色"
+      ],
+      "diseases": [
+        {
+          "name": "痛風 (Gout)",
+          "aliases": ["痛風", "Gout"],
+          "features": {
+            "結晶成分": "單水尿酸鈉 (Monosodium urate, MSU) 結晶",
+            "結晶形狀": "針狀 (Needle-shaped)",
+            "偏光鏡表現": "強烈負雙折射 (Strongly negatively birefringent) ➜ 平行時呈黃色",
+            "好發關節": "第一趾骨關節 (1st MTP ➜ Podagra)、足踝、手部關節",
+            "誘發因子": "高普林飲食、酒精、利尿劑使用、腎功能不佳",
+            "X光表現": "打孔樣骨侵蝕 (Punched-out erosions) 伴隨懸吊邊緣 (Overhanging edge)"
+          }
+        },
+        {
+          "name": "假性痛風 (Pseudogout)",
+          "aliases": ["假性痛風", "Pseudogout", "焦磷酸鈣沉積症", "CPPD"],
+          "features": {
+            "結晶成分": "二水焦磷酸鈣 (Calcium pyrophosphate dihydrate, CPPD) 結晶",
+            "結晶形狀": "菱形、板狀或磚塊狀 (Rhomboid-shaped)",
+            "偏光鏡表現": "弱正雙折射 (Weakly positively birefringent) ➜ 平行時呈藍色",
+            "好發關節": "膝關節 (Knee, 最常見)、手腕、肩關節",
+            "誘發因子": "高齡、副甲狀腺亢進、血色病 (Hemochromatosis)、低鎂血症",
+            "X光表現": "關節軟骨鈣化症 (Chondrocalcinosis，於關節腔形成白色線條)"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "edh_vs_sdh",
+      "title": "硬腦膜外血腫 (EDH) vs 硬腦膜下血腫 (SDH)",
+      "category": "外科學 (神經外科) / 解剖學 / 放射診斷學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "EDH 是中腦膜動脈破裂，呈凸透鏡/檸檬形，有清明期 (Lucid interval)；SDH 是橋靜脈破裂，呈凹透鏡/新月形，多見於老人或酗酒者。",
+      "common_traps": "考題常給予 CT 影像描述，要求區分「新月形」與「雙凸透鏡形」，或詢問受損血管（中腦膜動脈 vs 橋靜脈）。",
+      "highlight_keywords": [
+        "中腦膜動脈",
+        "橋靜脈",
+        "Meningeal artery",
+        "Bridging veins",
+        "凸透鏡形",
+        "新月形",
+        "清明期",
+        "Lucid interval",
+        "不跨越骨縫",
+        "可跨越骨縫"
+      ],
+      "diseases": [
+        {
+          "name": "硬腦膜外血腫 (Epidural Hematoma, EDH)",
+          "aliases": ["EDH", "硬腦膜外血腫", "Epidural hematoma"],
+          "features": {
+            "受損血管": "中腦膜動脈 (Middle meningeal artery) ➜ 壓力高、出血快",
+            "CT 影像特徵": "雙凸透鏡形 (Biconvex)、檸檬形高密度影；不跨越顱骨縫 (Sutures)",
+            "臨床特徵": "多有顳骨骨折，典型表現為傷後短暫昏迷，隨後有清明期 (Lucid interval)，之後迅速惡化",
+            "好發族群": "年輕人、頭部側面受撞擊者"
+          }
+        },
+        {
+          "name": "硬腦膜下血腫 (Subdural Hematoma, SDH)",
+          "aliases": ["SDH", "硬腦膜下血腫", "Subdural hematoma"],
+          "features": {
+            "受損血管": "橋靜脈 (Bridging veins) ➜ 靜脈竇回流受阻，出血較慢",
+            "CT 影像特徵": "新月形 (Crescent-shaped)、香蕉形；可跨越顱骨縫，但不跨越矢狀縫/小腦幕",
+            "臨床特徵": "症狀進展較緩慢，慢性 SDH 常表現為認知功能下降、步態不穩，易被誤認為失智症",
+            "好發族群": "老人、酗酒者、嬰幼兒（腦部萎縮導致橋靜脈拉扯受伸展者）"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "gbs_vs_mg",
+      "title": "吉蘭-巴雷氏症候群 (GBS) vs 重症肌無力 (Myasthenia Gravis)",
+      "category": "神經醫學 / 內科學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "GBS 是急性周邊神經脫髓鞘，表現為「漸進性肢體無力（由下往上）」，常有前驅感染，CSF 呈現「蛋白細胞解離」；MG 是自體抗體破壞 AChR，表現為「變動性無力（晨輕暮重）」與眼球症狀。",
+      "common_traps": "常考「腦脊髓液 (CSF)」的特徵（GBS 有 Albuminocytologic dissociation）以及「肌無力危象」與「膽鹼激素危象」的鑑別。",
+      "highlight_keywords": [
+        "脫髓鞘",
+        "AChR",
+        "晨輕暮重",
+        "由下往上",
+        "前驅感染",
+        "蛋白細胞解離",
+        "Tensilon test",
+        "胸腺瘤"
+      ],
+      "diseases": [
+        {
+          "name": "吉蘭-巴雷氏症候群 (Guillain-Barré Syndrome)",
+          "aliases": ["GBS", "吉蘭-巴雷氏症候群", "Guillain-Barre syndrome", "急性發炎性去髓鞘多發性神經病變"],
+          "features": {
+            "病理生理": "急性周邊神經去髓鞘 (Demyelination) 病變，屬自體免疫反應",
+            "無力表現": "對稱性、漸進性肌肉無力，典型表現為由下肢往上肢延伸 (Ascending paralysis)；伴隨腱反射消失 (Areflexia)",
+            "臨床特徵": "通常在發病前 1-3 週有前驅感染史 (如空腸彎曲菌 Campylobacter jejuni 腸胃炎或呼吸道感染)",
+            "腦脊髓液特徵": "蛋白細胞解離 (Albuminocytologic dissociation) ➜ 蛋白質極高但白血球正常",
+            "治療方式": "靜脈注射免疫球蛋白 (IVIG) 或血漿置換術 (Plasmapheresis)；禁用類固醇"
+          }
+        },
+        {
+          "name": "重症肌無力 (Myasthenia Gravis)",
+          "aliases": ["MG", "重症肌無力", "Myasthenia gravis"],
+          "features": {
+            "病理生理": "神經肌肉接合處 (NMJ) 的突觸後乙醯膽鹼受體 (AChR) 遭自體抗體破壞",
+            "無力表現": "肌肉無力具「波動性（晨輕暮重）」與「易疲勞性」，休息後可改善。常首發於眼外肌 (眼瞼下垂、複視)",
+            "臨床特徵": "約 75% 患者合併胸腺異常 (胸腺增生或胸腺瘤 Thymoma)",
+            "診斷檢查": "Tensilon test (針劑給予 Edrophonium 後症狀立即改善)、血清抗 AChR 抗體陽性、重複神經電刺激呈遞減",
+            "治療方式": "抗膽鹼酯酶藥物 (Pyridostigmine, Mestinon)、類固醇、免疫抑制劑、胸腺切除術"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "nephrotic_vs_nephritic",
+      "title": "腎病症候群 (Nephrotic) vs 腎炎症候群 (Nephritic)",
+      "category": "內科學 (腎臟科) / 小兒科學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "腎病症候群以「三高一低」為特徵：大量蛋白尿 (>3.5g/day)、低白蛋白血症、高血脂、高度水腫；腎炎症候群以「血尿、高血壓、少尿」為主要表現。",
+      "common_traps": "考題常給予臨床情境（如小朋友感冒後出現茶色尿與高血壓 vs 全身水腫與泡泡尿），要求區分並選擇最可能的腎臟病理診斷。",
+      "highlight_keywords": [
+        "大量蛋白尿",
+        "低白蛋白",
+        "高血脂",
+        "高度水腫",
+        "血尿",
+        "紅血球圓柱體",
+        "RBC casts",
+        "高血壓",
+        "三高一低"
+      ],
+      "diseases": [
+        {
+          "name": "腎病症候群 (Nephrotic Syndrome)",
+          "aliases": ["腎病症候群", "Nephrotic syndrome"],
+          "features": {
+            "定義特徵": "大量蛋白尿 (> 3.5 g/24hr)、低白蛋白血症 (< 3.0 g/dL)、高膽固醇血症、全身性水腫",
+            "尿液鏡檢": "脂肪體 (Oval fat bodies)、脂質圓柱體 (Fatty casts)；無明顯血尿",
+            "病生理機制": "腎小球基底膜電荷屏障 (Charge barrier) 破損 ➜ 蛋白大量漏出 ➜ 肝臟補償合成脂蛋白",
+            "常見病因": "微小病變腎病 (MCD，小兒最常見)、膜性腎病變 (MN，成人常見)、局灶節段性腎小球硬化 (FSGS)"
+          }
+        },
+        {
+          "name": "腎炎症候群 (Nephritic Syndrome)",
+          "aliases": ["腎炎症候群", "急性腎炎症候群", "Nephritic syndrome"],
+          "features": {
+            "定義特徵": "血尿 (Hematuria)、蛋白尿 (通常 < 3.0 g/day)、高血壓、少尿、氮質血症",
+            "尿液鏡檢": "變形紅血球 (Dysmorphic RBC)、紅血球圓柱體 (RBC casts) ➜ 提示腎小球源性出血",
+            "病生理機制": "腎小球毛細血管壁發炎與細胞浸潤 ➜ 濾過面積下降 ➜ 水鈉滯留、高血壓",
+            "常見病因": "鏈球菌感染後腎小球腎炎 (PSGN)、IgA 腎病變 (Berger's disease)、快速進展性腎小球腎炎 (RPGN)"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "graves_vs_hashimoto",
+      "title": "葛瑞夫茲氏病 (Graves') vs 橋本氏甲狀腺炎 (Hashimoto's)",
+      "category": "內科學 (新陳代謝科) / 病理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "Graves' 是刺激型抗體 (TSI/TRAb) 引起「甲狀腺功能亢進」；Hashimoto's 是破壞型抗體 (Anti-TPO/Anti-Tg) 導致「甲狀腺功能低下」，病理可見淋巴濾泡與 Hurthle cells。",
+      "common_traps": "常考「自體抗體類型」的配對（Graves ➜ TRAb/TSI；Hashimoto ➜ Anti-TPO），以及 Hashimoto's 典型的顯微病理特徵（Germanil centers, Hurthle cells）。",
+      "highlight_keywords": [
+        "甲狀腺功能亢進",
+        "甲狀腺功能低下",
+        "TRAb",
+        "TSI",
+        "Anti-TPO",
+        "Hurthle cell",
+        "淋巴濾泡",
+        "生發中心",
+        "Germanil centers"
+      ],
+      "diseases": [
+        {
+          "name": "葛瑞夫茲氏病 (Graves' Disease)",
+          "aliases": ["Graves", "葛瑞夫茲氏病", "Graves' disease", "Graves disease"],
+          "features": {
+            "臨床狀態": "甲狀腺功能亢進 (Hyperthyroidism) ➜ 怕熱、體重減輕、心悸、手抖",
+            "特異抗體": "促甲狀腺素受體抗體 (TRAb / TSI) ➜ 模擬 TSH 持續刺激甲狀腺分泌",
+            "理學特徵": "瀰漫性甲狀腺腫大 (無痛且有血管雜音)、突眼症 (Exophthalmos)、脛前黏液水腫 (Pretibial myxedema)",
+            "放射性碘攝取": "攝取率呈「瀰漫性均勻增高」"
+          }
+        },
+        {
+          "name": "橋本氏甲狀腺炎 (Hashimoto's Thyroiditis)",
+          "aliases": ["Hashimoto", "橋本氏甲狀腺炎", "橋本氏病", "Hashimoto's thyroiditis", "慢性淋巴球性甲狀腺炎"],
+          "features": {
+            "臨床狀態": "甲狀腺功能低下 (Hypothyroidism) ➜ 怕冷、體重增加、便秘、水腫（早期可能短暫亢進 ➜ Hashitoxicosis）",
+            "特異抗體": "甲狀腺過氧化酶抗體 (Anti-TPO)、甲狀腺球蛋白抗體 (Anti-Tg) ➜ 破壞甲狀腺細胞",
+            "病理特徵": "顯著的淋巴球浸潤並形成具生發中心的淋巴濾泡 (Lymphoid follicles with germinal centers)、Hurthle cells (嗜酸性粒細胞變性)",
+            "放射性碘攝取": "後期攝取率顯著降低"
+          }
+        }
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "aortic_dissection_a_vs_b",
+      "title": "主動脈剝離 Stanford A型 vs B型",
+      "category": "外科學 (心臟血管外科) / 急診醫學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "Stanford A 型累及「升主動脈」，必須「立即進行外科手術」以免發生心包填塞或冠狀動脈缺血；B 型未累及升主動脈，治療以「藥物控制血壓與心跳」為首選。",
+      "common_traps": "考題極愛考「Stanford A 與 B 型的界定位置（以左鎖骨下動脈為界）」以及「治療原則的差異（A型 ➜ 手術；B型 ➜ 內科藥物）。",
+      "highlight_keywords": [
+        "升主動脈",
+        "左鎖骨下動脈",
+        "立即手術",
+        "內科藥物治療",
+        "控制血壓與心跳",
+        "Beta blocker",
+        "Stanford A",
+        "Stanford B",
+        "心包填塞"
+      ],
+      "diseases": [
+        {
+          "name": "Stanford A 型主動脈剝離",
+          "aliases": ["Stanford A", "Stanford A型", "A型主動脈剝離"],
+          "features": {
+            "剝離範圍": "累及升主動脈 (Ascending aorta)，不論撕裂口起點在哪裡",
+            "主要併發症": "主動脈瓣關閉不全、急性心肌梗塞 (壓迫冠狀動脈)、心包填塞 (Cardiac tamponade)、中風",
+            "治療原則": "外科急症！必須「立即進行緊急開胸手術」（如升主動脈置換術），否則死亡率極高"
+          }
+        },
+        {
+          "name": "Stanford B 型主動脈剝離",
+          "aliases": ["Stanford B", "Stanford B型", "B型主動脈剝離"],
+          "features": {
+            "剝離範圍": "僅累及降主動脈 (Descending aorta)，撕裂口位於左鎖骨下動脈 (Left subclavian artery) 的遠端",
+            "主要併發症": "下肢或腹部臟器缺血 (如腸繫膜動脈栓塞、腎衰竭)",
+            "治療原則": "若無器官缺血或破裂等併發症，首選「內科藥物保守治療」：給予靜脈 β 受體阻滯劑 (如 Esmolol, Labetalol) 控制血壓 (<120/80) 與心跳 (<60 bpm)。"
+          }
+        }
+      ],
+      "related_questions": []
+    }
+  ]
+}

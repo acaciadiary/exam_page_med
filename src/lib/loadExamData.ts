@@ -1,4 +1,5 @@
 import type { ExamDataset, ExamManifest } from "../types/exam";
+import type { DiseaseComparisonsData } from "../types/disease";
 
 function publicPath(path: string) {
   const base = import.meta.env.BASE_URL || "/";
@@ -29,4 +30,16 @@ export async function loadExamData(path: string) {
   examDataCache[path] = data;
   return data;
 }
+
+let diseaseComparisonsCache: DiseaseComparisonsData | null = null;
+
+export async function loadDiseaseComparisons() {
+  if (diseaseComparisonsCache) {
+    return diseaseComparisonsCache;
+  }
+  const data = await loadJson<DiseaseComparisonsData>("data/disease_comparisons.json");
+  diseaseComparisonsCache = data;
+  return data;
+}
+
 
