@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { AlertCircle, ArrowRight, ClipboardCheck, Radar, Sparkles } from "lucide-react";
 import { AppShell } from "../components/AppShell";
+import { IosInstallModal } from "../components/IosInstallModal";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
 import {
@@ -40,6 +41,11 @@ type PerformanceStat = {
   accuracy: number;
 };
 
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+};
+
 export default function App() {
   const [page, setPage] = useState<AppPage>(() =>
     readPageFromSearch(window.location.search),
@@ -71,6 +77,47 @@ export default function App() {
     storageKeys.stickyNotes,
     [],
   );
+
+  const [installEvent, setInstallEvent] = useState<BeforeInstallPromptEvent | null>(null);
+  const [showIosInstallModal, setShowIosInstallModal] = useState(false);
+
+  useEffect(() => {
+    const handleBeforeInstallPrompt = (e: Event) => {
+      e.preventDefault();
+      setInstallEvent(e as BeforeInstallPromptEvent);
+    };
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    return () => window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+  }, []);
+
+  const isStandalone = useMemo(() => {
+    const standaloneNavigator = navigator as Navigator & { standalone?: boolean };
+    return (
+      window.matchMedia("(display-mode: standalone)").matches ||
+      Boolean(standaloneNavigator.standalone)
+    );
+  }, []);
+
+  const isIos = useMemo(() => {
+    return (
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+    );
+  }, []);
+
+  const isInstallable = !isStandalone && (installEvent !== null || isIos);
+
+  const handleInstall = async () => {
+    if (installEvent) {
+      await installEvent.prompt();
+      const choice = await installEvent.userChoice.catch(() => undefined);
+      if (choice && choice.outcome === "accepted") {
+        setInstallEvent(null);
+      }
+    } else if (isIos) {
+      setShowIosInstallModal(true);
+    }
+  };
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
@@ -500,6 +547,7 @@ export default function App() {
   const { manifest, dataset } = state;
 
   return (
+    <>
     <AppShell
       exams={manifest.exams}
       activeExamId={dataset.id}
@@ -511,6 +559,8 @@ export default function App() {
       wrongQuestionCount={allMistakes.length}
       favoriteCount={favorites.length}
       stickyNoteCount={stickyNotes.length}
+      isInstallable={isInstallable}
+      onInstall={handleInstall}
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
       onModeChange={setMode}
@@ -617,6 +667,15 @@ export default function App() {
         )}
       </div>
     </AppShell>
+    <AnimatePresence>
+      {showIosInstallModal && (
+        <IosInstallModal
+          isOpen={showIosInstallModal}
+          onClose={() => setShowIosInstallModal(false)}
+        />
+      )}
+    </AnimatePresence>
+    </>
   );
 }
 

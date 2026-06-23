@@ -4,6 +4,7 @@ import {
   BookmarkCheck,
   ChevronDown,
   ClipboardX,
+  Download,
   Layers3,
   NotebookPen,
   PencilLine,
@@ -36,6 +37,8 @@ type AppShellProps = {
   wrongQuestionCount: number;
   favoriteCount: number;
   stickyNoteCount: number;
+  isInstallable?: boolean;
+  onInstall?: () => void;
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
   onModeChange: (mode: Mode) => void;
@@ -60,6 +63,8 @@ export function AppShell({
   wrongQuestionCount,
   favoriteCount,
   stickyNoteCount,
+  isInstallable,
+  onInstall,
   onExamChange,
   onPageChange,
   onModeChange,
@@ -166,6 +171,16 @@ export function AppShell({
                   便條
                 </PageButton>
                 <ThemeToggle theme={theme} onChange={onThemeChange} />
+                {isInstallable && onInstall && (
+                  <button
+                    type="button"
+                    onClick={onInstall}
+                    className="inline-flex h-11 items-center gap-2 rounded-full border border-[#b8e2d4] bg-[#e8f4ee] px-4 text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer"
+                  >
+                    <Download size={16} />
+                    <span>安裝 App</span>
+                  </button>
+                )}
               </div>
             </div>
 
