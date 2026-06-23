@@ -114,8 +114,8 @@ export function DiseaseComparePage({
     }
 
     return {
-      "第一階段 (一階)": Array.from(stage1Cats).sort(),
-      "第二階段 (二階)": Array.from(stage2Cats).sort(),
+      "第一階段": Array.from(stage1Cats).sort(),
+      "第二階段": Array.from(stage2Cats).sort(),
     };
   }, [facts]);
 
@@ -221,12 +221,12 @@ export function DiseaseComparePage({
   // Grouped menu sidebar items by stage and category
   const stagedCategorizedGroups = useMemo(() => {
     const stages: Record<string, Record<string, DiseaseComparisonGroup[]>> = {
-      "第一階段 (一階)": {},
-      "第二階段 (二階)": {},
+      "第一階段": {},
+      "第二階段": {},
     };
 
     for (const g of groups) {
-      const stageName = g.stage === "一階" ? "第一階段 (一階)" : "第二階段 (二階)";
+      const stageName = g.stage === "一階" ? "第一階段" : "第二階段";
       const cat = g.category.split(" / ")[0] || "其他學科";
 
       if (!stages[stageName][cat]) {
@@ -302,7 +302,7 @@ export function DiseaseComparePage({
           }`}
         >
           <Sparkles size={15} />
-          國考數字秒殺秘笈
+          國考數字秒殺
         </button>
       </div>
 
@@ -327,7 +327,7 @@ export function DiseaseComparePage({
                       onClick={() => toggleStageCollapse(stageName)}
                       className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] transition"
                     >
-                      <span className="flex items-center gap-1">📌 {stageName}</span>
+                      <span className="flex items-center gap-1">★ {stageName}</span>
                       {isCollapsed ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
                     </h3>
                     {!isCollapsed && (
@@ -550,80 +550,90 @@ export function DiseaseComparePage({
 
               {/* Stage 1 Section */}
               <div className="space-y-1.5">
-                <button
-                  type="button"
+                <h3
                   onClick={() => {
+                    toggleStageCollapse("fact-stage-1");
                     setSelectedFactStage("一階");
                     setSelectedFactCategory("全部");
                   }}
-                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer ${
+                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
                     selectedFactStage === "一階" && selectedFactCategory === "全部"
                       ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
                       : ""
                   }`}
                 >
-                  <span>📌 第一階段 (一階)</span>
-                  <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
-                </button>
-                <ul className="space-y-0.5 pl-2">
-                  {stagedFactCategories["第一階段 (一階)"].map((cat) => (
-                    <li key={cat}>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setSelectedFactStage("一階");
-                          setSelectedFactCategory(cat);
-                        }}
-                        className={`w-full text-left rounded-lg px-2 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
-                          selectedFactStage === "一階" && selectedFactCategory === cat
-                            ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
-                            : "text-[#6f5b50] hover:bg-white"
-                        }`}
-                      >
-                        {cat}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
+                  <span className="flex items-center gap-1">★ 第一階段</span>
+                  <span className="flex items-center gap-1.5">
+                    <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
+                    {collapsedStages["fact-stage-1"] ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+                  </span>
+                </h3>
+                {!collapsedStages["fact-stage-1"] && (
+                  <ul className="space-y-0.5 pl-2">
+                    {stagedFactCategories["第一階段"].map((cat) => (
+                      <li key={cat}>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setSelectedFactStage("一階");
+                            setSelectedFactCategory(cat);
+                          }}
+                          className={`w-full text-left rounded-lg px-2 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                            selectedFactStage === "一階" && selectedFactCategory === cat
+                              ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                              : "text-[#6f5b50] hover:bg-white"
+                          }`}
+                        >
+                          {cat}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
               {/* Stage 2 Section */}
               <div className="space-y-1.5">
-                <button
-                  type="button"
+                <h3
                   onClick={() => {
+                    toggleStageCollapse("fact-stage-2");
                     setSelectedFactStage("二階");
                     setSelectedFactCategory("全部");
                   }}
-                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer ${
+                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
                     selectedFactStage === "二階" && selectedFactCategory === "全部"
                       ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
                       : ""
                   }`}
                 >
-                  <span>📌 第二階段 (二階)</span>
-                  <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
-                </button>
-                <ul className="space-y-0.5 pl-2">
-                  {stagedFactCategories["第二階段 (二階)"].map((cat) => (
-                    <li key={cat}>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setSelectedFactStage("二階");
-                          setSelectedFactCategory(cat);
-                        }}
-                        className={`w-full text-left rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
-                          selectedFactStage === "二階" && selectedFactCategory === cat
-                            ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
-                            : "text-[#6f5b50] hover:bg-white"
-                        }`}
-                      >
-                        {cat}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
+                  <span className="flex items-center gap-1">★ 第二階段</span>
+                  <span className="flex items-center gap-1.5">
+                    <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
+                    {collapsedStages["fact-stage-2"] ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+                  </span>
+                </h3>
+                {!collapsedStages["fact-stage-2"] && (
+                  <ul className="space-y-0.5 pl-2">
+                    {stagedFactCategories["第二階段"].map((cat) => (
+                      <li key={cat}>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setSelectedFactStage("二階");
+                            setSelectedFactCategory(cat);
+                          }}
+                          className={`w-full text-left rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                            selectedFactStage === "二階" && selectedFactCategory === cat
+                              ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                              : "text-[#6f5b50] hover:bg-white"
+                          }`}
+                        >
+                          {cat}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           </aside>
@@ -636,7 +646,7 @@ export function DiseaseComparePage({
                 <div>
                   <h2 className="font-hand text-2xl font-bold text-[#4b3b35] flex items-center gap-2.5">
                     <Sparkles size={24} className="text-[#d89e1b]" />
-                    國考數字秒殺秘笈
+                    國考數字秒殺
                   </h2>
                   <p className="mt-1 text-sm text-[#725b52] leading-6 font-reading">
                     精選共 {facts.length} 個高頻數字與分型考點。支持快速搜尋與遮擋自測，點擊下方「延伸演練」直達原始題目。
