@@ -1,9 +1,11 @@
-const CACHE_NAME = "exam-page-med-v1";
+const CACHE_NAME = "exam-page-med-v2";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./pwa-icon.svg",
+  "./pwa-icon-192.png",
+  "./pwa-icon-512.png",
   "./data/manifest.json",
   "./assets/pastel-study-desk.png",
   "./assets/clinical-atlas-bg.png"

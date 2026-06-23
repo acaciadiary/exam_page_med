@@ -56,8 +56,8 @@ export function FlashcardMode({
   };
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1fr_20rem]">
-      <section>
+    <div className="grid min-w-0 gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
+      <section className="min-w-0">
         <div className="mb-6">
           <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#c4869b]">
             [02] Flashcard corner / {dataset.year}
@@ -76,7 +76,7 @@ export function FlashcardMode({
           onChange={setActiveCategory}
         />
 
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid min-w-0 gap-5 md:grid-cols-2">
           {visibleQuestions.map((question) => (
             <div id={`flashcard-${question.id}`} key={question.id}>
               <Flashcard

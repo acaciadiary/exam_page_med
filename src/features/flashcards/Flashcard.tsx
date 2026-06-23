@@ -16,7 +16,7 @@ export function Flashcard({ question, marked, onToggleMarked }: FlashcardProps) 
   const card = getFlashcardStudyContent(question);
 
   return (
-    <article className="group relative [perspective:1400px]">
+    <article className="group relative min-w-0 [perspective:1400px]">
       <div className="mb-3 flex items-center justify-between">
         <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#c4869b]">
           Card {question.question_number.toString().padStart(3, "0")}
@@ -41,7 +41,7 @@ export function Flashcard({ question, marked, onToggleMarked }: FlashcardProps) 
       <button
         type="button"
         onClick={() => setFlipped((value) => !value)}
-        className="block h-80 w-full text-left transition duration-300 ease-out [transform-style:preserve-3d] hover:-translate-y-1 focus-visible:-translate-y-1 focus-visible:outline-none"
+        className="flashcard-shell block h-80 w-full min-w-0 text-left transition duration-300 ease-out [transform-style:preserve-3d] hover:-translate-y-1 focus-visible:-translate-y-1 focus-visible:outline-none"
         aria-label="翻轉閃卡"
       >
         <motion.div
@@ -49,7 +49,7 @@ export function Flashcard({ question, marked, onToggleMarked }: FlashcardProps) 
           animate={{ rotateY: flipped ? 180 : 0 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="absolute inset-0 overflow-y-auto rounded-[1.35rem] border border-white/90 bg-[#fffdf9]/88 p-6 shadow-[0_18px_54px_rgba(181,133,117,0.18)] transition duration-300 group-hover:border-[#f2c9d8] group-hover:shadow-[0_24px_68px_rgba(181,133,117,0.26)] [backface-visibility:hidden]">
+          <div className="flashcard-face absolute inset-0 overflow-y-auto rounded-[1.35rem] border border-white/90 bg-[#fffdf9]/88 p-6 shadow-[0_18px_54px_rgba(181,133,117,0.18)] transition duration-300 group-hover:border-[#f2c9d8] group-hover:shadow-[0_24px_68px_rgba(181,133,117,0.26)] [backface-visibility:hidden]">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#aa8a7d]">
               關鍵字 / 線索
             </p>
@@ -71,7 +71,7 @@ export function Flashcard({ question, marked, onToggleMarked }: FlashcardProps) 
             )}
           </div>
 
-          <div className="absolute inset-0 overflow-y-auto rounded-[1.35rem] border border-[#d7eadf] bg-[#effaf5]/92 p-6 shadow-[0_18px_54px_rgba(132,197,174,0.18)] transition duration-300 group-hover:border-[#a9d9c8] group-hover:shadow-[0_24px_68px_rgba(132,197,174,0.28)] [backface-visibility:hidden] [transform:rotateY(180deg)]">
+          <div className="flashcard-face absolute inset-0 overflow-y-auto rounded-[1.35rem] border border-[#d7eadf] bg-[#effaf5]/92 p-6 shadow-[0_18px_54px_rgba(132,197,174,0.18)] transition duration-300 group-hover:border-[#a9d9c8] group-hover:shadow-[0_24px_68px_rgba(132,197,174,0.28)] [backface-visibility:hidden] [transform:rotateY(180deg)]">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#4c806e]">
               知識點 / 判斷規則
             </p>
