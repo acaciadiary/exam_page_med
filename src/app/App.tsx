@@ -17,6 +17,7 @@ import {
   type MistakeStatus,
 } from "../features/mistakes/MistakeNotebookPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
+import { DiseaseComparePage } from "../features/exam/DiseaseComparePage";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useMarkedItems } from "../hooks/useMarkedItems";
@@ -630,7 +631,12 @@ export default function App() {
             onClearNotes={handleClearNotes}
           />
         ) : page === "diseases" ? (
-          <DiseaseCompareMockup theme={theme} />
+          <DiseaseComparePage
+            stickyNotes={stickyNotes}
+            onAddNote={handleAddNote}
+            onRemoveNote={handleRemoveNote}
+            theme={theme}
+          />
         ) : dataset.questions.length === 0 ? (
           <EmptyState title="沒有題目" description="目前這份資料沒有可練習的題目。" />
         ) : (
@@ -889,48 +895,4 @@ function mistakeKey(examId: string, questionId: string) {
   return `${examId}:${questionId}`;
 }
 
-function DiseaseCompareMockup({ theme }: { theme: AppTheme }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 18, filter: "blur(8px)" }}
-      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      className="mx-auto max-w-4xl rounded-[1.5rem] border border-white/80 bg-white/80 p-8 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl text-center"
-    >
-      <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-[1.25rem] border border-[#dbeafe] bg-[#eff6ff] text-[#1f4e79] shadow-sm dark:bg-[#201b25] dark:border-white/10 dark:text-[#f3a6c4]">
-        <GitCompare size={32} />
-      </div>
-      <h2 className="font-hand text-3xl font-semibold text-[#3f342d]">
-        疾病對照功能
-      </h2>
-      <p className="font-hand mt-4 text-[#725b52] leading-7 max-w-lg mx-auto">
-        此功能正在精心研發中！未來您將能在這裡以表格與圖表形式，快速對照多種相似疾病的臨床特徵、診斷標準與治療方針，敬請期待。
-      </p>
-      
-      <div className="mt-8 border-t border-[#f0ded6]/60 pt-6">
-        <p className="text-xs font-semibold tracking-[0.16em] text-[#9c7b70] uppercase">
-          Planned features / 規劃中功能
-        </p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-3 text-left">
-          <div className="rounded-xl border border-[#efd9d0] bg-white/40 p-4">
-            <h4 className="font-bold text-sm text-[#3f342d]">💡 相似疾病一鍵PK</h4>
-            <p className="mt-2 text-xs leading-5 text-[#8b7666]">
-              快速對比相似症狀之疾病（如 Crohn's vs Ulcerative Colitis），找出關鍵鑑別點。
-            </p>
-          </div>
-          <div className="rounded-xl border border-[#efd9d0] bg-white/40 p-4">
-            <h4 className="font-bold text-sm text-[#3f342d]">📊 臨床決策樹狀圖</h4>
-            <p className="mt-2 text-xs leading-5 text-[#8b7666]">
-              直觀的樹狀流程引導，從症狀出發，快速定位可能的診斷與首選檢查。
-            </p>
-          </div>
-          <div className="rounded-xl border border-[#efd9d0] bg-white/40 p-4">
-            <h4 className="font-bold text-sm text-[#3f342d]">📝 自訂對照筆記</h4>
-            <p className="mt-2 text-xs leading-5 text-[#8b7666]">
-              在對照表旁自由添加個人國考複習筆記，隨時補充高頻考點。
-            </p>
-          </div>
-        </div>
-      </div>
-    </motion.div>
-  );
-}
+
