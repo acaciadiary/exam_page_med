@@ -31,7 +31,10 @@ export async function loadExamData(path: string) {
   return data;
 }
 
+import type { InstantKillFactsData } from "../types/disease";
+
 let diseaseComparisonsCache: DiseaseComparisonsData | null = null;
+let instantKillFactsCache: InstantKillFactsData | null = null;
 
 export async function loadDiseaseComparisons() {
   if (diseaseComparisonsCache) {
@@ -39,6 +42,15 @@ export async function loadDiseaseComparisons() {
   }
   const data = await loadJson<DiseaseComparisonsData>("data/disease_comparisons.json");
   diseaseComparisonsCache = data;
+  return data;
+}
+
+export async function loadInstantKillFacts() {
+  if (instantKillFactsCache) {
+    return instantKillFactsCache;
+  }
+  const data = await loadJson<InstantKillFactsData>("data/instant_kill_facts.json");
+  instantKillFactsCache = data;
   return data;
 }
 

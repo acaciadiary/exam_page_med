@@ -29,6 +29,25 @@ export interface DiseaseComparisonGroup {
   must_know_numbers?: MustKnowNumber[];
 }
 
+export interface InstantKillFact {
+  id: string;
+  year: string;
+  subject: string;
+  category: string;
+  reason: string;
+  highlight_value: string;
+  unit: string;
+  question_text: string;
+  explanation: string;
+  flashcard_front: string;
+  flashcard_back: string;
+  options: Record<string, string>;
+}
+
+export interface InstantKillFactsData {
+  facts: InstantKillFact[];
+}
+
 export interface DiseaseComparisonsData {
   comparison_groups: DiseaseComparisonGroup[];
 }
