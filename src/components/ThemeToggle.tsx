@@ -32,7 +32,7 @@ export function ThemeToggle({ theme, onChange }: ThemeToggleProps) {
           aria-label={`切換為${option.label}主題`}
         >
           {option.icon}
-          {option.label}
+          <span className="hidden sm:inline">{option.label}</span>
         </button>
       ))}
     </div>

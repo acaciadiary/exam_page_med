@@ -210,24 +210,9 @@ export function AppShell({
         {/* Top Header */}
         <header className="sticky top-0 z-30 px-3 pt-3 sm:px-5 sm:pt-5">
           <div className="mx-auto w-full max-w-[92rem] rounded-[1.25rem] border border-white/80 bg-white/78 px-4 py-3 shadow-[0_12px_40px_rgba(181,133,117,0.12)] backdrop-blur-2xl sm:px-6">
-            <div className="flex items-center justify-between gap-4">
-              
-              {/* Left: Mobile Title / Unified Filters */}
+            {/* Desktop Header Layout */}
+            <div className="hidden lg:flex items-center justify-between gap-4">
               <div className="flex items-center gap-3 min-w-0">
-                {/* Mobile Title Icon & Label */}
-                <div className="flex items-center gap-2 lg:hidden">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[0.8rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
-                    <PencilLine size={18} />
-                  </div>
-                  <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] sm:text-xl truncate">
-                    國考筆記
-                  </span>
-                </div>
-
-                {/* Separator on mobile */}
-                <div className="hidden h-5 w-px bg-[#f0ded6] dark:bg-white/10 lg:hidden shrink-0" />
-
-                {/* Compact Unified Filters */}
                 <FilterControl
                   exams={exams}
                   activeExamId={activeExamId}
@@ -242,17 +227,25 @@ export function AppShell({
                   theme={theme}
                 />
               </div>
+              <div className="flex items-center gap-2">
+                <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
+                <SummaryPill>完成度：{progress}%</SummaryPill>
+              </div>
+            </div>
 
-              {/* Right: Stats & Mobile theme controls */}
-              <div className="flex items-center gap-3 shrink-0">
-                {/* Global stats (Desktop/Tablet) */}
-                <div className="hidden sm:flex items-center gap-2">
-                  <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
-                  <SummaryPill>完成度：{progress}%</SummaryPill>
+            {/* Mobile Header Layout */}
+            <div className="flex lg:hidden flex-col gap-2.5">
+              {/* Row 1: Title & Theme Switch */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 min-w-0">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[0.8rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
+                    <PencilLine size={18} />
+                  </div>
+                  <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] truncate">
+                    國考筆記
+                  </span>
                 </div>
-
-                {/* Mobile theme settings */}
-                <div className="flex items-center gap-2 lg:hidden">
+                <div className="flex items-center gap-2 shrink-0">
                   <ThemeToggle theme={theme} onChange={onThemeChange} />
                   {isInstallable && onInstall && (
                     <button
@@ -267,6 +260,27 @@ export function AppShell({
                 </div>
               </div>
 
+              {/* Row 2: Filter Controls & Mobile Progress */}
+              <div className="flex items-center justify-between gap-2 border-t border-[#f0ded6]/50 dark:border-white/5 pt-2">
+                <FilterControl
+                  exams={exams}
+                  activeExamId={activeExamId}
+                  activeYear={activeYear}
+                  activeStage={activeStage}
+                  yearOptions={yearOptions}
+                  subjectOptions={subjectOptions}
+                  onExamChange={onExamChange}
+                  handleYearChange={handleYearChange}
+                  handleStageChange={handleStageChange}
+                  onReset={onReset}
+                  theme={theme}
+                />
+                
+                <div className="flex flex-col items-end text-[10px] font-semibold text-[#8b7666] dark:text-[#a2949e]">
+                  <span>進度: {progress}%</span>
+                  <span>{answeredCount}/{questionCount} 題</span>
+                </div>
+              </div>
             </div>
           </div>
         </header>
