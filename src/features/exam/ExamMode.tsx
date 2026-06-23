@@ -35,6 +35,7 @@ export function ExamMode({
   reviewMode,
 }: ExamModeProps) {
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
+  const [visibleCount, setVisibleCount] = useState(15);
   const categoryOptions = useMemo(() => buildCategoryOptions(dataset), [dataset]);
   const visibleQuestions = useMemo(() => {
     const categoryQuestions = filterQuestionsByCategory(dataset, activeCategory);
@@ -46,7 +47,8 @@ export function ExamMode({
 
   useEffect(() => {
     setActiveCategory(ALL_CATEGORIES);
-  }, [dataset.id]);
+    setVisibleCount(15);
+  }, [dataset.id, activeCategory]);
 
   return (
     <div className="flex min-w-0 items-start gap-6">
@@ -84,7 +86,7 @@ export function ExamMode({
         <CategoryFilter options={categoryOptions} activeCategory={activeCategory} onChange={setActiveCategory} />
 
         <div className="grid gap-5">
-          {visibleQuestions.map((question) => (
+          {visibleQuestions.slice(0, visibleCount).map((question) => (
             <QuestionCard
               key={question.id}
               question={question}
@@ -95,6 +97,18 @@ export function ExamMode({
             />
           ))}
         </div>
+
+        {visibleQuestions.length > visibleCount && (
+          <div className="mt-6 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setVisibleCount((prev) => prev + 15)}
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#efd9d0] bg-white/80 px-6 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b] cursor-pointer shadow-sm font-hand"
+            >
+              載入更多題目 ({visibleQuestions.length - visibleCount} 待載入)
+            </button>
+          </div>
+        )}
 
         <MobileMarkedQuestions
           questions={dataset.questions}

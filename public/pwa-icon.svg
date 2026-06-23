@@ -1,54 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ariel's Med">
-  <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FCF8F5"/>
-      <stop offset="100%" stop-color="#E2ECE7"/>
-    </linearGradient>
+  <!-- Background solid color -->
+  <rect width="512" height="512" rx="116" fill="#FCF6F0"/>
+  
+  <!-- Minimalist organic twig line art -->
+  <g transform="translate(256, 266)">
+    <!-- Stem -->
+    <path d="M -10 130 C 0 60 20 -20 60 -100" fill="none" stroke="#52433D" stroke-width="12" stroke-linecap="round"/>
     
-    <!-- Filter for Soft Watercolor Blur -->
-    <filter id="soft-blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="30"/>
-    </filter>
-  </defs>
-
-  <!-- Background rounded rectangle -->
-  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
-
-  <!-- Soft watercolor blobs -->
-  <circle cx="190" cy="220" r="110" fill="#CBE5DA" opacity="0.75" filter="url(#soft-blur)"/>
-  <circle cx="320" cy="290" r="100" fill="#F7DCD9" opacity="0.7" filter="url(#soft-blur)"/>
-
-  <!-- Minimalist Journal Card Outline (rotated slightly by 3 degrees for organic feel) -->
-  <g transform="rotate(3, 256, 256)">
-    <!-- Outer Card -->
-    <rect x="146" y="126" width="220" height="260" rx="36" fill="#FFFFFF" fill-opacity="0.55" stroke="#52433D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Leaf 1 (Top) -->
+    <path d="M 60 -100 C 80 -100 95 -125 80 -145 C 60 -145 45 -120 60 -100 Z" fill="#A4C7B6" stroke="#52433D" stroke-width="9" stroke-linejoin="round"/>
     
-    <!-- Inside Lines (representing notes, very soft and warm) -->
-    <line x1="186" y1="290" x2="266" y2="290" stroke="#7E6D66" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
-    <line x1="186" y1="324" x2="296" y2="324" stroke="#7E6D66" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
-  </g>
+    <!-- Leaf 2 (Upper Left) -->
+    <path d="M 32 -30 C 5 -35 -15 -10 -5 10 C 20 10 30 -10 32 -30 Z" fill="#A4C7B6" stroke="#52433D" stroke-width="9" stroke-linejoin="round"/>
+    
+    <!-- Leaf 3 (Upper Right) -->
+    <path d="M 46 -65 C 75 -60 85 -85 75 -105 C 50 -105 40 -80 46 -65 Z" fill="#A4C7B6" stroke="#52433D" stroke-width="9" stroke-linejoin="round"/>
 
-  <!-- Elegant Sprout/Leaf Branch (growing from the journal) -->
-  <!-- Stem -->
-  <path d="M 230 380 Q 240 250 310 146" fill="none" stroke="#52433D" stroke-width="9" stroke-linecap="round"/>
-
-  <!-- Leaf 1 (Top right) -->
-  <path d="M 310 146 C 330 146 342 126 332 108 C 314 108 302 128 310 146 Z" fill="#99C2AF" stroke="#52433D" stroke-width="7" stroke-linejoin="round"/>
-
-  <!-- Leaf 2 (Middle right) -->
-  <path d="M 276 215 C 300 220 310 205 304 186 C 285 186 275 201 276 215 Z" fill="#99C2AF" stroke="#52433D" stroke-width="7" stroke-linejoin="round"/>
-
-  <!-- Leaf 3 (Middle left) -->
-  <path d="M 239 270 C 215 265 205 280 211 299 C 230 299 240 284 239 270 Z" fill="#99C2AF" stroke="#52433D" stroke-width="7" stroke-linejoin="round"/>
-
-  <!-- Leaf 4 (Lower right) -->
-  <path d="M 252 248 C 276 253 286 238 280 219 C 261 219 251 234 252 248 Z" fill="#99C2AF" stroke="#52433D" stroke-width="7" stroke-linejoin="round"/>
-
-  <!-- Delicate cross symbol (representing Medicine, positioned elegantly in the card's top-right region) -->
-  <g transform="translate(305, 230) rotate(-5)">
-    <!-- Elegant, stylized medical cross: soft reddish-gold color -->
-    <rect x="-6" y="-18" width="12" height="36" rx="4" fill="#D39892" stroke="#52433D" stroke-width="5" stroke-linejoin="round"/>
-    <rect x="-18" y="-6" width="36" height="12" rx="4" fill="#D39892" stroke="#52433D" stroke-width="5" stroke-linejoin="round"/>
+    <!-- Leaf 4 (Lower Left) -->
+    <path d="M 12 35 C -15 30 -35 55 -25 75 C 0 75 10 50 12 35 Z" fill="#A4C7B6" stroke="#52433D" stroke-width="9" stroke-linejoin="round"/>
+    
+    <!-- Leaf 5 (Lower Right) -->
+    <path d="M 23 5 C 50 10 60 -15 50 -35 C 25 -35 15 -10 23 5 Z" fill="#A4C7B6" stroke="#52433D" stroke-width="9" stroke-linejoin="round"/>
   </g>
 </svg>

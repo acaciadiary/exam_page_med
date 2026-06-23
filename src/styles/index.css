@@ -245,3 +245,8 @@ select {
     transition-duration: 0.01ms !important;
   }
 }
+
+.question-card-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 240px;
+}
