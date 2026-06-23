@@ -6,6 +6,51 @@ import { DiseaseComparison } from "./DiseaseComparison";
 import type { ExamQuestion } from "../../types/exam";
 import type { DiseaseComparisonGroup } from "../../types/disease";
 
+const ACRONYM_CONTEXTS: Record<string, string[]> = {
+  mg: ["肌無力", "重症", "achr", "眼瞼", "複視", "胸腺", "thymoma", "tensilon", "edrophonium", "mestinon", "去髓鞘", "gbs", "myasthenia", "gravis"],
+  gbs: ["去髓鞘", "脫髓鞘", "無力", "腱反射", "guillain", "barre", "巴雷", "神經", "重症肌無力", "achr", "csf", "蛋白細胞", "升天性", "肢體", "paralysis"],
+  uc: ["結腸", "大腸", "發炎", "腸道", "血便", "crohn", "克隆", "黏膜", "ibd", "colitis", "ulcerative"],
+  ra: ["關節", "風濕", "晨僵", "rheumatoid", "滑膜", "rf", "ccp", "天鵝頸", "boutonniere", "arthritis"],
+  oa: ["關節", "退化", "骨刺", "軟骨", "heberden", "bouchard", "osteoarthritis"],
+  edh: ["血腫", "硬腦膜", "顱骨", "腦", "橋靜脈", "腦膜動脈", "新月", "凸透鏡", "清明期", "lucid", "hematoma", "epidural"],
+  sdh: ["血腫", "硬腦膜", "顱骨", "腦", "橋靜脈", "腦膜動脈", "新月", "凸透鏡", "清明期", "lucid", "hematoma", "subdural"],
+  cppd: ["焦磷酸", "假性痛風", "pseudogout", "關節", "軟骨", "calcium", "pyrophosphate"]
+};
+
+function isAliasMatch(combinedTextOriginal: string, alias: string): boolean {
+  // Check if alias is a short acronym (English letters and numbers, length <= 4)
+  const isAcronym = /^[A-Za-z0-9]{1,4}$/.test(alias);
+
+  if (isAcronym) {
+    // 1. Case-sensitive whole-word match
+    const regex = new RegExp(`\\b${alias}\\b`);
+    if (!regex.test(combinedTextOriginal)) {
+      return false;
+    }
+
+    // 2. Context verification for acronyms
+    const normAlias = alias.toLowerCase();
+    const contextWords = ACRONYM_CONTEXTS[normAlias];
+    if (contextWords) {
+      const lowerText = combinedTextOriginal.toLowerCase();
+      return contextWords.some((word) => lowerText.includes(word));
+    }
+
+    return true;
+  }
+
+  // Specific check to avoid matching molecular "cloning" (克隆) as Crohn's disease
+  if (alias === "克隆") {
+    const regex = /克隆(氏|氏症|氏病)/;
+    return regex.test(combinedTextOriginal);
+  }
+
+  // Otherwise, case-insensitive substring match
+  const normText = combinedTextOriginal.toLowerCase();
+  const normAlias = alias.toLowerCase();
+  return normText.includes(normAlias);
+}
+
 type ExplanationPanelProps = {
   question: ExamQuestion;
 };
@@ -27,9 +72,9 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
     if (!comparisons.length) return [];
 
     const matched: DiseaseComparisonGroup[] = [];
-    const combinedText = `${question.question_text} ${Object.values(question.options).join(" ")} ${
+    const combinedTextOriginal = `${question.question_text} ${Object.values(question.options).join(" ")} ${
       question.explanation || ""
-    }`.toLowerCase();
+    }`;
 
     for (const group of comparisons) {
       // 1. Direct match by question ID
@@ -45,8 +90,7 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
       // 2. Keyword-based matching
       const hasMatch = group.diseases.some((disease) =>
         disease.aliases.some((alias) => {
-          const normalizedAlias = alias.toLowerCase();
-          return combinedText.includes(normalizedAlias);
+          return isAliasMatch(combinedTextOriginal, alias);
         })
       );
 
@@ -57,6 +101,7 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
 
     return matched;
   }, [comparisons, question]);
+
 
   const explanation =
     question.explanation ||
