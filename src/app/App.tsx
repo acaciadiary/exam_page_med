@@ -18,10 +18,11 @@ import {
 } from "../features/mistakes/MistakeNotebookPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { DiseaseComparePage } from "../features/exam/DiseaseComparePage";
+import { RadarChart } from "../components/RadarChart";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useMarkedItems } from "../hooks/useMarkedItems";
-import { getExamDisplayTitle, getSubjectLabel } from "../lib/examMetadata";
+import { getExamDisplayTitle, getSubjectLabel, getExamStage } from "../lib/examMetadata";
 import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
 import { compactText, isAcceptedAnswer } from "../lib/text";
@@ -192,6 +193,15 @@ export default function App() {
   );
 
   const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
+
+  const activeExam = useMemo(() => {
+    if (state.status !== "ready") return null;
+    return state.manifest.exams.find((e) => e.id === activeExamId);
+  }, [state, activeExamId]);
+
+  const activeStage = useMemo(() => {
+    return activeExam ? getExamStage(activeExam) : "stage-1";
+  }, [activeExam]);
 
   useEffect(() => {
     if (state.status !== "ready") return undefined;
@@ -600,6 +610,8 @@ export default function App() {
             mistakes={allMistakes}
             favorites={favorites}
             stats={performanceStats}
+            activeStage={activeStage}
+            theme={theme}
             onOpenQuestion={openQuestion}
             onGoMistakes={() => handlePageChange("mistakes")}
             onGoFavorites={() => handlePageChange("favorites")}
@@ -706,6 +718,8 @@ function DailyStudyPanel({
   mistakes,
   favorites,
   stats,
+  activeStage,
+  theme,
   onOpenQuestion,
   onGoMistakes,
   onGoFavorites,
@@ -713,6 +727,8 @@ function DailyStudyPanel({
   mistakes: MistakeEntry[];
   favorites: FavoriteEntry[];
   stats: PerformanceStat[];
+  activeStage: "stage-1" | "stage-2";
+  theme: AppTheme;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onGoMistakes: () => void;
   onGoFavorites: () => void;
@@ -761,28 +777,41 @@ function DailyStudyPanel({
         </div>
       </div>
 
-      <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl">
-        <p className="flex items-center gap-2 text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
-          <Radar size={16} />
-          弱點雷達
-        </p>
-        <div className="mt-4 grid gap-3">
-          {stats.length === 0 ? (
-            <p className="text-sm leading-6 text-[#725b52]">答幾題後，這裡會顯示各科正確率。</p>
-          ) : (
-            stats.slice(0, 6).map((stat) => (
-              <div key={stat.label}>
-                <div className="mb-1 flex items-center justify-between text-xs font-semibold text-[#725b52]">
-                  <span>{stat.label}</span>
-                  <span>{stat.accuracy}% · {stat.answered} 題</span>
-                </div>
-                <div className="h-2 overflow-hidden rounded-full bg-[#f2e3dd]">
-                  <div className="h-full rounded-full bg-[#b8e2d4]" style={{ width: `${stat.accuracy}%` }} />
-                </div>
+      <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl flex flex-col justify-between">
+        <div>
+          <p className="flex items-center gap-2 text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
+            <Radar size={16} />
+            弱點雷達
+          </p>
+          <div className="mt-2 flex justify-center">
+            {stats.length === 0 ? (
+              <div className="py-12 text-center text-sm leading-6 text-[#725b52] font-hand">
+                答幾題後，這裡會顯示雷達圖分析。
               </div>
-            ))
-          )}
+            ) : (
+              <RadarChart stats={stats} activeStage={activeStage} theme={theme} />
+            )}
+          </div>
         </div>
+
+        {stats.length > 0 && (
+          <div className="mt-2 border-t border-[#f0ded6]/50 dark:border-white/5 pt-3.5 space-y-2">
+            <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-[#8b7666] dark:text-[#a2949e]">
+              弱科數據排行 (最需加強)
+            </p>
+            <div className="grid gap-2 max-h-32 overflow-y-auto pr-1">
+              {stats.slice(0, 4).map((stat) => (
+                <div key={stat.label} className="flex items-center justify-between text-xs font-semibold text-[#725b52] dark:text-[#dccbd3]">
+                  <span>{stat.label}</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[#b36a84] font-extrabold">{stat.accuracy}%</span>
+                    <span className="text-[10px] text-[#aa8a7d] dark:text-[#a2949e] font-normal">({stat.correct}/{stat.answered} 題)</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
