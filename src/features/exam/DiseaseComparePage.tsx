@@ -213,7 +213,7 @@ export function DiseaseComparePage({
         </div>
 
         {/* Dynamic Comparison Card */}
-        <DiseaseComparison group={selectedGroup} />
+        <DiseaseComparison group={selectedGroup} theme={theme} />
 
         <div className="grid gap-6 md:grid-cols-2">
           {/* Interactive Quiz (Decision Tree alternative) */}

@@ -30,7 +30,13 @@
       "diseases": [
         {
           "name": "克隆氏症 (Crohn's Disease)",
-          "aliases": ["Crohn", "克隆氏", "克隆", "Crohn's disease", "Crohn disease"],
+          "aliases": [
+            "Crohn",
+            "克隆氏",
+            "克隆",
+            "Crohn's disease",
+            "Crohn disease"
+          ],
           "features": {
             "好發部位": "迴腸末端與右側大腸為主（但可侵犯由口至肛門任何部位）",
             "侵犯深度": "全層性發炎 (Transmural) ➜ 易形成瘻管/狹窄/膿瘍",
@@ -42,7 +48,12 @@
         },
         {
           "name": "潰瘍性結腸炎 (Ulcerative Colitis)",
-          "aliases": ["UC", "潰瘍性結腸炎", "潰結", "Ulcerative colitis"],
+          "aliases": [
+            "UC",
+            "潰瘍性結腸炎",
+            "潰結",
+            "Ulcerative colitis"
+          ],
           "features": {
             "好發部位": "直腸往近端大腸連續性延伸",
             "侵犯深度": "限於黏膜與黏膜下層 (Mucosa & Submucosa) ➜ 易出血",
@@ -61,6 +72,20 @@
         {
           "question_id": "109-2_medicine-5_029",
           "note": "比較 UC 及 Crohn's 的大體與顯微特徵差異"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "≥ 6",
+          "unit": "次/天",
+          "target_disease": "潰瘍性結腸炎 (UC)",
+          "context": "重度 UC 的臨床診斷指標之一（每日排血便次數且合併發熱、貧血、心搏過速或 ESR > 30）。"
+        },
+        {
+          "value": "100%",
+          "unit": "壁厚",
+          "target_disease": "克隆氏症 (Crohn's)",
+          "context": "全層性發炎 (Transmural) ➜ 侵犯整個腸壁厚度，極易形成瘻管、狹窄與膿瘍。"
         }
       ]
     },
@@ -87,7 +112,12 @@
       "diseases": [
         {
           "name": "類風濕性關節炎 (Rheumatoid Arthritis)",
-          "aliases": ["RA", "類風濕性關節炎", "風濕性關節炎", "Rheumatoid arthritis"],
+          "aliases": [
+            "RA",
+            "類風濕性關節炎",
+            "風濕性關節炎",
+            "Rheumatoid arthritis"
+          ],
           "features": {
             "病理機轉": "滑膜發炎 (Synovitis) 介導之全身性自體免疫疾病",
             "晨僵時間": "典型大於 1 小時，且活動後會改善",
@@ -99,7 +129,12 @@
         },
         {
           "name": "退化性關節炎 (Osteoarthritis)",
-          "aliases": ["OA", "退化性關節炎", "骨關節炎", "Osteoarthritis"],
+          "aliases": [
+            "OA",
+            "退化性關節炎",
+            "骨關節炎",
+            "Osteoarthritis"
+          ],
           "features": {
             "病理機轉": "關節軟骨磨損、軟骨下骨質增生與骨刺形成",
             "晨僵時間": "短於 30 分鐘，活動後疼痛加劇、休息可緩解",
@@ -110,7 +145,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "> 1",
+          "unit": "小時",
+          "target_disease": "類風濕性關節炎 (RA)",
+          "context": "典型晨僵時間，特徵是晨僵大於1小時，且隨關節活動會改善。"
+        },
+        {
+          "value": "< 30",
+          "unit": "分鐘",
+          "target_disease": "退化性關節炎 (OA)",
+          "context": "晨僵時間極短（常少於30分鐘），特徵是休息後緩解，活動反而加劇。"
+        }
+      ]
     },
     {
       "id": "tension_vs_simple_pneumothorax",
@@ -135,7 +184,10 @@
       "diseases": [
         {
           "name": "張力性氣胸 (Tension Pneumothorax)",
-          "aliases": ["張力性氣胸", "Tension pneumothorax"],
+          "aliases": [
+            "張力性氣胸",
+            "Tension pneumothorax"
+          ],
           "features": {
             "病理機轉": "單向瓣膜效應 (One-way valve)，空氣只進不出，使胸腔內壓持續升高",
             "血流動力學": "不穩定 ➜ 縱膈腔移位，壓迫下腔靜脈回流 ➜ 導致阻塞性休克、低血壓",
@@ -145,7 +197,12 @@
         },
         {
           "name": "單純性氣胸 (Simple Pneumothorax)",
-          "aliases": ["單純性氣胸", "自發性氣胸", "Spontaneous pneumothorax", "Simple pneumothorax"],
+          "aliases": [
+            "單純性氣胸",
+            "自發性氣胸",
+            "Spontaneous pneumothorax",
+            "Simple pneumothorax"
+          ],
           "features": {
             "病理機轉": "肺部氣泡破裂，氣體進入肋膜腔，但肋膜腔與大氣/肺泡壓力達平衡，無持續蓄壓",
             "血流動力學": "穩定 ➜ 無縱膈腔擺動與大靜脈壓迫，血壓通常正常",
@@ -162,6 +219,20 @@
         {
           "question_id": "109-2_medicine-5_029",
           "note": "比較張力性氣胸與心包膜填塞的理學檢查差異"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "2nd",
+          "unit": "肋間",
+          "target_disease": "張力性氣胸 (Tension)",
+          "context": "緊急針刺減壓 (Needle decompression) 處置位置：患側第 2 肋間、鎖骨中線 (MCL)。"
+        },
+        {
+          "value": "< 15-20%",
+          "unit": "範圍",
+          "target_disease": "單純性氣胸 (Simple)",
+          "context": "小範圍 (<15-20% 或肺尖距離胸壁 <2cm) 且無症狀者，可採保守觀察與給氧治療。"
         }
       ]
     },
@@ -187,7 +258,12 @@
       "diseases": [
         {
           "name": "第一型糖尿病 (Type 1 DM)",
-          "aliases": ["Type 1 DM", "T1DM", "第一型糖尿病", "第1型糖尿病"],
+          "aliases": [
+            "Type 1 DM",
+            "T1DM",
+            "第一型糖尿病",
+            "第1型糖尿病"
+          ],
           "features": {
             "發病年齡與體型": "青少年/兒童為主，體型多偏瘦",
             "病因機轉": "自體免疫破壞胰臟 T 細胞，導致胰島素絕對缺乏",
@@ -199,7 +275,12 @@
         },
         {
           "name": "第二型糖尿病 (Type 2 DM)",
-          "aliases": ["Type 2 DM", "T2DM", "第二型糖尿病", "第2型糖尿病"],
+          "aliases": [
+            "Type 2 DM",
+            "T2DM",
+            "第二型糖尿病",
+            "第2型糖尿病"
+          ],
           "features": {
             "發病年齡與體型": "中老年人為主（但有年輕化趨勢），多合併肥胖/超重",
             "病因機轉": "胰島素阻抗 (Insulin resistance) 伴隨胰島素相對缺乏",
@@ -214,6 +295,20 @@
         {
           "question_id": "108-1_medicine-3_063",
           "note": "考糖尿病的分類、診斷與病理成因"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "≥ 6.5%",
+          "unit": "糖化血色素",
+          "target_disease": "糖尿病 (Diabetes)",
+          "context": "糖尿病臨床診斷標準之一：HbA1c ≥ 6.5%，或空腹血糖 ≥ 126 mg/dL，或隨機血糖 ≥ 200 mg/dL 伴有典型症狀。"
+        },
+        {
+          "value": "> 90%",
+          "unit": "一致率",
+          "target_disease": "第二型糖尿病 (T2DM)",
+          "context": "同卵雙胞胎的一致率高達 90% 以上，顯示 T2DM 具極強的遺傳基因背景（T1DM 一致率僅約 30-50%）。"
         }
       ]
     },
@@ -239,7 +334,10 @@
       "diseases": [
         {
           "name": "痛風 (Gout)",
-          "aliases": ["痛風", "Gout"],
+          "aliases": [
+            "痛風",
+            "Gout"
+          ],
           "features": {
             "結晶成分": "單水尿酸鈉 (Monosodium urate, MSU) 結晶",
             "結晶形狀": "針狀 (Needle-shaped)",
@@ -251,7 +349,12 @@
         },
         {
           "name": "假性痛風 (Pseudogout)",
-          "aliases": ["假性痛風", "Pseudogout", "焦磷酸鈣沉積症", "CPPD"],
+          "aliases": [
+            "假性痛風",
+            "Pseudogout",
+            "焦磷酸鈣沉積症",
+            "CPPD"
+          ],
           "features": {
             "結晶成分": "二水焦磷酸鈣 (Calcium pyrophosphate dihydrate, CPPD) 結晶",
             "結晶形狀": "菱形、板狀或磚塊狀 (Rhomboid-shaped)",
@@ -262,7 +365,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "> 7.0",
+          "unit": "mg/dL",
+          "target_disease": "痛風 / 高尿酸血症",
+          "context": "正常男性血清尿酸值上限為 7.0 mg/dL（女性為 6.0 mg/dL）。"
+        },
+        {
+          "value": "30%",
+          "unit": "正常尿酸率",
+          "target_disease": "痛風 (Gout)",
+          "context": "痛風急性發作時，高達 30% 的患者血清尿酸值可能在正常範圍內，不可單憑發作期尿酸值排除診斷。"
+        }
+      ]
     },
     {
       "id": "edh_vs_sdh",
@@ -286,7 +403,11 @@
       "diseases": [
         {
           "name": "硬腦膜外血腫 (Epidural Hematoma, EDH)",
-          "aliases": ["EDH", "硬腦膜外血腫", "Epidural hematoma"],
+          "aliases": [
+            "EDH",
+            "硬腦膜外血腫",
+            "Epidural hematoma"
+          ],
           "features": {
             "受損血管": "中腦膜動脈 (Middle meningeal artery) ➜ 壓力高、出血快",
             "CT 影像特徵": "雙凸透鏡形 (Biconvex)、檸檬形高密度影；不跨越顱骨縫 (Sutures)",
@@ -296,7 +417,11 @@
         },
         {
           "name": "硬腦膜下血腫 (Subdural Hematoma, SDH)",
-          "aliases": ["SDH", "硬腦膜下血腫", "Subdural hematoma"],
+          "aliases": [
+            "SDH",
+            "硬腦膜下血腫",
+            "Subdural hematoma"
+          ],
           "features": {
             "受損血管": "橋靜脈 (Bridging veins) ➜ 靜脈竇回流受阻，出血較慢",
             "CT 影像特徵": "新月形 (Crescent-shaped)、香蕉形；可跨越顱骨縫，但不跨越矢狀縫/小腦幕",
@@ -305,7 +430,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "> 30",
+          "unit": "mL",
+          "target_disease": "硬腦膜外血腫 (EDH)",
+          "context": "不論 GCS 分數如何，血腫體積 > 30 mL 即為開顱手術適應症；若採保守治療，血腫厚度應 < 15 mm 且中線偏移 < 5 mm。"
+        },
+        {
+          "value": "> 10",
+          "unit": "mm",
+          "target_disease": "硬腦膜下血腫 (SDH)",
+          "context": "急性 SDH 手術指徵：血腫厚度 > 10 mm，或中線偏移 (Midline shift) > 5 mm。"
+        }
+      ]
     },
     {
       "id": "gbs_vs_mg",
@@ -327,7 +466,12 @@
       "diseases": [
         {
           "name": "吉蘭-巴雷氏症候群 (Guillain-Barré Syndrome)",
-          "aliases": ["GBS", "吉蘭-巴雷氏症候群", "Guillain-Barre syndrome", "急性發炎性去髓鞘多發性神經病變"],
+          "aliases": [
+            "GBS",
+            "吉蘭-巴雷氏症候群",
+            "Guillain-Barre syndrome",
+            "急性發炎性去髓鞘多發性神經病變"
+          ],
           "features": {
             "病理生理": "急性周邊神經去髓鞘 (Demyelination) 病變，屬自體免疫反應",
             "無力表現": "對稱性、漸進性肌肉無力，典型表現為由下肢往上肢延伸 (Ascending paralysis)；伴隨腱反射消失 (Areflexia)",
@@ -338,7 +482,11 @@
         },
         {
           "name": "重症肌無力 (Myasthenia Gravis)",
-          "aliases": ["MG", "重症肌無力", "Myasthenia gravis"],
+          "aliases": [
+            "MG",
+            "重症肌無力",
+            "Myasthenia gravis"
+          ],
           "features": {
             "病理生理": "神經肌肉接合處 (NMJ) 的突觸後乙醯膽鹼受體 (AChR) 遭自體抗體破壞",
             "無力表現": "肌肉無力具「波動性（晨輕暮重）」與「易疲勞性」，休息後可改善。常首發於眼外肌 (眼瞼下垂、複視)",
@@ -348,7 +496,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "75%",
+          "unit": "胸腺異常率",
+          "target_disease": "重症肌無力 (MG)",
+          "context": "重症肌無力患者中約有 75% 合併胸腺異常（其中 85% 為胸腺增生，15% 為胸腺瘤 (Thymoma)）。"
+        },
+        {
+          "value": "< 10",
+          "unit": "/μL 白血球",
+          "target_disease": "吉蘭-巴雷氏症 (GBS)",
+          "context": "蛋白細胞解離 (Albuminocytologic dissociation) 特徵：腦脊髓液蛋白質顯著升高，但白血球正常 (<10 /μL)。"
+        }
+      ]
     },
     {
       "id": "nephrotic_vs_nephritic",
@@ -371,7 +533,10 @@
       "diseases": [
         {
           "name": "腎病症候群 (Nephrotic Syndrome)",
-          "aliases": ["腎病症候群", "Nephrotic syndrome"],
+          "aliases": [
+            "腎病症候群",
+            "Nephrotic syndrome"
+          ],
           "features": {
             "定義特徵": "大量蛋白尿 (> 3.5 g/24hr)、低白蛋白血症 (< 3.0 g/dL)、高膽固醇血症、全身性水腫",
             "尿液鏡檢": "脂肪體 (Oval fat bodies)、脂質圓柱體 (Fatty casts)；無明顯血尿",
@@ -381,7 +546,11 @@
         },
         {
           "name": "腎炎症候群 (Nephritic Syndrome)",
-          "aliases": ["腎炎症候群", "急性腎炎症候群", "Nephritic syndrome"],
+          "aliases": [
+            "腎炎症候群",
+            "急性腎炎症候群",
+            "Nephritic syndrome"
+          ],
           "features": {
             "定義特徵": "血尿 (Hematuria)、蛋白尿 (通常 < 3.0 g/day)、高血壓、少尿、氮質血症",
             "尿液鏡檢": "變形紅血球 (Dysmorphic RBC)、紅血球圓柱體 (RBC casts) ➜ 提示腎小球源性出血",
@@ -390,7 +559,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "> 3.5",
+          "unit": "g/24小時",
+          "target_disease": "腎病症候群 (Nephrotic)",
+          "context": "定義特徵：每日尿蛋白排泄量 > 3.5 g/day（兒童為 > 40 mg/m²/hr），且血清白蛋白 < 3.0 g/dL。"
+        },
+        {
+          "value": "< 3.0",
+          "unit": "g/dL 白蛋白",
+          "target_disease": "腎病症候群 (Nephrotic)",
+          "context": "低白蛋白血症診斷界線：血清白蛋白 < 3.0 g/dL，為大量蛋白尿流失導致的直接生理後果。"
+        }
+      ]
     },
     {
       "id": "graves_vs_hashimoto",
@@ -413,7 +596,12 @@
       "diseases": [
         {
           "name": "葛瑞夫茲氏病 (Graves' Disease)",
-          "aliases": ["Graves", "葛瑞夫茲氏病", "Graves' disease", "Graves disease"],
+          "aliases": [
+            "Graves",
+            "葛瑞夫茲氏病",
+            "Graves' disease",
+            "Graves disease"
+          ],
           "features": {
             "臨床狀態": "甲狀腺功能亢進 (Hyperthyroidism) ➜ 怕熱、體重減輕、心悸、手抖",
             "特異抗體": "促甲狀腺素受體抗體 (TRAb / TSI) ➜ 模擬 TSH 持續刺激甲狀腺分泌",
@@ -423,7 +611,13 @@
         },
         {
           "name": "橋本氏甲狀腺炎 (Hashimoto's Thyroiditis)",
-          "aliases": ["Hashimoto", "橋本氏甲狀腺炎", "橋本氏病", "Hashimoto's thyroiditis", "慢性淋巴球性甲狀腺炎"],
+          "aliases": [
+            "Hashimoto",
+            "橋本氏甲狀腺炎",
+            "橋本氏病",
+            "Hashimoto's thyroiditis",
+            "慢性淋巴球性甲狀腺炎"
+          ],
           "features": {
             "臨床狀態": "甲狀腺功能低下 (Hypothyroidism) ➜ 怕冷、體重增加、便秘、水腫（早期可能短暫亢進 ➜ Hashitoxicosis）",
             "特異抗體": "甲狀腺過氧化酶抗體 (Anti-TPO)、甲狀腺球蛋白抗體 (Anti-Tg) ➜ 破壞甲狀腺細胞",
@@ -432,7 +626,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "> 50%",
+          "unit": "碘攝取率",
+          "target_disease": "葛瑞夫茲氏病 (Graves')",
+          "context": "24 小時放射性碘攝取率 (RAIU) 呈瀰漫性均勻增高，通常大於 50%（正常參考值約為 10-30%）。"
+        },
+        {
+          "value": "> 90%",
+          "unit": "抗體陽性率",
+          "target_disease": "橋本氏甲狀腺炎",
+          "context": "診斷橋本氏甲狀腺炎的重要指標：血清 Anti-TPO 抗體陽性率大於 90%，具極高敏感度。"
+        }
+      ]
     },
     {
       "id": "aortic_dissection_a_vs_b",
@@ -455,7 +663,11 @@
       "diseases": [
         {
           "name": "Stanford A 型主動脈剝離",
-          "aliases": ["Stanford A", "Stanford A型", "A型主動脈剝離"],
+          "aliases": [
+            "Stanford A",
+            "Stanford A型",
+            "A型主動脈剝離"
+          ],
           "features": {
             "剝離範圍": "累及升主動脈 (Ascending aorta)，不論撕裂口起點在哪裡",
             "主要併發症": "主動脈瓣關閉不全、急性心肌梗塞 (壓迫冠狀動脈)、心包填塞 (Cardiac tamponade)、中風",
@@ -464,7 +676,11 @@
         },
         {
           "name": "Stanford B 型主動脈剝離",
-          "aliases": ["Stanford B", "Stanford B型", "B型主動脈剝離"],
+          "aliases": [
+            "Stanford B",
+            "Stanford B型",
+            "B型主動脈剝離"
+          ],
           "features": {
             "剝離範圍": "僅累及降主動脈 (Descending aorta)，撕裂口位於左鎖骨下動脈 (Left subclavian artery) 的遠端",
             "主要併發症": "下肢或腹部臟器缺血 (如腸繫膜動脈栓塞、腎衰竭)",
@@ -472,7 +688,21 @@
           }
         }
       ],
-      "related_questions": []
+      "related_questions": [],
+      "must_know_numbers": [
+        {
+          "value": "1-2%",
+          "unit": "每小時死亡率",
+          "target_disease": "Stanford A 型主動脈剝離",
+          "context": "Stanford A 型（累及升主動脈）極為凶險，發病後每延遲一小時手術，死亡率便增加 1-2%。"
+        },
+        {
+          "value": "< 60",
+          "unit": "bpm 心跳",
+          "target_disease": "Stanford B 型主動脈剝離",
+          "context": "藥物治療目標：給予靜脈 β-blocker 將心跳控制於 < 60 bpm，收縮壓控制於 100-120 mmHg 之間。"
+        }
+      ]
     }
   ]
 }

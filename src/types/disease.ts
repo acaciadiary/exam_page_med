@@ -9,6 +9,13 @@ export interface RelatedQuestion {
   note?: string;
 }
 
+export interface MustKnowNumber {
+  value: string;
+  unit: string;
+  target_disease: string;
+  context: string;
+}
+
 export interface DiseaseComparisonGroup {
   id: string;
   title: string;
@@ -19,6 +26,7 @@ export interface DiseaseComparisonGroup {
   diseases: DiseaseInfo[];
   highlight_keywords: string[];
   related_questions?: RelatedQuestion[];
+  must_know_numbers?: MustKnowNumber[];
 }
 
 export interface DiseaseComparisonsData {

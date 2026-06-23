@@ -1,12 +1,49 @@
-import { AlertTriangle, BookOpen, Lightbulb, Star } from "lucide-react";
+import { useState } from "react";
+import { AlertTriangle, BookOpen, Lightbulb, Star, Eye, EyeOff, Sparkles } from "lucide-react";
 import type { DiseaseComparisonGroup } from "../../types/disease";
 
 interface DiseaseComparisonProps {
   group: DiseaseComparisonGroup;
   currentQuestionId?: string;
+  theme?: string;
 }
 
-export function DiseaseComparison({ group, currentQuestionId }: DiseaseComparisonProps) {
+export function DiseaseComparison({ group, currentQuestionId, theme }: DiseaseComparisonProps) {
+  const [selfTestMode, setSelfTestMode] = useState<boolean>(false);
+  const [revealedCards, setRevealedCards] = useState<Record<number, boolean>>({});
+
+  // Theme styling helpers
+  const isDark = theme === "dark";
+  const isClinical = theme === "clinical";
+
+  // Card classes based on theme
+  const cardBorderClass = isDark
+    ? "border-[#5e4757]/80"
+    : isClinical
+    ? "border-[#c0d6e4]"
+    : "border-[#fceeac]";
+
+  const cardBgClass = isDark
+    ? "bg-[#2d2433]/90 hover:bg-[#342a3b]"
+    : isClinical
+    ? "bg-[#f1f7fc]/95 hover:bg-[#ebf3f9]"
+    : "bg-[#fffdf5]/90 hover:bg-[#fffae8]";
+
+  const numTextClass = isDark
+    ? "text-[#f3a6c4]"
+    : isClinical
+    ? "text-[#1f4e79]"
+    : "text-[#b8527a]";
+
+  const labelBgClass = isDark
+    ? "bg-[#502f40] text-[#f3a6c4]"
+    : isClinical
+    ? "bg-[#dbeafe] text-[#1f4e79]"
+    : "bg-[#fdf0f4] text-[#b8527a]";
+
+  const normalTextClass = isDark
+    ? "text-[#dccbd3]"
+    : "text-[#604b43]";
   // Helper to escape regex special characters
   const escapeRegExp = (string: string) => {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -129,6 +166,94 @@ export function DiseaseComparison({ group, currentQuestionId }: DiseaseCompariso
           </p>
         </div>
       </div>
+
+      {/* Must-Know Numbers */}
+      {group.must_know_numbers && group.must_know_numbers.length > 0 && (
+        <div className="mt-4 border-t border-[#ebdbe2]/40 pt-4">
+          <div className="flex items-center justify-between gap-3 mb-3">
+            <div className="flex items-center gap-1.5 text-xs font-bold text-[#866e7b] dark:text-[#a2949e]">
+              <Sparkles size={14} className="text-[#d89e1b]" />
+              <span>📋 必考關鍵數字速記</span>
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                setSelfTestMode(!selfTestMode);
+                setRevealedCards({});
+              }}
+              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-bold border transition cursor-pointer shadow-xs ${
+                selfTestMode
+                  ? "bg-[#b8527a] text-white border-[#b8527a] hover:bg-[#9c3e5e]"
+                  : isDark
+                  ? "bg-[#2b2430] text-[#f3a6c4] border-[#5e4757] hover:bg-[#342a3b]"
+                  : isClinical
+                  ? "bg-[#f1f7fc] text-[#1f4e79] border-[#c0d6e4] hover:bg-[#e0eef8]"
+                  : "bg-white text-[#6f5b50] border-[#efd9d0] hover:bg-[#fffbf9]"
+              }`}
+            >
+              {selfTestMode ? <Eye size={12} /> : <EyeOff size={12} />}
+              <span>{selfTestMode ? "結束自測" : "遮擋自測"}</span>
+            </button>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            {group.must_know_numbers.map((item, idx) => {
+              const isRevealed = !selfTestMode || revealedCards[idx];
+              return (
+                <div
+                  key={idx}
+                  onClick={() => {
+                    if (selfTestMode) {
+                      setRevealedCards((prev) => ({ ...prev, [idx]: !prev[idx] }));
+                    }
+                  }}
+                  className={`group relative rounded-[0.95rem] border p-3.5 transition duration-300 flex items-start gap-3 shadow-xs select-none cursor-pointer overflow-hidden ${cardBorderClass} ${cardBgClass}`}
+                >
+                  {/* Left Side: Number Badge */}
+                  <div className="flex flex-col items-center justify-center min-w-16 h-16 rounded-xl bg-white/70 dark:bg-black/30 border border-[#ebdbe2]/40 dark:border-white/5 shadow-2xs">
+                    <span className={`text-base font-extrabold font-hand ${numTextClass}`}>
+                      {item.value}
+                    </span>
+                    <span className="text-[9px] font-bold text-[#a68e98] mt-0.5">
+                      {item.unit}
+                    </span>
+                  </div>
+
+                  {/* Right Side: Details */}
+                  <div className="flex-1 space-y-1.5 transition-all duration-300">
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className={`inline-block rounded-full px-2 py-0.5 text-[9px] font-bold ${labelBgClass} ${
+                        selfTestMode && !revealedCards[idx]
+                          ? "blur-[4px] opacity-20 group-hover:blur-none group-hover:opacity-100"
+                          : ""
+                      }`}>
+                        {item.target_disease}
+                      </span>
+                    </div>
+                    <p className={`text-[11px] leading-5 font-reading ${normalTextClass} ${
+                      selfTestMode && !revealedCards[idx]
+                        ? "blur-[4px] opacity-20 group-hover:blur-none group-hover:opacity-100"
+                        : ""
+                    }`}>
+                      {item.context}
+                    </p>
+                  </div>
+
+                  {/* Floating Eye Hint in Self-Test Mode */}
+                  {selfTestMode && !revealedCards[idx] && (
+                    <div className="absolute inset-0 bg-transparent flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-300">
+                      <span className="text-[9px] font-bold bg-white/95 dark:bg-black/90 px-2.5 py-1 rounded-full shadow-md text-[#8a7066] dark:text-[#a2949e] flex items-center gap-1 border border-[#efd9d0]/80 dark:border-white/10">
+                        <EyeOff size={10} />
+                        點擊或懸停解鎖
+                      </span>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Comparison Table */}
       <div className="mt-4 overflow-hidden rounded-xl border border-[#ebdbe2] bg-white/70">
