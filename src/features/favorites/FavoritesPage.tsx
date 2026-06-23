@@ -6,7 +6,7 @@ import { getExamDisplayTitle } from "../../lib/examMetadata";
 import { compactText } from "../../lib/text";
 import type { ExamManifestItem, ExamQuestion } from "../../types/exam";
 
-export type FavoriteTag = "高頻" | "易混淆" | "考前必看";
+export type FavoriteTag = "高頻" | "易混淆" | "考前必看" | "秒殺數字";
 
 export type FavoriteEntry = {
   exam: ExamManifestItem;
@@ -24,7 +24,7 @@ type FavoritesPageProps = {
 };
 
 const allTag = "全部";
-const favoriteTagOptions: FavoriteTag[] = ["高頻", "易混淆", "考前必看"];
+const favoriteTagOptions: FavoriteTag[] = ["高頻", "易混淆", "考前必看", "秒殺數字"];
 
 export function FavoritesPage({
   favorites,

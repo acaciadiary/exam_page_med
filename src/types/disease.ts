@@ -27,6 +27,7 @@ export interface DiseaseComparisonGroup {
   highlight_keywords: string[];
   related_questions?: RelatedQuestion[];
   must_know_numbers?: MustKnowNumber[];
+  stage?: string;
 }
 
 export interface InstantKillFact {

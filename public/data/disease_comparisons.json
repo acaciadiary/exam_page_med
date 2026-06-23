@@ -87,7 +87,8 @@
           "target_disease": "克隆氏症 (Crohn's)",
           "context": "全層性發炎 (Transmural) ➜ 侵犯整個腸壁厚度，極易形成瘻管、狹窄與膿瘍。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "ra_vs_oa",
@@ -159,7 +160,8 @@
           "target_disease": "退化性關節炎 (OA)",
           "context": "晨僵時間極短（常少於30分鐘），特徵是休息後緩解，活動反而加劇。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "tension_vs_simple_pneumothorax",
@@ -234,7 +236,8 @@
           "target_disease": "單純性氣胸 (Simple)",
           "context": "小範圍 (<15-20% 或肺尖距離胸壁 <2cm) 且無症狀者，可採保守觀察與給氧治療。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "t1dm_vs_t2dm",
@@ -310,7 +313,8 @@
           "target_disease": "第二型糖尿病 (T2DM)",
           "context": "同卵雙胞胎的一致率高達 90% 以上，顯示 T2DM 具極強的遺傳基因背景（T1DM 一致率僅約 30-50%）。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "gout_vs_pseudogout",
@@ -379,7 +383,8 @@
           "target_disease": "痛風 (Gout)",
           "context": "痛風急性發作時，高達 30% 的患者血清尿酸值可能在正常範圍內，不可單憑發作期尿酸值排除診斷。"
         }
-      ]
+      ],
+      "stage": "一階"
     },
     {
       "id": "edh_vs_sdh",
@@ -444,7 +449,8 @@
           "target_disease": "硬腦膜下血腫 (SDH)",
           "context": "急性 SDH 手術指徵：血腫厚度 > 10 mm，或中線偏移 (Midline shift) > 5 mm。"
         }
-      ]
+      ],
+      "stage": "一階"
     },
     {
       "id": "gbs_vs_mg",
@@ -510,7 +516,8 @@
           "target_disease": "吉蘭-巴雷氏症 (GBS)",
           "context": "蛋白細胞解離 (Albuminocytologic dissociation) 特徵：腦脊髓液蛋白質顯著升高，但白血球正常 (<10 /μL)。"
         }
-      ]
+      ],
+      "stage": "一階"
     },
     {
       "id": "nephrotic_vs_nephritic",
@@ -573,7 +580,8 @@
           "target_disease": "腎病症候群 (Nephrotic)",
           "context": "低白蛋白血症診斷界線：血清白蛋白 < 3.0 g/dL，為大量蛋白尿流失導致的直接生理後果。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "graves_vs_hashimoto",
@@ -640,7 +648,8 @@
           "target_disease": "橋本氏甲狀腺炎",
           "context": "診斷橋本氏甲狀腺炎的重要指標：血清 Anti-TPO 抗體陽性率大於 90%，具極高敏感度。"
         }
-      ]
+      ],
+      "stage": "二階"
     },
     {
       "id": "aortic_dissection_a_vs_b",
@@ -702,7 +711,8 @@
           "target_disease": "Stanford B 型主動脈剝離",
           "context": "藥物治療目標：給予靜脈 β-blocker 將心跳控制於 < 60 bpm，收縮壓控制於 100-120 mmHg 之間。"
         }
-      ]
+      ],
+      "stage": "二階"
     }
   ]
 }

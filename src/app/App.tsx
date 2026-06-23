@@ -79,6 +79,7 @@ export default function App() {
     storageKeys.stickyNotes,
     [],
   );
+  const [favoritesTrigger, setFavoritesTrigger] = useState(0);
 
   const [installEvent, setInstallEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [showIosInstallModal, setShowIosInstallModal] = useState(false);
@@ -362,7 +363,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [examId, favoriteTags, markedFlashcards.marked, markedQuestions.marked, state]);
+  }, [examId, favoriteTags, markedFlashcards.marked, markedQuestions.marked, state, favoritesTrigger]);
 
   useEffect(() => {
     if (page !== "exam" || !pendingQuestion || readyDataset?.id !== pendingQuestion.examId) {
@@ -491,6 +492,26 @@ export default function App() {
     setActiveExamId(firstMistake.exam.id);
     handlePageChange("exam");
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleToggleFavorite = (targetExamId: string, questionId: string) => {
+    if (targetExamId === examId) {
+      markedQuestions.toggleMarked(questionId);
+    } else {
+      const storedKey = storageKeys.markedQuestions(targetExamId);
+      const currentMarked = readStoredStringArray(storedKey);
+      const nextMarked = currentMarked.includes(questionId)
+        ? currentMarked.filter((id) => id !== questionId)
+        : [...currentMarked, questionId];
+      writeStoredStringArray(storedKey, nextMarked);
+      
+      if (currentMarked.includes(questionId)) {
+        const targetTags = readStoredFavoriteTags(storageKeys.favoriteTags(targetExamId));
+        delete targetTags[questionId];
+        writeStoredFavoriteTags(storageKeys.favoriteTags(targetExamId), targetTags);
+      }
+    }
+    setFavoritesTrigger((prev) => prev + 1);
   };
 
   const handleToggleFavoriteTag = (
@@ -648,6 +669,9 @@ export default function App() {
             onAddNote={handleAddNote}
             onRemoveNote={handleRemoveNote}
             theme={theme}
+            favorites={favorites}
+            onToggleFavorite={handleToggleFavorite}
+            onToggleFavoriteTag={handleToggleFavoriteTag}
           />
         ) : dataset.questions.length === 0 ? (
           <EmptyState title="沒有題目" description="目前這份資料沒有可練習的題目。" />

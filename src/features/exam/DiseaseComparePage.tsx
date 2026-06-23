@@ -1,15 +1,19 @@
 import { useState, useEffect, useMemo } from "react";
-import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff } from "lucide-react";
+import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff, Bookmark, BookmarkCheck } from "lucide-react";
 import { loadDiseaseComparisons, loadInstantKillFacts } from "../../lib/loadExamData";
 import { DiseaseComparison } from "./DiseaseComparison";
 import type { DiseaseComparisonGroup, InstantKillFact } from "../../types/disease";
 import type { StickyNoteItem } from "../../types/stickyNote";
+import type { FavoriteEntry, FavoriteTag } from "../favorites/FavoritesPage";
 
 interface DiseaseComparePageProps {
   stickyNotes: StickyNoteItem[];
   onAddNote: (text: string) => void;
   onRemoveNote: (id: string) => void;
   theme: string;
+  favorites?: FavoriteEntry[];
+  onToggleFavorite?: (examId: string, questionId: string) => void;
+  onToggleFavoriteTag?: (examId: string, questionId: string, tag: FavoriteTag) => void;
 }
 
 interface QuizQuestion {
@@ -24,6 +28,9 @@ export function DiseaseComparePage({
   onAddNote,
   onRemoveNote,
   theme,
+  favorites = [],
+  onToggleFavorite,
+  onToggleFavoriteTag,
 }: DiseaseComparePageProps) {
   const [subTab, setSubTab] = useState<"compare" | "instant_kill">("compare");
   const [groups, setGroups] = useState<DiseaseComparisonGroup[]>([]);
@@ -34,7 +41,8 @@ export function DiseaseComparePage({
   // Instant Kill Facts State
   const [facts, setFacts] = useState<InstantKillFact[]>([]);
   const [factsLoading, setFactsLoading] = useState<boolean>(true);
-  const [selectedFactCategory, setSelectedFactCategory] = useState<string>("全部學科");
+  const [selectedFactStage, setSelectedFactStage] = useState<"all" | "一階" | "二階">("all");
+  const [selectedFactCategory, setSelectedFactCategory] = useState<string>("全部");
   const [factSearch, setFactSearch] = useState<string>("");
   const [factSelfTest, setFactSelfTest] = useState<boolean>(false);
   const [revealedFacts, setRevealedFacts] = useState<Record<string, boolean>>({});
@@ -81,20 +89,42 @@ export function DiseaseComparePage({
     }
   }, [subTab, facts.length]);
 
-  const factCategories = useMemo(() => {
-    const cats = new Set<string>();
+  const isStage1Fact = (fact: InstantKillFact) => {
+    return fact.id.includes("medicine-1") || fact.id.includes("medicine-2");
+  };
+
+  const stagedFactCategories = useMemo(() => {
+    const stage1Cats = new Set<string>();
+    const stage2Cats = new Set<string>();
+
     for (const f of facts) {
-      if (f.category) {
-        cats.add(f.category);
+      if (isStage1Fact(f)) {
+        if (f.category) stage1Cats.add(f.category);
+      } else {
+        if (f.category) stage2Cats.add(f.category);
       }
     }
-    return ["全部學科", ...Array.from(cats)];
+
+    return {
+      "第一階段 (一階)": Array.from(stage1Cats).sort(),
+      "第二階段 (二階)": Array.from(stage2Cats).sort(),
+    };
   }, [facts]);
 
   const filteredFacts = useMemo(() => {
     return facts.filter((f) => {
-      const matchCat =
-        selectedFactCategory === "全部學科" || f.category === selectedFactCategory;
+      const fStage = isStage1Fact(f) ? "一階" : "二階";
+
+      // Stage check
+      if (selectedFactStage !== "all" && fStage !== selectedFactStage) {
+        return false;
+      }
+
+      // Category check
+      if (selectedFactCategory !== "全部" && f.category !== selectedFactCategory) {
+        return false;
+      }
+
       const searchLower = factSearch.toLowerCase();
       const matchSearch =
         !factSearch ||
@@ -103,9 +133,10 @@ export function DiseaseComparePage({
         f.flashcard_front.toLowerCase().includes(searchLower) ||
         f.flashcard_back.toLowerCase().includes(searchLower) ||
         (f.highlight_value && f.highlight_value.toLowerCase().includes(searchLower));
-      return matchCat && matchSearch;
+
+      return matchSearch;
     });
-  }, [facts, selectedFactCategory, factSearch]);
+  }, [facts, selectedFactStage, selectedFactCategory, factSearch]);
 
   const selectedGroup = useMemo(() => {
     return groups.find((g) => g.id === selectedGroupId) || null;
@@ -179,17 +210,23 @@ export function DiseaseComparePage({
     setCurrentQuizIndex((prev) => (prev + 1) % quizList.length);
   };
 
-  // Grouped menu sidebar items by category
-  const categorizedGroups = useMemo(() => {
-    const categories: Record<string, DiseaseComparisonGroup[]> = {};
+  // Grouped menu sidebar items by stage and category
+  const stagedCategorizedGroups = useMemo(() => {
+    const stages: Record<string, Record<string, DiseaseComparisonGroup[]>> = {
+      "第一階段 (一階)": {},
+      "第二階段 (二階)": {},
+    };
+
     for (const g of groups) {
+      const stageName = g.stage === "一階" ? "第一階段 (一階)" : "第二階段 (二階)";
       const cat = g.category.split(" / ")[0] || "其他學科";
-      if (!categories[cat]) {
-        categories[cat] = [];
+
+      if (!stages[stageName][cat]) {
+        stages[stageName][cat] = [];
       }
-      categories[cat].push(g);
+      stages[stageName][cat].push(g);
     }
-    return categories;
+    return stages;
   }, [groups]);
 
   if (loading) {
@@ -211,7 +248,25 @@ export function DiseaseComparePage({
     );
   }
 
-  const currentQuiz = quizList[currentQuizIndex] || null;
+  const isFactFavorited = (qId: string) => {
+    return favorites.some((fav) => fav.question.id === qId);
+  };
+
+  const handleToggleFactFavorite = (factId: string) => {
+    const parts = factId.split("_");
+    if (parts.length < 2) return;
+    const examId = `${parts[0]}_${parts[1]}`;
+    
+    const currentlyFav = isFactFavorited(factId);
+    
+    if (onToggleFavorite) {
+      onToggleFavorite(examId, factId);
+    }
+    
+    if (!currentlyFav && onToggleFavoriteTag) {
+      onToggleFavoriteTag(examId, factId, "秒殺數字");
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -245,7 +300,7 @@ export function DiseaseComparePage({
 
       {subTab === "compare" ? (
         <div className="grid gap-6 lg:grid-cols-[280px_1fr] items-start">
-          {/* Sidebar List */}
+          {/* Sidebar List with Staged Taxonomy */}
           <aside className="rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto">
             <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
               <GitCompare size={18} className="text-[#b8527a]" />
@@ -253,30 +308,44 @@ export function DiseaseComparePage({
             </div>
             
             <div className="space-y-4">
-              {Object.entries(categorizedGroups).map(([category, items]) => (
-                <div key={category}>
-                  <h4 className="text-[11px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1.5">
-                    {category}
-                  </h4>
-                  <ul className="space-y-1">
-                    {items.map((item) => (
-                      <li key={item.id}>
-                        <button
-                          type="button"
-                          onClick={() => setSelectedGroupId(item.id)}
-                          className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
-                            item.id === selectedGroupId
-                              ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
-                              : "text-[#6f5b50] hover:bg-white"
-                          }`}
-                        >
-                          {item.title.split(" (")[0]}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+              {Object.entries(stagedCategorizedGroups).map(([stageName, categories]) => {
+                const hasItems = Object.keys(categories).length > 0;
+                if (!hasItems) return null;
+
+                return (
+                  <div key={stageName} className="space-y-2">
+                    <h3 className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center gap-1">
+                      📌 {stageName}
+                    </h3>
+                    <div className="space-y-3 pl-1.5 mb-4">
+                      {Object.entries(categories).map(([category, items]) => (
+                        <div key={category}>
+                          <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1">
+                            {category}
+                          </h4>
+                          <ul className="space-y-1">
+                            {items.map((item) => (
+                              <li key={item.id}>
+                                <button
+                                  type="button"
+                                  onClick={() => setSelectedGroupId(item.id)}
+                                  className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
+                                    item.id === selectedGroupId
+                                      ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                                      : "text-[#6f5b50] hover:bg-white"
+                                  }`}
+                                >
+                                  {item.title.split(" (")[0]}
+                                </button>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </aside>
 
@@ -304,21 +373,21 @@ export function DiseaseComparePage({
                   <h3 className="text-sm font-bold text-[#4b3b35]">臨床決策 PK 診斷測驗</h3>
                 </div>
 
-                {currentQuiz ? (
+                {quizList.length > 0 ? (
                   <div className="space-y-4">
                     <p className="text-xs text-[#a68e98] font-semibold">
                       診斷練習 第 {currentQuizIndex + 1} 題 / 共 {quizList.length} 題
                     </p>
                     <div className="rounded-xl bg-[#fffcf2] border border-[#fceeac]/60 p-4 min-h-24 flex items-center">
                       <p className="text-xs font-semibold leading-6 text-[#725e3c] whitespace-pre-wrap">
-                        {currentQuiz.text}
+                        {quizList[currentQuizIndex]?.text}
                       </p>
                     </div>
 
                     <div className="grid gap-2">
-                      {currentQuiz.options.map((opt, idx) => {
+                      {quizList[currentQuizIndex]?.options.map((opt, idx) => {
                         const isSelected = selectedAnswer === idx;
-                        const isCorrect = currentQuiz.correctIndex === idx;
+                        const isCorrect = quizList[currentQuizIndex]?.correctIndex === idx;
                         let btnStyle = "border-[#efd9d0] hover:bg-[#fffbf9] text-[#6f5b50]";
 
                         if (selectedAnswer !== null) {
@@ -350,10 +419,10 @@ export function DiseaseComparePage({
                     {showExplanation && (
                       <div className="rounded-xl bg-[#effaf5] border border-[#d8eadf] p-4 text-xs">
                         <p className="font-bold text-[#4c806e]">
-                          {selectedAnswer === currentQuiz.correctIndex ? "🎉 答對了！診斷正確。" : "💡 需要再加強記憶。"}
+                          {selectedAnswer === quizList[currentQuizIndex]?.correctIndex ? "🎉 答對了！診斷正確。" : "💡 需要再加強記憶。"}
                         </p>
                         <p className="mt-2 leading-5 text-[#604b43]">
-                          考點解析：這項特徵屬於「{currentQuiz.options[currentQuiz.correctIndex]}」的經典國考特徵，常用於與「{currentQuiz.options[1 - currentQuiz.correctIndex]}」做鑑別診斷。
+                          考點解析：這項特徵屬於「{quizList[currentQuizIndex]?.options[quizList[currentQuizIndex]?.correctIndex]}」的經典國考特徵，常用於與「{quizList[currentQuizIndex]?.options[1 - quizList[currentQuizIndex]?.correctIndex]}」做鑑別診斷。
                         </p>
                         <button
                           type="button"
@@ -384,7 +453,6 @@ export function DiseaseComparePage({
                 <div className="space-y-3 max-h-56 overflow-y-auto mb-4 pr-1">
                   {linkedNotes.length > 0 ? (
                     linkedNotes.map((note) => {
-                      // Strip the prefix for display
                       const prefix = `[對照:${selectedGroup.title}]`;
                       const displayText = note.text.substring(prefix.length).trim();
 
@@ -441,29 +509,108 @@ export function DiseaseComparePage({
         </div>
       ) : (
         <div className="grid gap-6 lg:grid-cols-[280px_1fr] items-start">
-          {/* Category Sidebar */}
+          {/* Category Sidebar with Staged Categories */}
           <aside className="rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto">
             <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
               <Sparkles size={18} className="text-[#b8527a]" />
               <span className="font-hand font-bold text-base text-[#4b3b35]">學科分類</span>
             </div>
-            <ul className="space-y-1">
-              {factCategories.map((cat) => (
-                <li key={cat}>
-                  <button
-                    type="button"
-                    onClick={() => setSelectedFactCategory(cat)}
-                    className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
-                      cat === selectedFactCategory
-                        ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
-                        : "text-[#6f5b50] hover:bg-white"
-                    }`}
-                  >
-                    {cat}
-                  </button>
-                </li>
-              ))}
-            </ul>
+            
+            <div className="space-y-4">
+              {/* Global Buttons */}
+              <button
+                type="button"
+                onClick={() => {
+                  setSelectedFactStage("all");
+                  setSelectedFactCategory("全部");
+                }}
+                className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
+                  selectedFactStage === "all"
+                    ? "bg-[#fdf0f4] text-[#b8527a]"
+                    : "text-[#6f5b50] hover:bg-white"
+                }`}
+              >
+                🌟 顯示全部學科
+              </button>
+
+              {/* Stage 1 Section */}
+              <div className="space-y-1.5">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedFactStage("一階");
+                    setSelectedFactCategory("全部");
+                  }}
+                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer ${
+                    selectedFactStage === "一階" && selectedFactCategory === "全部"
+                      ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
+                      : ""
+                  }`}
+                >
+                  <span>📌 第一階段 (一階)</span>
+                  <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
+                </button>
+                <ul className="space-y-0.5 pl-2">
+                  {stagedFactCategories["第一階段 (一階)"].map((cat) => (
+                    <li key={cat}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedFactStage("一階");
+                          setSelectedFactCategory(cat);
+                        }}
+                        className={`w-full text-left rounded-lg px-2 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                          selectedFactStage === "一階" && selectedFactCategory === cat
+                            ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                            : "text-[#6f5b50] hover:bg-white"
+                        }`}
+                      >
+                        {cat}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Stage 2 Section */}
+              <div className="space-y-1.5">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedFactStage("二階");
+                    setSelectedFactCategory("全部");
+                  }}
+                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer ${
+                    selectedFactStage === "二階" && selectedFactCategory === "全部"
+                      ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
+                      : ""
+                  }`}
+                >
+                  <span>📌 第二階段 (二階)</span>
+                  <span className="text-[10px] bg-white px-1.5 py-0.5 rounded-full font-bold text-[#866e7b]">全部</span>
+                </button>
+                <ul className="space-y-0.5 pl-2">
+                  {stagedFactCategories["第二階段 (二階)"].map((cat) => (
+                    <li key={cat}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedFactStage("二階");
+                          setSelectedFactCategory(cat);
+                        }}
+                        className={`w-full text-left rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                          selectedFactStage === "二階" && selectedFactCategory === cat
+                            ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                            : "text-[#6f5b50] hover:bg-white"
+                        }`}
+                      >
+                        {cat}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </aside>
 
           {/* Main Content Area */}
@@ -523,7 +670,6 @@ export function DiseaseComparePage({
                 {filteredFacts.map((fact) => {
                   const isFactRevealed = !factSelfTest || revealedFacts[fact.id];
                   
-                  // Theme adapted colors
                   const cardBorderClass = theme === "dark"
                     ? "border-[#5e4757]/80"
                     : theme === "clinical"
@@ -552,6 +698,8 @@ export function DiseaseComparePage({
                     ? "text-[#dccbd3]"
                     : "text-[#604b43]";
 
+                  const hasFavorite = isFactFavorited(fact.id);
+
                   return (
                     <div
                       key={fact.id}
@@ -574,7 +722,7 @@ export function DiseaseComparePage({
 
                       {/* Right Side details */}
                       <div className="flex-1 min-w-0 space-y-1.5 transition-all duration-300">
-                        <div className="flex flex-wrap items-center gap-1.5">
+                        <div className="flex flex-wrap items-center gap-1.5 pr-6">
                           <span className="inline-block rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-2 py-0.5 text-[9px] font-bold text-[#866e7b] dark:text-[#a68e98]">
                             {fact.category} | {fact.year}
                           </span>
@@ -625,6 +773,23 @@ export function DiseaseComparePage({
                           </button>
                         </div>
                       </div>
+
+                      {/* Bookmark Favorite Button */}
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleToggleFactFavorite(fact.id);
+                        }}
+                        className="absolute top-3.5 right-3.5 p-1 rounded-full bg-white/80 border border-[#efd9d0] text-[#a68e98] hover:text-[#9a496b] hover:bg-[#fff0f6] transition cursor-pointer dark:bg-black/40 dark:border-[#5e4757] dark:text-[#a2949e] dark:hover:text-[#f3a6c4]"
+                        title={hasFavorite ? "取消收藏" : "加入收藏"}
+                      >
+                        {hasFavorite ? (
+                          <BookmarkCheck size={14} className="text-[#9a496b] fill-[#9a496b] dark:text-[#f3a6c4] dark:fill-[#f3a6c4]" />
+                        ) : (
+                          <Bookmark size={14} />
+                        )}
+                      </button>
 
                       {/* Mask overlay for Self Test Mode */}
                       {factSelfTest && !revealedFacts[fact.id] && (
