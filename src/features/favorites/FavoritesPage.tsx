@@ -48,7 +48,7 @@ export function FavoritesPage({
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
             <p className="text-sm font-semibold tracking-[0.12em] text-[#b36a84]">收藏</p>
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f342d]">收藏題庫</h2>
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f342d]">收藏國考題</h2>
             <div className="mt-4 inline-flex rounded-full bg-[#fff1f6] px-4 py-2 text-sm font-semibold text-[#9a496b]">
               目前 {favorites.length} 題
             </div>

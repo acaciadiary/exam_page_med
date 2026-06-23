@@ -52,7 +52,7 @@ export function CategoryFilter({
 
       {!hasAssignedCategory && (
         <p className="mt-2 px-2 text-xs leading-5 text-[#8a7066]">
-          已建立科目按鈕，但目前題庫還沒有題號區間對應，所以題目暫時集中在「未分類」。提供每科題號範圍後即可批次回填。
+          已建立科目按鈕，但目前國考題還沒有題號區間對應，所以題目暫時集中在「未分類」。提供每科題號範圍後即可批次回填。
         </p>
       )}
     </div>

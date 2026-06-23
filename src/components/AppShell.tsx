@@ -44,6 +44,7 @@ type AppShellProps = {
   onPageChange: (page: AppPage) => void;
   onThemeChange: (theme: AppTheme) => void;
   onReset: () => void;
+  onResetAll: () => void;
 };
 
 type DropdownOption = {
@@ -68,6 +69,7 @@ export function AppShell({
   onPageChange,
   onThemeChange,
   onReset,
+  onResetAll,
 }: AppShellProps) {
   const groupedExams = groupExamsByStage(exams);
   const activeExam = exams.find((exam) => exam.id === activeExamId);
@@ -206,10 +208,10 @@ export function AppShell({
         {/* Navigation items */}
         <nav className="flex-1 space-y-1.5 p-4">
           <SidebarLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={18} />} theme={theme}>
-            題庫
+            國考題
           </SidebarLink>
           <SidebarLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={18} />} theme={theme}>
-            疾病對照
+            必看區
           </SidebarLink>
           <SidebarLink
             active={page === "mistakes"}
@@ -283,6 +285,7 @@ export function AppShell({
                   handleYearChange={handleYearChange}
                   handleStageChange={handleStageChange}
                   onReset={onReset}
+                  onResetAll={onResetAll}
                   theme={theme}
                 />
               </div>
@@ -332,6 +335,7 @@ export function AppShell({
                   handleYearChange={handleYearChange}
                   handleStageChange={handleStageChange}
                   onReset={onReset}
+                  onResetAll={onResetAll}
                   theme={theme}
                 />
                 
@@ -362,8 +366,8 @@ export function AppShell({
           !isVisible && "translate-y-[calc(100%+1.5rem)]"
         )}
       >
-        <MobileNavLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={20} />} label="題庫" theme={theme} />
-        <MobileNavLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={20} />} label="對照" theme={theme} />
+        <MobileNavLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={20} />} label="國考題" theme={theme} />
+        <MobileNavLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={20} />} label="必看區" theme={theme} />
         <MobileNavLink
           active={page === "mistakes"}
           onClick={() => onPageChange("mistakes")}
@@ -539,6 +543,7 @@ function FilterControl({
   handleYearChange,
   handleStageChange,
   onReset,
+  onResetAll,
   theme,
 }: {
   exams: ExamManifestItem[];
@@ -551,6 +556,7 @@ function FilterControl({
   handleYearChange: (year: string) => void;
   handleStageChange: (stage: "stage-1" | "stage-2") => void;
   onReset: () => void;
+  onResetAll: () => void;
   theme: AppTheme;
 }) {
   const [filterOpen, setFilterOpen] = useState(false);
@@ -749,7 +755,7 @@ function FilterControl({
         {settingsOpen && (
           <div
             className={clsx(
-              "absolute right-0 top-[calc(100%+0.5rem)] z-50 w-44 rounded-xl border p-1 shadow-[0_12px_36px_rgba(181,133,117,0.18)] backdrop-blur-xl",
+              "absolute right-0 top-[calc(100%+0.5rem)] z-50 w-52 rounded-xl border p-1 shadow-[0_12px_36px_rgba(181,133,117,0.18)] backdrop-blur-xl",
               theme === "dark"
                 ? "border-white/15 bg-[#2b2430]/95"
                 : theme === "clinical"
@@ -775,6 +781,25 @@ function FilterControl({
             >
               <RotateCcw size={12} />
               <span>重置本科作答</span>
+            </button>
+            <button
+              type="button"
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={() => {
+                onResetAll();
+                setSettingsOpen(false);
+              }}
+              className={clsx(
+                "flex h-8 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer border-t border-[#f0ded6]/40 dark:border-white/10 mt-1 pt-1",
+                theme === "dark"
+                  ? "text-[#b65f7c] hover:bg-white/5"
+                  : theme === "clinical"
+                  ? "text-[#b65f7c] hover:bg-[#fff0f6]"
+                  : "text-[#8a4561] hover:bg-[#fff0f6]"
+              )}
+            >
+              <RotateCcw size={12} className="rotate-180" />
+              <span>重置所有作答和筆記</span>
             </button>
           </div>
         )}

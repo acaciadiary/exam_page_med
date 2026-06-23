@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff, Bookmark, BookmarkCheck } from "lucide-react";
+import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff, Bookmark, BookmarkCheck, ChevronDown, ChevronRight } from "lucide-react";
 import { loadDiseaseComparisons, loadInstantKillFacts } from "../../lib/loadExamData";
 import { DiseaseComparison } from "./DiseaseComparison";
 import type { DiseaseComparisonGroup, InstantKillFact } from "../../types/disease";
@@ -37,6 +37,14 @@ export function DiseaseComparePage({
   const [selectedGroupId, setSelectedGroupId] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
+  const [collapsedStages, setCollapsedStages] = useState<Record<string, boolean>>({});
+
+  const toggleStageCollapse = (stageName: string) => {
+    setCollapsedStages((prev) => ({
+      ...prev,
+      [stageName]: !prev[stageName],
+    }));
+  };
 
   // Instant Kill Facts State
   const [facts, setFacts] = useState<InstantKillFact[]>([]);
@@ -68,7 +76,7 @@ export function DiseaseComparePage({
       })
       .catch((err) => {
         console.error("Failed to load disease comparisons", err);
-        setError("無法載入疾病對照資料庫，請稍後再試。");
+        setError("無法載入必看區資料庫，請稍後再試。");
         setLoading(false);
       });
   }, []);
@@ -243,7 +251,7 @@ export function DiseaseComparePage({
   if (error || !selectedGroup) {
     return (
       <div className="rounded-[1.2rem] border border-red-200 bg-red-50 p-6 text-center text-red-800">
-        <p>{error || "尚未建立疾病對照資料。"}</p>
+        <p>{error || "尚未建立必看區資料。"}</p>
       </div>
     );
   }
@@ -311,38 +319,45 @@ export function DiseaseComparePage({
               {Object.entries(stagedCategorizedGroups).map(([stageName, categories]) => {
                 const hasItems = Object.keys(categories).length > 0;
                 if (!hasItems) return null;
+                const isCollapsed = collapsedStages[stageName];
 
                 return (
                   <div key={stageName} className="space-y-2">
-                    <h3 className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center gap-1">
-                      📌 {stageName}
+                    <h3 
+                      onClick={() => toggleStageCollapse(stageName)}
+                      className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] transition"
+                    >
+                      <span className="flex items-center gap-1">📌 {stageName}</span>
+                      {isCollapsed ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
                     </h3>
-                    <div className="space-y-3 pl-1.5 mb-4">
-                      {Object.entries(categories).map(([category, items]) => (
-                        <div key={category}>
-                          <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1">
-                            {category}
-                          </h4>
-                          <ul className="space-y-1">
-                            {items.map((item) => (
-                              <li key={item.id}>
-                                <button
-                                  type="button"
-                                  onClick={() => setSelectedGroupId(item.id)}
-                                  className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
-                                    item.id === selectedGroupId
-                                      ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
-                                      : "text-[#6f5b50] hover:bg-white"
-                                  }`}
-                                >
-                                  {item.title.split(" (")[0]}
-                                </button>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
+                    {!isCollapsed && (
+                      <div className="space-y-3 pl-1.5 mb-4">
+                        {Object.entries(categories).map(([category, items]) => (
+                          <div key={category}>
+                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1">
+                              {category}
+                            </h4>
+                            <ul className="space-y-1">
+                              {items.map((item) => (
+                                <li key={item.id}>
+                                  <button
+                                    type="button"
+                                    onClick={() => setSelectedGroupId(item.id)}
+                                    className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
+                                      item.id === selectedGroupId
+                                        ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                                        : "text-[#6f5b50] hover:bg-white"
+                                    }`}
+                                  >
+                                    {item.title.split(" (")[0]}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 );
               })}

@@ -151,7 +151,7 @@ export default function App() {
         const selected =
           manifest.exams.find((exam) => exam.id === activeExamId) ?? manifest.exams[0];
 
-        if (!selected) throw new Error("找不到題庫資料。");
+        if (!selected) throw new Error("找不到國考題資料。");
 
         if ((!activeExamId || !activeExamExists) && selected.id !== activeExamId) {
           setActiveExamId(selected.id);
@@ -168,7 +168,7 @@ export default function App() {
           setIsDatasetLoading(false);
           setState({
             status: "error",
-            message: error instanceof Error ? error.message : "題庫載入失敗。",
+            message: error instanceof Error ? error.message : "國考題載入失敗。",
           });
         }
       }
@@ -566,7 +566,7 @@ export default function App() {
       <div className="grid min-h-screen place-items-center bg-[#fff8f4] px-6 text-[#4b3b35]">
         <div className="rounded-[1.5rem] border border-white/80 bg-white/72 px-8 py-7 text-center shadow-[0_18px_60px_rgba(181,133,117,0.18)] backdrop-blur-2xl">
           <div className="mx-auto h-12 w-12 animate-spin rounded-full border-2 border-[#f6a9c6] border-t-transparent" />
-          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">載入題庫中...</p>
+          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-[#9c7b70]">載入國考題中...</p>
         </div>
       </div>
     );
@@ -577,7 +577,7 @@ export default function App() {
       <div className="grid min-h-screen place-items-center bg-slate-950 px-6 text-white">
         <div className="max-w-md rounded-lg border border-red-300/30 bg-red-500/10 p-6">
           <AlertCircle className="text-red-200" />
-          <h1 className="mt-4 text-xl font-semibold">題庫載入失敗</h1>
+          <h1 className="mt-4 text-xl font-semibold">國考題載入失敗</h1>
           <p className="mt-2 text-sm leading-6 text-red-100/80">{state.message}</p>
         </div>
       </div>
@@ -607,6 +607,32 @@ export default function App() {
         if (!window.confirm("確定重置本科作答？")) return;
         resetAnswers();
       }}
+      onResetAll={() => {
+        if (!window.confirm("⚠️ 確定重置所有作答和筆記？\n\n此操作將清除：\n• 所有科目的作答記錄\n• 所有收藏與標籤\n• 所有錯題狀態\n• 所有便利貼筆記\n\n此操作無法復原！")) return;
+
+        // Clear current exam's in-memory state
+        resetAnswers();
+        markedQuestions.clearMarked();
+        markedFlashcards.clearMarked();
+        setFavoriteTags({});
+
+        // Clear all other exams' stored data
+        for (const exam of manifest.exams) {
+          if (exam.id === examId) continue;
+          writeStoredAnswers(exam.id, {});
+          writeStoredStringArray(storageKeys.markedQuestions(exam.id), []);
+          writeStoredStringArray(storageKeys.markedFlashcards(exam.id), []);
+          writeStoredFavoriteTags(storageKeys.favoriteTags(exam.id), {});
+        }
+
+        // Clear global state
+        setMistakeStatuses({});
+        setStickyNotes([]);
+        setAllMistakes([]);
+        setPerformanceStats([]);
+        setFavorites([]);
+        setMistakePracticeIds({});
+      }}
     >
       <div className="relative">
         <AnimatePresence>
@@ -620,7 +646,7 @@ export default function App() {
               className="absolute inset-0 z-30 grid min-h-80 place-items-center rounded-[1.5rem] bg-[#fff8f4]/72 backdrop-blur-sm"
             >
               <div className="rounded-full border border-[#efd9d0] bg-white/86 px-5 py-3 text-sm font-semibold tracking-[0.12em] text-[#9c7b70] shadow-[0_18px_50px_rgba(181,133,117,0.16)]">
-                正在切換題庫...
+                正在切換國考題...
               </div>
             </motion.div>
           ) : null}
@@ -771,7 +797,7 @@ function DailyStudyPanel({
               <ClipboardCheck size={16} />
               今日任務
             </p>
-            <h2 className="mt-2 text-2xl font-semibold text-[#3f342d]">10 分鐘，把題庫拉回可掌控</h2>
+            <h2 className="mt-2 text-2xl font-semibold text-[#3f342d]">10 分鐘，把國考題拉回可掌控</h2>
           </div>
         </div>
 
