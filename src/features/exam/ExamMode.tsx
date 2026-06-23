@@ -1,5 +1,6 @@
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, BookOpenCheck, Layers3 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import clsx from "clsx";
 import { CategoryFilter } from "../../components/CategoryFilter";
 import type { useMarkedItems } from "../../hooks/useMarkedItems";
 import {
@@ -8,7 +9,8 @@ import {
   filterQuestionsByCategory,
 } from "../../lib/categoryFilters";
 import { getExamDisplayTitle } from "../../lib/examMetadata";
-import type { AnswerOptionKey, AnswerState, ExamDataset } from "../../types/exam";
+import type { AnswerOptionKey, AnswerState, ExamDataset, Mode } from "../../types/exam";
+import type { AppTheme } from "../../components/ThemeToggle";
 import { MarkedQuestionSidebar } from "./MarkedQuestionSidebar";
 import { QuestionCard } from "./QuestionCard";
 
@@ -19,6 +21,9 @@ type ExamModeProps = {
   answers: AnswerState;
   markedQuestions: MarkedApi;
   onAnswer: (questionId: string, answer: AnswerOptionKey) => void;
+  mode: Mode;
+  onModeChange: (mode: Mode) => void;
+  theme: AppTheme;
   reviewMode?: {
     title: string;
     description: string;
@@ -32,6 +37,9 @@ export function ExamMode({
   answers,
   markedQuestions,
   onAnswer,
+  mode,
+  onModeChange,
+  theme,
   reviewMode,
 }: ExamModeProps) {
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
@@ -53,16 +61,71 @@ export function ExamMode({
   return (
     <div className="flex min-w-0 items-start gap-6">
       <section className="min-w-0 flex-1">
-        <div className="mb-6">
-          <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#c4869b]">
-            [01] Exam notes / {dataset.year}
-          </p>
-          <h2 className="mt-3 text-3xl font-semibold tracking-normal text-[#4b3b35]">
-            {getExamDisplayTitle(dataset)}
-          </h2>
-          <p className="mt-3 max-w-2xl text-sm leading-7 text-[#725b52]">
-            做題後立即看解析，收藏重要題，錯題會自動整理到錯題本。
-          </p>
+        <div className="mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#c4869b]">
+              [01] Exam notes / {dataset.year}
+            </p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-normal text-[#4b3b35] dark:text-[#f8edf3]">
+              {getExamDisplayTitle(dataset)}
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-[#725b52] dark:text-[#dccbd3]">
+              做題後立即看解析，收藏重要題，錯題會自動整理到錯題本。
+            </p>
+          </div>
+
+          {/* Mode Switcher */}
+          <div className={clsx(
+            "inline-flex h-11 rounded-[0.85rem] p-1 border backdrop-blur-xl shrink-0 self-start sm:self-auto",
+            theme === "dark"
+              ? "bg-[#2b2430]/80 border-white/12"
+              : theme === "clinical"
+              ? "bg-white/86 border-[#a3bed0]/45"
+              : "bg-white/80 border-[#e6d6c9]"
+          )}>
+            <button
+              type="button"
+              onClick={() => onModeChange("exam")}
+              className={clsx(
+                "inline-flex min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
+                mode === "exam"
+                  ? theme === "dark"
+                    ? "bg-[#4a2c3a] text-[#f3a6c4] shadow-sm"
+                    : theme === "clinical"
+                    ? "bg-[#dbeafe] text-[#1f4e79] shadow-sm"
+                    : "bg-[#dce8dc] text-[#405d49] shadow-sm"
+                  : theme === "dark"
+                  ? "text-[#dccbd3] hover:bg-[#2b2430] hover:text-[#f3a6c4]"
+                  : theme === "clinical"
+                  ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
+                  : "text-[#806b60] hover:bg-white hover:text-[#3f342d]"
+              )}
+            >
+              <BookOpenCheck size={16} />
+              題目模式
+            </button>
+            <button
+              type="button"
+              onClick={() => onModeChange("flashcards")}
+              className={clsx(
+                "inline-flex min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
+                mode === "flashcards"
+                  ? theme === "dark"
+                    ? "bg-[#4a2c3a] text-[#f3a6c4] shadow-sm"
+                    : theme === "clinical"
+                    ? "bg-[#dbeafe] text-[#1f4e79] shadow-sm"
+                    : "bg-[#dce8dc] text-[#405d49] shadow-sm"
+                  : theme === "dark"
+                  ? "text-[#dccbd3] hover:bg-[#2b2430] hover:text-[#f3a6c4]"
+                  : theme === "clinical"
+                  ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
+                  : "text-[#806b60] hover:bg-white hover:text-[#3f342d]"
+              )}
+            >
+              <Layers3 size={16} />
+              卡片模式
+            </button>
+          </div>
         </div>
 
         {reviewMode && (

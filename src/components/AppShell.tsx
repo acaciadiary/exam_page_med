@@ -5,13 +5,15 @@ import {
   ChevronDown,
   ClipboardX,
   Download,
-  Layers3,
   NotebookPen,
   PencilLine,
   RotateCcw,
+  GitCompare,
+  Settings,
 } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
 import clsx from "clsx";
+import { motion } from "motion/react";
 import type { AppPage } from "../app/routes";
 import {
   findExamForYear,
@@ -22,7 +24,7 @@ import {
   getSubjectNumber,
   groupExamsByStage,
 } from "../lib/examMetadata";
-import type { ExamManifestItem, Mode } from "../types/exam";
+import type { ExamManifestItem } from "../types/exam";
 import { ThemeToggle, type AppTheme } from "./ThemeToggle";
 
 type AppShellProps = {
@@ -30,7 +32,6 @@ type AppShellProps = {
   exams: ExamManifestItem[];
   activeExamId: string;
   page: AppPage;
-  mode: Mode;
   theme: AppTheme;
   answeredCount: number;
   questionCount: number;
@@ -41,7 +42,6 @@ type AppShellProps = {
   onInstall?: () => void;
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
-  onModeChange: (mode: Mode) => void;
   onThemeChange: (theme: AppTheme) => void;
   onReset: () => void;
 };
@@ -56,7 +56,6 @@ export function AppShell({
   exams,
   activeExamId,
   page,
-  mode,
   theme,
   answeredCount,
   questionCount,
@@ -67,7 +66,6 @@ export function AppShell({
   onInstall,
   onExamChange,
   onPageChange,
-  onModeChange,
   onThemeChange,
   onReset,
 }: AppShellProps) {
@@ -110,11 +108,12 @@ export function AppShell({
   return (
     <div
       className={clsx(
-        "study-journal min-h-screen overflow-hidden bg-[#fff8f4] text-[#4b3b35] transition-colors duration-500",
+        "study-journal min-h-screen bg-[#fff8f4] text-[#4b3b35] transition-colors duration-500",
         theme === "dark" && "theme-dark bg-[#19161e] text-[#f8edf3]",
         theme === "clinical" && "theme-clinical bg-[#f4f8fb] text-[#26384a]",
       )}
     >
+      {/* Dynamic Backgrounds */}
       <div
         className={clsx(
           "pointer-events-none fixed inset-0 z-0 bg-[url('/assets/pastel-study-desk.png')] bg-cover bg-top opacity-35 transition-opacity duration-500",
@@ -124,127 +123,204 @@ export function AppShell({
       />
       <div className="pointer-events-none fixed inset-0 z-0 journal-paper opacity-70" />
 
-      <header className="sticky top-0 z-40 px-3 pt-3 sm:px-5 sm:pt-5">
-        <div className="font-hand mx-auto max-w-[92rem] rounded-[1.5rem] border border-white/80 bg-white/78 px-4 py-4 shadow-[0_18px_60px_rgba(181,133,117,0.18)] backdrop-blur-2xl sm:px-6 lg:px-8">
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
-              <div className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-[1.1rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c] shadow-[0_8px_24px_rgba(118,91,78,0.12)]">
-                  <PencilLine size={22} />
-                </div>
-                <div>
-                  <h1 className="text-xl font-semibold tracking-[0.04em] text-[#3f342d] sm:text-2xl">
-                    醫師國考複習筆記
-                  </h1>
-                  <p className="mt-1 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                    你的專屬筆記
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-2">
-                <PageButton active={page === "exam"} onClick={() => onPageChange("exam")}>
-                  題庫
-                </PageButton>
-                <PageButton
-                  active={page === "mistakes"}
-                  onClick={() => onPageChange("mistakes")}
-                  icon={<ClipboardX size={16} />}
-                  badge={wrongQuestionCount}
-                >
-                  錯題
-                </PageButton>
-                <PageButton
-                  active={page === "favorites"}
-                  onClick={() => onPageChange("favorites")}
-                  icon={<BookmarkCheck size={16} />}
-                  badge={favoriteCount}
-                >
-                  收藏
-                </PageButton>
-                <PageButton
-                  active={page === "notes"}
-                  onClick={() => onPageChange("notes")}
-                  icon={<NotebookPen size={16} />}
-                  badge={stickyNoteCount}
-                >
-                  便條
-                </PageButton>
-                <ThemeToggle theme={theme} onChange={onThemeChange} />
-                {isInstallable && onInstall && (
-                  <button
-                    type="button"
-                    onClick={onInstall}
-                    className="inline-flex h-11 items-center gap-2 rounded-full border border-[#b8e2d4] bg-[#e8f4ee] px-4 text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer"
-                  >
-                    <Download size={16} />
-                    <span>安裝 App</span>
-                  </button>
-                )}
-              </div>
-            </div>
-
-            <div className="grid gap-3 xl:grid-cols-[13rem_auto_minmax(16rem,24rem)_auto]">
-              <Dropdown label="年度" value={activeYear} options={yearOptions} onChange={handleYearChange} />
-
-              <div className="min-w-0">
-                <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                  階段
-                </p>
-                <div className="inline-flex h-11 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 p-1">
-                  <SegmentButton active={activeStage === "stage-1"} onClick={() => handleStageChange("stage-1")}>
-                    {getStageLabel("stage-1")}
-                  </SegmentButton>
-                  <SegmentButton active={activeStage === "stage-2"} onClick={() => handleStageChange("stage-2")}>
-                    {getStageLabel("stage-2")}
-                  </SegmentButton>
-                </div>
-              </div>
-
-              <Dropdown
-                label="科目"
-                value={activeExam?.id ?? ""}
-                options={subjectOptions}
-                onChange={onExamChange}
-              />
-
-              <div className="flex flex-wrap items-start justify-start gap-2 xl:justify-end">
-                <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
-                <SummaryPill>完成度：{progress}%</SummaryPill>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-2 border-t border-[#f0ded6] pt-4">
-              <div className="inline-flex h-11 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 p-1">
-                <ModeButton active={mode === "exam"} onClick={() => onModeChange("exam")} icon={<BookOpenCheck size={16} />}>
-                  題目模式
-                </ModeButton>
-                <ModeButton active={mode === "flashcards"} onClick={() => onModeChange("flashcards")} icon={<Layers3 size={16} />}>
-                  卡片模式
-                </ModeButton>
-              </div>
-
-              <button
-                type="button"
-                onClick={onReset}
-                className="inline-flex h-11 items-center justify-center gap-2 rounded-[0.85rem] border border-[#e6d6c9] bg-white/80 px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-              >
-                <RotateCcw size={16} />
-                重置本科作答
-              </button>
-            </div>
+      {/* Desktop Left Fixed Sidebar */}
+      <aside
+        className={clsx(
+          "fixed bottom-0 left-0 top-0 z-40 hidden w-64 flex-col border-r bg-white/70 backdrop-blur-xl lg:flex",
+          theme === "dark"
+            ? "border-white/12 bg-[#2b2430]/70"
+            : theme === "clinical"
+            ? "border-[#a3bed0]/45 bg-white/86"
+            : "border-[#efd9d0] bg-white/70"
+        )}
+      >
+        {/* Logo and Title */}
+        <div className="flex items-center gap-3 p-6 border-b border-[#f0ded6]/65 dark:border-white/10">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[0.95rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c] shadow-[0_6px_18px_rgba(118,91,78,0.08)]">
+            <PencilLine size={20} />
+          </div>
+          <div>
+            <h1 className="text-lg font-bold tracking-[0.02em] text-[#3f342d] dark:text-[#f8edf3]">
+              醫師國考複習筆記
+            </h1>
+            <p className="text-[10px] font-semibold tracking-[0.14em] text-[#8b7666] dark:text-[#a2949e]">
+              你的專屬筆記
+            </p>
           </div>
         </div>
-      </header>
 
-      <main className="relative z-10 mx-auto max-w-[92rem] px-4 py-8 sm:px-6 lg:px-8">
-        {children}
-      </main>
+        {/* Navigation items */}
+        <nav className="flex-1 space-y-1.5 p-4">
+          <SidebarLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={18} />} theme={theme}>
+            題庫
+          </SidebarLink>
+          <SidebarLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={18} />} theme={theme}>
+            疾病對照
+          </SidebarLink>
+          <SidebarLink
+            active={page === "mistakes"}
+            onClick={() => onPageChange("mistakes")}
+            icon={<ClipboardX size={18} />}
+            badge={wrongQuestionCount}
+            theme={theme}
+          >
+            錯題本
+          </SidebarLink>
+          <SidebarLink
+            active={page === "favorites"}
+            onClick={() => onPageChange("favorites")}
+            icon={<BookmarkCheck size={18} />}
+            badge={favoriteCount}
+            theme={theme}
+          >
+            收藏
+          </SidebarLink>
+          <SidebarLink
+            active={page === "notes"}
+            onClick={() => onPageChange("notes")}
+            icon={<NotebookPen size={18} />}
+            badge={stickyNoteCount}
+            theme={theme}
+          >
+            便條
+          </SidebarLink>
+        </nav>
 
+        {/* Sidebar bottom settings and theme controls */}
+        <div className="p-4 border-t border-[#f0ded6]/65 dark:border-white/10 space-y-3">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
+            <ThemeToggle theme={theme} onChange={onThemeChange} />
+          </div>
+          {isInstallable && onInstall && (
+            <button
+              type="button"
+              onClick={onInstall}
+              className="flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] py-2.5 text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer"
+            >
+              <Download size={16} />
+              <span>安裝 App</span>
+            </button>
+          )}
+        </div>
+      </aside>
+
+      {/* Main Content Area (shifted right on Desktop) */}
+      <div className="flex min-h-screen flex-col lg:pl-64">
+        {/* Top Header */}
+        <header className="sticky top-0 z-30 px-3 pt-3 sm:px-5 sm:pt-5">
+          <div className="mx-auto w-full max-w-[92rem] rounded-[1.25rem] border border-white/80 bg-white/78 px-4 py-3 shadow-[0_12px_40px_rgba(181,133,117,0.12)] backdrop-blur-2xl sm:px-6">
+            <div className="flex items-center justify-between gap-4">
+              
+              {/* Left: Mobile Title / Unified Filters */}
+              <div className="flex items-center gap-3 min-w-0">
+                {/* Mobile Title Icon & Label */}
+                <div className="flex items-center gap-2 lg:hidden">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[0.8rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
+                    <PencilLine size={18} />
+                  </div>
+                  <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] sm:text-xl truncate">
+                    國考筆記
+                  </span>
+                </div>
+
+                {/* Separator on mobile */}
+                <div className="hidden h-5 w-px bg-[#f0ded6] dark:bg-white/10 lg:hidden shrink-0" />
+
+                {/* Compact Unified Filters */}
+                <FilterControl
+                  exams={exams}
+                  activeExamId={activeExamId}
+                  activeYear={activeYear}
+                  activeStage={activeStage}
+                  yearOptions={yearOptions}
+                  subjectOptions={subjectOptions}
+                  onExamChange={onExamChange}
+                  handleYearChange={handleYearChange}
+                  handleStageChange={handleStageChange}
+                  onReset={onReset}
+                  theme={theme}
+                />
+              </div>
+
+              {/* Right: Stats & Mobile theme controls */}
+              <div className="flex items-center gap-3 shrink-0">
+                {/* Global stats (Desktop/Tablet) */}
+                <div className="hidden sm:flex items-center gap-2">
+                  <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
+                  <SummaryPill>完成度：{progress}%</SummaryPill>
+                </div>
+
+                {/* Mobile theme settings */}
+                <div className="flex items-center gap-2 lg:hidden">
+                  <ThemeToggle theme={theme} onChange={onThemeChange} />
+                  {isInstallable && onInstall && (
+                    <button
+                      type="button"
+                      onClick={onInstall}
+                      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#b8e2d4] bg-[#e8f4ee] text-[#355249] transition hover:bg-[#d5ebe1] cursor-pointer"
+                      title="安裝 App"
+                    >
+                      <Download size={16} />
+                    </button>
+                  )}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </header>
+
+        {/* Main Content Area */}
+        <main className="relative z-10 mx-auto w-full max-w-[92rem] flex-1 px-4 py-6 sm:px-6 lg:px-8 pb-24 lg:pb-8">
+          {children}
+        </main>
+      </div>
+
+      {/* Mobile Floating Bottom Navigation Bar */}
+      <nav
+        className={clsx(
+          "fixed bottom-4 left-1/2 z-40 flex h-16 w-[92%] max-w-[28rem] -translate-x-1/2 items-center justify-around rounded-full border bg-white/78 px-3 shadow-[0_12px_36px_rgba(181,133,117,0.2)] backdrop-blur-2xl lg:hidden",
+          theme === "dark"
+            ? "border-white/10 bg-[#2b2430]/78"
+            : theme === "clinical"
+            ? "border-[#a3bed0]/45 bg-white/86"
+            : "border-white/80 bg-white/78"
+        )}
+      >
+        <MobileNavLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={20} />} label="題庫" theme={theme} />
+        <MobileNavLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={20} />} label="對照" theme={theme} />
+        <MobileNavLink
+          active={page === "mistakes"}
+          onClick={() => onPageChange("mistakes")}
+          icon={<ClipboardX size={20} />}
+          label="錯題"
+          badge={wrongQuestionCount}
+          theme={theme}
+        />
+        <MobileNavLink
+          active={page === "favorites"}
+          onClick={() => onPageChange("favorites")}
+          icon={<BookmarkCheck size={20} />}
+          label="收藏"
+          badge={favoriteCount}
+          theme={theme}
+        />
+        <MobileNavLink
+          active={page === "notes"}
+          onClick={() => onPageChange("notes")}
+          icon={<NotebookPen size={20} />}
+          label="便條"
+          badge={stickyNoteCount}
+          theme={theme}
+        />
+      </nav>
+
+      {/* Back to top button */}
       <button
         type="button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-5 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:bottom-6 sm:right-6"
+        className="fixed bottom-24 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#f1aac8] bg-white/90 text-[#9a496b] shadow-[0_12px_34px_rgba(181,133,117,0.2)] backdrop-blur-xl transition hover:-translate-y-0.5 hover:bg-[#fff0f6] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/55 sm:bottom-6 sm:right-6 lg:bottom-6 lg:right-6"
         aria-label="回到頂部"
         title="回到頂部"
       >
@@ -254,110 +330,111 @@ export function AppShell({
   );
 }
 
-function Dropdown({
-  label,
-  value,
-  options,
-  onChange,
-}: {
-  label: string;
-  value: string;
-  options: DropdownOption[];
-  onChange: (value: string) => void;
-}) {
-  const [open, setOpen] = useState(false);
-  const selected = options.find((option) => option.value === value);
+/* ------------------ Sub Components ------------------ */
 
-  return (
-    <div
-      className="relative min-w-0"
-      onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
-      }}
-    >
-      <p className="mb-2 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">{label}</p>
-      <button
-        type="button"
-        onClick={() => setOpen((current) => !current)}
-        className="flex h-11 w-full items-center justify-between gap-3 rounded-[0.85rem] border border-[#e6d6c9] bg-white/84 px-4 text-left text-sm font-semibold text-[#6f5b50] outline-none transition hover:border-[#f1aac8] focus:border-[#f1aac8] focus:ring-4 focus:ring-[#ffd9e8]/55"
-        aria-expanded={open}
-      >
-        <span className="truncate">{selected?.label ?? "請選擇"}</span>
-        <ChevronDown size={16} className={clsx("shrink-0 text-[#9a7469] transition", open && "rotate-180")} />
-      </button>
-
-      {open && (
-        <div className="absolute left-0 right-0 top-[calc(100%+0.35rem)] z-50 max-h-72 overflow-y-auto rounded-[0.9rem] border border-[#e6d6c9] bg-white/95 p-1.5 shadow-[0_18px_50px_rgba(181,133,117,0.2)] backdrop-blur-xl">
-          {options.map((option) => (
-            <button
-              key={option.value}
-              type="button"
-              onMouseDown={(event) => event.preventDefault()}
-              onClick={() => {
-                onChange(option.value);
-                setOpen(false);
-              }}
-              className={clsx(
-                "flex h-10 w-full items-center rounded-[0.7rem] px-3 text-left text-sm font-semibold transition",
-                option.value === value
-                  ? "bg-[#f7e2ea] text-[#8a4561]"
-                  : "text-[#806b60] hover:bg-[#fff0f6] hover:text-[#3f342d]",
-              )}
-            >
-              {option.label}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function SegmentButton({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={clsx(
-        "inline-flex min-w-24 items-center justify-center rounded-[0.7rem] px-4 text-sm font-semibold transition",
-        active
-          ? "bg-[#f7e2ea] text-[#8a4561] shadow-[0_10px_24px_rgba(181,133,117,0.18)]"
-          : "text-[#806b60] hover:bg-white hover:text-[#3f342d]",
-      )}
-    >
-      {children}
-    </button>
-  );
-}
-
-function PageButton({
+function SidebarLink({
   active,
   onClick,
   children,
   icon,
   badge,
+  theme,
 }: {
   active: boolean;
   onClick: () => void;
   children: ReactNode;
-  icon?: ReactNode;
+  icon: ReactNode;
   badge?: number;
+  theme: AppTheme;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={clsx(
-        "inline-flex h-11 items-center gap-2 rounded-full border px-4 text-sm font-semibold transition",
+        "flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-semibold transition cursor-pointer font-hand",
         active
-          ? "border-[#f1aac8] bg-[#ffddea] text-[#9a496b] shadow-[0_8px_24px_rgba(238,148,185,0.22)]"
-          : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]",
+          ? theme === "dark"
+            ? "bg-[#4a2c3a] text-[#f3a6c4]"
+            : theme === "clinical"
+            ? "bg-[#dbeafe] text-[#1f4e79]"
+            : "bg-[#ffddea] text-[#9a496b]"
+          : theme === "dark"
+          ? "text-[#dccbd3] hover:bg-[#2b2430] hover:text-[#f3a6c4]"
+          : theme === "clinical"
+          ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
+          : "text-[#6f5b50] hover:bg-[#fff0f6] hover:text-[#9a496b]"
       )}
     >
-      {icon}
-      <span>{children}</span>
+      <div className="flex items-center gap-3">
+        <span className={clsx(
+          active
+            ? theme === "dark" ? "text-[#f3a6c4]" : theme === "clinical" ? "text-[#1f4e79]" : "text-[#9a496b]"
+            : theme === "dark" ? "text-[#a2949e]" : theme === "clinical" ? "text-[#5b6f82]" : "text-[#9a7469]"
+        )}>
+          {icon}
+        </span>
+        <span>{children}</span>
+      </div>
       {typeof badge === "number" && badge > 0 ? (
-        <span className="inline-flex min-w-6 items-center justify-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-bold text-[#9a496b]">
+        <span className={clsx(
+          "inline-flex min-w-5 h-5 items-center justify-center rounded-full px-1.5 py-0.5 text-xs font-bold border",
+          theme === "dark"
+            ? "bg-[#2b2430] border-white/10 text-[#f3a6c4]"
+            : theme === "clinical"
+            ? "bg-white border-[#c8dbe7] text-[#1f4e79]"
+            : "bg-white border-[#efd9d0] text-[#9a496b]"
+        )}>
+          {badge}
+        </span>
+      ) : null}
+    </button>
+  );
+}
+
+function MobileNavLink({
+  active,
+  onClick,
+  icon,
+  label,
+  badge,
+  theme,
+}: {
+  active: boolean;
+  onClick: () => void;
+  icon: ReactNode;
+  label: string;
+  badge?: number;
+  theme: AppTheme;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={clsx(
+        "relative flex flex-col items-center justify-center w-12 h-12 rounded-xl transition cursor-pointer font-hand",
+        active
+          ? theme === "dark" ? "text-[#f3a6c4]" : theme === "clinical" ? "text-[#1f4e79]" : "text-[#9a496b]"
+          : theme === "dark" ? "text-[#a2949e] hover:text-[#f3a6c4]" : theme === "clinical" ? "text-[#5b6f82] hover:text-[#1f4e79]" : "text-[#8b7666] hover:text-[#9a496b]"
+      )}
+    >
+      {active && (
+        <motion.div
+          layoutId="mobile-nav-active"
+          className={clsx(
+            "absolute inset-0 rounded-xl -z-10",
+            theme === "dark" ? "bg-[#4a2c3a]" : theme === "clinical" ? "bg-[#dbeafe]" : "bg-[#ffddea]"
+          )}
+          transition={{ type: "spring", stiffness: 380, damping: 30 }}
+        />
+      )}
+      <span className="shrink-0">{icon}</span>
+      <span className="text-[10px] font-bold tracking-[0.02em] mt-0.5">{label}</span>
+      {typeof badge === "number" && badge > 0 ? (
+        <span className={clsx(
+          "absolute -top-1 -right-1 inline-flex min-w-4 h-4 items-center justify-center rounded-full text-[9px] font-extrabold text-white px-1 shadow-sm border",
+          theme === "dark" ? "bg-[#b65f7c] border-white/10" : theme === "clinical" ? "bg-[#1f4e79] border-white" : "bg-[#f6a9c6] border-white"
+        )}>
           {badge}
         </span>
       ) : null}
@@ -367,36 +444,263 @@ function PageButton({
 
 function SummaryPill({ children }: { children: ReactNode }) {
   return (
-    <div className="inline-flex h-11 items-center rounded-full border border-[#efd9d0] bg-white/82 px-4 text-sm font-semibold text-[#6f5b50]">
+    <div className="inline-flex h-9 items-center rounded-full border border-[#efd9d0] bg-white/82 px-3 text-xs font-semibold text-[#6f5b50] dark:border-white/10 dark:text-[#dccbd3]">
       {children}
     </div>
   );
 }
 
-function ModeButton({
-  active,
-  onClick,
-  icon,
-  children,
+function FilterControl({
+  exams,
+  activeExamId,
+  activeYear,
+  activeStage,
+  yearOptions,
+  subjectOptions,
+  onExamChange,
+  handleYearChange,
+  handleStageChange,
+  onReset,
+  theme,
 }: {
-  active: boolean;
-  onClick: () => void;
-  icon: ReactNode;
-  children: ReactNode;
+  exams: ExamManifestItem[];
+  activeExamId: string;
+  activeYear: string;
+  activeStage: "stage-1" | "stage-2";
+  yearOptions: DropdownOption[];
+  subjectOptions: DropdownOption[];
+  onExamChange: (id: string) => void;
+  handleYearChange: (year: string) => void;
+  handleStageChange: (stage: "stage-1" | "stage-2") => void;
+  onReset: () => void;
+  theme: AppTheme;
 }) {
+  const [filterOpen, setFilterOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+
+  const activeExam = exams.find((exam) => exam.id === activeExamId);
+  const stageLabel = activeStage === "stage-1" ? "一階" : "二階";
+  const subjectLabel = activeExam ? getSubjectLabel(activeExam) : "選擇科目";
+
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={clsx(
-        "inline-flex min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition",
-        active
-          ? "bg-[#dce8dc] text-[#405d49] shadow-[0_8px_20px_rgba(111,128,106,0.16)]"
-          : "text-[#806b60] hover:bg-white hover:text-[#3f342d]",
-      )}
-    >
-      {icon}
-      {children}
-    </button>
+    <div className="flex items-center gap-1.5 font-hand shrink-0">
+      {/* Filter Dropdown Popover */}
+      <div
+        className="relative"
+        onBlur={(event) => {
+          if (!event.currentTarget.contains(event.relatedTarget)) setFilterOpen(false);
+        }}
+      >
+        <button
+          type="button"
+          onClick={() => setFilterOpen((prev) => !prev)}
+          className={clsx(
+            "flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs font-semibold outline-none transition cursor-pointer shadow-sm",
+            theme === "dark"
+              ? "border-white/10 bg-[#2b2430]/80 text-[#dccbd3] hover:border-white/20 focus:border-white/20 focus:ring-2 focus:ring-white/10"
+              : theme === "clinical"
+              ? "border-[#c8dbe7] bg-white/86 text-[#26384a] hover:border-[#1f4e79] focus:border-[#1f4e79] focus:ring-2 focus:ring-[#e8f2f9]"
+              : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:border-[#f1aac8] focus:border-[#f1aac8] focus:ring-2 focus:ring-[#ffd9e8]/55"
+          )}
+          aria-expanded={filterOpen}
+        >
+          <span>{activeYear} · {stageLabel} · {subjectLabel}</span>
+          <ChevronDown size={12} className={clsx("shrink-0 transition", filterOpen && "rotate-180")} />
+        </button>
+
+        {filterOpen && (
+          <div
+            className={clsx(
+              "absolute left-0 top-[calc(100%+0.5rem)] z-50 w-72 sm:w-80 rounded-[1.2rem] border p-4 shadow-[0_18px_50px_rgba(181,133,117,0.22)] backdrop-blur-xl space-y-4",
+              theme === "dark"
+                ? "border-white/15 bg-[#2b2430]/95"
+                : theme === "clinical"
+                ? "border-[#c8dbe7] bg-white/95"
+                : "border-[#e6d6c9] bg-white/95"
+            )}
+          >
+            {/* Year Selector */}
+            <div>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">年度</p>
+              <div className="flex flex-wrap gap-1.5">
+                {yearOptions.map((opt) => (
+                  <button
+                    key={opt.value}
+                    type="button"
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => handleYearChange(opt.value)}
+                    className={clsx(
+                      "h-7 rounded-lg px-2.5 text-xs font-semibold transition cursor-pointer",
+                      opt.value === activeYear
+                        ? theme === "dark"
+                          ? "bg-[#4a2c3a] text-[#f3a6c4]"
+                          : theme === "clinical"
+                          ? "bg-[#dbeafe] text-[#1f4e79]"
+                          : "bg-[#f7e2ea] text-[#8a4561]"
+                        : theme === "dark"
+                        ? "bg-[#201b25]/60 text-[#dccbd3] border border-white/10 hover:bg-[#2b2430]"
+                        : theme === "clinical"
+                        ? "bg-white/60 text-[#26384a] border border-[#c8dbe7] hover:bg-[#e8f2f9]"
+                        : "bg-white/60 text-[#806b60] border border-[#e6d6c9] hover:bg-[#fff0f6]"
+                    )}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Stage Selector */}
+            <div>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">階段</p>
+              <div className={clsx(
+                "inline-flex h-8 rounded-lg border p-0.5",
+                theme === "dark" ? "border-white/10 bg-[#201b25]/80" : theme === "clinical" ? "border-[#c8dbe7] bg-white/80" : "border-[#e6d6c9] bg-white/80"
+              )}>
+                <button
+                  type="button"
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => handleStageChange("stage-1")}
+                  className={clsx(
+                    "flex items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
+                    activeStage === "stage-1"
+                      ? theme === "dark"
+                        ? "bg-[#4a2c3a] text-[#f3a6c4]"
+                        : theme === "clinical"
+                        ? "bg-[#dbeafe] text-[#1f4e79]"
+                        : "bg-[#f7e2ea] text-[#8a4561]"
+                      : theme === "dark"
+                      ? "text-[#dccbd3] hover:bg-white/5"
+                      : theme === "clinical"
+                      ? "text-[#26384a] hover:bg-white"
+                      : "text-[#806b60] hover:bg-white"
+                  )}
+                >
+                  第一階段
+                </button>
+                <button
+                  type="button"
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => handleStageChange("stage-2")}
+                  className={clsx(
+                    "flex items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
+                    activeStage === "stage-2"
+                      ? theme === "dark"
+                        ? "bg-[#4a2c3a] text-[#f3a6c4]"
+                        : theme === "clinical"
+                        ? "bg-[#dbeafe] text-[#1f4e79]"
+                        : "bg-[#f7e2ea] text-[#8a4561]"
+                      : theme === "dark"
+                      ? "text-[#dccbd3] hover:bg-white/5"
+                      : theme === "clinical"
+                      ? "text-[#26384a] hover:bg-white"
+                      : "text-[#806b60] hover:bg-white"
+                  )}
+                >
+                  第二階段
+                </button>
+              </div>
+            </div>
+
+            {/* Subject Selector */}
+            <div>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">科目</p>
+              <div className="grid gap-1 max-h-40 overflow-y-auto pr-1">
+                {subjectOptions.map((opt) => (
+                  <button
+                    key={opt.value}
+                    type="button"
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => {
+                      onExamChange(opt.value);
+                      setFilterOpen(false);
+                    }}
+                    className={clsx(
+                      "flex h-8 items-center rounded-lg px-2.5 text-left text-xs font-semibold transition cursor-pointer",
+                      opt.value === activeExamId
+                        ? theme === "dark"
+                          ? "bg-[#4a2c3a] text-[#f3a6c4]"
+                          : theme === "clinical"
+                          ? "bg-[#dbeafe] text-[#1f4e79]"
+                          : "bg-[#f7e2ea] text-[#8a4561]"
+                        : theme === "dark"
+                        ? "text-[#dccbd3] hover:bg-[#2b2430] hover:text-[#f3a6c4]"
+                        : theme === "clinical"
+                        ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
+                        : "text-[#806b60] hover:bg-[#fff0f6] hover:text-[#3f342d]"
+                    )}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Settings Options Gear Button */}
+      <div
+        className="relative shrink-0"
+        onBlur={(event) => {
+          if (!event.currentTarget.contains(event.relatedTarget)) setSettingsOpen(false);
+        }}
+      >
+        <button
+          type="button"
+          onClick={() => setSettingsOpen((prev) => !prev)}
+          className={clsx(
+            "flex h-9 w-9 items-center justify-center rounded-full border outline-none transition cursor-pointer shadow-sm",
+            settingsOpen
+              ? theme === "dark"
+                ? "border-white/20 bg-[#4a2c3a] text-[#f3a6c4]"
+                : theme === "clinical"
+                ? "border-[#1f4e79] bg-[#dbeafe] text-[#1f4e79]"
+                : "border-[#f1aac8] bg-[#ffddea] text-[#9a496b]"
+              : theme === "dark"
+              ? "border-white/10 bg-[#2b2430]/80 text-[#dccbd3] hover:border-white/20"
+              : theme === "clinical"
+              ? "border-[#c8dbe7] bg-white/80 text-[#26384a] hover:border-[#1f4e79]"
+              : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:border-[#f1aac8] hover:bg-[#fff0f6]"
+          )}
+          aria-label="更多選項"
+        >
+          <Settings size={14} />
+        </button>
+
+        {settingsOpen && (
+          <div
+            className={clsx(
+              "absolute right-0 top-[calc(100%+0.5rem)] z-50 w-44 rounded-xl border p-1 shadow-[0_12px_36px_rgba(181,133,117,0.18)] backdrop-blur-xl",
+              theme === "dark"
+                ? "border-white/15 bg-[#2b2430]/95"
+                : theme === "clinical"
+                ? "border-[#c8dbe7] bg-white/95"
+                : "border-[#e6d6c9] bg-white/95"
+            )}
+          >
+            <button
+              type="button"
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={() => {
+                onReset();
+                setSettingsOpen(false);
+              }}
+              className={clsx(
+                "flex h-8 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
+                theme === "dark"
+                  ? "text-[#b65f7c] hover:bg-white/5"
+                  : theme === "clinical"
+                  ? "text-[#b65f7c] hover:bg-[#fff0f6]"
+                  : "text-[#8a4561] hover:bg-[#fff0f6]"
+              )}
+            >
+              <RotateCcw size={12} />
+              <span>重置本科作答</span>
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
