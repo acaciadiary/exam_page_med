@@ -896,7 +896,7 @@ function readStoredStringArray(key: string): string[] {
 }
 
 function readStoredFavoriteTags(key: string): Record<string, FavoriteTag[]> {
-  const validTags: FavoriteTag[] = ["高頻", "易混淆", "考前必看"];
+  const validTags: FavoriteTag[] = ["高頻", "易混淆", "考前必看", "秒殺數字"];
 
   try {
     const stored = window.localStorage.getItem(key);
