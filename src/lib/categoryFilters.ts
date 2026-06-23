@@ -220,7 +220,11 @@ export function getDerivedQuestionCategory(
 ) {
   const currentCategory = getQuestionCategory(question);
 
-  if (!shouldUseFallbackCategories(dataset) || !isWeakCategory(currentCategory)) {
+  if (shouldUseFallbackCategories(dataset)) {
+    return getFallbackCategory(dataset.subject, question.question_number) ?? currentCategory;
+  }
+
+  if (!canUseFallbackCategories(dataset) || !isWeakCategory(dataset, currentCategory)) {
     return currentCategory;
   }
 
@@ -286,15 +290,30 @@ export function filterQuestionsByCategory(
 }
 
 function shouldUseFallbackCategories(dataset: ExamDataset) {
+  if (!canUseFallbackCategories(dataset)) return false;
+
   const weakCategoryCount = dataset.questions.filter((question) =>
-    isWeakCategory(getQuestionCategory(question)),
+    isWeakCategory(dataset, getQuestionCategory(question)),
   ).length;
 
-  return weakCategoryCount / dataset.questions.length >= 0.7;
+  return weakCategoryCount / dataset.questions.length >= 0.25;
 }
 
-function isWeakCategory(category: string) {
-  return category === UNCATEGORIZED || category === "其他";
+function canUseFallbackCategories(dataset: ExamDataset) {
+  return Boolean(FALLBACK_CATEGORY_RANGES[dataset.subject]) && dataset.questions.length >= 20;
+}
+
+function isWeakCategory(dataset: ExamDataset, category: string) {
+  return (
+    category === UNCATEGORIZED ||
+    category === "其他" ||
+    isUnexpectedCategory(dataset.subject, category)
+  );
+}
+
+function isUnexpectedCategory(subject: string, category: string) {
+  const templates = getCategoryTemplates(subject);
+  return templates.length > 0 && !templates.includes(category);
 }
 
 function getFallbackCategory(subject: string, questionNumber: number) {

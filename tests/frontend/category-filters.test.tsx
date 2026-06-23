@@ -103,4 +103,28 @@ describe("category filters", () => {
     });
     expect(filterQuestionsByCategory(brokenDataset, "小兒科")).toHaveLength(31);
   });
+
+  it("replaces wrong subject categories with fallback ranges", () => {
+    const brokenDataset: ExamDataset = {
+      ...dataset,
+      id: "113-1_medicine-4",
+      year: "113-1",
+      subject: "medicine-4",
+      questions: Array.from({ length: 80 }, (_, index) => {
+        const questionNumber = index + 1;
+        const badCategory = questionNumber <= 27 ? "內科" : "其他";
+        return makeQuestion(questionNumber, badCategory);
+      }),
+    };
+
+    const options = buildCategoryOptions(brokenDataset);
+
+    expect(options.find((option) => option.id === "內科")).toBeUndefined();
+    expect(options.find((option) => option.id === "小兒科")).toMatchObject({
+      count: 31,
+    });
+    expect(options.find((option) => option.id === "醫學倫理與醫療決策")).toMatchObject({
+      count: 2,
+    });
+  });
 });

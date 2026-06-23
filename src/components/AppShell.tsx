@@ -132,7 +132,7 @@ export function AppShell({
                     醫師國考複習筆記
                   </h1>
                   <p className="mt-1 text-xs font-semibold tracking-[0.14em] text-[#8b7666]">
-                    題庫、錯題、卡片與每日任務
+                    你的專屬筆記
                   </p>
                 </div>
               </div>
