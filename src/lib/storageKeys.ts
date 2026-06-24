@@ -13,4 +13,5 @@ export const storageKeys = {
   stickyNotes: `${prefix}:sticky-notes`,
   appInstalled: `${prefix}:app-installed`,
   readingBold: `${prefix}:reading-bold`,
+  lastPractice: `${prefix}:last-practice`,
 };

@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Bookmark, BookmarkCheck } from "lucide-react";
+import { ArrowLeft, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
 import { IconButton } from "../../components/IconButton";
 import { formatCorrectAnswers, isAcceptedAnswer } from "../../lib/text";
 import type { AnswerOptionKey, ExamQuestion } from "../../types/exam";
@@ -12,6 +12,9 @@ type QuestionCardProps = {
   marked: boolean;
   onAnswer: (answer: AnswerOptionKey) => void;
   onToggleMarked: () => void;
+  positionLabel?: string;
+  onGoPrevious?: () => void;
+  onGoNext?: () => void;
 };
 
 export const QuestionCard = memo(
@@ -21,6 +24,9 @@ export const QuestionCard = memo(
     marked,
     onAnswer,
     onToggleMarked,
+    positionLabel,
+    onGoPrevious,
+    onGoNext,
   }: QuestionCardProps) {
     const isCorrect = isAcceptedAnswer(selected, question);
 
@@ -30,10 +36,11 @@ export const QuestionCard = memo(
         className="relative min-w-0 overflow-hidden scroll-mt-32 rounded-[1.45rem] border border-white/90 bg-white/82 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.16)] backdrop-blur-2xl dark:border-white/14 dark:bg-[#2b2430]/88 dark:shadow-[0_18px_60px_rgba(0,0,0,0.28)] sm:p-7 question-card-item"
       >
         <div className="absolute -left-2 top-8 hidden h-12 w-4 rounded-full bg-[#ffddea] dark:bg-[#b65f7c] sm:block" />
-        <div className="flex items-start justify-between gap-4">
+        <div className="flex items-start justify-between gap-3 sm:gap-4">
           <div className="min-w-0 flex-1">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#c4869b] dark:text-[#f3a6c4]">
               Note {question.question_number.toString().padStart(3, "0")}
+              {positionLabel ? <span className="ml-2 text-[#9c7b70] dark:text-[#cbb8c2]">{positionLabel}</span> : null}
             </p>
             <h2 className="mt-3 break-words text-lg font-semibold leading-8 text-[#4b3b35] sm:text-xl">
               {question.question_text}
@@ -81,6 +88,27 @@ export const QuestionCard = memo(
         )}
 
         {selected && <ExplanationPanel question={question} />}
+
+        <div className="mt-5 flex items-center justify-between gap-3 border-t border-[#f0ded6] pt-4 dark:border-white/10">
+          <button
+            type="button"
+            onClick={onGoPrevious}
+            disabled={!onGoPrevious}
+            className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-xl border border-[#efd9d0] bg-white/82 px-4 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] disabled:cursor-not-allowed disabled:opacity-40 sm:flex-none"
+          >
+            <ArrowLeft size={16} />
+            上一題
+          </button>
+          <button
+            type="button"
+            onClick={onGoNext}
+            disabled={!onGoNext}
+            className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-xl bg-[#b8e2d4] px-4 text-sm font-bold text-[#315447] shadow-[0_8px_22px_rgba(123,190,168,0.22)] transition hover:-translate-y-0.5 hover:bg-[#a7d9c9] disabled:cursor-not-allowed disabled:opacity-40 sm:flex-none"
+          >
+            下一題
+            <ArrowRight size={16} />
+          </button>
+        </div>
       </article>
     );
   },
@@ -88,7 +116,8 @@ export const QuestionCard = memo(
     return (
       prevProps.question.id === nextProps.question.id &&
       prevProps.selected === nextProps.selected &&
-      prevProps.marked === nextProps.marked
+      prevProps.marked === nextProps.marked &&
+      prevProps.positionLabel === nextProps.positionLabel
     );
   }
 );

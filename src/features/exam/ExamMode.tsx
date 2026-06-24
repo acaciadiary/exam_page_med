@@ -52,11 +52,31 @@ export function ExamMode({
     const reviewIdSet = new Set(reviewMode.questionIds);
     return categoryQuestions.filter((question) => reviewIdSet.has(question.id));
   }, [activeCategory, dataset, reviewMode]);
+  const renderedQuestions = visibleQuestions.slice(0, visibleCount);
+
+  const navigateToQuestion = (targetIndex: number) => {
+    const target = visibleQuestions[targetIndex];
+    if (!target) return;
+
+    if (targetIndex >= visibleCount) {
+      setVisibleCount(targetIndex + 1);
+    }
+
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        document.getElementById(target.id)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        window.history.replaceState(null, "", `#${target.id}`);
+      });
+    });
+  };
 
   useEffect(() => {
     setActiveCategory(ALL_CATEGORIES);
     setVisibleCount(15);
-  }, [dataset.id, activeCategory]);
+  }, [dataset.id]);
 
   return (
     <div className="flex min-w-0 items-start gap-6">
@@ -148,8 +168,8 @@ export function ExamMode({
 
         <CategoryFilter options={categoryOptions} activeCategory={activeCategory} onChange={setActiveCategory} />
 
-        <div className="grid gap-5">
-          {visibleQuestions.slice(0, visibleCount).map((question) => (
+        <div className="grid gap-5 sm:gap-6">
+          {renderedQuestions.map((question, index) => (
             <QuestionCard
               key={question.id}
               question={question}
@@ -157,6 +177,13 @@ export function ExamMode({
               marked={markedQuestions.markedSet.has(question.id)}
               onAnswer={(answer) => onAnswer(question.id, answer)}
               onToggleMarked={() => markedQuestions.toggleMarked(question.id)}
+              positionLabel={`${index + 1} / ${visibleQuestions.length}`}
+              onGoPrevious={index > 0 ? () => navigateToQuestion(index - 1) : undefined}
+              onGoNext={
+                index < visibleQuestions.length - 1
+                  ? () => navigateToQuestion(index + 1)
+                  : undefined
+              }
             />
           ))}
         </div>

@@ -27,7 +27,7 @@ import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
 import { compactText, isAcceptedAnswer } from "../lib/text";
 import { buildSearchForPage, readPageFromSearch, type AppPage } from "./routes";
-import type { AnswerState, ExamDataset, ExamManifest, Mode } from "../types/exam";
+import type { AnswerOptionKey, AnswerState, ExamDataset, ExamManifest, Mode } from "../types/exam";
 import type { StickyNoteItem } from "../types/stickyNote";
 import type { AppTheme } from "../components/ThemeToggle";
 
@@ -41,6 +41,12 @@ type PerformanceStat = {
   answered: number;
   correct: number;
   accuracy: number;
+};
+
+type LastPractice = {
+  examId: string;
+  questionId: string;
+  answeredAt: string;
 };
 
 type BeforeInstallPromptEvent = Event & {
@@ -94,6 +100,10 @@ export default function App() {
   const [mistakeStatuses, setMistakeStatuses] = useLocalStorage<Record<string, MistakeStatus>>(
     storageKeys.mistakeStatus,
     {},
+  );
+  const [lastPractice, setLastPractice] = useLocalStorage<LastPractice | null>(
+    storageKeys.lastPractice,
+    null,
   );
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
@@ -466,6 +476,49 @@ export default function App() {
     handlePageChange("exam");
   };
 
+  const handleAnswerQuestion = (questionId: string, answer: AnswerOptionKey) => {
+    answerQuestion(questionId, answer);
+
+    if (!readyDataset) return;
+
+    const question = readyDataset.questions.find((item) => item.id === questionId);
+    if (!question) return;
+
+    const currentExamId = readyDataset.id;
+    const correct = isAcceptedAnswer(answer, question);
+    const activePracticeIds = mistakePracticeIds[currentExamId] ?? [];
+
+    setLastPractice({
+      examId: currentExamId,
+      questionId,
+      answeredAt: new Date().toISOString(),
+    });
+
+    if (!activePracticeIds.includes(questionId)) return;
+
+    setMistakeStatuses((current) => {
+      const key = mistakeKey(currentExamId, questionId);
+      const previous = current[key];
+
+      return {
+        ...current,
+        [key]: correct ? "mastered" : previous === "repeat" ? "final" : "repeat",
+      };
+    });
+
+    if (!correct) return;
+
+    setMistakePracticeIds((current) => {
+      const remaining = (current[currentExamId] ?? []).filter((id) => id !== questionId);
+      const next = { ...current };
+
+      if (remaining.length > 0) next[currentExamId] = remaining;
+      else delete next[currentExamId];
+
+      return next;
+    });
+  };
+
   useEffect(() => {
     (window as any).__openQuestion = openQuestion;
     return () => {
@@ -546,15 +599,17 @@ export default function App() {
     if (allMistakes.length === 0) return;
 
     const idsByExam: Record<string, string[]> = {};
-    for (const mistake of allMistakes) {
-      if (mistake.status === "mastered") continue;
+    const pendingMistakes = allMistakes.filter((mistake) => mistake.status !== "mastered");
+    if (pendingMistakes.length === 0) return;
+
+    for (const mistake of pendingMistakes) {
       idsByExam[mistake.exam.id] = [
         ...(idsByExam[mistake.exam.id] ?? []),
         mistake.question.id,
       ];
     }
 
-    const firstMistake = allMistakes.find((mistake) => mistake.status !== "mastered") ?? allMistakes[0];
+    const firstMistake = pendingMistakes[0];
     setMistakePracticeIds(idsByExam);
     setMode("exam");
     setActiveExamId(firstMistake.exam.id);
@@ -653,6 +708,28 @@ export default function App() {
   }
 
   const { manifest, dataset } = state;
+  const fallbackPracticeQuestion =
+    dataset.questions.find((question) => !answers[question.id]) ?? dataset.questions[0] ?? null;
+  const lastPracticeExamExists = lastPractice
+    ? manifest.exams.some((exam) => exam.id === lastPractice.examId)
+    : false;
+  const continueTarget =
+    lastPractice && lastPracticeExamExists
+      ? lastPractice
+      : fallbackPracticeQuestion
+      ? {
+          examId: dataset.id,
+          questionId: fallbackPracticeQuestion.id,
+          answeredAt: "",
+        }
+      : null;
+  const continueQuestion =
+    continueTarget?.examId === dataset.id
+      ? dataset.questions.find((question) => question.id === continueTarget.questionId) ?? null
+      : null;
+  const continueExam = continueTarget
+    ? manifest.exams.find((exam) => exam.id === continueTarget.examId) ?? null
+    : null;
 
   return (
     <>
@@ -676,6 +753,7 @@ export default function App() {
       onReset={() => {
         if (!window.confirm("確定重置本科作答？")) return;
         resetAnswers();
+        if (lastPractice?.examId === examId) setLastPractice(null);
       }}
       onResetAll={() => {
         if (!window.confirm("⚠️ 確定重置所有作答和筆記？\n\n此操作將清除：\n• 所有科目的作答記錄\n• 所有收藏與標籤\n• 所有錯題狀態\n• 所有便利貼筆記\n\n此操作無法復原！")) return;
@@ -702,6 +780,7 @@ export default function App() {
         setPerformanceStats([]);
         setFavorites([]);
         setMistakePracticeIds({});
+        setLastPractice(null);
       }}
     >
       <div className="relative">
@@ -729,6 +808,13 @@ export default function App() {
             stats={performanceStats}
             activeStage={activeStage}
             theme={theme}
+            continueTarget={continueTarget}
+            continueQuestion={continueQuestion}
+            continueExam={continueExam}
+            onContinuePractice={() => {
+              if (!continueTarget) return;
+              openQuestion(continueTarget.examId, continueTarget.questionId);
+            }}
             onOpenQuestion={openQuestion}
             onGoMistakes={() => handlePageChange("mistakes")}
             onGoFavorites={() => handlePageChange("favorites")}
@@ -785,7 +871,7 @@ export default function App() {
                   dataset={dataset}
                   answers={answers}
                   markedQuestions={markedQuestions}
-                  onAnswer={answerQuestion}
+                  onAnswer={handleAnswerQuestion}
                   mode={mode}
                   onModeChange={setMode}
                   theme={theme}
@@ -840,6 +926,10 @@ function DailyStudyPanel({
   stats,
   activeStage,
   theme,
+  continueTarget,
+  continueQuestion,
+  continueExam,
+  onContinuePractice,
   onOpenQuestion,
   onGoMistakes,
   onGoFavorites,
@@ -849,6 +939,10 @@ function DailyStudyPanel({
   stats: PerformanceStat[];
   activeStage: "stage-1" | "stage-2";
   theme: AppTheme;
+  continueTarget: LastPractice | null;
+  continueQuestion: ExamDataset["questions"][number] | null;
+  continueExam: ExamManifest["exams"][number] | null;
+  onContinuePractice: () => void;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onGoMistakes: () => void;
   onGoFavorites: () => void;
@@ -871,7 +965,36 @@ function DailyStudyPanel({
           </div>
         </div>
 
-        <div className="mt-5 grid gap-3 md:grid-cols-3">
+        <button
+          type="button"
+          onClick={onContinuePractice}
+          disabled={!continueTarget}
+          className="mt-5 flex w-full flex-col gap-3 rounded-[1.15rem] border border-[#b8e2d4] bg-[#effaf5] p-4 text-left shadow-[0_12px_30px_rgba(123,190,168,0.16)] transition hover:-translate-y-0.5 hover:border-[#8fd5bd] hover:bg-[#e7f8f0] disabled:cursor-not-allowed disabled:opacity-60 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div className="min-w-0">
+            <p className="text-xs font-bold tracking-[0.16em] text-[#4c806e]">一鍵繼續</p>
+            <h3 className="mt-1 text-lg font-semibold text-[#315447]">
+              {continueQuestion
+                ? `從第 ${continueQuestion.question_number} 題繼續`
+                : continueExam
+                ? `回到 ${getExamDisplayTitle(continueExam)}`
+                : "開始今天的第一題"}
+            </h3>
+            <p className="mt-1 line-clamp-2 text-sm leading-6 text-[#4f6f65]">
+              {continueQuestion
+                ? compactText(continueQuestion.question_text, 96)
+                : continueExam
+                ? getExamDisplayTitle(continueExam)
+                : "系統會自動帶你到下一題未作答題目。"}
+            </p>
+          </div>
+          <span className="inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-full bg-[#b8e2d4] px-4 text-sm font-bold text-[#315447]">
+            繼續練習
+            <ArrowRight size={16} />
+          </span>
+        </button>
+
+        <div className="mt-3 grid gap-3 md:grid-cols-3">
           <TaskCard
             title="錯題回顧"
             description={firstMistake ? compactText(firstMistake.question.question_text, 76) : "目前沒有待複習錯題"}

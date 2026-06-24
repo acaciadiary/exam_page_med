@@ -47,6 +47,8 @@ export function MistakeNotebookPage({
   onStartPractice,
   onStatusChange,
 }: MistakeNotebookPageProps) {
+  const pendingMistakes = mistakes.filter((mistake) => mistake.status !== "mastered");
+
   return (
     <section className="space-y-6">
       <div className="rounded-[1.5rem] border border-white/80 bg-white/80 p-6 shadow-[0_18px_60px_rgba(181,133,117,0.16)] backdrop-blur-2xl">
@@ -58,7 +60,7 @@ export function MistakeNotebookPage({
               把錯題分成狀態，複習時會更知道先看哪一批。
             </p>
             <div className="mt-4 inline-flex rounded-full bg-[#fff1f6] px-4 py-2 text-sm font-semibold text-[#9a496b]">
-              目前 {mistakes.length} 題
+              目前 {mistakes.length} 題，未掌握 {pendingMistakes.length} 題
             </div>
           </div>
 
@@ -66,10 +68,10 @@ export function MistakeNotebookPage({
             <button
               type="button"
               onClick={onStartPractice}
-              disabled={loading || mistakes.length === 0}
+              disabled={loading || pendingMistakes.length === 0}
               className="inline-flex h-11 items-center justify-center rounded-full bg-[#b8e2d4] px-4 text-sm font-semibold text-[#355249] shadow-[0_8px_22px_rgba(123,190,168,0.24)] transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              開始錯題練習
+              重練未掌握錯題
             </button>
 
             <button
