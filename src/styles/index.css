@@ -173,6 +173,104 @@ select {
   color: #f8edf3 !important;
 }
 
+.theme-dark input,
+.theme-dark select {
+  background-color: rgb(32 27 37 / 0.82) !important;
+  border-color: rgb(255 255 255 / 0.14) !important;
+  color: #f8edf3 !important;
+}
+
+.theme-dark input::placeholder,
+.theme-dark textarea::placeholder {
+  color: #a2949e !important;
+}
+
+.theme-dark [class*="bg-[#fff8f4"],
+.theme-dark [class*="bg-[#fff9e8"],
+.theme-dark [class*="bg-[#fffaf7"],
+.theme-dark [class*="bg-[#fffdf5"],
+.theme-dark [class*="bg-[#fffcf0"],
+.theme-dark [class*="bg-[#fffcf2"],
+.theme-dark [class*="bg-[#fff8df"] {
+  background-color: rgb(43 36 48 / 0.9) !important;
+}
+
+.theme-dark [class*="bg-[#fff0f3"],
+.theme-dark [class*="bg-[#fff0f6"],
+.theme-dark [class*="bg-[#fff1f6"],
+.theme-dark [class*="bg-[#fff3f8"],
+.theme-dark [class*="bg-[#fdf0f4"],
+.theme-dark [class*="bg-[#f8eee8"],
+.theme-dark [class*="bg-[#f8eae3"],
+.theme-dark [class*="bg-[#ffddea"] {
+  background-color: rgb(74 44 58 / 0.92) !important;
+}
+
+.theme-dark [class*="bg-[#e7f6ef"],
+.theme-dark [class*="bg-[#e9f6f1"],
+.theme-dark [class*="bg-[#effaf5"] {
+  background-color: rgb(24 55 46 / 0.9) !important;
+}
+
+.theme-dark [class*="bg-[#b8e2d4"],
+.theme-dark [class*="bg-[#e8f4ee"],
+.theme-dark [class*="bg-[#d5ebe1"] {
+  background-color: rgb(47 95 82 / 0.92) !important;
+  color: #d7f7ec !important;
+}
+
+.theme-dark [class*="border-[#efd9d0"],
+.theme-dark [class*="border-[#e6d6c9"],
+.theme-dark [class*="border-[#f0ded6"],
+.theme-dark [class*="border-[#eacfc4"],
+.theme-dark [class*="border-[#f2d7a9"],
+.theme-dark [class*="border-[#fceeac"],
+.theme-dark [class*="border-[#ebdbe2"],
+.theme-dark [class*="border-[#d8eadf"] {
+  border-color: rgb(255 255 255 / 0.14) !important;
+}
+
+.theme-dark [class*="text-[#3f342d"],
+.theme-dark [class*="text-[#4b3b35"],
+.theme-dark [class*="text-[#5b4841"] {
+  color: #f8edf3 !important;
+}
+
+.theme-dark [class*="text-[#604b43"],
+.theme-dark [class*="text-[#6f5b50"],
+.theme-dark [class*="text-[#725b52"],
+.theme-dark [class*="text-[#7d6259"],
+.theme-dark [class*="text-[#806b60"] {
+  color: #dccbd3 !important;
+}
+
+.theme-dark [class*="text-[#8a7066"],
+.theme-dark [class*="text-[#9c7b70"],
+.theme-dark [class*="text-[#a68e98"],
+.theme-dark [class*="text-[#aa8a7d"],
+.theme-dark [class*="text-[#b2a18d"] {
+  color: #cbb8c2 !important;
+}
+
+.theme-dark [class*="text-[#9a496b"],
+.theme-dark [class*="text-[#b36a84"],
+.theme-dark [class*="text-[#b8527a"],
+.theme-dark [class*="text-[#c4869b"] {
+  color: #f3a6c4 !important;
+}
+
+.theme-dark [class*="text-[#4c806e"],
+.theme-dark [class*="text-[#355249"] {
+  color: #b8efd9 !important;
+}
+
+.theme-dark [class*="text-[#725e3c"],
+.theme-dark [class*="text-[#7a6040"],
+.theme-dark [class*="text-[#87693d"],
+.theme-dark [class*="text-[#9d7b58"] {
+  color: #f1d58b !important;
+}
+
 .journal-title {
   font-family:
     Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", serif;
