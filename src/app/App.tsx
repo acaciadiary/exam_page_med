@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { AlertCircle, ArrowRight, ClipboardCheck, Radar, Sparkles, GitCompare } from "lucide-react";
 import { AppShell } from "../components/AppShell";
@@ -447,23 +447,6 @@ export default function App() {
     };
   }, [examId, favoriteTags, markedFlashcards.marked, markedQuestions.marked, state, favoritesTrigger]);
 
-  useEffect(() => {
-    if (page !== "exam" || !pendingQuestion || readyDataset?.id !== pendingQuestion.examId) {
-      return undefined;
-    }
-
-    const frameId = window.requestAnimationFrame(() => {
-      const target = document.getElementById(pendingQuestion.questionId);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        window.location.hash = pendingQuestion.questionId;
-        setPendingQuestion(null);
-      }
-    });
-
-    return () => window.cancelAnimationFrame(frameId);
-  }, [page, pendingQuestion, readyDataset?.id]);
-
   const handlePageChange = (nextPage: AppPage) => {
     if (nextPage === page) return;
 
@@ -479,6 +462,13 @@ export default function App() {
     setPendingQuestion({ examId: targetExamId, questionId });
     handlePageChange("exam");
   };
+
+  const handleQuestionFocusComplete = useCallback((questionId: string) => {
+    setPendingQuestion((current) => {
+      if (!current || current.questionId !== questionId) return current;
+      return null;
+    });
+  }, []);
 
   const handleAnswerQuestion = (questionId: string, answer: AnswerOptionKey) => {
     answerQuestion(questionId, answer);
@@ -879,6 +869,10 @@ export default function App() {
                   mode={mode}
                   onModeChange={setMode}
                   theme={theme}
+                  focusQuestionId={
+                    pendingQuestion?.examId === dataset.id ? pendingQuestion.questionId : null
+                  }
+                  onFocusComplete={handleQuestionFocusComplete}
                   reviewMode={
                     mistakePracticeIds[dataset.id]?.length
                       ? {

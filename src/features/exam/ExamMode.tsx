@@ -24,6 +24,8 @@ type ExamModeProps = {
   mode: Mode;
   onModeChange: (mode: Mode) => void;
   theme: AppTheme;
+  focusQuestionId?: string | null;
+  onFocusComplete?: (questionId: string) => void;
   reviewMode?: {
     title: string;
     description: string;
@@ -40,6 +42,8 @@ export function ExamMode({
   mode,
   onModeChange,
   theme,
+  focusQuestionId,
+  onFocusComplete,
   reviewMode,
 }: ExamModeProps) {
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
@@ -54,6 +58,21 @@ export function ExamMode({
   }, [activeCategory, dataset, reviewMode]);
   const renderedQuestions = visibleQuestions.slice(0, visibleCount);
 
+  const scrollToQuestion = (questionId: string) => {
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        const target = document.getElementById(questionId);
+        if (!target) return;
+
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        window.history.replaceState(null, "", `#${questionId}`);
+      });
+    });
+  };
+
   const navigateToQuestion = (targetIndex: number) => {
     const target = visibleQuestions[targetIndex];
     if (!target) return;
@@ -62,21 +81,62 @@ export function ExamMode({
       setVisibleCount(targetIndex + 1);
     }
 
-    window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(() => {
-        document.getElementById(target.id)?.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        window.history.replaceState(null, "", `#${target.id}`);
-      });
-    });
+    scrollToQuestion(target.id);
   };
 
   useEffect(() => {
     setActiveCategory(ALL_CATEGORIES);
     setVisibleCount(15);
   }, [dataset.id]);
+
+  useEffect(() => {
+    if (!focusQuestionId) return;
+
+    const targetExists = dataset.questions.some((question) => question.id === focusQuestionId);
+    if (!targetExists) return;
+
+    const targetIndex = visibleQuestions.findIndex((question) => question.id === focusQuestionId);
+    if (targetIndex === -1) {
+      if (activeCategory !== ALL_CATEGORIES) {
+        setActiveCategory(ALL_CATEGORIES);
+      }
+      return;
+    }
+
+    if (targetIndex >= visibleCount) {
+      setVisibleCount(targetIndex + 1);
+      return;
+    }
+
+    let cancelled = false;
+
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        if (cancelled) return;
+
+        const target = document.getElementById(focusQuestionId);
+        if (!target) return;
+
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        window.history.replaceState(null, "", `#${focusQuestionId}`);
+        onFocusComplete?.(focusQuestionId);
+      });
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    activeCategory,
+    dataset.questions,
+    focusQuestionId,
+    onFocusComplete,
+    visibleCount,
+    visibleQuestions,
+  ]);
 
   return (
     <div className="flex min-w-0 items-start gap-6">
