@@ -79,12 +79,14 @@ select {
 }
 
 .theme-dark .journal-paper {
+  background-color: #15121a;
   background-image:
-    linear-gradient(rgba(255, 223, 236, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(190, 224, 215, 0.05) 1px, transparent 1px),
-    radial-gradient(circle at 18% 22%, rgba(143, 85, 117, 0.25), transparent 24rem),
-    radial-gradient(circle at 88% 18%, rgba(70, 128, 110, 0.22), transparent 22rem),
-    radial-gradient(circle at 62% 82%, rgba(86, 113, 166, 0.2), transparent 24rem);
+    linear-gradient(rgba(255, 223, 236, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(190, 224, 215, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 18% 22%, rgba(143, 85, 117, 0.16), transparent 24rem),
+    radial-gradient(circle at 88% 18%, rgba(70, 128, 110, 0.14), transparent 22rem),
+    radial-gradient(circle at 62% 82%, rgba(86, 113, 166, 0.13), transparent 24rem),
+    linear-gradient(135deg, rgba(18, 16, 23, 0.92), rgba(32, 25, 36, 0.9));
 }
 
 .theme-dark [class*="bg-white"] {
@@ -304,4 +306,3 @@ select {
 .theme-clinical ::-webkit-scrollbar-thumb:hover {
   background: rgba(39, 86, 125, 0.3);
 }
-

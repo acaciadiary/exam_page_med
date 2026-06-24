@@ -164,7 +164,8 @@ export function AppShell({
   return (
     <div
       className={clsx(
-        "study-journal min-h-screen bg-[#fff8f4] text-[#4b3b35] transition-colors duration-500",
+        "study-journal min-h-screen text-[#4b3b35] transition-colors duration-500",
+        theme === "light" && "bg-[#fff8f4]",
         theme === "dark" && "theme-dark bg-[#19161e] text-[#f8edf3]",
         theme === "clinical" && "theme-clinical bg-[#f4f8fb] text-[#26384a]",
       )}
@@ -172,12 +173,18 @@ export function AppShell({
       {/* Dynamic Backgrounds */}
       <div
         className={clsx(
-          "pointer-events-none fixed inset-0 z-0 bg-[url('/assets/pastel-study-desk.png')] bg-cover bg-top opacity-35 transition-opacity duration-500",
-          theme === "dark" && "opacity-10",
+          "pointer-events-none fixed inset-0 z-0 bg-[url('/assets/pastel-study-desk.png')] bg-cover bg-top transition-opacity duration-500",
+          theme === "light" && "opacity-35",
+          theme === "dark" && "opacity-[0.04] saturate-50 brightness-50",
           theme === "clinical" && "opacity-12 saturate-50",
         )}
       />
-      <div className="pointer-events-none fixed inset-0 z-0 journal-paper opacity-70" />
+      <div
+        className={clsx(
+          "pointer-events-none fixed inset-0 z-0 journal-paper transition-opacity duration-500",
+          theme === "dark" ? "opacity-95" : "opacity-70",
+        )}
+      />
 
       {/* Desktop Left Fixed Sidebar */}
       <aside

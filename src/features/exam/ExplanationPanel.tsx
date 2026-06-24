@@ -121,22 +121,22 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
 
   return (
     <>
-      <div className="mt-6 rounded-[1.1rem] border border-[#d8eadf] bg-[#effaf5]/82 p-5 shadow-sm">
+      <div className="mt-6 rounded-[1.1rem] border border-[#d8eadf] bg-[#effaf5]/82 p-5 shadow-sm dark:border-[#3f6d5e] dark:bg-[#182f2a]/90">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2 text-sm font-semibold text-[#4c806e]">
+          <div className="flex items-center gap-2 text-sm font-semibold text-[#4c806e] dark:text-[#b8efd9]">
             <Lightbulb size={17} />
             詳解與考點提示
           </div>
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-[#d8eadf] bg-white/70 px-3 py-1 text-xs font-semibold text-[#4c806e]">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-[#d8eadf] bg-white/70 px-3 py-1 text-xs font-semibold text-[#4c806e] dark:border-[#3f6d5e] dark:bg-[#223d35] dark:text-[#b8efd9]">
             {status === "reviewed" ? <BadgeCheck size={14} /> : <Sparkles size={14} />}
             {statusText}
           </span>
         </div>
-        <div className="mt-4 rounded-[0.9rem] border border-[#d8eadf] bg-white/64 px-4 py-3 text-sm font-semibold leading-6 text-[#4c806e]">
+        <div className="mt-4 rounded-[0.9rem] border border-[#d8eadf] bg-white/64 px-4 py-3 text-sm font-semibold leading-6 text-[#4c806e] dark:border-[#3f6d5e] dark:bg-[#11241f] dark:text-[#b8efd9]">
           {keyPoint}
         </div>
-        <p className="mt-3 whitespace-pre-line text-sm leading-7 text-[#604b43]">{explanation}</p>
-        <div className="mt-4 rounded-[0.9rem] border border-[#f2d7a9] bg-[#fff8df] px-4 py-3 text-sm font-semibold text-[#7a6040]">
+        <p className="mt-3 whitespace-pre-line text-sm leading-7 text-[#604b43] dark:text-[#eadbe3]">{explanation}</p>
+        <div className="mt-4 rounded-[0.9rem] border border-[#f2d7a9] bg-[#fff8df] px-4 py-3 text-sm font-semibold text-[#7a6040] dark:border-[#725d32] dark:bg-[#40341f] dark:text-[#f1d58b]">
           {summary}
         </div>
       </div>
@@ -152,4 +152,3 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
     </>
   );
 }
-
