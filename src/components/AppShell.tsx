@@ -255,7 +255,7 @@ export function AppShell({
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] py-2.5 text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer"
             >
               <Download size={16} />
-              <span>安裝 App</span>
+              <span>加入桌面</span>
             </button>
           )}
         </div>
@@ -314,7 +314,7 @@ export function AppShell({
                       type="button"
                       onClick={onInstall}
                       className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#b8e2d4] bg-[#e8f4ee] text-[#355249] transition hover:bg-[#d5ebe1] cursor-pointer"
-                      title="安裝 App"
+                      title="加入桌面"
                     >
                       <Download size={16} />
                     </button>
