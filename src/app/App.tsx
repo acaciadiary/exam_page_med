@@ -59,6 +59,46 @@ type InstallAwareNavigator = Navigator & {
   getInstalledRelatedApps?: () => Promise<unknown[]>;
 };
 
+const siteUrl = "https://acaciadiary.github.io/exam_page_med/";
+
+const pageSeo: Record<AppPage, { title: string; description: string; path: string }> = {
+  exam: {
+    title: "Ariel's Med｜醫師國考歷屆試題練習題庫",
+    description:
+      "Ariel's Med 收錄台灣醫師國考歷屆試題，提供醫學一至醫學六線上練習、錯題複習、收藏閃卡與重點整理。",
+    path: "",
+  },
+  diseases: {
+    title: "疾病比較整理｜Ariel's Med 醫師國考題庫",
+    description:
+      "整理醫師國考常見疾病鑑別比較，協助考生快速複習高頻考點與容易混淆的臨床重點。",
+    path: "?page=diseases",
+  },
+  mistakes: {
+    title: "錯題本｜Ariel's Med 醫師國考題庫",
+    description:
+      "自動整理醫師國考練習錯題，方便反覆複習弱點、追蹤答題狀態與強化記憶。",
+    path: "?page=mistakes",
+  },
+  favorites: {
+    title: "收藏題目與閃卡｜Ariel's Med 醫師國考題庫",
+    description:
+      "收藏醫師國考歷屆試題與重點閃卡，依標籤整理常考觀念與考前複習清單。",
+    path: "?page=favorites",
+  },
+  notes: {
+    title: "讀書便利貼｜Ariel's Med 醫師國考題庫",
+    description:
+      "在醫師國考練題過程中記錄個人筆記、考點提醒與易錯觀念，方便考前快速回顧。",
+    path: "?page=notes",
+  },
+};
+
+function updateMetaTag(selector: string, attribute: "content" | "href", value: string) {
+  const element = document.head.querySelector(selector);
+  if (element) element.setAttribute(attribute, value);
+}
+
 function isRunningAsInstalledApp() {
   const standaloneNavigator = navigator as InstallAwareNavigator;
   return (
@@ -216,6 +256,20 @@ export default function App() {
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
   }, []);
+
+  useEffect(() => {
+    const seo = pageSeo[page];
+    const canonicalUrl = `${siteUrl}${seo.path}`;
+
+    document.title = seo.title;
+    updateMetaTag('meta[name="description"]', "content", seo.description);
+    updateMetaTag('meta[property="og:title"]', "content", seo.title);
+    updateMetaTag('meta[property="og:description"]', "content", seo.description);
+    updateMetaTag('meta[property="og:url"]', "content", canonicalUrl);
+    updateMetaTag('meta[name="twitter:title"]', "content", seo.title);
+    updateMetaTag('meta[name="twitter:description"]', "content", seo.description);
+    updateMetaTag('link[rel="canonical"]', "href", canonicalUrl);
+  }, [page]);
 
   useEffect(() => {
     let cancelled = false;

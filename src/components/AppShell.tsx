@@ -221,10 +221,10 @@ export function AppShell({
           </div>
           <div>
             <h1 className="text-lg font-bold tracking-[0.02em] text-[#3f342d] dark:text-[#f8edf3]">
-              醫師國考
+              Ariel's Med 醫師國考題庫
             </h1>
             <p className="text-[10px] font-semibold tracking-[0.14em] text-[#8b7666] dark:text-[#a2949e]">
-              你的專屬筆記
+              歷屆試題與錯題複習
             </p>
           </div>
         </button>
@@ -341,7 +341,7 @@ export function AppShell({
                     <PencilLine size={18} />
                   </div>
                   <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] truncate">
-                    國考筆記
+                    Ariel's Med 題庫
                   </span>
                 </button>
                 <div className="flex items-center gap-2 shrink-0">
