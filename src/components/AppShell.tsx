@@ -887,7 +887,7 @@ function FilterControl({
         {filterOpen && (
           <div
             className={clsx(
-              "absolute left-0 top-[calc(100%+0.5rem)] z-50 w-72 sm:w-80 rounded-[1.2rem] border p-4 shadow-[0_18px_50px_rgba(181,133,117,0.22)] backdrop-blur-xl space-y-4",
+              "absolute left-0 top-[calc(100%+0.5rem)] z-50 max-h-[min(34rem,calc(100vh-7.5rem))] w-72 space-y-4 overflow-y-auto rounded-[1.2rem] border p-4 shadow-[0_18px_50px_rgba(181,133,117,0.22)] backdrop-blur-xl sm:w-80",
               theme === "dark"
                 ? "border-white/15 bg-[#2b2430]/95"
                 : theme === "clinical"
@@ -981,7 +981,7 @@ function FilterControl({
             {/* Subject Selector */}
             <div>
               <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">科目</p>
-              <div className="grid gap-1 max-h-40 overflow-y-auto pr-1">
+              <div className="grid gap-1 pr-1">
                 {subjectOptions.map((opt) => (
                   <button
                     key={opt.value}

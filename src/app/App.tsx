@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { AlertCircle, ArrowRight, ClipboardCheck, Radar, Sparkles, GitCompare } from "lucide-react";
 import { AppShell } from "../components/AppShell";
+import { DesktopInstallModal } from "../components/DesktopInstallModal";
 import { IosInstallModal } from "../components/IosInstallModal";
 import { EmptyState } from "../components/EmptyState";
 import { ExamMode } from "../features/exam/ExamMode";
@@ -153,6 +154,7 @@ export default function App() {
 
   const [installEvent, setInstallEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [showIosInstallModal, setShowIosInstallModal] = useState(false);
+  const [showDesktopInstallModal, setShowDesktopInstallModal] = useState(false);
   const [isStandalone, setIsStandalone] = useState(() => isRunningAsInstalledApp());
   const [isAppInstalled, setIsAppInstalled] = useLocalStorage<boolean>(
     storageKeys.appInstalled,
@@ -189,6 +191,7 @@ export default function App() {
       setIsAppInstalled(true);
       setInstallEvent(null);
       setShowIosInstallModal(false);
+      setShowDesktopInstallModal(false);
       updateInstallState();
     };
 
@@ -230,6 +233,7 @@ export default function App() {
     );
   }, []);
 
+  const canOpenInstallHelp = !isStandalone && (installEvent !== null || isIos || !isAppInstalled);
   const isInstallable = !isStandalone && !isAppInstalled && (installEvent !== null || isIos);
   const shouldShowInstallPrompt =
     page === "exam" && isInstallable && !isInstallPromptDismissed && !isInstallPromptExpired;
@@ -253,11 +257,14 @@ export default function App() {
       if (choice && choice.outcome === "accepted") {
         setIsAppInstalled(true);
         setInstallEvent(null);
+        setShowDesktopInstallModal(false);
       } else if (!choice) {
         setInstallEvent(null);
       }
     } else if (isIos) {
       setShowIosInstallModal(true);
+    } else {
+      setShowDesktopInstallModal(true);
     }
   };
 
@@ -878,7 +885,7 @@ export default function App() {
       favoriteCount={favorites.length}
       stickyNoteCount={stickyNotes.length}
       isInstallable={shouldShowInstallPrompt}
-      canInstallFromSettings={isInstallable}
+      canInstallFromSettings={canOpenInstallHelp}
       onInstall={handleInstall}
       onDismissInstallPrompt={handleDismissInstallPrompt}
       onExamChange={setActiveExamId}
@@ -1054,6 +1061,12 @@ export default function App() {
         <IosInstallModal
           isOpen={showIosInstallModal}
           onClose={() => setShowIosInstallModal(false)}
+        />
+      )}
+      {showDesktopInstallModal && (
+        <DesktopInstallModal
+          isOpen={showDesktopInstallModal}
+          onClose={() => setShowDesktopInstallModal(false)}
         />
       )}
     </AnimatePresence>
