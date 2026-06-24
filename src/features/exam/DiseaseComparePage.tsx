@@ -307,9 +307,9 @@ export function DiseaseComparePage({
       </div>
 
       {subTab === "compare" ? (
-        <div className="grid gap-6 lg:grid-cols-[280px_1fr] items-start">
+        <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
           {/* Sidebar List with Staged Taxonomy */}
-          <aside className="rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto">
+          <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
             <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
               <GitCompare size={18} className="text-[#b8527a]" />
               <span className="font-hand font-bold text-base text-[#4b3b35]">必考統整</span>
@@ -334,7 +334,7 @@ export function DiseaseComparePage({
                       <div className="space-y-3 pl-1.5 mb-4">
                         {Object.entries(categories).map(([category, items]) => (
                           <div key={category}>
-                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1">
+                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1 break-words">
                               {category}
                             </h4>
                             <ul className="space-y-1">
@@ -343,7 +343,7 @@ export function DiseaseComparePage({
                                   <button
                                     type="button"
                                     onClick={() => setSelectedGroupId(item.id)}
-                                    className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer ${
+                                    className={`w-full min-w-0 text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer break-words whitespace-normal ${
                                       item.id === selectedGroupId
                                         ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
                                         : "text-[#6f5b50] hover:bg-white"
@@ -365,7 +365,7 @@ export function DiseaseComparePage({
           </aside>
 
           {/* Main Content View */}
-          <div className="space-y-6">
+          <div className="min-w-0 space-y-6">
             {/* Intro */}
             <div className="rounded-[1.4rem] border border-white/90 bg-white/82 p-5 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl">
               <h2 className="font-hand text-2xl font-bold text-[#4b3b35] flex items-center gap-2.5">
@@ -523,9 +523,9 @@ export function DiseaseComparePage({
           </div>
         </div>
       ) : (
-        <div className="grid gap-6 lg:grid-cols-[280px_1fr] items-start">
+        <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
           {/* Category Sidebar with Staged Categories */}
-          <aside className="rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto">
+          <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
             <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
               <Sparkles size={18} className="text-[#b8527a]" />
               <span className="font-hand font-bold text-base text-[#4b3b35]">學科分類</span>
@@ -539,7 +539,7 @@ export function DiseaseComparePage({
                   setSelectedFactStage("all");
                   setSelectedFactCategory("全部");
                 }}
-                className={`w-full text-left rounded-lg px-2.5 py-2 text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
+                className={`w-full min-w-0 text-left rounded-lg px-2.5 py-2 text-xs font-bold transition cursor-pointer flex items-center gap-1.5 break-words whitespace-normal ${
                   selectedFactStage === "all"
                     ? "bg-[#fdf0f4] text-[#b8527a]"
                     : "text-[#6f5b50] hover:bg-white"
@@ -578,7 +578,7 @@ export function DiseaseComparePage({
                             setSelectedFactStage("一階");
                             setSelectedFactCategory(cat);
                           }}
-                          className={`w-full min-h-9 text-left rounded-lg px-2 py-2 text-[11px] font-semibold transition cursor-pointer ${
+                          className={`w-full min-h-9 min-w-0 text-left rounded-lg px-2 py-2 text-[11px] font-semibold transition cursor-pointer break-words whitespace-normal ${
                             selectedFactStage === "一階" && selectedFactCategory === cat
                               ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
                               : "text-[#6f5b50] hover:bg-white"
@@ -622,7 +622,7 @@ export function DiseaseComparePage({
                             setSelectedFactStage("二階");
                             setSelectedFactCategory(cat);
                           }}
-                          className={`w-full min-h-9 text-left rounded-lg px-2.5 py-2 text-[11px] font-semibold transition cursor-pointer ${
+                          className={`w-full min-h-9 min-w-0 text-left rounded-lg px-2.5 py-2 text-[11px] font-semibold transition cursor-pointer break-words whitespace-normal ${
                             selectedFactStage === "二階" && selectedFactCategory === cat
                               ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
                               : "text-[#6f5b50] hover:bg-white"
@@ -639,7 +639,7 @@ export function DiseaseComparePage({
           </aside>
 
           {/* Main Content Area */}
-          <div className="space-y-6">
+          <div className="min-w-0 space-y-6">
             {/* Header/Controls */}
             <div className="rounded-[1.4rem] border border-white/90 bg-white/82 p-5 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-4">
