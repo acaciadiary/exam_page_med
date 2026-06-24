@@ -189,10 +189,14 @@ export default function App() {
 
   const handleInstall = async () => {
     if (installEvent) {
-      await installEvent.prompt();
-      const choice = await installEvent.userChoice.catch(() => undefined);
+      const choice = await installEvent
+        .prompt()
+        .then(() => installEvent.userChoice)
+        .catch(() => undefined);
       if (choice && choice.outcome === "accepted") {
         setIsAppInstalled(true);
+        setInstallEvent(null);
+      } else if (!choice) {
         setInstallEvent(null);
       }
     } else if (isIos) {

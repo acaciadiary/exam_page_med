@@ -92,7 +92,7 @@ export function FlashcardMode({
               type="button"
               onClick={() => onModeChange("exam")}
               className={clsx(
-                "inline-flex min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
+                "inline-flex min-h-9 min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
                 mode === "exam"
                   ? theme === "dark"
                     ? "bg-[#4a2c3a] text-[#f3a6c4] shadow-sm"
@@ -113,7 +113,7 @@ export function FlashcardMode({
               type="button"
               onClick={() => onModeChange("flashcards")}
               className={clsx(
-                "inline-flex min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
+                "inline-flex min-h-9 min-w-24 items-center justify-center gap-2 rounded-[0.7rem] px-3 text-sm font-semibold transition cursor-pointer",
                 mode === "flashcards"
                   ? theme === "dark"
                     ? "bg-[#4a2c3a] text-[#f3a6c4] shadow-sm"

@@ -24,7 +24,7 @@ export function ThemeToggle({ theme, onChange }: ThemeToggleProps) {
           type="button"
           onClick={() => onChange(option.value)}
           className={clsx(
-            "inline-flex items-center justify-center gap-1.5 rounded-full px-3 text-xs font-semibold transition",
+            "inline-flex min-h-9 min-w-9 items-center justify-center gap-1.5 rounded-full px-3 text-xs font-semibold transition",
             theme === option.value
               ? "bg-[#ffddea] text-[#9a496b] shadow-[0_8px_18px_rgba(181,133,117,0.16)]"
               : "text-[#6f5b50] hover:bg-white",

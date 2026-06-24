@@ -430,7 +430,7 @@ export function AppShell({
           active={page === "notes"}
           onClick={() => onPageChange("notes")}
           icon={<NotebookPen size={20} />}
-          label="便條貼"
+          label="筆記"
           badge={stickyNoteCount}
           theme={theme}
         />
@@ -692,7 +692,7 @@ function FilterControl({
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={() => handleYearChange(opt.value)}
                     className={clsx(
-                      "h-7 rounded-lg px-2.5 text-xs font-semibold transition cursor-pointer",
+                      "min-h-9 rounded-lg px-3 text-xs font-semibold transition cursor-pointer",
                       opt.value === activeYear
                         ? theme === "dark"
                           ? "bg-[#4a2c3a] text-[#f3a6c4]"
@@ -716,7 +716,7 @@ function FilterControl({
             <div>
               <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">階段</p>
               <div className={clsx(
-                "inline-flex h-8 rounded-lg border p-0.5",
+                "inline-flex min-h-10 rounded-lg border p-0.5",
                 theme === "dark" ? "border-white/10 bg-[#201b25]/80" : theme === "clinical" ? "border-[#c8dbe7] bg-white/80" : "border-[#e6d6c9] bg-white/80"
               )}>
                 <button
@@ -724,7 +724,7 @@ function FilterControl({
                   onMouseDown={(e) => e.preventDefault()}
                   onClick={() => handleStageChange("stage-1")}
                   className={clsx(
-                    "flex items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
+                    "flex min-h-9 items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
                     activeStage === "stage-1"
                       ? theme === "dark"
                         ? "bg-[#4a2c3a] text-[#f3a6c4]"
@@ -745,7 +745,7 @@ function FilterControl({
                   onMouseDown={(e) => e.preventDefault()}
                   onClick={() => handleStageChange("stage-2")}
                   className={clsx(
-                    "flex items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
+                    "flex min-h-9 items-center justify-center rounded-[0.35rem] px-3 text-xs font-semibold transition cursor-pointer",
                     activeStage === "stage-2"
                       ? theme === "dark"
                         ? "bg-[#4a2c3a] text-[#f3a6c4]"
@@ -778,7 +778,7 @@ function FilterControl({
                       setFilterOpen(false);
                     }}
                     className={clsx(
-                      "flex h-8 items-center rounded-lg px-2.5 text-left text-xs font-semibold transition cursor-pointer",
+                      "flex min-h-9 items-center rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
                       opt.value === activeExamId
                         ? theme === "dark"
                           ? "bg-[#4a2c3a] text-[#f3a6c4]"
@@ -849,7 +849,7 @@ function FilterControl({
                 setSettingsOpen(false);
               }}
               className={clsx(
-                "flex h-8 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
+                "flex min-h-9 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
                 theme === "dark"
                   ? "text-[#b65f7c] hover:bg-white/5"
                   : theme === "clinical"
@@ -868,7 +868,7 @@ function FilterControl({
                 setSettingsOpen(false);
               }}
               className={clsx(
-                "flex h-8 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer border-t border-[#f0ded6]/40 dark:border-white/10 mt-1 pt-1",
+                "flex min-h-9 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer border-t border-[#f0ded6]/40 dark:border-white/10 mt-1 pt-1",
                 theme === "dark"
                   ? "text-[#b65f7c] hover:bg-white/5"
                   : theme === "clinical"

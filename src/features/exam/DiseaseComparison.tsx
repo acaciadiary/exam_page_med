@@ -181,7 +181,7 @@ export function DiseaseComparison({ group, currentQuestionId, theme }: DiseaseCo
                 setSelfTestMode(!selfTestMode);
                 setRevealedCards({});
               }}
-              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-bold border transition cursor-pointer shadow-xs ${
+              className={`inline-flex min-h-9 items-center gap-1 rounded-full px-2.5 py-2 text-[10px] font-bold border transition cursor-pointer shadow-xs ${
                 selfTestMode
                   ? "bg-[#b8527a] text-white border-[#b8527a] hover:bg-[#9c3e5e]"
                   : isDark
@@ -309,7 +309,7 @@ export function DiseaseComparison({ group, currentQuestionId, theme }: DiseaseCo
                   type="button"
                   onClick={() => handleQuestionClick(rq.question_id)}
                   disabled={isCurrent}
-                  className={`inline-flex items-center gap-1 rounded-lg border px-2.5 py-1 text-xs font-medium transition cursor-pointer ${
+                  className={`inline-flex min-h-9 items-center gap-1 rounded-lg border px-2.5 py-2 text-xs font-medium transition cursor-pointer ${
                     isCurrent
                       ? "border-[#b8527a] bg-[#fdf0f4] text-[#b8527a] cursor-default font-bold"
                       : "border-[#e0ccd5] bg-white text-[#6f4054] hover:bg-[#fdfafb] hover:border-[#c5a6b4]"

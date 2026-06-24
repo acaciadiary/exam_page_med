@@ -442,7 +442,7 @@ export function DiseaseComparePage({
                         <button
                           type="button"
                           onClick={handleNextQuiz}
-                          className="mt-3 inline-flex h-8 items-center justify-center rounded-lg bg-[#4c806e] px-4 text-xs font-bold text-white transition hover:bg-[#3d695a] cursor-pointer"
+                          className="mt-3 inline-flex min-h-9 items-center justify-center rounded-lg bg-[#4c806e] px-4 text-xs font-bold text-white transition hover:bg-[#3d695a] cursor-pointer"
                         >
                           下一題
                         </button>
@@ -485,7 +485,7 @@ export function DiseaseComparePage({
                           <button
                             type="button"
                             onClick={() => onRemoveNote(note.id)}
-                            className="text-[#b2a18d] hover:text-[#9a496b] p-0.5 transition cursor-pointer"
+                            className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg text-[#b2a18d] hover:text-[#9a496b] transition cursor-pointer"
                             title="刪除筆記"
                           >
                             <Trash2 size={13} />
@@ -556,7 +556,7 @@ export function DiseaseComparePage({
                     setSelectedFactStage("一階");
                     setSelectedFactCategory("全部");
                   }}
-                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
+                  className={`w-full min-h-9 text-left rounded-lg px-2.5 py-2 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
                     selectedFactStage === "一階" && selectedFactCategory === "全部"
                       ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
                       : ""
@@ -578,7 +578,7 @@ export function DiseaseComparePage({
                             setSelectedFactStage("一階");
                             setSelectedFactCategory(cat);
                           }}
-                          className={`w-full text-left rounded-lg px-2 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                          className={`w-full min-h-9 text-left rounded-lg px-2 py-2 text-[11px] font-semibold transition cursor-pointer ${
                             selectedFactStage === "一階" && selectedFactCategory === cat
                               ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
                               : "text-[#6f5b50] hover:bg-white"
@@ -600,7 +600,7 @@ export function DiseaseComparePage({
                     setSelectedFactStage("二階");
                     setSelectedFactCategory("全部");
                   }}
-                  className={`w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 pb-1 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
+                  className={`w-full min-h-9 text-left rounded-lg px-2.5 py-2 text-xs font-extrabold text-[#b8527a] border-b border-[#efd9d0]/60 mb-1 transition flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] ${
                     selectedFactStage === "二階" && selectedFactCategory === "全部"
                       ? "bg-[#fdf0f4] px-2 py-1 rounded-md"
                       : ""
@@ -622,7 +622,7 @@ export function DiseaseComparePage({
                             setSelectedFactStage("二階");
                             setSelectedFactCategory(cat);
                           }}
-                          className={`w-full text-left rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition cursor-pointer ${
+                          className={`w-full min-h-9 text-left rounded-lg px-2.5 py-2 text-[11px] font-semibold transition cursor-pointer ${
                             selectedFactStage === "二階" && selectedFactCategory === cat
                               ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
                               : "text-[#6f5b50] hover:bg-white"
@@ -792,7 +792,7 @@ export function DiseaseComparePage({
                                 }
                               }
                             }}
-                            className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[10px] font-bold border transition cursor-pointer bg-white text-[#b8527a] border-[#f1aac8] hover:bg-[#fdf0f4] hover:border-[#b8527a] dark:bg-black/20 dark:text-[#f3a6c4] dark:border-[#5e4757] dark:hover:bg-[#502f40]`}
+                            className={`inline-flex min-h-9 items-center gap-1 rounded-lg px-2.5 py-2 text-[10px] font-bold border transition cursor-pointer bg-white text-[#b8527a] border-[#f1aac8] hover:bg-[#fdf0f4] hover:border-[#b8527a] dark:bg-black/20 dark:text-[#f3a6c4] dark:border-[#5e4757] dark:hover:bg-[#502f40]`}
                           >
                             ⚡ 延伸演練
                           </button>
@@ -806,7 +806,7 @@ export function DiseaseComparePage({
                           e.stopPropagation();
                           handleToggleFactFavorite(fact.id);
                         }}
-                        className="absolute top-3.5 right-3.5 p-1 rounded-full bg-white/80 border border-[#efd9d0] text-[#a68e98] hover:text-[#9a496b] hover:bg-[#fff0f6] transition cursor-pointer dark:bg-black/40 dark:border-[#5e4757] dark:text-[#a2949e] dark:hover:text-[#f3a6c4]"
+                        className="absolute top-3.5 right-3.5 inline-flex min-h-9 min-w-9 items-center justify-center rounded-full bg-white/80 border border-[#efd9d0] text-[#a68e98] hover:text-[#9a496b] hover:bg-[#fff0f6] transition cursor-pointer dark:bg-black/40 dark:border-[#5e4757] dark:text-[#a2949e] dark:hover:text-[#f3a6c4]"
                         title={hasFavorite ? "取消收藏" : "加入收藏"}
                       >
                         {hasFavorite ? (
