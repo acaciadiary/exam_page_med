@@ -221,7 +221,7 @@ export function AppShell({
           </div>
           <div>
             <h1 className="text-lg font-bold tracking-[0.02em] text-[#3f342d] dark:text-[#f8edf3]">
-              Ariel's Med 醫師國考題庫
+              Ariel's Med 醫師國考
             </h1>
             <p className="text-[10px] font-semibold tracking-[0.14em] text-[#8b7666] dark:text-[#a2949e]">
               歷屆試題與錯題複習
