@@ -414,7 +414,7 @@ export function AppShell({
           active={page === "mistakes"}
           onClick={() => onPageChange("mistakes")}
           icon={<ClipboardX size={20} />}
-          label="錯題"
+          label="錯題區"
           badge={wrongQuestionCount}
           theme={theme}
         />
@@ -430,7 +430,7 @@ export function AppShell({
           active={page === "notes"}
           onClick={() => onPageChange("notes")}
           icon={<NotebookPen size={20} />}
-          label="筆記"
+          label="筆記區"
           badge={stickyNoteCount}
           theme={theme}
         />
