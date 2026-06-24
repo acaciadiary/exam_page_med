@@ -269,10 +269,10 @@ export function AppShell({
 
         {/* Sidebar bottom settings and theme controls */}
         <div className="p-4 border-t border-[#f0ded6]/65 dark:border-white/10 space-y-3">
-          <div className="flex items-center justify-between">
+          <div className="space-y-2">
             <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
-            <div className="flex items-center gap-2">
-              <ThemeToggle theme={theme} onChange={onThemeChange} />
+            <div className="flex min-w-0 items-center gap-2">
+              <ThemeToggle theme={theme} onChange={onThemeChange} compact />
               <ReadingBoldButton
                 enabled={readingBold}
                 onChange={onReadingBoldChange}

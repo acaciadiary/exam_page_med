@@ -21,7 +21,7 @@ export function MarkedQuestionSidebar({
   markedIds,
   onClearMarked,
 }: MarkedQuestionSidebarProps) {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
   const marked = questions.filter((question) => markedIds.includes(question.id));
 
   return (
