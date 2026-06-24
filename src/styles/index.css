@@ -322,6 +322,16 @@ select {
   max-width: 100%;
 }
 
+.reading-bold .question-card-item h2,
+.reading-bold .question-card-item button > span:last-child,
+.reading-bold .question-card-item p:not([class*="tracking"]),
+.reading-bold .flashcard-face h3,
+.reading-bold .flashcard-face p:not([class*="tracking"]),
+.reading-bold main [class*="leading-7"],
+.reading-bold main [class*="leading-8"],
+.reading-bold main [class*="leading-9"] {
+  font-weight: 700 !important;
+}
 
 @media (max-width: 640px) {
   .flashcard-face {

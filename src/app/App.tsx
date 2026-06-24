@@ -69,6 +69,10 @@ export default function App() {
     readPageFromSearch(window.location.search),
   );
   const [theme, setTheme] = useLocalStorage<AppTheme>(storageKeys.theme, "light");
+  const [readingBold, setReadingBold] = useLocalStorage<boolean>(
+    storageKeys.readingBold,
+    false,
+  );
   const [mode, setMode] = useLocalStorage<Mode>(storageKeys.activeMode, "exam");
   const [activeExamId, setActiveExamId] = useLocalStorage<string>(
     storageKeys.activeExam,
@@ -657,6 +661,7 @@ export default function App() {
       activeExamId={dataset.id}
       page={page}
       theme={theme}
+      readingBold={readingBold}
       answeredCount={answeredCount}
       questionCount={dataset.questions.length}
       wrongQuestionCount={allMistakes.length}
@@ -667,6 +672,7 @@ export default function App() {
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
       onThemeChange={setTheme}
+      onReadingBoldChange={setReadingBold}
       onReset={() => {
         if (!window.confirm("確定重置本科作答？")) return;
         resetAnswers();

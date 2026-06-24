@@ -12,4 +12,5 @@ export const storageKeys = {
   focusSeconds: `${prefix}:focus-seconds`,
   stickyNotes: `${prefix}:sticky-notes`,
   appInstalled: `${prefix}:app-installed`,
+  readingBold: `${prefix}:reading-bold`,
 };

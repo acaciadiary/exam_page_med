@@ -1,5 +1,6 @@
 import {
   ArrowUp,
+  Bold,
   BookOpenCheck,
   BookmarkCheck,
   ChevronDown,
@@ -33,6 +34,7 @@ type AppShellProps = {
   activeExamId: string;
   page: AppPage;
   theme: AppTheme;
+  readingBold: boolean;
   answeredCount: number;
   questionCount: number;
   wrongQuestionCount: number;
@@ -43,6 +45,7 @@ type AppShellProps = {
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
   onThemeChange: (theme: AppTheme) => void;
+  onReadingBoldChange: (enabled: boolean) => void;
   onReset: () => void;
   onResetAll: () => void;
 };
@@ -58,6 +61,7 @@ export function AppShell({
   activeExamId,
   page,
   theme,
+  readingBold,
   answeredCount,
   questionCount,
   wrongQuestionCount,
@@ -68,6 +72,7 @@ export function AppShell({
   onExamChange,
   onPageChange,
   onThemeChange,
+  onReadingBoldChange,
   onReset,
   onResetAll,
 }: AppShellProps) {
@@ -109,6 +114,11 @@ export function AppShell({
 
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+
+  const handleHomeClick = () => {
+    onPageChange("exam");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   useEffect(() => {
     let ticking = false;
@@ -168,6 +178,7 @@ export function AppShell({
         theme === "light" && "bg-[#fff8f4]",
         theme === "dark" && "theme-dark bg-[#19161e] text-[#f8edf3]",
         theme === "clinical" && "theme-clinical bg-[#f4f8fb] text-[#26384a]",
+        readingBold && "reading-bold",
       )}
     >
       {/* Dynamic Backgrounds */}
@@ -198,7 +209,13 @@ export function AppShell({
         )}
       >
         {/* Logo and Title */}
-        <div className="flex items-center gap-3 p-6 border-b border-[#f0ded6]/65 dark:border-white/10">
+        <button
+          type="button"
+          onClick={handleHomeClick}
+          className="flex w-full items-center gap-3 border-b border-[#f0ded6]/65 p-6 text-left transition hover:bg-white/45 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:hover:bg-white/5"
+          aria-label="回到首頁"
+          title="回到首頁"
+        >
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[0.95rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c] shadow-[0_6px_18px_rgba(118,91,78,0.08)]">
             <PencilLine size={20} />
           </div>
@@ -210,7 +227,7 @@ export function AppShell({
               你的專屬筆記
             </p>
           </div>
-        </div>
+        </button>
 
         {/* Navigation items */}
         <nav className="flex-1 space-y-1.5 p-4">
@@ -253,7 +270,14 @@ export function AppShell({
         <div className="p-4 border-t border-[#f0ded6]/65 dark:border-white/10 space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
-            <ThemeToggle theme={theme} onChange={onThemeChange} />
+            <div className="flex items-center gap-2">
+              <ThemeToggle theme={theme} onChange={onThemeChange} />
+              <ReadingBoldButton
+                enabled={readingBold}
+                onChange={onReadingBoldChange}
+                theme={theme}
+              />
+            </div>
           </div>
           {isInstallable && onInstall && (
             <button
@@ -306,16 +330,27 @@ export function AppShell({
             <div className="flex lg:hidden flex-col gap-2.5">
               {/* Row 1: Title & Theme Switch */}
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2 min-w-0">
+                <button
+                  type="button"
+                  onClick={handleHomeClick}
+                  className="flex min-w-0 items-center gap-2 rounded-xl pr-2 text-left transition hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45"
+                  aria-label="回到首頁"
+                  title="回到首頁"
+                >
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[0.8rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
                     <PencilLine size={18} />
                   </div>
                   <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] truncate">
                     國考筆記
                   </span>
-                </div>
+                </button>
                 <div className="flex items-center gap-2 shrink-0">
                   <ThemeToggle theme={theme} onChange={onThemeChange} />
+                  <ReadingBoldButton
+                    enabled={readingBold}
+                    onChange={onReadingBoldChange}
+                    theme={theme}
+                  />
                   {isInstallable && onInstall && (
                     <button
                       type="button"
@@ -527,6 +562,42 @@ function MobileNavLink({
           {badge}
         </span>
       ) : null}
+    </button>
+  );
+}
+
+function ReadingBoldButton({
+  enabled,
+  onChange,
+  theme,
+}: {
+  enabled: boolean;
+  onChange: (enabled: boolean) => void;
+  theme: AppTheme;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={() => onChange(!enabled)}
+      className={clsx(
+        "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border text-xs font-extrabold transition shadow-sm",
+        enabled
+          ? theme === "dark"
+            ? "border-white/20 bg-[#4a2c3a] text-[#f3a6c4]"
+            : theme === "clinical"
+            ? "border-[#1f4e79] bg-[#dbeafe] text-[#1f4e79]"
+            : "border-[#f1aac8] bg-[#ffddea] text-[#9a496b]"
+          : theme === "dark"
+          ? "border-white/10 bg-[#2b2430]/80 text-[#dccbd3] hover:border-white/20"
+          : theme === "clinical"
+          ? "border-[#c8dbe7] bg-white/80 text-[#26384a] hover:border-[#1f4e79]"
+          : "border-[#e6d6c9] bg-white/80 text-[#6f5b50] hover:bg-white",
+      )}
+      aria-pressed={enabled}
+      aria-label={enabled ? "關閉閱讀加粗" : "開啟閱讀加粗"}
+      title={enabled ? "關閉閱讀加粗" : "開啟閱讀加粗"}
+    >
+      <Bold size={16} strokeWidth={2.6} />
     </button>
   );
 }
