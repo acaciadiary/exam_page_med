@@ -373,7 +373,7 @@ export function DiseaseComparePage({
                 疾病鑑別與對照專區
               </h2>
               <p className="mt-2 text-sm text-[#725b52] leading-6 font-reading">
-                本專區精選 10 組國考經典比較對照組，透過雙向比對核心相異處（高亮顯示），並整合歷屆考題與自訂對照筆記（同步至便利貼），幫助您直擊考點、秒殺陷阱。
+                本專區精選共 {groups.length} 組國考經典比較對照組，透過雙向比對核心相異處（高亮顯示），並整合歷屆考題與自訂對照筆記（同步至便利貼），幫助您直擊考點、秒殺陷阱。
               </p>
             </div>
 

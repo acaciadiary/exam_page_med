@@ -267,7 +267,7 @@ export function AppShell({
       {/* Desktop Left Fixed Sidebar */}
       <aside
         className={clsx(
-          "fixed bottom-0 left-0 top-0 z-40 hidden flex-col border-r bg-white/70 backdrop-blur-xl transition-[width] duration-300 lg:flex",
+          "fixed bottom-0 left-0 top-0 z-40 hidden flex-col overflow-hidden border-r bg-white/70 backdrop-blur-xl transition-[width] duration-300 lg:flex",
           isSidebarCollapsed ? "w-[4.75rem]" : "w-64",
           theme === "dark"
             ? "border-white/12 bg-[#2b2430]/70"
@@ -318,7 +318,7 @@ export function AppShell({
         </div>
 
         {/* Navigation items */}
-        <nav className={clsx("flex-1 space-y-1.5", isSidebarCollapsed ? "p-3" : "p-4")}>
+        <nav className={clsx("min-h-0 flex-1 space-y-1.5 overflow-y-auto", isSidebarCollapsed ? "p-3" : "p-4")}>
           {navigationItems.map((item) => (
             <SidebarLink
               key={item.page}
@@ -335,7 +335,7 @@ export function AppShell({
         </nav>
 
         {/* Sidebar bottom settings and theme controls */}
-        <div className={clsx("border-t border-[#f0ded6]/65 dark:border-white/10", isSidebarCollapsed ? "space-y-2 p-3" : "space-y-3 p-4")}>
+        <div className={clsx("shrink-0 border-t border-[#f0ded6]/65 pb-[max(0.75rem,env(safe-area-inset-bottom))] dark:border-white/10", isSidebarCollapsed ? "space-y-2 px-3 pt-3" : "space-y-3 px-4 pt-4")}>
           <div className={clsx("space-y-2", isSidebarCollapsed && "hidden")}>
             <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
             <div className="flex min-w-0 items-center gap-2">
