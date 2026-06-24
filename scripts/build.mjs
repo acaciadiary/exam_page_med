@@ -1,9 +1,9 @@
 import { spawnSync } from "node:child_process";
+import { resolve } from "node:path";
 
-function run(command, args) {
-  const result = spawnSync(command, args, {
+function run(scriptPath, args) {
+  const result = spawnSync(process.execPath, [resolve(scriptPath), ...args], {
     stdio: "inherit",
-    shell: process.platform === "win32",
   });
 
   if (result.status !== 0) {
@@ -11,5 +11,5 @@ function run(command, args) {
   }
 }
 
-run("tsc", ["-b"]);
-run("vite", ["build"]);
+run("node_modules/typescript/bin/tsc", ["-b"]);
+run("node_modules/vite/bin/vite.js", ["build"]);

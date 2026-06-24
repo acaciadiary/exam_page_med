@@ -4,6 +4,10 @@ import { describe, expect, it, vi } from "vitest";
 import { QuestionCard } from "../../src/features/exam/QuestionCard";
 import type { ExamQuestion } from "../../src/types/exam";
 
+vi.mock("../../src/lib/loadExamData", () => ({
+  loadDiseaseComparisons: vi.fn().mockResolvedValue({ comparison_groups: [] }),
+}));
+
 const question: ExamQuestion = {
   id: "q1",
   question_number: 1,
