@@ -220,8 +220,9 @@ export function AppShell({
             <PencilLine size={20} />
           </div>
           <div>
-            <h1 className="text-lg font-bold tracking-[0.02em] text-[#3f342d] dark:text-[#f8edf3]">
-              Ariel's Med 醫師國考
+            <h1 className="text-lg font-bold tracking-[0.02em] leading-tight text-[#3f342d] dark:text-[#f8edf3]">
+              <span className="block whitespace-nowrap">Ariel's Med</span>
+              <span className="block whitespace-nowrap">醫師國考</span>
             </h1>
             <p className="text-[10px] font-semibold tracking-[0.14em] text-[#8b7666] dark:text-[#a2949e]">
               歷屆試題與錯題複習
