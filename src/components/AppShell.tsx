@@ -45,6 +45,7 @@ type AppShellProps = {
   favoriteCount: number;
   stickyNoteCount: number;
   isInstallable?: boolean;
+  canInstallFromSettings?: boolean;
   onInstall?: () => void;
   onDismissInstallPrompt?: () => void;
   onExamChange: (examId: string) => void;
@@ -73,6 +74,7 @@ export function AppShell({
   favoriteCount,
   stickyNoteCount,
   isInstallable,
+  canInstallFromSettings,
   onInstall,
   onDismissInstallPrompt,
   onExamChange,
@@ -428,6 +430,8 @@ export function AppShell({
                   onExamChange={onExamChange}
                   handleYearChange={handleYearChange}
                   handleStageChange={handleStageChange}
+                  canInstallFromSettings={canInstallFromSettings}
+                  onInstall={onInstall}
                   onReset={onReset}
                   onResetAll={onResetAll}
                   theme={theme}
@@ -512,6 +516,8 @@ export function AppShell({
                   onExamChange={onExamChange}
                   handleYearChange={handleYearChange}
                   handleStageChange={handleStageChange}
+                  canInstallFromSettings={canInstallFromSettings}
+                  onInstall={onInstall}
                   onReset={onReset}
                   onResetAll={onResetAll}
                   theme={theme}
@@ -824,6 +830,8 @@ function FilterControl({
   onExamChange,
   handleYearChange,
   handleStageChange,
+  canInstallFromSettings,
+  onInstall,
   onReset,
   onResetAll,
   theme,
@@ -837,6 +845,8 @@ function FilterControl({
   onExamChange: (id: string) => void;
   handleYearChange: (year: string) => void;
   handleStageChange: (stage: "stage-1" | "stage-2") => void;
+  canInstallFromSettings?: boolean;
+  onInstall?: () => void;
   onReset: () => void;
   onResetAll: () => void;
   theme: AppTheme;
@@ -1045,6 +1055,27 @@ function FilterControl({
                 : "border-[#e6d6c9] bg-white/95"
             )}
           >
+            {canInstallFromSettings && onInstall && (
+              <button
+                type="button"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  onInstall();
+                  setSettingsOpen(false);
+                }}
+                className={clsx(
+                  "flex min-h-9 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
+                  theme === "dark"
+                    ? "text-[#dccbd3] hover:bg-white/5 hover:text-[#f3a6c4]"
+                    : theme === "clinical"
+                    ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
+                    : "text-[#355249] hover:bg-[#e8f4ee]",
+                )}
+              >
+                <Download size={12} />
+                <span>加入桌面</span>
+              </button>
+            )}
             <button
               type="button"
               onMouseDown={(e) => e.preventDefault()}
@@ -1054,6 +1085,7 @@ function FilterControl({
               }}
               className={clsx(
                 "flex min-h-9 w-full items-center gap-2 rounded-lg px-3 text-left text-xs font-semibold transition cursor-pointer",
+                canInstallFromSettings && onInstall && "border-t border-[#f0ded6]/40 dark:border-white/10 mt-1 pt-1",
                 theme === "dark"
                   ? "text-[#b65f7c] hover:bg-white/5"
                   : theme === "clinical"

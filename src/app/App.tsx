@@ -878,6 +878,7 @@ export default function App() {
       favoriteCount={favorites.length}
       stickyNoteCount={stickyNotes.length}
       isInstallable={shouldShowInstallPrompt}
+      canInstallFromSettings={isInstallable}
       onInstall={handleInstall}
       onDismissInstallPrompt={handleDismissInstallPrompt}
       onExamChange={setActiveExamId}
