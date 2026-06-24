@@ -12,6 +12,7 @@ export const storageKeys = {
   focusSeconds: `${prefix}:focus-seconds`,
   stickyNotes: `${prefix}:sticky-notes`,
   appInstalled: `${prefix}:app-installed`,
+  installPromptDismissed: `${prefix}:install-prompt-dismissed`,
   readingBold: `${prefix}:reading-bold`,
   lastPractice: `${prefix}:last-practice`,
 };

@@ -158,6 +158,11 @@ export default function App() {
     storageKeys.appInstalled,
     false,
   );
+  const [isInstallPromptDismissed, setIsInstallPromptDismissed] = useLocalStorage<boolean>(
+    storageKeys.installPromptDismissed,
+    false,
+  );
+  const [isInstallPromptExpired, setIsInstallPromptExpired] = useState(false);
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e: Event) => {
@@ -226,6 +231,18 @@ export default function App() {
   }, []);
 
   const isInstallable = !isStandalone && !isAppInstalled && (installEvent !== null || isIos);
+  const shouldShowInstallPrompt =
+    page === "exam" && isInstallable && !isInstallPromptDismissed && !isInstallPromptExpired;
+
+  useEffect(() => {
+    if (!shouldShowInstallPrompt) return undefined;
+
+    const timer = window.setTimeout(() => {
+      setIsInstallPromptExpired(true);
+    }, 15000);
+
+    return () => window.clearTimeout(timer);
+  }, [shouldShowInstallPrompt]);
 
   const handleInstall = async () => {
     if (installEvent) {
@@ -242,6 +259,11 @@ export default function App() {
     } else if (isIos) {
       setShowIosInstallModal(true);
     }
+  };
+
+  const handleDismissInstallPrompt = () => {
+    setIsInstallPromptDismissed(true);
+    setIsInstallPromptExpired(true);
   };
 
   useEffect(() => {
@@ -855,8 +877,9 @@ export default function App() {
       wrongQuestionCount={allMistakes.length}
       favoriteCount={favorites.length}
       stickyNoteCount={stickyNotes.length}
-      isInstallable={isInstallable}
+      isInstallable={shouldShowInstallPrompt}
       onInstall={handleInstall}
+      onDismissInstallPrompt={handleDismissInstallPrompt}
       onExamChange={setActiveExamId}
       onPageChange={handlePageChange}
       onThemeChange={setTheme}

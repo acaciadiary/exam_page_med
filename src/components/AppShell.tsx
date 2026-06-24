@@ -46,6 +46,7 @@ type AppShellProps = {
   stickyNoteCount: number;
   isInstallable?: boolean;
   onInstall?: () => void;
+  onDismissInstallPrompt?: () => void;
   onExamChange: (examId: string) => void;
   onPageChange: (page: AppPage) => void;
   onThemeChange: (theme: AppTheme) => void;
@@ -73,6 +74,7 @@ export function AppShell({
   stickyNoteCount,
   isInstallable,
   onInstall,
+  onDismissInstallPrompt,
   onExamChange,
   onPageChange,
   onThemeChange,
@@ -351,19 +353,40 @@ export function AppShell({
             />
           )}
           {isInstallable && onInstall && (
-            <button
-              type="button"
-              onClick={onInstall}
+            <div
               className={clsx(
-                "flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer",
-                isSidebarCollapsed ? "h-11" : "py-2.5",
+                "flex items-center gap-2",
+                isSidebarCollapsed && "flex-col",
               )}
-              aria-label="加入桌面"
-              title="加入桌面"
             >
-              <Download size={16} />
-              {!isSidebarCollapsed && <span>加入桌面</span>}
-            </button>
+              <button
+                type="button"
+                onClick={onInstall}
+                className={clsx(
+                  "flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer",
+                  isSidebarCollapsed ? "h-11" : "py-2.5",
+                )}
+                aria-label="加入桌面"
+                title="加入桌面"
+              >
+                <Download size={16} />
+                {!isSidebarCollapsed && <span>加入桌面</span>}
+              </button>
+              {onDismissInstallPrompt && (
+                <button
+                  type="button"
+                  onClick={onDismissInstallPrompt}
+                  className={clsx(
+                    "shrink-0 rounded-xl border border-[#efd9d0] bg-white/72 text-[#8b7666] transition hover:bg-white hover:text-[#9a496b] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:bg-white/5 dark:text-[#dccbd3]",
+                    isSidebarCollapsed ? "h-9 w-9" : "h-10 w-10",
+                  )}
+                  aria-label="關閉加入桌面提示"
+                  title="關閉加入桌面提示"
+                >
+                  <X size={15} className="mx-auto" />
+                </button>
+              )}
+            </div>
           )}
         </div>
       </aside>
@@ -451,14 +474,28 @@ export function AppShell({
                     theme={theme}
                   />
                   {isInstallable && onInstall && (
-                    <button
-                      type="button"
-                      onClick={onInstall}
-                      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#b8e2d4] bg-[#e8f4ee] text-[#355249] transition hover:bg-[#d5ebe1] cursor-pointer"
-                      title="加入桌面"
-                    >
-                      <Download size={16} />
-                    </button>
+                    <div className="flex items-center gap-1">
+                      <button
+                        type="button"
+                        onClick={onInstall}
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#b8e2d4] bg-[#e8f4ee] text-[#355249] transition hover:bg-[#d5ebe1] cursor-pointer"
+                        aria-label="加入桌面"
+                        title="加入桌面"
+                      >
+                        <Download size={16} />
+                      </button>
+                      {onDismissInstallPrompt && (
+                        <button
+                          type="button"
+                          onClick={onDismissInstallPrompt}
+                          className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#efd9d0] bg-white/82 text-[#8b7666] transition hover:bg-white hover:text-[#9a496b] cursor-pointer"
+                          aria-label="關閉加入桌面提示"
+                          title="關閉加入桌面提示"
+                        >
+                          <X size={15} />
+                        </button>
+                      )}
+                    </div>
                   )}
                 </div>
               </div>

@@ -713,6 +713,2173 @@
         }
       ],
       "stage": "二階"
+    },
+    {
+      "id": "sympathetic_vs_parasympathetic",
+      "title": "交感神經 (Sympathetic) vs 副交感神經 (Parasympathetic)",
+      "category": "生理學 / 藥理學 / 解剖學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "交感神經釋放正腎上腺素、加速心跳、擴張支氣管、抑制腸蠕動；副交感神經釋放乙醯膽鹼、減慢心跳、收縮支氣管、促進腸蠕動。",
+      "common_traps": "考題常將「瞳孔散大（交感）」與「瞳孔縮小（副交感）」搞混，或將「M2 受體減慢心跳」誤植為交感作用。",
+      "highlight_keywords": [
+        "交感神經",
+        "副交感神經",
+        "乙醯膽鹼",
+        "正腎上腺素",
+        "M2受器",
+        "β受體",
+        "瞳孔散大",
+        "瞳孔縮小",
+        "fight or flight",
+        "rest and digest"
+      ],
+      "diseases": [
+        {
+          "name": "交感神經 (Sympathetic Nervous System)",
+          "aliases": [
+            "交感神經",
+            "Sympathetic",
+            "SNS"
+          ],
+          "features": {
+            "神經傳導物質": "正腎上腺素 (Norepinephrine)，腎上腺髓質另分泌腎上腺素 (Epinephrine)",
+            "心臟效應": "心跳加速 (β1)、心肌收縮力增強、傳導速度加快",
+            "瞳孔": "散大 (Mydriasis)，由放射狀肌收縮 (α1)",
+            "呼吸道": "支氣管擴張 (β2)",
+            "消化系統": "腸蠕動減慢、括約肌收縮",
+            "膀胱": "逼尿肌放鬆 (β2)、內括約肌收縮 (α1) ➜ 儲尿"
+          }
+        },
+        {
+          "name": "副交感神經 (Parasympathetic Nervous System)",
+          "aliases": [
+            "副交感神經",
+            "Parasympathetic",
+            "PNS"
+          ],
+          "features": {
+            "神經傳導物質": "乙醯膽鹼 (Acetylcholine, ACh)",
+            "心臟效應": "心跳減慢 (M2)，透過 GIRK 通道增加鉀離子外流使膜過極化",
+            "瞳孔": "縮小 (Miosis)，由瞳孔括約肌收縮 (M3)",
+            "呼吸道": "支氣管收縮、腺體分泌增加",
+            "消化系統": "腸蠕動增加、消化液分泌增加",
+            "膀胱": "逼尿肌收縮 (M3)、內括約肌放鬆 ➜ 排尿"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-1_017",
+          "note": "淚腺副交感神經通路：上涎核→大岩神經→翼腭神經節"
+        },
+        {
+          "question_id": "115-1_medicine-1_050",
+          "note": "副交感經 M2 受器透過 GIRK 通道減慢心跳"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "T1-L2",
+          "unit": "脊髓節段",
+          "target_disease": "交感神經",
+          "context": "交感神經的節前神經元位於脊髓 T1 至 L2 的中間外側柱（intermediolateral column）。"
+        },
+        {
+          "value": "CN III/VII/IX/X + S2-S4",
+          "unit": "神經來源",
+          "target_disease": "副交感神經",
+          "context": "副交感神經的節前神經元源自腦幹（CN III、VII、IX、X）及薦椎 S2-S4。"
+        }
+      ],
+      "stage": "一階"
+    },
+    {
+      "id": "umn_vs_lmn",
+      "title": "上運動神經元損傷 (UMN) vs 下運動神經元損傷 (LMN)",
+      "category": "生理學 / 神經醫學 / 復健科",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "UMN 損傷表現為痙攣、反射增強、Babinski (+)；LMN 損傷為鬆弛、反射消失、肌萎縮與肌束震顫。ALS 同時侵犯 UMN 與 LMN 是秒殺考點。",
+      "common_traps": "考題常描述同時出現「反射增強＋肌萎縮＋肌束震顫＋感覺正常」來考 ALS，或用「弛緩型 vs 痙攣型神經性膀胱」區分 UMN/LMN 損傷。",
+      "highlight_keywords": [
+        "痙攣",
+        "Spasticity",
+        "鬆弛",
+        "Flaccidity",
+        "反射增強",
+        "反射消失",
+        "Babinski",
+        "肌束震顫",
+        "Fasciculation",
+        "ALS"
+      ],
+      "diseases": [
+        {
+          "name": "上運動神經元損傷 (UMN Lesion)",
+          "aliases": [
+            "UMN",
+            "上運動神經元",
+            "Upper motor neuron"
+          ],
+          "features": {
+            "肌張力": "痙攣性增高 (Spasticity)，折刀式張力",
+            "深部反射": "增強 (Hyperreflexia)",
+            "病理反射": "Babinski sign (+)（腳趾背屈展開）",
+            "肌肉萎縮": "不明顯或僅輕度廢用性萎縮（晚期才出現）",
+            "肌束震顫": "無",
+            "常見病因": "腦中風、脊髓損傷（T12 以上）、多發性硬化症"
+          }
+        },
+        {
+          "name": "下運動神經元損傷 (LMN Lesion)",
+          "aliases": [
+            "LMN",
+            "下運動神經元",
+            "Lower motor neuron"
+          ],
+          "features": {
+            "肌張力": "鬆弛性降低 (Flaccidity)",
+            "深部反射": "減弱或消失 (Hyporeflexia / Areflexia)",
+            "病理反射": "Babinski sign (-)",
+            "肌肉萎縮": "明顯且早期的去神經性肌萎縮 (Denervation atrophy)",
+            "肌束震顫": "有 (Fasciculation)，因去神經後肌纖維自發性放電",
+            "常見病因": "小兒麻痺、GBS、脊髓前角細胞病變、周邊神經病變"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-4_056",
+          "note": "ALS 同時有 UMN + LMN 損傷但感覺正常"
+        },
+        {
+          "question_id": "109-1_medicine-6_071",
+          "note": "弛緩型神經性膀胱 = LMN (S2-S4) 損傷"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "copd_vs_asthma",
+      "title": "慢性阻塞性肺病 (COPD) vs 氣喘 (Asthma)",
+      "category": "胸腔內科 / 藥理學 / 病理學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "COPD 為不可逆氣流阻塞（FEV1/FVC < 0.7），好發中老年抽菸者；氣喘為可逆性氣流阻塞（支氣管擴張劑後可改善 ≥12%），好發年輕過敏者。",
+      "common_traps": "考題常以肺功能數據（FEV1/FVC）配合臨床情境來鑑別，或用「吸氣性喘鳴 vs 呼氣性哮鳴」考上下氣道阻塞的差異。",
+      "highlight_keywords": [
+        "不可逆",
+        "可逆",
+        "FEV1/FVC",
+        "支氣管擴張劑",
+        "嗜酸性球",
+        "Ipratropium",
+        "SABA",
+        "Kussmaul",
+        "wheezing"
+      ],
+      "diseases": [
+        {
+          "name": "慢性阻塞性肺病 (COPD)",
+          "aliases": [
+            "COPD",
+            "慢性阻塞性肺病",
+            "肺氣腫",
+            "慢性支氣管炎"
+          ],
+          "features": {
+            "可逆性": "不可逆或僅部分可逆的氣流阻塞",
+            "好發族群": "中老年人，長期抽菸史",
+            "病理特徵": "肺氣腫（肺泡壁破壞） + 慢性支氣管炎（黏液腺增生）",
+            "肺功能": "FEV1/FVC < 0.7（使用支氣管擴張劑後仍低）",
+            "藥物治療": "Ipratropium (M 受體拮抗)、Tiotropium 為主；急性惡化加用 SABA"
+          }
+        },
+        {
+          "name": "氣喘 (Asthma)",
+          "aliases": [
+            "氣喘",
+            "Asthma",
+            "哮喘"
+          ],
+          "features": {
+            "可逆性": "可逆性氣流阻塞（支氣管擴張劑後 FEV1 改善 ≥ 12% 且 ≥ 200 mL）",
+            "好發族群": "年輕人，過敏體質/家族史",
+            "病理特徵": "支氣管平滑肌痙攣 + 黏膜水腫 + 嗜酸性球浸潤 + Charcot-Leyden 結晶",
+            "肺功能": "發作間期可完全正常",
+            "藥物治療": "急救用 SABA（如 Salbutamol）；長期用 ICS（吸入型類固醇）+ LABA"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-1_medicine-3_047",
+          "note": "間質性肺病 vs 阻塞性肺病的肺功能差異"
+        },
+        {
+          "question_id": "109-1_medicine-3_047",
+          "note": "COPD 急性惡化的首要處置"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "< 0.7",
+          "unit": "FEV1/FVC",
+          "target_disease": "COPD",
+          "context": "使用支氣管擴張劑後 FEV1/FVC < 0.7 確認不可逆氣流阻塞，為 COPD 的診斷標準。"
+        },
+        {
+          "value": "≥ 12%",
+          "unit": "FEV1改善率",
+          "target_disease": "氣喘",
+          "context": "支氣管擴張劑後 FEV1 改善 ≥ 12% 且 ≥ 200 mL，支持可逆性氣流阻塞（氣喘）的診斷。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "sclc_vs_nsclc",
+      "title": "小細胞肺癌 (SCLC) vs 非小細胞肺癌 (NSCLC)",
+      "category": "胸腔內外科 / 血液腫瘤科 / 藥理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "SCLC 位於中央、對化療敏感、常有副腫瘤症候群（SIADH、Cushing's）；NSCLC 手術為主、精準醫療（EGFR-TKI、ALK 標靶）。",
+      "common_traps": "考題愛考「EGFR 突變→TKI」和「SCLC→化療為主不手術」的配對，以及副腫瘤症候群的歸屬。",
+      "highlight_keywords": [
+        "SCLC",
+        "NSCLC",
+        "EGFR",
+        "ALK",
+        "TKI",
+        "SIADH",
+        "Lambert-Eaton",
+        "osimertinib",
+        "cisplatin",
+        "etoposide"
+      ],
+      "diseases": [
+        {
+          "name": "小細胞肺癌 (Small Cell Lung Cancer, SCLC)",
+          "aliases": [
+            "SCLC",
+            "小細胞肺癌",
+            "Small cell lung cancer"
+          ],
+          "features": {
+            "佔比": "約 15% 的肺癌",
+            "位置": "中央型（肺門周圍）",
+            "副腫瘤症候群": "SIADH（低血鈉）、Cushing's（異位 ACTH）、Lambert-Eaton 症候群",
+            "治療": "化療 + 放療為主（cisplatin + etoposide），對化療敏感但極易復發",
+            "預後": "極差，擴散快速"
+          }
+        },
+        {
+          "name": "非小細胞肺癌 (Non-Small Cell Lung Cancer, NSCLC)",
+          "aliases": [
+            "NSCLC",
+            "非小細胞肺癌",
+            "Non-small cell lung cancer"
+          ],
+          "features": {
+            "佔比": "約 85% 的肺癌（包括腺癌、鱗狀細胞癌、大細胞癌）",
+            "位置": "腺癌多為周邊型；鱗狀細胞癌多為中央型",
+            "精準醫療": "EGFR 突變→EGFR-TKI（osimertinib）；ALK 重排→ALK 抑制劑（crizotinib）",
+            "治療": "早期手術為主；晚期標靶/免疫治療（pembrolizumab）",
+            "預後": "依期別差異大，早期可治癒"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "111-1_medicine-3_039",
+          "note": "NSCLC EGFR 突變的精準醫療選擇"
+        },
+        {
+          "question_id": "115-1_medicine-3_042",
+          "note": "肺癌手術適應症判斷"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "50-60%",
+          "unit": "EGFR突變率",
+          "target_disease": "NSCLC（亞裔非吸菸者）",
+          "context": "亞裔、女性、非吸菸者的 NSCLC 中，EGFR 活化突變盛行率高達 50-60%。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "hl_vs_nhl",
+      "title": "何杰金氏淋巴瘤 (HL) vs 非何杰金氏淋巴瘤 (NHL)",
+      "category": "血液腫瘤科 / 病理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "HL 有 Reed-Sternberg cells、連續性擴散、預後較好；NHL 以 DLBCL 最常見（佔 30-40%），跳躍式擴散。",
+      "common_traps": "考題常考 Reed-Sternberg cell 是 HL 特有，以及 DLBCL 標準治療為 R-CHOP。",
+      "highlight_keywords": [
+        "Reed-Sternberg",
+        "DLBCL",
+        "R-CHOP",
+        "Rituximab",
+        "CD20",
+        "連續性擴散",
+        "跳躍式"
+      ],
+      "diseases": [
+        {
+          "name": "何杰金氏淋巴瘤 (Hodgkin Lymphoma, HL)",
+          "aliases": [
+            "HL",
+            "何杰金氏淋巴瘤",
+            "Hodgkin lymphoma",
+            "Hodgkin's"
+          ],
+          "features": {
+            "特徵細胞": "Reed-Sternberg cells（貓頭鷹眼細胞）",
+            "擴散方式": "連續性擴散（由一組淋巴結→鄰近淋巴結）",
+            "最常見亞型": "結節硬化型 (Nodular sclerosis)",
+            "治療與預後": "預後好，ABVD 化療方案治癒率高"
+          }
+        },
+        {
+          "name": "非何杰金氏淋巴瘤 (Non-Hodgkin Lymphoma, NHL)",
+          "aliases": [
+            "NHL",
+            "非何杰金氏淋巴瘤",
+            "Non-Hodgkin lymphoma"
+          ],
+          "features": {
+            "特徵細胞": "無 Reed-Sternberg cells",
+            "擴散方式": "跳躍式擴散（不一定連續），易有骨髓及結外器官侵犯",
+            "最常見亞型": "瀰漫大 B 細胞淋巴瘤 (DLBCL)，佔成人 NHL 的 30-40%",
+            "治療與預後": "DLBCL 標準治療為 R-CHOP（Rituximab + CHOP），預後依亞型差異大"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-2_084",
+          "note": "DLBCL 為成人最常見 NHL"
+        },
+        {
+          "question_id": "109-2_medicine-2_085",
+          "note": "HIV 相關 AIDS 定義性惡性腫瘤"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "30-40%",
+          "unit": "NHL佔比",
+          "target_disease": "DLBCL",
+          "context": "瀰漫大 B 細胞淋巴瘤（DLBCL）約占所有 NHL 的 30-40%，是成人最常見的 NHL 亞型。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "broca_vs_wernicke",
+      "title": "Broca 失語症 vs Wernicke 失語症",
+      "category": "解剖學 / 生理學 / 神經醫學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "Broca = 不流暢 + 理解佳 + 覆述差（額下回）；Wernicke = 流暢但無意義 + 理解差 + 覆述差（顳上回後方）；傳導型 = 流暢 + 理解佳 + 覆述極差（弓狀束）。",
+      "common_traps": "考題常給臨床情境要求區分失語症類型，特別愛考傳導型失語症（覆述差但其他正常→弓狀束受損）。",
+      "highlight_keywords": [
+        "Broca",
+        "Wernicke",
+        "弓狀束",
+        "Arcuate fasciculus",
+        "流暢度",
+        "覆述",
+        "傳導型",
+        "額下回",
+        "顳上回"
+      ],
+      "diseases": [
+        {
+          "name": "Broca 失語症（表達型 / 運動型）",
+          "aliases": [
+            "Broca",
+            "布洛卡",
+            "表達型失語症",
+            "運動型失語症"
+          ],
+          "features": {
+            "病灶位置": "額下回（Brodmann area 44, 45）",
+            "語言流暢度": "不流暢（斷斷續續、電報式語言）",
+            "聽覺理解": "保留（聽得懂）",
+            "覆述能力": "受損",
+            "伴隨症狀": "常合併右側偏癱（因病灶鄰近運動皮質）"
+          }
+        },
+        {
+          "name": "Wernicke 失語症（感覺型 / 接受型）",
+          "aliases": [
+            "Wernicke",
+            "乃尼基",
+            "感覺型失語症",
+            "接受型失語症"
+          ],
+          "features": {
+            "病灶位置": "顳上回後方（Brodmann area 22）",
+            "語言流暢度": "流暢（但內容空洞無意義、胡言亂語）",
+            "聽覺理解": "嚴重受損（聽不懂）",
+            "覆述能力": "受損",
+            "伴隨症狀": "通常無肢體癱瘓（病灶遠離運動皮質），患者常不自知"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-6_069",
+          "note": "傳導型失語症：弓狀束受損→覆述極差"
+        },
+        {
+          "question_id": "110-1_medicine-1_018",
+          "note": "Broca 區位於額下回 Brodmann 44/45"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "pemphigus_vs_pemphigoid",
+      "title": "天疱瘡 (Pemphigus) vs 類天疱瘡 (Pemphigoid)",
+      "category": "皮膚科 / 病理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "天疱瘡 = 表皮內水疱、鬆弛易破、Nikolsky (+)、抗 Desmoglein；類天疱瘡 = 表皮下水疱、張力性不易破、Nikolsky (-)、抗 BP180/230。",
+      "common_traps": "考題常考「Nikolsky sign 的陰陽性」來區分兩者，或問「DIF 免疫螢光沉積位置」（天疱瘡→網狀/魚網狀 vs 類天疱瘡→線狀基底膜帶）。",
+      "highlight_keywords": [
+        "Nikolsky",
+        "Desmoglein",
+        "BP180",
+        "表皮內",
+        "表皮下",
+        "棘層鬆解",
+        "張力性水疱",
+        "魚網狀",
+        "線狀"
+      ],
+      "diseases": [
+        {
+          "name": "天疱瘡 (Pemphigus Vulgaris)",
+          "aliases": [
+            "天疱瘡",
+            "Pemphigus",
+            "尋常型天疱瘡"
+          ],
+          "features": {
+            "水疱位置": "表皮內（棘層鬆解 Acantholysis）",
+            "水疱張力": "鬆弛、薄壁易破 (Flaccid)",
+            "Nikolsky sign": "陽性 (+)（輕推皮膚即剝離）",
+            "自體抗體目標": "Desmoglein 1 和 / 或 Desmoglein 3",
+            "DIF 表現": "表皮細胞間呈魚網狀 / 網狀 IgG 沉積",
+            "好發年齡": "40-60 歲，常累及口腔黏膜"
+          }
+        },
+        {
+          "name": "類天疱瘡 (Bullous Pemphigoid)",
+          "aliases": [
+            "類天疱瘡",
+            "Pemphigoid",
+            "水疱性類天疱瘡"
+          ],
+          "features": {
+            "水疱位置": "表皮下",
+            "水疱張力": "張力性、厚壁不易破 (Tense)",
+            "Nikolsky sign": "陰性 (-)（皮膚不易剝離）",
+            "自體抗體目標": "BP180 (XVII型膠原蛋白) / BP230",
+            "DIF 表現": "基底膜帶呈線狀 IgG 及 C3 沉積",
+            "好發年齡": "> 60 歲（老年人），伴劇癢蕁麻疹樣紅斑"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-4_039",
+          "note": "Nikolsky sign 在天疱瘡為陽性"
+        },
+        {
+          "question_id": "112-1_medicine-4_040",
+          "note": "落葉型天疱瘡裂解位於顆粒層"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "bcc_vs_scc",
+      "title": "基底細胞癌 (BCC) vs 鱗狀細胞癌 (SCC)",
+      "category": "皮膚科 / 眼科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "BCC 是皮膚最常見惡性腫瘤，珍珠樣結節、幾乎不轉移；SCC 侵襲性較高、有轉移風險。",
+      "common_traps": "考題常問「眼瞼最常見惡性腫瘤＝BCC」以及「外陰癌/陰莖癌最常見類型＝SCC」。",
+      "highlight_keywords": [
+        "基底細胞癌",
+        "鱗狀細胞癌",
+        "BCC",
+        "SCC",
+        "珍珠樣",
+        "角化",
+        "轉移"
+      ],
+      "diseases": [
+        {
+          "name": "基底細胞癌 (Basal Cell Carcinoma, BCC)",
+          "aliases": [
+            "BCC",
+            "基底細胞癌",
+            "Basal cell carcinoma"
+          ],
+          "features": {
+            "流行病學": "皮膚最常見惡性腫瘤，也是眼瞼最常見惡性腫瘤",
+            "外觀": "珍珠樣結節、捲邊（rolled border）、微血管擴張",
+            "轉移率": "極低（局部侵犯為主，幾乎不轉移）",
+            "預後": "極佳"
+          }
+        },
+        {
+          "name": "鱗狀細胞癌 (Squamous Cell Carcinoma, SCC)",
+          "aliases": [
+            "SCC",
+            "鱗狀細胞癌",
+            "Squamous cell carcinoma"
+          ],
+          "features": {
+            "流行病學": "皮膚第二常見惡性腫瘤；為外陰癌、陰莖癌最常見類型（>90%）",
+            "外觀": "角化性結節或潰瘍，生長較快",
+            "轉移率": "較高（可經淋巴結轉移）",
+            "預後": "較 BCC 差"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-6_016",
+          "note": "眼瞼最常見惡性腫瘤為 BCC"
+        },
+        {
+          "question_id": "112-1_medicine-5_066",
+          "note": "陰莖癌最常見為 SCC"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "> 90%",
+          "unit": "外陰/陰莖癌佔比",
+          "target_disease": "SCC",
+          "context": "鱗狀細胞癌佔外陰部惡性腫瘤及陰莖癌的 90% 以上。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "transudate_vs_exudate",
+      "title": "漏出液 (Transudate) vs 滲出液 (Exudate)",
+      "category": "胸腔內外科 / 病理學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "Light's criteria 三項中任一符合即為滲出液：①蛋白比 ≥0.5 ②LDH 比 ≥0.6 ③肋膜液 LDH > 血清上限 2/3。CHF 是漏出液最常見原因。",
+      "common_traps": "考題常給肋膜液數據要求判斷滲漏出液，或用 ADA > 50 U/L 暗示結核性肋膜炎。",
+      "highlight_keywords": [
+        "Light's criteria",
+        "蛋白比",
+        "LDH比",
+        "漏出液",
+        "滲出液",
+        "CHF",
+        "ADA",
+        "結核"
+      ],
+      "diseases": [
+        {
+          "name": "漏出液 (Transudate)",
+          "aliases": [
+            "漏出液",
+            "Transudate"
+          ],
+          "features": {
+            "形成機轉": "靜水壓升高或膠體滲透壓降低",
+            "Light's criteria": "三項均不符合",
+            "蛋白/血清比": "< 0.5",
+            "LDH/血清比": "< 0.6",
+            "常見病因": "鬱血性心衰竭（最常見）、肝硬化、腎病症候群、低白蛋白血症"
+          }
+        },
+        {
+          "name": "滲出液 (Exudate)",
+          "aliases": [
+            "滲出液",
+            "Exudate"
+          ],
+          "features": {
+            "形成機轉": "發炎、感染、腫瘤導致微血管通透性增加",
+            "Light's criteria": "三項中 ≥ 1 項符合",
+            "蛋白/血清比": "≥ 0.5",
+            "LDH/血清比": "≥ 0.6",
+            "常見病因": "肺炎（副肺炎性）、肺癌、結核性肋膜炎、腹膜炎"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-3_044",
+          "note": "Light's criteria 的具體數值與判讀"
+        },
+        {
+          "question_id": "112-1_medicine-2_081",
+          "note": "CHF 為漏出液最常見原因"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "> 50",
+          "unit": "U/L (ADA)",
+          "target_disease": "結核性肋膜炎",
+          "context": "肋膜液 ADA 值 > 50 U/L 強烈提示結核性肋膜炎。"
+        },
+        {
+          "value": "< 60",
+          "unit": "mg/dL (葡萄糖)",
+          "target_disease": "複雜性副肺炎積液",
+          "context": "肋膜液葡萄糖 < 60 mg/dL 提示複雜性副肺炎積液或膿胸。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "preeclampsia_vs_eclampsia",
+      "title": "子癇前症 (Preeclampsia) vs 子癇症 (Eclampsia)",
+      "category": "婦產科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "子癇前症 = 孕期高血壓 + 蛋白尿/器官損傷；子癇症 = 子癇前症 + 癲癇發作。硫酸鎂 (MgSO₄) 用於預防/治療癲癇。",
+      "common_traps": "考題常考「MgSO₄ 的主要目的＝預防癲癇」而非降血壓或安胎，以及重度子癇前症的緊急終止妊娠指徵。",
+      "highlight_keywords": [
+        "子癇前症",
+        "子癇症",
+        "高血壓",
+        "蛋白尿",
+        "硫酸鎂",
+        "MgSO4",
+        "癲癇",
+        "HELLP"
+      ],
+      "diseases": [
+        {
+          "name": "子癇前症 (Preeclampsia)",
+          "aliases": [
+            "子癇前症",
+            "Preeclampsia",
+            "妊娠毒血症"
+          ],
+          "features": {
+            "診斷標準": "孕期 ≥ 20 週出現高血壓（≥ 140/90 mmHg）合併蛋白尿或器官受損",
+            "嚴重特徵": "血壓 ≥ 160/110、血小板 < 100,000、肝功能異常、腎功能惡化、肺水腫、腦/視覺症狀",
+            "處置": "控制血壓 + MgSO₄ 預防癲癇；≥ 37 週建議終止妊娠"
+          }
+        },
+        {
+          "name": "子癇症 (Eclampsia)",
+          "aliases": [
+            "子癇症",
+            "Eclampsia"
+          ],
+          "features": {
+            "診斷標準": "子癇前症基礎上出現無法用其他原因解釋的全身性癲癇發作",
+            "嚴重程度": "產科急症！可危及母嬰生命",
+            "處置": "MgSO₄ 止痙（首選）+ 穩定後儘速終止妊娠"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-6_045",
+          "note": "MgSO₄ 主要目的是預防癲癇"
+        },
+        {
+          "question_id": "111-2_medicine-6_038",
+          "note": "重度子癇前症終止妊娠指徵"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "≥ 160/110",
+          "unit": "mmHg",
+          "target_disease": "重度子癇前症",
+          "context": "血壓 ≥ 160/110 mmHg 為重度子癇前症的嚴重特徵之一。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "apoptosis_vs_necrosis",
+      "title": "細胞凋亡 (Apoptosis) vs 細胞壞死 (Necrosis)",
+      "category": "病理學 / 生物化學 / 生理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "Apoptosis = 細胞縮小、DNA ladder、caspase 介導、不發炎；Necrosis = 細胞腫脹、隨機 DNA 降解、引起發炎。",
+      "common_traps": "考題常把「細胞體積變大脹破」和「引起嚴重發炎反應」誤植為凋亡的特徵（這些是壞死的特徵）。",
+      "highlight_keywords": [
+        "Apoptosis",
+        "Necrosis",
+        "Caspase",
+        "DNA ladder",
+        "細胞縮小",
+        "細胞腫脹",
+        "發炎反應",
+        "Cytochrome c"
+      ],
+      "diseases": [
+        {
+          "name": "細胞凋亡 (Apoptosis)",
+          "aliases": [
+            "凋亡",
+            "Apoptosis",
+            "程序性細胞死亡"
+          ],
+          "features": {
+            "細胞體積": "縮小 (Cell shrinkage)",
+            "DNA 變化": "有序斷裂形成 DNA ladder",
+            "發炎反應": "無或極輕微（不引起周圍組織發炎）",
+            "關鍵酵素": "Caspases（特別是 Caspase 3、8、9）",
+            "角色": "生理性程序死亡（如胚胎發育、免疫自我耐受）"
+          }
+        },
+        {
+          "name": "細胞壞死 (Necrosis)",
+          "aliases": [
+            "壞死",
+            "Necrosis"
+          ],
+          "features": {
+            "細胞體積": "腫脹 (Cell swelling)→破裂",
+            "DNA 變化": "隨機降解（無特定 pattern）",
+            "發炎反應": "顯著（釋放細胞內容物→招募嗜中性球）",
+            "關鍵機制": "被動過程，不需 ATP",
+            "角色": "病理性死亡（缺血、毒素、感染）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-1_medicine-1_047",
+          "note": "Apoptosis 的 caspase 活化與 DNA ladder"
+        },
+        {
+          "question_id": "112-2_medicine-2_076",
+          "note": "腦梗塞後液化性壞死的影像表現"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "acei_vs_arb",
+      "title": "ACEI vs ARB",
+      "category": "藥理學 / 腎臟科 / 新陳代謝科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "ACEI 抑制 ACE→副作用為乾咳（bradykinin 堆積）；ARB 阻斷 AT1 受體→較少咳嗽。兩者均有腎保護作用但禁用於孕婦。",
+      "common_traps": "考題常考「ACEI/ARB 不可合併使用」（增加高血鉀與急性腎衰竭風險），以及「懷孕絕對禁忌」。",
+      "highlight_keywords": [
+        "ACEI",
+        "ARB",
+        "乾咳",
+        "Bradykinin",
+        "腎保護",
+        "蛋白尿",
+        "懷孕禁忌",
+        "高血鉀"
+      ],
+      "diseases": [
+        {
+          "name": "ACEI (血管張力素轉化酶抑制劑)",
+          "aliases": [
+            "ACEI",
+            "ACE inhibitor",
+            "ACE抑制劑"
+          ],
+          "features": {
+            "機轉": "抑制 ACE（血管張力素轉化酶），減少 Angiotensin II 生成",
+            "特有副作用": "乾咳（因 Bradykinin 堆積，約 5-20% 發生率）、血管性水腫",
+            "腎臟作用": "擴張出球小動脈→降低腎小球內壓→減少蛋白尿",
+            "代表藥物": "Enalapril、Lisinopril、Ramipril"
+          }
+        },
+        {
+          "name": "ARB (血管張力素受體阻斷劑)",
+          "aliases": [
+            "ARB",
+            "Angiotensin receptor blocker"
+          ],
+          "features": {
+            "機轉": "直接阻斷 AT1 受體",
+            "特有副作用": "較少引起咳嗽（因不影響 Bradykinin 代謝）",
+            "腎臟作用": "同 ACEI，具腎保護與減少蛋白尿作用",
+            "代表藥物": "Losartan、Valsartan、Irbesartan"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-1_medicine-3_027",
+          "note": "CKD 合併高血壓首選 ACEI/ARB"
+        },
+        {
+          "question_id": "111-2_medicine-3_027",
+          "note": "ACEI/ARB 懷孕絕對禁忌"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "禁止合併",
+          "unit": "ACEI + ARB",
+          "target_disease": "雙重 RAAS 阻斷",
+          "context": "ACEI 與 ARB 不建議合併使用，因會大幅增加高血鉀與急性腎衰竭的風險。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "iron_def_vs_thalassemia",
+      "title": "缺鐵性貧血 vs 地中海型貧血 (Thalassemia)",
+      "category": "血液腫瘤科 / 小兒科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "兩者皆為小球性低色素貧血，但缺鐵 Ferritin↓、RDW↑；地中海 Ferritin 正常或↑、RDW 正常。Mentzer index (MCV/RBC) > 13 提示缺鐵，< 13 提示地中海。",
+      "common_traps": "考題常問「海洋性貧血患者會不會更容易缺鐵？」→不會！鐵質正常甚至因溶血/輸血而過載。",
+      "highlight_keywords": [
+        "小球性",
+        "Ferritin",
+        "RDW",
+        "Mentzer index",
+        "鐵過載",
+        "MCV",
+        "globin"
+      ],
+      "diseases": [
+        {
+          "name": "缺鐵性貧血 (Iron Deficiency Anemia)",
+          "aliases": [
+            "缺鐵性貧血",
+            "IDA",
+            "Iron deficiency anemia"
+          ],
+          "features": {
+            "分類": "小球性低色素貧血",
+            "Ferritin": "降低（最敏感的篩檢指標）",
+            "RDW": "升高（紅血球大小不均）",
+            "Mentzer index": "> 13（MCV/RBC）",
+            "TIBC": "升高"
+          }
+        },
+        {
+          "name": "地中海型貧血 (Thalassemia)",
+          "aliases": [
+            "地中海型貧血",
+            "海洋性貧血",
+            "Thalassemia"
+          ],
+          "features": {
+            "分類": "小球性低色素貧血",
+            "Ferritin": "正常或升高（鐵質不缺甚至可能過載）",
+            "RDW": "正常",
+            "Mentzer index": "< 13（MCV/RBC）",
+            "遺傳": "體染色體隱性遺傳"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-2_medicine-3_041",
+          "note": "海洋性貧血患者鐵質不缺"
+        },
+        {
+          "question_id": "111-1_medicine-4_030",
+          "note": "小球性貧血的鑑別診斷"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "13",
+          "unit": "Mentzer index 切點",
+          "target_disease": "缺鐵 vs 地中海",
+          "context": "MCV/RBC > 13 提示缺鐵性貧血；< 13 提示地中海型貧血。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "ischemic_vs_hemorrhagic_stroke",
+      "title": "缺血性中風 vs 出血性中風",
+      "category": "神經科 / 急診醫學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "CT 是首選檢查：缺血性急性期呈低密度（黑色），出血性呈高密度（白色）。缺血性在 4.5 小時內可用 rtPA 溶栓。",
+      "common_traps": "考題常給 CT 影像描述並問診斷，或考「CT 正常＝不需治療」的錯誤觀念（急性期缺血性中風 CT 常正常，仍需溶栓）。",
+      "highlight_keywords": [
+        "CT",
+        "低密度",
+        "高密度",
+        "rtPA",
+        "4.5小時",
+        "spot sign",
+        "溶栓",
+        "出血"
+      ],
+      "diseases": [
+        {
+          "name": "缺血性中風 (Ischemic Stroke)",
+          "aliases": [
+            "缺血性中風",
+            "Ischemic stroke",
+            "腦梗塞"
+          ],
+          "features": {
+            "CT 表現": "急性期多呈低密度（黑色）陰影，超急性期可能正常",
+            "佔比": "約 80-85% 的中風",
+            "常見原因": "血栓形成或栓塞（如心房顫動來源的栓子）",
+            "急性處置": "發病 4.5 小時內 rtPA 靜脈溶栓；前提是 CT 排除出血"
+          }
+        },
+        {
+          "name": "出血性中風 (Hemorrhagic Stroke)",
+          "aliases": [
+            "出血性中風",
+            "Hemorrhagic stroke",
+            "腦出血"
+          ],
+          "features": {
+            "CT 表現": "高密度（白色）影像",
+            "佔比": "約 15-20% 的中風",
+            "常見原因": "高血壓（最常見）、動脈瘤、AVM",
+            "急性處置": "降顱內壓、控制血壓、嚴重者手術清除血腫；rtPA 為絕對禁忌"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-3_074",
+          "note": "腦幹出血 CT 高密度影像"
+        },
+        {
+          "question_id": "112-1_medicine-4_044",
+          "note": "Spot sign 預測血腫擴大"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "4.5",
+          "unit": "小時",
+          "target_disease": "缺血性中風",
+          "context": "rtPA 靜脈溶栓的黃金時間窗為發病後 4.5 小時內。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "aml_vs_all",
+      "title": "急性骨髓性白血病 (AML) vs 急性淋巴球性白血病 (ALL)",
+      "category": "血液腫瘤科 / 小兒科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "AML = MPO (+)、Auer rods、好發成人（唐氏症→M7）；ALL = PAS (+)、TdT (+)、好發兒童（2-5 歲高峰，預後好 >80%）。",
+      "common_traps": "唐氏症童 1-3 歲最常見白血病是 AML M7（巨核細胞型），但一般兒童是 ALL > AML。",
+      "highlight_keywords": [
+        "AML",
+        "ALL",
+        "Auer rods",
+        "MPO",
+        "TdT",
+        "PAS",
+        "唐氏症",
+        "M7",
+        "巨核細胞"
+      ],
+      "diseases": [
+        {
+          "name": "急性骨髓性白血病 (AML)",
+          "aliases": [
+            "AML",
+            "急性骨髓性白血病",
+            "Acute myeloid leukemia"
+          ],
+          "features": {
+            "好發年齡": "成人（> 60 歲為高峰）",
+            "特殊染色": "MPO (+)、Sudan Black (+)；可見 Auer rods",
+            "唐氏症關聯": "M7 巨核細胞型（1-3 歲唐氏症童最常見）",
+            "預後": "較差"
+          }
+        },
+        {
+          "name": "急性淋巴球性白血病 (ALL)",
+          "aliases": [
+            "ALL",
+            "急性淋巴球性白血病",
+            "Acute lymphoblastic leukemia"
+          ],
+          "features": {
+            "好發年齡": "兒童（2-5 歲高峰），為一般兒童最常見白血病",
+            "特殊染色": "PAS (+)、TdT (+)；MPO (-)",
+            "發生率": "一般兒童中 ALL 是 AML 的 3 倍以上",
+            "預後": "兒童預後極佳（> 80% 五年治癒率）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-1_medicine-4_025",
+          "note": "唐氏症 1-3 歲最常罹患 AML M7"
+        },
+        {
+          "question_id": "112-2_medicine-3_038",
+          "note": "Topoisomerase II inhibitor 相關 AML"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "> 80%",
+          "unit": "五年治癒率",
+          "target_disease": "兒童 ALL",
+          "context": "兒童 ALL 五年治癒率超過 80%，預後遠優於 AML。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "gastric_vs_duodenal_ulcer",
+      "title": "胃潰瘍 (Gastric Ulcer) vs 十二指腸潰瘍 (Duodenal Ulcer)",
+      "category": "肝膽腸胃科 / 一般外科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "胃潰瘍 = 飯後痛、H.pylori 感染率 ~70%、有惡性風險需切片；十二指腸潰瘍 = 空腹/夜間痛、H.pylori ~90%、惡性風險極低。",
+      "common_traps": "考題常問「與胃潰瘍不同，十二指腸潰瘍沒有惡性腫瘤的機會」以及 H. pylori 與 MALT 淋巴瘤的關聯。",
+      "highlight_keywords": [
+        "飯後痛",
+        "空腹痛",
+        "夜間痛",
+        "H. pylori",
+        "MALT淋巴瘤",
+        "惡性風險",
+        "胃腺癌"
+      ],
+      "diseases": [
+        {
+          "name": "胃潰瘍 (Gastric Ulcer)",
+          "aliases": [
+            "胃潰瘍",
+            "Gastric ulcer"
+          ],
+          "features": {
+            "疼痛特徵": "飯後痛（eating → pain）",
+            "H. pylori 感染率": "約 70%",
+            "惡性風險": "較高→需內視鏡切片排除胃癌",
+            "機轉": "黏膜防禦力降低 > 攻擊因子增強"
+          }
+        },
+        {
+          "name": "十二指腸潰瘍 (Duodenal Ulcer)",
+          "aliases": [
+            "十二指腸潰瘍",
+            "Duodenal ulcer"
+          ],
+          "features": {
+            "疼痛特徵": "空腹痛/夜間痛（hunger → pain → eating → relief）",
+            "H. pylori 感染率": "約 90%",
+            "惡性風險": "極低",
+            "機轉": "胃酸分泌過多 > 黏膜防禦力"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-1_medicine-3_020",
+          "note": "H. pylori 與消化性潰瘍及 MALT 淋巴瘤"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "kawasaki_vs_scarlet_fever",
+      "title": "川崎症 (Kawasaki) vs 猩紅熱 (Scarlet Fever)",
+      "category": "小兒科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "川崎症好發 5 歲以下、最大風險為冠狀動脈瘤、治療用 IVIG + 高劑量 Aspirin；猩紅熱由 GAS 外毒素引起、砂紙樣皮疹、治療用青黴素。",
+      "common_traps": "兩者皆可有草莓舌與脫皮，考題常要求鑑別。川崎症年齡是 5 歲「以下」不是以上。",
+      "highlight_keywords": [
+        "川崎",
+        "猩紅熱",
+        "冠狀動脈瘤",
+        "IVIG",
+        "Aspirin",
+        "GAS",
+        "外毒素",
+        "砂紙樣皮疹",
+        "草莓舌"
+      ],
+      "diseases": [
+        {
+          "name": "川崎症 (Kawasaki Disease)",
+          "aliases": [
+            "川崎症",
+            "Kawasaki",
+            "川崎氏症"
+          ],
+          "features": {
+            "病原": "不明（可能與感染後免疫反應有關）",
+            "好發年齡": "5 歲以下幼童",
+            "皮疹": "多型性皮疹",
+            "最大危險": "冠狀動脈瘤",
+            "治療": "IVIG (2 g/kg 單次) + 高劑量 Aspirin (80-100 mg/kg/day)"
+          }
+        },
+        {
+          "name": "猩紅熱 (Scarlet Fever)",
+          "aliases": [
+            "猩紅熱",
+            "Scarlet fever"
+          ],
+          "features": {
+            "病原": "A 群鏈球菌 (GAS) 產生的紅斑毒素（外毒素）",
+            "好發年齡": "5-15 歲",
+            "皮疹": "砂紙樣皮疹 (Sandpaper-like rash)、Pastia's lines",
+            "最大風險": "風濕熱、鏈球菌後腎炎",
+            "治療": "Penicillin（青黴素）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-4_003",
+          "note": "猩紅熱由 GAS 外毒素引起"
+        },
+        {
+          "question_id": "111-1_medicine-4_026",
+          "note": "川崎症 IVIG 與 Aspirin 劑量"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "2",
+          "unit": "g/kg IVIG",
+          "target_disease": "川崎症",
+          "context": "IVIG 標準劑量為 2 g/kg 單次靜脈滴注。"
+        },
+        {
+          "value": "80-100",
+          "unit": "mg/kg/day Aspirin",
+          "target_disease": "川崎症（急性期）",
+          "context": "急性發燒期使用高劑量 Aspirin 80-100 mg/kg/day，退燒後改低劑量 3-5 mg/kg/day。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "dka_vs_hhs",
+      "title": "糖尿病酮酸中毒 (DKA) vs 高滲透壓高血糖狀態 (HHS)",
+      "category": "新陳代謝科 / 急診醫學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "DKA = T1DM、酮體↑、血糖 >250、HAGMA、Kussmaul 呼吸；HHS = T2DM、血糖 >600、滲透壓 >320、死亡率更高。",
+      "common_traps": "DKA 的呼吸代償為 Kussmaul 呼吸（深快呼吸排出 CO₂），pCO₂ 偏低→絕對不會出現呼吸性酸中毒。",
+      "highlight_keywords": [
+        "DKA",
+        "HHS",
+        "NKHS",
+        "Kussmaul",
+        "酮酸",
+        "高滲透壓",
+        "HAGMA",
+        "pCO2"
+      ],
+      "diseases": [
+        {
+          "name": "糖尿病酮酸中毒 (DKA)",
+          "aliases": [
+            "DKA",
+            "酮酸中毒",
+            "Diabetic ketoacidosis"
+          ],
+          "features": {
+            "好發": "第一型糖尿病（T1DM）",
+            "血糖": "> 250 mg/dL",
+            "酮體": "明顯升高",
+            "酸鹼異常": "高陰離子隙代謝性酸中毒 (HAGMA)",
+            "呼吸": "Kussmaul 呼吸（深快換氣→pCO₂↓）",
+            "死亡率": "約 5%"
+          }
+        },
+        {
+          "name": "高滲透壓高血糖狀態 (HHS)",
+          "aliases": [
+            "HHS",
+            "NKHS",
+            "高滲透壓",
+            "Hyperosmolar hyperglycemic state"
+          ],
+          "features": {
+            "好發": "第二型糖尿病（T2DM）老年人",
+            "血糖": "> 600 mg/dL",
+            "酮體": "正常或輕微升高（仍有微量胰島素抑制脂肪分解）",
+            "血清滲透壓": "> 320 mOsm/kg",
+            "呼吸": "無 Kussmaul 呼吸（無顯著酸中毒）",
+            "死亡率": "約 15-20%（比 DKA 更高！）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-1_medicine-3_076",
+          "note": "DKA 的酸鹼異常與呼吸代償"
+        },
+        {
+          "question_id": "110-2_medicine-3_078",
+          "note": "HHS 的診斷標準：滲透壓 >320"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "> 320",
+          "unit": "mOsm/kg",
+          "target_disease": "HHS",
+          "context": "HHS 診斷定義之一：血漿有效滲透壓 > 320 mOsm/kg。"
+        },
+        {
+          "value": "> 250",
+          "unit": "mg/dL",
+          "target_disease": "DKA",
+          "context": "DKA 的血糖通常 > 250 mg/dL，但遠低於 HHS 的 > 600 mg/dL。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "direct_vs_indirect_hernia",
+      "title": "直接型腹股溝疝氣 vs 間接型腹股溝疝氣",
+      "category": "解剖學 / 一般外科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "直接型由腹股溝三角（Hesselbach's triangle）直接穿出，在下腹壁動脈內側；間接型經深環→管腔→淺環，在下腹壁動脈外側。",
+      "common_traps": "考題常問腹股溝管結構，或問「下腹壁動脈的內側 vs 外側」來區分直接型與間接型疝氣。",
+      "highlight_keywords": [
+        "直接型",
+        "間接型",
+        "Hesselbach",
+        "腹股溝三角",
+        "深環",
+        "淺環",
+        "下腹壁動脈"
+      ],
+      "diseases": [
+        {
+          "name": "直接型腹股溝疝氣 (Direct Inguinal Hernia)",
+          "aliases": [
+            "直接型疝氣",
+            "Direct inguinal hernia"
+          ],
+          "features": {
+            "路徑": "由腹股溝三角（Hesselbach's triangle）直接穿出",
+            "解剖位置": "在下腹壁動脈（inferior epigastric artery）內側",
+            "好發族群": "老年人（腹壁鬆弛）",
+            "嵌頓風險": "較低"
+          }
+        },
+        {
+          "name": "間接型腹股溝疝氣 (Indirect Inguinal Hernia)",
+          "aliases": [
+            "間接型疝氣",
+            "Indirect inguinal hernia"
+          ],
+          "features": {
+            "路徑": "經深環（腹橫筋膜裂口）→腹股溝管→淺環穿出",
+            "解剖位置": "在下腹壁動脈外側",
+            "好發族群": "年輕人/小孩（鞘突未閉合）",
+            "嵌頓風險": "較高"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-1_026",
+          "note": "腹股溝管結構與疝氣分型"
+        },
+        {
+          "question_id": "112-2_medicine-1_020",
+          "note": "Hesselbach's triangle 與直接型疝氣"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "croup_vs_epiglottitis",
+      "title": "哮吼 (Croup) vs 急性會厭炎 (Epiglottitis)",
+      "category": "小兒科 / 耳鼻喉科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "Croup = Parainfluenza virus、漸進發病、Steeple sign、通常自限；Epiglottitis = H. influenzae type b、急性發作、Thumb sign、急症可窒息。",
+      "common_traps": "考題常把 Steeple sign 和 Thumb sign 搞混，或問「三腳架姿勢 + 流口水」是哪個病（會厭炎）。",
+      "highlight_keywords": [
+        "Croup",
+        "Epiglottitis",
+        "Steeple sign",
+        "Thumb sign",
+        "Parainfluenza",
+        "H. influenzae",
+        "三腳架",
+        "吸入型腎上腺素"
+      ],
+      "diseases": [
+        {
+          "name": "哮吼 (Croup)",
+          "aliases": [
+            "哮吼",
+            "Croup",
+            "急性喉氣管支氣管炎"
+          ],
+          "features": {
+            "病原": "副流感病毒 (Parainfluenza virus) 最常見",
+            "發病": "漸進性（先有上呼吸道感染症狀）",
+            "X光": "正面頸部→尖塔徵 (Steeple sign)（聲門下水腫）",
+            "臨床": "犬吠聲咳嗽（barking cough）、吸氣性喘鳴",
+            "治療": "嚴重者吸入型腎上腺素 + 全身性類固醇"
+          }
+        },
+        {
+          "name": "急性會厭炎 (Acute Epiglottitis)",
+          "aliases": [
+            "會厭炎",
+            "Epiglottitis"
+          ],
+          "features": {
+            "病原": "B 型嗜血桿菌 (H. influenzae type b) 最常見",
+            "發病": "急性（數小時內快速惡化）",
+            "X光": "側位頸部→拇指徵 (Thumb sign)（會厭腫脹）",
+            "臨床": "高燒、三腳架姿勢 (tripod position)、流口水、吞嚥痛",
+            "治療": "急症！確保呼吸道 + 靜脈抗生素"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-6_023",
+          "note": "會厭炎為耳鼻喉急症"
+        },
+        {
+          "question_id": "110-1_medicine-4_006",
+          "note": "Steeple sign vs Thumb sign 鑑別"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "aortic_stenosis_vs_regurgitation",
+      "title": "主動脈瓣狹窄 (AS) vs 主動脈瓣閉鎖不全 (AR)",
+      "category": "心臟內科 / 生理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "AS = 收縮期雜音、脈壓縮窄（pulsus parvus et tardus）；AR = 舒張期雜音、脈壓增寬（wide pulse pressure）。",
+      "common_traps": "考題常問「哪些瓣膜病變產生舒張期雜音」→二尖瓣狹窄（MS）和主動脈瓣閉鎖不全（AR）。",
+      "highlight_keywords": [
+        "AS",
+        "AR",
+        "收縮期",
+        "舒張期",
+        "脈壓縮窄",
+        "脈壓增寬",
+        "pulsus parvus",
+        "wide pulse pressure"
+      ],
+      "diseases": [
+        {
+          "name": "主動脈瓣狹窄 (Aortic Stenosis, AS)",
+          "aliases": [
+            "AS",
+            "主動脈瓣狹窄",
+            "Aortic stenosis"
+          ],
+          "features": {
+            "雜音時期": "收縮期（ejection systolic murmur）",
+            "脈壓": "縮窄（pulsus parvus et tardus）",
+            "典型症狀": "暈厥 (Syncope)、心絞痛 (Angina)、心衰竭 (Heart failure)→SAD 三聯症",
+            "血流動力學": "左心室後負荷增加→同心性肥大"
+          }
+        },
+        {
+          "name": "主動脈瓣閉鎖不全 (Aortic Regurgitation, AR)",
+          "aliases": [
+            "AR",
+            "主動脈瓣閉鎖不全",
+            "Aortic regurgitation",
+            "主動脈瓣逆流"
+          ],
+          "features": {
+            "雜音時期": "舒張期（decrescendo diastolic murmur）",
+            "脈壓": "增寬（wide pulse pressure）",
+            "典型症狀": "漸進性呼吸困難",
+            "血流動力學": "左心室容積負荷增加→離心性肥大"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-1_055",
+          "note": "舒張期雜音的瓣膜病變配對"
+        },
+        {
+          "question_id": "112-1_medicine-3_013",
+          "note": "脈壓縮窄 vs 增寬的瓣膜病變"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "siadh_vs_di",
+      "title": "SIADH vs 尿崩症 (Diabetes Insipidus)",
+      "category": "腎臟科 / 新陳代謝科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "SIADH = ADH 過多→水滯留→低血鈉、低滲透壓、高尿滲透壓；DI = ADH 不足或無反應→大量稀尿→高血鈉。",
+      "common_traps": "考題常給電解質數據（低血鈉 + 高尿鈉 + 等容量）要求判斷 SIADH，或問 Vaptans 不適用於 DI。",
+      "highlight_keywords": [
+        "SIADH",
+        "尿崩症",
+        "低血鈉",
+        "高血鈉",
+        "ADH",
+        "Vaptans",
+        "Desmopressin",
+        "稀尿",
+        "濃尿"
+      ],
+      "diseases": [
+        {
+          "name": "SIADH（抗利尿激素不當分泌症候群）",
+          "aliases": [
+            "SIADH",
+            "抗利尿激素不當分泌"
+          ],
+          "features": {
+            "ADH 狀態": "過度分泌（不當分泌）",
+            "血鈉": "低血鈉（稀釋性）",
+            "血漿滲透壓": "低",
+            "尿液特徵": "尿量少、尿滲透壓高、尿鈉高",
+            "治療": "限水、Vaptans（V2 受體拮抗劑）"
+          }
+        },
+        {
+          "name": "尿崩症 (Diabetes Insipidus, DI)",
+          "aliases": [
+            "尿崩症",
+            "Diabetes insipidus",
+            "DI"
+          ],
+          "features": {
+            "ADH 狀態": "不足（中樞型 CDI）或腎臟無反應（腎源型 NDI）",
+            "血鈉": "高血鈉（脫水性）",
+            "血漿滲透壓": "高",
+            "尿液特徵": "尿量極多、尿滲透壓低（稀尿）",
+            "治療": "CDI→Desmopressin（有效）；NDI→Desmopressin 無效→Thiazide 利尿劑"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-3_021",
+          "note": "Vaptans 的適應症與禁忌"
+        },
+        {
+          "question_id": "110-2_medicine-4_019",
+          "note": "術後 SIADH 的診斷"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "itp_vs_ttp",
+      "title": "ITP（免疫性血小板低下）vs TTP（血栓性血小板低下）",
+      "category": "病理學 / 血液腫瘤科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "ITP = 自體抗體破壞血小板、無碎裂紅血球；TTP = ADAMTS13 缺乏→微血管血栓、有碎裂紅血球（schistocytes）及五聯症。",
+      "common_traps": "考題常問「哪個病的周邊血液抹片會出現碎裂紅血球？」→TTP 有、ITP 沒有。",
+      "highlight_keywords": [
+        "ITP",
+        "TTP",
+        "碎裂紅血球",
+        "Schistocytes",
+        "ADAMTS13",
+        "MAHA",
+        "五聯症",
+        "自體抗體"
+      ],
+      "diseases": [
+        {
+          "name": "免疫性血小板低下紫斑症 (ITP)",
+          "aliases": [
+            "ITP",
+            "免疫性血小板低下",
+            "Immune thrombocytopenic purpura"
+          ],
+          "features": {
+            "機轉": "自體抗體直接破壞血小板",
+            "碎裂紅血球": "無（血液抹片正常紅血球形態）",
+            "凝血指標": "PT / aPTT 正常",
+            "治療": "類固醇、IVIG、脾臟切除術"
+          }
+        },
+        {
+          "name": "血栓性血小板低下紫斑症 (TTP)",
+          "aliases": [
+            "TTP",
+            "血栓性血小板低下",
+            "Thrombotic thrombocytopenic purpura"
+          ],
+          "features": {
+            "機轉": "ADAMTS13 缺乏→vWF 無法切割→微血管血栓形成",
+            "碎裂紅血球": "有（schistocytes）→MAHA",
+            "五聯症": "血小板↓ + MAHA + 神經症狀 + 腎功能受損 + 發熱",
+            "治療": "血漿置換術（plasmapheresis）為首選"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-2_082",
+          "note": "TTP/DIC 有碎裂紅血球，ITP 沒有"
+        },
+        {
+          "question_id": "111-2_medicine-2_084",
+          "note": "ADAMTS13 缺乏導致 MAHA"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "parkinsons_vs_essential_tremor",
+      "title": "巴金森氏症 vs 本態性震顫 (Essential Tremor)",
+      "category": "神經科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "巴金森 = 靜止性＋不對稱＋齒輪狀僵硬＋動作遲緩；本態性震顫 = 姿勢/動作性＋對稱＋無僵硬＋飲酒後改善。",
+      "common_traps": "考題給「不對稱靜止性震顫 + 寫字變小 + 面具臉」→巴金森，而非本態性震顫。",
+      "highlight_keywords": [
+        "巴金森",
+        "本態性震顫",
+        "靜止性震顫",
+        "姿勢性震顫",
+        "齒輪狀",
+        "面具臉",
+        "字體變小"
+      ],
+      "diseases": [
+        {
+          "name": "巴金森氏症 (Parkinson's Disease)",
+          "aliases": [
+            "巴金森",
+            "Parkinson",
+            "帕金森"
+          ],
+          "features": {
+            "震顫類型": "靜止性震顫 (Rest tremor)，不對稱",
+            "四大核心症狀": "靜止性震顫、動作遲緩 (Bradykinesia)、肌肉僵硬 (Rigidity)、姿態不穩 (Postural instability)",
+            "特徵表現": "齒輪狀僵硬、面具臉、字體變小 (Micrographia)、擺手減少",
+            "病理": "黑質多巴胺神經元退化"
+          }
+        },
+        {
+          "name": "本態性震顫 (Essential Tremor)",
+          "aliases": [
+            "本態性震顫",
+            "Essential tremor",
+            "原發性震顫"
+          ],
+          "features": {
+            "震顫類型": "姿勢性/動作性震顫 (Postural/Action tremor)，對稱性",
+            "伴隨症狀": "無動作遲緩、無僵硬、無姿態不穩",
+            "特殊特徵": "飲酒後震顫可暫時改善",
+            "治療": "Propranolol（β-blocker）或 Primidone"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "111-2_medicine-4_052",
+          "note": "巴金森四大核心運動症狀的臨床判別"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "warfarin_vs_heparin",
+      "title": "Warfarin vs Heparin",
+      "category": "藥理學 / 外科概論",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "Warfarin = 口服、抑制 Vit K 依賴凝血因子、監測 INR/PT、解毒劑 Vit K；Heparin = 注射、增強 Antithrombin III、監測 aPTT、解毒劑 Protamine。",
+      "common_traps": "考題常考「術前停 Warfarin 5 天、INR < 1.5 才可手術」以及「高血栓風險者需 LMWH 橋接」。",
+      "highlight_keywords": [
+        "Warfarin",
+        "Heparin",
+        "INR",
+        "aPTT",
+        "Vitamin K",
+        "Protamine",
+        "LMWH",
+        "橋接治療"
+      ],
+      "diseases": [
+        {
+          "name": "Warfarin（華法林）",
+          "aliases": [
+            "Warfarin",
+            "華法林",
+            "Coumadin"
+          ],
+          "features": {
+            "給藥途徑": "口服",
+            "機轉": "抑制 Vitamin K 依賴凝血因子（II、VII、IX、X）合成",
+            "監測指標": "INR / PT（凝血酶原時間）",
+            "解毒劑": "Vitamin K（緩慢）/ FFP（快速）",
+            "術前處理": "停藥約 5 天，要求 INR < 1.5 方可手術"
+          }
+        },
+        {
+          "name": "Heparin（肝素）",
+          "aliases": [
+            "Heparin",
+            "肝素",
+            "UFH",
+            "LMWH"
+          ],
+          "features": {
+            "給藥途徑": "注射（靜脈或皮下）",
+            "機轉": "增強 Antithrombin III 活性→抑制凝血因子 IIa 和 Xa",
+            "監測指標": "aPTT（UFH）；LMWH 通常不需常規監測",
+            "解毒劑": "Protamine sulfate",
+            "特殊副作用": "HIT（肝素引起的血小板低下症）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-5_003",
+          "note": "術前 Warfarin 停藥原則與 INR 目標"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "< 1.5",
+          "unit": "INR",
+          "target_disease": "Warfarin 術前",
+          "context": "術前 INR 需降至 < 1.5 方可安全進行大部分手術。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "placenta_previa_vs_abruption",
+      "title": "前置胎盤 (Placenta Previa) vs 胎盤早期剝離 (Placental Abruption)",
+      "category": "婦產科",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "前置胎盤 = 無痛性鮮紅色出血、子宮柔軟；胎盤剝離 = 劇烈腹痛、板狀腹、深色血、胎心不穩。",
+      "common_traps": "考題常用「無痛 vs 有痛」的出血來區分兩者。",
+      "highlight_keywords": [
+        "前置胎盤",
+        "胎盤剝離",
+        "無痛性出血",
+        "劇痛",
+        "板狀腹",
+        "鮮紅色",
+        "深色"
+      ],
+      "diseases": [
+        {
+          "name": "前置胎盤 (Placenta Previa)",
+          "aliases": [
+            "前置胎盤",
+            "Placenta previa"
+          ],
+          "features": {
+            "出血特徵": "無痛性鮮紅色陰道出血",
+            "子宮觸診": "柔軟、無壓痛",
+            "胎心": "通常穩定",
+            "禁忌": "禁止陰道內診（避免引發大出血）"
+          }
+        },
+        {
+          "name": "胎盤早期剝離 (Placental Abruption)",
+          "aliases": [
+            "胎盤早期剝離",
+            "Placental abruption",
+            "胎盤剝離"
+          ],
+          "features": {
+            "出血特徵": "伴有劇烈腹痛的深色陰道出血（或隱性出血無外出）",
+            "子宮觸診": "板狀腹（子宮僵硬、壓痛明顯）",
+            "胎心": "常不穩定（胎兒窘迫）",
+            "危險因子": "高血壓、外傷、古柯鹼使用"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "110-2_medicine-6_034",
+          "note": "產後出血原因鑑別"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "central_vs_nephrogenic_di",
+      "title": "中樞性尿崩症 (CDI) vs 腎源性尿崩症 (NDI)",
+      "category": "小兒科 / 新陳代謝科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "CDI = ADH 合成/分泌不足→Desmopressin 有效；NDI = 腎對 ADH 無反應→Desmopressin 無效。高血鈣引起的是 NDI。",
+      "common_traps": "考題常問「高血鈣引起中樞性還是腎源性尿崩症？」→腎源性。",
+      "highlight_keywords": [
+        "中樞性",
+        "腎源性",
+        "CDI",
+        "NDI",
+        "Desmopressin",
+        "高血鈣",
+        "LCH",
+        "鋰中毒"
+      ],
+      "diseases": [
+        {
+          "name": "中樞性尿崩症 (Central DI)",
+          "aliases": [
+            "CDI",
+            "中樞性尿崩症",
+            "Central diabetes insipidus"
+          ],
+          "features": {
+            "病因": "下視丘/腦下垂體後葉受損→ADH 合成或分泌不足",
+            "常見原因": "腦手術後、LCH 浸潤、Wolfram 症候群、顱咽管瘤",
+            "Desmopressin 試驗": "有效（尿量減少、尿滲透壓升高）",
+            "治療": "Desmopressin (DDAVP) 補充"
+          }
+        },
+        {
+          "name": "腎源性尿崩症 (Nephrogenic DI)",
+          "aliases": [
+            "NDI",
+            "腎源性尿崩症",
+            "Nephrogenic diabetes insipidus"
+          ],
+          "features": {
+            "病因": "腎小管對 ADH 無反應",
+            "常見原因": "高血鈣 (Hypercalcemia)、鋰 (Lithium) 中毒、低血鉀",
+            "Desmopressin 試驗": "無效（尿量不減少）",
+            "治療": "Thiazide 利尿劑 + 低鈉低蛋白飲食"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "112-1_medicine-4_024",
+          "note": "高血鈣引起腎源性尿崩症"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "prerenal_vs_intrinsic_aki",
+      "title": "腎前性 AKI vs 腎因性 AKI",
+      "category": "腎臟科",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "腎前性 = FeNa < 1%、BUN/Cr > 20、尿滲透壓高（腎小管功能正常在努力保水保鈉）；腎因性 = FeNa > 1%、BUN/Cr < 20、尿滲透壓低（腎小管受損無法濃縮）。",
+      "common_traps": "CKD 患者即使發生腎前性 AKI，FeNa 也可能 > 1%（基底腎小管功能已受損），不可排除腎前性。",
+      "highlight_keywords": [
+        "FeNa",
+        "BUN/Cr",
+        "腎前性",
+        "腎因性",
+        "尿滲透壓",
+        "腎小管"
+      ],
+      "diseases": [
+        {
+          "name": "腎前性急性腎損傷 (Prerenal AKI)",
+          "aliases": [
+            "腎前性",
+            "Prerenal AKI"
+          ],
+          "features": {
+            "FeNa": "< 1%（腎小管正常地重吸收鈉）",
+            "BUN/Cr 比值": "> 20（BUN 被優先重吸收）",
+            "尿滲透壓": "> 500 mOsm/kg（尿液濃縮）",
+            "常見原因": "脫水、大出血、心衰竭→腎灌流不足"
+          }
+        },
+        {
+          "name": "腎因性急性腎損傷 (Intrinsic AKI)",
+          "aliases": [
+            "腎因性",
+            "Intrinsic AKI",
+            "腎實質性"
+          ],
+          "features": {
+            "FeNa": "> 1%（腎小管受損無法重吸收鈉）",
+            "BUN/Cr 比值": "< 20",
+            "尿滲透壓": "< 350 mOsm/kg（尿液稀薄）",
+            "常見原因": "ATN（急性腎小管壞死）、腎絲球腎炎、敗血症"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-3_028",
+          "note": "CKD 患者的 FeNa 判讀陷阱"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "1%",
+          "unit": "FeNa 切點",
+          "target_disease": "腎前 vs 腎因",
+          "context": "FeNa < 1% 提示腎前性；> 1% 提示腎因性（但 CKD 患者例外）。"
+        },
+        {
+          "value": "20",
+          "unit": "BUN/Cr 切點",
+          "target_disease": "腎前 vs 腎因",
+          "context": "BUN/Cr > 20 提示腎前性；< 20 提示腎因性。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "metabolic_acidosis_vs_alkalosis",
+      "title": "代謝性酸中毒 vs 代謝性鹼中毒",
+      "category": "外科概論 / 生理學 / 腎臟科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "胃液流失→低鉀低氯代謝性鹼中毒；小腸液/胰液流失→代謝性酸中毒。碳酸氫根濃度最高的消化液是胰液。",
+      "common_traps": "考題常將「膽汁 HCO₃⁻ 最高」混淆（其實是胰液）。",
+      "highlight_keywords": [
+        "代謝性酸中毒",
+        "代謝性鹼中毒",
+        "胃液",
+        "胰液",
+        "HCO3-",
+        "低鉀",
+        "低氯"
+      ],
+      "diseases": [
+        {
+          "name": "代謝性酸中毒 (Metabolic Acidosis)",
+          "aliases": [
+            "代謝性酸中毒",
+            "Metabolic acidosis"
+          ],
+          "features": {
+            "pH / HCO₃⁻": "pH↓、HCO₃⁻↓",
+            "呼吸代償": "換氣增加→pCO₂↓",
+            "常見原因": "小腸液/胰液大量流失（含 HCO₃⁻）、乳酸堆積、腎衰竭、DKA"
+          }
+        },
+        {
+          "name": "代謝性鹼中毒 (Metabolic Alkalosis)",
+          "aliases": [
+            "代謝性鹼中毒",
+            "Metabolic alkalosis"
+          ],
+          "features": {
+            "pH / HCO₃⁻": "pH↑、HCO₃⁻↑",
+            "呼吸代償": "換氣減少→pCO₂↑",
+            "常見原因": "胃液大量流失（嘔吐、鼻胃管引流）→失去 H⁺ + Cl⁻ + K⁺ → 低鉀低氯代謝性鹼中毒"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-5_008",
+          "note": "各消化液的 HCO₃⁻ 濃度比較"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "70-120",
+          "unit": "mEq/L HCO₃⁻",
+          "target_disease": "胰液",
+          "context": "胰液的碳酸氫根濃度最高，可達 70-120 mEq/L。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "als_vs_ms",
+      "title": "ALS（漸凍症）vs 多發性硬化症 (MS)",
+      "category": "神經科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "ALS = UMN + LMN 但感覺完全正常；MS = 時空多發性（dissemination in time and space）、感覺異常。",
+      "common_traps": "考題常用「感覺正常」作為關鍵線索來區分 ALS 與 MS。",
+      "highlight_keywords": [
+        "ALS",
+        "MS",
+        "漸凍症",
+        "多發性硬化",
+        "感覺正常",
+        "感覺異常",
+        "時空多發"
+      ],
+      "diseases": [
+        {
+          "name": "ALS（肌萎縮性側索硬化症）",
+          "aliases": [
+            "ALS",
+            "漸凍症",
+            "Amyotrophic lateral sclerosis"
+          ],
+          "features": {
+            "受損部位": "同時侵犯 UMN + LMN",
+            "感覺系統": "完全正常（純運動神經疾病）",
+            "臨床表現": "肌萎縮、肌束震顫、反射增強、言語吞嚥困難",
+            "預後": "極差（診斷後平均存活 3-5 年）"
+          }
+        },
+        {
+          "name": "多發性硬化症 (Multiple Sclerosis)",
+          "aliases": [
+            "MS",
+            "多發性硬化症",
+            "Multiple sclerosis"
+          ],
+          "features": {
+            "受損部位": "CNS 白質多處脫髓鞘（時空多發性）",
+            "感覺系統": "常有感覺異常（如麻木、刺痛）",
+            "臨床表現": "視神經炎、INO（核間性眼肌麻痺）、Lhermitte sign",
+            "預後": "反覆惡化-緩解型最常見"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-4_056",
+          "note": "ALS 同時有 UMN+LMN 損傷但感覺正常"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "right_vs_left_hf",
+      "title": "右心衰竭 vs 左心衰竭",
+      "category": "心臟內科 / 生理學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "左心衰 = 肺循環鬱血（呼吸困難、肺水腫、端坐呼吸）；右心衰 = 體循環鬱血（頸靜脈怒張、肝腫大、下肢水腫）。",
+      "common_traps": "考題常問「交替脈（pulsus alternans）代表哪側心衰？」→左心衰。",
+      "highlight_keywords": [
+        "左心衰",
+        "右心衰",
+        "肺水腫",
+        "頸靜脈怒張",
+        "肝腫大",
+        "下肢水腫",
+        "交替脈"
+      ],
+      "diseases": [
+        {
+          "name": "左心衰竭 (Left Heart Failure)",
+          "aliases": [
+            "左心衰竭",
+            "Left heart failure"
+          ],
+          "features": {
+            "鬱血位置": "肺循環",
+            "主要症狀": "呼吸困難、端坐呼吸 (Orthopnea)、陣發性夜間呼吸困難 (PND)、肺水腫",
+            "理學檢查": "肺部濕囉音 (Crackles)、S3 / S4 心音",
+            "脈搏特徵": "交替脈 (Pulsus alternans)（提示嚴重左心室衰竭）"
+          }
+        },
+        {
+          "name": "右心衰竭 (Right Heart Failure)",
+          "aliases": [
+            "右心衰竭",
+            "Right heart failure"
+          ],
+          "features": {
+            "鬱血位置": "體循環",
+            "主要症狀": "頸靜脈怒張 (JVD)、肝腫大 (Hepatomegaly)、下肢凹陷性水腫、腹水",
+            "理學檢查": "肝頸靜脈回流徵 (Hepatojugular reflux)",
+            "常見原因": "左心衰竭（最常見）、肺高壓、肺栓塞"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "112-1_medicine-3_013",
+          "note": "交替脈代表左心衰竭"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "二階"
+    },
+    {
+      "id": "stemi_vs_nstemi",
+      "title": "STEMI vs NSTEMI",
+      "category": "心臟內科 / 急診醫學",
+      "exam_importance": "★★★★★",
+      "exam_focus_tips": "STEMI = ST 段持續上升→緊急 PCI（door-to-balloon < 90 min）；NSTEMI = 無 ST 上升→依風險分級決定介入時機。",
+      "common_traps": "NSTEMI 非所有患者都需要在 12 小時內 PCI，極高危 2h 內、高危 24h 內、低危可先藥物。",
+      "highlight_keywords": [
+        "STEMI",
+        "NSTEMI",
+        "ST段上升",
+        "PCI",
+        "door-to-balloon",
+        "風險分級",
+        "Troponin"
+      ],
+      "diseases": [
+        {
+          "name": "STEMI（ST 段上升型心肌梗塞）",
+          "aliases": [
+            "STEMI",
+            "ST段上升型心肌梗塞"
+          ],
+          "features": {
+            "心電圖": "ST 段持續上升（≥ 2 個連續導程）",
+            "病理": "冠狀動脈完全阻塞→全層心肌壞死",
+            "處置": "緊急 Primary PCI（door-to-balloon < 90 min）；無 PCI 設備則 Fibrinolysis",
+            "時間": "越早介入越好，分秒必爭"
+          }
+        },
+        {
+          "name": "NSTEMI（非 ST 段上升型心肌梗塞）",
+          "aliases": [
+            "NSTEMI",
+            "非ST段上升型心肌梗塞"
+          ],
+          "features": {
+            "心電圖": "ST 段壓低或 T 波倒置（無持續性 ST 上升）",
+            "病理": "冠狀動脈部分阻塞→非全層壞死",
+            "處置": "依風險分級：極高危→2h 內；高危→24h 內；低危→藥物優先",
+            "生物標記": "Troponin 升高（確認心肌壞死）"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "112-1_medicine-3_013",
+          "note": "NSTEMI 的風險分層與介入時機"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "< 90",
+          "unit": "分鐘",
+          "target_disease": "STEMI",
+          "context": "Door-to-balloon time（從進急診到 PCI 開通血管）應 < 90 分鐘。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "type1_vs_type4_hypersensitivity",
+      "title": "第一型過敏反應 vs 第四型過敏反應",
+      "category": "微生物免疫學 / 病理學",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "第一型 = IgE 介導、即發型（分鐘內）、Mast cell 釋放 histamine；第四型 = T 細胞介導、延遲型（48-72 小時）、無抗體參與。",
+      "common_traps": "考題常問「接觸性皮膚炎屬於第幾型？」→第四型。「過敏性鼻結膜炎？」→第一型。",
+      "highlight_keywords": [
+        "IgE",
+        "Mast cell",
+        "Histamine",
+        "即發型",
+        "延遲型",
+        "T細胞",
+        "接觸性皮膚炎",
+        "48-72小時"
+      ],
+      "diseases": [
+        {
+          "name": "第一型過敏反應（即發型 / IgE 介導）",
+          "aliases": [
+            "Type I",
+            "第一型過敏",
+            "即發型過敏"
+          ],
+          "features": {
+            "介導物": "IgE 抗體",
+            "效應細胞": "Mast cells、Basophils",
+            "反應時間": "數分鐘內（即發型）",
+            "介質": "Histamine、Leukotrienes、Prostaglandins",
+            "臨床例子": "過敏性鼻炎、氣喘、蕁麻疹、過敏性休克"
+          }
+        },
+        {
+          "name": "第四型過敏反應（延遲型 / T 細胞介導）",
+          "aliases": [
+            "Type IV",
+            "第四型過敏",
+            "延遲型過敏"
+          ],
+          "features": {
+            "介導物": "T 細胞（非抗體！）",
+            "效應細胞": "CD4+ Th1 細胞、CD8+ 毒殺 T 細胞、巨噬細胞",
+            "反應時間": "48-72 小時（延遲型）",
+            "無抗體參與": "唯一不由抗體介導的過敏反應",
+            "臨床例子": "接觸性皮膚炎、結核菌素試驗 (PPD)、移植排斥"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "112-1_medicine-2_068",
+          "note": "各型過敏反應的臨床疾病配對"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
+    },
+    {
+      "id": "dic_vs_ttp",
+      "title": "DIC（瀰散性血管內凝血）vs TTP（血栓性血小板低下紫斑症）",
+      "category": "病理學 / 血液腫瘤科",
+      "exam_importance": "★★★★☆",
+      "exam_focus_tips": "DIC = 凝血因子耗損→PT/aPTT 延長 + Fibrinogen↓ + D-dimer↑；TTP = ADAMTS13 缺乏→PT/aPTT 正常。兩者皆有碎裂紅血球。",
+      "common_traps": "考題常問「哪個有凝血時間延長？」→DIC 有（凝血因子耗損），TTP 沒有。",
+      "highlight_keywords": [
+        "DIC",
+        "TTP",
+        "PT",
+        "aPTT",
+        "Fibrinogen",
+        "D-dimer",
+        "ADAMTS13",
+        "碎裂紅血球"
+      ],
+      "diseases": [
+        {
+          "name": "DIC（瀰散性血管內凝血）",
+          "aliases": [
+            "DIC",
+            "瀰散性血管內凝血",
+            "Disseminated intravascular coagulation"
+          ],
+          "features": {
+            "機轉": "廣泛活化凝血系統→凝血因子與血小板耗損",
+            "凝血指標": "PT / aPTT 延長、Fibrinogen↓、D-dimer↑↑",
+            "碎裂紅血球": "有 (Schistocytes)",
+            "常見原因": "敗血症、產科急症、惡性腫瘤、大量輸血"
+          }
+        },
+        {
+          "name": "TTP（血栓性血小板低下紫斑症）",
+          "aliases": [
+            "TTP",
+            "血栓性血小板低下",
+            "Thrombotic thrombocytopenic purpura"
+          ],
+          "features": {
+            "機轉": "ADAMTS13 缺乏→vWF 多聚體無法切割→微血管血栓",
+            "凝血指標": "PT / aPTT 通常正常（凝血因子未耗損）",
+            "碎裂紅血球": "有 (Schistocytes)→MAHA",
+            "治療": "血漿置換術（Plasmapheresis）為首選"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-2_082",
+          "note": "TTP/DIC 皆有碎裂紅血球但凝血指標不同"
+        }
+      ],
+      "must_know_numbers": [],
+      "stage": "一階"
     }
   ]
 }
