@@ -1,4 +1,4 @@
-const CACHE_NAME = "exam-page-med-v4";
+const CACHE_NAME = "exam-page-med-v5";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -47,6 +47,22 @@ self.addEventListener("fetch", (event) => {
           return response;
         })
         .catch(() => caches.match("./index.html")),
+    );
+    return;
+  }
+
+  // Network-First strategy for data JSON files
+  if (url.pathname.endsWith(".json") || url.pathname.includes("/data/")) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(request))
     );
     return;
   }
