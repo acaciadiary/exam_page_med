@@ -233,7 +233,7 @@ export default function App() {
     );
   }, []);
 
-  const canOpenInstallHelp = !isStandalone && (installEvent !== null || isIos || !isAppInstalled);
+  const canOpenInstallHelp = !isStandalone;
   const isInstallable = !isStandalone && !isAppInstalled && (installEvent !== null || isIos);
   const shouldShowInstallPrompt =
     page === "exam" && isInstallable && !isInstallPromptDismissed && !isInstallPromptExpired;
