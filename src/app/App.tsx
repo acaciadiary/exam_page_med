@@ -48,6 +48,22 @@ type BeforeInstallPromptEvent = Event & {
   userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
 };
 
+type InstallAwareNavigator = Navigator & {
+  standalone?: boolean;
+  getInstalledRelatedApps?: () => Promise<unknown[]>;
+};
+
+function isRunningAsInstalledApp() {
+  const standaloneNavigator = navigator as InstallAwareNavigator;
+  return (
+    window.matchMedia("(display-mode: standalone)").matches ||
+    window.matchMedia("(display-mode: fullscreen)").matches ||
+    window.matchMedia("(display-mode: minimal-ui)").matches ||
+    Boolean(standaloneNavigator.standalone) ||
+    document.referrer.startsWith("android-app://")
+  );
+}
+
 export default function App() {
   const [page, setPage] = useState<AppPage>(() =>
     readPageFromSearch(window.location.search),
@@ -83,23 +99,70 @@ export default function App() {
 
   const [installEvent, setInstallEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [showIosInstallModal, setShowIosInstallModal] = useState(false);
+  const [isStandalone, setIsStandalone] = useState(() => isRunningAsInstalledApp());
+  const [isAppInstalled, setIsAppInstalled] = useLocalStorage<boolean>(
+    storageKeys.appInstalled,
+    false,
+  );
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();
-      setInstallEvent(e as BeforeInstallPromptEvent);
+      if (!isRunningAsInstalledApp() && !isAppInstalled) {
+        setInstallEvent(e as BeforeInstallPromptEvent);
+      }
     };
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
     return () => window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
-  }, []);
+  }, [isAppInstalled]);
 
-  const isStandalone = useMemo(() => {
-    const standaloneNavigator = navigator as Navigator & { standalone?: boolean };
-    return (
-      window.matchMedia("(display-mode: standalone)").matches ||
-      Boolean(standaloneNavigator.standalone)
-    );
-  }, []);
+  useEffect(() => {
+    const updateInstallState = () => {
+      const isInstalledMode = isRunningAsInstalledApp();
+      setIsStandalone(isInstalledMode);
+      if (isInstalledMode) {
+        setIsAppInstalled(true);
+        setInstallEvent(null);
+      }
+    };
+
+    const handleAppInstalled = () => {
+      setIsAppInstalled(true);
+      setInstallEvent(null);
+      setShowIosInstallModal(false);
+      updateInstallState();
+    };
+
+    updateInstallState();
+    window.addEventListener("appinstalled", handleAppInstalled);
+
+    const displayModeQueries = [
+      window.matchMedia("(display-mode: standalone)"),
+      window.matchMedia("(display-mode: fullscreen)"),
+      window.matchMedia("(display-mode: minimal-ui)"),
+    ];
+    displayModeQueries.forEach((query) => {
+      query.addEventListener("change", updateInstallState);
+    });
+
+    const installAwareNavigator = navigator as InstallAwareNavigator;
+    installAwareNavigator
+      .getInstalledRelatedApps?.()
+      .then((apps) => {
+        if (apps.length > 0) {
+          setIsAppInstalled(true);
+          setInstallEvent(null);
+        }
+      })
+      .catch(() => undefined);
+
+    return () => {
+      window.removeEventListener("appinstalled", handleAppInstalled);
+      displayModeQueries.forEach((query) => {
+        query.removeEventListener("change", updateInstallState);
+      });
+    };
+  }, [setIsAppInstalled]);
 
   const isIos = useMemo(() => {
     return (
@@ -108,13 +171,14 @@ export default function App() {
     );
   }, []);
 
-  const isInstallable = !isStandalone && (installEvent !== null || isIos);
+  const isInstallable = !isStandalone && !isAppInstalled && (installEvent !== null || isIos);
 
   const handleInstall = async () => {
     if (installEvent) {
       await installEvent.prompt();
       const choice = await installEvent.userChoice.catch(() => undefined);
       if (choice && choice.outcome === "accepted") {
+        setIsAppInstalled(true);
         setInstallEvent(null);
       }
     } else if (isIos) {

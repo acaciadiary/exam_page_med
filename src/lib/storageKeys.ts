@@ -11,4 +11,5 @@ export const storageKeys = {
   mistakeStatus: `${prefix}:mistake-status`,
   focusSeconds: `${prefix}:focus-seconds`,
   stickyNotes: `${prefix}:sticky-notes`,
+  appInstalled: `${prefix}:app-installed`,
 };
