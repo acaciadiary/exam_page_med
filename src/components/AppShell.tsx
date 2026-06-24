@@ -6,11 +6,15 @@ import {
   ChevronDown,
   ClipboardX,
   Download,
+  Menu,
   NotebookPen,
+  PanelLeftClose,
+  PanelLeftOpen,
   PencilLine,
   RotateCcw,
   GitCompare,
   Settings,
+  X,
 } from "lucide-react";
 import { useMemo, useState, useEffect, type ReactNode } from "react";
 import clsx from "clsx";
@@ -114,11 +118,70 @@ export function AppShell({
 
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return window.localStorage.getItem("app-sidebar-collapsed") === "true";
+  });
+  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
+
+  const navigationItems = [
+    {
+      page: "exam" as const,
+      label: "國考題",
+      mobileLabel: "國考題",
+      icon: <BookOpenCheck size={18} />,
+    },
+    {
+      page: "diseases" as const,
+      label: "必看區",
+      mobileLabel: "必看區",
+      icon: <GitCompare size={18} />,
+    },
+    {
+      page: "mistakes" as const,
+      label: "錯題本",
+      mobileLabel: "錯題區",
+      icon: <ClipboardX size={18} />,
+      badge: wrongQuestionCount,
+    },
+    {
+      page: "favorites" as const,
+      label: "收藏區",
+      mobileLabel: "收藏區",
+      icon: <BookmarkCheck size={18} />,
+      badge: favoriteCount,
+    },
+    {
+      page: "notes" as const,
+      label: "便條貼",
+      mobileLabel: "筆記區",
+      icon: <NotebookPen size={18} />,
+      badge: stickyNoteCount,
+    },
+  ];
 
   const handleHomeClick = () => {
     onPageChange("exam");
+    setIsMobileSidebarOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  const handleSidebarCollapsedChange = (collapsed: boolean) => {
+    setIsSidebarCollapsed(collapsed);
+    window.localStorage.setItem("app-sidebar-collapsed", String(collapsed));
+  };
+
+  const handleNavigationChange = (nextPage: AppPage) => {
+    onPageChange(nextPage);
+    setIsMobileSidebarOpen(false);
+  };
+
+  useEffect(() => {
+    document.body.style.overflow = isMobileSidebarOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMobileSidebarOpen]);
 
   useEffect(() => {
     let ticking = false;
@@ -200,7 +263,8 @@ export function AppShell({
       {/* Desktop Left Fixed Sidebar */}
       <aside
         className={clsx(
-          "fixed bottom-0 left-0 top-0 z-40 hidden w-64 flex-col border-r bg-white/70 backdrop-blur-xl lg:flex",
+          "fixed bottom-0 left-0 top-0 z-40 hidden flex-col border-r bg-white/70 backdrop-blur-xl transition-[width] duration-300 lg:flex",
+          isSidebarCollapsed ? "w-[4.75rem]" : "w-64",
           theme === "dark"
             ? "border-white/12 bg-[#2b2430]/70"
             : theme === "clinical"
@@ -212,14 +276,17 @@ export function AppShell({
         <button
           type="button"
           onClick={handleHomeClick}
-          className="flex w-full items-center gap-3 border-b border-[#f0ded6]/65 p-6 text-left transition hover:bg-white/45 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:hover:bg-white/5"
+          className={clsx(
+            "flex w-full items-center gap-3 border-b border-[#f0ded6]/65 text-left transition hover:bg-white/45 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:hover:bg-white/5",
+            isSidebarCollapsed ? "justify-center px-3 py-5" : "p-6",
+          )}
           aria-label="回到首頁"
           title="回到首頁"
         >
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[0.95rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c] shadow-[0_6px_18px_rgba(118,91,78,0.08)]">
             <PencilLine size={20} />
           </div>
-          <div>
+          <div className={clsx("min-w-0", isSidebarCollapsed && "hidden")}>
             <h1 className="text-lg font-bold tracking-[0.02em] leading-tight text-[#3f342d] dark:text-[#f8edf3]">
               <span className="block whitespace-nowrap">Ariel's Med</span>
               <span className="block whitespace-nowrap">醫師國考</span>
@@ -230,46 +297,42 @@ export function AppShell({
           </div>
         </button>
 
+        <div className={clsx("border-b border-[#f0ded6]/65 dark:border-white/10", isSidebarCollapsed ? "p-3" : "p-4")}>
+          <button
+            type="button"
+            onClick={() => handleSidebarCollapsedChange(!isSidebarCollapsed)}
+            className={clsx(
+              "flex h-11 items-center rounded-xl border border-[#efd9d0] bg-white/72 text-sm font-semibold text-[#6f5b50] transition hover:bg-white focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:text-[#dccbd3]",
+              isSidebarCollapsed ? "w-full justify-center" : "w-full justify-between px-3",
+            )}
+            aria-label={isSidebarCollapsed ? "展開左側導覽列" : "收合左側導覽列"}
+            title={isSidebarCollapsed ? "展開左側導覽列" : "收合左側導覽列"}
+          >
+            {isSidebarCollapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
+            {!isSidebarCollapsed && <span>收合導覽列</span>}
+          </button>
+        </div>
+
         {/* Navigation items */}
-        <nav className="flex-1 space-y-1.5 p-4">
-          <SidebarLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={18} />} theme={theme}>
-            國考題
-          </SidebarLink>
-          <SidebarLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={18} />} theme={theme}>
-            必看區
-          </SidebarLink>
-          <SidebarLink
-            active={page === "mistakes"}
-            onClick={() => onPageChange("mistakes")}
-            icon={<ClipboardX size={18} />}
-            badge={wrongQuestionCount}
-            theme={theme}
-          >
-            錯題本
-          </SidebarLink>
-          <SidebarLink
-            active={page === "favorites"}
-            onClick={() => onPageChange("favorites")}
-            icon={<BookmarkCheck size={18} />}
-            badge={favoriteCount}
-            theme={theme}
-          >
-            收藏區
-          </SidebarLink>
-          <SidebarLink
-            active={page === "notes"}
-            onClick={() => onPageChange("notes")}
-            icon={<NotebookPen size={18} />}
-            badge={stickyNoteCount}
-            theme={theme}
-          >
-            便條貼
-          </SidebarLink>
+        <nav className={clsx("flex-1 space-y-1.5", isSidebarCollapsed ? "p-3" : "p-4")}>
+          {navigationItems.map((item) => (
+            <SidebarLink
+              key={item.page}
+              active={page === item.page}
+              onClick={() => handleNavigationChange(item.page)}
+              icon={item.icon}
+              badge={item.badge}
+              theme={theme}
+              collapsed={isSidebarCollapsed}
+            >
+              {item.label}
+            </SidebarLink>
+          ))}
         </nav>
 
         {/* Sidebar bottom settings and theme controls */}
-        <div className="p-4 border-t border-[#f0ded6]/65 dark:border-white/10 space-y-3">
-          <div className="space-y-2">
+        <div className={clsx("border-t border-[#f0ded6]/65 dark:border-white/10", isSidebarCollapsed ? "space-y-2 p-3" : "space-y-3 p-4")}>
+          <div className={clsx("space-y-2", isSidebarCollapsed && "hidden")}>
             <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
             <div className="flex min-w-0 items-center gap-2">
               <ThemeToggle theme={theme} onChange={onThemeChange} compact />
@@ -280,21 +343,38 @@ export function AppShell({
               />
             </div>
           </div>
+          {isSidebarCollapsed && (
+            <ReadingBoldButton
+              enabled={readingBold}
+              onChange={onReadingBoldChange}
+              theme={theme}
+            />
+          )}
           {isInstallable && onInstall && (
             <button
               type="button"
               onClick={onInstall}
-              className="flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] py-2.5 text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer"
+              className={clsx(
+                "flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer",
+                isSidebarCollapsed ? "h-11" : "py-2.5",
+              )}
+              aria-label="加入桌面"
+              title="加入桌面"
             >
               <Download size={16} />
-              <span>加入桌面</span>
+              {!isSidebarCollapsed && <span>加入桌面</span>}
             </button>
           )}
         </div>
       </aside>
 
       {/* Main Content Area (shifted right on Desktop) */}
-      <div className="flex min-h-screen flex-col lg:pl-64">
+      <div
+        className={clsx(
+          "flex min-h-screen flex-col transition-[padding] duration-300",
+          isSidebarCollapsed ? "lg:pl-[4.75rem]" : "lg:pl-64",
+        )}
+      >
         {/* Top Header */}
         <header
           className={clsx(
@@ -306,6 +386,15 @@ export function AppShell({
             {/* Desktop Header Layout */}
             <div className="hidden lg:flex items-center justify-between gap-4">
               <div className="flex items-center gap-3 min-w-0">
+                <button
+                  type="button"
+                  onClick={() => handleSidebarCollapsedChange(!isSidebarCollapsed)}
+                  className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#efd9d0] bg-white/82 text-[#6f5b50] transition hover:bg-white focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:text-[#dccbd3]"
+                  aria-label={isSidebarCollapsed ? "展開左側導覽列" : "收合左側導覽列"}
+                  title={isSidebarCollapsed ? "展開左側導覽列" : "收合左側導覽列"}
+                >
+                  {isSidebarCollapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
+                </button>
                 <FilterControl
                   exams={exams}
                   activeExamId={activeExamId}
@@ -333,8 +422,17 @@ export function AppShell({
               <div className="flex items-center justify-between">
                 <button
                   type="button"
+                  onClick={() => setIsMobileSidebarOpen(true)}
+                  className="mr-2 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#efd9d0] bg-white/82 text-[#6f5b50] transition hover:bg-white focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:text-[#dccbd3]"
+                  aria-label="開啟導覽列"
+                  title="開啟導覽列"
+                >
+                  <Menu size={19} />
+                </button>
+                <button
+                  type="button"
                   onClick={handleHomeClick}
-                  className="flex min-w-0 items-center gap-2 rounded-xl pr-2 text-left transition hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45"
+                  className="flex min-w-0 flex-1 items-center gap-2 rounded-xl pr-2 text-left transition hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45"
                   aria-label="回到首頁"
                   title="回到首頁"
                 >
@@ -397,6 +495,84 @@ export function AppShell({
         </main>
       </div>
 
+      {/* Tablet and Mobile Slide-out Navigation */}
+      <div className={clsx("fixed inset-0 z-50 lg:hidden", !isMobileSidebarOpen && "pointer-events-none")}>
+        <button
+          type="button"
+          aria-label="關閉導覽列"
+          className={clsx(
+            "absolute inset-0 bg-[#3f342d]/28 backdrop-blur-[2px] transition-opacity",
+            isMobileSidebarOpen ? "opacity-100" : "opacity-0",
+          )}
+          onClick={() => setIsMobileSidebarOpen(false)}
+        />
+        <aside
+          className={clsx(
+            "absolute bottom-0 left-0 top-0 flex w-[min(18.5rem,86vw)] flex-col border-r bg-white/92 shadow-[18px_0_44px_rgba(63,52,45,0.16)] backdrop-blur-2xl transition-transform duration-300",
+            isMobileSidebarOpen ? "translate-x-0" : "-translate-x-full",
+            theme === "dark"
+              ? "border-white/12 bg-[#2b2430]/94"
+              : theme === "clinical"
+              ? "border-[#a3bed0]/45 bg-white/94"
+              : "border-[#efd9d0] bg-white/92",
+          )}
+        >
+          <div className="flex items-center justify-between border-b border-[#f0ded6]/65 p-5 dark:border-white/10">
+            <button
+              type="button"
+              onClick={handleHomeClick}
+              className="flex min-w-0 items-center gap-3 rounded-xl text-left transition hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45"
+              aria-label="回到首頁"
+              title="回到首頁"
+            >
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[0.95rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
+                <PencilLine size={20} />
+              </div>
+              <div className="min-w-0">
+                <h1 className="text-lg font-bold leading-tight text-[#3f342d] dark:text-[#f8edf3]">Ariel's Med</h1>
+                <p className="text-[11px] font-semibold text-[#8b7666] dark:text-[#a2949e]">醫師國考</p>
+              </div>
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsMobileSidebarOpen(false)}
+              className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#efd9d0] bg-white/82 text-[#6f5b50] transition hover:bg-white focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:text-[#dccbd3]"
+              aria-label="關閉導覽列"
+              title="關閉導覽列"
+            >
+              <X size={18} />
+            </button>
+          </div>
+
+          <nav className="flex-1 space-y-1.5 p-4">
+            {navigationItems.map((item) => (
+              <SidebarLink
+                key={item.page}
+                active={page === item.page}
+                onClick={() => handleNavigationChange(item.page)}
+                icon={item.icon}
+                badge={item.badge}
+                theme={theme}
+              >
+                {item.label}
+              </SidebarLink>
+            ))}
+          </nav>
+
+          <div className="space-y-3 border-t border-[#f0ded6]/65 p-4 dark:border-white/10">
+            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
+            <div className="flex min-w-0 items-center gap-2">
+              <ThemeToggle theme={theme} onChange={onThemeChange} compact />
+              <ReadingBoldButton
+                enabled={readingBold}
+                onChange={onReadingBoldChange}
+                theme={theme}
+              />
+            </div>
+          </div>
+        </aside>
+      </div>
+
       {/* Mobile Floating Bottom Navigation Bar */}
       <nav
         className={clsx(
@@ -409,32 +585,17 @@ export function AppShell({
           !isVisible && "translate-y-[calc(100%+1.5rem)]"
         )}
       >
-        <MobileNavLink active={page === "exam"} onClick={() => onPageChange("exam")} icon={<BookOpenCheck size={20} />} label="國考題" theme={theme} />
-        <MobileNavLink active={page === "diseases"} onClick={() => onPageChange("diseases")} icon={<GitCompare size={20} />} label="必看區" theme={theme} />
-        <MobileNavLink
-          active={page === "mistakes"}
-          onClick={() => onPageChange("mistakes")}
-          icon={<ClipboardX size={20} />}
-          label="錯題區"
-          badge={wrongQuestionCount}
-          theme={theme}
-        />
-        <MobileNavLink
-          active={page === "favorites"}
-          onClick={() => onPageChange("favorites")}
-          icon={<BookmarkCheck size={20} />}
-          label="收藏區"
-          badge={favoriteCount}
-          theme={theme}
-        />
-        <MobileNavLink
-          active={page === "notes"}
-          onClick={() => onPageChange("notes")}
-          icon={<NotebookPen size={20} />}
-          label="筆記區"
-          badge={stickyNoteCount}
-          theme={theme}
-        />
+        {navigationItems.map((item) => (
+          <MobileNavLink
+            key={item.page}
+            active={page === item.page}
+            onClick={() => handleNavigationChange(item.page)}
+            icon={item.icon}
+            label={item.mobileLabel}
+            badge={item.badge}
+            theme={theme}
+          />
+        ))}
       </nav>
 
       {/* Back to top button */}
@@ -464,6 +625,7 @@ function SidebarLink({
   icon,
   badge,
   theme,
+  collapsed = false,
 }: {
   active: boolean;
   onClick: () => void;
@@ -471,13 +633,15 @@ function SidebarLink({
   icon: ReactNode;
   badge?: number;
   theme: AppTheme;
+  collapsed?: boolean;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={clsx(
-        "flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-semibold transition cursor-pointer font-hand",
+        "flex w-full items-center rounded-xl text-sm font-semibold transition cursor-pointer font-hand",
+        collapsed ? "relative h-12 justify-center px-2" : "justify-between px-4 py-3",
         active
           ? theme === "dark"
             ? "bg-[#4a2c3a] text-[#f3a6c4]"
@@ -490,8 +654,9 @@ function SidebarLink({
           ? "text-[#26384a] hover:bg-[#e8f2f9] hover:text-[#1f4e79]"
           : "text-[#6f5b50] hover:bg-[#fff0f6] hover:text-[#9a496b]"
       )}
+      title={typeof children === "string" ? children : undefined}
     >
-      <div className="flex items-center gap-3">
+      <div className={clsx("flex items-center", collapsed ? "justify-center" : "gap-3")}>
         <span className={clsx(
           active
             ? theme === "dark" ? "text-[#f3a6c4]" : theme === "clinical" ? "text-[#1f4e79]" : "text-[#9a496b]"
@@ -499,11 +664,12 @@ function SidebarLink({
         )}>
           {icon}
         </span>
-        <span>{children}</span>
+        {!collapsed && <span>{children}</span>}
       </div>
       {typeof badge === "number" && badge > 0 ? (
         <span className={clsx(
           "inline-flex min-w-5 h-5 items-center justify-center rounded-full px-1.5 py-0.5 text-xs font-bold border",
+          collapsed && "absolute -right-1 -top-1",
           theme === "dark"
             ? "bg-[#2b2430] border-white/10 text-[#f3a6c4]"
             : theme === "clinical"
