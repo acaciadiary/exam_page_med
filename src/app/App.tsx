@@ -643,6 +643,69 @@ export default function App() {
     setFavorites([]);
   };
 
+  const handleRemoveMistake = (targetExamId: string, questionId: string) => {
+    if (targetExamId === examId) {
+      removeAnswers([questionId]);
+    } else {
+      const storedAnswers = readStoredAnswers(targetExamId);
+      delete storedAnswers[questionId];
+      writeStoredAnswers(targetExamId, storedAnswers);
+    }
+
+    setMistakeStatuses((current) => {
+      const next = { ...current };
+      delete next[mistakeKey(targetExamId, questionId)];
+      return next;
+    });
+    setAllMistakes((current) =>
+      current.filter(
+        (mistake) => mistake.exam.id !== targetExamId || mistake.question.id !== questionId,
+      ),
+    );
+    setMistakePracticeIds((current) => {
+      const currentIds = current[targetExamId];
+      if (!currentIds) return current;
+
+      const remaining = currentIds.filter((id) => id !== questionId);
+      const next = { ...current };
+      if (remaining.length > 0) next[targetExamId] = remaining;
+      else delete next[targetExamId];
+      return next;
+    });
+  };
+
+  const handleRemoveFavorite = (targetExamId: string, questionId: string) => {
+    if (targetExamId === examId) {
+      markedQuestions.removeMarked(questionId);
+      markedFlashcards.removeMarked(questionId);
+      setFavoriteTags((current) => {
+        const next = { ...current };
+        delete next[questionId];
+        return next;
+      });
+    } else {
+      const questionKey = storageKeys.markedQuestions(targetExamId);
+      const flashcardKey = storageKeys.markedFlashcards(targetExamId);
+      const targetTags = readStoredFavoriteTags(storageKeys.favoriteTags(targetExamId));
+
+      writeStoredStringArray(
+        questionKey,
+        readStoredStringArray(questionKey).filter((id) => id !== questionId),
+      );
+      writeStoredStringArray(
+        flashcardKey,
+        readStoredStringArray(flashcardKey).filter((id) => id !== questionId),
+      );
+      delete targetTags[questionId];
+      writeStoredFavoriteTags(storageKeys.favoriteTags(targetExamId), targetTags);
+    }
+
+    setFavorites((current) =>
+      current.filter((entry) => entry.exam.id !== targetExamId || entry.question.id !== questionId),
+    );
+    setFavoritesTrigger((prev) => prev + 1);
+  };
+
   const handleStartMistakePractice = () => {
     if (allMistakes.length === 0) return;
 
@@ -874,6 +937,7 @@ export default function App() {
             mistakes={allMistakes}
             loading={isMistakesLoading}
             onClearMistakes={handleClearAllMistakes}
+            onRemoveMistake={handleRemoveMistake}
             onStartPractice={handleStartMistakePractice}
             onOpenQuestion={openQuestion}
             onStatusChange={handleMistakeStatusChange}
@@ -883,6 +947,7 @@ export default function App() {
             favorites={favorites}
             loading={isFavoritesLoading}
             onClearFavorites={handleClearAllFavorites}
+            onRemoveFavorite={handleRemoveFavorite}
             onToggleTag={handleToggleFavoriteTag}
             onOpenQuestion={openQuestion}
           />

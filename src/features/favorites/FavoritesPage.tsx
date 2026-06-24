@@ -20,6 +20,7 @@ type FavoritesPageProps = {
   loading: boolean;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onClearFavorites: () => void;
+  onRemoveFavorite: (examId: string, questionId: string) => void;
   onToggleTag: (examId: string, questionId: string, tag: FavoriteTag) => void;
 };
 
@@ -31,6 +32,7 @@ export function FavoritesPage({
   loading,
   onOpenQuestion,
   onClearFavorites,
+  onRemoveFavorite,
   onToggleTag,
 }: FavoritesPageProps) {
   const [activeTag, setActiveTag] = useState<FavoriteTag | typeof allTag>(allTag);
@@ -105,14 +107,25 @@ export function FavoritesPage({
                   </h3>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => onOpenQuestion(exam.id, question.id)}
-                  className="inline-flex shrink-0 items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-                >
-                  回到題目
-                  <ArrowRight size={16} />
-                </button>
+                <div className="flex shrink-0 flex-wrap gap-2 sm:justify-end">
+                  <button
+                    type="button"
+                    onClick={() => onRemoveFavorite(exam.id, question.id)}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+                  >
+                    <Trash2 size={16} />
+                    取消收藏
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => onOpenQuestion(exam.id, question.id)}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+                  >
+                    回到題目
+                    <ArrowRight size={16} />
+                  </button>
+                </div>
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2 border-t border-[#f0ded6] pt-4">

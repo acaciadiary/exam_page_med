@@ -100,6 +100,7 @@ describe("ExamMode", () => {
           markedSet: new Set<string>(),
           toggleMarked: vi.fn(),
           clearMarked: vi.fn(),
+          removeMarked: vi.fn(),
         }}
         onAnswer={vi.fn()}
         mode="exam"

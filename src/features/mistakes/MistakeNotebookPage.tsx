@@ -24,6 +24,7 @@ type MistakeNotebookPageProps = {
   loading: boolean;
   onOpenQuestion: (examId: string, questionId: string) => void;
   onClearMistakes: () => void;
+  onRemoveMistake: (examId: string, questionId: string) => void;
   onStartPractice: () => void;
   onStatusChange: (examId: string, questionId: string, status: MistakeStatus) => void;
 };
@@ -44,6 +45,7 @@ export function MistakeNotebookPage({
   loading,
   onOpenQuestion,
   onClearMistakes,
+  onRemoveMistake,
   onStartPractice,
   onStatusChange,
 }: MistakeNotebookPageProps) {
@@ -110,14 +112,25 @@ export function MistakeNotebookPage({
                   </h3>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => onOpenQuestion(exam.id, question.id)}
-                  className="inline-flex shrink-0 items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
-                >
-                  回到題目
-                  <ArrowRight size={16} />
-                </button>
+                <div className="flex shrink-0 flex-wrap gap-2 sm:justify-end">
+                  <button
+                    type="button"
+                    onClick={() => onRemoveMistake(exam.id, question.id)}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+                  >
+                    <Trash2 size={16} />
+                    從錯題本移除
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => onOpenQuestion(exam.id, question.id)}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#efd9d0] bg-white px-4 py-2 text-sm font-semibold text-[#6f5b50] transition hover:border-[#f1aac8] hover:bg-[#fff0f6] hover:text-[#9a496b]"
+                  >
+                    回到題目
+                    <ArrowRight size={16} />
+                  </button>
+                </div>
               </div>
 
               <div className="mt-5 flex flex-wrap gap-3 text-sm">

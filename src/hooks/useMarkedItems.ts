@@ -20,5 +20,12 @@ export function useMarkedItems(key: string) {
     setMarked([]);
   }, [setMarked]);
 
-  return { marked, markedSet, toggleMarked, clearMarked };
+  const removeMarked = useCallback(
+    (id: string) => {
+      setMarked((current) => current.filter((item) => item !== id));
+    },
+    [setMarked],
+  );
+
+  return { marked, markedSet, toggleMarked, clearMarked, removeMarked };
 }
