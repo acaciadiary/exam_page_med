@@ -375,6 +375,151 @@
         }
       ],
       "stage": "一階"
+    },
+    {
+      "id": "anion_gap_metabolic_acidosis",
+      "name": "陰離子間隙代謝性酸中毒 (Anion gap metabolic acidosis)",
+      "aliases": [
+        "Anion gap",
+        "AGMA",
+        "陰離子間隙",
+        "代謝性酸中毒"
+      ],
+      "category": "內科學 / 急診醫學 / 腎臟科",
+      "explanation": "以 Na - (Cl + HCO3) 估算未測量陰離子。升高時代表乳酸、酮酸、尿毒、毒物或藥物代謝產物等酸性物質堆積。",
+      "exam_focus": "看到 pH 低、HCO3 低，先判斷是否為代謝性酸中毒，再算 anion gap。高 AG 常用 MUDPILES/GOLDMARK 記憶，考題最愛連到 DKA、乳酸中毒、腎衰竭與甲醇/乙二醇中毒。",
+      "frequency": 32,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "osmotic_demyelination_syndrome",
+      "name": "滲透性去髓鞘症候群 (Osmotic demyelination syndrome)",
+      "aliases": [
+        "ODS",
+        "CPM",
+        "Central pontine myelinolysis",
+        "中央橋腦髓鞘溶解症"
+      ],
+      "category": "內科學 / 神經科 / 腎臟科",
+      "explanation": "慢性低血鈉矯正過快時，腦細胞無法適應血漿滲透壓快速上升，造成中樞神經去髓鞘損傷。",
+      "exam_focus": "低血鈉矯正不可太快。一般目標為 24 小時不超過 8-10 mEq/L；若題幹出現低血鈉快速補正後意識改變、四肢癱瘓或 locked-in syndrome，要想到 ODS。",
+      "frequency": 12,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "tumor_lysis_syndrome",
+      "name": "腫瘤溶解症候群 (Tumor lysis syndrome)",
+      "aliases": [
+        "TLS",
+        "Tumor lysis",
+        "腫瘤崩解症候群"
+      ],
+      "category": "血液腫瘤科 / 內科學 / 急診醫學",
+      "explanation": "大量腫瘤細胞破壞後釋出鉀、磷、核酸，造成高血鉀、高磷、低血鈣、高尿酸與急性腎損傷。",
+      "exam_focus": "常見於白血病、淋巴瘤治療後。關鍵組合是高 K、高 phosphate、高 uric acid、低 Ca；預防與處置重點包含大量輸液、allopurinol 或 rasburicase，並監測高血鉀心律風險。",
+      "frequency": 14,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "serotonin_syndrome",
+      "name": "血清素症候群 (Serotonin syndrome)",
+      "aliases": [
+        "Serotonin toxicity",
+        "血清素毒性"
+      ],
+      "category": "急診醫學 / 藥理學 / 神經科",
+      "explanation": "血清素活性過度造成自主神經亢進、神經肌肉興奮與精神狀態改變，常與 SSRI、MAOI、linezolid、tramadol 或 MDMA 相關。",
+      "exam_focus": "和 NMS 鑑別最重要：serotonin syndrome 發作較快，常見 hyperreflexia、clonus、腹瀉與流汗。處置為停藥、支持療法、benzodiazepine，嚴重時可用 cyproheptadine。",
+      "frequency": 10,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "neuroleptic_malignant_syndrome",
+      "name": "抗精神病藥惡性症候群 (Neuroleptic malignant syndrome)",
+      "aliases": [
+        "NMS",
+        "Neuroleptic malignant syndrome"
+      ],
+      "category": "急診醫學 / 藥理學 / 神經科",
+      "explanation": "多與 dopamine antagonist 或突然停用 dopaminergic drug 相關，造成高燒、肌肉僵硬、自主神經不穩與 CK 升高。",
+      "exam_focus": "NMS 起病較慢、lead-pipe rigidity 與 CK 高是高頻考點。處置為停藥、降溫、補液；可考 dantrolene 或 bromocriptine。",
+      "frequency": 9,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "diabetic_ketoacidosis",
+      "name": "糖尿病酮酸中毒 (Diabetic ketoacidosis)",
+      "aliases": [
+        "DKA",
+        "酮酸中毒"
+      ],
+      "category": "新陳代謝科 / 急診醫學",
+      "explanation": "胰島素缺乏與反調節荷爾蒙上升，導致高血糖、酮體生成與高陰離子間隙代謝性酸中毒。",
+      "exam_focus": "處置順序是先補液、評估並補鉀、再給 insulin。若 K < 3.3 mEq/L，需先補鉀再打 insulin。常考和 HHS 鑑別：DKA 酸中毒與酮體更明顯。",
+      "frequency": 29,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "compartment_syndrome",
+      "name": "腔室症候群 (Compartment syndrome)",
+      "aliases": [
+        "筋膜腔症候群",
+        "Compartment pressure"
+      ],
+      "category": "骨科 / 急診醫學",
+      "explanation": "骨折、擠壓傷或石膏過緊造成筋膜腔壓上升，壓迫血管與神經，若延誤會導致肌肉壞死。",
+      "exam_focus": "最早且最重要的表現是 pain out of proportion，尤其被動伸展疼痛。脈搏消失是晚期。確診或高度懷疑時不要等，立即 fasciotomy。",
+      "frequency": 18,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "siadh",
+      "name": "抗利尿激素不適當分泌症候群 (SIADH)",
+      "aliases": [
+        "SIADH",
+        "Syndrome of inappropriate ADH secretion"
+      ],
+      "category": "內科學 / 新陳代謝科 / 腎臟科",
+      "explanation": "ADH 過度作用使自由水滯留，造成 euvolemic hyponatremia，常見原因包含肺部疾病、中樞神經疾病與藥物。",
+      "exam_focus": "典型檢驗：低血鈉、低血漿滲透壓、尿滲透壓不低、尿鈉偏高且臨床無明顯水腫或脫水。治療依嚴重度可考限水、高張鹽水、loop diuretic 或 vaptan。",
+      "frequency": 22,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "ards",
+      "name": "急性呼吸窘迫症候群 (ARDS)",
+      "aliases": [
+        "ARDS",
+        "Acute respiratory distress syndrome"
+      ],
+      "category": "胸腔內科 / 急診醫學 / 重症醫學",
+      "explanation": "敗血症、肺炎、吸入性傷害或胰臟炎等造成瀰漫性肺泡傷害，出現非心因性肺水腫與嚴重低血氧。",
+      "exam_focus": "考點是 Berlin criteria 與低潮氣量通氣。機械通氣採 6 mL/kg predicted body weight，搭配適當 PEEP；若題幹有雙側浸潤、低氧且非心衰，要想到 ARDS。",
+      "frequency": 16,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "hellp_syndrome",
+      "name": "HELLP 症候群 (HELLP syndrome)",
+      "aliases": [
+        "HELLP",
+        "Hemolysis elevated liver enzymes low platelets"
+      ],
+      "category": "婦產科 / 急診醫學",
+      "explanation": "子癲前症相關嚴重併發症，包含溶血、肝酵素上升與血小板低下，可能快速惡化為母胎危急狀態。",
+      "exam_focus": "孕婦或產後出現 RUQ/epigastric pain、AST/ALT 上升、血小板低，想到 HELLP。處置包含穩定母體、MgSO4 預防癲癇，並評估分娩時機。",
+      "frequency": 11,
+      "related_questions": [],
+      "stage": "二階"
     }
   ]
 }

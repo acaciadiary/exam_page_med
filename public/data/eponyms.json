@@ -1162,6 +1162,140 @@
         }
       ],
       "stage": "二階"
+    },
+    {
+      "id": "kussmaul_sign",
+      "name": "庫斯莫氏徵象 (Kussmaul's Sign)",
+      "aliases": [
+        "Kussmaul sign",
+        "Kussmaul's sign",
+        "吸氣頸靜脈壓上升"
+      ],
+      "category": "心臟內科",
+      "origin_type": "人名徵象",
+      "description": "吸氣時頸靜脈壓不降反升，代表右心充盈受限。",
+      "clinical_signs": "典型見於限制性心包膜炎，也可見於右心室梗塞、限制性心肌病變或嚴重右心衰竭。",
+      "exam_focus": "常與 pulsus paradoxus 混考：吸氣 JVP 上升想到 Kussmaul sign；吸氣收縮壓下降超過 10 mmHg 想到奇脈。",
+      "frequency": 9,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "whipple_triad",
+      "name": "惠普爾三徵 (Whipple's Triad)",
+      "aliases": [
+        "Whipple triad",
+        "Whipple's triad"
+      ],
+      "category": "新陳代謝科 / 胃腸肝膽科",
+      "origin_type": "人名徵象",
+      "description": "低血糖症狀、當下測得低血糖、補充葡萄糖後症狀改善，是確認真正低血糖事件的三要件。",
+      "clinical_signs": "冒冷汗、心悸、顫抖、意識改變或癲癇，且與低血糖數值同步出現。",
+      "exam_focus": "若題幹問 insulinoma 診斷線索，先確認 Whipple triad，再進一步看禁食試驗、胰島素/C-peptide 與影像定位。",
+      "frequency": 8,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "cullen_grey_turner_signs",
+      "name": "庫倫徵與格雷特納徵 (Cullen / Grey Turner Signs)",
+      "aliases": [
+        "Cullen sign",
+        "Grey Turner sign",
+        "臍周瘀青",
+        "側腹瘀青"
+      ],
+      "category": "胃腸肝膽科 / 急診醫學",
+      "origin_type": "人名徵象",
+      "description": "臍周或側腹瘀青，提示後腹腔或腹腔內出血。",
+      "clinical_signs": "Cullen sign 是臍周瘀青；Grey Turner sign 是側腹瘀青。",
+      "exam_focus": "重症急性胰臟炎合併出血是高頻連結。看到劇烈上腹痛、amylase/lipase 上升再加皮膚瘀青，要想到壞死出血性胰臟炎。",
+      "frequency": 7,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "courvoisier_sign",
+      "name": "庫瓦西耶氏徵象 (Courvoisier's Sign)",
+      "aliases": [
+        "Courvoisier sign",
+        "Courvoisier law"
+      ],
+      "category": "胃腸肝膽科 / 一般外科",
+      "origin_type": "人名徵象",
+      "description": "無痛性黃疸合併可觸及腫大的膽囊，較支持惡性膽道阻塞，而非單純膽結石。",
+      "clinical_signs": "可見黃疸、茶色尿、灰白便、體重減輕與無痛膽囊腫大。",
+      "exam_focus": "題幹若出現 painless jaundice + palpable gallbladder，優先想到 pancreatic head cancer 或 periampullary tumor。",
+      "frequency": 6,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "virchow_node",
+      "name": "魏爾嘯淋巴結 (Virchow's Node)",
+      "aliases": [
+        "Virchow node",
+        "Troisier sign",
+        "左鎖骨上淋巴結"
+      ],
+      "category": "胃腸肝膽科 / 腫瘤科",
+      "origin_type": "人名解剖/腫瘤轉移",
+      "description": "左鎖骨上淋巴結腫大，常代表腹腔或胸腔惡性腫瘤經胸管轉移。",
+      "clinical_signs": "無痛、堅硬淋巴結，合併體重下降、食慾差或胃腸道症狀時更需警覺。",
+      "exam_focus": "國考常連到胃癌轉移。左鎖骨上 = Virchow node；卵巢 Krukenberg tumor 也常與胃癌轉移一起考。",
+      "frequency": 6,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "meckel_diverticulum",
+      "name": "梅克爾憩室 (Meckel Diverticulum)",
+      "aliases": [
+        "Meckel diverticulum",
+        "Rule of 2s",
+        "梅克爾氏憩室"
+      ],
+      "category": "胃腸肝膽科 / 小兒科",
+      "origin_type": "人名疾病",
+      "description": "卵黃腸管未退化造成的真性憩室，可含異位胃黏膜，導致兒童無痛性下消化道出血。",
+      "clinical_signs": "兒童反覆無痛性血便、腸套疊或憩室炎樣腹痛。",
+      "exam_focus": "Rule of 2s：2% 人口、距回盲瓣約 2 feet、長約 2 inches、常在 2 歲前表現。診斷常考 Tc-99m pertechnetate scan。",
+      "frequency": 10,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "pancoast_tumor",
+      "name": "潘科斯特腫瘤 (Pancoast Tumor)",
+      "aliases": [
+        "Pancoast tumor",
+        "Superior sulcus tumor"
+      ],
+      "category": "胸腔內科 / 神經科",
+      "origin_type": "人名腫瘤",
+      "description": "肺尖腫瘤侵犯臂神經叢或交感神經鏈，造成肩臂痛與 Horner syndrome。",
+      "clinical_signs": "肩痛、手部肌肉無力或萎縮，合併 ptosis、miosis、anhidrosis。",
+      "exam_focus": "肺尖腫瘤 + 肩臂痛 + Horner syndrome 是秒殺組合；不要只當成單純頸椎病變。",
+      "frequency": 5,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "takayasu_arteritis",
+      "name": "高安氏動脈炎 (Takayasu Arteritis)",
+      "aliases": [
+        "Takayasu arteritis",
+        "高安動脈炎",
+        "Pulseless disease"
+      ],
+      "category": "風濕免疫科 / 心臟內科",
+      "origin_type": "人名疾病",
+      "description": "年輕女性較常見的大血管炎，侵犯主動脈及其分支，造成脈搏減弱與四肢血壓差。",
+      "clinical_signs": "上肢脈搏不對稱、血壓差、血管雜音、肢體疲乏或腦缺血症狀。",
+      "exam_focus": "年輕女性 + 上肢 pulseless/血壓差 + 主動脈分支狹窄，想到 Takayasu；與巨細胞動脈炎的年齡層不同。",
+      "frequency": 7,
+      "related_questions": [],
+      "stage": "一階"
     }
   ]
 }

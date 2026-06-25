@@ -24,6 +24,11 @@ interface QuizQuestion {
   correctIndex: number;
 }
 
+function pickRandom<T>(items: T[]): T | null {
+  if (items.length === 0) return null;
+  return items[Math.floor(Math.random() * items.length)];
+}
+
 export function DiseaseComparePage({
   stickyNotes,
   onAddNote,
@@ -79,6 +84,7 @@ export function DiseaseComparePage({
   const [guidelineSearch, setGuidelineSearch] = useState<string>("");
   const [guidelineSelfTest, setGuidelineSelfTest] = useState<boolean>(false);
   const [revealedGuidelines, setRevealedGuidelines] = useState<Record<string, boolean>>({});
+  const [mustKnowOnly, setMustKnowOnly] = useState<boolean>(false);
 
   // Quiz State
   const [quizList, setQuizList] = useState<QuizQuestion[]>([]);
@@ -88,6 +94,7 @@ export function DiseaseComparePage({
 
   // Note Input State
   const [noteInput, setNoteInput] = useState<string>("");
+  const mustKnowThreshold = 10;
 
   // Load comparison groups
   useEffect(() => {
@@ -180,17 +187,21 @@ export function DiseaseComparePage({
   }, [subTab, guidelines.length]);
 
   const filteredGlossary = useMemo(() => {
-    return glossary.filter((entry) => {
-      const searchLower = glossarySearch.toLowerCase();
-      return (
-        !glossarySearch ||
-        entry.name.toLowerCase().includes(searchLower) ||
-        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
-        entry.explanation.toLowerCase().includes(searchLower) ||
-        entry.exam_focus.toLowerCase().includes(searchLower)
-      );
-    });
-  }, [glossary, glossarySearch]);
+    const searchLower = glossarySearch.trim().toLowerCase();
+    return glossary
+      .filter((entry) => {
+        if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
+        return (
+          !searchLower ||
+          entry.name.toLowerCase().includes(searchLower) ||
+          entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+          entry.category.toLowerCase().includes(searchLower) ||
+          entry.explanation.toLowerCase().includes(searchLower) ||
+          entry.exam_focus.toLowerCase().includes(searchLower)
+        );
+      })
+      .sort((a, b) => b.frequency - a.frequency || a.name.localeCompare(b.name, "zh-Hant"));
+  }, [glossary, glossarySearch, mustKnowOnly]);
 
   const selectedGlossary = useMemo(() => {
     return filteredGlossary.find((entry) => entry.id === selectedGlossaryId) || filteredGlossary[0] || null;
@@ -213,18 +224,23 @@ export function DiseaseComparePage({
   }, [filteredGlossary]);
 
   const filteredEponyms = useMemo(() => {
-    return eponyms.filter((entry) => {
-      const searchLower = eponymSearch.toLowerCase();
-      return (
-        !eponymSearch ||
-        entry.name.toLowerCase().includes(searchLower) ||
-        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
-        entry.description.toLowerCase().includes(searchLower) ||
-        entry.clinical_signs.toLowerCase().includes(searchLower) ||
-        entry.exam_focus.toLowerCase().includes(searchLower)
-      );
-    });
-  }, [eponyms, eponymSearch]);
+    const searchLower = eponymSearch.trim().toLowerCase();
+    return eponyms
+      .filter((entry) => {
+        if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
+        return (
+          !searchLower ||
+          entry.name.toLowerCase().includes(searchLower) ||
+          entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+          entry.category.toLowerCase().includes(searchLower) ||
+          entry.origin_type.toLowerCase().includes(searchLower) ||
+          entry.description.toLowerCase().includes(searchLower) ||
+          entry.clinical_signs.toLowerCase().includes(searchLower) ||
+          entry.exam_focus.toLowerCase().includes(searchLower)
+        );
+      })
+      .sort((a, b) => b.frequency - a.frequency || a.name.localeCompare(b.name, "zh-Hant"));
+  }, [eponyms, eponymSearch, mustKnowOnly]);
 
   const selectedEponym = useMemo(() => {
     return filteredEponyms.find((entry) => entry.id === selectedEponymId) || filteredEponyms[0] || null;
@@ -247,23 +263,42 @@ export function DiseaseComparePage({
   }, [filteredEponyms]);
 
   const filteredGuidelines = useMemo(() => {
-    return guidelines.filter((entry) => {
-      const searchLower = guidelineSearch.toLowerCase();
-      return (
-        !guidelineSearch ||
-        entry.title.toLowerCase().includes(searchLower) ||
-        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
-        entry.scenario.toLowerCase().includes(searchLower) ||
-        entry.first_line_action.toLowerCase().includes(searchLower) ||
-        entry.dosage_info.toLowerCase().includes(searchLower) ||
-        entry.common_traps.toLowerCase().includes(searchLower)
-      );
-    });
-  }, [guidelines, guidelineSearch]);
+    const searchLower = guidelineSearch.trim().toLowerCase();
+    return guidelines
+      .filter((entry) => {
+        if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
+        return (
+          !searchLower ||
+          entry.title.toLowerCase().includes(searchLower) ||
+          entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+          entry.category.toLowerCase().includes(searchLower) ||
+          entry.scenario.toLowerCase().includes(searchLower) ||
+          entry.first_line_action.toLowerCase().includes(searchLower) ||
+          entry.dosage_info.toLowerCase().includes(searchLower) ||
+          entry.common_traps.toLowerCase().includes(searchLower)
+        );
+      })
+      .sort((a, b) => b.frequency - a.frequency || a.title.localeCompare(b.title, "zh-Hant"));
+  }, [guidelines, guidelineSearch, mustKnowOnly]);
 
   const selectedGuideline = useMemo(() => {
     return filteredGuidelines.find((entry) => entry.id === selectedGuidelineId) || filteredGuidelines[0] || null;
   }, [filteredGuidelines, selectedGuidelineId]);
+
+  const handlePickRandomGlossary = () => {
+    const item = pickRandom(filteredGlossary);
+    if (item) setSelectedGlossaryId(item.id);
+  };
+
+  const handlePickRandomEponym = () => {
+    const item = pickRandom(filteredEponyms);
+    if (item) setSelectedEponymId(item.id);
+  };
+
+  const handlePickRandomGuideline = () => {
+    const item = pickRandom(filteredGuidelines);
+    if (item) setSelectedGuidelineId(item.id);
+  };
 
   const stagedGuidelineCategories = useMemo(() => {
     const stages: Record<string, Record<string, ClinicalGuidelineEntry[]>> = {
@@ -304,30 +339,35 @@ export function DiseaseComparePage({
   }, [facts]);
 
   const filteredFacts = useMemo(() => {
-    return facts.filter((f) => {
-      const fStage = isStage1Fact(f) ? "一階" : "二階";
+    return facts
+      .filter((f) => {
+        const fStage = isStage1Fact(f) ? "一階" : "二階";
 
-      // Stage check
-      if (selectedFactStage !== "all" && fStage !== selectedFactStage) {
-        return false;
-      }
+        // Stage check
+        if (selectedFactStage !== "all" && fStage !== selectedFactStage) {
+          return false;
+        }
 
-      // Category check
-      if (selectedFactCategory !== "全部" && f.category !== selectedFactCategory) {
-        return false;
-      }
+        // Category check
+        if (selectedFactCategory !== "全部" && f.category !== selectedFactCategory) {
+          return false;
+        }
 
-      const searchLower = factSearch.toLowerCase();
-      const matchSearch =
-        !factSearch ||
-        f.question_text.toLowerCase().includes(searchLower) ||
-        f.explanation.toLowerCase().includes(searchLower) ||
-        f.flashcard_front.toLowerCase().includes(searchLower) ||
-        f.flashcard_back.toLowerCase().includes(searchLower) ||
-        (f.highlight_value && f.highlight_value.toLowerCase().includes(searchLower));
+        const searchLower = factSearch.trim().toLowerCase();
+        const matchSearch =
+          !searchLower ||
+          f.subject.toLowerCase().includes(searchLower) ||
+          f.category.toLowerCase().includes(searchLower) ||
+          f.question_text.toLowerCase().includes(searchLower) ||
+          f.explanation.toLowerCase().includes(searchLower) ||
+          f.flashcard_front.toLowerCase().includes(searchLower) ||
+          f.flashcard_back.toLowerCase().includes(searchLower) ||
+          f.reason.toLowerCase().includes(searchLower) ||
+          (f.highlight_value && f.highlight_value.toLowerCase().includes(searchLower));
 
-      return matchSearch;
-    });
+        return matchSearch;
+      })
+      .sort((a, b) => Number(b.year) - Number(a.year) || a.category.localeCompare(b.category, "zh-Hant"));
   }, [facts, selectedFactStage, selectedFactCategory, factSearch]);
 
   const selectedGroup = useMemo(() => {
@@ -1172,6 +1212,33 @@ export function DiseaseComparePage({
                 />
                 <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
               </div>
+              <div className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-[#efd9d0]/70 bg-[#fff8fb]/70 px-3 py-2">
+                <span className="text-[11px] font-bold text-[#8a7066]">
+                  顯示 {filteredGlossary.length} / {glossary.length} 筆，依出題頻率排序
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setMustKnowOnly((prev) => !prev)}
+                    className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                      mustKnowOnly
+                        ? "border-[#b8527a] bg-[#b8527a] text-white"
+                        : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                    }`}
+                  >
+                    只看高頻 ≥ {mustKnowThreshold}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handlePickRandomGlossary}
+                    disabled={filteredGlossary.length === 0}
+                    className="inline-flex items-center gap-1 rounded-lg border border-[#f1aac8] bg-white px-3 py-1.5 text-[11px] font-bold text-[#b8527a] transition hover:bg-[#fdf0f4] disabled:cursor-not-allowed disabled:opacity-45"
+                  >
+                    <Sparkles size={12} />
+                    隨機抽一張
+                  </button>
+                </div>
+              </div>
             </div>
 
             {/* Selected Item Detail */}
@@ -1405,6 +1472,33 @@ export function DiseaseComparePage({
                   className="w-full rounded-xl border border-[#efd9d0] bg-white p-3 pl-10 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
                 />
                 <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-[#efd9d0]/70 bg-[#fff8fb]/70 px-3 py-2">
+                <span className="text-[11px] font-bold text-[#8a7066]">
+                  顯示 {filteredEponyms.length} / {eponyms.length} 筆，依出題頻率排序
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setMustKnowOnly((prev) => !prev)}
+                    className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                      mustKnowOnly
+                        ? "border-[#b8527a] bg-[#b8527a] text-white"
+                        : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                    }`}
+                  >
+                    只看高頻 ≥ {mustKnowThreshold}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handlePickRandomEponym}
+                    disabled={filteredEponyms.length === 0}
+                    className="inline-flex items-center gap-1 rounded-lg border border-[#f1aac8] bg-white px-3 py-1.5 text-[11px] font-bold text-[#b8527a] transition hover:bg-[#fdf0f4] disabled:cursor-not-allowed disabled:opacity-45"
+                  >
+                    <Sparkles size={12} />
+                    隨機抽一張
+                  </button>
+                </div>
               </div>
             </div>
 
@@ -1651,6 +1745,33 @@ export function DiseaseComparePage({
                   className="w-full rounded-xl border border-[#efd9d0] bg-white p-3 pl-10 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
                 />
                 <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-[#efd9d0]/70 bg-[#fff8fb]/70 px-3 py-2">
+                <span className="text-[11px] font-bold text-[#8a7066]">
+                  顯示 {filteredGuidelines.length} / {guidelines.length} 筆，依出題頻率排序
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setMustKnowOnly((prev) => !prev)}
+                    className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                      mustKnowOnly
+                        ? "border-[#b8527a] bg-[#b8527a] text-white"
+                        : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                    }`}
+                  >
+                    只看高頻 ≥ {mustKnowThreshold}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handlePickRandomGuideline}
+                    disabled={filteredGuidelines.length === 0}
+                    className="inline-flex items-center gap-1 rounded-lg border border-[#f1aac8] bg-white px-3 py-1.5 text-[11px] font-bold text-[#b8527a] transition hover:bg-[#fdf0f4] disabled:cursor-not-allowed disabled:opacity-45"
+                  >
+                    <Sparkles size={12} />
+                    隨機抽一張
+                  </button>
+                </div>
               </div>
             </div>
 

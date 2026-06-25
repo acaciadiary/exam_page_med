@@ -17,6 +17,12 @@ import {
   type MistakeEntry,
   type MistakeStatus,
 } from "../features/mistakes/MistakeNotebookPage";
+import {
+  StudyOverviewPage,
+  type CategoryProgressStat,
+  type ExamProgressStat,
+  type StudyOverviewSummary,
+} from "../features/progress/StudyOverviewPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { DiseaseComparePage } from "../features/exam/DiseaseComparePage";
 import { RadarChart } from "../components/RadarChart";
@@ -27,6 +33,7 @@ import { getExamDisplayTitle, getSubjectLabel, getExamStage } from "../lib/examM
 import { loadExamData, loadManifest } from "../lib/loadExamData";
 import { storageKeys } from "../lib/storageKeys";
 import { compactText, isAcceptedAnswer } from "../lib/text";
+import { getDerivedQuestionCategory } from "../lib/categoryFilters";
 import { buildSearchForPage, readPageFromSearch, type AppPage } from "./routes";
 import type { AnswerOptionKey, AnswerState, ExamDataset, ExamManifest, Mode } from "../types/exam";
 import type { StickyNoteItem } from "../types/stickyNote";
@@ -68,6 +75,12 @@ const pageSeo: Record<AppPage, { title: string; description: string; path: strin
     description:
       "Ariel's Med 收錄台灣醫師國考歷屆試題，提供醫學一至醫學六線上練習、錯題複習、收藏閃卡與重點整理。",
     path: "",
+  },
+  progress: {
+    title: "進度總覽｜Ariel's Med 醫師國考題庫",
+    description:
+      "整理所有年度與科目的作答進度、正確率、錯題與弱點分類，快速掌握下一步該補強的範圍。",
+    path: "?page=progress",
   },
   diseases: {
     title: "疾病比較整理｜Ariel's Med 醫師國考題庫",
@@ -134,6 +147,21 @@ export default function App() {
   } | null>(null);
   const [allMistakes, setAllMistakes] = useState<MistakeEntry[]>([]);
   const [performanceStats, setPerformanceStats] = useState<PerformanceStat[]>([]);
+  const [examProgressStats, setExamProgressStats] = useState<ExamProgressStat[]>([]);
+  const [categoryProgressStats, setCategoryProgressStats] = useState<CategoryProgressStat[]>([]);
+  const [studySummary, setStudySummary] = useState<StudyOverviewSummary>({
+    totalAnswered: 0,
+    totalQuestions: 0,
+    totalCorrect: 0,
+    totalWrong: 0,
+    accuracy: 0,
+    completion: 0,
+    completedExamCount: 0,
+    wrongQuestionCount: 0,
+    activeWrongQuestionCount: 0,
+    favoriteCount: 0,
+    masteredMistakeCount: 0,
+  });
   const [isMistakesLoading, setIsMistakesLoading] = useState(false);
   const [favorites, setFavorites] = useState<FavoriteEntry[]>([]);
   const [isFavoritesLoading, setIsFavoritesLoading] = useState(false);
@@ -381,9 +409,23 @@ export default function App() {
 
       const entries: MistakeEntry[] = [];
       const stats = new Map<string, { answered: number; correct: number }>();
+      const examStats = new Map<string, ExamProgressStat>();
+      const categoryStats = new Map<string, CategoryProgressStat>();
 
       const examsWithAnswers = manifest.exams.filter((exam) => {
         const examAnswers = exam.id === examId ? answers : readStoredAnswers(exam.id);
+        examStats.set(exam.id, {
+          exam,
+          answered: Object.keys(examAnswers).length,
+          total: exam.question_count,
+          correct: 0,
+          wrong: 0,
+          accuracy: 0,
+          completion:
+            exam.question_count === 0
+              ? 0
+              : Math.round((Object.keys(examAnswers).length / exam.question_count) * 100),
+        });
         return Object.keys(examAnswers).length > 0;
       });
 
@@ -401,6 +443,7 @@ export default function App() {
 
       for (const { exam, dataset, examAnswers } of loadedDatasets) {
         const label = getSubjectLabel(exam);
+        const currentExamStat = examStats.get(exam.id);
 
         for (const question of dataset.questions) {
           const selectedAnswer = examAnswers[question.id];
@@ -408,10 +451,32 @@ export default function App() {
 
           const current = stats.get(label) ?? { answered: 0, correct: 0 };
           current.answered += 1;
-          if (isAcceptedAnswer(selectedAnswer, question)) current.correct += 1;
+          const correct = isAcceptedAnswer(selectedAnswer, question);
+          if (correct) current.correct += 1;
           stats.set(label, current);
 
-          if (!isAcceptedAnswer(selectedAnswer, question)) {
+          if (currentExamStat) {
+            if (correct) currentExamStat.correct += 1;
+            else currentExamStat.wrong += 1;
+          }
+
+          const category = getDerivedQuestionCategory(dataset, question);
+          const categoryKey = `${exam.subject}:${category}`;
+          const currentCategory = categoryStats.get(categoryKey) ?? {
+            key: categoryKey,
+            label: category,
+            subjectLabel: label,
+            answered: 0,
+            correct: 0,
+            wrong: 0,
+            accuracy: 0,
+          };
+          currentCategory.answered += 1;
+          if (correct) currentCategory.correct += 1;
+          else currentCategory.wrong += 1;
+          categoryStats.set(categoryKey, currentCategory);
+
+          if (!correct) {
             const key = mistakeKey(exam.id, question.id);
             entries.push({
               exam,
@@ -421,10 +486,53 @@ export default function App() {
             });
           }
         }
+
+        if (currentExamStat) {
+          currentExamStat.accuracy =
+            currentExamStat.answered === 0
+              ? 0
+              : Math.round((currentExamStat.correct / currentExamStat.answered) * 100);
+          examStats.set(exam.id, currentExamStat);
+        }
       }
 
       if (!cancelled) {
+        const examProgress = Array.from(examStats.values()).sort((a, b) => {
+          const yearCompare = b.exam.year.localeCompare(a.exam.year, "zh-Hant", { numeric: true });
+          if (yearCompare !== 0) return yearCompare;
+          return a.exam.subject.localeCompare(b.exam.subject, "zh-Hant", { numeric: true });
+        });
+        const categoryProgress = Array.from(categoryStats.values())
+          .map((stat) => ({
+            ...stat,
+            accuracy: stat.answered === 0 ? 0 : Math.round((stat.correct / stat.answered) * 100),
+          }))
+          .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong);
+        const totalQuestions = manifest.exams.reduce((sum, exam) => sum + exam.question_count, 0);
+        const totalAnswered = examProgress.reduce((sum, stat) => sum + stat.answered, 0);
+        const totalCorrect = examProgress.reduce((sum, stat) => sum + stat.correct, 0);
+        const totalWrong = examProgress.reduce((sum, stat) => sum + stat.wrong, 0);
+        const masteredMistakeCount = entries.filter((entry) => entry.status === "mastered").length;
+
         setAllMistakes(entries);
+        setExamProgressStats(examProgress);
+        setCategoryProgressStats(categoryProgress);
+        setStudySummary({
+          totalAnswered,
+          totalQuestions,
+          totalCorrect,
+          totalWrong,
+          accuracy: totalAnswered === 0 ? 0 : Math.round((totalCorrect / totalAnswered) * 100),
+          completion:
+            totalQuestions === 0 ? 0 : Math.round((totalAnswered / totalQuestions) * 100),
+          completedExamCount: examProgress.filter(
+            (stat) => stat.total > 0 && stat.answered >= stat.total,
+          ).length,
+          wrongQuestionCount: entries.length,
+          activeWrongQuestionCount: entries.filter((entry) => entry.status !== "mastered").length,
+          favoriteCount: favorites.length,
+          masteredMistakeCount,
+        });
         setPerformanceStats(
           Array.from(stats.entries())
             .map(([label, stat]) => ({
@@ -443,6 +551,21 @@ export default function App() {
       if (!cancelled) {
         setAllMistakes([]);
         setPerformanceStats([]);
+        setExamProgressStats([]);
+        setCategoryProgressStats([]);
+        setStudySummary({
+          totalAnswered: 0,
+          totalQuestions: 0,
+          totalCorrect: 0,
+          totalWrong: 0,
+          accuracy: 0,
+          completion: 0,
+          completedExamCount: 0,
+          wrongQuestionCount: 0,
+          activeWrongQuestionCount: 0,
+          favoriteCount: favorites.length,
+          masteredMistakeCount: 0,
+        });
         setIsMistakesLoading(false);
       }
     });
@@ -450,7 +573,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [answers, examId, mistakeStatuses, readyDataset, state]);
+  }, [answers, examId, favorites.length, mistakeStatuses, readyDataset, state]);
 
   useEffect(() => {
     if (state.status !== "ready") return undefined;
@@ -544,6 +667,13 @@ export default function App() {
     setActiveExamId(targetExamId);
     setPendingQuestion({ examId: targetExamId, questionId });
     handlePageChange("exam");
+  };
+
+  const openExam = (targetExamId: string) => {
+    setMode("exam");
+    setActiveExamId(targetExamId);
+    handlePageChange("exam");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleQuestionFocusComplete = useCallback((questionId: string) => {
@@ -870,6 +1000,20 @@ export default function App() {
   const continueExam = continueTarget
     ? manifest.exams.find((exam) => exam.id === continueTarget.examId) ?? null
     : null;
+  const overviewSummary = {
+    ...studySummary,
+    favoriteCount: favorites.length,
+  };
+  const continueTitle = continueQuestion
+    ? `從第 ${continueQuestion.question_number} 題繼續`
+    : continueExam
+    ? `回到 ${getExamDisplayTitle(continueExam)}`
+    : "開始今天的第一題";
+  const continueDescription = continueQuestion
+    ? compactText(continueQuestion.question_text, 92)
+    : continueExam
+    ? getExamDisplayTitle(continueExam)
+    : "系統會自動帶你到下一題未作答題目。";
 
   return (
     <>
@@ -963,7 +1107,23 @@ export default function App() {
           />
         )}
 
-        {page === "mistakes" ? (
+        {page === "progress" ? (
+          <StudyOverviewPage
+            summary={overviewSummary}
+            examStats={examProgressStats}
+            categoryStats={categoryProgressStats}
+            continueTitle={continueTitle}
+            continueDescription={continueDescription}
+            canContinue={Boolean(continueTarget)}
+            onContinuePractice={() => {
+              if (!continueTarget) return;
+              openQuestion(continueTarget.examId, continueTarget.questionId);
+            }}
+            onOpenExam={openExam}
+            onGoMistakes={() => handlePageChange("mistakes")}
+            onGoFavorites={() => handlePageChange("favorites")}
+          />
+        ) : page === "mistakes" ? (
           <MistakeNotebookPage
             mistakes={allMistakes}
             loading={isMistakesLoading}

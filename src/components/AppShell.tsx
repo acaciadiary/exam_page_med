@@ -6,6 +6,7 @@ import {
   ChevronDown,
   ClipboardX,
   Download,
+  LayoutDashboard,
   Menu,
   NotebookPen,
   PanelLeftClose,
@@ -134,6 +135,12 @@ export function AppShell({
       label: "國考題",
       mobileLabel: "國考題",
       icon: <BookOpenCheck size={18} />,
+    },
+    {
+      page: "progress" as const,
+      label: "進度總覽",
+      mobileLabel: "進度",
+      icon: <LayoutDashboard size={18} />,
     },
     {
       page: "diseases" as const,

@@ -25,6 +25,9 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
   const [totalInSession, setTotalInSession] = useState<number>(0);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
   const [selectedCategory, setSelectedCategory] = useState<string>("全部");
+  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [highYieldOnly, setHighYieldOnly] = useState<boolean>(false);
+  const [missedCount, setMissedCount] = useState<number>(0);
 
   // Flatten the disease comparisons into individual disease cards
   const allCards = useMemo(() => {
@@ -62,11 +65,39 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
     return Array.from(cats);
   }, [allCards]);
 
-  // Filter cards based on selected category
+  const isHighYieldCard = (card: CardItem) => {
+    return (
+      card.importance.includes("★★★") ||
+      /高頻|必考|常考|核心/.test(card.importance) ||
+      card.highlightKeywords.length >= 3
+    );
+  };
+
+  // Filter cards based on selected category, search and high-yield mode
   const filteredCards = useMemo(() => {
-    if (selectedCategory === "全部") return allCards;
-    return allCards.filter((card) => card.category.includes(selectedCategory));
-  }, [allCards, selectedCategory]);
+    const query = searchTerm.trim().toLowerCase();
+    return allCards.filter((card) => {
+      if (selectedCategory !== "全部" && !card.category.includes(selectedCategory)) return false;
+      if (highYieldOnly && !isHighYieldCard(card)) return false;
+      if (!query) return true;
+
+      const searchableText = [
+        card.diseaseName,
+        card.groupTitle,
+        card.category,
+        card.importance,
+        card.focusTips,
+        card.commonTraps,
+        ...card.highlightKeywords,
+        ...Object.keys(card.features),
+        ...Object.values(card.features),
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      return searchableText.includes(query);
+    });
+  }, [allCards, selectedCategory, searchTerm, highYieldOnly]);
 
   // Initialize/Reset Deck
   const handleResetDeck = () => {
@@ -74,6 +105,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
     const shuffled = [...filteredCards].sort(() => Math.random() - 0.5);
     setDeck(shuffled);
     setMasteredCount(0);
+    setMissedCount(0);
     setTotalInSession(shuffled.length);
   };
 
@@ -97,6 +129,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
   const handleFailed = () => {
     setIsFlipped(false);
     setTimeout(() => {
+      setMissedCount((prev) => prev + 1);
       setDeck((prev) => {
         if (prev.length <= 1) return prev;
         const [first, ...rest] = prev;
@@ -114,8 +147,9 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
     const regex = new RegExp(`(${escapedKeywords.join("|")})`, "gi");
 
     const parts = text.split(regex);
+    const lowerKeywords = new Set(sortedKeywords.map((keyword) => keyword.toLowerCase()));
     return parts.map((part, index) =>
-      regex.test(part) ? (
+      lowerKeywords.has(part.toLowerCase()) ? (
         <mark key={index} className="bg-[#ffe4e6] text-[#b8527a] px-0.5 rounded font-bold">
           {part}
         </mark>
@@ -148,7 +182,33 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
       `}</style>
 
       {/* Control Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-4 bg-white/70 p-4 rounded-2xl border border-white/90 shadow-sm backdrop-blur-md">
+      <div className="space-y-3 bg-white/70 p-4 rounded-2xl border border-white/90 shadow-sm backdrop-blur-md">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-[220px] flex-1">
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="搜尋疾病、關鍵字或陷阱（例如：Murphy、Aspirin、低血糖）"
+              className="w-full rounded-xl border border-[#efd9d0] bg-white px-3 py-2 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-lg border border-[#efd9d0]/70 bg-[#fff8fb]/80 px-3 py-1.5 text-[11px] font-bold text-[#8a7066]">
+              目前牌組 {filteredCards.length} / {allCards.length} 張
+            </span>
+            <button
+              type="button"
+              onClick={handleResetDeck}
+              className="px-3.5 py-1.5 text-xs font-bold text-[#b8527a] bg-[#fdf0f4] hover:bg-[#fbdde8] rounded-xl transition flex items-center gap-1.5 cursor-pointer border border-[#fbdde8]"
+            >
+              <Shuffle size={13} />
+              重新洗牌
+            </button>
+          </div>
+        </div>
+
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-bold text-[#6f5b50]">篩選科目：</span>
           <div className="flex flex-wrap gap-1">
@@ -167,16 +227,18 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
               </button>
             ))}
           </div>
+          <button
+            type="button"
+            onClick={() => setHighYieldOnly((prev) => !prev)}
+            className={`px-3 py-1 text-xs font-bold rounded-lg border transition cursor-pointer ${
+              highYieldOnly
+                ? "bg-[#b8527a] text-white border-[#b8527a]"
+                : "bg-white/60 text-[#6f5b50] hover:bg-white border-[#efd9d0]"
+            }`}
+          >
+            只練高頻
+          </button>
         </div>
-
-        <button
-          type="button"
-          onClick={handleResetDeck}
-          className="px-3.5 py-1.5 text-xs font-bold text-[#b8527a] bg-[#fdf0f4] hover:bg-[#fbdde8] rounded-xl transition flex items-center gap-1.5 cursor-pointer border border-[#fbdde8]"
-        >
-          <Shuffle size={13} />
-          重新洗牌
-        </button>
       </div>
 
       {/* Session Progress */}
@@ -184,7 +246,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
         <div className="space-y-2">
           <div className="flex justify-between text-xs font-bold text-[#8a7066]">
             <span>記憶特訓中：已掌握 {masteredCount} / {totalInSession} 張卡片</span>
-            <span>剩餘 {deck.length} 張</span>
+            <span>答錯 {missedCount} 次，剩餘 {deck.length} 張</span>
           </div>
           <div className="w-full bg-[#efd9d0]/60 h-2 rounded-full overflow-hidden">
             <div

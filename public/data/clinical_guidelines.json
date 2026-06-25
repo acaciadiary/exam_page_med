@@ -452,6 +452,157 @@
         }
       ],
       "stage": "二階"
+    },
+    {
+      "id": "septic_shock_initial_bundle",
+      "title": "敗血性休克初始處置 (Septic Shock Initial Bundle)",
+      "aliases": [
+        "Sepsis",
+        "Septic shock",
+        "敗血症",
+        "敗血性休克",
+        "Norepinephrine"
+      ],
+      "category": "急診醫學 / 感染科 / 重症醫學",
+      "scenario": "感染病人出現低血壓、乳酸升高或器官灌流不足，需立即辨識敗血症與敗血性休克。",
+      "first_line_action": "抽血培養與乳酸、及早給廣效抗生素、補充 crystalloid，若補液後仍低血壓則使用 norepinephrine 維持 MAP。",
+      "dosage_info": "常考初始輸液 crystalloid 30 mL/kg；MAP 目標通常 >= 65 mmHg。抗生素越早越好，休克病人常以 1 小時內給予作為考點。",
+      "common_traps": "不要把 dopamine 當成一般首選升壓劑；也不要為了等培養結果而延誤抗生素。補液後仍低血壓才進入升壓劑思路。",
+      "frequency": 30,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "organophosphate_poisoning",
+      "title": "有機磷中毒處置 (Organophosphate Poisoning)",
+      "aliases": [
+        "有機磷",
+        "農藥中毒",
+        "SLUDGE",
+        "DUMBELS",
+        "Atropine",
+        "Pralidoxime"
+      ],
+      "category": "急診醫學 / 毒物學",
+      "scenario": "農藥暴露後出現流涎、流淚、腹瀉、支氣管分泌物增加、瞳孔縮小、肌束顫動或呼吸衰竭。",
+      "first_line_action": "先去污與保護呼吸道，接著給 atropine 與 pralidoxime (2-PAM)。",
+      "dosage_info": "Atropine 依分泌物與支氣管痙攣反應重複給藥；pralidoxime 用於重新活化 acetylcholinesterase，越早越好，避免 aging 後效果下降。",
+      "common_traps": "Atropine 主要改善 muscarinic 症狀，對肌無力較不足；不要只給 atropine 忘記 2-PAM，也不要忽略呼吸道與除污。",
+      "frequency": 18,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "acetaminophen_overdose",
+      "title": "乙醯胺酚過量處置 (Acetaminophen Overdose)",
+      "aliases": [
+        "Acetaminophen",
+        "Paracetamol",
+        "APAP",
+        "Tylenol",
+        "N-acetylcysteine",
+        "NAC"
+      ],
+      "category": "急診醫學 / 毒物學",
+      "scenario": "大量服用止痛退燒藥後初期可能症狀輕微，但之後可能進展為嚴重肝毒性。",
+      "first_line_action": "依服藥時間與血中濃度使用 Rumack-Matthew nomogram 評估，符合風險或資訊不明且疑似高風險時給 N-acetylcysteine (NAC)。",
+      "dosage_info": "NAC 越早給越好，尤其 8-10 小時內效果最佳。若服藥時間不明、延遲就醫或肝指數異常，考題通常傾向及早給 NAC。",
+      "common_traps": "不要因早期沒有症狀就放心。若服藥不到 4 小時，血中濃度可能尚未達峰值，需依時間點重新抽血判讀。",
+      "frequency": 15,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "opioid_overdose",
+      "title": "鴉片類藥物過量處置 (Opioid Overdose)",
+      "aliases": [
+        "Opioid overdose",
+        "Morphine toxicity",
+        "Fentanyl",
+        "Naloxone"
+      ],
+      "category": "急診醫學 / 毒物學",
+      "scenario": "意識低下、呼吸抑制、針尖樣瞳孔，可能合併 CO2 retention。",
+      "first_line_action": "先確保呼吸道與通氣，再給 naloxone 逆轉呼吸抑制。",
+      "dosage_info": "Naloxone 作用時間可能短於 opioid，尤其長效 opioid 或 fentanyl 暴露時需重複給藥或持續輸注，並持續監測再度呼吸抑制。",
+      "common_traps": "Naloxone 不是給完就結束，病人可能再度昏迷；慢性使用者快速逆轉可能誘發戒斷，仍以恢復有效呼吸為主要目標。",
+      "frequency": 12,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "hyperkalemia_emergency",
+      "title": "高血鉀急症處置 (Hyperkalemia Emergency)",
+      "aliases": [
+        "Hyperkalemia",
+        "高血鉀",
+        "Calcium gluconate",
+        "Insulin glucose"
+      ],
+      "category": "急診醫學 / 內科學 / 心臟內科",
+      "scenario": "高血鉀合併 ECG 變化，例如 peaked T wave、PR prolongation、QRS widening 或 sine wave。",
+      "first_line_action": "若有 ECG 變化，先給 calcium gluconate 穩定心肌，再用 insulin + glucose 把鉀移入細胞，並安排真正排鉀措施。",
+      "dosage_info": "常見考點為 10% calcium gluconate 10 mL IV；之後可用 regular insulin 10 units + glucose。必要時合併 beta-agonist、利尿、樹脂或透析。",
+      "common_traps": "Insulin/glucose 只會暫時把鉀移入細胞，不能真正排鉀；calcium 也不會降低血鉀，只是穩定心肌。",
+      "frequency": 45,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "neutropenic_fever",
+      "title": "嗜中性白血球低下發燒處置 (Neutropenic Fever)",
+      "aliases": [
+        "Febrile neutropenia",
+        "Neutropenic fever",
+        "Cefepime",
+        "Piperacillin-tazobactam"
+      ],
+      "category": "感染科 / 血液腫瘤科 / 急診醫學",
+      "scenario": "化療或血液腫瘤病人 ANC 低下且發燒，即使症狀不明顯也要視為可能快速惡化的感染。",
+      "first_line_action": "立即給抗綠膿桿菌活性的廣效 beta-lactam，例如 cefepime、piperacillin-tazobactam 或 meropenem。",
+      "dosage_info": "高風險病人通常需要住院 IV 抗生素。Vancomycin 不是常規必加，除非有導管感染、皮膚軟組織感染、肺炎或 hemodynamic instability 等線索。",
+      "common_traps": "不要等培養結果才給藥，也不要一律加 vancomycin。核心是先覆蓋 Pseudomonas，因為進展可非常快。",
+      "frequency": 20,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "bacterial_meningitis_empiric",
+      "title": "細菌性腦膜炎經驗性治療 (Bacterial Meningitis Empiric Therapy)",
+      "aliases": [
+        "Meningitis",
+        "腦膜炎",
+        "Ceftriaxone",
+        "Vancomycin",
+        "Ampicillin"
+      ],
+      "category": "感染科 / 神經科 / 急診醫學",
+      "scenario": "發燒、頭痛、頸部僵硬、意識改變，懷疑急性細菌性腦膜炎。",
+      "first_line_action": "抽血培養後立即給經驗性抗生素，不要因等待腰椎穿刺或影像而延誤。",
+      "dosage_info": "成人常考 vancomycin + ceftriaxone/cefotaxime；年長、孕婦或免疫低下者加 ampicillin 覆蓋 Listeria。符合指徵時先做 CT，但抗生素不可因此延後。",
+      "common_traps": "LP 前需要 CT 的情況不能讓抗生素延誤。考題常把流程設陷阱：先抽血培養、先給抗生素，再依風險安排 CT/LP。",
+      "frequency": 17,
+      "related_questions": [],
+      "stage": "二階"
+    },
+    {
+      "id": "variceal_bleeding",
+      "title": "食道靜脈曲張出血處置 (Variceal Bleeding)",
+      "aliases": [
+        "Variceal bleeding",
+        "Esophageal varices",
+        "Octreotide",
+        "Ceftriaxone",
+        "EVL"
+      ],
+      "category": "胃腸肝膽科 / 急診醫學",
+      "scenario": "肝硬化病人吐血、黑便或休克，懷疑食道或胃靜脈曲張破裂出血。",
+      "first_line_action": "穩定 ABC 與循環後，立即給 vasoactive agent（如 octreotide）與預防性抗生素，並安排內視鏡結紮。",
+      "dosage_info": "常考組合是 octreotide、ceftriaxone 與 endoscopic variceal ligation。若出血控制困難，可暫時 balloon tamponade 並評估 TIPS。",
+      "common_traps": "不要只給 PPI 當作上消化道出血通用答案；肝硬化靜脈曲張出血要想到 vasoactive drug、抗生素與內視鏡治療三件事。",
+      "frequency": 24,
+      "related_questions": [],
+      "stage": "二階"
     }
   ]
 }
