@@ -153,7 +153,7 @@ def build_prompt(dataset: dict[str, Any], batch_id: str, questions: list[dict[st
                 "category": profile["categories"][0],
                 "category_confidence": "high",
                 "key_point": "一句話整理本題核心考點。",
-                "explanation": "2 到 5 句繁體中文詳解，說明為何正確答案成立，並點出常見陷阱。",
+                "explanation": "結構化繁體中文詳解，格式如下：\n【題幹解析】\n（解析題幹中的重要關鍵字與臨床線索）\n\n【選項詳解】\n- A. （說明此選項正確或錯誤的原因，以及對應的醫學概念）\n- B. （說明此選項正確或錯誤的原因，以及對應的醫學概念）\n- C. （說明此選項正確或錯誤的原因，以及對應的醫學概念）\n- D. （說明此選項正確或錯誤的原因，以及對應的醫學概念）\n\n【核心考點】\n（總結此題測試的核心醫學概念）",
                 "flashcard_front": "3 到 6 個關鍵字或線索，不要放完整題目或選項。",
                 "flashcard_back": "知識點與判斷規則，用 1 到 2 句說明看到線索時該如何判斷。",
                 "flashcard_summary": "關鍵字 / 線索 -> 知識點 / 判斷規則",
@@ -170,7 +170,7 @@ def build_prompt(dataset: dict[str, Any], batch_id: str, questions: list[dict[st
 4. category 只能從 allowed_categories 選一個；如果無法明確判斷，請選「其他」，不要自行發明新科目。
 5. category_confidence 只能填 high、medium、low。
 6. key_point 用一句話整理本題核心考點。
-7. explanation 用 2 到 5 句繁體中文，說明正確答案與常見陷阱；避免寫成臨床醫囑。
+7. explanation 必須是結構化繁體中文詳解，包含【題幹解析】、【選項詳解】（A/B/C/D 逐項說明）與【核心考點】三部分。在【選項詳解】中，必須逐一針對 A、B、C、D 選項進行深入分析，說明正確答案成立的理由，以及其他選項錯誤/不適當的原因或所代表的醫學概念。請使用換行符號（\\n）將這三個部分隔開，使其在畫面上呈現清晰的段落。避免寫成臨床醫囑。
 8. flashcard_front 是閃卡正面，只放「關鍵字 / 線索」，讓考生看到線索時練習回想考點。請不要複製完整題目，不要列 A/B/C/D 選項，不要直接暴露答案。建議 3 到 6 個關鍵線索，或一句很短的臨床/基礎醫學提示。
 9. flashcard_back 是閃卡背面，只放「知識點 / 判斷規則」。請用 1 到 2 句繁體中文說明：看到正面線索時，應該想到哪個考點、如何判斷、容易跟什麼混淆。可以包含正確答案方向，但重點不是背選項，而是背判斷規則。
 10. flashcard_summary 保留為相容舊資料的短句，格式用「關鍵字 / 線索 -> 知識點 / 判斷規則」。

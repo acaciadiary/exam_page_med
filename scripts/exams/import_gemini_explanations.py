@@ -46,6 +46,13 @@ def clean(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
+def clean_preserve_newlines(value: Any) -> str:
+    text = str(value or "").replace("\r\n", "\n").strip()
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n", "\n\n", text)
+    return text
+
+
 def validate_category(dataset: dict[str, Any], item: dict[str, Any], question_id: str) -> tuple[str | None, str | None, str | None]:
     category = clean(item.get("category"))
     if not category:
@@ -155,7 +162,7 @@ def import_outputs(
                 )
 
             key_point = clean(item.get("key_point"))
-            explanation = clean(item.get("explanation"))
+            explanation = clean_preserve_newlines(item.get("explanation"))
             flashcard_front = clean(item.get("flashcard_front"))
             flashcard_back = clean(item.get("flashcard_back"))
             flashcard_summary = clean(item.get("flashcard_summary"))

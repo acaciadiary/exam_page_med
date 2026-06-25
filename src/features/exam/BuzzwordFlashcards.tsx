@@ -188,7 +188,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
       {/* Control Bar */}
       <div className="space-y-3 bg-white/70 p-4 rounded-2xl border border-white/90 shadow-sm backdrop-blur-md">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="min-w-[220px] flex-1">
+          <div className="min-w-0 flex-[1_1_14rem]">
             <input
               type="text"
               value={searchTerm}

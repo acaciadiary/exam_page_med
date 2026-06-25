@@ -287,7 +287,7 @@ export function StudyOverviewPage({
                       已作答 {yearStats.reduce((sum, stat) => sum + stat.answered, 0)} 題
                     </span>
                   </div>
-                  <div className="grid gap-3 lg:grid-cols-2">
+                  <div className="grid min-w-0 gap-3 lg:grid-cols-2">
                     {visibleStages.map((stats) => (
                       <YearStageCard
                         key={`${year}-${getExamStage(stats[0].exam)}`}
@@ -442,7 +442,7 @@ function YearStageCard({
   const unfinished = summary.total - summary.answered;
 
   return (
-    <div className="rounded-[1rem] border border-[#efd9d0] bg-white/72 p-3">
+    <div className="min-w-0 rounded-[1rem] border border-[#efd9d0] bg-white/72 p-3">
       <div className="flex items-center justify-between gap-2">
         <div>
           <p className="text-sm font-extrabold text-[#3f342d] dark:text-[#f8edf3]">{getStageLabel(stage)}</p>
@@ -464,7 +464,7 @@ function YearStageCard({
         </span>
       </div>
       <ProgressBar value={summary.completion} />
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="mt-3 grid min-w-0 grid-cols-2 gap-2 sm:flex sm:flex-wrap">
         {stats
           .slice()
           .sort((a, b) => a.exam.subject.localeCompare(b.exam.subject, "zh-Hant", { numeric: true }))
@@ -492,14 +492,14 @@ function SubjectPill({
       title={getExamDisplayTitle(stat.exam)}
       onClick={() => onOpenExam(stat.exam.id)}
       className={clsx(
-        "min-h-9 rounded-full border px-3 py-1 text-left text-[11px] font-bold transition hover:-translate-y-0.5",
+        "min-h-9 min-w-0 rounded-full border px-2.5 py-1 text-left text-[11px] font-bold transition hover:-translate-y-0.5 sm:px-3",
         state === "done" && "border-[#a8d9c8] bg-[#edf9f4] text-[#315447]",
         state === "started" && "border-[#f1aac8] bg-[#fff1f6] text-[#9a496b]",
         state === "empty" && "border-[#e7d7cf] bg-[#fffaf7] text-[#8b7666]",
       )}
     >
-      <span>{getSubjectLabel(stat.exam)}</span>
-      <span className="ml-1 opacity-80">
+      <span className="inline-block max-w-full truncate align-bottom">{getSubjectLabel(stat.exam)}</span>
+      <span className="ml-1 inline-block opacity-80">
         {stat.answered}/{stat.total}
       </span>
     </button>
