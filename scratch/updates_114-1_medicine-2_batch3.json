@@ -1,0 +1,92 @@
+[
+  {
+    "id": "114-1_medicine-2_021",
+    "key_point": "替代輕鏈 (surrogate light chain) 在 pre-B cell 階段與重鏈配對，若缺乏會使 B 細胞發育停滯於 pre-B 階段，無法發育為 immature B cell。",
+    "explanation": "【題幹解析】\n本題考查 B 細胞在骨髓與周邊組織（如脾臟）中的發育與耐受性建立過程：\n1. 骨髓發育：B 細胞在骨髓中從造血幹細胞發育為 Pro-B、Pre-B、最後成為 Immature B。在 Pre-B 階段，重鏈已完成 VDJ 重組，此時會與「替代輕鏈 (surrogate light chain，由 VpreB 和 λ5 組成)」結合，形成前 B 細胞受體 (pre-BCR) 傳遞存活與分裂訊號。若「無法表現替代輕鏈」，B 細胞發育將會停滯在 Pre-B cell 階段，而無法進入後續的輕鏈重組與 Immature B cell 階段。\n2. 耐受性 (Tolerance)：\n   - 中樞耐受性 (Central tolerance)：在骨髓中，若 Immature B 細胞對自體抗原呈強烈反應，會透過受體編輯 (receptor editing) 重新排列輕鏈，若仍失敗則會發生細胞凋亡（clonal deletion/清除）或無反應性 (anergy)。\n   - 周邊耐受性 (Peripheral tolerance)：在脾臟等周邊器官中，過渡期 B 細胞若辨識自體抗原，也可以被清除或轉為無反應性。\n\n【選項詳解】\n- A. 骨髓是B 細胞開始進行發育的器官：正確。B 細胞的早期抗原非依賴性發育（從 Pro-B 到 Immature B）是在骨髓 (bone marrow) 中進行。\n- B. 會辨識自體抗原的B 細胞可以在骨髓中被清除：正確。此為中樞耐受性機制，透過克隆清除 (clonal deletion) 或受體編輯來淘汰自抗原反應性細胞。\n- C. 會辨識自體抗原的B 細胞可以在脾臟中被清除：正確。此為周邊耐受性機制，在骨髓中逃逸的自反應性 B 細胞，在脾臟等周邊部位被排除。\n- D. 無法表現替代輕鏈(surrogate light chain)的B 細胞,發育時會停滯在immature B 細胞時期：錯誤。替代輕鏈是 pre-BCR 的核心組件。無法表現替代輕鏈會使發育停滯在 Pre-B cell 時期（在 pre-B cell 檢查點 checkpoint 被淘汰），而不是 immature B cell 時期。\n\n【核心考點】\n本題考查 B 細胞發育各階段與 pre-BCR 的分子組件。Pre-B cell 的標誌是 Pre-BCR 的表達，其包含重鏈與替代輕鏈（surrogate light chain）。若替代輕鏈缺損，發育會卡在 Pre-B 階段。",
+    "flashcard_front": "B 細胞發育階段 / 替代輕鏈 / pre-BCR / 中樞與周邊耐受性",
+    "flashcard_back": "替代輕鏈在 pre-B cell 階段與重鏈結合形成 pre-BCR。若缺乏替代輕鏈，發育將停滯在 pre-B cell 階段，無法進展至 immature B cell。",
+    "flashcard_summary": "缺乏替代輕鏈 -> B 細胞發育停滯在 Pre-B 細胞時期，無法發育為 immature B",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_022",
+    "key_point": "T 淋巴細胞生成（前驅細胞產生於骨髓）與發育、成熟的位置在胸腺 (thymus)。",
+    "explanation": "【題幹解析】\nT 淋巴細胞 (T cells) 雖然其最初的共同淋巴前驅細胞 (common lymphoid progenitor) 是在骨髓 (bone marrow) 中生成，但這些前驅細胞隨後會經由血液遷移至「胸腺 (thymus)」進行分化、發育、受體 (TCR) 重組，以及陽性選擇 (positive selection) 和陰性選擇 (negative selection)，最終分化成熟為具備免疫功能的 naive CD4+ 和 CD8+ T 細胞。\n\n【選項詳解】\n- A. 肺臟：錯誤。肺臟是呼吸器官，非淋巴細胞生成或發育的場所。\n- B. 脾臟：錯誤。脾臟是次級淋巴器官 (secondary lymphoid organ)，是成熟 T 細胞受抗原刺激並產生免疫應答的部位，而非 T 細胞發育與成熟的部位。\n- C. 淋巴結：錯誤。淋巴結也是次級淋巴器官，負責過濾淋巴液與免疫應答，非 T 細胞發育成熟的初級淋巴器官。\n- D. 胸腺：正確。胸腺是初級淋巴器官 (primary lymphoid organ)，是 T 細胞發育、分化及篩選（成熟）的唯一位置。\n\n【核心考點】\n本題考查免疫器官的分類。初級淋巴器官 (Primary/Central lymphoid organs) 包括骨髓（B細胞成熟處、所有血球生成處）與胸腺（T細胞成熟處）。次級淋巴器官 (Secondary/Peripheral lymphoid organs) 包括脾臟、淋巴結、黏膜相關淋巴組織 (MALT) 等。",
+    "flashcard_front": "T 淋巴細胞 / 發育與成熟 / 初級淋巴器官 / 胸腺",
+    "flashcard_back": "T 細胞的前驅細胞生成於骨髓，但必須遷移至胸腺 (thymus) 進行分化、受體重組與陽性/陰性篩選以發育成熟。",
+    "flashcard_summary": "T 細胞發育位置 -> 胸腺 (thymus)",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_023",
+    "key_point": "結核菌素肉芽腫主要由 TH1（分泌 IFN-γ 活化巨噬細胞）而非 TH17 主導；慢性肉芽腫病 (CGD) 常見於 NADPH 氧化酶突變。",
+    "explanation": "【題幹解析】\n結核分枝桿菌 (Mycobacterium tuberculosis) 感染引發的肉芽腫 (granuloma) 是一種遲發型超敏反應（第四型）。\n1. 免疫機制：當巨噬細胞吞噬結核菌後，因無法有效將其消滅，會將抗原呈現給 CD4+ T 細胞。T 細胞分化為 「TH1 細胞」，並分泌大量干擾素-γ (IFN-γ) 活化巨噬細胞。被活化的巨噬細胞會釋放 TNF-α，召集更多巨噬細胞與淋巴細胞，部分巨噬細胞會融合形成多核巨細胞（Langhans giant cells）及上皮樣細胞 (epithelioid cells)，圍繞在結核菌周圍，形成肉芽腫阻斷傳播。因此，圍繞在巨噬細胞周圍的主要為 TH1 細胞（而非 TH17 細胞）。\n2. NADPH oxidase 基因突變：此突變會導致「慢性肉芽腫病 (Chronic Granulomatous Disease, CGD)」，患者的吞噬細胞因缺乏活性氧 (ROS) 而無法有效殺死過氧化氫酶陽性 (catalase-positive) 細菌，因此會形成廣泛的肉芽腫，這與結核菌素肉芽腫的細胞組成和機制有相似的吞噬缺損表現。\n\n【選項詳解】\n- A. 巨噬細胞無法有效清除感染的Mycobacterium tuberculosis：正確。結核菌能抑制吞噬體與溶酶體融合，巨噬細胞若無 T 細胞（IFN-γ）活化，無法有效清除它，因而需要形成肉芽腫包圍。\n- B. 被感染的巨噬細胞形成融合在一起的現象：正確。在 IFN-γ 刺激下，上皮樣巨噬細胞可融合形成 Langhans 多核巨細胞。\n- C. 常見TH17 細胞圍繞在融合的巨噬細胞周圍：錯誤。肉芽腫的形成與維持主要是由「TH1 細胞」（釋放 IFN-γ、TNF-α）以及巨噬細胞所主導，而非 TH17 細胞（TH17 主要對抗胞外細菌與真菌，募集嗜中性球）。\n- D. 常見於病人帶有NADPH oxidase 基因突變：正確。NADPH oxidase 缺陷的 CGD 患者，吞噬細胞呼吸爆發 (respiratory burst) 受阻，無法殺滅特定病原，臨床上會在多處組織形成類似的慢性肉芽腫。\n\n【核心考點】\n本題考查結核分枝桿菌肉芽腫的免疫學機制。重點在於 TH1 介導的細胞免疫（IFN-γ、TNF-α）是肉芽腫形成的核心，且應將 CGD（NADPH 氧化酶突變）與肉芽腫的關聯列入考量。",
+    "flashcard_front": "肺結核肉芽腫 / TH1 細胞 / Langhans 巨細胞 / NADPH 突變 (CGD)",
+    "flashcard_back": "結核菌肉芽腫主要由 TH1 細胞（釋放 IFN-γ 活化巨噬細胞）主導，而非 TH17。NADPH 氧化酶突變會導致慢性肉芽腫病 (CGD)。",
+    "flashcard_summary": "結核肉芽腫 -> 由 TH1 細胞與 IFN-γ 主導，非 TH17；NADPH 氧化酶突變會造成 CGD",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_024",
+    "key_point": "體細胞超突變 (SHM) 由 AID 催化，主要發生在抗體的可變區 (Variable region) 而非恆定區 (Fc/Constant region) 以促進親和力成熟。",
+    "explanation": "【題幹解析】\n體細胞超突變 (somatic hypermutation, SHM) 是抗體反應中的重要機制：\n1. 發生地點：主要在次級淋巴器官（如脾臟、淋巴結）生發中心 (germinal center) 的 B 細胞中發生。\n2. 機轉：由活化誘導胞苷去氨酶 (activation-induced cytidine deaminase, AID) 催化，它會靶向已經重組完成的免疫球蛋白基因的「可變區 (Variable region, V region)」，將胞苷 (C) 轉化為尿苷 (U)，進而在複製與修復時產生高頻率的點突變。突變若是發生在恆定區 (Constant region / Fc region)，則無法改變抗體與抗原的結合能力。\n3. 結果：隨後進行克隆選擇，只有突變後與抗原親和力更高的 B 細胞能獲得存活訊號而增殖，這稱為親和力成熟 (affinity maturation)。突變也進一步增加了抗體庫的多樣性 (diversity)。\n\n【選項詳解】\n- A. 主要發生在germinal center 的B 細胞中：正確。生發中心是 B 細胞活化、進行 SHM、親和力成熟與 Class switch 的主要場所。\n- B. 由activation-induced cytidine deaminase(AID)在抗體的Fc region 造成點突變：錯誤。AID 造成的點突變發生在「可變區 (Variable region)」中編碼抗原結合部位的互補決定區 (CDRs)，而不是在恆定區 (Fc region / Constant region)。\n- C. 為促進親和力成熟(affinity maturation)的主要機制：正確。高親和力克隆在 FDC (濾泡樹突細胞) 表面的抗原篩選下存活，完成親和力成熟。\n- D. 可增加抗體的多樣性(diversity)：正確。突變會產生多種不同親和力的抗體變異，顯著增加抗體多樣性。\n\n【核心考點】\n本題考查抗體多樣性與親和力成熟的分子機制。體細胞超突變 (SHM) 的關鍵特點為：發生在 V 區（可變區）而非 C 區（恆定區/Fc），由 AID 酶介單，發生於生發中心，結果是親和力成熟。",
+    "flashcard_front": "體細胞超突變 (SHM) / AID 酶 / 抗體可變區 / 親和力成熟",
+    "flashcard_back": "體細胞超突變 (SHM) 是由 AID 酶在抗體的可變區 (V region) 造成點突變，進而篩選出高親和力抗體（親和力成熟），而非在 Fc region。",
+    "flashcard_summary": "體細胞超突變突變部位 -> 抗體可變區 (V region)，非恆定區/Fc region",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_025",
+    "key_point": "結核桿菌 (Mycobacterium tuberculosis) 能長期潛伏於巨噬細胞內，主要是因為其細胞壁成分能抵抗/抑制吞噬體與溶酶體融合。",
+    "explanation": "【題幹解析】\n結核分枝桿菌 (Mycobacterium tuberculosis) 是一種典型的胞內寄生菌。當它被肺泡巨噬細胞吞噬後，通常會被包裹在吞噬體 (phagosome) 中。正常情況下，吞噬體應與溶酶體 (lysosome) 融合形成吞噬溶酶體 (phagolysosome)，並藉由酸性環境、溶菌酶及活性氧物質將細菌殺滅。然而，結核桿菌細胞壁富含脂質（如索狀因子 cord factor、硫脂 sulfatides 等），能有效「阻止吞噬體與溶酶體的融合 (inhibition of phagosome-lysosome fusion)」，使細菌得以在未酸化的吞噬體內長期存活、緩慢複製並潛伏。\n\n【選項詳解】\n- A. 複製繁殖力高：錯誤。結核菌是一種分裂極為緩慢的細菌（倍增時間長達 15-20 小時），並非靠快速複製來存活。\n- B. 抵抗吞噬體的作用：正確。其最重要的致病機制就是能阻斷吞噬體與溶酶體的融合，並抗拒酸性與水解酶的殺傷，從而「抵抗吞噬體的作用」。\n- C. 抑制樹突細胞抗原呈獻：錯誤。雖然結核菌感染可干擾免疫反應，但使其能在細胞內長期生存、潛伏的最直接因素是逃避胞內溶酶體的殺滅作用。\n- D. 抗原變異性大：錯誤。結核菌的基因體相對穩定，不具備如流感病毒或 HIV 那樣的高抗原變異性。\n\n【核心考點】\n本題考查結核桿菌的致病與胞內存活機轉。結核菌逃避宿主清除的標誌性機制是：抑制吞噬體-溶酶體融合 (phagosome-lysosome fusion)。",
+    "flashcard_front": "結核分枝桿菌 / 胞內寄生 / 吞噬體-溶酶體融合抑制 / 索狀因子",
+    "flashcard_back": "結核分枝桿菌能長期潛伏於巨噬細胞內，主因是其細胞壁脂質成分能抑制吞噬體與溶酶體的融合，使細菌不被溶酶體酶破壞。",
+    "flashcard_summary": "結核菌胞內潛伏主因 -> 抑制/抵抗吞噬體與溶酶體融合",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_026",
+    "key_point": "多發性硬化症 (MS) 是由 T 細胞（TH1 與 TH17）攻擊中樞神經系統髓鞘所致的自體免疫疾病。",
+    "explanation": "【題幹解析】\n本題考查幾種常見自體免疫疾病的病理機制與受累器官：\n1. 多發性硬化症 (Multiple Sclerosis, MS)：是一種中樞神經系統 (CNS) 的慢性發炎性脫髓鞘疾病。其發病機轉主要是自體反應性 T 細胞（主要是 TH1 和 TH17）穿過血腦屏障 (BBB) 進入 CNS，攻擊神經纖維外圍的髓鞘 (myelin sheath) 蛋白，導致髓鞘受損、硬化斑塊形成，進而影響神經傳導功能。\n2. 類風濕性關節炎 (RA)：主要影響滑膜關節，雖然 T 細胞也參與其中，但受累部位是關節與軟骨而非中樞神經。\n3. 克隆氏症 (Crohn's disease)：為發炎性腸道疾病 (IBD)，主要由 T 細胞及巨噬細胞介導攻擊胃腸道黏膜。\n4. 紅斑性狼瘡 (SLE)：主要是由 B 細胞產生多種自體抗體（如 anti-dsDNA）形成免疫複合物沉積（第三型超敏反應）引起全身多器官損傷，非單純以 T 細胞攻擊中樞神經為主。\n\n【選項詳解】\n- A. 類風濕性關節炎：錯誤。病變主要侷限於周邊關節滑膜。\n- B. 多發性硬化症：正確。這是由自反應性 T 細胞攻擊中樞神經系統髓鞘鹼性蛋白 (MBP) 所引起的經典自體免疫疾病。\n- C. 克隆氏症：錯誤。病變主要累及胃腸道（跳躍性病灶、全壁發炎）。\n- D. 紅斑性狼瘡：錯誤。屬於全身性免疫複合物介導（第三型超敏反應）的自體免疫疾病，雖然可侵犯 CNS（神經精神性狼瘡），但主要是抗體介導的神經元血管炎，非 T 細胞直接攻擊髓鞘。\n\n【核心考點】\n本題考查自體免疫疾病的免疫病理分類。多發性硬化症 (MS) 是由 T 細胞（CD4+ TH1/TH17、CD8+ T）介導攻擊 CNS 髓鞘的代表性自體免疫疾病（屬於第四型超敏反應）。",
+    "flashcard_front": "多發性硬化症 (MS) / T 細胞介導 / 脫髓鞘 / 中樞神經受損",
+    "flashcard_back": "多發性硬化症 (MS) 是由自體反應性 T 細胞（TH1/TH17）跨越血腦屏障攻擊中樞神經系統的髓鞘蛋白，導致脫髓鞘與神經傳導受阻。",
+    "flashcard_summary": "多發性硬化症機轉 -> T 細胞攻擊中樞神經系統髓鞘蛋白 (脫髓鞘)",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_027",
+    "key_point": "M1 巨噬細胞具有促發炎與抗腫瘤作用，非免疫抑制性細胞；而 PD-1、Treg、IL-10 均為腫瘤微環境中的免疫抑制因子。",
+    "explanation": "【題幹解析】\n在腫瘤微環境 (tumor microenvironment, TME) 中，腫瘤細胞為了逃避免疫監視，會利用多種機制建立免疫抑制屏障：\n1. 免疫抑制分子：PD-1/PD-L1 途徑是經典的免疫檢查點，結合後會傳遞抑制信號，抑制 T 細胞的活化。IL-10 和 TGF-β 是強效的抗發炎/免疫抑制性細胞激素。\n2. 免疫抑制細胞：調節性 T 細胞 (Treg，高表達 CD4, CD25, FoxP3) 與髓系來源抑制細胞 (MDSC) 能分泌抑制性因子並抑制效應 T 細胞增殖。此外，腫瘤關聯巨噬細胞 (TAM) 大多表現為 「M2 型巨噬細胞」（促進組織修復、促血管生成、抑制免疫）。\n3. 促發炎/抗腫瘤細胞：「M1 型巨噬細胞」為經典活化型巨噬細胞（由 IFN-γ 活化），能分泌促發炎因子（IL-12, TNF-α）與活性氧/氮物質，具有殺傷腫瘤細胞與促進抗腫瘤免疫的作用。因此，M1 巨噬細胞是「最不具免疫抑制性」的細胞。\n\n【選項詳解】\n- A. programmed death-1(PD-1)：錯誤。PD-1 表現於活化的 T 細胞上，是經典的免疫抑制分子（免疫檢查點），結合配體後會抑制 T 細胞功能。\n- B. 調節性T 細胞(regulatory T cell, Treg)：錯誤。Treg 是腫瘤微環境中主要的免疫抑制性細胞，通過多種途徑抑制 CD4+ 與 CD8+ T 細胞的殺傷作用。\n- C. M1 巨噬細胞(M1 macrophage)：正確。M1 巨噬細胞具有促發炎、抗腫瘤、呈現抗原等活性，在腫瘤微環境中偏向於「抗腫瘤/免疫活化」，而非免疫抑制（M2 巨噬細胞才具有免疫抑制性）。\n- D. interleukin 10(IL-10)：錯誤。IL-10 是一種經典的抗發炎和免疫抑制性細胞激素，能抑制 APC 的抗原呈現能力和 TH1 細胞的分化。\n\n【核心考點】\n本題考查腫瘤免疫學。掌握腫瘤微環境中的免疫抑制成分（Treg、M2 巨噬細胞、PD-1/PD-L1、CTLA-4、IL-10、TGF-β）與抗腫瘤活性成分（CTL、NK、M1 巨噬細胞、IFN-γ、IL-12）的對比。",
+    "flashcard_front": "腫瘤微環境 (TME) / M1 vs M2 巨噬細胞 / Treg / PD-1",
+    "flashcard_back": "M1 巨噬細胞為抗腫瘤、促發炎表型；而 M2 巨噬細胞、Treg、PD-1 和 IL-10 均在腫瘤微環境中扮演免疫抑制的角色。",
+    "flashcard_summary": "腫瘤微環境抗抑制細胞 -> M1 巨噬細胞 (具抗腫瘤、促發炎作用)",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_028",
+    "key_point": "PD-L1 單株抗體（如 Atezolizumab）主要是阻斷腫瘤細胞表面的 PD-L1 與 T 細胞表面的 PD-1 結合，以恢復 T 細胞的殺傷活性。",
+    "explanation": "【題幹解析】\n免疫檢查點阻斷療法中：\n1. PD-1 (Programmed Death-1) 是一種抑制性受體，主要表現於活化的「T 細胞」（包括 CD8+ 毒殺 T 細胞）表面。\n2. PD-L1 (Programmed Death-Ligand 1) 是 PD-1 的配體，可高表現在「腫瘤細胞」表面（亦可表現在部分 APC 如巨噬細胞、樹突細胞上，但最主要的抗腫瘤治療靶點是阻斷腫瘤細胞上的 PD-L1）。\n當腫瘤細胞表面的 PD-L1 與 T 細胞表面的 PD-1 結合時，會傳遞抑制信號，使 T 細胞進入耗竭 (exhaustion) 狀態而失去殺傷腫瘤的能力。臨床上使用 PD-L1 單株抗體（如 Atezolizumab, Durvalumab, Avelumab），其最主要的目的就是結合「腫瘤細胞」上表現的 PD-L1，阻斷其與 T 細胞的 PD-1 結合，從而重新活化 T 細胞以清除腫瘤。\n\n【選項詳解】\n- A. 巨噬細胞：錯誤。雖然巨噬細胞也可表達部分 PD-L1，但免疫療法最主要、最經典的靶標仍是阻斷「腫瘤細胞」上的 PD-L1。\n- B. 樹突細胞：錯誤。同上，非 PD-L1 抗體療法的最主要靶細胞。\n- C. T 細胞：錯誤。PD-1 主要表現於 T 細胞；而 PD-L1 則表現於腫瘤細胞。\n- D. 腫瘤細胞：正確。腫瘤細胞藉由高表達 PD-L1 來與 T 細胞的 PD-1 結合以逃避殺傷。PD-L1 單株抗體主要是阻斷腫瘤細胞表面 PD-L1 的作用。\n\n【核心考點】\n本題考查免疫檢查點抑制劑 (ICI) 的作用靶點。需區分：\n- 抗 PD-1 抗體 (如 Pembrolizumab, Nivolumab)：作用在 T 細胞上的 PD-1。\n- 抗 PD-L1 抗體 (如 Atezolizumab, Durvalumab)：主要作用在腫瘤細胞（或 APC）上的 PD-L1。",
+    "flashcard_front": "免疫檢查點抑制劑 / PD-1 vs PD-L1 / 靶細胞 / T 細胞與腫瘤",
+    "flashcard_back": "PD-1 表現於 T 細胞，PD-L1 表現於腫瘤細胞。PD-L1 單株抗體的作用是阻斷腫瘤細胞表面的 PD-L1，以防止其抑制 T 細胞功能。",
+    "flashcard_summary": "PD-L1 單株抗體作用靶點 -> 腫瘤細胞表面的 PD-L1",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_029",
+    "key_point": "馬來絲蟲 (Brugia malayi) 的微絲蚴 (microfilaria) 尾端有兩個不連續的尾核，診斷主要靠夜間採血檢測。",
+    "explanation": "【題幹解析】\n本題考查馬來絲蟲 (Brugia malayi) 與班氏絲蟲 (Wuchereria bancrofti) 的鑑別診斷與臨床特色：\n1. 診斷與微絲蟲特徵：絲蟲病的確診主要依靠在患者外周血液中檢出微絲蚴 (microfilariae)。由於絲蟲具有夜現週期性 (nocturnal periodicity)，採血時間通常為晚上 10 點至凌晨 2 點。顯微鏡下，馬來絲蟲的微絲蚴體核分布至尾端，且「尾端有兩個分離（不連續）的尾核（terminal nuclei）」，這是區分班氏絲蟲（尾端無尾核，體核不達尾端）的重要病理特徵。\n2. 臨床表現：\n   - 馬來絲蟲：主要侵犯四肢淋巴管，尤其是下肢，引起象皮病 (elephantiasis)，極少累及生殖系統，因此「懸垂腹股溝 (hanging groin)」或陰囊鞘膜積液 (hydrocele) 等生殖器病變主要見於班氏絲蟲 (W. bancrofti)。\n   - 眼睛失明：主要是由盤尾絲蟲 (Onchocerca volvulus，藉由蚋/黑蠅傳播，引起河盲症 river blindness) 所致，而非馬來絲蟲。\n   - 皮膚切片 (skin snips)：是診斷盤尾絲蟲 (O. volvulus) 和鏈尾線蟲 (Mansonella streptocerca) 的方法，馬來絲蟲是檢查外周血液。\n\n【選項詳解】\n- A. 成蟲會侵犯患者眼睛造成失明：錯誤。引起河盲症（失明）的是盤尾絲蟲 (Onchocerca volvulus)。\n- B. 自皮膚切片(skin snips)發現成蟲為主要診斷方法：錯誤。馬來絲蟲的診斷是藉由夜間抽取「外周血液」塗片檢查微絲蚴，皮膚切片用於診斷盤尾絲蟲。\n- C. 患者可能出現鼠蹊懸垂(hanging groin)：錯誤。鼠蹊懸垂 (hanging groin) 與生殖淋巴系統受損有關，主要是班氏絲蟲 (W. bancrofti) 或盤尾絲蟲 (O. volvulus) 的臨床特徵，馬來絲蟲病變多侷限於膝關節以下的肢體淋巴管。\n- D. 於患者血液之微絲蟲(microfilaria)尾端出現尾核：正確。馬來絲蟲微絲蚴的尾端具有兩個明顯不連續的尾核（terminal nuclei），為鑑定關鍵。\n\n【核心考點】\n本題考查絲蟲病的鑑定與臨床特徵。重點：\n- 尾端有尾核 -> 馬來絲蟲 (B. malayi)。\n- 尾端無尾核 -> 班氏絲蟲 (W. bancrofti)。\n- 河盲症、皮膚切片 -> 盤尾絲蟲 (O. volvulus)。",
+    "flashcard_front": "馬來絲蟲 / 微絲蚴 (microfilaria) / 尾核 / 夜間採血",
+    "flashcard_back": "馬來絲蟲的微絲蚴在尾端有兩個不連續的尾核，藉由夜間採血塗片診斷；而眼睛失明/皮膚切片則與盤尾絲蟲相關。",
+    "flashcard_summary": "馬來絲蟲鑑定 -> 微絲蚴尾端具有兩個分離的尾核",
+    "category": "寄生蟲學"
+  },
+  {
+    "id": "114-1_medicine-2_030",
+    "key_point": "鞭蟲 (Trichuris trichiura) 雌雄成蟲前端細長、後端粗大（呈鞭狀），蟲卵呈木桶狀且兩端具透明卵塞，慢性重度感染可引起脫肛與貧血。",
+    "explanation": "【題幹解析】\n關於鞭蟲 (Trichuris trichiura) 的形態與臨床特色：\n1. 成蟲形態：蟲體呈鞭狀，前端（占約 3/5）細長如鞭梢（內有食道），後端（占約 2/5）粗大（內有腸道及生殖器官），雌雄蟲皆然（選項 1 正確）。\n2. 蟲卵形態：呈紡錘形或黃褐色木桶狀，兩端各有一個突出的透明「卵塞 (egg plug / polar plug)」（選項 2 正確）。\n3. 臨床表現：輕度感染無症狀，但慢性重度感染時，蟲體前端鑽入大腸（盲腸與直腸）黏膜吸血，會造成慢性失血而引發「貧血」，且因蟲體機械刺激與腸蠕動增加，可導致直腸脫垂，即「脫肛」（選項 3 正確）。\n4. 鑑別診斷：肝毛線蟲 (Capillaria hepatica) 的蟲卵形態亦呈紡錘形且兩端具卵塞，與鞭蟲卵相似。但兩者的差別在於：肝毛線蟲卵的卵殼通常有放射狀條紋且卵塞不突出，且肝毛線蟲成蟲寄生於肝臟，蟲卵不會隨糞便排出，而鞭蟲卵則藉由糞便檢查診斷。兩者形態確實相似需要鑑別（選項 4 敘述正確）。\n註：此題官方公布的正確答案為 C. 123。雖然選項 4 在生物學上也是正確的（肝毛線蟲卵的確與鞭蟲卵相似需鑑別），但國考答案定為 C (123)。我們在作答和解析時，需說明 1、2、3 為確定無誤的核心敘述，並指出 4 的特點。\n\n【選項詳解】\n- A. 僅14：錯誤。1、2、3 均為鞭蟲極具代表性且完全正確的特徵。\n- B. 134：錯誤。未包含 2（蟲卵兩端具透明卵塞是鞭蟲卵最著名的特徵）。\n- C. 123：正確。1（鞭狀結構，前細後粗）、2（兩端透明卵塞）、3（重度感染造成貧血與脫肛）皆為鞭蟲經典教科書考點。\n- D. 234：錯誤。未包含 1。\n\n【核心考點】\n本題考查鞭蟲 (Trichuris trichiura) 的蟲體結構、蟲卵形態與臨床症狀。鞭蟲卵的「木桶狀、兩端透明卵塞」是顯微鏡鏡檢必考；慢性重度感染引發兒童脫肛 (rectal prolapse) 與貧血 (anemia) 亦為特徵性症狀。",
+    "flashcard_front": "鞭蟲 (T. trichiura) / 蟲卵兩端卵塞 / 前端細長後端粗 / 脫肛與貧血",
+    "flashcard_back": "鞭蟲雌雄成蟲均前細後粗，蟲卵呈木桶狀且兩端具透明卵塞。重度慢性感染可導致兒童貧血與直腸脫垂（脫肛）。",
+    "flashcard_summary": "鞭蟲特徵 -> 前細後粗，木桶狀雙端卵塞蟲卵，重度感染致貧血與脫肛",
+    "category": "寄生蟲學"
+  }
+]

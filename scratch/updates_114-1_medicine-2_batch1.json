@@ -1,0 +1,92 @@
+[
+  {
+    "id": "114-1_medicine-2_001",
+    "key_point": "細菌若能攝取並利用外源性胸腺嘧啶(exogenous thymidine)，則對抑制葉酸合成/代謝之藥物如 Trimethoprim 具抗藥性。",
+    "explanation": "【題幹解析】\n題幹指出細菌具有攝取並利用「外源性胸腺嘧啶 (exogenous thymidine)」的能力。胸腺嘧啶是合成 DNA 所必需的核苷酸。一般情況下，細菌需要依靠去氧尿苷酸 (dUMP) 在胸腺嘧啶合成酶 (thymidylate synthase) 的催化下，利用四氫葉酸 (THF) 作為甲基供體來自行合成胸腺嘧啶核苷酸 (dTMP)。若抗生素阻斷了細菌的葉酸合成或還原途徑（例如抑制二氫葉酸還原酶的甲氧苄啶 Trimethoprim），細菌通常會因為缺乏葉酸而無法合成 dTMP，進而導致死亡。然而，若細菌能直接從外界攝取並利用外源性胸腺嘧啶，則可以繞過葉酸代謝途徑的阻斷，直接獲取 dTMP 來進行 DNA 複製，因此會對該類抗生素產生抗藥性。\n\n【選項詳解】\n- A. 甲氧苄啶(trimethoprim)：正確。Trimethoprim 的機轉為競爭性抑制細菌的二氫葉酸還原酶 (dihydrofolate reductase, DHFR)，阻斷四氫葉酸的合成，進而抑制去氧胸苷酸 (dTMP) 的從頭合成 (de novo synthesis)。若細菌能利用外源性胸腺嘧啶，便能繞過此代謝阻斷，因此對 Trimethoprim 產生抗藥性。\n- B. 立汎黴素(rifampin)：錯誤。Rifampin 的作用機轉為結合並抑制細菌的 RNA 聚合酶 (RNA polymerase) β 次單元，阻斷轉錄作用（RNA 合成），其抗藥性與外源性胸腺嘧啶的利用無關（通常是因為 rpoB 基因突變）。\n- C. 克林黴素(clindamycin)：錯誤。Clindamycin 屬於 lincosamide 類抗生素，機轉為結合至細菌核糖體的 50S 次單元，抑制蛋白質的合成，其抗藥性與核苷酸代謝無關。\n- D. 安比西林(ampicillin)：錯誤。Ampicillin 屬於 β-lactam 類抗生素，機轉為抑制細菌細胞壁 peptidoglycan 交叉連結的轉肽酶 (transpeptidase / penicillin-binding proteins, PBPs)，導致細胞壁合成受阻，其抗藥性與葉酸或胸腺嘧啶代謝無關。\n\n【核心考點】\n本題考核細菌代謝途徑與抗生素耐藥機轉的關聯。Trimethoprim 與 Sulfonamides 均作用於細菌的葉酸代謝途徑，若環境中富含外源性胸腺嘧啶（如化膿性傷口中壞死細胞釋出的核苷酸）或細菌本身具備利用外源性胸腺嘧啶之能力，則會使此類阻斷葉酸途徑的抗生素失效。",
+    "flashcard_front": "細菌利用外源性胸腺嘧啶 / 葉酸代謝受阻 / Trimethoprim 抗藥性",
+    "flashcard_back": "能攝取並利用外源性胸腺嘧啶的細菌，可繞過葉酸代謝阻斷途徑，直接合成 dTMP，因而對甲氧苄啶 (trimethoprim) 具抗藥性。",
+    "flashcard_summary": "利用外源性胸腺嘧啶 -> 對葉酸合成抑制劑 Trimethoprim 具抗藥性",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_002",
+    "key_point": "原生質體 (protoplast) 是指革蘭氏陽性菌經過溶菌酶處理後，細胞壁結構完全缺損但仍被細胞膜包覆的菌體。",
+    "explanation": "【題幹解析】\n原生質體 (protoplast) 是微生物學中的重要概念，指革蘭氏陽性菌 (Gram-positive bacteria) 的細胞壁被溶菌酶 (lysozyme) 完全水解或合成受阻後，所剩下僅由細胞膜包覆的球狀結構。由於失去了細胞壁的保護，原生質體對滲透壓極為敏感，必須處於高滲透壓 (hypertonic) 環境中才能維持穩定，否則在低滲環境中會因吸水過多而脹破。\n\n【選項詳解】\n- A. 具有莢膜(capsule)結構之菌體：錯誤。原生質體是「細胞壁缺損」的菌體，莢膜是位於細胞壁外側的黏液物質，原生質體並不具有莢膜。\n- B. 細胞壁(cell wall)結構缺損之菌體：正確。Protoplast 是指革蘭氏陽性菌完全失去細胞壁後的結構（若為革蘭氏陰性菌部分失去細胞壁，則稱為原生質球 spheroplast）。\n- C. 只發生在革蘭氏陽性菌：錯誤。雖然原生質體 (protoplast) 這個詞彙專指革蘭氏陽性菌完全失去細胞壁的狀態，但「細胞壁結構缺損之菌體」的現象在革蘭氏陰性菌中也會發生，只是因為革蘭氏陰性菌有雙層膜結構，其細胞壁部分缺損後仍留有外膜，稱為原生質球 (spheroplast)，且真菌、植物細胞去壁後也可稱為 protoplast，因此說「只發生在」過於絕對。\n- D. 能生長於嚴苛環境的古細菌(archaea)：錯誤。古細菌 (archaea) 的細胞壁化學成分本來就與一般細菌不同（不含 peptidoglycan），原生質體與古細菌的極端環境生存能力無關。\n\n【核心考點】\n本題考查細菌細胞壁結構缺損之變異型態。需區分 protoplast（革蘭氏陽性菌去壁，無壁）、spheroplast（革蘭氏陰性菌去壁，殘留外膜）以及 L-form（在實驗室或體內自發形成可分裂的細胞壁缺損型）。",
+    "flashcard_front": "原生質體 (protoplast) / 革蘭氏陽性菌 / 溶菌酶 / 細胞壁缺損",
+    "flashcard_back": "原生質體 (protoplast) 是指革蘭氏陽性菌的細胞壁結構完全缺損，僅剩細胞膜包覆的敏感球狀菌體。",
+    "flashcard_summary": "原生質體 (protoplast) -> 革蘭氏陽性菌細胞壁結構完全缺損之菌體",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_003",
+    "key_point": "生物膜 (biofilm) 是細菌聚集並包埋於自體分泌的胞外聚合物中所形成的結構，能有效阻擋抗生素與免疫細胞清除。",
+    "explanation": "【題幹解析】\n細菌在特定表面附著後，會聚集並分泌由多醣體、蛋白質及 DNA 組成的胞外基質 (extracellular polymeric substances, EPS)，形成一層黏稠的屏障，即為生物膜 (biofilm)。生物膜能顯著降低抗生素的滲透速度，且內部的細菌代謝活性較低（處於休眠狀態），對抗生素的敏感性下降；此外，生物膜還能保護細菌免受宿主免疫細胞（如巨噬細胞、抗體）的清除，是導致慢性感染（如導尿管相關尿路感染、人工關節感染、綠膿桿菌肺部感染）及抗藥性的關鍵構造。\n\n【選項詳解】\n- A. 鞭毛(flagellum)：錯誤。鞭毛主要負責細菌的運動性 (motility) 與趨化性，對於防止抗生素清除的作用並不顯著。\n- B. 線毛(pilus)：錯誤。線毛主要參與細菌的附著 (adhesion) 與接合作用 (conjugation, 傳遞質體)，與直接防禦抗生素清除關係較小。\n- C. 生物膜(biofilm)：正確。生物膜是由胞外多醣等物質構成的複雜群落結構，能作為物理屏障阻礙抗生素滲透，且內部細菌呈休眠狀態，對抗生素抗性高出數十至數百倍，是防止抗生素清除最強力的構造。\n- D. 莢膜(capsule)：錯誤。莢膜是單個細菌外包覆的黏液多醣層，主要功能是防止宿主吞噬作用 (antiphagocytic) 及避免乾燥，雖然也能提供一定程度的物理保護，但在抵抗抗生素滲透和清除的能力上，不如由群體分泌、厚度及複雜度遠高的「生物膜」。\n\n【核心考點】\n本題考查細菌群體防禦機制。生物膜 (biofilm) 是臨床上許多頑固、慢性感染（如綠膿桿菌在囊性纖維化病人肺部、植入物感染）難以被抗生素根除的主因。",
+    "flashcard_front": "生物膜 (biofilm) / 胞外基質 (EPS) / 阻礙抗生素滲透 / 慢性植入物感染",
+    "flashcard_back": "生物膜是細菌聚集並包埋在分泌的胞外多醣中，形成可阻擋抗生素滲透與宿主免疫清除的保護性物理屏障。",
+    "flashcard_summary": "生物膜 (biofilm) -> 阻礙抗生素滲透與免疫清除的最強物理屏障",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_004",
+    "key_point": "結核菌素皮膚測試 (TST) 所用的 PPD 是從結核桿菌細胞壁純化出來的結合蛋白質。",
+    "explanation": "【題幹解析】\n結核菌素皮膚測試 (tuberculin skin test, TST，亦稱 Mantoux test) 用於診斷潛伏性結核感染 (LTBI)。測試中注射的純化蛋白衍生物 (purified protein derivatives, PPD) 是將結核分枝桿菌 (Mycobacterium tuberculosis) 在液體培養基中培養後，將濾液經熱消毒、沉澱、純化所得。這些抗原成分主要來自於細菌的細胞壁 (cell wall) 結合蛋白質，能誘導機體產生第四型（遲發型）超敏反應 (delayed-type hypersensitivity, DTH)。\n\n【選項詳解】\n- A. 細菌細胞壁：正確。PPD 主要是從結核分枝桿菌的細胞壁 (cell wall) 中純化出來的結合蛋白質及多肽混合物。\n- B. 宿主細胞核：錯誤。PPD 來源於結核分枝桿菌本身，與宿主細胞無關。\n- C. 細菌染色體：錯誤。染色體主要成分為 DNA，而 PPD 為純化蛋白質衍生物。\n- D. 細菌質體：錯誤。質體是游離於染色體外的雙股環狀 DNA，非 PPD 的主要來源。\n\n【核心考點】\n本題考核結核菌素試驗 (TST) 的抗原來源。PPD 來源於結核分枝桿菌的細胞壁成分，注射入皮內後可刺激已致敏的 T 淋巴細胞，引發以巨噬細胞和 T 細胞浸潤為主的第四型超敏反應。",
+    "flashcard_front": "結核菌素測試 (TST) / PPD / 結核分枝桿菌 / 第四型超敏反應",
+    "flashcard_back": "TST 所使用的 PPD 是從結核分枝桿菌細胞壁 (cell wall) 純化出來的結合蛋白質，用於誘發遲發型超敏反應。",
+    "flashcard_summary": "PPD 來源 -> 結核分枝桿菌細胞壁純化蛋白質",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_005",
+    "key_point": "腸炎弧菌 (Vibrio parahaemolyticus) 常污染海鮮，並產生熱穩定溶血素 (Kanagawa hemolysin) 造成神奈川現象陽性。",
+    "explanation": "【題幹解析】\n腸炎弧菌 (Vibrio parahaemolyticus) 是一種嗜鹽性 (halophilic) 的革蘭氏陰性弧菌，廣泛存在於海洋環境中。食用未煮熟的受污染海鮮（如生魚片、貝類）是引起食物中毒的最常見原因。其主要的致病因子為熱穩定溶血素 (thermostable direct hemolysin, TDH，又稱 Kanagawa hemolysin)，此毒素能在特定的高鹽甘露醇血瓊脂培養基 (Wagatsuma agar) 上引起特異性的β溶血現象，此反應稱為「神奈川現象 (Kanagawa phenomenon)」，是區分致病性與非致病性腸炎弧菌的重要特徵。\n\n【選項詳解】\n- A. 大腸桿菌(Escherichia coli)：錯誤。大腸桿菌與海鮮污染無特異性關聯，且不產生 Kanagawa 溶血素。\n- B. 霍亂弧菌(Vibrio cholerae)：錯誤。霍亂弧菌引起霍亂，主要致致病機轉是霍亂毒素 (cholera toxin) 刺激腺苷酸環化酶，導致水分與電解質大量流失（米湯樣便），無 Kanagawa 溶血素。\n- C. 腸炎弧菌(Vibrio parahaemolyticus)：正確。腸炎弧菌是臺灣海鮮引起食物中毒之首要病原，其致病株產生的熱穩定直接溶血素 (TDH) 具有 Kanagawa 溶血活性。\n- D. 金黃色葡萄球菌(Staphylococcus aureus)：錯誤。金黃色葡萄球菌引起的食物中毒是因攝入預先產生的腸毒素 (enterotoxin, 屬於超級抗原，耐熱)，與海鮮污染及 Kanagawa 溶血素無關。\n\n【核心考點】\n本題考查食物中毒常見病原菌及其致病因子。腸炎弧菌與嗜鹽性、海鮮、熱穩定直接溶血素 (TDH)、Kanagawa 現象強烈相關，是重要的臨床與微生物考點。",
+    "flashcard_front": "腸炎弧菌 / 嗜鹽菌 / 海鮮食物中毒 / 神奈川現象 (Kanagawa)",
+    "flashcard_back": "腸炎弧菌產生的熱穩定直接溶血素 (TDH) 會在 Wagatsuma 培養基上造成 β 溶血（Kanagawa 現象），是其致病性的核心特徵。",
+    "flashcard_summary": "腸炎弧菌 -> 產生熱穩定溶血素 (TDH) 導致 Kanagawa 現象，常見於海鮮食物中毒",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_006",
+    "key_point": "超級抗原 (superantigens) 不需經過抗原呈現細胞的處理，直接結合 MHC class II 與 TCR Vβ 鏈，引起非特異性 T 細胞大量活化。",
+    "explanation": "【題幹解析】\n超級抗原 (superantigens, Sags) 是一類由細菌（如金黃色葡萄球菌的毒性休克症候群毒素-1 TSST-1、鏈球菌致熱外毒素 SpeA/C）產生的蛋白質毒素。與常規抗原不同，常規抗原必須被抗原呈現細胞 (APC) 吞噬、降解（即抗原處理 antigen processing）後呈現在 MHC 分子的結合槽中，才能被 T 細胞受體 (TCR) 識別。而超級抗原「不需經抗原處理」，直接以完整的蛋白質形式結合在 MHC class II 分子的外側與 TCR 的 Vβ 鏈，非特異性地活化高達 20% 的 T 細胞，釋放大量細胞激素（如 IL-1, IL-6, TNF-α, IFN-γ），引發全身性發炎反應與休克。\n\n【選項詳解】\n- A. 能在真核細胞的細胞膜上打洞：錯誤。這是在描述膜通道形成毒素 (pore-forming toxins)，如金黃色葡萄球菌的 α-toxin，而非超級抗原的特性。\n- B. 不需經抗原處理(antigen processing),本身就可活化免疫細胞：正確。超級抗原直接跨接 MHC class II 與 TCR Vβ，免除抗原處理步驟即可活化大量 T 細胞。\n- C. 可抑制巨噬細胞(macrophages)的吞噬作用：錯誤。超級抗原主要作用是過度活化 T 細胞和巨噬細胞，促使其釋放細胞激素，而非抑制吞噬作用。\n- D. 可抑制巨噬細胞內的顆粒釋放內容物(degranulation)：錯誤。顆粒釋放主要是肥大細胞 (mast cells) 的特徵，且超級抗原不會抑制此類釋放。\n\n【核心考點】\n本題考查超級抗原的免疫活化機制。掌握常規抗原與超級抗原活化 T 細胞的差異：常規抗原需經過 APC 的 processing，活化比例極低 (<0.01%)；超級抗原不需 processing，直接結合 MHC II 與 TCR Vβ 外側，活化比例極高 (~20%)，導致細胞激素風暴 (cytokine storm)。",
+    "flashcard_front": "超級抗原 (superantigens) / TCR Vβ 鏈 / MHC class II / 無需抗原處理",
+    "flashcard_back": "超級抗原不需 APC 處理，直接連接 MHC class II 與 TCR Vβ 外側，非特異性活化大量 T 細胞並釋放細胞激素風暴。",
+    "flashcard_summary": "超級抗原 -> 無需抗原處理，直接結合 MHC II 與 TCR Vβ 活化大量 T 細胞",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_007",
+    "key_point": "以色列放線菌 (Actinomyces israelii) 是革蘭氏陽性厭氧菌，培養時具有特徵性的臼齒 (molar tooth) 狀菌落，常用青黴素治療。",
+    "explanation": "【題幹解析】\n以色列放線菌 (Actinomyces israelii) 是一種革蘭氏陽性 (Gram-positive) 且無酸快染色性 (non-acid-fast) 的絲狀分支桿菌。它是人類口腔、胃腸道及陰道的正常菌群，為「絕對厭氧或微需氧菌 (anaerobic)」。當黏膜受損（如拔牙、外傷）時，可能入侵深部組織引起放線菌病 (actinomycosis)，特徵為慢性肉芽腫、廔管形成及排出黃色「硫磺顆粒 (sulfur granules)」。在固體培養基上培養數天至數週後，會形成表面皺褶、外形類似「臼齒 (molar tooth)」的特徵性菌落。\n\n【選項詳解】\n- A. 屬絕對需氧菌：錯誤。放線菌屬 (Actinomyces) 大多為厭氧菌或微需氧菌，而諾卡氏菌 (Nocardia) 才是絕對需氧菌且具弱酸快染色性，兩者常做比較。\n- B. 具臼齒(molar)狀菌落：正確。A. israelii 在腦心浸出液瓊脂培養基上生長時，會呈現經典的「臼齒狀 (molar tooth appearance)」菌落型態。\n- C. 通常對青黴素(penicillin)具抗性：錯誤。青黴素 (Penicillin G) 為治療以色列放線菌感染的首選藥物 (drug of choice)，通常需要長期大劑量使用。\n- D. 和丙酸桿菌(Propionibacterium)皆為革蘭氏陰性菌：錯誤。兩者皆為革蘭氏「陽性」無芽孢桿菌。\n\n【核心考點】\n本題考查以色列放線菌的生物學與臨床特性。重點在於與 Nocardia 的鑑別診斷：Actinomyces 是革蘭氏陽性、厭氧、非酸快砂、臼齒狀菌落、硫磺顆粒、Penicillin 治療；Nocardia 是革蘭氏陽性、需氧、弱酸快砂、TMP-SMX 治療。",
+    "flashcard_front": "以色列放線菌 (A. israelii) / 厭氧絲狀菌 / 硫磺顆粒 / 菌落特徵",
+    "flashcard_back": "以色列放線菌是革蘭氏陽性厭氧菌，在培養時會形成特徵性的「臼齒狀 (molar tooth)」菌落，治療首選為青黴素 (penicillin)。",
+    "flashcard_summary": "以色列放線菌 -> 厭氧革蘭氏陽性菌，具臼齒狀菌落與硫磺顆粒，Penicillin 治療",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_008",
+    "key_point": "超級抗藥性結核菌 (XDR-TB) 定義為對 INH、Rifampin 耐藥外，還需對任何一種氟喹諾酮類 (fluoroquinolone) 及至少一種注射型二線藥物耐藥。",
+    "explanation": "【題幹解析】\n結核病抗藥性分類是臨床重要考點：\n1. 多重抗藥性結核病 (MDR-TB)：對最有效的兩個第一線藥物——異煙肼 (isoniazid, INH) 和利福平 (rifampin, RFP) 同時產生抗藥性。\n2. 超級抗藥性結核病 (XDR-TB)：符合 MDR-TB 的定義，且對任何一種「氟喹諾酮類 (fluoroquinolone)」藥物，以及三種二線注射針劑（卡納黴素 kanamycin、阿米卡星 amikacin、捲曲黴素 capreomycin）中至少一種產生抗藥性。（註：WHO 在 2021 年對 XDR-TB 的定義進行了微調，將注射劑改為 Bedaquiline 或 Linezolid，但國考試題仍常沿用傳統定義，其核心在於「MDR + Fluoroquinolone + 至少一種二線注射藥物」）。\n\n【選項詳解】\n- A. 他唑巴坦(tazobactam)：錯誤。Tazobactam 屬於 β-lactamase 抑制劑，非結核病治療藥物。\n- B. 伊曲康唑(itraconazole)：錯誤。Itraconazole 屬於抗真菌藥，非抗結核藥物。\n- C. 氟喹諾酮(fluoroquinolone)：正確。XDR-TB 必須包含對二線口服藥物氟喹諾酮類（如 levofloxacin, moxifloxacin）的抗藥性。\n- D. 米替福新(miltefosine)：錯誤。Miltefosine 常用於治療利什曼原蟲 (Leishmania) 感染或阿米巴腦膜腦炎，非抗結核藥物。\n\n【核心考點】\n本題考查超級抗藥性結核菌 (XDR-TB) 的定義。XDR-TB 的核心判斷點為：對 INH + Rifampin（即 MDR）抗藥，且對 Fluoroquinolone 加上至少一種二線注射型抗結核藥抗藥。",
+    "flashcard_front": "超級抗藥性結核菌 (XDR-TB) / MDR-TB 定義 / 二線抗結核藥物 / 氟喹諾酮",
+    "flashcard_back": "XDR-TB 的定義為對 INH 與 Rifampin（MDR-TB）抗藥，且同時對任何一種氟喹諾酮類 (fluoroquinolone) 及至少一種二線注射型抗結核藥產生抗藥性。",
+    "flashcard_summary": "XDR-TB 定義 -> MDR-TB + 氟喹諾酮 (Fluoroquinolone) 抗藥 + 至少一種二線注射藥抗藥",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_009",
+    "key_point": "普氏立克次體 (Rickettsia prowazekii) 可在人體內長期潛伏，並在免疫力低下時復發，稱為 Brill-Zinsser 氏病。",
+    "explanation": "【題幹解析】\n普氏立克次體 (Rickettsia prowazekii) 是引起「流行性斑疹傷寒 (epidemic typhus)」的病原體。其傳播媒介為人類體蝨 (human body louse)。此菌具有一項重要臨床特徵：在急性感染痊癒後，病原體可以長期潛伏在人體的巨噬細胞或內皮細胞中，當人體免疫力下降或高齡時，可能會再度復發，這種復發型的斑疹傷寒稱為 Brill-Zinsser disease（通常症狀較輕微，且不再需要蝨子作為媒介即可在體內復發）。因此，選項 C 說「病原菌不會潛伏於人體」是錯誤的。\n\n【選項詳解】\n- A. 是造成流行性斑疹傷寒(epidemic typhus)的病原菌：正確。Rickettsia prowazekii 是流行性斑疹傷寒的病原；而莫氏立克次體 (R. typhi) 是地方性斑疹傷寒 (endemic typhus) 的病原。\n- B. 能透過人類體蝨(human body louse)叮咬而傳染：正確。體蝨排泄物中的病原體經由傷口或搔抓處入侵人體。\n- C. 病原菌不會潛伏於人體：錯誤。病原菌可長期潛伏於宿主體內，並在數年後復發引起 Brill-Zinsser disease。\n- D. 血清學診斷可以用微免疫螢光試驗(microimmunofluorescence, MIF)為參考方法：正確。MIF 是診斷立克次體感染目前最常用的血清學參考標準。\n\n【核心考點】\n本題考查普氏立克次體的致病性與潛伏特性。需特別掌握 Brill-Zinsser disease 的概念，即流行性斑疹傷寒在人體長期潛伏後的遲發性復發。",
+    "flashcard_front": "普氏立克次體 / 流行性斑疹傷寒 / 體蝨傳播 / Brill-Zinsser 氏病",
+    "flashcard_back": "普氏立克次體可在初次感染後長期潛伏於人體，並於多年後在免疫力下降時復發，引起 Brill-Zinsser 氏病（復發性斑疹傷寒）。",
+    "flashcard_summary": "普氏立克次體 -> 引起流行性斑疹傷寒，可潛伏於體內並復發為 Brill-Zinsser 氏病",
+    "category": "微生物免疫學"
+  },
+  {
+    "id": "114-1_medicine-2_010",
+    "key_point": "單純疱疹病毒 (HSV) 感染可在細胞核內形成 Cowdry type A 包涵體；腸病毒不形成多核巨細胞；狂犬病毒形成 Negri body。",
+    "explanation": "【題幹解析】\n本題考查病毒感染細胞後引起的病理變化（細胞病變效應 CPE 及包涵體）：\n1. 單純疱疹病毒 (HSV) 與水痘-帶狀疱疹病毒 (VZV)：為 DNA 病毒，在宿主細胞核內複製，會形成嗜酸性核內包涵體，稱為 Cowdry type A inclusion body，且常導致多核巨細胞 (syncytia) 的形成。\n2. 腸病毒 (enterovirus)：屬於小 RNA 病毒科，不引起細胞融合 (syncytia)，其 CPE 主要表現為細胞變圓、皺縮和溶解。\n3. 狂犬病病毒 (Rabies virus)：為負單股 RNA 病毒，在受感染的神經元細胞質內會形成特徵性的嗜酸性包涵體，稱為 Negri body（而非德國麻疹病毒）。\n4. 腺病毒 (adenovirus)：為無套膜 DNA 病毒，其入侵細胞主要是透過受體介導的胞吞作用 (receptor-mediated endocytosis)，而非透過套膜與細胞膜融合。\n\n【選項詳解】\n- A. 單純疱疹病毒(herpes simplex virus)感染之細胞核內可形成Cowdry type A 包涵體(Cowdry type A inclusion body)：正確。這是 HSV 感染的典型病理特徵（嗜酸性核內包涵體）。\n- B. 腸病毒(enterovirus)感染之細胞會發生細胞融合(syncytia)現象：錯誤。會發生細胞融合 (syncytia) 的主要是具有融合蛋白 (fusion protein) 的套膜病毒，如副黏液病毒 (Paramyxoviruses, 如麻疹、RSV)、疱疹病毒 (Herpesviruses) 及逆轉錄病毒 (HIV)，腸病毒為無套膜病毒，不引起 syncytia。\n- C. 德國麻疹病毒(rubella virus)感染之細胞質會形成Negri 包涵體(Negri body)：錯誤。Negri body 是狂犬病病毒 (Rabies virus) 感染大腦神經元（特別是海馬迴和小腦普金氏細胞）的特異性細胞質包涵體。\n- D. 腺病毒(adenovirus)主要是透過與細胞膜的融合入侵細胞：錯誤。腺病毒是無套膜病毒，無法進行膜融合 (membrane fusion)，主要是藉由 receptor-mediated endocytosis 進入細胞。\n\n【核心考點】\n本題考查不同病毒的入侵機制與細胞病變特徵（CPE、包涵體）。重點記憶：核內 Cowdry type A (HSV, VZV)、胞質 Negri body (Rabies virus)、多核巨細胞 (Measles, RSV, HSV, VZV, HIV)、無套膜病毒以內吞作用入侵。",
+    "flashcard_front": "Cowdry type A 包涵體 / Negri body / 細胞融合 / 病毒入侵機制",
+    "flashcard_back": "HSV 核內形成 Cowdry type A 包涵體；Rabies virus 胞質形成 Negri body；無套膜病毒（如腸病毒、腺病毒）不進行膜融合，主要以胞吞作用入侵。",
+    "flashcard_summary": "病毒病變與包涵體 -> HSV 核內 Cowdry A，Rabies 胞質 Negri body，無套膜內吞入侵",
+    "category": "微生物免疫學"
+  }
+]

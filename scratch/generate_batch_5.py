@@ -1,0 +1,110 @@
+import json
+from pathlib import Path
+
+updates = [
+  {
+    "question_id": "114-1_medicine-4_041",
+    "category": "皮膚科",
+    "category_confidence": "high",
+    "key_point": "隔膜性脂膜炎（septal panniculitis）的典型代表（結節性紅斑）及其病因學與病理學特徵。",
+    "explanation": "【題幹解析】\n38歲女性下肢出現病灶兩週，服用抗生素無改善。皮膚切片病理結果顯示為「隔膜性脂膜炎（septal panniculitis）」，此病理表現是結節性紅斑（Erythema nodosum, EN）的經典特徵。\n\n【選項詳解】\n- A. 錯誤。結節性紅斑的病理特徵是「不伴隨血管炎（panniculitis without vasculitis）」，如果同時有明顯血管炎，應考慮其他類型的脂膜炎（如結節性血管炎/硬紅斑，其病理多為小葉性脂膜炎伴血管炎）。\n- B. 錯誤。結節性紅斑在急性期主要有大量中性粒細胞浸潤，慢性期主要為淋巴球、組織細胞與巨細胞浸潤（Miescher's 放射狀肉芽腫），漿細胞（plasma cell）浸潤並非其典型特徵。\n- C. 錯誤。紅斑性狼瘡性脂膜炎（Lupus panniculitis）病理主要表現為「小葉性脂膜炎（lobular panniculitis）」，常伴有漿細胞浸潤、淋巴小結形成及真皮表皮交界處液化變性，而非 septal panniculitis。\n- D. 正確。結節性紅斑（EN）是一種非特異性免疫反應，常見誘因包括感染（如鏈球菌、黴漿菌或結核菌）、藥物（如口服避孕藥、磺胺類藥物）或全身性免疫疾病（如發炎性腸道疾病 IBD、類肉瘤病、白塞氏病）等。\n\n【核心考點】\n結節性紅斑（Erythema nodosum）的典型病理是 septal panniculitis，且不伴有血管炎。其發病常與多種感染、藥物或系統性自體免疫疾病相關。",
+    "flashcard_front": "下肢壓痛紅斑 / 病理示 septal panniculitis(無血管炎) / 診斷與病因",
+    "flashcard_back": "最可能為結節性紅斑(Erythema nodosum)；其病理特徵為不伴血管炎的隔膜性脂膜炎，誘因包括感染、藥物(避孕藥/磺胺)或全身性免疫病。",
+    "flashcard_summary": "結節性紅斑病理與病因 -> 為隔膜性脂膜炎(不伴血管炎)；由感染、藥物或免疫疾病誘發。"
+  },
+  {
+    "question_id": "114-1_medicine-4_042",
+    "category": "皮膚科",
+    "category_confidence": "high",
+    "key_point": "化膿性汗腺炎（Hidradenitis suppurativa）的慢性發炎性病因、Hurley分期與免疫抑制劑治療原則。",
+    "explanation": "【題幹解析】\n25歲女性，雙側腋下及腹股溝反覆發炎、疼痛結節與膿樣分泌物，診斷為化膿性汗腺炎（Hidradenitis suppurativa, HS）。\n\n【選項詳解】\n- A. 正確。化膿性汗腺炎若有長期慢性發炎、久治不癒的竇道或傷口，在多年後有併發鱗狀上皮細胞癌（SCC）的風險，需切片檢查排除。\n- B. 正確。Hurley 分期系統（Hurley stages I, II, III）是目前臨床上評估化膿性汗腺炎嚴重度及決定治療策略的標準方法。\n- C. 正確。對於輕度患者（Hurley stage I 或輕度 II），首選局部塗抹 clindamycin 藥膏或口服四環黴素類抗生素（如 tetracycline, doxycycline）以發揮其抗發炎與抗菌作用。\n- D. 錯誤。化膿性汗腺炎本質上是一種「慢性毛囊閉塞性發炎疾病」，而非單純的細菌感染。在嚴重或頑固性個案中，免疫抑制劑（如系統性或局部注射類固醇、環孢素 cyclosporin）以及抗 TNF-α 生物製劑（如 Adalimumab）是臨床上非常關鍵的二線或重症治療藥物，並非不可使用。\n\n【核心考點】\n化膿性汗腺炎本質是慢性毛囊發炎性疾病而非純細菌感染，可使用類固醇或環孢素等免疫抑制劑/生物製劑治療。評估工具為 Hurley stage。慢性不癒竇道需警惕 SCC 癌變。",
+    "flashcard_front": "化膿性汗腺炎(HS) / 嚴重度評估工具 / 發病本質與免疫抑制劑使用",
+    "flashcard_back": "嚴重度使用Hurley stage評估；本質為慢性毛囊發炎疾病而非單純感染，重度個案可使用類固醇、環孢素或生物製劑治療。",
+    "flashcard_summary": "化膿性汗腺炎治療 -> 本質為發炎性疾病，可使用類固醇與環孢素等免疫抑制劑。"
+  },
+  {
+    "question_id": "114-1_medicine-4_043",
+    "category": "皮膚科",
+    "category_confidence": "high",
+    "key_point": "常見遺傳性神經皮膚症候群（著色性乾皮症、NF1、結節性硬化、PJS）的遺傳模式區分。",
+    "explanation": "【題幹解析】\n本題考查常見皮膚與系統性遺傳症候群的遺傳模式（體染色體顯性 vs 隱性）。\n\n【選項詳解】\n- A. 錯誤。第一型神經纖維瘤病（NF1）為體染色體顯性遺傳（Autosomal Dominant），致病基因 NF1 位於第 17 對染色體上。\n- B. 錯誤。結節性硬化症（Tuberous Sclerosis）為體染色體顯性遺傳（Autosomal Dominant），致病基因為 TSC1（第9對）或 TSC2（第16對）染色體。\n- C. 正確。著色性乾皮症（Xeroderma pigmentosum, XP）為體染色體隱性遺傳（Autosomal Recessive），因核苷酸切除修復（NER）路徑缺陷導致對紫外線極度敏感。\n- D. 錯誤。Peutz-Jeghers 症候群（黑斑息肉症候群）為體染色體顯性遺傳（Autosomal Dominant），致病基因為 STK11/LKB1（第19對）染色體。\n\n【核心考點】\n著色性乾皮症（XP）為體染色體隱性遺傳。第一型神經纖維瘤（NF1）、結節性硬化症（TSC）及 Peutz-Jeghers 症候群均為體染色體顯性遺傳疾病。",
+    "flashcard_front": "著色性乾皮症 / 神經纖維瘤一型 / 結節性硬化症 / 遺傳模式比較",
+    "flashcard_back": "著色性乾皮症(XP)為體染色體隱性遺傳；第一型神經纖維瘤(NF1)與結節性硬化症(TSC)均為體染色體顯性遺傳。",
+    "flashcard_summary": "遺傳病模式 -> 著色性乾皮症為隱性遺傳；NF1、TSC及Peutz-Jeghers為顯性遺傳。"
+  },
+  {
+    "question_id": "114-1_medicine-4_044",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "前脊髓症候群（Anterior cord syndrome）受損路徑（運動及溫痛覺喪失）與保留路徑（本體感覺保留）的生理機制。",
+    "explanation": "【題幹解析】\n本題考查脊髓梗塞中前脊髓症候群（Anterior cord syndrome）的臨床病理特徵。\n\n【選項詳解】\n- A. 錯誤。前脊髓症候群是由於前脊髓動脈（anterior spinal artery）阻塞，導致脊髓前 2/3 區域（含皮質脊髓束與脊髓丘腦束）缺血受損。臨床典型表現為病灶平面以下「雙下肢無力（運動喪失）」以及「痛覺與溫度感覺喪失」；而後索（posterior column，傳導本體感覺與震動覺）由後脊髓動脈供應，故「本體感覺與震動覺完好/不受影響」。選項敘述剛好相反。\n- B. 正確。脊髓梗塞屬於急性血管事件，臨床症狀起病急驟，通常在數分鐘至數小時內達到高峰或發生惡化。\n- C. 正確。脊髓急性受損初期會經歷脊髓休克（spinal shock）階段，病灶以下反射弧受抑制，表現為下肢肌腱反射（DTR）喪失或減弱，數週後才轉為反射亢進。\n- D. 正確。脊髓梗塞常伴隨局部脊椎部位突發劇烈疼痛，或在受損區域對應的皮節（dermatome）產生束帶樣放射性神經痛。\n\n【核心考點】\n前脊髓症候群（Anterior cord syndrome）特徵為雙下肢無力、溫痛覺喪失，但「本體感覺與震動覺保留」（因後索未受損）。起病急驟，初期腱反射消失（脊髓休克），常伴隨根性疼痛。",
+    "flashcard_front": "脊髓梗塞 / 前脊髓症候群(Anterior cord syndrome) / 溫痛覺與本體感覺保留狀況",
+    "flashcard_back": "前脊髓症候群表現為雙下肢無力及溫痛覺喪失，但「本體感覺與震動覺完好」（因後脊髓動脈供應的後索未受損）。",
+    "flashcard_summary": "前脊髓症候群特徵 -> 運動與溫痛覺喪失，本體感覺與震動覺完好保留。"
+  },
+  {
+    "question_id": "114-1_medicine-4_045",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "動脈血栓移除術（EVT）的適應症（大血管阻塞）、時間窗與橋接溶栓（IV rt-PA）的正確順序。",
+    "explanation": "【題幹解析】\n本題考查急性缺血性腦中風的動脈血栓移除術（Endovascular thrombectomy, EVT）與靜脈血栓溶解治療（IV thrombolysis）的臨床規範與影像評估。\n\n【選項詳解】\n- A. 正確。血栓移除術（EVT）僅適用於可觸及的大血管阻塞（Large Vessel Occlusion, LVO，如 ICA、MCA M1/M2 段），而腔隙性腦梗塞（lacunar infarct）屬於小微血管阻塞，無法以導管進行移除術治療。\n- B. 錯誤。對於符合靜脈溶栓時間窗內的大血管阻塞患者，正確流程是「先」進行靜脈注射血栓溶解劑（IV rt-PA），隨後「接續」進行動脈血栓移除術（即橋接治療 bridging therapy）。如果血栓移除術「已完成且血管已打通後」，絕對不可「再」補行靜脈血栓溶解治療，否則會極大地增加缺血區再灌流後腦出血（ICH）的致命風險。\n- C. 正確。EVT 的核心臨床目的在於快速疏通阻塞大血管，以挽救處於缺血半影區（penumbra，灌流不足但尚未完全壞死之組織）的腦細胞。\n- D. 正確。多模態影像（如 CT/MR 灌流造影）能評估梗塞核心（core）與半影區的不匹配（mismatch）。根據最新臨床試驗，符合特定影像條件者，在發病 24 小時內接受 EVT 仍能顯著改善臨床預後。\n\n【核心考點】\n血栓溶解與血栓移除的橋接順序為「先靜脈溶栓、後動脈取栓」，取栓成功後不可再行靜脈溶栓。取栓適用於大血管阻塞，旨在挽救缺血半影區（penumbra），時間窗可達 24 小時（配合灌流造影）。",
+    "flashcard_front": "急性腦中風 / 血栓移除術(EVT)與靜脈溶栓(rt-PA) / 處置先後順序與禁忌",
+    "flashcard_back": "符合條件時應「先靜脈溶栓、後動脈取栓」；當EVT完成且血管打通後，嚴禁再次給予靜脈溶栓，以防缺血再灌流出血。",
+    "flashcard_summary": "腦中風取栓與溶栓順序 -> 先IV溶栓、後動脈取栓；取栓完成後禁用IV溶栓。"
+  },
+  {
+    "question_id": "114-1_medicine-4_046",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "高血壓控制不良所致腦出血的最常見好發部位（殼核）及臨床定位。",
+    "explanation": "【題幹解析】\n56歲高血壓病史多年且未治療之患者，突發腦內出血（ICH）並合併右側偏癱（左側腦部受損）。\n\n【選項詳解】\n- A. 最可能。高血壓控制不良所致的自發性腦內出血，最常見的病灶位置是基底核，其中又以「殼核（Putamen）」為首位（約佔 35-50%），其次為丘腦。殼核出血極易波及或壓迫鄰近內囊（internal capsule）的下行運動纖維，導致對側肢體偏癱。\n- B. 不可能。額葉（lobar hemorrhage）出血在老年人中較常與腦澱粉樣血管病變（CAA）相關，而非高血壓自發性出血的首選好發部位。\n- C. 不可能。枕葉（lobar hemorrhage）出血多與 CAA 或動靜脈畸形相關，且其主要神經缺失為視野缺損（如偏盲），不以偏癱為首發及主要特徵。\n- D. 不可能。小腦（cerebellum）出血主要表現為突發劇烈眩暈、頻繁嘔吐、共濟失調（ataxia）與枕部頭痛，一般不表現為典型的對側偏癱。\n\n【核心考點】\n高血壓性腦出血最常見的部位是殼核（Putamen），典型表現為出血側內囊受壓導致對側偏癱。額、枕等葉性出血常與澱粉樣血管病（CAA）相關；小腦出血以眩暈和共濟失調為主。",
+    "flashcard_front": "高血壓控制不良 / 突發左側腦出血 / 右側偏癱 / 最常見出血解剖位置",
+    "flashcard_back": "最常見的好發位置是基底核的殼核(Putamen)，其出血壓迫內囊會導致經典的對側偏癱。",
+    "flashcard_summary": "高血壓性腦出血好發部位 -> 最常見為殼核(Putamen)，出血易致對側偏癱。"
+  },
+  {
+    "question_id": "114-1_medicine-4_047",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "偏頭痛預防性治療（Migraine prophylaxis）的常用藥物與禁忌/非適應症藥物辨識。",
+    "explanation": "【題幹解析】\n本題考查偏頭痛預防性治療（Migraine prophylaxis）的適應症藥物。預防性用藥的目的是減少偏頭痛發作的頻率、嚴重度與時間。\n\n【選項詳解】\n- A. 是。Propranolol（β受體阻斷劑）是臨床上預防偏頭痛最常用且獲得高證據級別推薦的第一線藥物之一。\n- B. 不是。Carbamazepine（卡巴馬平）是鈉離子通道阻斷型抗癲癇藥，臨床主要用於治療部分性癲癇發作以及三叉神經痛（trigeminal neuralgia），但並不用於偏頭痛的預防性治療。\n- C. 是。Topiramate（妥泰，抗癲癇藥物）是獲得指引強烈推薦預防偏頭痛發作的一線口服藥物，對減少發作次數效果顯著。\n- D. 是。Onabotulinum toxin type A（A型肉毒桿菌素）已被批准用於「慢性偏頭痛（每月發作 >= 15天）」的預防性注射治療。\n\n【核心考點】\n偏頭痛預防用藥包含 β受體阻斷劑（propranolol）、抗癲癇藥（topiramate, valproate）、TCA（amitriptyline）、CGRP拮抗劑及肉毒桿菌素。Carbamazepine 主要用於三叉神經痛與癲癇，不用於預防偏頭痛。",
+    "flashcard_front": "偏頭痛預防用藥 / 藥物分類 / 排除三叉神經痛用藥",
+    "flashcard_back": "Propranolol、Topiramate 與肉毒桿菌素可用於預防偏頭痛；Carbamazepine主要用於三叉神經痛與癲癇，非偏頭痛預防藥物。",
+    "flashcard_summary": "偏頭痛預防藥物 -> Propranolol、Topiramate可用；Carbamazepine不可用。"
+  },
+  {
+    "question_id": "114-1_medicine-4_048",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "生理性入睡抽動（hypnic jerks）的常見加重因子與無關因素。",
+    "explanation": "【題幹解析】\n本題考查入睡抽動（Hypnic jerks / sleep starts，又稱臨睡肌抽躍）的生理性特徵及臨床加重因子。\n\n【選項詳解】\n- A. 是。睡眠不足、過度身體疲勞是誘發及加重入睡抽動最常見的生理因子。\n- B. 不是。睡前喝水只會增加夜尿（nocturia）或影響睡眠連續性，並不會直接加重入睡抽動。\n- C. 是。睡前進行劇烈運動會使神經肌肉持續處於興奮狀態，入睡時容易引發不自主的神經元發射，從而加重入睡抽動。\n- D. 是。焦慮、情緒壓力及睡前精神緊張會使交感神經活性增加，進而顯著增加人體發生入睡抽動的頻率與強度。\n\n【核心考點】\n入睡抽動是一種生理性肌陣攣，常見的加重因子包括睡眠不足、壓力焦慮、睡前劇烈運動及咖啡因等興奮性物質。睡前喝水與其無關。",
+    "flashcard_front": "入睡抽動(Hypnic jerks) / 加重因素 / 排除無關因子",
+    "flashcard_back": "睡眠不足、壓力焦慮、睡前劇烈運動為入睡抽動常見加重因子；睡前喝水與其無關（僅影響夜尿）。",
+    "flashcard_summary": "入睡抽動加重因子 -> 包含睡眠不足、壓力、睡前運動；喝水無關。"
+  },
+  {
+    "question_id": "114-1_medicine-4_049",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "一般癲癇患者抗癲癇藥物（AEDs）起始治療的調量原則（Start low, go slow）。",
+    "explanation": "【題幹解析】\n本題考查非重積狀態下，一般癲癇患者的抗癲癇藥物（AEDs）臨床使用原則。\n\n【選項詳解】\n- A. 正確。一般癲癇的藥物治療原則是單一藥物治療（monotherapy），應根據發作類型（如局部發作選用 Levetiracetam, Carbamazepine；全面發作選用 Valproate）選取單一種最合適藥物作為起始。\n- B. 正確。為減少藥物的急性毒性及過敏反應，起始治療劑量應由低劑量開始，緩慢增加（Start low, go slow）。\n- C. 錯誤。除了癲癇重積狀態（Status epilepticus）需要給予 loading dose 以快速達到血中有效濃度外，一般癲癇的起始治療絕對「不應」直接達到血中高藥物濃度，否則會誘發嚴重的藥物副作用與不良反應，使病患難以耐受。\n- D. 正確。後續的藥物調整應以「達到臨床發作完全控制且無不可耐受的副作用」為準，根據病人的臨床反應及副作用進行個體化微調。\n\n【核心考點】\n非急症一般癲癇藥物使用應遵循「單一用藥、從小劑量開始、緩慢遞增」的原則。起始即給予高濃度藥物易導致嚴重藥物中毒，不符合治療規範。",
+    "flashcard_front": "一般癲癇治療 / 抗癲癇藥起始劑量原則 / 單一用藥與調量",
+    "flashcard_back": "一般癲癇需單一藥物且從「低劑量」開始緩慢調升，不可在起始時即達到血中高濃度，以防嚴重副作用。",
+    "flashcard_summary": "一般癲癇用藥原則 -> 單一藥物，由低劑量開始遞增，不可起始即給予高劑量。"
+  },
+  {
+    "question_id": "114-1_medicine-4_050",
+    "category": "神經科",
+    "category_confidence": "high",
+    "key_point": "脊髓小腦共濟失調（SCA）的青年起病、小腦共濟失調特徵、錐體束徵及顯性遺傳家族史。",
+    "explanation": "【題幹解析】\n30歲青年女性，主訴漸進性走路不穩（共濟失調）、口齒不清。身體檢查顯示：眼震、眼動緩慢、肢體測距不準（小腦受損特徵），肌腱反射異常增強（錐體束/上運動神經元受損特徵）。此外，其父親及祖母也有類似症狀（跨代連續遺傳，符合體染色體顯性遺傳模式）。\n\n【選項詳解】\n- A. 最可能。脊髓小腦共濟失調（Spinocerebellar ataxia, SCA，俗稱小腦萎縮症）是體染色體顯性遺傳疾病，常在青年至中年期起病。典型表現為進行性小腦共濟失調（步態不穩、構音障礙、眼震、測距不準），並可合併脊髓受損表現（如腱反射亢進），且有明顯的體染色體顯性家族遺傳史。\n- B. 不可能。威爾森氏病（Wilson disease）是體染色體隱性遺傳疾病，家族史通常為同胞（兄弟姊妹）受累，極少出現父親及祖母連續顯性遺傳的現象。\n- C. 不可能。巴金森氏病（Parkinson's disease）的核心特徵為靜止性震顫、齒輪樣強直、動作遲緩與姿勢不穩，腱反射多為正常或減弱，不以眼震與小腦測距不準為首發主訴，且多為散發性。\n- D. 不可能。庫賈氏病（Creutzfeldt-Jakob disease, CJD）是朊病毒感染，為急性/亞急性快速進展性失智症，伴隨肌陣攣，病程多在數月內死亡，且多數無家族史（僅少數遺傳型，但病程為急性）。\n\n【核心考點】\n脊髓小腦共濟失調（SCA）呈體染色體顯性遺傳，以進行性小腦性共濟失調（步態不穩、眼震、測距不準、構音障礙）為特徵，常伴隨腱反射亢進等錐體束徵。威爾森氏病為隱性遺傳，巴金森病以強直遲緩為主，庫賈氏病為快速進行性失智症。",
+    "flashcard_front": "青年走路不穩、眼震 / 腱反射亢進 / 父親與祖母有類似症狀 / 最可能診斷與遺傳模式",
+    "flashcard_back": "最可能為脊髓小腦共濟失調(SCA，小腦萎縮症)；呈體染色體顯性遺傳，以進行性小腦共濟失調伴錐體束受損為特徵。",
+    "flashcard_summary": "脊髓小腦共濟失調 -> 體染色體顯性遺傳；進行性共濟失調、眼震及腱反射亢進。"
+  }
+]
+
+out_dir = Path("scratch")
+out_dir.mkdir(parents=True, exist_ok=True)
+Path("scratch/updates_1141_med4_batch5.json").write_text(json.dumps(updates, ensure_ascii=False, indent=2), encoding="utf-8")
+print("Batch 5 updates generated.")
