@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo } from "react";
-import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff, Bookmark, BookmarkCheck, ChevronDown, ChevronRight } from "lucide-react";
-import { loadDiseaseComparisons, loadInstantKillFacts } from "../../lib/loadExamData";
+import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sparkles, Eye, EyeOff, Bookmark, BookmarkCheck, ChevronDown, ChevronRight, BookOpen, Users, Activity } from "lucide-react";
+import { loadDiseaseComparisons, loadInstantKillFacts, loadMedicalGlossary, loadEponyms, loadClinicalGuidelines } from "../../lib/loadExamData";
 import { DiseaseComparison } from "./DiseaseComparison";
-import type { DiseaseComparisonGroup, InstantKillFact } from "../../types/disease";
+import type { DiseaseComparisonGroup, InstantKillFact, MedicalGlossaryEntry, EponymEntry, ClinicalGuidelineEntry } from "../../types/disease";
 import type { StickyNoteItem } from "../../types/stickyNote";
 import type { FavoriteEntry, FavoriteTag } from "../favorites/FavoritesPage";
 
@@ -32,7 +32,7 @@ export function DiseaseComparePage({
   onToggleFavorite,
   onToggleFavoriteTag,
 }: DiseaseComparePageProps) {
-  const [subTab, setSubTab] = useState<"compare" | "instant_kill">("compare");
+  const [subTab, setSubTab] = useState<"compare" | "instant_kill" | "glossary" | "eponyms" | "guidelines">("compare");
   const [groups, setGroups] = useState<DiseaseComparisonGroup[]>([]);
   const [selectedGroupId, setSelectedGroupId] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
@@ -48,12 +48,36 @@ export function DiseaseComparePage({
 
   // Instant Kill Facts State
   const [facts, setFacts] = useState<InstantKillFact[]>([]);
-  const [factsLoading, setFactsLoading] = useState<boolean>(true);
+  const [factsLoading, setFactsLoading] = useState<boolean>(false);
   const [selectedFactStage, setSelectedFactStage] = useState<"all" | "一階" | "二階">("all");
   const [selectedFactCategory, setSelectedFactCategory] = useState<string>("全部");
   const [factSearch, setFactSearch] = useState<string>("");
   const [factSelfTest, setFactSelfTest] = useState<boolean>(false);
   const [revealedFacts, setRevealedFacts] = useState<Record<string, boolean>>({});
+
+  // Medical Glossary State
+  const [glossary, setGlossary] = useState<MedicalGlossaryEntry[]>([]);
+  const [glossaryLoading, setGlossaryLoading] = useState<boolean>(false);
+  const [selectedGlossaryId, setSelectedGlossaryId] = useState<string>("");
+  const [glossarySearch, setGlossarySearch] = useState<string>("");
+  const [glossarySelfTest, setGlossarySelfTest] = useState<boolean>(false);
+  const [revealedGlossaries, setRevealedGlossaries] = useState<Record<string, boolean>>({});
+
+  // Eponyms State
+  const [eponyms, setEponyms] = useState<EponymEntry[]>([]);
+  const [eponymsLoading, setEponymsLoading] = useState<boolean>(false);
+  const [selectedEponymId, setSelectedEponymId] = useState<string>("");
+  const [eponymSearch, setEponymSearch] = useState<string>("");
+  const [eponymSelfTest, setEponymSelfTest] = useState<boolean>(false);
+  const [revealedEponyms, setRevealedEponyms] = useState<Record<string, boolean>>({});
+
+  // Clinical Guidelines State
+  const [guidelines, setGuidelines] = useState<ClinicalGuidelineEntry[]>([]);
+  const [guidelinesLoading, setGuidelinesLoading] = useState<boolean>(false);
+  const [selectedGuidelineId, setSelectedGuidelineId] = useState<string>("");
+  const [guidelineSearch, setGuidelineSearch] = useState<string>("");
+  const [guidelineSelfTest, setGuidelineSelfTest] = useState<boolean>(false);
+  const [revealedGuidelines, setRevealedGuidelines] = useState<Record<string, boolean>>({});
 
   // Quiz State
   const [quizList, setQuizList] = useState<QuizQuestion[]>([]);
@@ -96,6 +120,165 @@ export function DiseaseComparePage({
         });
     }
   }, [subTab, facts.length]);
+
+  // Load glossary on demand
+  useEffect(() => {
+    if (subTab === "glossary" && glossary.length === 0) {
+      setGlossaryLoading(true);
+      loadMedicalGlossary()
+        .then((data) => {
+          setGlossary(data.terms);
+          if (data.terms.length > 0) {
+            setSelectedGlossaryId(data.terms[0].id);
+          }
+          setGlossaryLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load glossary", err);
+          setGlossaryLoading(false);
+        });
+    }
+  }, [subTab, glossary.length]);
+
+  // Load eponyms on demand
+  useEffect(() => {
+    if (subTab === "eponyms" && eponyms.length === 0) {
+      setEponymsLoading(true);
+      loadEponyms()
+        .then((data) => {
+          setEponyms(data.eponyms);
+          if (data.eponyms.length > 0) {
+            setSelectedEponymId(data.eponyms[0].id);
+          }
+          setEponymsLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load eponyms", err);
+          setEponymsLoading(false);
+        });
+    }
+  }, [subTab, eponyms.length]);
+
+  // Load guidelines on demand
+  useEffect(() => {
+    if (subTab === "guidelines" && guidelines.length === 0) {
+      setGuidelinesLoading(true);
+      loadClinicalGuidelines()
+        .then((data) => {
+          setGuidelines(data.guidelines);
+          if (data.guidelines.length > 0) {
+            setSelectedGuidelineId(data.guidelines[0].id);
+          }
+          setGuidelinesLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load guidelines", err);
+          setGuidelinesLoading(false);
+        });
+    }
+  }, [subTab, guidelines.length]);
+
+  const filteredGlossary = useMemo(() => {
+    return glossary.filter((entry) => {
+      const searchLower = glossarySearch.toLowerCase();
+      return (
+        !glossarySearch ||
+        entry.name.toLowerCase().includes(searchLower) ||
+        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+        entry.explanation.toLowerCase().includes(searchLower) ||
+        entry.exam_focus.toLowerCase().includes(searchLower)
+      );
+    });
+  }, [glossary, glossarySearch]);
+
+  const selectedGlossary = useMemo(() => {
+    return filteredGlossary.find((entry) => entry.id === selectedGlossaryId) || filteredGlossary[0] || null;
+  }, [filteredGlossary, selectedGlossaryId]);
+
+  const stagedGlossaryCategories = useMemo(() => {
+    const stages: Record<string, Record<string, MedicalGlossaryEntry[]>> = {
+      "第一階段": {},
+      "第二階段": {},
+    };
+    for (const entry of filteredGlossary) {
+      const stageName = entry.stage === "一階" ? "第一階段" : "第二階段";
+      const cat = entry.category.split(" / ")[0] || "其他分類";
+      if (!stages[stageName][cat]) {
+        stages[stageName][cat] = [];
+      }
+      stages[stageName][cat].push(entry);
+    }
+    return stages;
+  }, [filteredGlossary]);
+
+  const filteredEponyms = useMemo(() => {
+    return eponyms.filter((entry) => {
+      const searchLower = eponymSearch.toLowerCase();
+      return (
+        !eponymSearch ||
+        entry.name.toLowerCase().includes(searchLower) ||
+        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+        entry.description.toLowerCase().includes(searchLower) ||
+        entry.clinical_signs.toLowerCase().includes(searchLower) ||
+        entry.exam_focus.toLowerCase().includes(searchLower)
+      );
+    });
+  }, [eponyms, eponymSearch]);
+
+  const selectedEponym = useMemo(() => {
+    return filteredEponyms.find((entry) => entry.id === selectedEponymId) || filteredEponyms[0] || null;
+  }, [filteredEponyms, selectedEponymId]);
+
+  const stagedEponymCategories = useMemo(() => {
+    const stages: Record<string, Record<string, EponymEntry[]>> = {
+      "第一階段": {},
+      "第二階段": {},
+    };
+    for (const entry of filteredEponyms) {
+      const stageName = entry.stage === "一階" ? "第一階段" : "第二階段";
+      const cat = entry.origin_type || "一般考點";
+      if (!stages[stageName][cat]) {
+        stages[stageName][cat] = [];
+      }
+      stages[stageName][cat].push(entry);
+    }
+    return stages;
+  }, [filteredEponyms]);
+
+  const filteredGuidelines = useMemo(() => {
+    return guidelines.filter((entry) => {
+      const searchLower = guidelineSearch.toLowerCase();
+      return (
+        !guidelineSearch ||
+        entry.title.toLowerCase().includes(searchLower) ||
+        entry.aliases.some((a) => a.toLowerCase().includes(searchLower)) ||
+        entry.scenario.toLowerCase().includes(searchLower) ||
+        entry.first_line_action.toLowerCase().includes(searchLower) ||
+        entry.dosage_info.toLowerCase().includes(searchLower) ||
+        entry.common_traps.toLowerCase().includes(searchLower)
+      );
+    });
+  }, [guidelines, guidelineSearch]);
+
+  const selectedGuideline = useMemo(() => {
+    return filteredGuidelines.find((entry) => entry.id === selectedGuidelineId) || filteredGuidelines[0] || null;
+  }, [filteredGuidelines, selectedGuidelineId]);
+
+  const stagedGuidelineCategories = useMemo(() => {
+    const stages: Record<string, Record<string, ClinicalGuidelineEntry[]>> = {
+      "第一階段": {},
+      "第二階段": {},
+    };
+    for (const entry of filteredGuidelines) {
+      const stageName = entry.stage === "一階" ? "第一階段" : "第二階段";
+      const cat = entry.category.split(" / ")[0] || "臨床指南";
+      if (!stages[stageName][cat]) {
+        stages[stageName][cat] = [];
+      }
+      stages[stageName][cat].push(entry);
+    }
+    return stages;
+  }, [filteredGuidelines]);
 
   const isStage1Fact = (fact: InstantKillFact) => {
     return fact.id.includes("medicine-1") || fact.id.includes("medicine-2");
@@ -279,7 +462,7 @@ export function DiseaseComparePage({
   return (
     <div className="space-y-6">
       {/* Sub-tab Navigation */}
-      <div className="flex gap-2 border-b border-[#efd9d0]/60 pb-3">
+      <div className="flex flex-wrap gap-2 border-b border-[#efd9d0]/60 pb-3">
         <button
           type="button"
           onClick={() => setSubTab("compare")}
@@ -304,9 +487,45 @@ export function DiseaseComparePage({
           <Sparkles size={15} />
           國考數字秒殺
         </button>
+        <button
+          type="button"
+          onClick={() => setSubTab("glossary")}
+          className={`px-4 py-2 text-sm font-hand font-bold rounded-xl transition cursor-pointer flex items-center gap-1.5 ${
+            subTab === "glossary"
+              ? "bg-[#b8527a] text-white shadow-xs"
+              : "text-[#6f5b50] hover:bg-white/80"
+          }`}
+        >
+          <BookOpen size={15} />
+          臨床名詞百科
+        </button>
+        <button
+          type="button"
+          onClick={() => setSubTab("eponyms")}
+          className={`px-4 py-2 text-sm font-hand font-bold rounded-xl transition cursor-pointer flex items-center gap-1.5 ${
+            subTab === "eponyms"
+              ? "bg-[#b8527a] text-white shadow-xs"
+              : "text-[#6f5b50] hover:bg-white/80"
+          }`}
+        >
+          <Users size={15} />
+          人名地名考點
+        </button>
+        <button
+          type="button"
+          onClick={() => setSubTab("guidelines")}
+          className={`px-4 py-2 text-sm font-hand font-bold rounded-xl transition cursor-pointer flex items-center gap-1.5 ${
+            subTab === "guidelines"
+              ? "bg-[#b8527a] text-white shadow-xs"
+              : "text-[#6f5b50] hover:bg-white/80"
+          }`}
+        >
+          <Activity size={15} />
+          二階首選指引
+        </button>
       </div>
 
-      {subTab === "compare" ? (
+      {subTab === "compare" && (
         <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
           {/* Sidebar List with Staged Taxonomy */}
           <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
@@ -522,7 +741,9 @@ export function DiseaseComparePage({
             </div>
           </div>
         </div>
-      ) : (
+      )}
+
+      {subTab === "instant_kill" && (
         <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
           {/* Category Sidebar with Staged Categories */}
           <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
@@ -832,6 +1053,740 @@ export function DiseaseComparePage({
             ) : (
               <div className="rounded-[1.2rem] border border-[#efd9d0] bg-white/60 p-12 text-center text-xs text-[#a68e98] font-hand">
                 🔍 沒有找到符合關鍵字「{factSearch}」的秒殺考點。
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {subTab === "glossary" && (
+        <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
+          {/* Sidebar List with Staged Taxonomy */}
+          <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
+            <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
+              <BookOpen size={18} className="text-[#b8527a]" />
+              <span className="font-hand font-bold text-base text-[#4b3b35]">名詞清單</span>
+            </div>
+            
+            <div className="space-y-4">
+              {Object.entries(stagedGlossaryCategories).map(([stageName, categories]) => {
+                const hasItems = Object.keys(categories).length > 0;
+                if (!hasItems) return null;
+                const isCollapsed = collapsedStages[`glossary-${stageName}`];
+
+                return (
+                  <div key={stageName} className="space-y-2">
+                    <h3 
+                      onClick={() => toggleStageCollapse(`glossary-${stageName}`)}
+                      className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] transition"
+                    >
+                      <span className="flex items-center gap-1">★ {stageName}</span>
+                      {isCollapsed ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+                    </h3>
+                    {!isCollapsed && (
+                      <div className="space-y-3 pl-1.5 mb-4">
+                        {Object.entries(categories).map(([category, items]) => (
+                          <div key={category}>
+                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1 break-words">
+                              {category}
+                            </h4>
+                            <ul className="space-y-1">
+                              {items.map((item) => (
+                                <li key={item.id}>
+                                  <button
+                                    type="button"
+                                    onClick={() => setSelectedGlossaryId(item.id)}
+                                    className={`w-full min-w-0 text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer break-words whitespace-normal ${
+                                      item.id === selectedGlossaryId
+                                        ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                                        : "text-[#6f5b50] hover:bg-white"
+                                    }`}
+                                  >
+                                    {item.name.split(" (")[0]}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </aside>
+
+          {/* Main Content Area */}
+          <div className="min-w-0 space-y-6">
+            {/* Intro & Controls */}
+            <div className="rounded-[1.4rem] border border-white/90 bg-white/82 p-5 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h2 className="font-hand text-2xl font-bold text-[#4b3b35] flex items-center gap-2.5">
+                    <BookOpen size={24} className="text-[#b8527a]" />
+                    臨床名詞百科
+                  </h2>
+                  <p className="mt-1 text-sm text-[#725b52] leading-6 font-reading">
+                    本專區精選醫學國考核心名詞。透過簡單直覺的白話觀念與考點分析，幫助您釐清容易混淆的名詞觀念。
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setGlossarySelfTest(!glossarySelfTest);
+                    setRevealedGlossaries({});
+                  }}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold border transition cursor-pointer shadow-xs ${
+                    glossarySelfTest
+                      ? "bg-[#b8527a] text-white border-[#b8527a] hover:bg-[#9c3e5e]"
+                      : "bg-white text-[#6f5b50] border-[#efd9d0] hover:bg-[#fffbf9]"
+                  }`}
+                >
+                  {glossarySelfTest ? <Eye size={14} /> : <EyeOff size={14} />}
+                  <span>{glossarySelfTest ? "結束自測" : "遮擋自測模式"}</span>
+                </button>
+              </div>
+
+              {/* Search bar */}
+              <div className="relative">
+                <input
+                  type="text"
+                  value={glossarySearch}
+                  onChange={(e) => setGlossarySearch(e.target.value)}
+                  placeholder="搜尋名詞關鍵字（例如：奇脈、碎裂紅血球、Pulsus...）"
+                  className="w-full rounded-xl border border-[#efd9d0] bg-white p-3 pl-10 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
+                />
+                <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
+              </div>
+            </div>
+
+            {/* Selected Item Detail */}
+            {glossaryLoading ? (
+              <div className="flex h-64 items-center justify-center">
+                <div className="text-center">
+                  <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#b8527a] border-t-transparent mx-auto"></div>
+                  <p className="mt-3 text-sm text-[#8a7066] font-hand">正在載入名詞百科資料庫...</p>
+                </div>
+              </div>
+            ) : selectedGlossary ? (
+              <div 
+                onClick={() => {
+                  if (glossarySelfTest) {
+                    setRevealedGlossaries((prev) => ({ ...prev, [selectedGlossary.id]: !prev[selectedGlossary.id] }));
+                  }
+                }}
+                className={`rounded-[1.4rem] border p-6 space-y-6 transition duration-300 relative overflow-hidden select-none cursor-pointer ${
+                  theme === "dark"
+                    ? "border-[#5e4757] bg-[#2d2433]/90"
+                    : theme === "clinical"
+                    ? "border-[#c0d6e4] bg-[#f1f7fc]/95"
+                    : "border-[#efd9d0] bg-[#fffdf5]/90"
+                }`}
+              >
+                {/* Title Section */}
+                <div className="border-b border-[#efd9d0]/60 pb-4 space-y-2">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-[#fdf0f4] text-[#b8527a] dark:bg-[#502f40] dark:text-[#f3a6c4] px-3 py-1 text-xs font-bold border border-[#f1aac8]/30">
+                      {selectedGlossary.stage}
+                    </span>
+                    <span className="rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-3 py-1 text-xs font-bold text-[#866e7b] dark:text-[#a68e98]">
+                      {selectedGlossary.category}
+                    </span>
+                    {selectedGlossary.frequency >= 3 && (
+                      <span className="rounded-full bg-amber-50 text-amber-800 border border-amber-200 px-3 py-1 text-xs font-bold flex items-center gap-1">
+                        🔥 出現 {selectedGlossary.frequency} 次
+                      </span>
+                    )}
+                  </div>
+                  <h3 className={`text-xl font-bold font-hand ${theme === 'dark' ? 'text-white' : 'text-[#4b3b35]'}`}>
+                    {selectedGlossary.name}
+                  </h3>
+                  {selectedGlossary.aliases && selectedGlossary.aliases.length > 0 && (
+                    <p className="text-xs text-[#a68e98]">
+                      別名：{selectedGlossary.aliases.join(", ")}
+                    </p>
+                  )}
+                </div>
+
+                {/* Explanation & Exam Focus Content */}
+                <div className={`space-y-4 ${
+                  glossarySelfTest && !revealedGlossaries[selectedGlossary.id]
+                    ? "blur-[5px] opacity-20"
+                    : ""
+                }`}>
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      💡 白話觀念
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                      {selectedGlossary.explanation}
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      🎯 國考重點與常考點
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`} dangerouslySetInnerHTML={{ __html: selectedGlossary.exam_focus.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}>
+                    </p>
+                  </div>
+                </div>
+
+                {/* Practice Questions */}
+                {selectedGlossary.related_questions && selectedGlossary.related_questions.length > 0 && (
+                  <div className="border-t border-[#efd9d0]/60 pt-4 space-y-3">
+                    <h4 className="text-xs font-bold text-[#4b3b35] dark:text-white flex items-center gap-1.5">
+                      ⚡ 歷屆延伸演練
+                    </h4>
+                    <div className="grid gap-3">
+                      {selectedGlossary.related_questions.map((q) => (
+                        <div 
+                          key={q.question_id}
+                          className="rounded-xl border border-[#efd9d0]/40 bg-white/50 dark:bg-black/20 p-3.5 space-y-2 flex flex-col justify-between"
+                        >
+                          <div className="text-[11px] leading-5 text-[#6f5b50] dark:text-[#a68e98]">
+                            <span className="font-bold text-[#b8527a] mr-2">[{q.question_id.split('_')[0]}]</span>
+                            {q.note}
+                          </div>
+                          <div className="flex justify-end">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                const parts = q.question_id.split("_");
+                                if (parts.length >= 2) {
+                                  const examId = `${parts[0]}_${parts[1]}`;
+                                  const openQuestionFn = (window as any).__openQuestion;
+                                  if (typeof openQuestionFn === "function") {
+                                    openQuestionFn(examId, q.question_id);
+                                  }
+                                }
+                              }}
+                              className="inline-flex min-h-9 items-center gap-1 rounded-lg px-2.5 py-1.5 text-[10px] font-bold border transition cursor-pointer bg-white text-[#b8527a] border-[#f1aac8] hover:bg-[#fdf0f4] hover:border-[#b8527a] dark:bg-black/20 dark:text-[#f3a6c4] dark:border-[#5e4757] dark:hover:bg-[#502f40]"
+                            >
+                              ⚡ 開始演練題目
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Self Test Mask */}
+                {glossarySelfTest && !revealedGlossaries[selectedGlossary.id] && (
+                  <div className="absolute inset-0 bg-transparent flex items-center justify-center pointer-events-none">
+                    <span className="text-xs font-bold bg-white/95 dark:bg-black/90 px-4 py-2 rounded-full shadow-lg text-[#8a7066] dark:text-[#a2949e] flex items-center gap-1.5 border border-[#efd9d0]/80 dark:border-white/10">
+                      <EyeOff size={14} />
+                      點擊卡片解鎖白話與考點
+                    </span>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="rounded-[1.2rem] border border-[#efd9d0] bg-white/60 p-12 text-center text-xs text-[#a68e98] font-hand">
+                🔍 沒有找到符合關鍵字「{glossarySearch}」的名詞百科項目。
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {subTab === "eponyms" && (
+        <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
+          {/* Sidebar List with Staged Taxonomy */}
+          <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
+            <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
+              <Users size={18} className="text-[#b8527a]" />
+              <span className="font-hand font-bold text-base text-[#4b3b35]">人物誌/病徵</span>
+            </div>
+            
+            <div className="space-y-4">
+              {Object.entries(stagedEponymCategories).map(([stageName, categories]) => {
+                const hasItems = Object.keys(categories).length > 0;
+                if (!hasItems) return null;
+                const isCollapsed = collapsedStages[`eponym-${stageName}`];
+
+                return (
+                  <div key={stageName} className="space-y-2">
+                    <h3 
+                      onClick={() => toggleStageCollapse(`eponym-${stageName}`)}
+                      className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] transition"
+                    >
+                      <span className="flex items-center gap-1">★ {stageName}</span>
+                      {isCollapsed ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+                    </h3>
+                    {!isCollapsed && (
+                      <div className="space-y-3 pl-1.5 mb-4">
+                        {Object.entries(categories).map(([category, items]) => (
+                          <div key={category}>
+                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1 break-words">
+                              {category}
+                            </h4>
+                            <ul className="space-y-1">
+                              {items.map((item) => (
+                                <li key={item.id}>
+                                  <button
+                                    type="button"
+                                    onClick={() => setSelectedEponymId(item.id)}
+                                    className={`w-full min-w-0 text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer break-words whitespace-normal ${
+                                      item.id === selectedEponymId
+                                        ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                                        : "text-[#6f5b50] hover:bg-white"
+                                    }`}
+                                  >
+                                    {item.name.split(" (")[0]}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </aside>
+
+          {/* Main Content Area */}
+          <div className="min-w-0 space-y-6">
+            {/* Intro & Controls */}
+            <div className="rounded-[1.4rem] border border-white/90 bg-white/82 p-5 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h2 className="font-hand text-2xl font-bold text-[#4b3b35] flex items-center gap-2.5">
+                    <Users size={24} className="text-[#b8527a]" />
+                    Eponyms 人名地名考點
+                  </h2>
+                  <p className="mt-1 text-sm text-[#725b52] leading-6 font-reading">
+                    收錄以「人名/地名/經典病徵」命名的疾病或診斷條件。集中整理高頻考點與對照，方便考前衝刺。
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setEponymSelfTest(!eponymSelfTest);
+                    setRevealedEponyms({});
+                  }}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold border transition cursor-pointer shadow-xs ${
+                    eponymSelfTest
+                      ? "bg-[#b8527a] text-white border-[#b8527a] hover:bg-[#9c3e5e]"
+                      : "bg-white text-[#6f5b50] border-[#efd9d0] hover:bg-[#fffbf9]"
+                  }`}
+                >
+                  {eponymSelfTest ? <Eye size={14} /> : <EyeOff size={14} />}
+                  <span>{eponymSelfTest ? "結束自測" : "遮擋自測模式"}</span>
+                </button>
+              </div>
+
+              {/* Search bar */}
+              <div className="relative">
+                <input
+                  type="text"
+                  value={eponymSearch}
+                  onChange={(e) => setEponymSearch(e.target.value)}
+                  placeholder="搜尋人名或疾病關鍵字（例如：川崎、Kussmaul、Aspirin...）"
+                  className="w-full rounded-xl border border-[#efd9d0] bg-white p-3 pl-10 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
+                />
+                <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
+              </div>
+            </div>
+
+            {/* Selected Item Detail */}
+            {eponymsLoading ? (
+              <div className="flex h-64 items-center justify-center">
+                <div className="text-center">
+                  <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#b8527a] border-t-transparent mx-auto"></div>
+                  <p className="mt-3 text-sm text-[#8a7066] font-hand">正在載入 Eponyms 名人堂...</p>
+                </div>
+              </div>
+            ) : selectedEponym ? (
+              <div 
+                onClick={() => {
+                  if (eponymSelfTest) {
+                    setRevealedEponyms((prev) => ({ ...prev, [selectedEponym.id]: !prev[selectedEponym.id] }));
+                  }
+                }}
+                className={`rounded-[1.4rem] border p-6 space-y-6 transition duration-300 relative overflow-hidden select-none cursor-pointer ${
+                  theme === "dark"
+                    ? "border-[#5e4757] bg-[#2d2433]/90"
+                    : theme === "clinical"
+                    ? "border-[#c0d6e4] bg-[#f1f7fc]/95"
+                    : "border-[#efd9d0] bg-[#fffdf5]/90"
+                }`}
+              >
+                {/* Title Section */}
+                <div className="border-b border-[#efd9d0]/60 pb-4 space-y-2">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-[#fdf0f4] text-[#b8527a] dark:bg-[#502f40] dark:text-[#f3a6c4] px-3 py-1 text-xs font-bold border border-[#f1aac8]/30">
+                      {selectedEponym.stage}
+                    </span>
+                    <span className="rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-3 py-1 text-xs font-bold text-[#866e7b] dark:text-[#a68e98]">
+                      {selectedEponym.origin_type}
+                    </span>
+                    <span className="rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-3 py-1 text-xs font-bold text-[#866e7b] dark:text-[#a68e98]">
+                      {selectedEponym.category}
+                    </span>
+                    {selectedEponym.frequency >= 3 && (
+                      <span className="rounded-full bg-amber-50 text-amber-800 border border-amber-200 px-3 py-1 text-xs font-bold flex items-center gap-1">
+                        🔥 歷屆出現 {selectedEponym.frequency} 次
+                      </span>
+                    )}
+                  </div>
+                  <h3 className={`text-xl font-bold font-hand ${theme === 'dark' ? 'text-white' : 'text-[#4b3b35]'}`}>
+                    {selectedEponym.name}
+                  </h3>
+                  {selectedEponym.aliases && selectedEponym.aliases.length > 0 && (
+                    <p className="text-xs text-[#a68e98]">
+                      別名：{selectedEponym.aliases.join(", ")}
+                    </p>
+                  )}
+                </div>
+
+                {/* Description, Signs & Focus Content */}
+                <div className={`space-y-4 ${
+                  eponymSelfTest && !revealedEponyms[selectedEponym.id]
+                    ? "blur-[5px] opacity-20"
+                    : ""
+                }`}>
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      📝 定義與起源
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                      {selectedEponym.description}
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      📋 臨床特徵/診斷指標
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                      {selectedEponym.clinical_signs}
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      🎯 國考秒殺重點
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`} dangerouslySetInnerHTML={{ __html: selectedEponym.exam_focus.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}>
+                    </p>
+                  </div>
+                </div>
+
+                {/* Practice Questions */}
+                {selectedEponym.related_questions && selectedEponym.related_questions.length > 0 && (
+                  <div className="border-t border-[#efd9d0]/60 pt-4 space-y-3">
+                    <h4 className="text-xs font-bold text-[#4b3b35] dark:text-white flex items-center gap-1.5">
+                      ⚡ 歷屆延伸演練
+                    </h4>
+                    <div className="grid gap-3">
+                      {selectedEponym.related_questions.map((q) => (
+                        <div 
+                          key={q.question_id}
+                          className="rounded-xl border border-[#efd9d0]/40 bg-white/50 dark:bg-black/20 p-3.5 space-y-2 flex flex-col justify-between"
+                        >
+                          <div className="text-[11px] leading-5 text-[#6f5b50] dark:text-[#a68e98]">
+                            <span className="font-bold text-[#b8527a] mr-2">[{q.question_id.split('_')[0]}]</span>
+                            {q.note}
+                          </div>
+                          <div className="flex justify-end">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                const parts = q.question_id.split("_");
+                                if (parts.length >= 2) {
+                                  const examId = `${parts[0]}_${parts[1]}`;
+                                  const openQuestionFn = (window as any).__openQuestion;
+                                  if (typeof openQuestionFn === "function") {
+                                    openQuestionFn(examId, q.question_id);
+                                  }
+                                }
+                              }}
+                              className="inline-flex min-h-9 items-center gap-1 rounded-lg px-2.5 py-1.5 text-[10px] font-bold border transition cursor-pointer bg-white text-[#b8527a] border-[#f1aac8] hover:bg-[#fdf0f4] hover:border-[#b8527a] dark:bg-black/20 dark:text-[#f3a6c4] dark:border-[#5e4757] dark:hover:bg-[#502f40]"
+                            >
+                              ⚡ 開始演練題目
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Self Test Mask */}
+                {eponymSelfTest && !revealedEponyms[selectedEponym.id] && (
+                  <div className="absolute inset-0 bg-transparent flex items-center justify-center pointer-events-none">
+                    <span className="text-xs font-bold bg-white/95 dark:bg-black/90 px-4 py-2 rounded-full shadow-lg text-[#8a7066] dark:text-[#a2949e] flex items-center gap-1.5 border border-[#efd9d0]/80 dark:border-white/10">
+                      <EyeOff size={14} />
+                      點擊卡片解鎖起源與秒殺點
+                    </span>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="rounded-[1.2rem] border border-[#efd9d0] bg-white/60 p-12 text-center text-xs text-[#a68e98] font-hand">
+                🔍 沒有找到符合關鍵字「{eponymSearch}」的項目。
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {subTab === "guidelines" && (
+        <div className="grid min-w-0 gap-6 lg:grid-cols-[280px_minmax(0,1fr)] items-start">
+          {/* Sidebar List with Staged Taxonomy */}
+          <aside className="w-full min-w-0 max-w-full rounded-[1.4rem] border border-white/90 bg-white/80 p-4 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl lg:sticky lg:top-24 max-h-[80vh] overflow-y-auto overflow-x-hidden">
+            <div className="flex items-center gap-2 border-b border-[#efd9d0] pb-3 mb-3">
+              <Activity size={18} className="text-[#b8527a]" />
+              <span className="font-hand font-bold text-base text-[#4b3b35]">首選指引目錄</span>
+            </div>
+            
+            <div className="space-y-4">
+              {Object.entries(stagedGuidelineCategories).map(([stageName, categories]) => {
+                const hasItems = Object.keys(categories).length > 0;
+                if (!hasItems) return null;
+                const isCollapsed = collapsedStages[`guideline-${stageName}`];
+
+                return (
+                  <div key={stageName} className="space-y-2">
+                    <h3 
+                      onClick={() => toggleStageCollapse(`guideline-${stageName}`)}
+                      className="text-xs font-extrabold text-[#b8527a] px-1 border-b border-[#efd9d0] pb-1 flex items-center justify-between cursor-pointer select-none hover:text-[#9a3d60] transition"
+                    >
+                      <span className="flex items-center gap-1">★ {stageName}</span>
+                      {isCollapsed ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+                    </h3>
+                    {!isCollapsed && (
+                      <div className="space-y-3 pl-1.5 mb-4">
+                        {Object.entries(categories).map(([category, items]) => (
+                          <div key={category}>
+                            <h4 className="text-[10px] font-bold tracking-wider text-[#9c7b70] uppercase px-2 mb-1 break-words">
+                              {category}
+                            </h4>
+                            <ul className="space-y-1">
+                              {items.map((item) => (
+                                <li key={item.id}>
+                                  <button
+                                    type="button"
+                                    onClick={() => setSelectedGuidelineId(item.id)}
+                                    className={`w-full min-w-0 text-left rounded-lg px-2.5 py-2 text-xs font-semibold transition cursor-pointer break-words whitespace-normal ${
+                                      item.id === selectedGuidelineId
+                                        ? "bg-[#fdf0f4] text-[#b8527a] font-bold"
+                                        : "text-[#6f5b50] hover:bg-white"
+                                    }`}
+                                  >
+                                    {item.title.split(" (")[0]}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </aside>
+
+          {/* Main Content Area */}
+          <div className="min-w-0 space-y-6">
+            {/* Intro & Controls */}
+            <div className="rounded-[1.4rem] border border-white/90 bg-white/82 p-5 shadow-[0_12px_40px_rgba(181,133,117,0.08)] backdrop-blur-xl space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h2 className="font-hand text-2xl font-bold text-[#4b3b35] flex items-center gap-2.5">
+                    <Activity size={24} className="text-[#b8527a]" />
+                    二階首選指引與毒物處置
+                  </h2>
+                  <p className="mt-1 text-sm text-[#725b52] leading-6 font-reading">
+                    本專區專注整理國考中最常出題的「臨床急重症首選治療、黃金施打時間、解毒劑配對與劑量」以及常見錯誤考題地雷。
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setGuidelineSelfTest(!guidelineSelfTest);
+                    setRevealedGuidelines({});
+                  }}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold border transition cursor-pointer shadow-xs ${
+                    guidelineSelfTest
+                      ? "bg-[#b8527a] text-white border-[#b8527a] hover:bg-[#9c3e5e]"
+                      : "bg-white text-[#6f5b50] border-[#efd9d0] hover:bg-[#fffbf9]"
+                  }`}
+                >
+                  {guidelineSelfTest ? <Eye size={14} /> : <EyeOff size={14} />}
+                  <span>{guidelineSelfTest ? "結束自測" : "遮擋自測模式"}</span>
+                </button>
+              </div>
+
+              {/* Search bar */}
+              <div className="relative">
+                <input
+                  type="text"
+                  value={guidelineSearch}
+                  onChange={(e) => setGuidelineSearch(e.target.value)}
+                  placeholder="搜尋治療、處置或症狀關鍵字（例如：過敏性休克、Epinephrine、有機磷...）"
+                  className="w-full rounded-xl border border-[#efd9d0] bg-white p-3 pl-10 text-xs leading-5 text-[#6f5b50] focus:border-[#c5a6b4] focus:outline-none placeholder-[#b2a18d]"
+                />
+                <span className="absolute left-3.5 top-3.5 text-[#b2a18d]">🔍</span>
+              </div>
+            </div>
+
+            {/* Selected Item Detail */}
+            {guidelinesLoading ? (
+              <div className="flex h-64 items-center justify-center">
+                <div className="text-center">
+                  <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#b8527a] border-t-transparent mx-auto"></div>
+                  <p className="mt-3 text-sm text-[#8a7066] font-hand">正在載入首選指引資料庫...</p>
+                </div>
+              </div>
+            ) : selectedGuideline ? (
+              <div 
+                onClick={() => {
+                  if (guidelineSelfTest) {
+                    setRevealedGuidelines((prev) => ({ ...prev, [selectedGuideline.id]: !prev[selectedGuideline.id] }));
+                  }
+                }}
+                className={`rounded-[1.4rem] border p-6 space-y-6 transition duration-300 relative overflow-hidden select-none cursor-pointer ${
+                  theme === "dark"
+                    ? "border-[#5e4757] bg-[#2d2433]/90"
+                    : theme === "clinical"
+                    ? "border-[#c0d6e4] bg-[#f1f7fc]/95"
+                    : "border-[#efd9d0] bg-[#fffdf5]/90"
+                }`}
+              >
+                {/* Title Section */}
+                <div className="border-b border-[#efd9d0]/60 pb-4 space-y-2">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-[#fdf0f4] text-[#b8527a] dark:bg-[#502f40] dark:text-[#f3a6c4] px-3 py-1 text-xs font-bold border border-[#f1aac8]/30">
+                      {selectedGuideline.stage}
+                    </span>
+                    <span className="rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-3 py-1 text-xs font-bold text-[#866e7b] dark:text-[#a68e98]">
+                      {selectedGuideline.category}
+                    </span>
+                    {selectedGuideline.frequency >= 3 && (
+                      <span className="rounded-full bg-amber-50 text-amber-800 border border-amber-200 px-3 py-1 text-xs font-bold flex items-center gap-1">
+                        🔥 歷屆出現 {selectedGuideline.frequency} 次
+                      </span>
+                    )}
+                  </div>
+                  <h3 className={`text-xl font-bold font-hand ${theme === 'dark' ? 'text-white' : 'text-[#4b3b35]'}`}>
+                    {selectedGuideline.title}
+                  </h3>
+                  {selectedGuideline.aliases && selectedGuideline.aliases.length > 0 && (
+                    <p className="text-xs text-[#a68e98]">
+                      相關對應詞：{selectedGuideline.aliases.join(", ")}
+                    </p>
+                  )}
+                </div>
+
+                {/* Scenario, First line, Dosage & Traps Content */}
+                <div className={`space-y-4 ${
+                  guidelineSelfTest && !revealedGuidelines[selectedGuideline.id]
+                    ? "blur-[5px] opacity-20"
+                    : ""
+                }`}>
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      🚨 臨床情境線索
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                      {selectedGuideline.scenario}
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                      🌟 首選/第一線處置
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`} dangerouslySetInnerHTML={{ __html: selectedGuideline.first_line_action.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}>
+                    </p>
+                  </div>
+
+                  {selectedGuideline.dosage_info && (
+                    <div className="space-y-2">
+                      <h4 className="text-xs font-bold text-[#b8527a] dark:text-[#f3a6c4] flex items-center gap-1.5">
+                        💊 劑量與細節重點
+                      </h4>
+                      <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                        {selectedGuideline.dosage_info}
+                      </p>
+                    </div>
+                  )}
+
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-bold text-red-600 dark:text-red-400 flex items-center gap-1.5">
+                      ⚠️ 考題常規陷阱/地雷
+                    </h4>
+                    <p className={`text-xs leading-6 font-reading ${theme === 'dark' ? 'text-[#dccbd3]' : 'text-[#604b43]'}`}>
+                      {selectedGuideline.common_traps}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Practice Questions */}
+                {selectedGuideline.related_questions && selectedGuideline.related_questions.length > 0 && (
+                  <div className="border-t border-[#efd9d0]/60 pt-4 space-y-3">
+                    <h4 className="text-xs font-bold text-[#4b3b35] dark:text-white flex items-center gap-1.5">
+                      ⚡ 歷屆延伸演練
+                    </h4>
+                    <div className="grid gap-3">
+                      {selectedGuideline.related_questions.map((q) => (
+                        <div 
+                          key={q.question_id}
+                          className="rounded-xl border border-[#efd9d0]/40 bg-white/50 dark:bg-black/20 p-3.5 space-y-2 flex flex-col justify-between"
+                        >
+                          <div className="text-[11px] leading-5 text-[#6f5b50] dark:text-[#a68e98]">
+                            <span className="font-bold text-[#b8527a] mr-2">[{q.question_id.split('_')[0]}]</span>
+                            {q.note}
+                          </div>
+                          <div className="flex justify-end">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                const parts = q.question_id.split("_");
+                                if (parts.length >= 2) {
+                                  const examId = `${parts[0]}_${parts[1]}`;
+                                  const openQuestionFn = (window as any).__openQuestion;
+                                  if (typeof openQuestionFn === "function") {
+                                    openQuestionFn(examId, q.question_id);
+                                  }
+                                }
+                              }}
+                              className="inline-flex min-h-9 items-center gap-1 rounded-lg px-2.5 py-1.5 text-[10px] font-bold border transition cursor-pointer bg-white text-[#b8527a] border-[#f1aac8] hover:bg-[#fdf0f4] hover:border-[#b8527a] dark:bg-black/20 dark:text-[#f3a6c4] dark:border-[#5e4757] dark:hover:bg-[#502f40]"
+                            >
+                              ⚡ 開始演練題目
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Self Test Mask */}
+                {guidelineSelfTest && !revealedGuidelines[selectedGuideline.id] && (
+                  <div className="absolute inset-0 bg-transparent flex items-center justify-center pointer-events-none">
+                    <span className="text-xs font-bold bg-white/95 dark:bg-black/90 px-4 py-2 rounded-full shadow-lg text-[#8a7066] dark:text-[#a2949e] flex items-center gap-1.5 border border-[#efd9d0]/80 dark:border-white/10">
+                      <EyeOff size={14} />
+                      點擊卡片解鎖處置與劑量資訊
+                    </span>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="rounded-[1.2rem] border border-[#efd9d0] bg-white/60 p-12 text-center text-xs text-[#a68e98] font-hand">
+                🔍 沒有找到符合關鍵字「{guidelineSearch}」的首選處置項目。
               </div>
             )}
           </div>

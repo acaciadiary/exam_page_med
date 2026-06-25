@@ -31,10 +31,13 @@ export async function loadExamData(path: string) {
   return data;
 }
 
-import type { InstantKillFactsData } from "../types/disease";
+import type { InstantKillFactsData, MedicalGlossaryData, EponymsData, ClinicalGuidelinesData } from "../types/disease";
 
 let diseaseComparisonsCache: DiseaseComparisonsData | null = null;
 let instantKillFactsCache: InstantKillFactsData | null = null;
+let medicalGlossaryCache: MedicalGlossaryData | null = null;
+let eponymsCache: EponymsData | null = null;
+let clinicalGuidelinesCache: ClinicalGuidelinesData | null = null;
 
 export async function loadDiseaseComparisons() {
   if (diseaseComparisonsCache) {
@@ -51,6 +54,33 @@ export async function loadInstantKillFacts() {
   }
   const data = await loadJson<InstantKillFactsData>("data/instant_kill_facts.json");
   instantKillFactsCache = data;
+  return data;
+}
+
+export async function loadMedicalGlossary() {
+  if (medicalGlossaryCache) {
+    return medicalGlossaryCache;
+  }
+  const data = await loadJson<MedicalGlossaryData>("data/medical_glossary.json");
+  medicalGlossaryCache = data;
+  return data;
+}
+
+export async function loadEponyms() {
+  if (eponymsCache) {
+    return eponymsCache;
+  }
+  const data = await loadJson<EponymsData>("data/eponyms.json");
+  eponymsCache = data;
+  return data;
+}
+
+export async function loadClinicalGuidelines() {
+  if (clinicalGuidelinesCache) {
+    return clinicalGuidelinesCache;
+  }
+  const data = await loadJson<ClinicalGuidelinesData>("data/clinical_guidelines.json");
+  clinicalGuidelinesCache = data;
   return data;
 }
 

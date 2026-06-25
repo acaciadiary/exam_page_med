@@ -52,3 +52,55 @@ export interface InstantKillFactsData {
 export interface DiseaseComparisonsData {
   comparison_groups: DiseaseComparisonGroup[];
 }
+
+export interface MedicalGlossaryEntry {
+  id: string;
+  name: string;
+  aliases: string[];
+  category: string;
+  explanation: string;
+  exam_focus: string;
+  related_questions?: RelatedQuestion[];
+  stage: string;
+  frequency: number;
+}
+
+export interface MedicalGlossaryData {
+  terms: MedicalGlossaryEntry[];
+}
+
+export interface EponymEntry {
+  id: string;
+  name: string;
+  aliases: string[];
+  category: string;
+  origin_type: string;
+  description: string;
+  clinical_signs: string;
+  exam_focus: string;
+  frequency: number;
+  related_questions?: RelatedQuestion[];
+  stage: string;
+}
+
+export interface EponymsData {
+  eponyms: EponymEntry[];
+}
+
+export interface ClinicalGuidelineEntry {
+  id: string;
+  title: string;
+  aliases: string[];
+  category: string;
+  scenario: string;
+  first_line_action: string;
+  dosage_info: string;
+  common_traps: string;
+  frequency: number;
+  related_questions?: RelatedQuestion[];
+  stage: string;
+}
+
+export interface ClinicalGuidelinesData {
+  guidelines: ClinicalGuidelineEntry[];
+}
