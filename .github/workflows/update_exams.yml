@@ -2,7 +2,7 @@ name: Update Exam Data
 
 on:
   schedule:
-    - cron: "0 2 1 2,8 *"
+    - cron: "0 2 16 2,10 *"
   workflow_dispatch:
     inputs:
       moex_year:
