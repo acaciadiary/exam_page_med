@@ -201,12 +201,12 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
           <div className="flip-card w-full h-[520px] max-w-2xl cursor-pointer">
             <div
               onClick={() => setIsFlipped(!isFlipped)}
-              className={`flip-card-inner w-full h-full relative rounded-3xl border border-white/90 shadow-[0_20px_50px_rgba(181,133,117,0.12)] backdrop-blur-xl bg-white/80 ${
+              className={`flip-card-inner w-full h-full relative ${
                 isFlipped ? "flipped" : ""
               }`}
             >
               {/* FRONT SIDE (Clues/Features) */}
-              <div className="flip-card-front absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto">
+              <div className="flip-card-front absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-white border border-[#efd9d0] shadow-[0_16px_40px_rgba(181,133,117,0.08)] rounded-3xl">
                 <div className="space-y-4">
                   {/* Card Header */}
                   <div className="flex items-center justify-between border-b border-[#efd9d0]/50 pb-3">
@@ -259,7 +259,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
               </div>
 
               {/* BACK SIDE (Answer & Traps) */}
-              <div className="flip-card-back absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-linear-to-b from-white to-[#fdf9f8]">
+              <div className="flip-card-back absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-linear-to-b from-white to-[#fdf9f8] border border-[#efd9d0] shadow-[0_16px_40px_rgba(181,133,117,0.08)] rounded-3xl">
                 <div className="space-y-4">
                   {/* Card Header */}
                   <div className="flex items-center justify-between border-b border-[#efd9d0]/50 pb-3">

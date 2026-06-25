@@ -3,7 +3,6 @@ import { GitCompare, Lightbulb, PenLine, Plus, Trash2, CheckCircle2, XCircle, Sp
 import { loadDiseaseComparisons, loadInstantKillFacts, loadMedicalGlossary, loadEponyms, loadClinicalGuidelines } from "../../lib/loadExamData";
 import { DiseaseComparison } from "./DiseaseComparison";
 import { BuzzwordFlashcards } from "./BuzzwordFlashcards";
-import { TrapSpotterQuiz } from "./TrapSpotterQuiz";
 import type { DiseaseComparisonGroup, InstantKillFact, MedicalGlossaryEntry, EponymEntry, ClinicalGuidelineEntry } from "../../types/disease";
 import type { StickyNoteItem } from "../../types/stickyNote";
 import type { FavoriteEntry, FavoriteTag } from "../favorites/FavoritesPage";
@@ -34,7 +33,7 @@ export function DiseaseComparePage({
   onToggleFavorite,
   onToggleFavoriteTag,
 }: DiseaseComparePageProps) {
-  const [subTab, setSubTab] = useState<"compare" | "instant_kill" | "glossary" | "eponyms" | "guidelines" | "buzzwords" | "traps">("compare");
+  const [subTab, setSubTab] = useState<"compare" | "instant_kill" | "glossary" | "eponyms" | "guidelines" | "buzzwords">("compare");
   const [groups, setGroups] = useState<DiseaseComparisonGroup[]>([]);
   const [selectedGroupId, setSelectedGroupId] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
@@ -536,18 +535,6 @@ export function DiseaseComparePage({
         >
           <Sparkles size={15} />
           關鍵字秒殺
-        </button>
-        <button
-          type="button"
-          onClick={() => setSubTab("traps")}
-          className={`px-4 py-2 text-sm font-hand font-bold rounded-xl transition cursor-pointer flex items-center gap-1.5 ${
-            subTab === "traps"
-              ? "bg-[#b8527a] text-white shadow-xs"
-              : "text-[#6f5b50] hover:bg-white/80"
-          }`}
-        >
-          <AlertTriangle size={15} />
-          國考避雷針
         </button>
       </div>
 
@@ -1821,21 +1808,6 @@ export function DiseaseComparePage({
 
       {subTab === "buzzwords" && (
         <BuzzwordFlashcards groups={groups} theme={theme} />
-      )}
-
-      {subTab === "traps" && (
-        <TrapSpotterQuiz 
-          theme={theme} 
-          onJumpToGuideline={(sourceType, sourceId) => {
-            if (sourceType === "guideline") {
-              setSubTab("guidelines");
-              setSelectedGuidelineId(sourceId);
-            } else if (sourceType === "comparison") {
-              setSubTab("compare");
-              setSelectedGroupId(sourceId);
-            }
-          }} 
-        />
       )}
     </div>
   );
