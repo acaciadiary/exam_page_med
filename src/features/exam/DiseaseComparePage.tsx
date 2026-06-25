@@ -85,6 +85,7 @@ export function DiseaseComparePage({
   const [guidelineSelfTest, setGuidelineSelfTest] = useState<boolean>(false);
   const [revealedGuidelines, setRevealedGuidelines] = useState<Record<string, boolean>>({});
   const [mustKnowOnly, setMustKnowOnly] = useState<boolean>(false);
+  const [mustKnowStage, setMustKnowStage] = useState<"all" | "一階" | "二階">("all");
 
   // Quiz State
   const [quizList, setQuizList] = useState<QuizQuestion[]>([]);
@@ -190,6 +191,7 @@ export function DiseaseComparePage({
     const searchLower = glossarySearch.trim().toLowerCase();
     return glossary
       .filter((entry) => {
+        if (mustKnowStage !== "all" && entry.stage !== mustKnowStage) return false;
         if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
         return (
           !searchLower ||
@@ -201,7 +203,7 @@ export function DiseaseComparePage({
         );
       })
       .sort((a, b) => b.frequency - a.frequency || a.name.localeCompare(b.name, "zh-Hant"));
-  }, [glossary, glossarySearch, mustKnowOnly]);
+  }, [glossary, glossarySearch, mustKnowOnly, mustKnowStage]);
 
   const selectedGlossary = useMemo(() => {
     return filteredGlossary.find((entry) => entry.id === selectedGlossaryId) || filteredGlossary[0] || null;
@@ -227,6 +229,7 @@ export function DiseaseComparePage({
     const searchLower = eponymSearch.trim().toLowerCase();
     return eponyms
       .filter((entry) => {
+        if (mustKnowStage !== "all" && entry.stage !== mustKnowStage) return false;
         if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
         return (
           !searchLower ||
@@ -240,7 +243,7 @@ export function DiseaseComparePage({
         );
       })
       .sort((a, b) => b.frequency - a.frequency || a.name.localeCompare(b.name, "zh-Hant"));
-  }, [eponyms, eponymSearch, mustKnowOnly]);
+  }, [eponyms, eponymSearch, mustKnowOnly, mustKnowStage]);
 
   const selectedEponym = useMemo(() => {
     return filteredEponyms.find((entry) => entry.id === selectedEponymId) || filteredEponyms[0] || null;
@@ -266,6 +269,7 @@ export function DiseaseComparePage({
     const searchLower = guidelineSearch.trim().toLowerCase();
     return guidelines
       .filter((entry) => {
+        if (mustKnowStage !== "all" && entry.stage !== mustKnowStage) return false;
         if (mustKnowOnly && entry.frequency < mustKnowThreshold) return false;
         return (
           !searchLower ||
@@ -279,7 +283,7 @@ export function DiseaseComparePage({
         );
       })
       .sort((a, b) => b.frequency - a.frequency || a.title.localeCompare(b.title, "zh-Hant"));
-  }, [guidelines, guidelineSearch, mustKnowOnly]);
+  }, [guidelines, guidelineSearch, mustKnowOnly, mustKnowStage]);
 
   const selectedGuideline = useMemo(() => {
     return filteredGuidelines.find((entry) => entry.id === selectedGuidelineId) || filteredGuidelines[0] || null;
@@ -1217,6 +1221,24 @@ export function DiseaseComparePage({
                   顯示 {filteredGlossary.length} / {glossary.length} 筆，依出題頻率排序
                 </span>
                 <div className="flex flex-wrap gap-2">
+                  {[
+                    ["all", "全部"],
+                    ["一階", "一階"],
+                    ["二階", "二階"],
+                  ].map(([value, label]) => (
+                    <button
+                      key={value}
+                      type="button"
+                      onClick={() => setMustKnowStage(value as "all" | "一階" | "二階")}
+                      className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                        mustKnowStage === value
+                          ? "border-[#b8527a] bg-[#b8527a] text-white"
+                          : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
                   <button
                     type="button"
                     onClick={() => setMustKnowOnly((prev) => !prev)}
@@ -1478,6 +1500,24 @@ export function DiseaseComparePage({
                   顯示 {filteredEponyms.length} / {eponyms.length} 筆，依出題頻率排序
                 </span>
                 <div className="flex flex-wrap gap-2">
+                  {[
+                    ["all", "全部"],
+                    ["一階", "一階"],
+                    ["二階", "二階"],
+                  ].map(([value, label]) => (
+                    <button
+                      key={value}
+                      type="button"
+                      onClick={() => setMustKnowStage(value as "all" | "一階" | "二階")}
+                      className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                        mustKnowStage === value
+                          ? "border-[#b8527a] bg-[#b8527a] text-white"
+                          : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
                   <button
                     type="button"
                     onClick={() => setMustKnowOnly((prev) => !prev)}
@@ -1751,6 +1791,24 @@ export function DiseaseComparePage({
                   顯示 {filteredGuidelines.length} / {guidelines.length} 筆，依出題頻率排序
                 </span>
                 <div className="flex flex-wrap gap-2">
+                  {[
+                    ["all", "全部"],
+                    ["一階", "一階"],
+                    ["二階", "二階"],
+                  ].map(([value, label]) => (
+                    <button
+                      key={value}
+                      type="button"
+                      onClick={() => setMustKnowStage(value as "all" | "一階" | "二階")}
+                      className={`rounded-lg border px-3 py-1.5 text-[11px] font-bold transition cursor-pointer ${
+                        mustKnowStage === value
+                          ? "border-[#b8527a] bg-[#b8527a] text-white"
+                          : "border-[#efd9d0] bg-white text-[#6f5b50] hover:bg-[#fffbf9]"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
                   <button
                     type="button"
                     onClick={() => setMustKnowOnly((prev) => !prev)}

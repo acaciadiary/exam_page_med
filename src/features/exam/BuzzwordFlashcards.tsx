@@ -12,6 +12,7 @@ interface CardItem {
   diseaseName: string;
   groupTitle: string;
   category: string;
+  stage: string;
   importance: string;
   features: Record<string, string>;
   focusTips: string;
@@ -25,6 +26,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
   const [totalInSession, setTotalInSession] = useState<number>(0);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
   const [selectedCategory, setSelectedCategory] = useState<string>("全部");
+  const [selectedStage, setSelectedStage] = useState<"all" | "一階" | "二階">("all");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [highYieldOnly, setHighYieldOnly] = useState<boolean>(false);
   const [missedCount, setMissedCount] = useState<number>(0);
@@ -39,6 +41,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
           diseaseName: disease.name,
           groupTitle: group.title,
           category: group.category,
+          stage: group.stage || "二階",
           importance: group.exam_importance || "★★★",
           features: disease.features,
           focusTips: group.exam_focus_tips,
@@ -77,6 +80,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
   const filteredCards = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
     return allCards.filter((card) => {
+      if (selectedStage !== "all" && card.stage !== selectedStage) return false;
       if (selectedCategory !== "全部" && !card.category.includes(selectedCategory)) return false;
       if (highYieldOnly && !isHighYieldCard(card)) return false;
       if (!query) return true;
@@ -97,7 +101,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
 
       return searchableText.includes(query);
     });
-  }, [allCards, selectedCategory, searchTerm, highYieldOnly]);
+  }, [allCards, selectedCategory, selectedStage, searchTerm, highYieldOnly]);
 
   // Initialize/Reset Deck
   const handleResetDeck = () => {
@@ -210,6 +214,27 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-bold text-[#6f5b50]">考試階段：</span>
+          <div className="flex flex-wrap gap-1">
+            {[
+              ["all", "全部"],
+              ["一階", "一階"],
+              ["二階", "二階"],
+            ].map(([value, label]) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setSelectedStage(value as "all" | "一階" | "二階")}
+                className={`px-3 py-1 text-xs font-semibold rounded-lg transition cursor-pointer ${
+                  selectedStage === value
+                    ? "bg-[#b8527a] text-white shadow-xs"
+                    : "bg-white/60 text-[#6f5b50] hover:bg-white border border-[#efd9d0]"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
           <span className="text-xs font-bold text-[#6f5b50]">篩選科目：</span>
           <div className="flex flex-wrap gap-1">
             {categoriesList.map((cat) => (
