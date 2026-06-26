@@ -1,37 +1,35 @@
-import sys
 import json
-from pathlib import Path
+import sys
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python dump_batch.py <batch_index>")
-        return
+def dump_batch(batch_idx):
+    with open("public/data/exams/111-2/medicine-4.json", encoding="utf-8-sig") as f:
+        data = json.load(f)
     
-    batch_idx = int(sys.argv[1])
-    exam_file = Path("public/data/exams/113-1/medicine-5.json")
-    if not exam_file.exists():
-        print("Exam file not found.")
-        return
-        
-    data = json.loads(exam_file.read_text(encoding="utf-8"))
-    questions = data.get("questions", [])
-    
+    questions = data["questions"]
     start = batch_idx * 10
     end = start + 10
     batch = questions[start:end]
     
-    sys.stdout.reconfigure(encoding='utf-8')
-    print(f"=== BATCH {batch_idx} (Questions {start+1} to {min(end, len(questions))}) ===")
+    output_lines = []
+    output_lines.append(f"--- BATCH {batch_idx + 1} (Questions {start+1} to {min(end, len(questions))}) ---")
     for q in batch:
-        print(f"ID: {q['id']}")
-        print(f"Number: {q['question_number']}")
-        print(f"Category: {q.get('category')}")
-        print(f"Question: {q['question_text']}")
-        for k, v in q['options'].items():
-            print(f"  {k}: {v}")
-        print(f"Correct Answer: {q['correct_answer']}")
-        print(f"Current Explanation: {q.get('explanation')}")
-        print("-" * 50)
+        output_lines.append(f"ID: {q['id']}")
+        output_lines.append(f"Number: {q['question_number']}")
+        output_lines.append(f"Text:\n{q['question_text']}")
+        output_lines.append("Options:")
+        for k, v in q["options"].items():
+            output_lines.append(f"  {k}: {v}")
+        output_lines.append(f"Correct Answer: {q['correct_answer']}")
+        output_lines.append(f"Current Category: {q.get('category')}")
+        output_lines.append(f"Current Explanation:\n{q.get('explanation')}")
+        output_lines.append("-" * 40)
+    
+    with open("scratch/batch_output.txt", "w", encoding="utf-8") as f_out:
+        f_out.write("\n".join(output_lines))
+    print(f"Batch {batch_idx + 1} written to scratch/batch_output.txt")
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1:
+        dump_batch(int(sys.argv[1]) - 1)
+    else:
+        dump_batch(0)

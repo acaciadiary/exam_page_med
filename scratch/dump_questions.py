@@ -1,19 +1,17 @@
 import json
 
-with open("public/data/exams/113-2/medicine-5.json", "r", encoding="utf-8") as f:
+with open("public/data/exams/111-2/medicine-6.json", encoding="utf-8-sig") as f:
     data = json.load(f)
 
-with open("scratch/questions_all.txt", "w", encoding="utf-8") as out:
+with open("scratch/questions_readable.txt", "w", encoding="utf-8") as out:
     for q in data["questions"]:
-        out.write(f"ID: {q['id']}\n")
-        out.write(f"Number: {q['question_number']}\n")
-        out.write(f"Category: {q.get('category', '')}\n")
-        out.write(f"Question: {q['question_text']}\n")
+        num = q["question_number"]
+        out.write(f"=== Question {num} (ID: {q['id']}) ===\n")
+        out.write(f"Category: {q.get('category')} | Correct Answer: {q.get('correct_answer')}\n")
+        out.write(f"Text:\n{q['question_text']}\n")
         out.write("Options:\n")
-        for k, v in q["options"].items():
+        for k, v in q['options'].items():
             out.write(f"  {k}: {v}\n")
-        out.write(f"Answer: {q['correct_answer']}\n")
-        out.write(f"Current Explanation: {q.get('explanation', '')}\n")
-        out.write("="*60 + "\n\n")
+        out.write(f"Current Explanation:\n{q.get('explanation')}\n\n")
 
-print("Dumped all questions to scratch/questions_all.txt")
+print("Dumped questions to scratch/questions_readable.txt")

@@ -1,142 +1,292 @@
 [
   {
-    "id": "115-1_medicine-5_021",
-    "question_number": 21,
-    "question_text": "陳先生,身高175公分、體重70 公斤,預計入院接受腹腔鏡膽囊切除手術,術前檢驗數據:Hb:14.8 g/dL,\nHct:45%,WBC:8,600/μL,platelet: 246,000/μL,BUN:16 mg/dL,creatinine:0.9 mg/dL,glucose:95 \nmg/dL,Na:142 mmol/L,K:4.1 mmol/L。下列敘述何者錯誤?",
+    "id": "111-2_medicine-3_011",
+    "question_number": 11,
+    "question_text": "一位65 歲女性因胸悶至門診,十二導程心電圖發現有心房顫動。為了評估之後缺血性中風風險,可以使\n 用 CHA2DS2-VASc score。 下列何者不是CHA2DS2-VASc score 之計分項目?",
     "options": {
-      "A": "身體的總水分約38 公斤",
-      "B": "血液的滲透壓約為315 mOsm/L",
-      "C": "身體的水分分布,分為細胞外液(extra-cellular fluid, ECF),例如:血漿與組織間液,和細胞內液\n(intra-cellular fluid, ICF)",
-      "D": "體內的細胞內液的總重量約 25 公斤"
-    },
-    "correct_answer": "B",
-    "current_category": "外科概論",
-    "current_explanation": "以題目數值估算滲透壓約為 2×142 + 95/18 + 16/2.8，接近 295 mOsm/L，而不是 315。其餘如總體水分約 38 公斤、細胞內液約 25 公斤皆符合 70 公斤男性的常見估算。這題重點是會用血漿滲透壓公式。"
-  },
-  {
-    "id": "115-1_medicine-5_022",
-    "question_number": 22,
-    "question_text": "關於高血鉀症(hyperkalemia)常見的原因,下列何種情況較不會出現?",
-    "options": {
-      "A": "大面積的壓軋傷(crush injury)病患",
-      "B": "跑了超長(>24小時)馬拉松的跑者",
-      "C": "術後腹膜炎感染,敗血症酸中毒的病人",
-      "D": "穩定使用利尿劑furosemide的 55歲男性高血壓病人"
+      "A": "心衰竭",
+      "B": "冠狀動脈心臟病",
+      "C": "年紀大於等於65 歲",
+      "D": "深部靜脈血栓"
     },
     "correct_answer": "D",
-    "current_category": "外科概論",
-    "current_explanation": "Crush injury、長時間劇烈運動及敗血症合併酸中毒都可能造成鉀從細胞內移出或大量釋放，導致高血鉀。Loop diuretic 如 furosemide 反而常造成尿鉀流失，引起低血鉀。題目是在辨認高血鉀的典型臨床情境。"
+    "explanation": "【題幹解析】\nCHA2DS2-VASc 評分是用於評估心房顫動患者缺血性中風風險的量表。項目包含心衰竭（C）、高血壓（H）、年齡（大於等於65歲為1分，大於等於75歲為2分，A）、糖尿病（D）、中風史（S）、血管疾病（V，如心肌梗塞或冠狀動脈疾病）與女性性別（Sc）。深部靜脈血栓（DVT）是靜脈回流血栓，不在評估動脈性中風風險的計分項目內。\n\n【選項詳解】\n- A. 不適當。心衰竭 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 深部靜脈血栓」所代表的核心規則：心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。。\n- B. 不適當。冠狀動脈心臟病 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 深部靜脈血栓」所代表的核心規則：心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。。\n- C. 不適當。年紀大於等於65 歲 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 深部靜脈血栓」所代表的核心規則：心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。。\n- D. 正確／可接受。深部靜脈血栓 符合本題判斷重點：心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。。因此在單選題情境下最能支持官方答案。\n\n【核心考點】\n心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。",
+    "key_point": "本題核心是心房顫動患者中風風險評估量表（CHA2DS2-VASc score）的組成項目。",
+    "flashcard_summary": "CHA2DS2-VASc score / 心房顫動 / 中風風險 / 血管疾病 / 靜脈血栓 -> CHA2DS2-VASc 項目包含心衰竭、高血壓、年齡、糖尿病、中風、血管疾病（如冠心病）與女性；不包含深部靜脈血栓。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "D"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "CHA2DS2-VASc score / 心房顫動 / 中風風險 / 血管疾病 / 靜脈血栓",
+    "flashcard_back": "CHA2DS2-VASc 項目包含心衰竭、高血壓、年齡、糖尿病、中風、血管疾病（如冠心病）與女性；不包含深部靜脈血栓。",
+    "category_group": "醫學（三）",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
   },
   {
-    "id": "115-1_medicine-5_023",
-    "question_number": 23,
-    "question_text": "臨床上可運用Model for end-stage liver disease(MELD)score,來預測等待肝臟移植的末期肝病患者於\n三個月內的死亡風險。下列何者不是計算MELD score的參數?",
+    "id": "111-2_medicine-3_012",
+    "question_number": 12,
+    "question_text": "關於身體診察的異常發現,下列敘述何者錯誤?",
     "options": {
-      "A": "血清肌酸酐(serum creatinine)",
-      "B": "血清總膽紅素(serum total bilirubin)",
-      "C": "國際標準化比值(international normalized ratio, INR)",
-      "D": "血清白蛋白(serum albumin)"
-    },
-    "correct_answer": "D",
-    "current_category": "移植外科",
-    "current_explanation": "MELD score 用來評估末期肝病短期死亡風險，傳統公式重點是 serum creatinine、total bilirubin 與 INR。Albumin 是 Child-Pugh score 的項目之一，但不是 MELD 參數。這題常拿兩個肝功能評分混著考。"
-  },
-  {
-    "id": "115-1_medicine-5_024",
-    "question_number": 24,
-    "question_text": "傷口癒合期間,不同細胞會分別出現於傷口。下列敘述何者正確?",
-    "options": {
-      "A": "淋巴球(lymphocytes)為起始增生期之主要細胞",
-      "B": "嗜酸性球(eosinophils)為最初止血期之主要細胞",
-      "C": "嗜中性球(neutrophils)為最初發炎期之主要細胞",
-      "D": "纖維母細胞(fibroblasts)在傷口癒合最初期即達到數量高峰"
-    },
-    "correct_answer": "C",
-    "current_category": "外科概論",
-    "current_explanation": "傷口癒合初期先止血，接著進入發炎期，嗜中性球是早期最主要的發炎細胞。之後巨噬細胞、纖維母細胞與血管新生在增生期逐漸增加。纖維母細胞不會在最初期就達高峰。"
-  },
-  {
-    "id": "115-1_medicine-5_025",
-    "question_number": 25,
-    "question_text": "關於有效減少手術部位感染(surgical site infection)之方式,下列何者最不適當?",
-    "options": {
-      "A": "肥胖者於術前減重",
-      "B": "腹部手術者於術前接受腸道準備(bowel preparation)",
-      "C": "術前一週預先施打強效預防性抗生素(prophylactic antibiotic)",
-      "D": "手術時才移除手術部位之毛髮"
+      "A": "姿態性低血壓的定義為從平躺到起立的3 分鐘內收縮壓下降超過20 mmHg,或舒張壓下降超過10 mmHg",
+      "B": "身體診察時看到右上胸骨旁有脈動(pulsation),可懷疑升主動脈瘤",
+      "C": "脈搏每跳之間有差異,稱為奇脈(pulsus paradoxus),常出現在嚴重的左心室收縮功能不全的病人",
+      "D": "雙峰脈波(bifid pulse)可以出現在肥厚型阻塞性心肌症(hypertrophic obstructive cardiomyopathy)的病人"
     },
     "correct_answer": "C",
-    "current_category": "外科概論",
-    "current_explanation": "預防 surgical site infection 的原則包括控制體重、適當去毛以及依手術性質做正確的術前處理。預防性抗生素應在切皮前適當時機給予，而非提早一週長期使用。過早給藥不會增加保護，反而增加抗藥與副作用風險。"
+    "explanation": "【題幹解析】\n奇脈（pulsus paradoxus）是指吸氣時收縮壓下降超過 10 mmHg，常見於心臟壓塞、限制性心包炎或氣喘。而脈搏一強一弱交替出現、且每跳之間有差異者稱為交替脈（pulsus alternans），這才常出現在嚴重左心室收縮功能不全患者。雙峰脈則常見於肥厚型阻塞性心肌症（HOCM）或主動脈瓣病變患者。\n\n【選項詳解】\n- A. 不適當。姿態性低血壓的定義為從平躺到起立的3 分鐘內收縮壓下降超過20 mmHg,或舒張壓下降超過10 mmHg 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 脈搏每跳之間有差異,稱為奇脈(pulsus paradoxus),常出現在嚴重的左心室收縮功能不全的病人」所代表的核心規則：異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。。\n- B. 不適當。身體診察時看到右上胸骨旁有脈動(pulsation),可懷疑升主動脈瘤 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 脈搏每跳之間有差異,稱為奇脈(pulsus paradoxus),常出現在嚴重的左心室收縮功能不全的病人」所代表的核心規則：異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。。\n- C. 正確／可接受。脈搏每跳之間有差異,稱為奇脈(pulsus paradoxus),常出現在嚴重的左心室收縮功能不全的病人 符合本題判斷重點：異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。。因此在單選題情境下最能支持官方答案。\n- D. 不適當。雙峰脈波(bifid pulse)可以出現在肥厚型阻塞性心肌症(hypertrophic obstructive cardiomyopathy)的病人 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 脈搏每跳之間有差異,稱為奇脈(pulsus paradoxus),常出現在嚴重的左心室收縮功能不全的病人」所代表的核心規則：異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。。\n\n【核心考點】\n異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。",
+    "key_point": "本題核心是異常脈搏（奇脈、交替脈、雙峰脈）的定義與臨床意義。",
+    "flashcard_summary": "奇脈 / pulsus paradoxus / 交替脈 / 雙峰脈 / 心臟壓塞 / 心衰竭 -> 奇脈是指吸氣時收縮壓下降 >10 mmHg，見於心臟壓塞；嚴重左心衰竭出現的是一強一弱的「交替脈」。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "C"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "奇脈 / pulsus paradoxus / 交替脈 / 雙峰脈 / 心臟壓塞 / 心衰竭",
+    "flashcard_back": "奇脈是指吸氣時收縮壓下降 >10 mmHg，見於心臟壓塞；嚴重左心衰竭出現的是一強一弱的「交替脈」。",
+    "category_group": "醫學（三）",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
   },
   {
-    "id": "115-1_medicine-5_026",
-    "question_number": 26,
-    "question_text": "67 歲男性,有長期高血壓病史,突然發生右側肢體無力與構音障礙。電腦斷層顯示左側基底核出血。下列何\n者最可能為其致病機轉?",
+    "id": "111-2_medicine-3_013",
+    "question_number": 13,
+    "question_text": "適當的使用下列藥物被認為對治療heart failure with reduced ejection fraction 可以改善症狀和預後,但何者除外?",
     "options": {
-      "A": "老年性腦病變併發澱粉樣血管病(amyloid angiopathy)造成穿通動脈破裂",
-      "B": "小動脈破裂(Charcot-Bouchard aneurysm rupture)造成穿通動脈出血",
-      "C": "頸內動脈與海綿竇瘻管(carotid-cavernous fistula)導致靜脈高壓性出血",
-      "D": "血栓溶解治療後產生再灌流性出血(hemorrhagic transformation after thrombolysis)"
+      "A": "angiotensin converting enzyme inhibitor",
+      "B": "mineralocorticoid receptor antagonist",
+      "C": "second-generation calcium channel blocker",
+      "D": "angiotensin receptor neprilysin inhibitor"
+    },
+    "correct_answer": "C",
+    "explanation": "【題幹解析】\n針對射出分率減少的心衰竭（HFrEF），能改善存活率及預後的核心藥物包含ACEI、MRA（如spironolactone）與ARNI（如sacubitril/valsartan）。而鈣離子通道阻斷劑（CCB）並無降低心衰竭死亡率的實證，甚至部分CCB因負性肌力作用會惡化心衰竭，因此不屬於改善HFrEF預後的首選藥物。\n\n【選項詳解】\n- A. 不適當。angiotensin converting enzyme inhibitor 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. second-generation calcium channel blocker」所代表的核心規則：HFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。。\n- B. 不適當。mineralocorticoid receptor antagonist 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. second-generation calcium channel blocker」所代表的核心規則：HFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。。\n- C. 正確／可接受。second-generation calcium channel blocker 符合本題判斷重點：HFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。。因此在單選題情境下最能支持官方答案。\n- D. 不適當。angiotensin receptor neprilysin inhibitor 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. second-generation calcium channel blocker」所代表的核心規則：HFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。。\n\n【核心考點】\nHFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。",
+    "key_point": "本題核心是HFrEF 心臟衰竭指南推薦的藥物（改善存活率）與 CCB 的角色。",
+    "flashcard_summary": "HFrEF / 改善存活率藥物 / ACEI / MRA / ARNI / 鈣離子通道阻斷劑 -> ACEI、ARNI、Beta-blockers及MRA可改善HFrEF的死亡率與預後；CCB無改善預後作用且可能惡化心衰竭。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "C"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "HFrEF / 改善存活率藥物 / ACEI / MRA / ARNI / 鈣離子通道阻斷劑",
+    "flashcard_back": "ACEI、ARNI、Beta-blockers及MRA可改善HFrEF的死亡率與預後；CCB無改善預後作用且可能惡化心衰竭。",
+    "category_group": "醫學（三）",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
+  },
+  {
+    "id": "111-2_medicine-3_014",
+    "question_number": 14,
+    "question_text": "有關心臟衰竭(heart failure, HF)相關猝死(sudden death)預防描述,何者錯誤?",
+    "options": {
+      "A": "在大約一半的心衰竭患者中,是由於心室性心律不整(ventricular arrhythmia)所引起的猝死,HFrEF 患者中\n 尤為普遍",
+      "B": "在猝死發作後倖存的心衰竭患者被認為具有很高再猝死的風險,應考慮植入式心臟內去顫器(implantable\n cardioverter-defibrillator, ICD)",
+      "C": "無論心衰竭的病因為何,凡具有心衰竭的NYHA 第I 級症狀,但LVEF 大於35%的患者,是考慮植入式心臟\n 內去顫器(implantable cardioverter-defibrillator, ICD)預防性治療的合適候選人",
+      "D": "對於心肌梗塞發生之後已經3 個月,LVEF≦30%且仍有心室頻脈,即使已使用最佳藥物治療的患者,也建議\n 植入式心臟內去顫器(implantable cardioverter-defibrillator, ICD)"
+    },
+    "correct_answer": "C",
+    "explanation": "【題幹解析】\n植入式心臟內去顫器（ICD）用於心衰竭猝死之首級預防，其適應症通常要求在最佳藥物治療下其左心室射出分率（LVEF）小於或等於 35%，且症狀為 NYHA Class II 或 III。若 LVEF 大於 35% 且症狀僅為 NYHA Class I，一般不符合預防性植入 ICD 的標準。猝死倖存者（次級預防）及梗塞後低射出分率者則為 ICD 的合適對象。\n\n【選項詳解】\n- A. 不適當。在大約一半的心衰竭患者中,是由於心室性心律不整(ventricular arrhythmia)所引起的猝死,HFrEF 患者中 尤為普遍 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 無論心衰竭的病因為何,凡具有心衰竭的NYHA 第I 級症狀,但LVEF 大於35%的患者,是考慮植入式心臟 內去顫器(implantable cardioverter-defibrillator, ICD)預防性治療的合適候選人」所代表的核心規則：心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。。\n- B. 不適當。在猝死發作後倖存的心衰竭患者被認為具有很高再猝死的風險,應考慮植入式心臟內去顫器(implantable cardioverter-defibrillator, ICD) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 無論心衰竭的病因為何,凡具有心衰竭的NYHA 第I 級症狀,但LVEF 大於35%的患者,是考慮植入式心臟 內去顫器(implantable cardioverter-defibrillator, ICD)預防性治療的合適候選人」所代表的核心規則：心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。。\n- C. 正確／可接受。無論心衰竭的病因為何,凡具有心衰竭的NYHA 第I 級症狀,但LVEF 大於35%的患者,是考慮植入式心臟 內去顫器(implantable cardioverter-defibrillator, ICD)預防性治療的合適候選人 符合本題判斷重點：心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。。因此在單選題情境下最能支持官方答案。\n- D. 不適當。對於心肌梗塞發生之後已經3 個月,LVEF≦30%且仍有心室頻脈,即使已使用最佳藥物治療的患者,也建議 植入式心臟內去顫器(implantable cardioverter-defibrillator, ICD) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 無論心衰竭的病因為何,凡具有心衰竭的NYHA 第I 級症狀,但LVEF 大於35%的患者,是考慮植入式心臟 內去顫器(implantable cardioverter-defibrillator, ICD)預防性治療的合適候選人」所代表的核心規則：心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。。\n\n【核心考點】\n心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。",
+    "key_point": "本題核心是心臟衰竭患者植入式心臟內去顫器（ICD）的猝死預防指引。",
+    "flashcard_summary": "心衰竭猝死 / ICD 預防性植入 / LVEF門檻 / NYHA分級 / 猝死生存者 -> ICD首級預防通常要求 LVEF <= 35% 且心功能為 NYHA Class II 或 III；猝死倖存者為次級預防的絕對適應症。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "C"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "心衰竭猝死 / ICD 預防性植入 / LVEF門檻 / NYHA分級 / 猝死生存者",
+    "flashcard_back": "ICD首級預防通常要求 LVEF <= 35% 且心功能為 NYHA Class II 或 III；猝死倖存者為次級預防的絕對適應症。",
+    "category_group": "醫學（三）",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
+  },
+  {
+    "id": "111-2_medicine-3_015",
+    "question_number": 15,
+    "question_text": "68歲李女士,30 年前因輸血感染C 型肝炎,目前AST:100 U/L,ALT:126 U/L,HCV genotype 1,腹部超音\n 波下無肝硬化,下列敘述何者錯誤?",
+    "options": {
+      "A": "李女士應定期接受肝癌篩檢,包括腹部超音波與胎兒蛋白",
+      "B": "李女士應該接受抗病毒藥物治療",
+      "C": "目前C 型肝炎治療主要為「長效干擾素(pegylated interferon)」合併「雷巴威林(ribavirin)」",
+      "D": "若能清除C 型肝炎病毒,可以減少肝硬化、肝癌之風險"
+    },
+    "correct_answer": "C",
+    "explanation": "【題幹解析】\n目前C型肝炎的首選與主要治療方案已全面改為口服直接抗病毒藥物（DAAs），不再是傳統副作用大、療程長的長效干擾素合併雷巴威林。李女士有慢性C肝且肝功能持續異常，為肝癌高危險群，應接受 DAA 治療並定期以超音波及胎兒蛋白篩檢肝癌。\n\n【選項詳解】\n- A. 不適當。李女士應定期接受肝癌篩檢,包括腹部超音波與胎兒蛋白 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 目前C 型肝炎治療主要為「長效干擾素(pegylated interferon)」合併「雷巴威林(ribavirin)」」所代表的核心規則：C型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。。\n- B. 不適當。李女士應該接受抗病毒藥物治療 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 目前C 型肝炎治療主要為「長效干擾素(pegylated interferon)」合併「雷巴威林(ribavirin)」」所代表的核心規則：C型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。。\n- C. 正確／可接受。目前C 型肝炎治療主要為「長效干擾素(pegylated interferon)」合併「雷巴威林(ribavirin)」 符合本題判斷重點：C型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。。因此在單選題情境下最能支持官方答案。\n- D. 不適當。若能清除C 型肝炎病毒,可以減少肝硬化、肝癌之風險 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「C. 目前C 型肝炎治療主要為「長效干擾素(pegylated interferon)」合併「雷巴威林(ribavirin)」」所代表的核心規則：C型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。。\n\n【核心考點】\nC型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。",
+    "key_point": "本題核心是C型肝炎治療的最新指引（DAAs口服直接抗病毒藥物）。",
+    "flashcard_summary": "C型肝炎治療 / 直接抗病毒藥物 / DAA / 干擾素 / 肝癌篩檢 -> 當前C肝主要治療為口服直接抗病毒藥物（DAA，治癒率>98%），傳統干擾素已非首選；慢性感染者須定期接受超音波與AFP篩檢。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "C"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "C型肝炎治療 / 直接抗病毒藥物 / DAA / 干擾素 / 肝癌篩檢",
+    "flashcard_back": "當前C肝主要治療為口服直接抗病毒藥物（DAA，治癒率>98%），傳統干擾素已非首選；慢性感染者須定期接受超音波與AFP篩檢。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
+  },
+  {
+    "id": "111-2_medicine-3_016",
+    "question_number": 16,
+    "question_text": "肝臟切片對評估肝損傷的嚴重程度和級別藉以推測其預後相當重要。在現今肝炎組織學的評分系統中最常用\n 為肝炎組織學活動指數(histologic activity index)。下列何者組織切片發現不屬於其評分系統?",
+    "options": {
+      "A": "門脈周邊壞死(periportal necrosis)",
+      "B": "漿細胞浸潤(plasma cell infiltration)",
+      "C": "肝小葉區壞死(intralobular necrosis)",
+      "D": "門脈發炎(portal inflammation)"
     },
     "correct_answer": "B",
-    "current_category": "神經外科",
-    "current_explanation": "長期高血壓病人出現基底核出血，是典型穿通動脈病變。最常見機轉為 Charcot-Bouchard 微小動脈瘤破裂，常發生在 lenticulostriate arteries。Amyloid angiopathy 則較常見葉性出血。"
+    "explanation": "【題幹解析】\n肝炎組織學活動指數（HAI / Knodell score）主要用來評估慢性肝炎的發炎壞死嚴重度，其評分項目包含：門脈周邊壞死（A）、肝小葉內變性與局部壞死（C）以及門脈發炎（D）。「漿細胞浸潤（B）」是發炎細胞的特定種類（在自體免疫性肝炎中常見），但並不作為 HAI 評分系統中的獨立評量指標。\n\n【選項詳解】\n- A. 不適當。門脈周邊壞死(periportal necrosis) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 漿細胞浸潤(plasma cell infiltration)」所代表的核心規則：慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。。\n- B. 正確／可接受。漿細胞浸潤(plasma cell infiltration) 符合本題判斷重點：慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。。因此在單選題情境下最能支持官方答案。\n- C. 不適當。肝小葉區壞死(intralobular necrosis) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 漿細胞浸潤(plasma cell infiltration)」所代表的核心規則：慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。。\n- D. 不適當。門脈發炎(portal inflammation) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 漿細胞浸潤(plasma cell infiltration)」所代表的核心規則：慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。。\n\n【核心考點】\n慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。",
+    "key_point": "本題核心是慢性肝炎組織學活動指數（HAI / Knodell score）的評估組成成分。",
+    "flashcard_summary": "肝炎組織學活動指數 / HAI / Knodell score / 門脈周邊壞死 / 門脈發炎 / 漿細胞浸潤 -> HAI 評分項目為門脈周邊壞死、小葉內壞死、門脈發炎及纖維化程度；漿細胞浸潤不屬於其評分指標。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "B"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "肝炎組織學活動指數 / HAI / Knodell score / 門脈周邊壞死 / 門脈發炎 / 漿細胞浸潤",
+    "flashcard_back": "HAI 評分項目為門脈周邊壞死、小葉內壞死、門脈發炎及纖維化程度；漿細胞浸潤不屬於其評分指標。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
   },
   {
-    "id": "115-1_medicine-5_027",
-    "question_number": 27,
-    "question_text": "關於兒童腦幹膠質瘤(pediatric brainstem glioma),下列何者錯誤?",
+    "id": "111-2_medicine-3_017",
+    "question_number": 17,
+    "question_text": "20歲的林小姐最近三個月早晨上班前,發生間斷性下腹部絞痛,其排便次數變多,且糞便形態從正常轉成常\n 便秘,但有時又會腹瀉。她感覺排便完腹部絞痛就會減輕。關於她的症狀,下列敘述何者錯誤?",
     "options": {
-      "A": "diffuse pontine glioma多為惡性",
-      "B": "midbrain glioma(包括tectal and tegmental glioma)預後優於diffuse pontine glioma",
-      "C": "diffuse pontine glioma的治療以手術為主",
-      "D": "tectal glioma常合併水腦"
-    },
-    "correct_answer": "C",
-    "current_category": "神經外科",
-    "current_explanation": "Diffuse pontine glioma 多屬高惡性且位置深，預後差，治療通常以放療為主，不是以手術切除為主。Midbrain 尤其 tectal glioma 預後較好，且常合併水腦。題目重點在於區分不同腦幹膠質瘤的可切除性與預後。"
-  },
-  {
-    "id": "115-1_medicine-5_028",
-    "question_number": 28,
-    "question_text": "下列何者不屬於癲癎手術?",
-    "options": {
-      "A": "anterior temporal lobectomy",
-      "B": "vagus nerve stimulation",
-      "C": "corpus callosotomy",
-      "D": "microvascular decompression"
-    },
-    "correct_answer": "D",
-    "current_category": "神經外科",
-    "current_explanation": "Anterior temporal lobectomy、vagus nerve stimulation 與 corpus callosotomy 都可用於難治型癲癇治療。Microvascular decompression 常用於三叉神經痛或 hemifacial spasm，不屬於癲癇手術。考點是辨識神經外科功能手術的適應症。"
-  },
-  {
-    "id": "115-1_medicine-5_029",
-    "question_number": 29,
-    "question_text": "新生兒及嬰兒水腦症的原因有congenital or acquired etiology,下列敘述何者最不適當?",
-    "options": {
-      "A": "aqueductal stenosis造成的hydrocephalus屬congenital etiology",
-      "B": "aqueductal stenosis造成的hydrocephalus屬communicating hydrocephalus",
-      "C": "新生兒 meningitis後,造成postinfectious hydrocephalus,多屬communicating hydrocephalus",
-      "D": "Chiari II malformation造成的 hydrocephalus屬 congenital etiology"
+      "A": "此疾病各個年齡層都可能發作,女性較男性為多",
+      "B": "糞便的calprotectin 為其診斷性生物標記",
+      "C": "此疾病常伴有脹氣、消化不良、噁心、嘔吐感等症狀",
+      "D": "病理機轉目前仍不清楚,可能與腸道蠕動異常、腸道過度敏感、病患的心理因素、腸道菌叢改變或腸道感染\n 有關"
     },
     "correct_answer": "B",
-    "current_category": "神經外科",
-    "current_explanation": "Aqueductal stenosis 屬先天病因，阻塞中腦導水管，造成梗阻性也就是 non-communicating hydrocephalus。感染後水腦多屬 communicating hydrocephalus，Chiari II 相關水腦也可見於先天病因。題目最愛考的就是 aqueductal stenosis 的分類。"
+    "explanation": "【題幹解析】\n林小姐的臨床表現符合大腸激躁症（IBS）的特徵。IBS 屬於排他性診斷的功能性腸胃疾病，目前並無特定的診斷性生物標記。糞便鈣衛蛋白（calprotectin）是中性白血球釋放的發炎指標，用於診斷與監測發炎性腸道疾病（IBD），而在 IBS 患者中通常為陰性或正常。\n\n【選項詳解】\n- A. 不適當。此疾病各個年齡層都可能發作,女性較男性為多 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 糞便的calprotectin 為其診斷性生物標記」所代表的核心規則：大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。。\n- B. 正確／可接受。糞便的calprotectin 為其診斷性生物標記 符合本題判斷重點：大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。。因此在單選題情境下最能支持官方答案。\n- C. 不適當。此疾病常伴有脹氣、消化不良、噁心、嘔吐感等症狀 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 糞便的calprotectin 為其診斷性生物標記」所代表的核心規則：大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。。\n- D. 不適當。病理機轉目前仍不清楚,可能與腸道蠕動異常、腸道過度敏感、病患的心理因素、腸道菌叢改變或腸道感染 有關 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 糞便的calprotectin 為其診斷性生物標記」所代表的核心規則：大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。。\n\n【核心考點】\n大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。",
+    "key_point": "本題核心是大腸激躁症（IBS）與發炎性腸道疾病（IBD）的臨床特徵與生物標記鑑別。",
+    "flashcard_summary": "大腸激躁症 / IBS / 糞便鈣衛蛋白 / calprotectin / 功能性腸胃病 -> IBS 為功能性腸胃疾病，無特異性診斷標記；糞便鈣衛蛋白（calprotectin）為發炎性腸道疾病（IBD）的診斷與監測指標。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "B"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "大腸激躁症 / IBS / 糞便鈣衛蛋白 / calprotectin / 功能性腸胃病",
+    "flashcard_back": "IBS 為功能性腸胃疾病，無特異性診斷標記；糞便鈣衛蛋白（calprotectin）為發炎性腸道疾病（IBD）的診斷與監測指標。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
   },
   {
-    "id": "115-1_medicine-5_030",
-    "question_number": 30,
-    "question_text": "下列關於頸椎退化性疾病的敘述,何者最不適當?",
+    "id": "111-2_medicine-3_018",
+    "question_number": 18,
+    "question_text": "關於大腸直腸癌的敘述何者正確?",
     "options": {
-      "A": "急性頸椎椎間盤突出有著典型症狀,仔細的臨床評估可以診斷",
-      "B": "最主要的影像學診斷工具為無顯影劑的核磁共振造影檢查",
-      "C": "如果病人無法接受核磁共振造影檢查,則可以用骨頭掃描攝影來取代",
-      "D": "肌電圖和神經傳導檢查,可以用來區分臂神經叢病變和周邊神經病變"
+      "A": "起源於右側結腸的腫瘤預後比左側結腸的好",
+      "B": "肺部是大腸癌最容易轉移的內臟器官",
+      "C": "血清carcinoembryonic antigen(CEA)是用來篩檢大腸癌的指標",
+      "D": "大多數大腸癌的切除後復發會於四年內發生,因此五年存活可當作治癒的指標"
     },
-    "correct_answer": "C",
-    "current_category": "神經外科",
-    "current_explanation": "頸椎退化性疾病的主要影像工具仍是 MRI，尤其在評估椎間盤、神經壓迫與脊髓病變時最重要。若無法做 MRI，較常考慮的是 CT 或 CT myelography，而不是 bone scan。肌電圖與神經傳導則可協助與周邊神經病變鑑別。"
+    "correct_answer": "D",
+    "explanation": "【題幹解析】\n大多數大腸直腸癌術後復發發生於手術後三至四年內，臨床上常將五年無病存活視為治癒的重要指標。右側結腸癌預後普遍差於左側。大腸直腸癌最常見的遠端轉移器官為肝臟而非肺部。血清 CEA 敏感度與特異性不足，臨床主要用於術後追蹤及評估療效，而非大腸癌的篩檢工具。\n\n【選項詳解】\n- A. 不適當。起源於右側結腸的腫瘤預後比左側結腸的好 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 大多數大腸癌的切除後復發會於四年內發生,因此五年存活可當作治癒的指標」所代表的核心規則：大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。。\n- B. 不適當。肺部是大腸癌最容易轉移的內臟器官 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 大多數大腸癌的切除後復發會於四年內發生,因此五年存活可當作治癒的指標」所代表的核心規則：大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。。\n- C. 不適當。血清carcinoembryonic antigen(CEA)是用來篩檢大腸癌的指標 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 大多數大腸癌的切除後復發會於四年內發生,因此五年存活可當作治癒的指標」所代表的核心規則：大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。。\n- D. 正確／可接受。大多數大腸癌的切除後復發會於四年內發生,因此五年存活可當作治癒的指標 符合本題判斷重點：大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。。因此在單選題情境下最能支持官方答案。\n\n【核心考點】\n大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。",
+    "key_point": "本題核心是大腸直腸癌的預後、轉移途徑、腫瘤標記（CEA）用途與復發時程。",
+    "flashcard_summary": "大腸癌轉移 / CEA角色 / 復發時程 / 五年存存活 / 左右側預後 -> 大腸癌最常轉移至肝臟；CEA用於術後追蹤而非篩檢；大部復發在4年內發生，故5年存活常為治癒指標。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "D"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "大腸癌轉移 / CEA角色 / 復發時程 / 五年存存活 / 左右側預後",
+    "flashcard_back": "大腸癌最常轉移至肝臟；CEA用於術後追蹤而非篩檢；大部復發在4年內發生，故5年存活常為治癒指標。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
+  },
+  {
+    "id": "111-2_medicine-3_019",
+    "question_number": 19,
+    "question_text": "下列有關胃腺癌的敘述何者錯誤?",
+    "options": {
+      "A": "胃腺癌病理下可分成兩種類型:腸道型及瀰漫型",
+      "B": "瀰漫型胃腺癌好發族群較年輕,其腫瘤之黏附能力消失,且容易造成胃壁之浸潤和增厚,稱為皮革胃(linitis\n plastica)",
+      "C": "腸道型胃腺癌常以潰瘍來表現,可能和胃幽門螺旋桿菌感染相關",
+      "D": "帶有signet ring cell 的瀰漫型胃腺癌若轉移至子宮,稱為Krukenberg's tumor"
+    },
+    "correct_answer": "D",
+    "explanation": "【題幹解析】\n印戒細胞（signet ring cells）黏液癌轉移至「卵巢」（ovary）而非子宮時，才被稱為庫肯勃氏瘤（Krukenberg tumor）。胃腺癌在病理上分為腸道型（與幽門螺桿菌感染相關，多呈潰瘍）及瀰漫型（好發年輕人、黏附力喪失、易致皮革胃）。\n\n【選項詳解】\n- A. 不適當。胃腺癌病理下可分成兩種類型:腸道型及瀰漫型 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 帶有signet ring cell 的瀰漫型胃腺癌若轉移至子宮,稱為Krukenberg's tumor」所代表的核心規則：Lauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。。\n- B. 不適當。瀰漫型胃腺癌好發族群較年輕,其腫瘤之黏附能力消失,且容易造成胃壁之浸潤和增厚,稱為皮革胃(linitis plastica) 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 帶有signet ring cell 的瀰漫型胃腺癌若轉移至子宮,稱為Krukenberg's tumor」所代表的核心規則：Lauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。。\n- C. 不適當。腸道型胃腺癌常以潰瘍來表現,可能和胃幽門螺旋桿菌感染相關 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「D. 帶有signet ring cell 的瀰漫型胃腺癌若轉移至子宮,稱為Krukenberg's tumor」所代表的核心規則：Lauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。。\n- D. 正確／可接受。帶有signet ring cell 的瀰漫型胃腺癌若轉移至子宮,稱為Krukenberg's tumor 符合本題判斷重點：Lauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。。因此在單選題情境下最能支持官方答案。\n\n【核心考點】\nLauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。",
+    "key_point": "本題核心是Lauren分類法中胃腺癌的分型及 Krukenberg 腫瘤的定義。",
+    "flashcard_summary": "胃腺癌 Lauren分類 / 腸道型與瀰漫型 / Krukenberg tumor / 轉移部位 -> Krukenberg 腫瘤是指胃癌（特別是印戒細胞癌）轉移至「卵巢」；瀰漫型胃癌常與黏附力喪失（E-cadherin缺陷）及皮革胃相關。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "D"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "胃腺癌 Lauren分類 / 腸道型與瀰漫型 / Krukenberg tumor / 轉移部位",
+    "flashcard_back": "Krukenberg 腫瘤是指胃癌（特別是印戒細胞癌）轉移至「卵巢」；瀰漫型胃癌常與黏附力喪失（E-cadherin缺陷）及皮革胃相關。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
+  },
+  {
+    "id": "111-2_medicine-3_020",
+    "question_number": 20,
+    "question_text": "若因腫瘤而切除十二指腸段,下列何者之吸收過程較不會受到影響?",
+    "options": {
+      "A": "鈣",
+      "B": "維他命B12",
+      "C": "葉酸",
+      "D": "鐵"
+    },
+    "correct_answer": "B",
+    "explanation": "【題幹解析】\n鐵、鈣與葉酸主要是在十二指腸與近端空腸被吸收，因此切除十二指腸會顯著影響這些營養素的吸收。而維生素 B12 必須在胃中與內在因子結合後，至「迴腸末端」（terminal ileum）進行特異性吸收，因此切除十二指腸對維生素 B12 的吸收過程影響最小。\n\n【選項詳解】\n- A. 不適當。鈣 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 維他命B12」所代表的核心規則：胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。。\n- B. 正確／可接受。維他命B12 符合本題判斷重點：胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。。因此在單選題情境下最能支持官方答案。\n- C. 不適當。葉酸 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 維他命B12」所代表的核心規則：胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。。\n- D. 不適當。鐵 雖可能是相關概念或常見混淆點，但不是本題最佳判斷；本題應回到「B. 維他命B12」所代表的核心規則：胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。。\n\n【核心考點】\n胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。",
+    "key_point": "本題核心是胃腸道不同部位對營養素（鐵、鈣、葉酸、維生素B12）的吸收特異性。",
+    "flashcard_summary": "十二指腸切除 / 營養素吸收 / 鐵 鈣 葉酸 / 維生素B12吸收部位 -> 鐵、鈣、葉酸主要在十二指腸吸收；維生素 B12 則在迴腸末端吸收，故不受十二指腸切除影響。",
+    "review_status": "ai_generated",
+    "correct_answers": [
+      "B"
+    ],
+    "answer_status": "standard",
+    "answer_source": "official_correction",
+    "flashcard_front": "十二指腸切除 / 營養素吸收 / 鐵 鈣 葉酸 / 維生素B12吸收部位",
+    "flashcard_back": "鐵、鈣、葉酸主要在十二指腸吸收；維生素 B12 則在迴腸末端吸收，故不受十二指腸切除影響。",
+    "category_group": "醫學（三）",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "category_source": "auto",
+    "explanation_model": "antigravity-direct",
+    "explanation_generated_at": "2026-06-26T08:06:31.7316741Z"
   }
 ]
