@@ -21,7 +21,7 @@ def main():
         return
 
     try:
-        exam_data = json.loads(exam_path.read_text(encoding="utf-8"))
+        exam_data = json.loads(exam_path.read_text(encoding="utf-8-sig"))
     except Exception as e:
         print(f"Error reading exam file: {e}")
         return

@@ -734,15 +734,34 @@ export default function App() {
   }, [openQuestion]);
 
 
-  const handleAddNote = (text: string) => {
+  const handleAddNote = (
+    text: string,
+    source?: Omit<StickyNoteItem, "id" | "text" | "createdAt">,
+  ) => {
     setStickyNotes((current) => [
       {
         id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
         text,
         createdAt: new Date().toISOString(),
+        ...source,
       },
       ...current,
     ]);
+  };
+
+  const handleAddQuestionNote = (questionId: string, text: string) => {
+    if (!readyDataset) return;
+
+    const question = readyDataset.questions.find((item) => item.id === questionId);
+    if (!question) return;
+
+    handleAddNote(text, {
+      examId: readyDataset.id,
+      examTitle: getExamDisplayTitle(readyDataset),
+      questionId,
+      questionNumber: question.question_number,
+      questionText: question.question_text,
+    });
   };
 
   const handleRemoveNote = (id: string) => {
@@ -1148,6 +1167,7 @@ export default function App() {
             onAddNote={handleAddNote}
             onRemoveNote={handleRemoveNote}
             onClearNotes={handleClearNotes}
+            onOpenQuestion={openQuestion}
           />
         ) : page === "diseases" ? (
           <DiseaseComparePage
@@ -1179,6 +1199,9 @@ export default function App() {
                   mode={mode}
                   onModeChange={setMode}
                   theme={theme}
+                  stickyNotes={stickyNotes}
+                  onAddQuestionNote={handleAddQuestionNote}
+                  onRemoveNote={handleRemoveNote}
                   focusQuestionId={
                     pendingQuestion?.examId === dataset.id ? pendingQuestion.questionId : null
                   }

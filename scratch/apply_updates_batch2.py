@@ -1,0 +1,119 @@
+import json
+import subprocess
+
+updates = [
+  {
+    "id": "112-1_medicine-3_011",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "key_point": "直立性低血壓診斷標準為起立後收縮壓下降 ≧ 20 mmHg 或舒張壓下降 ≧ 10 mmHg。",
+    "explanation": "【題幹解析】\n本題考查直立性低血壓（Orthostatic hypotension, OH）的臨床診斷標準。直立性低血壓常因自主神經功能障礙、體液流失或降壓藥物等因素引起，導致從平躺或坐姿改為站立姿勢時血壓驟降。\n\n【選項詳解】\n- A. 直立性低血壓的診斷標準為：平躺休息至少5分鐘後起立，在3分鐘內測量血壓，若收縮壓下降 ≧ 20 mmHg，或者舒張壓下降 ≧ 10 mmHg 即可診斷。該女士起立1分鐘內測量之收縮壓自 124 降至 90 mmHg（下降 34 mmHg ≧ 20 mmHg），舒張壓自 78 降至 62 mmHg（下降 16 mmHg ≧ 10 mmHg），完全符合診斷標準，此選項正確。\n- B. 診斷標準中舒張壓下降的門檻是 ≧ 10 mmHg，而非 20 mmHg，故此選項敘述錯誤。\n- C. 心跳數（心率）雖有助於評估直立性低血壓的病因（例如心率未代償性升高提示自主神經功能衰竭；心率代償性增加 > 15-20 bpm 提示脫水或低血容），但並非診斷直立性低血壓的必要條件，此選項錯誤。\n- D. 診斷指引要求在起立後的「3分鐘之內」測量，患者於1分鐘內測得的血壓下降已達診斷標準，即可確立診斷，不需等到3分鐘，此選項錯誤。\n\n【核心考點】\n直立性低血壓（Orthostatic hypotension）的臨床量測標準（起立3分鐘內，收縮壓下降 ≧ 20 mmHg 或舒張壓下降 ≧ 10 mmHg）。",
+    "flashcard_front": "直立性低血壓 / 診斷標準 / 姿勢改變 / 血壓降幅",
+    "flashcard_back": "起立3分鐘內收縮壓下降 ≧ 20 mmHg 或舒張壓下降 ≧ 10 mmHg 即可診斷直立性低血壓；測量心率有助於病因分析但非診斷所必需。",
+    "flashcard_summary": "直立性低血壓診斷標準 -> 起立3分鐘內收縮壓下降 ≧ 20 mmHg 或舒張壓下降 ≧ 10 mmHg"
+  },
+  {
+    "id": "112-1_medicine-3_012",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "key_point": "阿斯匹靈主要是透過抑制 cyclooxygenase 以阻斷 TXA2 的合成。",
+    "explanation": "【題幹解析】\n本題考查常用抗血小板藥物（Antiplatelet agents）的藥理機制、藥效動力學及臨床證據。\n\n【選項詳解】\n- A. Ticagrelor 是一種「可逆性（reversible）」ADP 受體（P2Y12 受體）拮抗劑，相較於 Clopidogrel（不可逆性結合的前驅藥，結合後持續發揮作用至血小板壽命結束，約7-10天），Ticagrelor 在停藥後血小板功能恢復較快，作用時間並非更久，此選項錯誤。\n- B. 雖然 Prasugrel 和 Ticagrelor 相較於 Clopidogrel 能降低缺血性心血管事件的風險，但大型臨床試驗中，僅 Ticagrelor 被證實可顯著降低「全死因死亡率/心臟死亡率」；Prasugrel 雖降低了心肌梗塞，但並未顯著降低總死亡率，且增加了出血風險，此選項敘述不正確。\n- C. 阿斯匹靈（Aspirin）作用於血小板中的環氧化酶-1（COX-1），使其不可逆地去活性，從而阻斷花生油烯酸（Arachidonic acid）轉化為血栓素A2（Thromboxane A2, TXA2），進而抑制血小板的凝集與活化，此選項正確。\n- D. 臨床試驗顯示，長期「口服」GP IIb/IIIa 拮抗劑不僅未能降低心肌梗塞與死亡率，反而會顯著增加出血風險與總死亡率。因此目前該類藥物均僅限於急性期「靜脈注射」使用，此選項錯誤。\n\n【核心考點】\n阿斯匹靈的抗凝機制（不可逆抑制 COX-1 減少 TXA2 合成）、P2Y12 受體拮抗劑（Clopidogrel, Ticagrelor）的結合特性，以及 GP IIb/IIIa 拮抗劑的臨床使用限制（限靜脈給藥）。",
+    "flashcard_front": "Aspirin / Ticagrelor / GP IIb/IIIa antagonist / 藥理機轉",
+    "flashcard_back": "Aspirin 不可逆抑制 COX-1 以減少 TXA2 合成；Ticagrelor 則是可逆性 P2Y12 受體拮抗劑；GP IIb/IIIa 拮抗劑限靜脈使用。",
+    "flashcard_summary": "Aspirin 機轉 -> 不可逆抑制 COX-1，阻斷 arachidonic acid 轉化為 TXA2"
+  },
+  {
+    "id": "112-1_medicine-3_013",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "key_point": "主動脈瓣狹窄常導致窄的脈搏壓，而非寬的脈搏壓。",
+    "explanation": "【題幹解析】\n脈搏壓（Pulse pressure, PP）為收縮壓（SBP）減去舒張壓（DBP）的差值，正常約為 30-40 mmHg。大於 60 mmHg 通常被定義為寬脈搏壓（Wide pulse pressure）；小於 25 mmHg 則為窄脈搏壓（Narrow pulse pressure）。\n\n【選項詳解】\n- A. 主動脈瓣狹窄（Aortic stenosis, AS）：由於心室排血受阻，每搏輸出量減少，且主動脈血液灌流變慢，會導致收縮壓明顯下降，形成「窄脈搏壓」（臨床典型呈現弱脈且遲脈 pulsus parvus et tardus），因此不是寬脈搏壓的鑑別診斷，此選項正確。\n- B. 甲狀腺毒症（Thyrotoxicosis）：甲狀腺素過多會增加全身代謝率、增加心輸出量並降低周邊血管阻力，使得收縮壓升高而舒張壓下降，從而造成「寬脈搏壓」，此選項不選。\n- C. 感染發燒：發燒與感染等高代謝狀態，因血管舒張使周邊血管阻力下降（舒張壓降低），且心臟每搏輸出量增加（收縮壓升高），會產生「寬脈搏壓」，此選項不選。\n- D. 開放性動脈導管（Patent ductus arteriosus, PDA）：主動脈血液在舒張期分流至肺動脈，導致體循環舒張壓大幅下降，收縮壓代償性升高，是典型的「寬脈搏壓」成因，此選項不選。\n\n【核心考點】\n脈搏壓（Pulse pressure）的定義與病理生理：高心輸出量或舒張期血流逆流/分流（如 AR, PDA, 甲亢）會產生寬脈搏壓；心室流出道阻塞或心輸出量極低（如 AS, 心包填塞, 嚴重休克）會產生窄脈搏壓。",
+    "flashcard_front": "寬脈搏壓 / 窄脈搏壓 / 鑑別診斷 / 主動脈瓣狹窄",
+    "flashcard_back": "主動脈瓣狹窄（AS）因每搏輸出量下降及收縮壓降低，導致「窄脈搏壓」；而甲亢、發燒、PDA 及 AR 則造成「寬脈搏壓」。",
+    "flashcard_summary": "主動脈瓣狹窄脈搏壓 -> 導致窄脈搏壓而非寬脈搏壓"
+  },
+  {
+    "id": "112-1_medicine-3_014",
+    "category": "心臟內科",
+    "category_confidence": "high",
+    "key_point": "心導管冠狀動脈攝影目前仍是診斷冠狀動脈疾病的金標準。",
+    "explanation": "【題幹解析】\n本題考查心導管及冠狀動脈造影（Coronary Angiography）的醫學發展史與當前臨床診斷標準。\n\n【選項詳解】\n- A. 1929年，德國醫師 Werner Forssmann 在自己身上進行試驗，將一條導尿管自其左肘靜脈插入並推行至右心房，隨後在X光室照相證實，這是歷史上首次在人體進行的心導管術，此敘述正確。\n- B. 1940年代，André Cournand 與 Dickinson Richards 改良了 Forssmann 的技術，將心導管應用於心血管生理功能的測量，三人共同獲得1956年的諾貝爾生理醫學獎，此敘述正確。\n- C. 侵入性冠狀動脈造影最常見的併發症與導管穿刺部位有關，主要為局部血腫、假性動脈瘤、或動靜脈廔管引起的出血，發生率大約在 1.5-2.0% 左右，此敘述正確。\n- D. 雖然心臟血管電腦斷層（CCTA）是非侵入性檢查，對於冠狀動脈狹窄有極高的陰性預測值，但「侵入性心導管冠狀動脈造影（coronary angiography）」目前仍然是診斷冠狀動脈疾病的「金標準（gold standard）」，不僅可以直接評估血流與壓力差（如 FFR），更能在診斷的同時直接進行氣球擴張及支架植入術等介入性治療，因此並未被取代，此選項敘述錯誤。\n\n【核心考點】\n心導管歷史與發展；侵入性冠狀動脈造影（Coronary Angiography）仍為診斷冠狀動脈狹窄與介入治療的黃金標準。",
+    "flashcard_front": "心導管歷史 / 冠狀動脈攝影 / 併發症 / 診斷金標準",
+    "flashcard_back": "Forssmann 為首位進行自體右心導管的人；侵入性冠狀動脈造影（CAG）至今仍是冠心病診斷的金標準，並非被 CCTA 完全取代。",
+    "flashcard_summary": "冠狀動脈疾病診斷金標準 -> 侵入性心導管冠狀動脈造影"
+  },
+  {
+    "id": "112-1_medicine-3_015",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "肝臟多發性結節伴隨 CEA 異常升高與 AFP 正常應優先懷疑轉移性肝癌。",
+    "explanation": "【題幹解析】\n60歲中老年患者，體重減輕，肝臟腫大（RMCL肝長度18公分），超音波呈現肝內「多發性、大小不一」的低回音結節，這高度提示惡性腫瘤。實驗室檢查肝功能正常，而原發性肝細胞癌的腫瘤標記甲型胎兒蛋白（AFP）在正常範圍（8 ng/mL）；相反地，胚胎發育抗原 CEA 卻高達 521 ng/mL（正常值<5）。\n\n【選項詳解】\n- A. 肝細胞癌（Hepatocellular carcinoma, HCC）：多發生於慢性 B/C 肝炎或肝硬化患者，通常伴隨 AFP 顯著升高，且以單一病灶或伴有子病灶為主，少見 CEA 如此高昂而 AFP 正常，此選項不符。\n- B. 膽管細胞癌（Cholangiocarcinoma）：通常伴有 CA 19-9 與 CEA 的輕中度升高，但常伴有膽道阻塞及顯著黃疸，且多以單一腫塊或肝內膽管擴張表現，此選項不符。\n- C. 轉移性肝癌（Metastatic liver cancer）：肝臟是胃腸道惡性腫瘤（特別是大腸直腸癌）最常見的轉移器官。大腸直腸腺癌的典型腫瘤標記即為 CEA，且在超音波/影像上常以「多發性結節（multiple nodules）」呈現，本例 CEA 暴增至 521 ng/mL 且 AFP 正常，最支持來自腸胃道的轉移性肝癌，此選項最正確。\n- D. 肝臟局部結節增生（Focal nodular hyperplasia, FNH）：是良性肝臟病變，常見於年輕女性，通常為單一結節，且不會伴隨體重明顯減輕與 CEA 異常升高，此選項排除。\n\n【核心考點】\n轉移性肝癌與原發性肝細胞癌的臨床及腫瘤標記鑑別（多發性肝結節 + CEA 顯著上升且 AFP 正常 -> 高度懷疑大腸直腸癌轉移性肝癌）。",
+    "flashcard_front": "多發性肝結節 / CEA 升高 / AFP 正常 / 轉移性肝癌",
+    "flashcard_back": "超音波下多發性肝結節，伴隨 CEA 顯著上升且 AFP 正常，應強烈懷疑為轉移性肝癌（特別是來自大腸直腸癌的轉移）。",
+    "flashcard_summary": "多發性肝結節 + CEA 顯著升高 + AFP 正常 -> 轉移性肝癌"
+  },
+  {
+    "id": "112-1_medicine-3_016",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "抽菸會增加克隆氏病（CD）的風險，但對潰瘍性大腸炎（UC）具保護作用。",
+    "explanation": "【題幹解析】\n本題考查發炎性腸道疾病（Inflammatory Bowel Disease, IBD）中潰瘍性大腸炎（UC）與克隆氏病（CD）的流行病學、危險因子與保護因子。\n\n【選項詳解】\n- A. 抽菸是克隆氏病（CD）的重要危險因子，抽菸者罹患 CD 的風險增加，且患病後病情易加重、更易復發；相反地，抽菸對潰瘍性大腸炎（UC）具有保護作用（戒菸者反而易使 UC 發作），此選項正確。\n- B. 口服避孕藥（Oral contraceptives）的使用與克隆氏病（CD）的風險增加較為相關，而非 UC，此選項錯誤。\n- C. 闌尾切除術（Appendectomy）對潰瘍性大腸炎（UC）有保護作用（可降低 UC 發生率），但並不能預防克隆氏病（CD），有時在 CD 患者中甚至可能因病變累及闌尾而增加手術史，此選項錯誤。\n- D. 發炎性腸道疾病在西方國家（如美國、西歐）的發生率與盛行率顯著高於亞洲國家，雖然近年亞洲的病例數在上升，但總體發生率仍低於美國，此選項錯誤。\n\n【核心考點】\n發炎性腸道疾病（IBD）的環境危險因子：抽菸增加 CD 風險但對 UC 具保護作用；闌尾切除可降低 UC 發生風險。",
+    "flashcard_front": "IBD / 抽菸影響 / 闌尾切除術 / 流行病學",
+    "flashcard_back": "抽菸是 CD 的危險因子，但對 UC 有保護作用；闌尾切除術能降低 UC 的發生率，但對 CD 無預防作用。",
+    "flashcard_summary": "抽菸對 IBD 的影響 -> 增加 CD 風險，但降低 UC 風險"
+  },
+  {
+    "id": "112-1_medicine-3_017",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "Mirizzi's syndrome 是由膽囊管或膽囊頸結石外在壓迫肝總管造成阻塞性黃疸。",
+    "explanation": "【題幹解析】\n米里奇症候群（Mirizzi's syndrome）是一種罕見的良性阻塞性黃疸併發症，其病理生理機制在於膽囊解剖變異或長期炎症，導致鄰近的大管腔受到壓迫。\n\n【選項詳解】\n- A. 總膽管結石（Choledocholithiasis）本身是直接在總膽管內部造成阻塞，不屬於 Mirizzi's syndrome 的定義範疇，此選項錯誤。\n- B. 胰臟腫瘤（如胰頭癌）是壓迫遠端總膽管造成阻塞性黃疸，非 Mirizzi's syndrome，此選項錯誤。\n- C. Mirizzi's syndrome 的原發原因為「膽囊管（cystic duct）或膽囊頸部（Hartmann's pouch）」有大型結石長久嵌頓（impaction），引發周圍強烈的炎症反應，進而「外在壓迫」鄰近的肝總管（Common hepatic duct）或總膽管，造成膽汁排出受阻與阻塞性黃疸，有時會進一步侵蝕形成膽囊膽管廔管，此選項正確。\n- D. 總膽管血塊（膽道出血 hemobilia 所致）是總膽管腔內的阻塞，非本症候群原因，此選項錯誤。\n\n【核心考點】\n米里奇症候群（Mirizzi's syndrome）的病因與定義（膽囊管/頸部結石外在壓迫肝總管導致阻塞性黃疸）。",
+    "flashcard_front": "Mirizzi's syndrome / 阻塞性黃疸 / 外在壓迫 / 膽囊管結石",
+    "flashcard_back": "Mirizzi's syndrome 是由於膽囊管或膽囊頸部的大結石嵌頓，造成發炎並「外在壓迫」肝總管，進而引發阻塞性黃疸。",
+    "flashcard_summary": "Mirizzi's syndrome 的原發病因 -> 膽囊管或膽囊頸結石嵌頓壓迫肝總管"
+  },
+  {
+    "id": "112-1_medicine-3_018",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "肝硬化腹水患者 PMN ≧ 250/mm3 應診斷為自發性細菌性腹膜炎。",
+    "explanation": "【題幹解析】\n患者表現發燒、黃疸、腹痛、腹水（shifting dullness）與反彈痛。手部的 palmar erythema（手掌紅斑）與 flapping tremor（撲翼性震顫）提示有肝硬化與肝腦病變。\n腹水常規檢查顯示白血球數為 1,250/mm3，其中嗜中性白血球比率為 85%。因此，腹水多型核白血球（PMN / neutrophil）的絕對計數為 1,250 × 85% = 1,062.5 / mm3。\n\n【選項詳解】\n- A. 自發性細菌性腹膜炎（Spontaneous bacterial peritonitis, SBP）：是肝硬化腹水患者常見的嚴重感染。診斷標準為「腹水多型核白血球（PMN）絕對計數 ≧ 250/mm3」，且排除腹腔內臟器穿孔等次發性原因。本例計算出的 PMN 為 1,062.5/mm3 顯著大於 250/mm3，且患者有典型肝硬化表徵與腹水發炎，此診斷最符合，此選項正確。\n- B. 十二指腸潰瘍合併穿孔：屬於繼發性細菌性腹膜炎，病情通常極為危急，常有突發劇烈刀割般腹痛、腹部X光常可見橫膈下游離氣體（free air），且腹水 WBC 通常更高，此選項不選。\n- C. 腸套疊（Intussusception）：多見於幼兒，成人主要表現為腸阻塞，與肝硬化腹水及 SBP 無關，此選項排除。\n- D. 肝細胞癌（HCC）破裂：會造成急性腹腔內出血，腹水性質應為「血性腹水」，RBC 计数通常極高（通常 > 10,000/mm3），本例 RBC 僅 40/mm3 故可排除，此選項錯誤。\n\n【核心考點】\n自發性細菌性腹膜炎（SBP）的臨床診斷指標（肝硬化背景下，腹水 PMN ≧ 250/mm3），以及與次發性腹膜炎、腹腔內出血（HCC破裂）之腹水檢查鑑別。",
+    "flashcard_front": "SBP / 診斷標準 / 腹水 PMN / 肝硬化體徵",
+    "flashcard_back": "肝硬化患者腹水 PMN（嗜中性白血球）絕對計數 ≧ 250/mm3 即可診斷為 SBP；若為血性腹水（RBC 很高）則需懷疑 HCC 破裂。",
+    "flashcard_summary": "SBP 腹水診斷標準 -> PMN 絕對計數 ≧ 250/mm3"
+  },
+  {
+    "id": "112-1_medicine-3_019",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "Methyltestosterone 易引起膽汁滯留型肝損傷，表現為 ALP 顯著上升。",
+    "explanation": "【題幹解析】\n本題考查藥物誘發之肝損傷（Drug-Induced Liver Injury, DILI）的臨床生化分類。生化數值顯示：ALT 56 U/L、AST 72 U/L（僅輕微升高 1-2 倍），而鹼性磷酸酶（ALP）高達 795 U/L（顯著升高約 8 倍）。\n在評估 DILI 時，會計算 R 值（R = [ALT/ALT正常上限] / [ALP/ALP正常上限]）。若 R ≦ 2，則歸類為「膽汁滯留型（Cholestatic）肝損傷」。本例的 R = (56/40) / (795/100) = 1.4 / 7.95 = 0.18 ≦ 2，是極為典型的膽汁滯留型肝損傷。\n\n【選項詳解】\n- A. Methotrexate（MTX）：主要引起慢性肝損傷、脂肪肝及肝纖維化，急性期呈輕至中度肝細胞型損傷，非典型膽汁滯留表現，此選項不選。\n- B. Isoniazid（INH，抗結核藥）：是引發「肝細胞型（Hepatocellular）」肝損傷的經典藥物，表現為 AST/ALT 劇烈升高，而 ALP 升高不明顯，此選項不選。\n- C. Methyltestosterone（甲基睪丸素，同化類固醇）：常與口服 17α-alkylation 結構有關，是引起「膽汁滯留型（Cholestatic）」肝損傷的代表性藥物，主要特徵即為 ALP 與膽紅素升高，而轉氨酶（AST/ALT）僅輕度上升，此選項最符合。\n- D. Acetaminophen（普拿疼）：過量使用會因毒性代謝物 NAPQI 堆積，引發急性肝細胞壞死，呈現極高濃度的 AST/ALT 飆升（通常 > 1,000 U/L），非膽汁滯留型，此選項不選。\n\n【核心考點】\n藥物引起肝損傷（DILI）的臨床分類（肝細胞型 vs 膽汁滯留型），以及代表性致病藥物（如 Isoniazid / Acetaminophen 引起肝細胞型；Methyltestosterone / Chlorpromazine 引起膽汁滯留型）。",
+    "flashcard_front": "DILI / 膽汁滯留型肝損傷 / ALP 升高 / Methyltestosterone",
+    "flashcard_back": "DILI 呈膽汁滯留型（ALP 顯著升高，R值 ≦ 2）常用藥物為 methyltestosterone；Isoniazid 與 Acetaminophen 則引起肝細胞型損傷（AST/ALT升高）。",
+    "flashcard_summary": "藥物誘發膽汁滯留型肝損傷 -> 鹼性磷酸酶 (ALP) 顯著升高，代表藥為 Methyltestosterone"
+  },
+  {
+    "id": "112-1_medicine-3_020",
+    "category": "肝膽腸胃科",
+    "category_confidence": "high",
+    "key_point": "Peutz-Jeghers 症候群的胃腸道息肉為錯構瘤，本身極少發生惡性病變。",
+    "explanation": "【題幹解析】\n本題考查小腸腫瘤（Small Intestinal Tumors）的流行病學特徵、常見病理類型及遺傳性息肉症候群的病變特性。\n\n【選項詳解】\n- A. 在小腸良性腫瘤中，腺瘤（Adenoma）與平滑肌瘤（Leiomyoma）是最常見的組織學類型，其他如脂肪瘤與血管瘤則較少見，此敘述正確。\n- B. 普茲-傑格斯症候群（Peutz-Jeghers syndrome, PJS）是一種體染色體顯性遺傳疾病。該病在胃腸道產生的息肉本質上屬於「錯構瘤性息肉（Hamartomatous polyps）」，其「息肉本身」發生惡性癌變的機率極低。不過，PJS 患者整體罹患胃腸道及腸外癌症的終身風險顯著升高，而非息肉本身易惡變，此選項錯誤。\n- C. 小腸原發性淋巴瘤（Lymhoma）好發於有豐富淋巴組織的「迴腸（Ileum）」，此敘述正確。\n- D. 在小腸的惡性間質性腫瘤/肉瘤中，平滑肌肉瘤（Leiomyosarcoma，現多歸為胃腸道基質瘤 GIST 的一部分）是最常見的類型，此敘述正確。\n\n【核心考點】\n小腸良/惡性腫瘤的常見類型（良性以腺瘤/平滑肌瘤為主；淋巴瘤好發於迴腸）及 Peutz-Jeghers 症候群息肉的病理本質（錯構瘤，息肉本身極少癌變）。",
+    "flashcard_front": "小腸腫瘤 / Peutz-Jeghers syndrome / 錯構瘤息肉 / 淋巴瘤好發部位",
+    "flashcard_back": "PJS 息肉為錯構瘤，本身癌變機率低，但患者全身惡性腫瘤風險增加；小腸惡性淋巴瘤好發於迴腸；良性腫瘤以腺瘤或平滑肌瘤最常見。",
+    "flashcard_summary": "Peutz-Jeghers syndrome 息肉病理性質 -> 錯構瘤，息肉本身惡變機率極低"
+  }
+]
+
+# Write to json file
+with open('scratch/updates_112-1_medicine-3_batch2.json', 'w', encoding='utf-8') as f:
+    json.dump(updates, f, ensure_ascii=False, indent=2)
+
+# Run update command
+res = subprocess.run([
+    'python', 'scripts/exams/update_question_fields.py',
+    '--exam-file', 'public/data/exams/112-1/medicine-3.json',
+    '--updates-file', 'scratch/updates_112-1_medicine-3_batch2.json'
+], capture_output=True, text=True)
+
+print("STDOUT:", res.stdout)
+print("STDERR:", res.stderr)

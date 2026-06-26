@@ -10,6 +10,7 @@ import {
 } from "../../lib/categoryFilters";
 import { getExamDisplayTitle } from "../../lib/examMetadata";
 import type { AnswerOptionKey, AnswerState, ExamDataset, Mode } from "../../types/exam";
+import type { StickyNoteItem } from "../../types/stickyNote";
 import type { AppTheme } from "../../components/ThemeToggle";
 import { MarkedQuestionSidebar } from "./MarkedQuestionSidebar";
 import { QuestionCard } from "./QuestionCard";
@@ -24,6 +25,9 @@ type ExamModeProps = {
   mode: Mode;
   onModeChange: (mode: Mode) => void;
   theme: AppTheme;
+  stickyNotes?: StickyNoteItem[];
+  onAddQuestionNote?: (questionId: string, text: string) => void;
+  onRemoveNote?: (id: string) => void;
   focusQuestionId?: string | null;
   onFocusComplete?: (questionId: string) => void;
   reviewMode?: {
@@ -42,6 +46,9 @@ export function ExamMode({
   mode,
   onModeChange,
   theme,
+  stickyNotes = [],
+  onAddQuestionNote = () => undefined,
+  onRemoveNote = () => undefined,
   focusQuestionId,
   onFocusComplete,
   reviewMode,
@@ -57,6 +64,16 @@ export function ExamMode({
     return categoryQuestions.filter((question) => reviewIdSet.has(question.id));
   }, [activeCategory, dataset, reviewMode]);
   const renderedQuestions = visibleQuestions.slice(0, visibleCount);
+  const notesByQuestionId = useMemo(() => {
+    const grouped = new Map<string, StickyNoteItem[]>();
+
+    for (const note of stickyNotes) {
+      if (!note.questionId || note.examId !== dataset.id) continue;
+      grouped.set(note.questionId, [...(grouped.get(note.questionId) ?? []), note]);
+    }
+
+    return grouped;
+  }, [dataset.id, stickyNotes]);
 
   const scrollToQuestion = (questionId: string) => {
     window.requestAnimationFrame(() => {
@@ -237,6 +254,9 @@ export function ExamMode({
               marked={markedQuestions.markedSet.has(question.id)}
               onAnswer={(answer) => onAnswer(question.id, answer)}
               onToggleMarked={() => markedQuestions.toggleMarked(question.id)}
+              questionNotes={notesByQuestionId.get(question.id) ?? []}
+              onAddNote={(text) => onAddQuestionNote(question.id, text)}
+              onRemoveNote={onRemoveNote}
               positionLabel={`${index + 1} / ${visibleQuestions.length}`}
               onGoPrevious={index > 0 ? () => navigateToQuestion(index - 1) : undefined}
               onGoNext={

@@ -1,4 +1,4 @@
-import { Check, Copy, Trash2 } from "lucide-react";
+import { ArrowRight, Check, Copy, Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { EmptyState } from "../../components/EmptyState";
 import type { StickyNoteItem } from "../../types/stickyNote";
@@ -8,6 +8,7 @@ type StickyNotesPageProps = {
   onAddNote: (text: string) => void;
   onRemoveNote: (id: string) => void;
   onClearNotes: () => void;
+  onOpenQuestion: (examId: string, questionId: string) => void;
 };
 
 export function StickyNotesPage({
@@ -15,6 +16,7 @@ export function StickyNotesPage({
   onAddNote,
   onRemoveNote,
   onClearNotes,
+  onOpenQuestion,
 }: StickyNotesPageProps) {
   const [draft, setDraft] = useState("");
   const [query, setQuery] = useState("");
@@ -153,9 +155,25 @@ export function StickyNotesPage({
               className="rounded-[1.2rem] border border-[#f2d7a9] bg-[#fff9e8] p-5 shadow-[0_12px_32px_rgba(181,133,117,0.12)]"
             >
               <div className="flex items-start justify-between gap-3">
-                <p className="text-xs font-semibold tracking-[0.08em] text-[#9d7b58]">
-                  {formatNoteTime(note.createdAt)}
-                </p>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold tracking-[0.08em] text-[#9d7b58]">
+                    {formatNoteTime(note.createdAt)}
+                  </p>
+                  {note.examId && note.questionId ? (
+                    <button
+                      type="button"
+                      onClick={() => onOpenQuestion(note.examId!, note.questionId!)}
+                      className="mt-2 inline-flex max-w-full items-center gap-1.5 rounded-full bg-white/72 px-3 py-1 text-xs font-bold text-[#9a496b] transition hover:bg-[#fff0f6]"
+                      title={note.examTitle}
+                    >
+                      <span className="truncate">
+                        {note.examTitle ?? "題目筆記"}
+                        {note.questionNumber ? ` 第 ${note.questionNumber} 題` : ""}
+                      </span>
+                      <ArrowRight size={13} className="shrink-0" />
+                    </button>
+                  ) : null}
+                </div>
                 <button
                   type="button"
                   onClick={() => onRemoveNote(note.id)}
@@ -169,6 +187,11 @@ export function StickyNotesPage({
               <p className="mt-3 whitespace-pre-wrap text-sm leading-7 text-[#604b43]">
                 {note.text}
               </p>
+              {note.questionText ? (
+                <p className="mt-3 line-clamp-2 rounded-[0.85rem] bg-white/58 px-3 py-2 text-xs leading-5 text-[#8a7066]">
+                  來源題目：{note.questionText}
+                </p>
+              ) : null}
             </article>
           ))}
         </div>

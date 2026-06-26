@@ -1,24 +1,17 @@
 import json
-import sys
+from pathlib import Path
 
-def print_batch(start_idx, end_idx):
-    with open("public/data/exams/114-2/medicine-1.json", encoding="utf-8") as f:
-        data = json.load(f)
-    questions = data["questions"][start_idx:end_idx]
-    sys.stdout.reconfigure(encoding="utf-8")
-    for q in questions:
-        print(f"=== Q{q['question_number']} ({q['id']}) ===")
-        print(f"Text: {q['question_text']}")
-        print("Options:")
-        for k, v in q["options"].items():
-            print(f"  {k}: {v}")
-        print(f"Answer: {q['correct_answer']}")
-        print(f"Category: {q.get('category')}")
-        print(f"Explanation: {q.get('explanation')}")
-        print("-" * 40)
+exam_file = Path(r"d:\Antigravity\exam_page_med\public\data\exams\112-1\medicine-5.json")
+data = json.loads(exam_file.read_text(encoding="utf-8"))
 
-if __name__ == "__main__":
-    if len(sys.argv) == 3:
-        print_batch(int(sys.argv[1]), int(sys.argv[2]))
-    else:
-        print_batch(0, 10)
+output_lines = []
+output_lines.append(f"Total questions: {len(data['questions'])}")
+for q in data["questions"]:
+    output_lines.append(f"Q{q['question_number']} ({q['id']}): {q['category']}")
+    output_lines.append(f"Text: {q['question_text']}")
+    output_lines.append(f"Options: {q['options']}")
+    output_lines.append(f"Correct: {q['correct_answer']}")
+    output_lines.append("-" * 40)
+
+Path(r"d:\Antigravity\exam_page_med\scratch\questions_list.txt").write_text("\n".join(output_lines), encoding="utf-8")
+print("Done")

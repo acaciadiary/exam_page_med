@@ -3,117 +3,117 @@ import subprocess
 
 updates = [
   {
-    "id": "114-2_medicine-4_001",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_001",
+    "category": "肝膽腸胃科",
     "category_confidence": "high",
-    "key_point": "卡介苗接種後的正常局部反應與正確的照護原則（切勿擠壓引流）。",
-    "explanation": "【題幹解析】\n本題考查卡介苗（BCG）接種後的預期局部反應與衛教。卡介苗是一種減毒活疫苗，接種後局部會經歷紅結節、小膿瘍、破潰及結痂的過程，此為正常的細胞免疫反應。\n\n【選項詳解】\n- A. 提醒定期幫寶寶修剪指甲，避免抓傷注射部位：正確。抓傷容易造成細菌性次發感染，應適度修剪指甲或穿著寬鬆衣物保護。\n- B. 注射部位1~2週後會呈現一個小紅結節，可能會有些微痛癢：正確。此為接種初期正常局部炎性反應。\n- C. 注射部位4~6週後可能會有膿瘍或潰爛，需擠壓引流出膿：錯誤。此期產生的局部膿瘍或潰爛屬正常現象，千萬不能擠壓、引流或包紮，否則會增加繼發感染風險。只需保持清潔乾燥，若有滲出物輕輕吸乾即可。\n- D. 注射部位平均4個月後會開始結痂，留下淡紅色的小疤痕：正確。此為卡介苗正常演變過程，最終結痂脫落並留下微凹之淡紅色疤痕。\n\n【核心考點】\n卡介苗接種之正常皮損演變（紅結節 -> 膿瘍/潰爛 -> 結痂 -> 疤痕）與局部照護原則：保持乾燥清潔，嚴禁擠壓或自行塗抹藥膏。",
-    "flashcard_front": "卡介苗接種 / 4~6週局部膿瘍或潰爛 / 照護衛教",
-    "flashcard_back": "局部膿瘍或潰爛為正常免疫反應，應保持清潔乾燥，絕對不可擠壓、引流或包紮。",
-    "flashcard_summary": "卡介苗接種 -> 4~6週局部膿瘍或潰爛不可擠壓引流，應保持清潔乾燥"
+    "key_point": "年輕人不明原因肝硬化伴隨血清銅藍蛋白降低應高度懷疑威爾森氏症。",
+    "explanation": "【題幹解析】\n患者為19歲女性，無酗酒或病毒性肝炎病史，但已出現肝硬化與下肢浮腫。實驗室檢查顯示血清銅藍蛋白（ceruloplasmin）降低（11.1 mg/dL，正常值 20-60 mg/dL），這是體內銅堆積的特徵性指標，高度指向威爾森氏症。\n\n【選項詳解】\n- A. hemochromatosis（血鐵沉積症）：是因鐵質代謝異常導致體內鐵質過度堆積，好發於中老年男性，診斷通常以血清鐵蛋白（ferritin）與轉鐵蛋白飽和度（transferrin saturation）升高為主。\n- B. amyloidosis（澱粉樣變性）：多見於老年人或伴隨慢性發炎/骨髓瘤的患者，主要表現為器官浸潤（如心臟、腎臟），少以年輕女性單純肝硬化伴隨低銅藍蛋白起病。\n- C. primary biliary cirrhosis（原發性膽汁性膽管炎，現稱 PBC）：典型好發於中年女性，特徵為抗線粒體抗體（AMA）陽性及鹼性磷酸酶（ALP）顯著升高，而非低銅藍蛋白。\n- D. Wilson's disease（威爾森氏症）：為體染色體隱性遺傳疾病，因 ATP7B 基因突變導致銅排出受阻，常於青少年或年輕成人期出現不明原因的急性/慢性肝病、肝硬化、或神經精神症狀，典型血液特徵為血清銅藍蛋白（ceruloplasmin）顯著降低（< 20 mg/dL）。\n\n【核心考點】\n威爾森氏症（Wilson's disease）的臨床特徵（年輕人不明原因肝硬化）、診斷指標（血清銅藍蛋白 ceruloplasmin 降低、24小時尿銅升高等）。",
+    "flashcard_front": "年輕女性 / 肝硬化 / ceruloplasmin 降低 / 隱性遺傳",
+    "flashcard_back": "年輕患者出現原因不明肝硬化，且血清銅藍蛋白（ceruloplasmin）降低，應優先考慮威爾森氏症（Wilson's disease）。",
+    "flashcard_summary": "年輕女性 + 肝硬化 + 銅藍蛋白降低 -> 威爾森氏症 (Wilson's disease)"
   },
   {
-    "id": "114-2_medicine-4_002",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_002",
+    "category": "神經內科",
     "category_confidence": "high",
-    "key_point": "發展性髖關節發育不良（DDH）的臨床理學檢查方法與判讀（Galeazzi sign 患側膝蓋較低）。",
-    "explanation": "【題幹解析】\n新生兒大腿皺褶不對稱是發展性髖關節發育不良（Developmental Dysplasia of the Hip, DDH）的重要警訊。DDH 的理學檢查工具包括外展角度評估、Galeazzi sign、Barlow test 與 Ortolani test。\n\n【選項詳解】\n- A. 做大腿外展檢查，若不對稱，則外張角度小的一側有問題：正確。正常嬰兒髖關節外展角度可達70-80度，若一側關節半脫位或脫位，會使該側關節外展受限（外張角度變小）。\n- B. 嬰兒仰躺做Galeazzi sign檢測，若膝蓋高度不對稱，較高的一側有問題：錯誤。Galeazzi sign（亦稱 Allis sign）檢測時，病童雙足平放床面，膝蓋彎曲。由於患側股骨向後上方移位，患側膝蓋高度會「較低」，因此高度「較低」的一側才是異常側。\n- C. 做Barlow test，測試未脫臼的髖關節於施壓後是否會產生脫臼現象：正確。Barlow test 屬「誘發性試驗」（provocative test），將髖關節內收並向後施壓，看能否將原本在關節腔內的股骨頭「推出去」造成脫位。\n- D. 做Ortolani test，測試若有處於脫臼的髖關節能否被復位：正確。Ortolani test 屬「復位試驗」，將髖關節外展並向上推，若能復位會感覺或聽到「喀啦」聲（clunk of reduction）。\n\n【核心考點】\n發展性髖關節發育不良（DDH）物理診斷：\n1. Galeazzi sign 陽性表示患側膝蓋高度較低。\n2. Barlow test：外推（內收後壓 -> 脫位）。\n3. Ortolani test：內推復位（外展上推 -> 復位）。",
-    "flashcard_front": "大腿皺褶不對稱 / Galeazzi sign / Barlow test / Ortolani test",
-    "flashcard_back": "Galeazzi sign陽性時患側膝蓋較低；Barlow test為將股骨頭推出脫位，Ortolani test為將脫位關節外展復位。",
-    "flashcard_summary": "Galeazzi sign -> 患側膝蓋高度較低；Barlow -> 誘發脫位；Ortolani -> 復位"
+    "key_point": "偏頭痛常呈現單側搏動性疼痛並伴隨噁心、嘔吐、畏光。",
+    "explanation": "【題幹解析】\n本題考查頭痛（Headache）的臨床分類、常見病因與臨床警訊（red flags）。頭痛分為原發性（如緊縮型頭痛、偏頭痛）與次發性（由腦瘤、血管病變、感染等其他疾病引起）。\n\n【選項詳解】\n- A. 原發性頭痛（primary headache）最常見原因為緊縮型頭痛（tension-type headache）。腦瘤引起的頭痛屬於次發性頭痛，且並非最常見原因。\n- B. 偏頭痛（migraine）的典型特徵為單側性、搏動性（抽痛），常伴隨噁心、嘔吐、畏光或怕吵，此敘述完全正確。\n- C. 次發性頭痛（secondary headache）最常見的原因為全身性感染（如感冒、發燒）或系統性疾病，而非腦部血管異常。\n- D. 新發生的嚴重頭痛（俗稱「雷擊樣頭痛」thunderclap headache）是危險的臨床警訊，可能是蛛網膜下腔出血（SAH）等危急重症，必須立即進行影像學檢查排除次發性病因，絕不能僅給予止痛劑治療。\n\n【核心考點】\n原發性與次發性頭痛的區別、偏頭痛的典型臨床症狀，以及新發嚴重頭痛的急症處理原則。",
+    "flashcard_front": "偏頭痛 / 臨床特徵 / 單側 / 伴隨症狀",
+    "flashcard_back": "偏頭痛以單側、搏動性跳痛為典型表現，且常伴隨噁心、嘔吐、畏光、畏聲；緊縮型頭痛才是最常見的原發性頭痛。",
+    "flashcard_summary": "單側搏動性頭痛 + 噁心嘔吐畏光 -> 偏頭痛"
   },
   {
-    "id": "114-2_medicine-4_003",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_003",
+    "category": "急診醫學科",
     "category_confidence": "high",
-    "key_point": "我國常規疫苗接種時程（日本腦炎疫苗第一劑為滿15個月接種）。",
-    "explanation": "【題幹解析】\n本題考查台灣現行兒童常規疫苗接種時程。對於滿1歲（12個月）至1歲又15天幼兒，需檢視該年齡段所對應的疫苗，並排除其他月齡的疫苗。\n\n【選項詳解】\n- A. 水痘疫苗：正確。常規接種時程為出生滿12個月接種第一劑。\n- B. 麻疹、腮腺炎、德國麻疹混合疫苗 (MMR)：正確。第一劑常規接種時程為出生滿12個月。\n- C. 第一劑日本腦炎疫苗：錯誤。我國目前採用的活性減毒日本腦炎疫苗，其第一劑接種年齡為「出生滿15個月」，第二劑為滿27個月，故滿12個月又15天時還不需要接種。\n- D. 第三劑13價肺炎鏈球菌疫苗：正確。常規 PCV13 時程為2個月、4個月各一劑，並於滿12至15個月接種第三劑（追加劑）。\n\n【核心考點】\n滿1歲（12個月）可接種疫苗包括：MMR第一劑、水痘疫苗第一劑、A型肝炎第一劑（滿12-15個月）、PCV13第三劑（滿12-15個月）。活性減毒日本腦炎疫苗第一劑則需等至「滿15個月」方可接種。",
-    "flashcard_front": "滿1歲幼兒 / 常規疫苗接種時程 / 日本腦炎疫苗 / MMR / 水痘 / PCV13",
-    "flashcard_back": "滿12個月接種MMR、水痘、PCV13第3劑；日本腦炎疫苗第1劑須至滿15個月方可接種。",
-    "flashcard_summary": "滿1歲常規疫苗 -> MMR、水痘、PCV13；日本腦炎疫苗 -> 滿15個月"
+    "key_point": "獨居老人嚴重脫水、高血鈉與低血壓提示低血容積性休克。",
+    "explanation": "【題幹解析】\n患者為80歲獨居老人，多日未外出。臨床表現包括意識不清、皮膚乾癟、眼眶深陷、低血壓（80/55 mmHg）、竇性頻脈與頸靜脈塌陷（低抑），這些都是極度缺水與體液嚴重流失的臨床表徵。生化檢查顯示高血鈉（Na+ 155 mEq/L，提示高滲透壓脫水）及 BUN/Cr > 30（提示腎前性急性腎損傷）。\n\n【選項詳解】\n- A. 急性心肌梗塞引起心因性休克：常伴有胸痛病史、心電圖專一性缺血變化，且常因左心衰竭而出現肺溢血或肺水腫（胸部 X 光顯示肺野有浸潤或淤血），本例 X 光肺野清晰且有頸靜脈塌陷（心因性通常頸靜脈怒張），故不符合。\n- B. 嚴重性過敏反應：常有接觸過敏原史，並伴隨皮疹、喉頭水腫、支氣管痙攣等，與多日未外出且無過敏徵象的老人脫水表現不符。\n- C. 低血容積性休克：由於多日未進食水分，體液嚴重流失，導致血壓下降、反射性心搏過速（竇性頻脈），且頸靜脈低陷與脫水表徵（高血鈉、BUN/Cr 升高）均完全符合。\n- D. 心包膜填塞：典型表現為貝克氏三聯徵（Beck's triad：低血壓、頸靜脈怒張、心音遙遠），本例病人為頸靜脈塌陷（低陷），可排除。\n\n【核心考點】\n脫水與低血容積性休克（Hypovolemic shock）的臨床與實驗室特徵，以及與其他類型休克（如心因性、阻塞性）的鑑別診斷。",
+    "flashcard_front": "獨居老人 / 皮膚乾癟 / 低血壓 / 高血鈉",
+    "flashcard_back": "嚴重脫水表現（皮膚乾癟、眼眶深陷、頸靜脈塌陷）伴隨高血鈉及低血壓，應診斷為低血容積性休克；肺野清晰可排除急性心衰竭所致肺水腫。",
+    "flashcard_summary": "嚴重脫水 + 低血壓 + 高血鈉 -> 低血容積性休克"
   },
   {
-    "id": "114-2_medicine-4_004",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_004",
+    "category": "急診醫學科",
     "category_confidence": "high",
-    "key_point": "新生兒黃疸分類（吉伯特氏症 Gilbert disease 屬肝臟膽色素排除不足）。",
-    "explanation": "【題幹解析】\n新生兒非結合性高膽紅素血症（indirect hyperbilirubinemia）的機轉主要可分為「膽紅素生成過多（overproduction）」、「肝臟排除不足（decreased clearance）」及「腸肝循環增加（increased enterohepatic circulation）」。題目要求選出屬於「肝臟排除不足」的疾病。\n\n【選項詳解】\n- A. ABO incompatibility：錯誤。為母嬰血型不合導致的同種免疫溶血（isoimmune hemolysis），屬於紅血球過度破壞、膽紅素生成過多（overproduction）。\n- B. hereditary spherocytosis：錯誤。遺傳性球形紅血球增多症會引起溶血，導致膽紅素生成過多。\n- C. G6PD deficiency：錯誤。蠶豆症在特定誘因下引發急性溶血，同樣造成膽紅素生成過多。\n- D. Gilbert disease：正確。吉伯特氏症候群是由於 UGT1A1 基因啟動子變異，導致肝臟中負責結合膽紅素的葡萄糖醛酸轉移酶（glucuronosyltransferase）活性下降（通常降至正常的30%左右），此機制屬於肝臟膽紅素排除/結合能力不足（decreased clearance）。\n\n【核心考點】\n非結合性高膽紅素血症病因分類：\n1. 生成過多（溶血性）：ABO/Rh不合、G6PD缺乏、遺傳性球形紅血球增多症。\n2. 排除/結合不足（酵素缺乏）：Gilbert disease（UGT1A1活性輕度下降）、Crigler-Najjar syndrome（UGT1A1嚴重缺乏或完全缺失）。",
-    "flashcard_front": "新生兒非結合性高膽紅素血症 / 肝臟膽色素排除不足 / UGT1A1 / Gilbert disease",
-    "flashcard_back": "Gilbert disease是因UGT1A1活性降低導致膽紅素結合與排除不足；ABO不合、G6PD、球形紅血球增多屬溶血性生成過多。",
-    "flashcard_summary": "肝臟排除不足之高膽紅素血症 -> Gilbert disease (UGT1A1 活性降低)；溶血性 -> 生成過多"
+    "key_point": "血液酒精濃度大於 0.30 g/dL 可能引發輕度昏迷與生命徵候不穩。",
+    "explanation": "【題幹解析】\n本題考查急性酒精中毒（Acute ethanol intoxication）之血液酒精濃度（Blood Alcohol Concentration, BAC）與臨床表現之對應關係。血液中酒精濃度的單位通常以 g/dL（或 mg/dL）表示。\n\n【選項詳解】\n- A. 0.05 g/dL (50 mg/dL)：通常引起輕度興奮、話多、注意力與反射力稍微下降。\n- B. 0.10 g/dL (100 mg/dL)：顯著的運動協調能力下降、步態不穩、說話含糊。\n- C. 0.20 g/dL (200 mg/dL)：呈現嚴重共濟失調、情緒不穩、顯著嗜睡（lethargy）或混亂。\n- D. 0.30 g/dL (300 mg/dL)：此濃度以上對大腦及腦幹產生嚴重抑制，開始出現木僵（stupor）、輕度昏迷（light coma）及生命徵候受抑制（如心跳變慢、呼吸變慢、血壓下降）。\n\n【核心考點】\n血液酒精濃度（BAC）對中樞神經系統的抑制分級與各階段臨床表徵。",
+    "flashcard_front": "血液酒精濃度 / 輕度昏迷 / 生命徵候不穩 / 毒性濃度",
+    "flashcard_back": "血液酒精濃度（BAC）達 0.30 g/dL 以上，極可能造成患者陷入輕度昏迷及生命徵候不穩；0.40 g/dL 以上有致死風險。",
+    "flashcard_summary": "血液酒精濃度 >= 0.30 g/dL -> 輕度昏迷與生命徵候不穩"
   },
   {
-    "id": "114-2_medicine-4_005",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_005",
+    "category": "家庭醫學科",
     "category_confidence": "high",
-    "key_point": "早產兒開放性動脈導管（PDA）之治療藥物（使用 NSAIDs 而非 PGE1）與病理生理。\n",
-    "explanation": "【題幹解析】\n早產兒開放性動脈導管（Patent Ductus Arteriosus, PDA）是早產兒常見的先天性心臟問題。需掌握其生理影響、危險因子、內科藥物治療與外科手術後照護。\n\n【選項詳解】\n- A. 出生週數愈小，發生機率愈高，其他PDA延後關閉的風險因子包含hypoxia、acidosis、systemic hypotension等：正確。早產兒的導管平滑肌對氧氣的收縮反應不夠成熟，且缺氧、酸中毒與低血壓均會抑制其自動關閉。\n- B. 可能導致left ventricular volume overload及pulmonary edema：正確。PDA 造成主動脈向肺動脈分流（left-to-right shunt），多餘的血流回流至左心房與左心室，造成左心室容量過負荷（LV volume overload）與肺充血/肺水腫。\n- C. 若需治療，藥物可選用prostaglandin E1(PGE1)，但須注意血小板數值、是否有急性出血、腸胃道狀況及腎功能：錯誤。Prostaglandin E1 (PGE1) 的作用是「維持動脈導管開放」（用於發紺型先天性心臟病患者）。若要「治療關閉」PDA，應使用環氧合酶（COX）抑制劑如 Indomethacin 或 Ibuprofen（近年亦使用 Acetaminophen），這些藥物會抑制前列腺素合成以促進導管關閉，副作用包括血小板功能受抑制、消化道出血/壞死性腸炎、腎功能下降等。\n- D. 若需surgical ligation，術後6~12小時仍需注意血壓下降的狀況：正確。術後可能因左心室後負荷驟增、或系統性血管阻力改變等原因，發生術後低血壓（Post-ligation cardiac syndrome）。\n\n【核心考點】\n1. 促進動脈導管關閉：使用COX抑制劑（Indomethacin, Ibuprofen），副作用為腎毒性、血小板抑制及腸胃道穿孔。\n2. 維持動脈導管開放：使用 Prostaglandin E1 (PGE1)。",
-    "flashcard_front": "早產兒開放性動脈導管 (PDA) / 關閉導管藥物 / COX 抑制劑 / Prostaglandin E1",
-    "flashcard_back": "關閉PDA使用Indomethacin或Ibuprofen（COX抑制劑）；PGE1是用於保持動脈導管開放。",
-    "flashcard_summary": "關閉 PDA -> COX 抑制劑（Indomethacin / Ibuprofen）；維持開通 -> PGE1"
+    "key_point": "老年人即使無明顯腎病，其藥物腎廓清率生理上仍會顯著下降。",
+    "explanation": "【題幹解析】\n本題考查心臟衰竭及老年病患在藥物動力學（Pharmacokinetics）與藥效學（Pharmacodynamics）上的生理改變。\n\n【選項詳解】\n- A. 心臟衰竭時，由於心輸出量減少，血流會優先供應給心臟和腦部（血流重分配），因此藥物在心臟或腦部的局部濃度與效用反而會相對「增加」，而非減低。\n- B. 心臟衰竭時，常伴隨胃腸道黏膜淤血及水腫，導致胃腸道蠕動減弱，藥物從腸胃道的吸收會「減少」，而非增加。\n- C. 心臟衰竭時，心輸出量降低導致腎臟及肝臟的灌流血流量顯著下降，因此藥物經由腎臟或肝臟的廓清率（clearance）會「降低」，而非增加。\n- D. 老年人隨著年齡增長，腎臟會發生生理性退化（腎小球硬化、腎血流減少），即使沒有明確的腎臟病史，其腎小球過濾率（GFR）和腎臟藥物廓清率仍可能比年輕人降低 35-50%，此描述完全正確。\n\n【核心考點】\n老年人及心臟衰竭病患的藥物動力學改變（吸收減少、廓清率下降、血流重分配對特定器官藥效增強）。",
+    "flashcard_front": "心臟衰竭 / 老年人 / 藥物動力學 / 腎廓清率",
+    "flashcard_back": "心臟衰竭會使藥物吸收減少、廓清率降低；老年人即使無明顯腎病，生理性退化也會使藥物腎廓清率降低 35-50%。",
+    "flashcard_summary": "老年人無明顯腎病 -> 藥物腎廓清率生理性降低35-50%"
   },
   {
-    "id": "114-2_medicine-4_006",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_006",
+    "category": "其他",
     "category_confidence": "high",
-    "key_point": "川崎氏症（Kawasaki disease）臨床症狀之時序特徵（急性期紅腫，亞急性期脫皮）。",
-    "explanation": "【題幹解析】\n川崎氏症（Kawasaki disease）是一種嬰幼兒全身性血管炎。診斷 criteria 包含持續發燒5天以上加上五項臨床症狀中的四項。需區分急性期（1-2週內）與亞急性期（第2-3週後）症狀的時序差異。\n\n【選項詳解】\n- A. 急性期出現兩眼結膜充血或口腔黏膜變化，四肢和軀幹亦可能出現不同型態的紅疹：正確。此為川崎氏症診斷要件中常見的急性期症狀。\n- B. 急性期會出現手指、腳趾脫皮現象；發病約2~3週後會出現手腳掌紅腫的現象：錯誤。時序顛倒。手掌及腳掌紅腫、硬性水腫（indurated edema）是發生在「急性期（發病1-2週內）」；而手指與腳趾的膜狀脫皮（membranous desquamation）則是發生在「亞急性期（發病第2-3週開始）」，多從甲床與皮膚交界處開始。\n- C. 急性期治療，一般建議使用免疫球蛋白（IVIG）合併阿斯匹靈（aspirin）治療：正確。這是標準首選治療，可有效預防冠狀動脈病變。\n- D. 若免疫球蛋白使用後沒有順利退燒，可考慮再使用第二輪免疫球蛋白治療：正確。對首劑 IVIG 反應不佳的病童（IVIG-resistant），臨床可重複給予第二劑 IVIG，或合併使用類固醇、免疫調節劑。\n\n【核心考點】\n川崎氏症四肢病變的時序性：\n1. 急性期（1-2週）：手腳掌紅斑、手腳背硬性水腫。\n2. 亞急性期（2-3週）：手指、腳趾端出現特徵性的膜狀脫皮。",
-    "flashcard_front": "川崎氏症 / 四肢病變 / 手腳紅腫 / 指尖脫皮 / 發生時序",
-    "flashcard_back": "手腳紅腫發生於急性期（1-2週內）；指端脫皮則發生於亞急性期（第2-3週後）。",
-    "flashcard_summary": "川崎氏症四肢症狀 -> 急性期手腳紅腫水腫；亞急性期指端膜狀脫皮"
+    "key_point": "淋巴水腫患者使用潤膚劑保濕是重要護理措施而非禁忌。",
+    "explanation": "【題幹解析】\n本題考查淋巴水腫（Lymphedema）的病理生理機制、常見原因、臨床表現與日常護理原則。\n\n【選項詳解】\n- A. 淋巴液富含蛋白質，長期滯留皮下會刺激慢性發炎與免疫細胞浸潤，活化纖維母細胞，進而導致脂肪和膠原蛋白大量堆積，造成皮膚硬化與增厚，此敘述正確。\n- B. 次發性淋巴水腫最常見的原因是癌症治療，如乳癌或骨盆腔癌症手術切除淋巴結，或是接受局部放射線治療造成淋巴通道纖維化，此敘述正確。\n- C. 淋巴水腫側支體極易發生乾裂與微小傷口，且局部免疫功能低下，一旦受損極易引發蜂窩性組織炎。因此，使用潤膚劑（emollients）保持皮膚濕潤、維持皮膚屏障完整是極為重要的保養措施，絕非禁忌，此敘述錯誤。\n- D. 淋巴水腫主要表現為肢體腫脹、沉重感與緊繃感，除非合併急性感染或神經壓迫，否則通常「不會」伴隨明顯的疼痛，此敘述正確。\n\n【核心考點】\n淋巴水腫的病理生理（富含蛋白質液體刺激發炎與纖維化）、次發性原因（手術、放療）及皮膚護理原則（使用潤膚劑以預防感染）。",
+    "flashcard_front": "淋巴水腫 / 皮膚護理 / 潤膚劑 / 蜂窩性組織炎",
+    "flashcard_back": "淋巴水腫患者應使用潤膚劑保濕以防皮膚乾裂感染；次發性水腫常因淋巴結摘除或放療所致，多不伴隨明顯疼痛。",
+    "flashcard_summary": "淋巴水腫肢體保養 -> 應使用潤膚劑保濕以預防蜂窩性組織炎"
   },
   {
-    "id": "114-2_medicine-4_007",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_007",
+    "category": "心臟內科",
     "category_confidence": "high",
-    "key_point": "兒童常見心雜音的病理生理與分類（PDA 連續性心雜音）。",
-    "explanation": "【題幹解析】\n本題考查兒童心雜音的鑑別診斷。需理解功能性（無害）心雜音的特徵，以及常見先天性心臟病（PDA, TOF, ASD）產生心雜音的精確物理機轉。\n\n【選項詳解】\n- A. 功能性心雜音(innocent murmur)常見於學齡前兒童，特色為高頻如音樂般(musical)的3~4度收縮期心雜音：錯誤。功能性心雜音（例如最常見的 Still's murmur）通常是低頻到中頻的震動聲，多為1~2度（少有3度或以上），特徵為音樂樣（musical）的收縮中期噴射性雜音。\n- B. 連續性心雜音(continuous murmur)常在開放性動脈導管(patent ductus arteriosus)病患身體診察時聽到：正確。PDA 患者由於主動脈壓力在收縮期和舒張期都明顯高於肺動脈，血流持續自左向右分流，因此在左上胸骨旁可聽到典型的「機器樣連續性心雜音」（machinery-like continuous murmur）。\n- C. 法洛氏四重症(tetralogy of Fallot)常聽到射出性收縮期心雜音(systolic ejection murmur)是源自於心室中隔缺損(ventricular septal defect)：錯誤。TOF 病童的收縮期噴射性雜音，主要源自於「右心室出口阻塞 / 肺動脈瓣狹窄（pulmonic stenosis）」。其 VSD 通常很大，左右心室壓力已趨於平衡，故流經 VSD 的血流產生的雜音並不明顯。\n- D. 心房中隔缺損(atrial septal defect, ASD)病患的心雜音，其來源為血流由左心房經過ASD 到右心房造成的：錯誤。ASD 因左右心房壓力差很小，流經 ASD 缺損處的血流本身不產生雜音。其心雜音主要源自於：(1) 右心室排血量增加，流經肺動脈瓣造成「相對性肺動脈瓣狹窄」的收縮期噴射性心雜音；(2) 第二心音固定性分裂（fixed splitting of S2）。\n\n【核心考點】\n1. PDA：機器樣連續性心雜音。\n2. TOF：雜音來自右心室出口狹窄，非大 VSD 本身。\n3. ASD：雜音來自右心流量增加導致的相對性肺動脈狹窄，缺損本身無雜音。第二心音固定性分裂為重要線索。\n4. 功能性心雜音：通常是1-2度，不伴隨其他病理性心音。",
-    "flashcard_front": "兒童心雜音 / PDA / TOF / ASD / 功能性心雜音",
-    "flashcard_back": "PDA為連續性機器樣雜音；TOF雜音源自肺動脈瓣狹窄；ASD雜音源自肺動脈瓣血流增加，缺損本身無雜音。",
-    "flashcard_summary": "PDA -> 連續性機器樣雜音；TOF -> 肺動脈瓣狹窄雜音；ASD -> 肺動脈瓣相對狹窄（缺損處無雜音）"
+    "key_point": "BNP/NT-proBNP 血中濃度在健康人中會隨年齡上升。",
+    "explanation": "【題幹解析】\n本題考查心臟衰竭的重要生物標記：B型利鈉肽（BNP）與 N端前B型利鈉肽前體（NT-proBNP）的臨床應用及影響因素。這兩者是由於心室壁張力增加（壓力或容積過載）而由心肌細胞分泌。\n\n【選項詳解】\n- A. 在舒張性心衰竭（即保留收縮分率的心衰竭 HFpEF）中，由於心室舒張受限、充盈壓升高，心室壁張力同樣增加，因此 BNP 和 NT-proBNP 依然會上升，此敘述錯誤。\n- B. BNP/NT-proBNP 不僅對收縮性心衰竭的診斷與排除有極高價值，同時也是評估疾病預後、追蹤治療效果及預測死亡率的重要指標，此敘述錯誤。\n- C. 在健康人群中，BNP 與 NT-proBNP 的血中濃度會隨著年齡增長而生理性上升（且女性普遍高於男性），此敘述正確。\n- D. 右心衰竭（如肺高壓、右心室心肌梗塞）會導致右心室壁張力及壓力上升，因此 BNP/NT-proBNP 同樣會顯著上升，此敘述錯誤。\n\n【核心考點】\nBNP 和 NT-proBNP 的分泌機制（心室壁壓力）、臨床應用（診斷與預後評估價值）及生理影響因素（年齡、性別、腎功能）。",
+    "flashcard_front": "BNP / NT-proBNP / 心衰竭診斷 / 生理因子",
+    "flashcard_back": "健康人血中 BNP/NT-proBNP 會隨年齡增長而生理性上升；此類指標在舒張性與右心衰竭中均會上升，且能評估預後。",
+    "flashcard_summary": "BNP / NT-proBNP 濃度影響因子 -> 隨年齡增加生理性上升"
   },
   {
-    "id": "114-2_medicine-4_008",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_008",
+    "category": "心臟內科",
     "category_confidence": "high",
-    "key_point": "兒童及青少年心臟猝死（SCD）原因比較（二尖瓣脫垂猝死率極低）。",
-    "explanation": "【題幹解析】\n本題考查兒童及青少年心臟猝死（Sudden Cardiac Death, SCD）之常見病因。在年輕人群體中，心臟猝死通常與致命性心律不整、遺傳性心肌病變或先天性冠狀動脈畸形有關。\n\n【選項詳解】\n- A. QT 波延長症候群(long QT syndrome)：錯誤（比例非最少）。LQTS 是導致青年和兒童心源性猝死的常見遺傳性離子通道病，可引發致命性心室頻脈（如 Torsades de Pointes）。\n- B. 冠狀動脈起始部位發育異常(anomalous origin of coronary artery)：錯誤（比例非最少）。此為青少年運動時猝死的第二常見心臟結構病因，運動時大血管擴張可能壓迫夾在主動脈與肺動脈之間的異常冠狀動脈，導致心肌缺血。\n- C. 肥厚性心肌病變(hypertrophic cardiomyopathy)：錯誤（比例非最少）。HCM 是青少年及運動員運動相關心臟猝死最常見的結構性病變。\n- D. 二尖瓣脫垂(mitral valve prolapse)：正確（比例最少）。雖然 MVP 在一般人群中並不罕見，但在沒有合併嚴重二尖瓣反流或乳頭肌纖維化的情況下，二尖瓣脫垂引發心臟猝死的風險極低，在兒童猝死死因中所占比例最少。\n\n【核心考點】\n兒童與青少年心源性猝死（SCD）主要死因：\n1. 結構性心臟病：肥厚性心肌病變（HCM，最常見）、冠狀動脈起始異常。\n2. 遺傳性心律不整（無結構異常）：長QT症候群（LQTS）、Brugada症候群、兒茶酚胺敏感性多形性心室頻脈（CPVT）。\n3. 二尖瓣脫垂（MVP）絕大多數為良性，極少引發猝死。",
-    "flashcard_front": "青少年心臟猝死 (SCD) / 常見病因 / 肥厚性心肌病變 / 長QT症候群 / 二尖瓣脫垂",
-    "flashcard_back": "運動猝死最常見HCM，其次為冠狀動脈起始異常及LQTS；二尖瓣脫垂（MVP）極少導致猝死。",
-    "flashcard_summary": "青少年運動猝死病因 -> 最常見 HCM、冠狀動脈起始異常、LQTS；最少見 -> 二尖瓣脫垂 (MVP)"
+    "key_point": "Austin Flint murmur 是指嚴重主動脈瓣反流導致功能性二尖瓣狹窄的心尖部舒張期雜音。",
+    "explanation": "【題幹解析】\n本題考查心臟聽診（Cardiac Auscultation）中各種特殊心音與心雜音（Heart Murmurs）的臨床意義及特徵。\n\n【選項詳解】\n- A. 嚴重肺高壓會導致肺動脈擴大與肺動脈瓣環拉伸，進而引發肺動脈瓣閉鎖不全（PR）。聽診時在左胸骨旁會聽到高頻、遞減型的舒張期雜音，此雜音即稱為 Graham Steell murmur，敘述正確。\n- B. 主動脈瓣閉鎖不全（AR）本身產生的心雜音是左胸骨旁或主動脈瓣區的「舒張早期遞減型如風吹樣雜音」。而 Austin Flint murmur 是指嚴重 AR 時，返流血液衝擊二尖瓣前葉，限制其開啟，形成「功能性二尖瓣狹窄」，進而在心尖部產生的舒張中晚期低頻滾動樣雜音，因此選項中將 AR 本身的舒張早期雜音直接稱為 Austin Flint murmur 是錯誤的。\n- C. 嚴重二尖瓣狹窄（MS）患者，在第二心音（S2）之後，瓣膜開放時由於瓣葉彈性受限突然繃緊會產生開瓣音（Opening Snap, OS），通常位於心尖內側，距 S2 約 0.05-0.12 秒，敘述正確。\n- D. 二尖瓣閉鎖不全（MR）的典型雜音是位於心尖部的全收縮期雜音（Holosystolic murmur），且雜音常向左腋下傳導，敘述正確。\n\n【核心考點】\n各種瓣膜疾病（AR、MR、MS、PR）的典型心雜音聽診部位、時間相（收縮期/舒張期）及命名（Graham Steell, Austin Flint, Opening Snap）。",
+    "flashcard_front": "Austin Flint murmur / Graham Steell murmur / Opening snap",
+    "flashcard_back": "AR 產生的舒張早期風吹樣雜音非 Austin Flint murmur；後者是因嚴重 AR 造成功能性 MS，於心尖部產生的舒張期低頻滾動樣雜音。",
+    "flashcard_summary": "Austin Flint murmur 產生機制 -> 嚴重 AR 造成功能性 MS 產生的心尖部舒張期滾動樣雜音"
   },
   {
-    "id": "114-2_medicine-4_009",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_009",
+    "category": "心臟內科",
     "category_confidence": "high",
-    "key_point": "B型肝炎病毒（HBV）之病毒特性與母嬰垂直傳染慢性化風險。\n",
-    "explanation": "【題幹解析】\n本題考查B型肝炎病毒（HBV）的病毒結構特性、垂直感染的自然病程與母乳餵養之安全性。\n\n【選項詳解】\n- A. 母親為B 型肝炎帶原者，哺餵母乳會增加新生兒感染B 型肝炎病毒的機會：錯誤。新生兒出生後若已依常規注射B肝免疫球蛋白（HBIG）和第一劑B肝疫苗，母乳哺育並不會額外增加HBV的傳染風險，故不需禁忌哺乳。\n- B. B 型肝炎病毒是雙股RNA 病毒：錯誤。B型肝炎病毒（HBV）屬於肝病毒科（Hepadnaviridae），是具有套膜的「部分雙股環狀DNA 病毒」（partially double-stranded DNA virus）。\n- C. 新生兒感染B 型肝炎病毒後，約有90%的機會會成為慢性B 型肝炎患者：正確。感染HBV後轉為慢性的風險與感染年齡呈強烈負相關。新生兒期垂直感染，因免疫耐受性（immunotolerance），高達90%會演變為慢性帶原；幼兒期約為25-50%；成人期感染則低於10%。\n- D. 成人感染B 型肝炎病毒後，約有50%的機會會成為慢性B 型肝炎患者：錯誤。健康的成年人免疫系統發育成熟，感染 HBV 後有超過 90-95% 的人可自行清除病毒並產生抗體，僅有約 5-10% 會變成慢性帶原者。\n\n【核心考點】\n1. HBV 為部分雙股 DNA 病毒。\n2. 感染年齡與慢性化機率成反比：新生兒 90%、幼兒 25-50%、成人 5-10%。\n3. 母親為B肝帶原，只要新生兒接受HBIG及疫苗注射，即可安全哺餵母乳。",
-    "flashcard_front": "B型肝炎病毒 (HBV) / 病毒類型 / 慢性化機率 / 母乳哺育",
-    "flashcard_back": "HBV為DNA病毒。新生兒感染後90%慢性化，成人感染僅5-10%慢性化。施打HBIG與疫苗後可安心哺餵母乳。",
-    "flashcard_summary": "HBV 慢性化機率 -> 新生兒 90%、成人 5-10%；HBV 種類 -> 部分雙股 DNA 病毒"
+    "key_point": "竇結細胞特徵為動作電位第4期具有舒張期去極化。",
+    "explanation": "【題幹解析】\n本題比較心臟自律性細胞（以竇房結細胞 sinus nodal cell 為代表）與工作心肌細胞（以心室肌細胞 ventricular cell 為代表）動作電位（Action Potential）的電生理特徵。\n\n【選項詳解】\n- A. 竇結細胞的靜態膜電位（最大舒張電位）約為 -60 mV，比心室細胞的靜態膜電位（約 -90 mV）更不極化（less polarized），因此 A 錯誤。\n- B. 竇結細胞第 0 期去極化是靠慢鈣通道（L-type Ca2+ channel）介導，其上衝速度較慢；心室細胞第 0 期則是靠快鈉通道（Fast Na+ channel）介導，上衝速度極快，因此 B 錯誤。\n- C. 竇結細胞動作電位波形較圓鈍，沒有明顯的第 2 期（平台期, Plateau phase）；而心室細胞的第 2 期非常顯著（主要由鈣離子內流與鉀離子外流平衡維持），因此 C 錯誤。\n- D. 竇結細胞具有自律性，其第 4 期（Phase 4）具有自動且緩慢的「舒張期去極化」（diastolic depolarization，主要由有趣的離子流 Funny current, If 驅動），這是其產生自動節律的生理基礎，此描述完全正確。\n\n【核心考點】\n心臟自律細胞與收縮細胞動作電位各期（0-4期）的電生理機制對比。",
+    "flashcard_front": "竇結細胞 / 心室細胞 / 動作電位 / 舒張期去極化",
+    "flashcard_back": "竇結細胞（自律細胞）的特徵是第4期具備由 If 電流驅動的舒張期去極化；其第0期由 Ca2+ 介導，靜態電位較心室細胞不極化。",
+    "flashcard_summary": "竇結細胞動作電位特徵 -> 第4期舒張期去極化 (If 電流)"
   },
   {
-    "id": "114-2_medicine-4_010",
-    "category": "小兒科",
+    "id": "112-1_medicine-3_010",
+    "category": "心臟內科",
     "category_confidence": "high",
-    "key_point": "肥厚性幽門狹窄（HPS）的臨床特徵（低氯低鉀代謝性鹼中毒）與治療方法。\n",
-    "explanation": "【題幹解析】\n肥厚性幽門狹窄（Hypertrophic Pyloric Stenosis, HPS）是嬰兒期常見的消化道梗阻性疾病，典型表現為出生後3-6週出現漸進性、非膽汁性噴射狀嘔吐。需掌握其電解質變化、超音波診斷與治療原則。\n\n【選項詳解】\n- A. 是一種常見造成嬰兒嘔吐的疾病，超過80%與其他先天性異常有關：錯誤。HPS 大多數是獨立發生的（isolated anomaly），僅有少數（小於10%）與其他先天畸形共存。\n- B. 典型的病例常見血中呈現低氯代謝性酸中毒：錯誤。因為頻繁嘔吐胃酸（富含 HCl 與部分鉀離子），導致氫離子、氯離子與鉀離子流失，加上腎臟代償，血液呈現特徵性的「低氯、低鉀性代謝性鹼中毒」（hypokalemic hypochloremic metabolic alkalosis）。\n- C. 超音波檢查為最常用來診斷的工具，可以看到string sign 或pseudokidney sign：錯誤。超音波的確是首選診斷工具，可觀察到幽門肌肉厚度增加及長度增加。但「string sign（線樣徵）」是「上消化道鋇劑攝影」的表徵，而「pseudokidney sign（假腎徵）」則是「腸套疊（intussusception）」的超音波特徵。\n- D. 外科手術(pyloromyotomy)是有效的治療方法，若不適合手術可以使用atropine：正確。Ramstedt pyloromyotomy（幽門肌肉切開術）是標準且高度有效的外科療法。若病童有手術禁忌症，可使用靜脈/口服 atropine 作為內科替代療法。\n\n【核心考點】\n1. HPS 臨床代謝特徵：低氯低鉀性代謝性鹼中毒（因大量嘔吐胃酸 HCl）。\n2. 診斷：超音波（量測幽門肌厚度），鋇劑攝影可見 string sign。\n3. 治療：Ramstedt pyloromyotomy 為首選；無法手術者可用 atropine 治療。",
-    "flashcard_front": "肥厚性幽門狹窄 (HPS) / 噴射狀嘔吐 / 電解質異常 / 診斷與治療",
-    "flashcard_back": "HPS會引起低氯低鉀性代謝性鹼中毒。診斷首選超音波；治療首選Ramstedt幽門肌肉切開術，不合手術者可用atropine。",
-    "flashcard_summary": "HPS 電解質異常 -> 低氯低鉀性代謝性鹼中毒；治療 -> 外科 pyloromyotomy，內科 atropine"
+    "key_point": "主動脈縮窄在整體人群中以男性較為多見。",
+    "explanation": "【題幹解析】\n本題考查先天性心血管畸形——主動脈縮窄（Coarctation of the Aorta）的流行病學、解剖位置與臨床關聯。\n\n【選項詳解】\n- A. 主動脈縮窄最常見的位置是在左鎖骨下動脈的遠端，緊鄰動脈導管韌帶（ligamentum arteriosum）的附著處，通常稱為導管後型（postductal type），此敘述正確。\n- B. 主動脈縮窄是一種典型的先天性心血管發育異常（Congenital heart disease），此敘述正確。\n- C. 在一般人群中，主動脈縮窄在「男性」中的發生率顯著高於女性（男女比例約為 2:1 至 5:1），因此「通常女性多於男性」的說法錯誤。\n- D. 主動脈縮窄與特納氏症候群（Turner's syndrome, 45,XO，常表現為性腺發育不全）有強烈的關聯性，約有 10-20% 的 Turner's 症候群患者會合併此畸形，此敘述正確。\n\n【核心考點】\n主動脈縮窄（Coarctation of the Aorta）的解剖定位（動脈韌帶旁）、性別傾向（男性居多）及遺傳關聯（特納氏症候群 Turner's syndrome）。",
+    "flashcard_front": "主動脈縮窄 / 解剖定位 / 性別比例 / Turner's syndrome",
+    "flashcard_back": "主動脈縮窄多見於男性；狹窄處最常位於左鎖骨下動脈遠端（動脈韌帶旁），且常合併 Turner's syndrome。",
+    "flashcard_summary": "主動脈縮窄性別傾向 -> 男性多於女性 (2:1 至 5:1)"
   }
 ]
 
-# Write updates to a temp file
-with open("scratch/updates_114-2_medicine-4_batch1.json", "w", encoding="utf-8") as f:
+# Write to json file
+with open('scratch/updates_112-1_medicine-3_batch1.json', 'w', encoding='utf-8') as f:
     json.dump(updates, f, ensure_ascii=False, indent=2)
 
-# Run the update script
-result = subprocess.run(
-    ["python", "scripts/exams/update_question_fields.py", "--exam-file", "public/data/exams/114-2/medicine-4.json", "--updates-file", "scratch/updates_114-2_medicine-4_batch1.json"],
-    capture_output=True,
-    text=True,
-    encoding="utf-8"
-)
-print("STDOUT:", result.stdout)
-print("STDERR:", result.stderr)
+# Run update command
+res = subprocess.run([
+    'python', 'scripts/exams/update_question_fields.py',
+    '--exam-file', 'public/data/exams/112-1/medicine-3.json',
+    '--updates-file', 'scratch/updates_112-1_medicine-3_batch1.json'
+], capture_output=True, text=True)
+
+print("STDOUT:", res.stdout)
+print("STDERR:", res.stderr)

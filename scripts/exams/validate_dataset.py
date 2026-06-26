@@ -12,7 +12,7 @@ EXPECTED_OPTIONS = {"A", "B", "C", "D"}
 
 def validate_dataset(path: str | Path) -> dict[str, Any]:
     dataset_path = Path(path)
-    dataset = json.loads(dataset_path.read_text(encoding="utf-8"))
+    dataset = json.loads(dataset_path.read_text(encoding="utf-8-sig"))
     questions = dataset.get("questions", [])
 
     issues: list[dict[str, Any]] = []
