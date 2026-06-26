@@ -1,0 +1,102 @@
+[
+  {
+    "id": "115-1_medicine-5_021",
+    "key_point": "體液分佈（細胞內外液比例）與血漿滲透壓（plasma osmolality）計算公式。",
+    "explanation": "【題幹解析】\n本題考查人體液體分佈（Body Fluid Compartments）與血漿滲透壓（Plasma Osmolality）計算。患者陳先生為 70 公斤的成年男性。\n\n【選項詳解】\n- A. 正確。健康成年男性的總體水分（Total Body Water, TBW）約占體重的 60%。因此，其總水分約為：70 kg × 60% = 42 公斤（臨床粗估或教科書常見範圍約 38-42 公斤，38 公斤在此範圍內，屬合理表述）。\n- B. 錯誤。血漿滲透壓的估算公式為：\n  Calculated Osmolality = 2 × [Na+] + [Glucose]/18 + [BUN]/2.8\n  將數據代入：\n  Osmolality = 2 × 142 + 95/18 + 16/2.8 = 284 + 5.28 + 5.71 ≈ 295 mOsm/L\n  正常的血漿滲透壓範圍為 275-295 mOsm/L。選項給出 315 mOsm/L 顯著偏高，且與計算值不符。\n- C. 正確。人體液體分佈主要分為細胞內液（ICF）與細胞外液（ECF），細胞外液又進一步分為組織間液（interstitial fluid，占 ECF 的 3/4）與血漿（plasma，占 ECF 的 1/4）。\n- D. 正確。總體水分（TBW）中，約有 2/3 分佈在細胞內（ICF），1/3 分佈在細胞外（ECF）。\n  計算細胞內液：42 kg × 2/3 = 28 公斤（若總水分以體重 55-60% 計算，細胞內液重量約為 23-28 公斤，故 25 公斤屬合理數值）。\n\n【核心考點】\n血漿滲透壓計算公式（2Na + Glucose/18 + BUN/2.8）、人體體液分佈比例（總水分占體重 60%、細胞內液占總水分 2/3、細胞外液占 1/3）。",
+    "flashcard_front": "血漿滲透壓計算公式 / 體液分佈 / 70公斤男性細胞內外液量",
+    "flashcard_back": "滲透壓公式為 2*Na + Glucose/18 + BUN/2.8，算得約 295 mOsm/L；總水分占體重 60%，其中 2/3 為細胞內液（ICF），1/3 為細胞外液（ECF）。",
+    "flashcard_summary": "體液生理計算 -> 滲透壓公式 2Na + G/18 + BUN/2.8；總水占體重60%（ICF佔2/3，ECF佔1/3）",
+    "category": "外科概論",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_022",
+    "key_point": "高血鉀症（hyperkalemia）之臨床病因與利尿劑作用機制。",
+    "explanation": "【題幹解析】\n高血鉀症（定義為血清鉀濃度 > 5.0 mEq/L）主要由鉀排出減少（如腎功能衰竭）、鉀移出細胞外（如酸中毒、細胞溶解）或攝入過多引起。\n\n【選項詳解】\n- A. 錯誤。大面積壓軋傷（crush injury）會導致大量的骨骼肌細胞壞死溶解（rhabdomyolysis），由於細胞內鉀濃度極高，壞死細胞釋放出大量鉀離子進入血液，常引起嚴重的急性高血鉀。\n- B. 錯誤。超長馬拉松跑者經歷極度劇烈的肌肉運動，可引起骨骼肌細胞微細損傷，伴隨肌肉細胞膜的轉運異常，且運動時血液偏酸、脫水等，常會引發一過性高血鉀。\n- C. 錯誤。術後腹膜炎感染和敗血症會引發嚴重的組織灌流不足，導致代謝性酸中毒（metabolic acidosis）。當血液中氫離子濃度上升時，細胞會透過「H+-K+ 交換機制」吸入氫離子並排出鉀離子，從而造成高血鉀。\n- D. 正確。Furosemide（速尿，Lasix）是一種強效的環利尿劑（loop diuretic），作用於髓袢升支粗段，抑制 Na+-K+-2Cl- 共轉運體，會促進鈉、氯、水的排出，同時顯著增加尿中「鉀」的排泄。因此，長期或穩定使用 furosemide 常見的副作用是「低血鉀症（hypokalemia）」，而不是高血鉀。\n\n【核心考點】\n高血鉀常見病因（溶血/肌肉溶解、酸中毒細胞內外交換）、排鉀利尿劑（Loop/Thiazide 導致低血鉀）與保鉀利尿劑（Spironolactone 導致高血鉀）之鑑別。",
+    "flashcard_front": "高血鉀 / 壓軋傷 / 酸中毒 / furosemide 影響",
+    "flashcard_back": "壓軋傷（溶肌）與酸中毒（H+-K+ 交換）均會引起高血鉀；環利尿劑（furosemide）會促進尿鉀排出，引致低血鉀。",
+    "flashcard_summary": "高血鉀原因 -> 壓軋傷與酸中毒使鉀移出細胞；furosemide 爲排鉀利尿劑，常致低血鉀",
+    "category": "外科概論",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_023",
+    "key_point": "末期肝病模型（MELD score）之計算參數。",
+    "explanation": "【題幹解析】\nMELD score（Model for End-Stage Liver Disease）是用於預測末期肝病患者（特別是等待肝臟移植者）短期（3個月）死亡率的評分系統。\n\n【選項詳解】\n- A、B、C. 錯誤。傳統 MELD score 的計算公式包括以下三個核心化學指標：\n  1. 血清總膽紅素（Serum total bilirubin）：評估肝臟排泄與代謝功能。\n  2. 國際標準化比值（INR）：評估肝臟凝血因子合成功能。\n  3. 血清肌酸酐（Serum creatinine）：評估患者的腎功能（肝腎症候群常是末期肝病的致死原因）。\n  * 註：近年公式中加入了血清鈉離子（MELD-Na score），但核心指標仍是上述三者。\n- D. 正確。血清白蛋白（Serum albumin）是 Child-Pugh 評分（Child-Pugh score）的五大指標之一，但「不屬於」MELD 評分的計算參數。\n\n【核心考點】\nMELD score 計算指標（Creatinine, Bilirubin, INR）、MELD score 與 Child-Pugh score 參數之區別（Child-Pugh 包含 Albumin, Bilirubin, PT/INR, Ascites, Encephalopathy）。",
+    "flashcard_front": "MELD 評分 / 計算參數 / 肝移植死亡風險 / albumin vs creatinine",
+    "flashcard_back": "MELD 評分參數包含：Creatinine、Bilirubin、INR。Albumin 是 Child-Pugh 的參數，不包含在 MELD 中。",
+    "flashcard_summary": "MELD score 參數 -> Creatinine、Bilirubin、INR（不含 Albumin）",
+    "category": "移植外科",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_024",
+    "key_point": "傷口癒合（wound healing）各階段（止血、發炎、增生、重塑）之主要參與細胞與時間軸。",
+    "explanation": "【題幹解析】\n傷口癒合（wound healing）是一個高度動態的生理過程，主要分為四個重疊的時期：\n1. 止血期（Hemostasis）：傷口發生後立即開始。主要由血小板（platelets）及纖維蛋白凝塊主導。\n2. 發炎期（Inflammation）：傷後 24-48 小時達到高峰。\n3. 增生期（Proliferation）：傷後 3-21 天。主要特徵為肉芽組織形成、血管新生和再上皮化。\n4. 重塑期（Remodeling）：傷後 21 天至數月甚至一年。\n\n【選項詳解】\n- A. 錯誤。增生期（proliferation phase）的主要參與細胞是纖維母細胞（fibroblasts）與內皮細胞（endothelial cells）。淋巴球（lymphocytes）主要參與發炎期晚期，作為調節免疫反應之用，並非增生期的主要起始細胞。\n- B. 錯誤。最初止血期（hemostasis phase）的主要參與細胞是血小板（platelets），藉由凝集與活化形成血栓止血，而非嗜酸性球（eosinophils）。\n- C. 正確。在最初發炎期（inflammatory phase），嗜中性球（neutrophils）是第一批被招募到傷口區域的免疫細胞（通常在傷後數小時內），其主要功能是藉由吞噬作用和釋放活性氧物質（ROS）清除壞死組織與細菌。隨後，單核球會轉化為巨噬細胞（macrophages）進入傷口，接替發炎期中後期的清除與修復調控工作。\n- D. 錯誤。纖維母細胞（fibroblasts）在增生期（proliferative phase）才開始大量移行並增生，合成膠原蛋白（collagen），通常在傷後 1-2 週左右達到數量高峰，而非在傷口癒合最初期即達高峰。\n\n【核心考點】\n傷口癒合各期細胞動力學（止血期-血小板；發炎期-嗜中性球、巨噬細胞；增生期-纖維母細胞、內皮細胞；重塑期-肌纖維母細胞）。",
+    "flashcard_front": "傷口癒合 / 止血期 / 發炎期 / 增生期 / 嗜中性球 / 纖維母細胞",
+    "flashcard_back": "止血期由血小板主導；發炎期早期以嗜中性球（neutrophils）為主；纖維母細胞在增生期（1-2週）達到高峰。",
+    "flashcard_summary": "傷口癒合細胞學 -> 止血-血小板；發炎早期-嗜中性球；增生期-纖維母細胞",
+    "category": "外科概論",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_025",
+    "key_point": "手術部位感染（SSI）之預防措施與預防性抗生素（prophylactic antibiotics）正確使用原則。",
+    "explanation": "【題幹解析】\n手術部位感染（Surgical Site Infection, SSI）是常見的手術併發症。降低 SSI 的臨床介入需基於實證醫學指引。\n\n【選項詳解】\n- A. 正確。肥胖（Obesity）是 SSI 的獨立危險因子，因為脂肪組織血流灌注較差，且手術難度增加。對於擇期手術（elective surgery），術前適度減重有助於減少術後併發症及感染率。\n- B. 正確。對於結直腸手術，術前進行機械性腸道準備（mechanical bowel preparation）聯合口服抗生素，可顯著減少腸道內細菌載量，降低吻合口漏及 SSI 的風險。\n- C. 錯誤。預防性抗生素（prophylactic antibiotics）的使用原則是：在「切皮前 1 小時內」（若為 Vancomycin 或 Fluoroquinolones 則需在 2 小時內，因輸注時間較長）給予單次靜脈注射，使手術時組織中的藥物濃度達到峰值，且術後通常在 24 小時內停藥。若「術前一週預先施打強效抗生素」，不僅無法預防手術時的感染，反而會篩選出具抗藥性的菌株（如 MRSA、VRE），造成嚴重的抗藥性感染及腸道菌群失調（如困難梭菌腸炎）。\n- D. 正確。術前若需移除毛髮，不應使用刮刀（razor），因為刮刀會造成微小皮膚傷口並有利於細菌繁殖；應在「手術當天、上手術檯前」使用電動剪毛器（clippers）剪除毛髮，以最大程度減少皮膚微小損傷。\n\n【核心考點】\n手術部位感染（SSI）預防指引、預防性抗生素給藥黃金時間（切皮前 60 分鐘內給予，不可過早或過長使用）、去毛原則（手術當天用電剪）。",
+    "flashcard_front": "手術部位感染 (SSI) / 預防性抗生素給藥時機 / 術前除毛原則",
+    "flashcard_back": "預防性抗生素應在切皮前 60 分鐘內給予；過早給藥（如一週前）是錯誤的，會產生抗藥性。除毛應在手術當天以電剪進行。",
+    "flashcard_summary": "SSI 預防原則 -> 抗生素於切皮前60分鐘內給予；除毛在手術當天用電剪",
+    "category": "外科概論",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_026",
+    "key_point": "高血壓性腦出血（hypertensive intracerebral hemorrhage）最常見的致病血管與病理機轉。",
+    "explanation": "【題幹解析】\n高血壓性腦出血（Hypertensive ICH）是自發性腦出血最常見的原因。其好發位置依序為：基底核（basal ganglia，特別是殼核 putamen，占 50%）、視丘（thalamus）、腦橋（pons）和小腦（cerebellum）。\n\n【選項詳解】\n- A. 錯誤。澱粉樣血管病（Cerebral Amyloid Angiopathy, CAA）是老年人自發性腦出血的另一大主因，但其病變主要侵犯大腦皮質與軟腦膜的中小動脈，導致的出血多為「葉性出血（lobar hemorrhage，如顳葉、頂葉）」，而不是高血壓性的深部基底核出血。\n- B. 正確。長期高血壓會使大腦深部的穿通動脈（penetrating arteries，如來自中大腦動脈的豆紋動脈 lenticulostriate arteries）發生玻璃樣變性（lipohyalinosis），進而在血管壁形成微小的假性動脈瘤，稱為 Charcot-Bouchard 微動脈瘤。當血壓劇烈波動時，這些微動脈瘤破裂即造成深部腦出血。\n- C. 錯誤。頸內動脈海綿竇廔管（CCF）主要導致眼部症狀（如眼球突出、結膜充血、搏動性雜音），一般不會引起自發性的基底核出血。\n- D. 錯誤。血栓溶解治療後的再灌流出血通常發生在急性缺血性腦中風接受 rt-PA 治療後，本例病患是突然發病直接診斷基底核出血，非缺血性中風溶栓後。\n\n【核心考點】\n高血壓性腦出血之病理機轉（Charcot-Bouchard 微動脈瘤破裂）、好發位置（基底核/殼核、豆紋動脈）、腦澱粉樣血管病（CAA，好發於老年人葉性出血）。",
+    "flashcard_front": "基底核出血 / 長期高血壓 / Charcot-Bouchard 微動脈瘤 / 澱粉樣血管病 (CAA)",
+    "flashcard_back": "高血壓性基底核出血主因是 Charcot-Bouchard 微動脈瘤破裂（豆紋動脈）；澱粉樣血管病（CAA）好發於老年人且以葉性出血為主。",
+    "flashcard_summary": "腦出血病因 -> 高血壓性基底核出血源於 Charcot-Bouchard 微動脈瘤破裂；CAA 導致葉性出血",
+    "category": "神經外科",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_027",
+    "key_point": "兒童腦幹膠質瘤（brainstem glioma）之分類、特徵、手術可行性及預後。",
+    "explanation": "【題幹解析】\n兒童腦幹膠質瘤（Pediatric Brainstem Gliomas）可根據解剖部位和生長方式分為兩大類：\n1. 瀰漫性內生性橋腦膠質瘤（Diffuse Intrinsic Pontine Glioma, DIPG）：佔多數（約 80%）。\n2. 局限性腦幹膠質瘤（Focal brainstem glioma）：如中腦（midbrain）頂蓋（tectal）或被蓋（tegmental）膠質瘤。\n\n【選項詳解】\n- A. 正確。瀰漫性內生性橋腦膠質瘤（DIPG / diffuse pontine glioma）大部分屬於 WHO Grade III-IV 的高惡性度星狀細胞瘤，極具侵襲性，預後極差。\n- B. 正確。局限性中腦膠質瘤（尤其是 tectal glioma）多為低惡性度（如 Grade I pilocytic astrocytoma），生長緩慢，預後顯著優於瀰漫性的 DIPG。\n- C. 錯誤。由於 DIPG 呈瀰漫性浸潤生長，且橋腦（pons）內含有控制心跳、呼吸等生命中樞的眾多神經核與傳導束，無法在不造成生命危險下進行手術切除。因此，DIPG 的主要治療手段是「放射線治療（radiotherapy）配合化療」，手術切除並非其主要治療方式，頂多僅在必要時進行立體定位切片（stereotactic biopsy）。\n- D. 正確。中腦頂蓋膠質瘤（tectal glioma）由於直接位於大腦導水管（aqueduct of Sylvius）後方，腫瘤即使體積很小也會壓迫導水管，引發阻塞性水腦症（obstructive hydrocephalus）。\n\n【核心考點】\n瀰漫性內生性橋腦膠質瘤（DIPG，惡性度高、無法手術、放療為主）、中腦頂蓋膠質瘤（Tectal glioma，低惡性、常合併水腦、預後佳）。",
+    "flashcard_front": "兒童腦幹膠質瘤 / DIPG / 頂蓋膠質瘤 (tectal glioma) / 手術切除可行性 / 水腦",
+    "flashcard_back": "DIPG 呈瀰漫性惡性生長且涉及生命中樞，無法手術，以放療為主；Tectal glioma 生長慢但易壓迫導水管造成水腦。",
+    "flashcard_summary": "兒童腦幹腫瘤 -> DIPG 為瀰漫惡性且無法手術（以放療為主）；頂蓋膠質瘤易致水腦且預後較好",
+    "category": "神經外科",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_028",
+    "key_point": "神經外科手術適應症辨識（癲癇手術 vs 微血管減壓術）。",
+    "explanation": "【題幹解析】\n難治性癲癇（Drug-resistant epilepsy）在內科藥物控制無效時，可評估外科手術治療，手術方式主要可分為切除性手術（resective surgery）、阻斷/姑息性手術（palliative surgery）及神經調控手術（neuromodulation）。\n\n【選項詳解】\n- A. 錯誤。顳葉前部切除術（Anterior temporal lobectomy, ATL）是治療難治性顳葉癲癇（temporal lobe epilepsy，特別是伴有內側顳葉硬化/MTS 者）最經典且效果最顯著的「切除性癲癇手術」。\n- B. 錯誤。迷走神經刺激術（Vagus nerve stimulation, VNS）是一種藉由植入刺激器發送電訊號調節大腦興奮性的「神經調控手術」，適用於無法切除病灶的難治性癲癇患者。\n- C. 錯誤。胼胝體切開術（Corpus callosotomy）是將連接左右大腦半球的胼胝體切斷，以阻止癲癇放電在兩半球間傳播，主要用於治療失張力性發作（atonic seizure，常導致跌倒受傷）的「阻斷性/姑息性癲癇手術」。\n- D. 正確。微血管減壓術（Microvascular Decompression, MVD，又稱 Jannetta 手術）是利用顯微手術將壓迫顱神經的微血管墊開，主要用於治療「三叉神經痛（trigeminal neuralgia）」、「半側面肌痙攣（hemifacial spasm）」或「舌咽神經痛」，這「不屬於」癲癇手術。\n\n【核心考點】\n癲癇外科手術分類（切除性如 ATL；阻斷性如 corpus callosotomy；神經調控如 VNS）、微血管減壓術（MVD）之適應症（顱神經壓迫疾患）。",
+    "flashcard_front": "癲癇手術 / 迷走神經刺激 (VNS) / 胼胝體切開 / 微血管減壓術 (MVD)",
+    "flashcard_back": "癲癇手術包括 ATL、胼胝體切開、VNS 等；微血管減壓術（MVD）用於治療三叉神經痛和面肌痙攣，與癲癇無關。",
+    "flashcard_summary": "癲癇外科手術 -> 包含 ATL、VNS、胼胝體切開；微血管減壓術 (MVD) 用於三叉神經痛與面肌痙攣",
+    "category": "神經外科",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_029",
+    "key_point": "交通性（communicating）與非交通性（non-communicating）水腦症之病因與病理機制。",
+    "explanation": "【題幹解析】\n水腦症（hydrocephalus）根據腦脊髓液（CSF）循環通路是否受阻，分為交通性（communicating）與非交通性/阻塞性（non-communicating / obstructive）。\n\n【選項詳解】\n- A. 正確。大腦導水管狹窄（aqueductal stenosis）是先天性水腦症最常見的病因之一，因胚胎發育異常導致中腦導水管狹窄或閉鎖。\n- B. 錯誤。大腦導水管是連接第三腦室和第四腦室的狹窄通道。當導水管發生狹窄（aqueductal stenosis）時，CSF 無法從第三腦室流入第四腦室，導致側腦室和第三腦室擴大。這種因腦室系統內部通路受阻導致的水腦症，屬於「非交通性（non-communicating / obstructive）水腦症」，而非交通性。\n- C. 正確。新生兒罹患化膿性腦膜炎（meningitis）後，發炎滲出物和纖維化會阻塞蛛網膜下腔或破壞蛛網膜顆粒（arachnoid granulations）的吸收功能，使腦室外的 CSF 吸收障礙，這屬於「交通性（communicating）水腦症」。\n- D. 正確。Chiari II 畸形（常合併脊髓脊膜膨出 myelomeningocele）因小腦扁桃體及腦幹向椎管內疝出，常伴隨先天性腦脊髓液循環路徑發育異常，屬於先天性病因（congenital etiology）導致的水腦症。\n\n【核心考點】\n水腦症之分類判斷（腦室系統內受阻如導水管狹窄、第四腦室出口阻塞為 non-communicating；腦室外蛛網膜顆粒吸收不良如腦膜炎後、蜘蛛膜下腔出血後為 communicating）。",
+    "flashcard_front": "先天性水腦症 / 中腦導水管狹窄 (aqueductal stenosis) / 腦膜炎後水腦 / 交通性與否",
+    "flashcard_back": "導水管狹窄使第三、四腦室間不通，屬「非交通性（obstructive）」水腦；腦膜炎後因蛛網膜顆粒吸收障礙，屬「交通性」水腦。",
+    "flashcard_summary": "水腦症分類 -> 中腦導水管狹窄為非交通性（阻塞性）水腦；腦膜炎/出血後為交通性水腦",
+    "category": "神經外科",
+    "category_confidence": "high"
+  },
+  {
+    "id": "115-1_medicine-5_030",
+    "key_point": "頸椎退化性疾病之影像診斷工具選擇與神經生理學評估。",
+    "explanation": "【題幹解析】\n頸椎退化性疾病（如頸椎間盤突出、頸椎狹窄、脊髓病變）的診斷仰賴理學檢查、影像學與電氣生理學。\n\n【選項詳解】\n- A. 正確。急性頸椎椎間盤突出通常有典型的神經根病變（radiculopathy）症狀，如單側手臂放射痛、麻木，以及特定皮節的神經反射減弱。仔細的理學檢查（如 Spurling's test 陽性）能提供極高的臨床診斷線索。\n- B. 正確。核磁共振（MRI，特別是無顯影劑的 MRI）可清晰顯示椎間盤突出程度、神經根壓迫（nerve root compression）以及脊髓有無信號改變（myelomalacia），是首選且最主要的影像診斷工具。\n- C. 錯誤。骨頭掃描（bone scan，如 Tc-99m MDP）主要反映骨骼的代謝活性，常用於偵測骨轉移、骨髓炎或骨折，無法顯示神經根、椎間盤或脊髓等軟組織壓迫。若病人因體內植入心律調節器等禁忌而無法接受 MRI 檢查，應使用「電腦斷層脊髓造影（CT myelography）」或單純「頸椎電腦斷層（CT）」來評估骨性狹窄與壓迫，而非用骨頭掃描取代。\n- D. 正確。肌電圖（EMG）和神經傳導速度（NCV）檢查能區分症狀是由頸椎神經根病變（radiculopathy）引起，還是由臂神經叢病變（brachial plexopathy）或周邊神經壓迫（如腕隧道症候群）引起，提供重要的功能性定位資訊。\n\n【核心考點】\n頸椎病變之影像學選擇（MRI 為首選；無法做 MRI 時以 CT/CT myelography 替代，非 bone scan）、神經電氣生理學（EMG/NCV）之鑑別診斷價值。",
+    "flashcard_front": "頸椎間盤突出 / 影像選擇 / MRI 禁忌替代 / 骨頭掃描 (bone scan) 侷限",
+    "flashcard_back": "頸椎壓迫首選 MRI；若有禁忌無法做 MRI，應以 CT 或 CT myelography 替代，骨頭掃描（bone scan）無法顯示軟組織與神經壓迫。",
+    "flashcard_summary": "頸椎病影像學 -> 首選無顯影 MRI；無法 MRI 時用 CT 或 CT myelography 替代（不可用 bone scan）",
+    "category": "神經外科",
+    "category_confidence": "high"
+  }
+]

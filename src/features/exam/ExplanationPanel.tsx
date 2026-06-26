@@ -5,6 +5,7 @@ import { loadDiseaseComparisons } from "../../lib/loadExamData";
 import { DiseaseComparison } from "./DiseaseComparison";
 import type { ExamQuestion } from "../../types/exam";
 import type { DiseaseComparisonGroup } from "../../types/disease";
+import type { AppTheme } from "../../components/ThemeToggle";
 
 const ACRONYM_CONTEXTS: Record<string, string[]> = {
   mg: ["肌無力", "重症", "achr", "眼瞼", "複視", "胸腺", "thymoma", "tensilon", "edrophonium", "mestinon", "去髓鞘", "gbs", "myasthenia", "gravis"],
@@ -53,9 +54,10 @@ function isAliasMatch(combinedTextOriginal: string, alias: string): boolean {
 
 type ExplanationPanelProps = {
   question: ExamQuestion;
+  theme: AppTheme;
 };
 
-export function ExplanationPanel({ question }: ExplanationPanelProps) {
+export function ExplanationPanel({ question, theme }: ExplanationPanelProps) {
   const [comparisons, setComparisons] = useState<DiseaseComparisonGroup[]>([]);
 
   useEffect(() => {
@@ -147,6 +149,7 @@ export function ExplanationPanel({ question }: ExplanationPanelProps) {
           key={group.id}
           group={group}
           currentQuestionId={question.id}
+          theme={theme}
         />
       ))}
     </>

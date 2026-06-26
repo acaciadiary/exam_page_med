@@ -1,38 +1,39 @@
-import sys
 import json
-from pathlib import Path
+import sys
 
-# Reconfigure stdout to use UTF-8
-sys.stdout.reconfigure(encoding='utf-8')
-
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python read_batch.py <start_index> [count]")
-        return
+def print_batch(exam_file, start_idx, end_idx, output_file=None):
+    with open(exam_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    questions = data["questions"][start_idx:end_idx]
     
-    start = int(sys.argv[1])
-    count = int(sys.argv[2]) if len(sys.argv) > 2 else 10
+    out_lines = []
+    for i, q in enumerate(questions):
+        idx = start_idx + i + 1
+        out_lines.append(f"=== Q{idx}: {q['id']} (Answer: {q['correct_answer']}) ===")
+        out_lines.append(f"Category: {q.get('category', '')}")
+        out_lines.append(f"Text: {q['question_text']}")
+        out_lines.append("Options:")
+        for k, v in q['options'].items():
+            out_lines.append(f"  {k}: {v}")
+        out_lines.append(f"Current Explanation: {q.get('explanation', '')}")
+        out_lines.append(f"Current Key Point: {q.get('key_point', '')}")
+        out_lines.append(f"Current Flashcard Front: {q.get('flashcard_front', '')}")
+        out_lines.append(f"Current Flashcard Back: {q.get('flashcard_back', '')}")
+        out_lines.append(f"Current Flashcard Summary: {q.get('flashcard_summary', '')}")
+        out_lines.append("")
     
-    exam_file = Path("public/data/exams/114-1/medicine-6.json")
-    if not exam_file.exists():
-        print(f"File not found: {exam_file}")
-        return
-        
-    data = json.loads(exam_file.read_text(encoding="utf-8"))
-    questions = data.get("questions", [])
-    
-    batch = questions[start:start+count]
-    print(f"=== Displaying {len(batch)} questions starting from index {start} ===")
-    
-    for i, q in enumerate(batch):
-        print(f"\n[{start + i}] ID: {q.get('id')} | Question #{q.get('question_number')}")
-        print(f"Category: {q.get('category')} | Correct: {q.get('correct_answer')}")
-        print(f"Text:\n{q.get('question_text')}")
-        print("Options:")
-        opts = q.get("options", {})
-        for opt_key in sorted(opts.keys()):
-            print(f"  {opt_key}: {opts[opt_key]}")
-        print("-" * 40)
+    content = "\n".join(out_lines)
+    if output_file:
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Output written to {output_file}")
+    else:
+        sys.stdout.reconfigure(encoding='utf-8')
+        print(content)
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 4:
+        print("Usage: python read_batch.py <exam_file> <start_idx> <end_idx> [output_file]")
+    else:
+        out_file = sys.argv[4] if len(sys.argv) > 4 else None
+        print_batch(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), out_file)

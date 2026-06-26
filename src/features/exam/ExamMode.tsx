@@ -244,6 +244,7 @@ export function ExamMode({
                   ? () => navigateToQuestion(index + 1)
                   : undefined
               }
+              theme={theme}
             />
           ))}
         </div>

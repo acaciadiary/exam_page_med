@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
 import { IconButton } from "../../components/IconButton";
 import { formatCorrectAnswers, isAcceptedAnswer } from "../../lib/text";
 import type { AnswerOptionKey, ExamQuestion } from "../../types/exam";
+import type { AppTheme } from "../../components/ThemeToggle";
 import { AnswerOptions } from "./AnswerOptions";
 import { ExplanationPanel } from "./ExplanationPanel";
 
@@ -15,6 +16,7 @@ type QuestionCardProps = {
   positionLabel?: string;
   onGoPrevious?: () => void;
   onGoNext?: () => void;
+  theme?: AppTheme;
 };
 
 export const QuestionCard = memo(
@@ -27,6 +29,7 @@ export const QuestionCard = memo(
     positionLabel,
     onGoPrevious,
     onGoNext,
+    theme = "light",
   }: QuestionCardProps) {
     const isCorrect = isAcceptedAnswer(selected, question);
 
@@ -87,7 +90,7 @@ export const QuestionCard = memo(
           </div>
         )}
 
-        {selected && <ExplanationPanel question={question} />}
+        {selected && <ExplanationPanel question={question} theme={theme} />}
 
         <div className="mt-5 flex items-center justify-between gap-3 border-t border-[#f0ded6] pt-4 dark:border-white/10">
           <button
@@ -117,7 +120,8 @@ export const QuestionCard = memo(
       prevProps.question.id === nextProps.question.id &&
       prevProps.selected === nextProps.selected &&
       prevProps.marked === nextProps.marked &&
-      prevProps.positionLabel === nextProps.positionLabel
+      prevProps.positionLabel === nextProps.positionLabel &&
+      prevProps.theme === nextProps.theme
     );
   }
 );

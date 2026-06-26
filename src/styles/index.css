@@ -186,12 +186,17 @@ select {
 }
 
 .theme-dark [class*="bg-[#fff8f4"],
+.theme-dark [class*="bg-[#fff8fb"],
 .theme-dark [class*="bg-[#fff9e8"],
 .theme-dark [class*="bg-[#fffaf7"],
+.theme-dark [class*="bg-[#fffae8"],
+.theme-dark [class*="bg-[#fffbf9"],
 .theme-dark [class*="bg-[#fffdf5"],
 .theme-dark [class*="bg-[#fffcf0"],
 .theme-dark [class*="bg-[#fffcf2"],
-.theme-dark [class*="bg-[#fff8df"] {
+.theme-dark [class*="bg-[#fff8df"],
+.theme-dark [class*="bg-[#fbf7f9"],
+.theme-dark [class*="bg-[#fcf9fa"] {
   background-color: rgb(43 36 48 / 0.9) !important;
 }
 
@@ -200,10 +205,18 @@ select {
 .theme-dark [class*="bg-[#fff1f6"],
 .theme-dark [class*="bg-[#fff3f8"],
 .theme-dark [class*="bg-[#fdf0f4"],
+.theme-dark [class*="bg-[#fdf3f5"],
+.theme-dark [class*="bg-[#fdfafb"],
+.theme-dark [class*="bg-[#fbdde8"],
+.theme-dark [class*="bg-[#ffe4e6"],
 .theme-dark [class*="bg-[#f8eee8"],
 .theme-dark [class*="bg-[#f8eae3"],
 .theme-dark [class*="bg-[#ffddea"] {
   background-color: rgb(74 44 58 / 0.92) !important;
+}
+
+.theme-dark [class*="bg-amber-50"] {
+  background-color: rgb(74 58 28 / 0.92) !important;
 }
 
 .theme-dark [class*="bg-[#e7f6ef"],
@@ -225,8 +238,12 @@ select {
 .theme-dark [class*="border-[#eacfc4"],
 .theme-dark [class*="border-[#f2d7a9"],
 .theme-dark [class*="border-[#fceeac"],
+.theme-dark [class*="border-[#f9ccd6"],
 .theme-dark [class*="border-[#ebdbe2"],
-.theme-dark [class*="border-[#d8eadf"] {
+.theme-dark [class*="border-[#e0ccd5"],
+.theme-dark [class*="border-[#c5a6b4"],
+.theme-dark [class*="border-[#d8eadf"],
+.theme-dark [class*="border-amber-200"] {
   border-color: rgb(255 255 255 / 0.14) !important;
 }
 
@@ -267,8 +284,17 @@ select {
 .theme-dark [class*="text-[#725e3c"],
 .theme-dark [class*="text-[#7a6040"],
 .theme-dark [class*="text-[#87693d"],
-.theme-dark [class*="text-[#9d7b58"] {
+.theme-dark [class*="text-[#9d7b58"],
+.theme-dark [class*="text-[#8c6b23"],
+.theme-dark [class*="text-[#9e7a28"],
+.theme-dark [class*="text-amber-800"] {
   color: #f1d58b !important;
+}
+
+.theme-dark [class*="text-[#865466"],
+.theme-dark [class*="text-[#9c3e5e"],
+.theme-dark [class*="text-red-600"] {
+  color: #ffc4d4 !important;
 }
 
 .journal-title {

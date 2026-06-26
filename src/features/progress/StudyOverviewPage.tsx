@@ -67,7 +67,6 @@ type StudyOverviewPageProps = {
   onGoFavorites: () => void;
 };
 
-type StageFilter = "all" | ExamStage;
 type StatusFilter = "all" | "unfinished" | "started" | "done";
 
 const stageOrder: ExamStage[] = ["stage-1", "stage-2"];
@@ -84,7 +83,7 @@ export function StudyOverviewPage({
   onGoMistakes,
   onGoFavorites,
 }: StudyOverviewPageProps) {
-  const [stageFilter, setStageFilter] = useState<StageFilter>("all");
+  const [activeStage, setActiveStage] = useState<ExamStage>("stage-1");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
 
   const stageSummaries = useMemo(() => {
@@ -96,6 +95,8 @@ export function StudyOverviewPage({
       };
     });
   }, [examStats]);
+  const activeStageSummary =
+    stageSummaries.find((stageSummary) => stageSummary.stage === activeStage) ?? stageSummaries[0];
 
   const weakestExam = examStats
     .filter((stat) => stat.answered >= 5)
@@ -129,11 +130,8 @@ export function StudyOverviewPage({
               進度總覽
             </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-normal text-[#3f342d] dark:text-[#f8edf3]">
-              一階、二階分開看，先補最有價值的地方
+              進度總覽
             </h2>
-            <p className="mt-3 max-w-3xl text-sm leading-7 text-[#725b52] dark:text-[#dccbd3]">
-              醫學一、醫學二歸在第一階段；醫學三到醫學六歸在第二階段。下面的年度總表會直接標出每科已寫、未寫與完成狀態，不需要一路往下翻才知道漏哪份。
-            </p>
           </div>
           <button
             type="button"
@@ -190,30 +188,39 @@ export function StudyOverviewPage({
         </div>
       </div>
 
-      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-6">
-        <MetricCard label="總作答" value={`${summary.totalAnswered}`} suffix={` / ${summary.totalQuestions}`} />
-        <MetricCard label="整體完成" value={`${summary.completion}%`} />
-        <MetricCard label="整體正確率" value={`${summary.accuracy}%`} />
-        <MetricCard label="錯題數" value={`${summary.wrongQuestionCount}`} />
-        <MetricCard label="已掌握錯題" value={`${summary.masteredMistakeCount}`} />
-        <MetricCard label="完成考卷" value={`${summary.completedExamCount}`} suffix={` / ${examStats.length}`} />
+      <div className="rounded-[1.2rem] border border-white/80 bg-white/82 p-3 shadow-[0_12px_38px_rgba(181,133,117,0.12)] backdrop-blur-2xl">
+        <div className="grid grid-cols-2 gap-2">
+          {stageOrder.map((stage) => {
+            const stageSummary = stageSummaries.find((item) => item.stage === stage);
+            return (
+              <button
+                key={stage}
+                type="button"
+                onClick={() => setActiveStage(stage)}
+                className={clsx(
+                  "rounded-[1rem] border px-4 py-3 text-left transition",
+                  activeStage === stage
+                    ? "border-[#b8527a] bg-[#b8527a] text-white shadow-[0_12px_28px_rgba(184,82,122,0.2)]"
+                    : "border-[#efd9d0] bg-white/75 text-[#6f5b50] hover:bg-[#fff0f6]",
+                )}
+              >
+                <span className="block text-base font-extrabold">{stage === "stage-1" ? "一階" : "二階"}</span>
+                <span className={clsx("mt-1 block text-xs font-bold", activeStage === stage ? "text-white/82" : "text-[#9c7b70]")}>
+                  {stageSummary?.answered ?? 0} / {stageSummary?.total ?? 0} 題
+                </span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      <div className="grid gap-3 lg:grid-cols-2">
-        {stageSummaries.map((stageSummary) => (
-          <StageSummaryCard
-            key={stageSummary.stage}
-            stage={stageSummary.stage}
-            total={stageSummary.total}
-            answered={stageSummary.answered}
-            correct={stageSummary.correct}
-            wrong={stageSummary.wrong}
-            completion={stageSummary.completion}
-            accuracy={stageSummary.accuracy}
-            completedExamCount={stageSummary.completedExamCount}
-            examCount={stageSummary.examCount}
-          />
-        ))}
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-6">
+        <MetricCard label={`${getStageLabel(activeStage)}作答`} value={`${activeStageSummary.answered}`} suffix={` / ${activeStageSummary.total}`} />
+        <MetricCard label="階段完成" value={`${activeStageSummary.completion}%`} />
+        <MetricCard label="階段正確率" value={`${activeStageSummary.accuracy}%`} />
+        <MetricCard label="階段錯題" value={`${activeStageSummary.wrong}`} />
+        <MetricCard label="未作答" value={`${Math.max(0, activeStageSummary.total - activeStageSummary.answered)}`} />
+        <MetricCard label="完成考卷" value={`${activeStageSummary.completedExamCount}`} suffix={` / ${activeStageSummary.examCount}`} />
       </div>
 
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1.35fr)_minmax(21rem,0.65fr)]">
@@ -222,7 +229,7 @@ export function StudyOverviewPage({
             <div>
               <p className="text-sm font-semibold tracking-[0.12em] text-[#b36a84]">年度進度總表</p>
               <h3 className="mt-2 text-2xl font-semibold text-[#3f342d] dark:text-[#f8edf3]">
-                不用長滑，直接看哪一階段、哪一科還沒寫
+                {getStageLabel(activeStage)}年度完成表
               </h3>
             </div>
             {mostUnfinished ? (
@@ -238,20 +245,6 @@ export function StudyOverviewPage({
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
-            {[
-              ["all", "全部考試"],
-              ["stage-1", "只看一階"],
-              ["stage-2", "只看二階"],
-            ].map(([value, label]) => (
-              <button
-                key={value}
-                type="button"
-                onClick={() => setStageFilter(value as StageFilter)}
-                className={filterButtonClass(stageFilter === value)}
-              >
-                {label}
-              </button>
-            ))}
             {[
               ["all", "全部狀態"],
               ["unfinished", "有未寫"],
@@ -273,7 +266,7 @@ export function StudyOverviewPage({
             {years.map((year) => {
               const yearStats = examStats.filter((stat) => stat.exam.year === year);
               const visibleStages = stageOrder
-                .filter((stage) => stageFilter === "all" || stageFilter === stage)
+                .filter((stage) => stage === activeStage)
                 .map((stage) => yearStats.filter((stat) => getExamStage(stat.exam) === stage))
                 .filter(hasVisibleProgress);
 
@@ -380,53 +373,6 @@ function filterButtonClass(active: boolean) {
     active
       ? "border-[#b8527a] bg-[#b8527a] text-white"
       : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:bg-[#fff0f6] hover:text-[#9a496b]",
-  );
-}
-
-function StageSummaryCard({
-  stage,
-  total,
-  answered,
-  correct,
-  wrong,
-  completion,
-  accuracy,
-  completedExamCount,
-  examCount,
-}: {
-  stage: ExamStage;
-  total: number;
-  answered: number;
-  correct: number;
-  wrong: number;
-  completion: number;
-  accuracy: number;
-  completedExamCount: number;
-  examCount: number;
-}) {
-  return (
-    <div className="rounded-[1.2rem] border border-white/80 bg-white/82 p-4 shadow-[0_12px_38px_rgba(181,133,117,0.12)] backdrop-blur-2xl">
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <p className="text-xs font-bold tracking-[0.12em] text-[#b36a84]">{getStageLabel(stage)}</p>
-          <h3 className="mt-1 text-xl font-extrabold text-[#3f342d] dark:text-[#f8edf3]">
-            {answered} / {total} 題
-          </h3>
-        </div>
-        <span className="rounded-full bg-[#fff1f6] px-3 py-1 text-xs font-extrabold text-[#9a496b]">
-          {completion}%
-        </span>
-      </div>
-      <ProgressBar value={completion} />
-      <div className="mt-3 grid grid-cols-3 gap-2 text-center text-xs">
-        <MiniStat label="正確率" value={`${accuracy}%`} />
-        <MiniStat label="錯題" value={`${wrong}`} />
-        <MiniStat label="完成考卷" value={`${completedExamCount}/${examCount}`} />
-      </div>
-      <p className="mt-3 text-xs font-semibold text-[#8a7066]">
-        答對 {correct} 題，未作答 {Math.max(0, total - answered)} 題
-      </p>
-    </div>
   );
 }
 
@@ -553,15 +499,6 @@ function MetricCard({
         {value}
         {suffix ? <span className="ml-1 text-sm font-bold text-[#8b7666] dark:text-[#a2949e]">{suffix}</span> : null}
       </p>
-    </div>
-  );
-}
-
-function MiniStat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-[0.85rem] bg-[#fff8f4] px-2 py-2 dark:bg-white/5">
-      <p className="font-bold text-[#9c7b70] dark:text-[#cbb8c2]">{label}</p>
-      <p className="mt-1 text-base font-extrabold text-[#9a496b]">{value}</p>
     </div>
   );
 }
