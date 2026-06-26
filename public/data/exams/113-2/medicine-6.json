@@ -4,7 +4,7 @@
   "title": "113 年第二次醫師國考：醫學（六）",
   "subject": "medicine-6",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=113070&q=1&s=44&t=Q",
-  "updated_at": "2026-06-18T04:41:48.646759+00:00",
+  "updated_at": "2026-06-26T03:02:08.531453+00:00",
   "questions": [
     {
       "id": "113-2_medicine-6_001",
@@ -17,23 +17,23 @@
         "D": "「無法插管,且無法通氣(cannot intubate, cannot ventilate)」是指無法以非侵入性方法進行通氣,\n 而又無法進行插管的緊急情況"
       },
       "correct_answer": "A",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 A. 以發生機率而言,全身麻醉過程中,手術拔管後與恢復期發生吸入性肺炎的機率高於麻醉誘導期 (induction of anesthesia)，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：A. 以發生機率而言,全身麻醉過程中,手術拔管後與恢復期發生吸入性肺炎的機率高於麻醉誘導期 (induction of anesthesia)",
-      "flashcard_summary": "呼吸道的處置中,有些情況風險性特別高,應該要有預先的警覺 -> A. 以發生機率而言,全身麻醉過程中,手術拔管後與恢復期發生吸入性肺炎的機率高於麻醉誘導期 (induction of anesthesia)",
+      "explanation": "【題幹解析】\n題幹詢問在呼吸道處置中，關於風險性特別高的情況描述何者錯誤。\n\n【選項詳解】\n- A. 錯誤。全身麻醉過程中，吸入性肺炎最常發生在「麻醉誘導期（induction of anesthesia）」，因為此時病患的保護性呼吸道反射剛喪失，且尚未建立氣管內管保護。手術拔管後與恢復期雖有風險，但發生機率低於誘導期。\n- B. 正確。對於已知或預期有困難插管的病患，在局部麻醉下進行清醒插管（awake intubation）是標準且安全的做法，可保留病患的自主呼吸與喉部反射。\n- C. 正確。即使經過詳細的麻醉前評估，仍有部分病患會發生非預期的困難插管，因此臨床上必須隨時備妥標準的困難插管應變流程（algorithms for difficult intubation）以防萬一。\n- D. 正確。「無法插管且無法通氣（cannot intubate, cannot ventilate, CICV）」是麻醉科最危急的緊急情況，定義為無法使用面罩、聲門上式氣道（如LMA）等非侵入方法通氣，且亦無法完成氣管插管，此時須立即採取有創氣道處置（如環甲膜切開術）。\n\n【核心考點】\n臨床麻醉中吸入性肺炎的高風險期評估及困難氣道處置原則。",
+      "key_point": "全身麻醉中吸入性肺炎的發生機率以「麻醉誘導期（induction）」為最高，而非手術拔管後或恢復期。",
+      "flashcard_summary": "全身麻醉中吸入性肺炎高風險期 -> 麻醉誘導期 (induction of anesthesia)",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "呼吸道的處置中,有些情況風險性特別高,應該要有預先的警覺",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「A. 以發生機率而言,全身麻醉過程中,手術拔管後與恢復期發生吸入性肺炎的機率高於麻醉誘導期 (induction of anesthesia)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床情境：全身麻醉過程中，吸入性肺炎發生機率最高的時期",
+      "flashcard_back": "麻醉誘導期 (induction of anesthesia)",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_002",
@@ -46,23 +46,23 @@
         "D": "BIS 是consciousness level的監測,不能完全代表麻醉深度"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 C. 腦波burst suppresion時,BIS的數值通常呈現為40，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：C. 腦波burst suppresion時,BIS的數值通常呈現為40",
-      "flashcard_summary": "以腦電圖(electroencephalogram, EEG)為基礎的監測,有關bispectral … / electroencephalogram / EEG -> C. 腦波burst suppresion時,BIS的數值通常呈現為40",
+      "explanation": "【題幹解析】\n題幹詢問關於腦電圖（EEG）雙頻指數（bispectral index, BIS）監測意義的敘述何者錯誤。\n\n【選項詳解】\n- A. 正確。BIS 數值範圍為 0 到 100，其中 100 代表完全清醒狀態。\n- B. 正確。臨床上維持全身麻醉的合適 BIS 範圍為 40–60，此時病患產生術中記憶（recall）或術中覺醒（awareness）的機率極低。\n- C. 錯誤。當腦波出現爆發抑制（burst suppression）時，代表大腦皮質活動受到極重度抑制，此時的 BIS 指數通常會顯著低於 40（一般在 0 至 30 之間，且數值會隨著抑制程度加深而向 0 遞減），而非維持在 40。\n- D. 正確。BIS 是基於腦電圖處理後反映意識水平（consciousness level）的指標，但麻醉深度還包含鎮痛、肌肉鬆弛與自主神經反應，故 BIS 不能等同於全部的麻醉深度。\n\n【核心考點】\n麻醉腦波監測（BIS）的數值定義、臨床意義與局限性。",
+      "key_point": "當腦電圖呈現爆發抑制（burst suppression）時，代表極深的麻醉或腦功能受抑，此時 BIS 值通常低於 40（趨向於 0）。",
+      "flashcard_summary": "腦波爆發抑制 (burst suppression) -> BIS值低於 40 (趨近於 0)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "以腦電圖(electroencephalogram, EEG)為基礎的監測,有關bispectral … / electroencephalogram / EEG",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「C. 腦波burst suppresion時,BIS的數值通常呈現為40」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床指標：腦波呈現爆發抑制 (burst suppression) 時的 BIS 數值特徵",
+      "flashcard_back": "BIS值低於 40 (隨抑制加深趨向於 0)",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_003",
@@ -75,23 +75,23 @@
         "D": "懷疑插管位置過深,造成單肺通氣,準備外移氣管內管"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 懷疑食道內插管,準備再重新插管，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 懷疑食道內插管,準備再重新插管",
-      "flashcard_summary": "麻醉誘導並執行氣管插管後,Pulse oximetry顯示97%,接上潮氣末二氧化碳(end-tida… / Pulse oximetry / end-tidal CO2 -> B. 懷疑食道內插管,準備再重新插管",
+      "explanation": "// NOTE: 本題圖形為食道插管之典型 EtCO2 表現（通常無波形或僅有數個遞減微弱波形後呈平線）\n【題幹解析】\n氣管插管後必須即時確認位置。雖然血氧飽和度（SpO2）顯示 97%，但接上潮氣末二氧化碳（EtCO2）監測後出現異常波形（代表無持續 CO2 排出），提示氣管內管並未正確置於氣管內。\n\n【選項詳解】\n- A. 錯誤。氣管內管阻塞時仍會有 CO2 波形，通常表現為呼氣相延長或波形變矮，而非完全沒有波形或迅速歸零。\n- B. 正確。EtCO2 監測是確認插管位置的黃金標準。若管路誤入食道，因胃內可能有少量殘留 CO2，前幾次呼吸可能出現微弱且迅速遞減的波形，之後便呈平線（no wave）。這時應高度懷疑食道插管，必須立即拔除並重新插管。\n- C. 錯誤。二氧化碳吸收劑（soda lime）飽和會導致呼入氣體中含有 CO2，使 EtCO2 波形的基線（baseline）上升，而不會導致沒有 CO2 波形。\n- D. 錯誤。插管過深造成單肺通氣（通常進入右主支氣管）時，仍有肺部通氣，EtCO2 監測會呈現正常的 CO2 波形，不至於無波形。\n\n【核心考點】\n氣管插管位置確認、EtCO2 監測的黃金標準地位及食道插管的波形判讀與緊急處置。",
+      "key_point": "插管後潮氣末二氧化碳（EtCO2）監測無正常波形或迅速消失，為診斷「食道內插管」最可靠的依據，必須立即重新插管。",
+      "flashcard_summary": "插管後 EtCO2 無正常波形 -> 懷疑食道插管並重新插管",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "麻醉誘導並執行氣管插管後,Pulse oximetry顯示97%,接上潮氣末二氧化碳(end-tida… / Pulse oximetry / end-tidal CO2",
-      "flashcard_back": "官方答案指向「B. 懷疑食道內插管,準備再重新插管」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "臨床情境：氣管插管後 EtCO2 監測無波形或波形迅速消失的後續處置",
+      "flashcard_back": "高度懷疑食道內插管，準備立即重新插管",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_004",
@@ -104,23 +104,23 @@
         "D": "pancuronium"
       },
       "correct_answer": "A",
-      "explanation": "考點是把題幹線索連到「A. rocuronium」。複習時先記概念關係，再回到選項，避免只背答案字母。",
-      "key_point": "Sugammadex是肌肉鬆弛劑專用的拮抗劑,其對 / Sugammadex => rocuronium",
-      "flashcard_summary": "Sugammadex是肌肉鬆弛劑專用的拮抗劑,其對 / Sugammadex -> A. rocuronium",
+      "explanation": "【題幹解析】\nSugammadex（舒美佳）是新型的選擇性鬆弛劑結合劑（selective relaxant binding agent），專門用於拮抗特定非去極化神經肌肉阻斷劑。\n\n【選項詳解】\n- A. 正確。Sugammadex 在分子結構上呈中空環狀，能專一性地包埋血液中的類固醇類（aminosteroids）非去極化肌鬆劑，其中對 Rocuronium 的親和力最高（其次為 Vecuronium），使其無法與乙醯膽鹼受體結合，達到快速且徹底的拮抗效果。\n- B. 錯誤。Cisatracurium 屬於苄基異喹啉類（benzylisoquinoliniums）肌鬆劑，其在體內通過 Hoffmann 消除，Sugammadex 對其無拮抗效果。\n- C. 錯誤。Mivacurium 亦屬於苄基異喹啉類肌鬆劑，Sugammadex 對其無效。\n- D. 錯誤。Pancuronium 雖屬類固醇類，但 Sugammadex 對它的親和力極低，臨床上不使用 Sugammadex 來拮抗 Pancuronium。\n\n【核心考點】\n神經肌肉阻斷劑拮抗藥物 Sugammadex 的藥理機轉與專一性對象。",
+      "key_point": "Sugammadex 對類固醇類非去極化肌肉鬆弛劑（特別是 Rocuronium 與 Vecuronium）具有專一性的包埋拮抗作用。",
+      "flashcard_summary": "Sugammadex 專一性拮抗 -> Rocuronium (及 Vecuronium)",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "Sugammadex是肌肉鬆弛劑專用的拮抗劑,其對 / Sugammadex",
-      "flashcard_back": "考點是把題幹線索連到「A. rocuronium」。複習時先記概念關係，再回到選項，避免只背答案字母。",
+      "flashcard_front": "藥理學：Sugammadex 具有專一性拮抗作用的肌肉鬆弛劑",
+      "flashcard_back": "Rocuronium (及 Vecuronium) 等類固醇類肌鬆劑",
       "category_group": "醫學（六）",
-      "category": "解剖學",
-      "category_confidence": "medium",
-      "category_source": "rule_rework_low_confidence",
-      "explanation_model": "local-rule-rework-v1.1",
-      "explanation_generated_at": "2026-06-18T04:41:48.646759+00:00"
+      "category": "麻醉科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_005",
@@ -133,23 +133,23 @@
         "D": "其最低肺泡濃度(minimum alveolar concentration)不受年齡影響"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 其最低肺泡濃度(minimum alveolar concentration)不受年齡影響，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 其最低肺泡濃度(minimum alveolar concentration)不受年齡影響",
-      "flashcard_summary": "第 5 題核心考點 -> D. 其最低肺泡濃度(minimum alveolar concentration)不受年齡影響",
+      "explanation": "【題幹解析】\n本題考查吸入性麻醉劑的藥理學特徵，要求選出錯誤的敘述。\n\n【選項詳解】\n- A. 正確。根據 Meyer-Overton 假說，吸入性麻醉劑的強度/效力（potency，通常以 1/MAC 表示）與其在橄欖油中的脂溶性（oil:gas partition coefficient）呈良好的正相關。\n- B. 正確。大多數吸入性麻醉劑（如 Sevoflurane、Desflurane、Isoflurane）皆具有直接舒張血管平滑肌的效用，常導致全身血管阻力下降與血壓降低。\n- C. 正確。Desflurane 的沸點低且揮發性高，但搭配現代麻醉機的專用加熱蒸發器（TEC 6 等），可精準控制輸出濃度，完全適用於低流量麻醉（low-flow anesthesia）以減少浪費。\n- D. 錯誤。最低肺泡濃度（MAC）受年齡影響非常大。MAC 在出生後至嬰兒期（約 1-6 個月）達到最高峰，隨後隨年齡增長而逐漸下降。老年人因中樞神經系統敏感性增高、神經元減少等因素，其 MAC 顯著低於年輕人（每增加 10 歲，MAC 約下降 6%）。\n\n【核心考點】\n吸入性麻醉劑的藥理性質、Meyer-Overton 假說、以及影響 MAC 的生理因素（如年齡）。",
+      "key_point": "吸入性麻醉劑的最低肺泡濃度（MAC）受年齡影響顯著，老年人 MAC 較低（所需濃度低），嬰兒期最高。",
+      "flashcard_summary": "年齡與 MAC 關係 -> 年齡增加則 MAC 下降 (老年人 MAC 較低)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "第 5 題核心考點",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 其最低肺泡濃度(minimum alveolar concentration)不受年齡影響」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "藥理學：年齡對吸入性麻醉劑最低肺泡濃度 (MAC) 的影響",
+      "flashcard_back": "年齡越大則 MAC 越低 (老年人所需濃度低)；嬰兒期 MAC 最高",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_006",
@@ -162,23 +162,23 @@
         "D": "ligamentum flavum 黃韌帶"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. arachnoid mater 蜘蛛網膜，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. arachnoid mater 蜘蛛網膜",
-      "flashcard_summary": "執行脊椎麻醉(spinal anesthesia),也就是一般所謂的半身麻醉,當穿刺針最後穿過那一層結… / spinal anesthesia / cerebrospinal fluid -> B. arachnoid mater 蜘蛛網膜",
+      "explanation": "【題幹解析】\n脊椎麻醉（spinal anesthesia）是將麻醉藥注入蛛網膜下腔（subarachnoid space），以阻斷脊神經根。解剖上必須明確穿刺針經過的層次。\n\n【選項詳解】\n- A. 錯誤。穿過硬脊膜（dura mater）後，下方即緊貼著蜘蛛網膜，此時尚未真正進入有腦脊髓液流動的蛛網膜下腔。\n- B. 正確。蜘蛛網膜（arachnoid mater）與軟脊膜（pia mater）之間為蛛網膜下腔，內含腦脊髓液。穿刺針最後穿透蜘蛛網膜時，便會看見透明的腦脊髓液（CSF）由針尾流出，確認位置正確。\n- C. 錯誤。軟脊膜（pia mater）緊貼於脊髓表面。穿刺針絕對不能刺入或穿過軟脊膜，否則會直接損傷脊髓，造成嚴重的神經後遺症。\n- D. 錯誤。黃韌帶（ligamentum flavum）是椎管後方的緻密韌帶。穿過黃韌帶後僅到達硬膜外腔（epidural space），此時無 CSF。\n\n【核心考點】\n脊椎麻醉穿刺解剖層次：皮膚 -> 皮下組織 -> 棘上韌帶 -> 棘間韌帶 -> 黃韌帶 -> 硬脊膜 -> 蜘蛛網膜 -> 進入蛛網膜下腔（得 CSF）。",
+      "key_point": "執行脊椎麻醉（半身麻醉）時，穿刺針必須最後穿透「蜘蛛網膜（arachnoid mater）」進入蛛網膜下腔，才會有腦脊髓液（CSF）流出。",
+      "flashcard_summary": "脊椎麻醉見 CSF 穿過之最後結構 -> 蜘蛛網膜 (arachnoid mater)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "執行脊椎麻醉(spinal anesthesia),也就是一般所謂的半身麻醉,當穿刺針最後穿過那一層結… / spinal anesthesia / cerebrospinal fluid",
-      "flashcard_back": "官方答案指向「B. arachnoid mater 蜘蛛網膜」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "解剖學：脊椎麻醉穿刺時，見到腦脊髓液 (CSF) 流出前穿過的最後一層結構",
+      "flashcard_back": "蜘蛛網膜 (arachnoid mater)",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_007",
@@ -191,23 +191,23 @@
         "D": "brachial plexus block 使用lidocaine 與少量sodium bicarbonate 混和鹼化,可以加速onset"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 D. brachial plexus block 使用lidocaine 與少量sodium bicarbonate 混和鹼化,可以加速onset，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：D. brachial plexus block 使用lidocaine 與少量sodium bicarbonate 混和鹼化,可以加速onset",
-      "flashcard_summary": "95歲高齡病患因手腕骨折,骨科醫師預計進行骨折復位手術(open reduction and inte… / open reduction and internal fixation / regional anesthesia -> D. brachial plexus block 使用lidocaine 與少量sodium bicarbonate 混和鹼化,可以加速onset",
+      "explanation": "【題幹解析】\n針對 95 歲高齡病患的手腕骨折手術，區域麻醉（神經阻斷術）是避開全身麻醉風險的優良選擇。本題考查上肢神經阻斷術的選擇及局部麻醉藥的藥理輔助劑。\n\n【選項詳解】\n- A. 錯誤。斜角肌間臂神經叢阻斷（interscalene block）主要阻斷 C5–C7，適用於肩部及上臂手術，且有高機率併發同側膈神經麻痺（phrenic nerve block），對高齡病患呼吸功能風險大。手腕手術應優先選擇鎖骨上（supraclavicular）或腋下（axillary）阻斷術。\n- B. 錯誤。Bupivacaine 屬於長效型局部麻醉藥（作用時間可達 4–8 小時），不適合用於短時間手術後需要快速評估神經學功能的情況。\n- C. 錯誤。臂神經叢阻斷術（brachial plexus block）因為神經鞘較厚且範圍大，即使使用起效較快的 Lidocaine，通常也需要 10 至 20 分鐘才能達到完全的麻醉效能，無法在 5 分鐘內開始手術。\n- D. 正確。局部麻醉藥（如 Lidocaine）是弱鹼性鹽酸鹽，偏酸性。加入碳酸氫鈉（sodium bicarbonate）可將藥液鹼化，使非解離型（不帶電荷、脂溶性高，能穿透神經細胞膜）的局麻藥比例增加，進而顯著縮短神經阻斷的起效時間（onset time）。\n\n【核心考點】\n上肢區域麻醉阻斷部位選擇、局麻藥物特性（Bupivacaine 長效）與鹼化（NaHCO3）加速起效的藥理機轉。",
+      "key_point": "局部麻醉藥中加入少量的碳酸氫鈉（NaHCO3）可提高藥物非解離型比例，加速藥物穿透神經膜以縮短起效時間（onset time）。",
+      "flashcard_summary": "局麻藥加 NaHCO3 -> 鹼化藥液，加速起效時間 (shorten onset)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "95歲高齡病患因手腕骨折,骨科醫師預計進行骨折復位手術(open reduction and inte… / open reduction and internal fixation / regional anesthesia",
-      "flashcard_back": "官方答案指向「D. brachial plexus block 使用lidocaine 與少量sodium bicarbonate 混和鹼化,可以加速onset」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "藥理學：在局部麻醉藥中加入碳酸氫鈉 (NaHCO3) 的主要目的與機轉",
+      "flashcard_back": "鹼化藥液以增加非解離型比例，加速神經阻斷起效 (shorten onset)",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_008",
@@ -220,23 +220,23 @@
         "D": "paresthesia:無明顯刺激狀態下卻感受異樣知覺"
       },
       "correct_answer": "C",
-      "explanation": "考點是辨認不適當敘述。官方答案為「C. analgesia:對所有知覺皆無反應」，表示這個選項需特別修正；複習時要反向記住正確概念。",
-      "key_point": "第 8 題核心考點 => analgesia:對所有知覺皆無反應",
-      "flashcard_summary": "第 8 題核心考點 -> C. analgesia:對所有知覺皆無反應",
+      "explanation": "【題幹解析】\n本題考查國際疼痛研究學會（IASP）對於慢性疼痛及感覺異常的名詞定義。\n\n【選項詳解】\n- A. 正確。Allodynia（觸痛/異痛症）定義為對「非傷害性/非致痛性（non-noxious）的刺激」感受到疼痛，例如輕觸或微風吹拂皮膚即感到劇烈疼痛。\n- B. 正確。Hyperalgesia（痛覺過敏）定義為對「傷害性（noxious）的刺激」產生加劇、過度的疼痛反應。\n- C. 錯誤。Analgesia（止痛/無痛）定義為在維持意識及其他知覺的狀態下，對通常會引起疼痛的刺激「失去痛覺（absence of pain）」。若對「所有知覺」皆無反應，則稱為 Anesthesia（感覺喪失/麻醉）。\n- D. 正確。Paresthesia（感覺異常）是指在「無明顯外在刺激」下，產生如針刺感、麻木感、燒灼感等異常自發性知覺。\n\n【核心考點】\n慢性疼痛專有名詞（Allodynia, Hyperalgesia, Analgesia, Paresthesia）的定義辨析。",
+      "key_point": "Analgesia（止痛/無痛覺）是指對通常會引起疼痛的刺激失去痛覺，但其他感覺仍保留；對所有知覺皆無反應稱為 anesthesia（麻醉）。",
+      "flashcard_summary": "Analgesia 定義 -> 僅失去痛覺 (而非所有知覺皆無反應)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "第 8 題核心考點",
-      "flashcard_back": "考點是辨認不適當敘述。官方答案為「C. analgesia:對所有知覺皆無反應」，表示這個選項需特別修正；複習時要反向記住正確概念。",
+      "flashcard_front": "臨床定義：Analgesia 與 Anesthesia 在感覺喪失範圍上的差異",
+      "flashcard_back": "Analgesia 僅失去痛覺 (保留其他感覺)；Anesthesia 失去所有感覺",
       "category_group": "醫學（六）",
       "category": "麻醉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework_low_confidence",
-      "explanation_model": "local-rule-rework-v1.1",
-      "explanation_generated_at": "2026-06-18T04:41:48.646759+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_009",
@@ -249,23 +249,23 @@
         "D": "給與腎性劑量(renal-dose)的dopamine,可增加尿量,減少住院洗腎率"
       },
       "correct_answer": "B",
-      "explanation": "考點是把題幹線索連到「B. 以「加強胰島素治療(intensive insulin therapy)」,來控制血糖低於180 mg/dL」。複習時先記概念關係，再回到選項，避免只背答案字母。",
-      "key_point": "目前關於敗血症(sepsis)的治療方法 / sepsis => 以「加強胰島素治療(intensive insulin therapy)」,來控制血糖低於180 mg/dL",
-      "flashcard_summary": "目前關於敗血症(sepsis)的治療方法 / sepsis -> B. 以「加強胰島素治療(intensive insulin therapy)」,來控制血糖低於180 mg/dL",
+      "explanation": "【題幹解析】\n本題考查敗血症（sepsis）與敗血性休克臨床實證治療指引（如 Surviving Sepsis Campaign）。\n\n【選項詳解】\n- A. 錯誤。雖然早期給予足夠輸液重要，但實證醫學指引建議的平均動脈壓（MAP）維持目標為 65 mmHg 以上即可，維持 > 90 mmHg 會導致不必要的升壓劑過量使用與心血管併發症。\n- B. 正確。根據大型臨床試驗（如 NICE-SUGAR study），對重症/敗血症病患採用極嚴格的胰島素治療（控制血糖於 80–110 mg/dL）會顯著增加致命性低血糖的發生率，並增加死亡率。因此目前的標準做法是當血糖 > 180 mg/dL 時開始使用胰島素，控制血糖目標在 140–180 mg/dL（即控制低於 180 mg/dL）。\n- C. 錯誤。高劑量類固醇對敗血症無益且會增加二次感染風險；僅在充足輸液與升壓劑後仍為難治性休克時，考慮給予每日低劑量氫化可的松（Hydrocortisone 200 mg）。\n- D. 錯誤。臨床研究已證實，給予「腎性劑量（renal-dose / low-dose, 1-3 mcg/kg/min）」的 Dopamine 無法保護腎臟或降低洗腎率，反而可能增加心律不整等副作用。\n\n【核心考點】\n敗血症重症照護指引中關於血壓目標（MAP >= 65）、血糖控制目標（< 180 mg/dL）、類固醇與多巴胺的使用原則。",
+      "key_point": "敗血症重症病患的血糖控制目標應維持在低於 180 mg/dL，嚴格控制血糖（80-110 mg/dL）反而會增加低血糖及死亡風險。",
+      "flashcard_summary": "敗血症血糖控制 -> 控制於 140-180 mg/dL (低於 180 mg/dL)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "目前關於敗血症(sepsis)的治療方法 / sepsis",
-      "flashcard_back": "考點是把題幹線索連到「B. 以「加強胰島素治療(intensive insulin therapy)」,來控制血糖低於180 mg/dL」。複習時先記概念關係，再回到選項，避免只背答案字母。",
+      "flashcard_front": "臨床指引：敗血症 (Sepsis) 重症患者的血糖控制目標與原則",
+      "flashcard_back": "血糖 > 180 mg/dL 時啟動胰島素，控制目標在 140-180 mg/dL 之間",
       "category_group": "醫學（六）",
-      "category": "病理學",
-      "category_confidence": "medium",
-      "category_source": "rule_rework_low_confidence",
-      "explanation_model": "local-rule-rework-v1.1",
-      "explanation_generated_at": "2026-06-18T04:41:48.646759+00:00"
+      "category": "其他",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_010",
@@ -278,23 +278,23 @@
         "D": "是已開發國家造成不可逆視力喪失最常見的原因"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 C. 盛行率隨著年齡增加,很少發生於70歲以下病患，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：C. 盛行率隨著年齡增加,很少發生於70歲以下病患",
-      "flashcard_summary": "年齡相關黃斑部退化(age-related macular degeneration)之敘述 / age-related macular degeneration -> C. 盛行率隨著年齡增加,很少發生於70歲以下病患",
+      "explanation": "【題幹解析】\n年齡相關黃斑部退化（AMD）是造成老年人視力障礙的主要原因，分為乾性與濕性兩大類。\n\n【選項詳解】\n- A. 正確。乾性（非新生血管性）AMD 最為常見，約占所有黃斑部退化病例的 85% 至 90%。\n- B. 正確。濕性（新生血管性）AMD 雖然比例低，但因脈絡膜新生血管（CNV）易發生滲漏、出血或疤痕化，容易造成快速且嚴重的中心視力喪失。\n- C. 錯誤。雖然 AMD 盛行率隨年齡顯著增加，但在 50–60 歲左右的年齡層就已有相當的發病率，並非「很少發生於 70 歲以下」。臨床篩檢通常建議 50 歲以上即應注意此疾病。\n- D. 正確。在已開發國家（如美國、歐洲及台灣），AMD 是導致 50 歲以上老年人不可逆性失明/嚴重視力喪失的最主要原因。\n\n【核心考點】\n年齡相關黃斑部退化（AMD）的分類（乾性 vs 濕性）、流行病學特徵及臨床表現。",
+      "key_point": "年齡相關黃斑部退化（AMD）好發於 50 歲以上中老年人，其盛行率隨年齡增長而上升，並非很少發生於 70 歲以下。",
+      "flashcard_summary": "AMD 好發年齡 -> 50 歲以上 (非 70 歲以下罕見)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "年齡相關黃斑部退化(age-related macular degeneration)之敘述 / age-related macular degeneration",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「C. 盛行率隨著年齡增加,很少發生於70歲以下病患」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床醫學：年齡相關黃斑部退化 (AMD) 的好發年齡與流行病學特徵",
+      "flashcard_back": "好發於 50 歲以上，盛行率隨年齡漸增，並非罕見於 70 歲以下",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:53.982530+00:00"
     },
     {
       "id": "113-2_medicine-6_011",
@@ -307,23 +307,23 @@
         "D": "在前玻璃體經常可見類似菸草灰(tobacco dust)的色素細胞"
       },
       "correct_answer": "A",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 A. 和正常眼睛相比,眼壓通常會高大約5毫米汞柱(mmHg)，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：A. 和正常眼睛相比,眼壓通常會高大約5毫米汞柱(mmHg)",
-      "flashcard_summary": "裂孔性視網膜剝離徵候之敘述 -> A. 和正常眼睛相比,眼壓通常會高大約5毫米汞柱(mmHg)",
+      "explanation": "【題幹解析】\n本題考查裂孔性視網膜剝離（rhegmatogenous retinal detachment, RRD）的臨床表徵與診斷特徵。\n\n【選項詳解】\n- A. 錯誤。發生 RRD 時，房水或液化的玻璃體可通過視網膜裂孔流向視網膜下空間，並經由視網膜色素上皮細胞（RPE）主動幫浦吸收，因此患眼的眼壓（IOP）通常會比對側健眼「降低」大約 5 mmHg（低眼壓，hypotony），而非升高。\n- B. 正確。當發生大範圍（廣泛性）的視網膜剝離時，視網膜感光細胞嚴重受損，會導致患側傳入性瞳孔障礙（afferent pupillary defect, APD），臨床上可觀察到馬格恩氏瞳孔（Marcus Gunn pupil）。\n- C. 正確。視網膜剝離常伴隨局部的無菌性發炎反應，患者非常普遍會合併輕微的前葡萄膜炎或虹彩炎（iritis）。\n- D. 正確。在前玻璃體（anterior vitreous）中若見到類似煙草灰（tobacco dust）的褐色色素細胞，稱為 Schafer's sign，這是視網膜裂孔形成時，色素上皮細胞釋放至玻璃體腔的特徵表現。\n\n【核心考點】\n裂孔性視網膜剝離（RRD）的臨床徵象辨識，包括低眼壓、Schafer's sign、Marcus Gunn 瞳孔及輕度虹彩炎。",
+      "key_point": "裂孔性視網膜剝離患眼之眼壓通常較健眼「降低」（約低 5 mmHg），而非升高。",
+      "flashcard_summary": "RRD 患眼眼壓變化 -> 比正常眼睛低約 5 mmHg",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "裂孔性視網膜剝離徵候之敘述",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「A. 和正常眼睛相比,眼壓通常會高大約5毫米汞柱(mmHg)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床表徵：裂孔性視網膜剝離 (RRD) 的患眼眼壓變化特徵",
+      "flashcard_back": "眼壓通常比正常眼睛低大約 5 mmHg (低眼壓)",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_012",
@@ -336,23 +336,23 @@
         "D": "感染治癒後,不再復發"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 感染治癒後,不再復發，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 感染治癒後,不再復發",
-      "flashcard_summary": "疱疹病毒所造成的眼球表面感染 -> D. 感染治癒後,不再復發",
+      "explanation": "【題幹解析】\n本題考查疱疹病毒（包括單純疱疹病毒 HSV 及帶狀疱疹病毒 VZV）所造成的眼部感染特性。\n\n【選項詳解】\n- A. 正確。單純疱疹病毒角膜炎可由 HSV-1（最常見，主要經口鼻分泌物傳播）或 HSV-2（主要經生殖器途徑傳播，可見於新生兒產道感染）所引起。\n- B. 正確。疱疹病毒感染除侵犯角膜上皮外，亦可侵犯深層組織引起前葡萄膜炎（虹彩炎）以及小樑網炎（trabeculitis），導致房水排出受阻而引發眼壓升高（繼發性青光眼）。\n- C. 正確。單純疱疹病毒性上皮角膜炎最典型的特徵是出現上皮樹枝狀角膜炎（dendritic keratitis），病灶末端常有膨大（terminal bulbs），螢光素染色呈陽性。\n- D. 錯誤。疱疹病毒具有潛伏感染的特性。首次感染治癒後，病毒並未被完全清除，而是潛伏在三叉神經節（trigeminal ganglion）中。當病患遭遇發燒、壓力、免疫力下降或紫外線照射時，病毒即可能沿神經纖維重新活化，導致疾病反覆復發，無法達到「不再復發」。\n\n【核心考點】\n疱疹病毒眼部感染（特別是 HSV 角膜炎）的臨床表現、診斷特徵、以及潛伏與復發之病理生理學機制。",
+      "key_point": "疱疹病毒造成的眼部表面感染，治癒後病毒會潛伏在神經節中，未來在免疫力低下時仍會反覆復發。",
+      "flashcard_summary": "疱疹病毒眼部感染轉歸 -> 潛伏於神經節，未來易反覆復發",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "疱疹病毒所造成的眼球表面感染",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 感染治癒後,不再復發」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床病理：疱疹病毒眼部感染治癒後的長期轉歸與復發特性",
+      "flashcard_back": "病毒潛伏在三叉神經節中，免疫力低下時會反覆復發",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_013",
@@ -365,23 +365,23 @@
         "D": "仍為正視眼"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 高度遠視，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 高度遠視",
-      "flashcard_summary": "手術前為正視眼(emmetropia)的病人,取出白內障若不置入人工水晶體,病人術後會有 / emmetropia -> B. 高度遠視",
+      "explanation": "【題幹解析】\n正常眼球的屈光力主要由角膜（約 +43 D）與水晶體（約 +15 至 +20 D）共同提供。本題考查無晶體眼（aphakia）的屈光狀態改變。\n\n【選項詳解】\n- A. 錯誤。失去水晶體會讓眼球的聚焦能力大幅減弱，光線聚焦在視網膜後方，因此不會造成近視（近視是聚焦在視網膜前方）。\n- B. 正確。取出白內障（即摘除水晶體）若未置入人工水晶體，眼球將處於「無晶體眼（aphakia）」狀態。此時眼球喪失了約 +15 至 +20 D 的屈光力，光線進入眼球後只能聚焦在網膜後方很遠處，導致嚴重的「高度遠視（high hyperopia）」，病人術後必須配戴厚重的凸透鏡（約 +10 D 左右）或隱形眼鏡才能獲得清晰視力。\n- C. 錯誤。散光主要是角膜弧度不均勻所致，取出水晶體本身不是造成高度散光的主因。\n- D. 錯誤。正常正視眼依靠水晶體的屈光力聚焦，失去水晶體後必然無法維持正視眼。\n\n【核心考點】\n水晶體生理光學功能、無晶體眼（aphakia）的屈光狀態改變（高度遠視）。",
+      "key_point": "白內障手術摘除水晶體後，若未植入人工水晶體（無晶體眼），眼球會失去極大屈光力，導致高度遠視。",
+      "flashcard_summary": "無人工水晶體植入後屈光狀態 -> 高度遠視 (aphakia)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "手術前為正視眼(emmetropia)的病人,取出白內障若不置入人工水晶體,病人術後會有 / emmetropia",
-      "flashcard_back": "官方答案指向「B. 高度遠視」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "臨床光學：正視眼白內障手術摘除水晶體且未植入人工水晶體後的屈光狀態",
+      "flashcard_back": "呈現高度遠視 (無晶體眼 aphakia 狀態)",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_014",
@@ -394,23 +394,23 @@
         "D": "目前已有局部眼用的碳酸酐酶抑制劑眼藥水可以使用,但降眼壓效果較差"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 B. 容易造成高血鉀症，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：B. 容易造成高血鉀症",
-      "flashcard_summary": "口服碳酸酐酶抑制劑(carbonic anhydrase inhibitor)是一種常用於快速降眼壓的… / carbonic anhydrase inhibitor -> B. 容易造成高血鉀症",
+      "explanation": "【題幹解析】\n口服碳酸酐酶抑制劑（carbonic anhydrase inhibitor, CAI，如 Acetazolamide/Acetazol）在眼科常用於急性青光眼發作時的快速降眼壓治療。\n\n【選項詳解】\n- A. 正確。肢體末端針刺感（paresthesia，如手腳麻木感）是口服 Acetazolamide 最常見的全身性副作用，主要是由於藥物引發的輕度代謝性酸中毒所致。\n- B. 錯誤。Acetazolamide 作用於腎臟近曲小管，抑制碳酸酐酶，減少 HCO3- 的重吸收，並促進尿中鈉、水及鉀離子的排出。因此，其主要的電解質副作用是「低血鉀症（hypokalemia）」與代謝性酸中毒，而非高血鉀。\n- C. 正確。Acetazolamide 屬於磺胺類藥物（sulfonamides）衍生物，對磺胺類藥物有嚴重過敏史的病患應禁用，以防交叉過敏反應。\n- D. 正確。目前臨床上已有局部眼用 CAI（如 Dorzolamide, Brinzolamide），雖然全身副作用大幅降低，但因局部吸收限制，其單獨使用時的降眼壓效果一般稍遜於口服全身給藥。\n\n【核心考點】\n口服碳酸酐酶抑制劑（Acetazolamide）的藥理作用機轉、臨床電解質副作用（低血鉀、代謝性酸中毒）及磺胺過敏禁忌症。",
+      "key_point": "口服碳酸酐酶抑制劑（如 Acetazolamide）易引起排尿增加，臨床主要副作用為「低血鉀症」及代謝性酸中毒，而非高血鉀。",
+      "flashcard_summary": "Acetazolamide 電解質副作用 -> 低血鉀與代謝性酸中毒",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "口服碳酸酐酶抑制劑(carbonic anhydrase inhibitor)是一種常用於快速降眼壓的… / carbonic anhydrase inhibitor",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「B. 容易造成高血鉀症」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "藥理副作用：口服碳酸酐酶抑制劑 (Acetazolamide) 常見的電解質異常",
+      "flashcard_back": "低血鉀症 (hypokalemia) 及代謝性酸中毒",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_015",
@@ -423,23 +423,23 @@
         "D": "鼻淚管在鼻內的出口位於下鼻道(inferior nasal meatus)"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 D. 鼻淚管在鼻內的出口位於下鼻道(inferior nasal meatus)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：D. 鼻淚管在鼻內的出口位於下鼻道(inferior nasal meatus)",
-      "flashcard_summary": "四個月大的女嬰,媽媽注意到她有溢淚的情況,內眼角常有黃綠色的黏稠分泌物,尤其是按摩內眼角與鼻骨 之間的… -> D. 鼻淚管在鼻內的出口位於下鼻道(inferior nasal meatus)",
+      "explanation": "【題幹解析】\n四個月大女嬰出現單側溢淚、黃綠色黏稠分泌物，且按摩內眼角與鼻骨之間（淚囊區）有更多分泌物排出，這是典型的「先天性鼻淚管阻塞（congenital nasolacrimal duct obstruction）」表現。\n\n【選項詳解】\n- A. 錯誤。先天性青光眼的典型表徵是畏光、流淚、眼瞼痙攣，且常合併角膜擴大（牛眼 buphthalmos）與角膜水腫混濁，不會在按摩淚囊時擠出大量膿性分泌物。\n- B. 錯誤。先天性鼻淚管阻塞最常見的病理位置並非位於 Rosenmüller 瓣膜，而是位於鼻淚管最下端、開口於鼻腔處的「Hasner 瓣膜（valve of Hasner）」在出生後仍被一層黏膜隔膜覆蓋而未開通。\n- C. 錯誤。先天性鼻淚管阻塞的預後極佳，約 90% 以上的病患在滿一歲前透過保守治療（局部按摩配合抗生素眼藥水）可自行痊癒，自行痊癒率遠高於 50%。\n- D. 正確。解剖學上，鼻淚管（nasolacrimal duct）行經骨性鼻淚管，並在鼻腔內的「下鼻道（inferior nasal meatus）」外側壁開口。\n\n【核心考點】\n先天性鼻淚管阻塞的病因（Hasner 瓣膜未開通）、臨床症狀（溢淚、壓迫淚囊有分泌物）、高治癒率以及鼻淚管的解剖開口（下鼻道）。",
+      "key_point": "先天性鼻淚管阻塞最常見原因是下端的 Hasner 瓣膜發育不全，其解剖學出口位於鼻腔的下鼻道。",
+      "flashcard_summary": "鼻淚管解剖出口 -> 下鼻道 (inferior nasal meatus)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "四個月大的女嬰,媽媽注意到她有溢淚的情況,內眼角常有黃綠色的黏稠分泌物,尤其是按摩內眼角與鼻骨 之間的…",
-      "flashcard_back": "官方答案指向「D. 鼻淚管在鼻內的出口位於下鼻道(inferior nasal meatus)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "解剖與臨床：鼻淚管在鼻腔內的解剖出口位置",
+      "flashcard_back": "下鼻道 (inferior nasal meatus) 的外側壁",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_016",
@@ -452,23 +452,23 @@
         "D": "左眼上眼瞼毛細血管瘤(capillary hemangioma)"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 B. 右眼內斜視(esotropia)，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：B. 右眼內斜視(esotropia)",
-      "flashcard_summary": "不是造成遮蔽性弱視(deprivation amblyopia)的可能原因 / deprivation amblyopia -> B. 右眼內斜視(esotropia)",
+      "explanation": "【題幹解析】\n弱視（amblyopia）依病因可分為斜視性（strabismic）、屈光參差性（anisometropic）、屈光不正性（isometropic）及視覺剝奪性（sensory deprivation）。視覺剝奪性（遮蔽性）弱視是由於光線或影像在關鍵發育期被物理性阻擋，無法在視網膜上形成清晰影像所致。\n\n【選項詳解】\n- A. 屬於。雙眼嚴重的重度眼瞼下垂（ptosis）會直接遮擋瞳孔，阻礙光線與視覺刺激進入網膜，會造成遮蔽性弱視。\n- B. 不屬於。右眼內斜視（esotropia）導致的弱視是由於雙眼影像不一致，大腦主動抑制斜視眼傳入的訊號以避免雙重顯像（複視），這屬於「斜視性弱視（strabismic amblyopia）」，而非物理遮擋造成的遮蔽性弱視。\n- C. 屬於。單眼先天性或嬰幼兒期白內障（cataract）會嚴重阻擋光線進入眼底，是造成單側遮蔽性弱視的經典原因。\n- D. 屬於。左眼上眼瞼毛細血管瘤（capillary hemangioma）如果體積過大，會壓迫眼球或直接下垂遮蓋瞳孔，導致視覺剝奪，進而引起遮蔽性弱視。\n\n【核心考點】\n弱視的分類與病因鑑別，特別是遮蔽性（剝奪性）弱視與斜視性弱視的機轉差異。",
+      "key_point": "剝奪性弱視（deprivation amblyopia）是由光線物理阻擋所致；而斜視導致的弱視則屬於斜視性弱視（strabismic amblyopia）。",
+      "flashcard_summary": "斜視導致的弱視 -> 斜視性弱視 (而非遮蔽性弱視)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "不是造成遮蔽性弱視(deprivation amblyopia)的可能原因 / deprivation amblyopia",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「B. 右眼內斜視(esotropia)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床診斷：斜視 (如內斜視) 導致的弱視在病因分類上屬於何者",
+      "flashcard_back": "斜視性弱視 (strabismic amblyopia)，不屬於遮蔽性/剝奪性弱視",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_017",
@@ -481,23 +481,23 @@
         "D": "接受放射碘(radioactive iodine)治療甲狀腺功能亢進(hyperthyroidism)的患者,其原本活性期眼病\n 變(active Graves' ophthalmopathy)可能會加重"
       },
       "correct_answer": "A",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 A. 將甲狀腺功能指數控制到甲狀腺功能低下(hypothyroidism),有助於甲狀腺眼病變的預防與治療，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：A. 將甲狀腺功能指數控制到甲狀腺功能低下(hypothyroidism),有助於甲狀腺眼病變的預防與治療",
-      "flashcard_summary": "甲狀腺眼病變(Graves' ophthalmopathy)的敘述 / Graves / ophthalmopathy -> A. 將甲狀腺功能指數控制到甲狀腺功能低下(hypothyroidism),有助於甲狀腺眼病變的預防與治療",
+      "explanation": "【題幹解析】\n甲狀腺眼病變（Graves' ophthalmopathy / thyroid eye disease）是與自體免疫相關的眼窩發炎性疾病，常與甲狀腺功能亢進或自體抗體相關。\n\n【選項詳解】\n- A. 錯誤。預防與治療甲狀腺眼病變的目標是達到並維持「甲狀腺功能正常（euthyroid state）」。不論是甲狀腺功能亢進（hyperthyroidism）或是過度治療導致的甲狀腺功能低下（hypothyroidism），都會促進促甲狀腺素（TSH）或相關抗體刺激眼窩組織，進而加重眼病變。因此不可刻意將病患控制在低下狀態。\n- B. 正確。Graves' 眼病變是成人單側或雙側凸眼（proptosis）最常見的成因。\n- C. 正確。Graves' 眼病變典型症狀是眼瞼退縮（eyelid retraction，露出上方鞏膜），若病患罕見地出現眼瞼下垂（ptosis），必須懷疑是否合併有重症肌無力（myasthenia gravis），因兩者皆為與甲狀腺病變高度相關的自體免疫疾病。\n- D. 正確。使用放射性碘（radioactive iodine, RAI）治療甲亢時，甲狀腺組織受破壞會釋放大量甲狀腺抗原進入循環，可能導致活動期眼病變（active Graves' ophthalmopathy）突然加重。臨床上常在放療前後給予預防性口服類固醇。\n\n【核心考點】\n甲狀腺眼病變的內分泌控制原則（維持正常甲狀腺功能）、合併症（重症肌無力）及放射碘治療對眼病變的影響。",
+      "key_point": "甲狀腺眼病變的預防與治療關鍵是使甲狀腺功能維持在「正常（euthyroid）」，控制成甲狀腺功能低下反而會加重眼病變。",
+      "flashcard_summary": "甲狀腺眼病變控制目標 -> 維持正常甲狀腺功能 (euthyroid)",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "甲狀腺眼病變(Graves' ophthalmopathy)的敘述 / Graves / ophthalmopathy",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「A. 將甲狀腺功能指數控制到甲狀腺功能低下(hypothyroidism),有助於甲狀腺眼病變的預防與治療」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "臨床控制：甲狀腺眼病變 (Graves' ophthalmopathy) 患者的甲狀腺功能控制目標",
+      "flashcard_back": "維持在正常範圍 (euthyroid)；亢進或低下均會使眼病變惡化",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_018",
@@ -510,23 +510,23 @@
         "D": "視網膜光學斷層掃描儀(optical coherence tomography, OCT)"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 D. 視網膜光學斷層掃描儀(optical coherence tomography, OCT)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：D. 視網膜光學斷層掃描儀(optical coherence tomography, OCT)",
-      "flashcard_summary": "六個月男嬰右眼瞳孔區呈現白色反光,看來像貓眼一樣,結膜紅腫,流淚哭鬧 -> D. 視網膜光學斷層掃描儀(optical coherence tomography, OCT)",
+      "explanation": "【題幹解析】\n六個月男嬰出現右眼瞳孔區白色反光（Leukocoria，白瞳症/貓眼/cat's eye reflex），並伴隨眼部發炎、流淚、哭鬧。這在臨床上屬於兒科眼科急症，必須高度警惕小兒最常見的眼內惡性腫瘤——視網膜母細胞瘤（Retinoblastoma, RB）。\n\n【選項詳解】\n- A. 需要。眼球超音波（B-scan）是極佳的初步篩檢工具，可無痛偵測眼內腫瘤，並敏感地發現腫瘤內是否有鈣化灶（calcification，RB 的特徵表現）。\n- B. 需要。眼窩電腦斷層（CT）或磁振造影（MRI）可確定腫瘤大小、鈣化情況，以及是否已向眼球外、視神經或顱內侵犯，對臨床分期至關重要。\n- C. 需要。散瞳後間接眼底鏡檢查（indirect ophthalmoscopy）是診斷眼底腫瘤最直接、最核心的檢查方法（嬰幼兒常需在全身麻醉下進行），可直接觀察腫瘤的形態、位置與數量。\n- D. 不需要（最不需要）。光學斷層掃描儀（OCT）主要用於黃斑部、視神經纖維層等微米級的細微切面分析。在高度懷疑惡性腫瘤且患兒有白瞳症（表示屈光介質可能已混濁、或腫瘤極大阻礙光路）時，OCT 無法提供全局診斷；且六個月大的嬰兒根本無法端坐並配合注視眼底相機，在臨床上此項檢查可行性與實用價值最低。\n\n【核心考點】\n白瞳症（Leukocoria）的鑑別診斷、視網膜母細胞瘤（Retinoblastoma）的急症處置與檢查優先順序（超音波、CT/MRI、眼底鏡 vs 局限性極大的 OCT）。",
+      "key_point": "嬰幼兒白瞳症（leukocoria）需首要排查惡性視網膜母細胞瘤（RB）；OCT 因需要患者高度配合且屈光介質需清晰，在此時最不需要且最不適用。",
+      "flashcard_summary": "白瞳症懷疑 RB 檢查 -> 最不需要/不適用 OCT",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "六個月男嬰右眼瞳孔區呈現白色反光,看來像貓眼一樣,結膜紅腫,流淚哭鬧",
-      "flashcard_back": "官方答案指向「D. 視網膜光學斷層掃描儀(optical coherence tomography, OCT)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "臨床急症：嬰幼兒白瞳症 (leukocoria) 疑似視網膜母細胞瘤時，最不需要/不適用的檢查",
+      "flashcard_back": "視網膜光學斷層掃描儀 (OCT)，因需患者高度配合且無法評估眼內大範圍腫瘤",
       "category_group": "醫學（六）",
       "category": "眼科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_019",
@@ -539,23 +539,23 @@
         "D": "積液性中耳炎"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 黴菌性外耳炎，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 黴菌性外耳炎",
-      "flashcard_summary": "某夏日一病人主訴耳朵癢痛,檢查發現如圖,最可能診斷為 -> B. 黴菌性外耳炎",
+      "explanation": "【題幹解析】\n患者在夏日主訴耳朵發癢、疼痛，且耳鏡下顯示外耳道內覆蓋有大量黑色/褐色的斑點狀及絨毛狀物質（為真菌孢子與菌絲）。這是典型的「黴菌性外耳炎（Otomycosis / fungal otitis externa）」表現。\n\n【選項詳解】\n- A. 錯誤。急性中耳炎（AOM）病變在中耳腔，典型表現為鼓膜發紅、膨出，不會在外耳道內見到真菌菌絲或色素斑點。\n- B. 正確。黴菌性外耳炎是由真菌（最常見為黑麴黴菌 Aspergillus niger，呈現黑色孢子；或念珠菌 Candida，呈現白色豆腐渣樣）感染外耳道所致。夏季天氣悶熱潮濕、或外耳道經常進水（如游泳）、不當掏耳等是常見誘因，患者會有明顯的耳癢、耳痛或堵塞感。\n- C. 錯誤。慢性中耳炎（COM）通常表現為鼓膜穿孔、慢性流膿，雖然可能繼發真菌感染，但主要病變在鼓膜穿孔及中耳黏膜。\n- D. 錯誤。積液性中耳炎（OME）是中耳腔積水，鼓膜常呈現琥珀色、內凹或可見氣泡，外耳道是乾淨且正常的。\n\n【核心考點】\n黴菌性外耳炎（Otomycosis）的流行病學（夏日潮濕）、耳鏡特徵表現及與中耳炎之鑑別診斷。",
+      "key_point": "黴菌性外耳炎（真菌性外耳道炎）好發於夏季潮濕環境，典型耳鏡表現為耳道內有黑色、褐色或白色絨毛狀菌絲與粉末狀孢子。",
+      "flashcard_summary": "外耳道黑色/白色絨毛物 -> 黴菌性外耳炎 (Otomycosis)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "某夏日一病人主訴耳朵癢痛,檢查發現如圖,最可能診斷為",
-      "flashcard_back": "官方答案指向「B. 黴菌性外耳炎」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "臨床診斷：夏季耳朵癢痛，耳鏡下外耳道見黑色或白色粉末絨毛狀物",
+      "flashcard_back": "黴菌性外耳炎 (Otomycosis)",
       "category_group": "醫學（六）",
       "category": "耳鼻喉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_020",
@@ -568,23 +568,23 @@
         "D": "習語後失聰之成人"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 習語前失聰之成人，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 習語前失聰之成人",
-      "flashcard_summary": "類病人植入人工電子耳及復健後,語音辨識度最差 -> B. 習語前失聰之成人",
+      "explanation": "【題幹解析】\n人工電子耳（cochlear implant）的復健效果與病患失聰的時間點（習語前 prelingual vs 習語後 postlingual）以及植入時的年齡高度相關。\n\n【選項詳解】\n- A. 較佳。習語前失聰的小孩（特別是在 2-3 歲以前植入）因大腦聽覺中樞皮質尚具高度可塑性（neuroplasticity），能配合語言學習期重新建立聽覺與語言連結，復健效果良好。\n- B. 最差。習語前失聰之成人，在大腦發育期從未接觸過聲音刺激，其聽覺皮質已經嚴重退化或被其他感官（如視覺）功能佔據，且已完全錯過了語言學習的關鍵期（critical period）。即使成年後植入電子耳，大腦也極難理解接收到的電刺激信號，其「語音辨識度」與復健成效在所有群體中最差。\n- C. 較佳。習語後失聰之小孩，大腦已有一定的語言基礎與聽覺記憶，植入後成效佳。\n- D. 較佳。習語後失聰之成人，雖然聽力喪失，但大腦中原有的語言中樞與聽覺記憶完全保留，植入電子耳後能迅速將新信號與舊記憶匹配，復健後語音辨識度非常好。\n\n【核心考點】\n人工電子耳的適應症與預後因子，特別是「大腦皮質可塑性」與「語言發育關鍵期」對復健效果的決定性影響。",
+      "key_point": "習語前失聰的成人因錯過大腦語言發展的黃金期且聽覺皮質已退化，植入人工電子耳後的語音辨識度最差。",
+      "flashcard_summary": "電子耳效果最差族群 -> 習語前失聰之成人",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "類病人植入人工電子耳及復健後,語音辨識度最差",
-      "flashcard_back": "官方答案指向「B. 習語前失聰之成人」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "臨床預後：人工電子耳植入後，語音辨識與復健成效最差的病患族群",
+      "flashcard_back": "習語前失聰之成人 (錯過語言發育黃金期且大腦聽覺皮質已退化)",
       "category_group": "醫學（六）",
       "category": "耳鼻喉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:02:08.531453+00:00"
     },
     {
       "id": "113-2_medicine-6_021",

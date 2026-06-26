@@ -4,7 +4,7 @@
   "title": "113 年第一次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=113020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-17T01:30:59.122118+00:00",
+  "updated_at": "2026-06-26T03:05:55.622601+00:00",
   "questions": [
     {
       "id": "113-1_medicine-2_001",
@@ -17,23 +17,23 @@
         "D": "炭疽桿菌( Bacillus anthracis)"
       },
       "correct_answer": "D",
-      "explanation": "炭疽桿菌是會產孢子的革蘭氏陽性桿菌，常與動物皮毛、牧場暴露有關。皮膚型炭疽會由丘疹迅速變成潰瘍與黑色焦痂，周圍常有明顯水腫。破傷風與肉毒桿菌主要表現為神經毒性，不會以典型焦痂病灶為主。",
-      "key_point": "接觸牧場動物後出現黑色焦痂與水腫的皮膚病灶，典型為皮膚炭疽。",
-      "flashcard_summary": "牧場暴露 / 黑色焦痂 -> 典型為炭疽桿菌造成的皮膚炭疽",
+      "explanation": "【題幹解析】\n本題描述一位「牧場工人」手臂上出現丘疹，隨後快速演變成「潰瘍進而結痂壞死（necrotic eschar，黑色焦痂）」，且伴隨淋巴腺病變與明顯的「水腫」，細菌分離顯示為「會產孢子」的細菌。這些均為皮膚炭疽（cutaneous anthrax）的典型臨床特徵，病原體為炭疽桿菌（Bacillus anthracis）。\n\n【選項詳解】\n- A. 枯草桿菌 (Bacillus subtilis)：雖然是革蘭氏陽性、可產孢子的桿菌，但主要存在於土壤及植物中，通常為非致病菌或僅引起伺機性感染，不會造成皮膚壞死黑色焦痂及嚴重水腫。\n- B. 破傷風梭菌 (Clostridium tetani)：為專性厭氧、可產孢子的桿菌，主要經由傷口感染並釋放破傷風毒素，引起全身性或局部肌肉痙攣（如角弓反張、牙關緊閉），而非以局部皮膚壞死焦痂與顯著水腫為主要表現。\n- C. 肉毒桿菌 (Clostridium botulinum)：為專性厭氧、可產孢子的桿菌，主要經由食物中毒或傷口感染釋放肉毒桿菌毒素，阻斷乙醯膽鹼釋放，導致弛緩性麻痺，不會引起局部皮膚壞死焦痂。\n- D. 炭疽桿菌 (Bacillus anthracis)：為革蘭氏陽性、兼性厭氧、可產孢子的粗大桿菌。其具有多肽莢膜（抗吞噬）並能產生炭疽毒素。其中的水腫因子（edema factor）會導致局部顯著的水腫；致死因子（lethal factor）則導致細胞壞死，在臨床上形成典型的無痛性「黑色焦痂」（necrotic eschar）。牧場工人和處理動物皮毛者為高風險族群，完全符合題意。\n\n【核心考點】\n皮膚炭疽（cutaneous anthrax）的臨床表現（無痛性壞死黑色焦痂與明顯水腫）、病原體特性（產孢子革蘭氏陽性桿菌 Bacillus anthracis）及職業暴露史（牧場、皮毛接觸）。",
+      "key_point": "牧場工作接觸史伴隨皮膚壞死黑色焦痂（necrotic eschar）與水腫，為炭疽桿菌感染的典型臨床特徵。",
+      "flashcard_summary": "牧場接觸 + 壞死焦痂 + 產孢子桿菌 -> 炭疽桿菌 (Bacillus anthracis)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "牧場工人 / 產孢子 / 黑色焦痂 / 明顯水腫",
-      "flashcard_back": "看到動物暴露加壞死焦痂，要先想到皮膚炭疽。它是 Bacillus anthracis 的經典臨床表現。",
+      "flashcard_front": "牧場工人 / 產孢子桿菌 / 皮膚壞死黑色焦痂 (necrotic eschar) / 顯著水腫",
+      "flashcard_back": "炭疽桿菌 (Bacillus anthracis) 引起的皮膚炭疽 (cutaneous anthrax)。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_002",
@@ -46,23 +46,23 @@
         "D": "大腸"
       },
       "correct_answer": "B",
-      "explanation": "傷寒沙門氏菌可在膽囊內長期存活，尤其與膽結石或膽汁環境有關，因此形成慢性帶原狀態。傷寒瑪莉就是典型的無症狀帶原者。這也是為什麼帶原處理常要考慮膽囊來源。",
-      "key_point": "Salmonella Typhi 無症狀帶原最常潛伏在膽囊。",
-      "flashcard_summary": "傷寒帶原 / 膽囊 -> 無症狀慢性帶原最常躲在膽囊",
+      "explanation": "【題幹解析】\n題幹提及歷史上著名的無症狀帶原者「傷寒瑪莉（Typhoid Mary）」，她是傷寒沙門氏菌（Salmonella Typhi）的慢性帶原者。本題考查該菌在慢性帶原狀態下最常寄居與增殖的解剖位置。\n\n【選項詳解】\n- A. 肝臟：在傷寒發病初期，傷寒桿菌會經由淋巴與血液擴散至網狀內皮系統（包括肝臟和脾臟），引起肝脾腫大，但此處並非慢性無症狀帶原者的長期潛伏與排菌源頭。\n- B. 膽囊：是傷寒沙門氏菌慢性帶原的主要避風港。傷寒桿菌對膽汁有高度耐受性，能長期存活於膽囊中，尤其是附著在膽結石的表面形成生物膜（biofilm）。細菌會隨膽汁排入腸道，並經糞便排出體外，成為持續的傳染源。\n- C. 胰臟：非傷寒桿菌的常見寄居或帶原器官，與傷寒的傳播及帶原狀態無關。\n- D. 大腸：傷寒桿菌雖然隨膽汁排入腸道後會經由大腸隨糞便排出，但大腸本身並非其主要寄居、繁殖和長期潛伏的源頭器官。\n\n【核心考點】\n傷寒沙門氏菌（Salmonella Typhi）慢性無症狀帶原的病理生理機制與主要定位器官（膽囊，與膽結石及生物膜形成相關）。",
+      "key_point": "傷寒沙門氏菌（Salmonella Typhi）在慢性無症狀帶原者體內最常潛伏的器官是膽囊。",
+      "flashcard_summary": "傷寒沙門氏菌慢性帶原 -> 膽囊 (Gallbladder)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "Typhoid Mary / 無症狀帶原 / 慢性帶原 / 膽囊",
-      "flashcard_back": "遇到 Salmonella Typhi 帶原者定位題，標準答案通常是膽囊。這是經典微生物學考點。",
+      "flashcard_front": "傷寒沙門氏菌 (Salmonella Typhi) / 慢性無症狀帶原 / 潛伏與排菌源頭",
+      "flashcard_back": "膽囊 (Gallbladder)，常與膽結石共存並形成生物膜。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_003",
@@ -75,23 +75,23 @@
         "D": "產志賀氏毒素大腸桿菌STEC(Shiga toxin-producing E. coli)"
       },
       "correct_answer": "D",
-      "explanation": "產志賀氏毒素大腸桿菌，尤其 O157:H7，常與未熟牛肉、生菜污染及出血性腹瀉有關。其 Shiga-like toxin 可傷害內皮，進一步引發溶血性尿毒症症候群。EIEC、EAEC、EPEC 都不如 STEC 與 HUS 的關聯典型。",
-      "key_point": "漢堡後出血性腹瀉合併 HUS，最典型是 STEC。",
-      "flashcard_summary": "漢堡 / 出血性腹瀉 / HUS -> 最典型病原菌是 STEC",
+      "explanation": "【題幹解析】\n一名8歲孩童在食用「漢堡及生菜沙拉」48小時後，出現「出血性腹瀉（bloody diarrhea）」，隨後進展為「溶血性尿毒症症候群（hemolytic uremic syndrome, HUS）」。這是一組典型的臨床表現，提示患者感染了產志賀毒素大腸桿菌（STEC），最常見的血清型為 O157:H7。\n\n【選項詳解】\n- A. 侵襲性大腸桿菌 EIEC (enteroinvasive E. coli)：機轉類似志賀氏菌，侵入大腸上皮細胞並在細胞間傳播，引起類似痢疾的黏液血便與發燒，但它不產生志賀毒素（Shiga toxin），因此極少引起溶血性尿毒症症候群 (HUS)。\n- B. 腸道凝集性大腸桿菌 EAEC (enteroaggregative E. coli)：主要藉由黏附菌毛呈「磚塊樣」凝集於腸黏膜，引起急慢性水樣腹瀉，特別是嬰幼兒或旅行者腹瀉，與 HUS 無關。\n- C. 病原性大腸桿菌 EPEC (enteropathogenic E. coli)：主要引起嬰幼兒水樣腹瀉，機轉為藉由束狀菌毛黏附並破壞腸上皮微絨毛（attaching and effacing lesions），但不產生毒素，與 HUS 無關。\n- D. 產志賀氏毒素大腸桿菌 STEC (Shiga toxin-producing E. coli)：又稱腸道出血性大腸桿菌（EHEC）。常因食用未煮熟的牛肉（如漢堡肉）或受污染的蔬菜而感染。STEC 釋放的志賀毒素（主要為 Stx2）會與腎小球內皮細胞上的 GB3 受體結合，導致內皮細胞損傷、微血管內溶血、血小板消耗以及急性腎衰竭（即 HUS）。符合題意。\n\n【核心考點】\n大腸桿菌致病型分類、產志賀毒素大腸桿菌（STEC/EHEC，如 O157:H7）的傳播媒介（漢堡、生菜）、臨床症狀（出血性腹瀉）及嚴重併發症（溶血性尿毒症症候群 HUS）的致病機轉（Shiga toxin 破壞內皮）。",
+      "key_point": "吃過漢堡或生菜後出現出血性腹瀉併發溶血性尿毒症症候群（HUS），主要由產志賀毒素大腸桿菌（STEC/EHEC）引起。",
+      "flashcard_summary": "出血性腹瀉 + HUS -> 產志賀毒素大腸桿菌 (STEC)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "漢堡 / 出血性腹瀉 / HUS / O157:H7",
-      "flashcard_back": "食用牛肉後出血性腹瀉又合併 HUS，先想 STEC。這是國考常見的病原體配對。",
+      "flashcard_front": "牛肉漢堡或生菜 / 出血性腹瀉 / 溶血性尿毒症症候群 (HUS)",
+      "flashcard_back": "產志賀氏毒素大腸桿菌 (STEC，如 O157:H7)，毒素 Stx 破壞腎小球血管內皮所致。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_004",
@@ -104,23 +104,23 @@
         "D": "可用於治療耐甲氧西林金黃色葡萄球菌(methicillin-resistant Staphylococcus aureus)"
       },
       "correct_answer": "C",
-      "explanation": "如 clavulanate、tazobactam 等 β-lactamase inhibitors 本身抗菌力有限，主要用途是抑制細菌 β-內醯胺酶。與 penicillin 類併用時，可避免抗生素被分解，因此達到協同效果。MRSA 的耐藥機轉主要是 PBP 改變，不是單靠 β-內醯胺酶抑制劑可解決。",
-      "key_point": "β-內醯胺酶抑制劑通常與青黴素類併用以保護抗生素活性。",
-      "flashcard_summary": "β-內醯胺酶抑制劑 / 併用青黴素 -> 可產生保護抗生素的協同效果",
+      "explanation": "【題幹解析】\n本題考查 β-內醯胺酶抑制劑（β-lactamase inhibitors，如 Clavulanic acid, Sulbactam, Tazobactam 等）的藥理學特性、抗菌譜及與 β-lactam 類抗生素合用的機制。\n\n【選項詳解】\n- A. 具有高度殺菌活性 (bactericidal activity)：錯誤。β-內醯胺酶抑制劑本身與細菌的青黴素結合蛋白 (PBPs) 結合力極弱，因此幾乎沒有或僅有極微弱的抗菌活性（僅 Sulbactam 對鮑氏不動桿菌有部分直接活性，但不具備普遍代表性），不能單獨作為殺菌藥使用。\n- B. 為窄效型 (narrow spectrum) 抑制細胞壁生合成之抗生素：錯誤。它們的主要作用靶點是細菌分泌的 β-lactamase，而不是細菌細胞壁合成酶（PBPs），因此不被歸類為抑制細胞壁合成的抗生素。\n- C. 與青黴素 (penicillin) 合併使用可達到藥物協同作用 (synergistic effect)：正確。β-內醯胺酶抑制劑可作為「自殺性抑制劑」，與細菌產生的 β-lactamase 不可逆地結合並使其失活，從而保護併用的青黴素類不被水解，恢復並增強其抗菌活性，達到顯著的協同效應。\n- D. 可用於治療耐甲氧西林金黃色葡萄球菌 (methicillin-resistant Staphylococcus aureus, MRSA)：錯誤。MRSA 的耐藥機轉主要是因為攜帶 mecA 基因，編碼了變異的青黴素結合蛋白 PBP2a。PBP2a 對几乎所有 β-lactam 類抗生素的親和力都極低，而非僅依靠產生 β-lactamase，因此加入抑制劑也無法克服其耐藥性。\n\n【核心考點】\nβ-內醯胺酶抑制劑（Clavulanate, Sulbactam, Tazobactam）的機轉（結合並失活 β-lactamase）、與 penicillin 併用的協同效應、以及 MRSA 的耐藥機轉（PBP2a 變異，非單純產酶，故抑制劑無效）。",
+      "key_point": "β-內醯胺酶抑制劑本身幾乎無抗菌活性，但與青黴素類抗生素併用時可防其水解，產生協同作用。",
+      "flashcard_summary": "β-內醯胺酶抑制劑 -> 無抗菌力，與青黴素併用協同，對 MRSA 無效",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "β-lactamase inhibitor / clavulanate / 與 penicillin 併用 / 協同",
-      "flashcard_back": "這類藥物重點不是自己強力殺菌，而是保護 β-內醯胺抗生素不被酵素分解。看到合併用藥就容易答對。",
+      "flashcard_front": "β-內醯胺酶抑制劑 (β-lactamase inhibitor) / 自殺性抑制 / MRSA耐藥機轉",
+      "flashcard_back": "本身幾乎無殺菌活性，與青黴素併用可防其被水解而具協同效應；對 MRSA（由 PBP2a 變異引起）無效。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_005",
@@ -133,23 +133,23 @@
         "D": "煮沸加熱可去除其活性"
       },
       "correct_answer": "C",
-      "explanation": "脂多醣體存在於革蘭氏陰性菌外膜，可活化先天免疫並引發發炎反應。其毒性主要來自 lipid A，而不是 core polysaccharide。LPS 也相對耐熱，煮沸不會像外毒素那樣輕易失活。",
-      "key_point": "LPS 的脂質 A 具發炎活性，是典型內毒素。",
-      "flashcard_summary": "LPS / lipid A / endotoxin -> 具有引發發炎反應的活性",
+      "explanation": "【題幹解析】\n本題考查革蘭氏陰性菌特有的細胞壁/外膜成分「脂多醣體（Lipopolysaccharide, LPS，即內毒素）」的結構、毒性來源、生理活性及理化性質。\n\n【選項詳解】\n- A. 脂多醣體與脂胞壁酸 (lipoteichoic acid) 皆為革蘭氏陰性菌細胞壁特有之結構：錯誤。脂多醣體（LPS）為革蘭氏陰性菌（G(-)）外膜特有；而脂胞壁酸（Lipoteichoic acid, LTA）是革蘭氏陽性菌（G(+)）細胞壁特有的結構。\n- B. 又稱為內毒素 (endotoxin), 核心多醣體 (core polysaccharide) 結構為其毒素毒性的來源：錯誤。LPS 的結構可分為三部分：O-抗原（O-antigen）、核心多醣體（Core polysaccharide）和脂質A（Lipid A）。其中「脂質A（Lipid A）」才是其內毒素毒性的來源，核心多醣體主要起連接和結構支撐作用。\n- C. 具有引發發炎反應之活性：正確。LPS 釋放後，會與宿主免細胞表面的 Toll 樣受體 4 (TLR4) 結合，活化下游 NF-κB 途徑，刺激巨噬細胞等釋放大量促發炎細胞激素（如 TNF-α, IL-1, IL-6），引起全身性發炎反應，嚴重時會導致敗血性休克。\n- D. 煮沸加熱可去除其活性：錯誤。內毒素（LPS）的化學性質非常穩定且高度耐熱。一般 100°C 煮沸無法破壞其活性，需高溫高壓（如 121°C 滅菌至少 30 分鐘）或更極端的乾熱（250°C 30 分鐘以上）方可將其降解。\n\n【核心考點】\n脂多醣體（LPS）的解剖定位（G-菌外膜）、結構組成與毒性部位（Lipid A）、免疫激活途徑（TLR4 -> 促炎因子釋放）以及理化穩定性（耐熱）。",
+      "key_point": "脂多醣體（LPS）為革蘭氏陰性菌外膜的特有成分（內毒素），毒性部位為脂質A（Lipid A），高度耐熱，可引發強烈發炎反應。",
+      "flashcard_summary": "LPS -> G-外膜特有，Lipid A 具毒性，極耐熱，活化 TLR4",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "LPS / endotoxin / lipid A / 發炎反應 / 耐熱",
-      "flashcard_back": "看到 LPS 要先想革蘭陰性菌、內毒素與脂質 A。題目若把毒性來源寫成 core polysaccharide，通常是陷阱。",
+      "flashcard_front": "脂多醣體 (LPS) / 內毒素 / 毒性部位 / 耐熱性 / G+與G-結構差異",
+      "flashcard_back": "G-外膜特有，毒性在 Lipid A，極耐熱（煮沸不失活），經由 TLR4 引發發炎。LTA 則是 G+ 特有。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_006",
@@ -162,23 +162,23 @@
         "D": "部分細菌具有鞭毛(flagellum)"
       },
       "correct_answer": "D",
-      "explanation": "革蘭陽性與陰性菌都可有 periplasmic space 與 peptidoglycan，只是厚度與結構不同。細菌沒有粒線體，ATP 主要在細胞膜相關系統產生。正確的基本敘述是部分細菌具有鞭毛。",
-      "key_point": "不是所有細菌都有鞭毛，但部分細菌確實具有鞭毛。",
-      "flashcard_summary": "細菌構造 / 鞭毛 -> 部分細菌具有 flagellum",
+      "explanation": "【題幹解析】\n本題考查細菌的基本結構特徵，包括細胞壁（胜肽聚醣）、壁膜間隙（periplasmic space）、細胞器（粒線體）以及運動器官（鞭毛），區分原核生物與真核生物的解剖生理學差異。\n\n【選項詳解】\n- A. 僅革蘭氏陽性菌具有壁膜間隙 (periplasmic space) 之構造：錯誤。壁膜間隙主要存在於「革蘭氏陰性菌」，是位於細胞內膜與外膜之間的空間，內含胜肽聚醣、多種水解酶及結合蛋白。革蘭氏陽性菌雖在細胞膜與胜肽聚醣層之間有極微小的間隙，但通常不被稱為典型的 periplasmic space。\n- B. 胜肽聚醣 (peptidoglycan) 為革蘭氏陰性菌才有之結構：錯誤。胜肽聚醣是絕大多數細菌（包括革蘭氏陽性菌與陰性菌）細胞壁的主要成分。革蘭氏陽性菌具有厚厚的胜肽聚醣層，而革蘭氏陰性菌則為薄薄的胜肽聚醣層。少數無細胞壁細菌（如黴漿菌 Mycoplasma）才缺乏此結構。\n- C. 細菌具有粒線體, 為產生 ATP 之重要胞器：錯誤。細菌為原核生物（Prokaryotes），不具有粒線體、內質網或高基氏體等具膜細胞器。細菌的電子傳遞鏈位於其「細胞膜（cell membrane）」上，在此處進行氧化磷酸化並產生 ATP。\n- D. 部分細菌具有鞭毛 (flagellum)：正確。鞭毛是細菌用於運動的特殊結構，由鞭毛蛋白（flagellin）組成，並非所有細菌都有（主要見於桿菌和螺旋菌，球菌較少見），故「部分細菌具有鞭毛」的描述完全正確。\n\n【核心考點】\n細菌基本構造：原核生物無粒線體（在細胞膜上產生 ATP）、胜肽聚醣是多數細菌共有的細胞壁成分、壁膜間隙為 G(-) 菌的重要結構、以及鞭毛的運動功能與分布。",
+      "key_point": "細菌屬於原核生物，無粒線體，多數含有胜肽聚醣細胞壁，部分細菌具鞭毛，壁膜間隙則主要存在於革蘭氏陰性菌。",
+      "flashcard_summary": "細菌結構 -> 原核無粒線體，胜肽聚醣共有，壁膜間隙在陰性菌，部分具鞭毛",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "細菌構造 / peptidoglycan / 無粒線體 / flagellum",
-      "flashcard_back": "基礎細菌學常考的是：細菌沒有粒線體，但有些細菌有鞭毛。不要把真核胞器概念套進細菌。",
+      "flashcard_front": "細菌結構 / 粒線體 / 胜肽聚醣 / 壁膜間隙 / 鞭毛",
+      "flashcard_back": "原核生物無粒線體（在細胞膜產生 ATP）；胜肽聚醣為陰陽性菌共有；壁膜間隙主要在陰性菌；部分菌具鞭毛。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_007",
@@ -191,23 +191,23 @@
         "D": "血液培養基(blood agar)"
       },
       "correct_answer": "B",
-      "explanation": "流行性嗜血桿菌需要 hemin（X factor）與 NAD（V factor）才能良好生長。巧克力瓊脂經加熱後可釋放這些生長因子，因此是標準培養基。一般 blood agar 不如 chocolate agar 穩定提供所需條件。",
-      "key_point": "Haemophilus influenzae 常用巧克力瓊脂提供 X 與 V 因子。",
-      "flashcard_summary": "H. influenzae / 巧克力瓊脂 -> 以 chocolate agar 提供 X、V 因子",
+      "explanation": "【題幹解析】\n本題考查流行性嗜血桿菌（Haemophilus influenzae）的培養特性。此菌為嗜血性，生長必須依賴紅血球中釋放的兩個生長因子：X 因子（Hemin，血紅素）和 V 因子（NAD，輔酶 I）。\n\n【選項詳解】\n- A. 甘露醇鹽瓊脂 (mannitol salt agar, MSA)：為高鹽選擇性培養基，主要用於分離並鑑定耐鹽的金黃色葡萄球菌（Staphylococcus aureus），其可發酵甘露醇使 pH 指示劑變黃，無法用於培養流行性嗜血桿菌。\n- B. 巧克力瓊脂 (chocolate agar)：正確。巧克力瓊脂是將血液（常為羊血或馬血）加入熱培養基（約 80°C）中製成。加熱使紅血球裂解並釋放出大量的 X 因子與 V 因子，同時滅活了血清中會破壞 V 因子的 NADase。因此，巧克力瓊脂可充分且穩定地提供 H. influenzae 生長所需，是其標準培養基。\n- C. 馬康機瓊脂 (MacConkey agar)：為選擇性與鑑別性培養基，主要用於革蘭氏陰性腸道桿菌（如大腸桿菌、克雷伯氏菌）的培養，並依據乳糖發酵能力進行區分，不含有 H. influenzae 成長所需的生長因子。\n- D. 血液培養基 (blood agar)：錯誤。血液培養基中的紅血球是完整的，X 因子（血紅素）被包裹在紅血球內；且血清中含有會分解 V 因子的酵素（NADase）。因此，流行性嗜血桿菌在一般的血液培養基上無法單獨良好生長。除非與能合成並釋放 V 因子的金黃色葡萄球菌共同培養，在葡萄球菌周圍會出現「衛星現象（satellite phenomenon）」。\n\n【核心考點】\n流行性嗜血桿菌的生長需求（X 因子與 V 因子）、巧克力瓊脂的製備原理與優勢、以及在血液培養基上的限制與衛星現象（Satellite phenomenon）。",
+      "key_point": "流行性嗜血桿菌（Haemophilus influenzae）生長需要 X 因子（血紅素）與 V 因子（NAD），巧克力瓊脂可完整提供這兩者，為其首選培養基。",
+      "flashcard_summary": "H. influenzae -> 需 X 與 V 因子 -> 巧克力瓊脂 (Blood agar 上呈衛星現象)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "H. influenzae / X factor / V factor / chocolate agar",
-      "flashcard_back": "看到流行性嗜血桿菌培養基，就先背巧克力瓊脂。核心原因是它可提供 X 與 V 因子。",
+      "flashcard_front": "流行性嗜血桿菌 (H. influenzae) / X 因子與 V 因子 / 培養基選擇 / 衛星現象",
+      "flashcard_back": "生長需 X 因子 (Hemin) 和 V 因子 (NAD)。巧克力瓊脂因紅血球裂解能提供這兩者。在 Blood agar 上需與金黃色葡萄球菌併用呈衛星現象。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_008",
@@ -220,23 +220,23 @@
         "D": "D 型"
       },
       "correct_answer": "C",
-      "explanation": "C. perfringens 可依毒素型別分型，其中 type C 產生 beta toxin，與 necrotizing enteritis 關係最密切。type A 則更常見於氣性壞疽與食物中毒。這題重點是把毒素型別與疾病型態配對。",
-      "key_point": "Clostridium perfringens type C 與壞疽性腸炎關聯最典型。",
-      "flashcard_summary": "產氣莢膜桿菌 / type C -> 最常引起壞疽性腸炎",
+      "explanation": "【題幹解析】\n本題考查產氣莢膜桿菌（Clostridium perfringens）的毒素分型及其臨床相關疾病。C. perfringens 根據產生的四種主要毒素（alpha, beta, epsilon, iota）可分為 A、B、C、D、E 五個型別。題目詢問最常引起「壞疽性腸炎（necrotizing enteritis，又稱 Pig-bel 疾病）」的型別。\n\n【選項詳解】\n- A. A 型：主要產生大量的 alpha 毒素（一種卵磷脂酶，Lecithinase/Phospholipase C，可裂解細胞膜）。A 型是引起人類「氣性壞疽（gas gangrene）」和「食物中毒（food poisoning）」最常見的型別，但不是壞疽性腸炎的首要型別。\n- B. B 型：產生 alpha、beta 和 epsilon 毒素，主要引起羊隻的痢疾與腸毒血症，極少感染人類。\n- C. C 型：正確。C 型主要產生具有強烈組織壞死作用的 「beta 毒素」。此毒素對腸道黏膜有高度破壞性，是引起人類「壞疽性腸炎（necrotizing enteritis / enteritis necroticans）」的特異性致病因子（尤其在飲食缺乏蛋白質、胰蛋白酶無法有效降解 beta 毒素的族群中高發）。\n- D. D 型：產生 alpha 和 epsilon 毒素，主要引起羊隻的腸毒血症（pulpy kidney disease），在人類罕見。\n\n【核心考點】\n產氣莢膜桿菌（Clostridium perfringens）的毒素分型（A-E型）、A型與氣性壞疽及食物中毒的關係、C型（Beta 毒素）與壞疽性腸炎（necrotizing enteritis）的因果關係。",
+      "key_point": "產氣莢膜桿菌（Clostridium perfringens）C 型菌株產生的 beta 毒素是導致人類壞疽性腸炎（necrotizing enteritis）的主因。",
+      "flashcard_summary": "C. perfringens 壞疽性腸炎 -> C 型 (beta 毒素)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "C. perfringens / type C / beta toxin / necrotizing enteritis",
-      "flashcard_back": "產氣莢膜桿菌分型題常考：type C 對壞疽性腸炎，type A 對食物中毒與氣性壞疽。記配對最重要。",
+      "flashcard_front": "產氣莢膜桿菌 (C. perfringens) / 壞疽性腸炎 (necrotizing enteritis) / 毒素分型",
+      "flashcard_back": "C 型，主因是其產生的 beta 毒素具有組織壞死作用。而 A 型則與氣性壞疽和食物中毒最相關。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "medium",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_009",
@@ -249,23 +249,23 @@
         "D": "萬古黴素(vancomycin)"
       },
       "correct_answer": "C",
-      "explanation": "isoniazid 與 ethambutol 針對分枝桿菌細胞壁成分，vancomycin 則抑制肽聚糖交聯。linezolid 屬 oxazolidinone，作用在 50S 核糖體，抑制蛋白質合成。故不是細胞壁作用藥的是 linezolid。",
-      "key_point": "linezolid 主要抑制 50S 蛋白質合成，不是作用於細胞壁。",
-      "flashcard_summary": "linezolid / 50S -> 主要不是作用於細菌細胞壁",
+      "explanation": "【題幹解析】\n本題考查抗生素的作用機轉，特別是區分作用於「細胞壁合成」的藥物與作用於「蛋白質合成」的藥物。選項包含常用抗結核藥與抗革蘭氏陽性菌藥物。\n\n【選項詳解】\n- A. 異菸鹼醯 (isoniazid, INH)：抗結核第一線藥物。作用機轉為抑制分枝桿菌酸（mycolic acid）的合成。分枝桿菌酸是分枝桿菌（Mycobacterium）細胞壁的特有成分，故此藥屬於作用於細菌細胞壁之抗生素。\n- B. 乙胺丁醇 (ethambutol, EMB)：抗結核第一線藥物。作用機轉為抑制阿拉伯糖基轉移酶（arabinosyl transferase），從而阻斷分枝桿菌細胞壁中阿拉伯糖半乳聚醣（arabingalactan）的合成，屬於作用於細菌細胞壁之抗生素。\n- C. 利奈唑胺 (linezolid)：正確。屬於 Oxazolidinones 類抗生素，主要用於治療 MRSA、VRE 等抗藥性陽性菌。其作用機轉為與細菌核糖體 50S 次單位的 23S rRNA 結合，阻止 70S 啟始複合體（initiation complex）的形成，從而抑制「蛋白質合成」，而非作用於細胞壁。\n- D. 萬古黴素 (vancomycin)：糖肽類抗生素。作用機轉為與細胞壁胜肽聚醣前體末端的 D-Ala-D-Ala 結合，空間上阻礙轉肽酶（transpeptidase）的交聯作用，干擾胜肽聚醣的合成，屬於作用於細菌細胞壁之抗生素。\n\n【核心考點】\n抗生素的作用機轉分類：分枝桿菌細胞壁藥物（Isoniazid 抑 mycolic acid、Ethambutol 抑阿拉伯糖基轉移酶）、糖肽類（Vancomycin 結合 D-Ala-D-Ala 抑胜肽聚醣交聯）與核糖體蛋白質合成抑制劑（Linezolid 作用於 50S 核糖體）。",
+      "key_point": "Isoniazid、Ethambutol、Vancomycin 均作用於細胞壁成分，而 Linezolid 主要結合 50S 核糖體抑制蛋白質合成。",
+      "flashcard_summary": "Linezolid -> 作用於 50S 核糖體抑制蛋白質合成，其餘三者均作用於細胞壁",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "linezolid / 50S / 蛋白質合成 / 細胞壁藥對照",
-      "flashcard_back": "看到 linezolid 要直接連到 50S。不要把所有抗菌藥都混成細胞壁抑制劑。",
+      "flashcard_front": "Isoniazid / Ethambutol / Linezolid / Vancomycin / 作用機轉與靶點",
+      "flashcard_back": "Linezolid 作用於 50S 核糖體抑制蛋白質合成。INH (mycolic acid)、EMB (arabingalactan)、Vancomycin (D-Ala-D-Ala 胜肽聚醣) 均作用於細胞壁。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_010",
@@ -278,23 +278,23 @@
         "D": "普里昂是以蛋白質的形式進行感染"
       },
       "correct_answer": "A",
-      "explanation": "prion 是可傳染的異常蛋白，會導致海綿狀腦病變，且對一般消毒與物理處理相當耐受。臨床與研究上也可在腦外相關組織或淋巴樣組織發現其存在，因此說只能在腦部測到並不恰當。這題是抓 prion 的傳播與檢測特性。",
-      "key_point": "普里昂不只可在腦部，亦可在特定周邊組織檢出。",
-      "flashcard_summary": "prion / 腦外組織 -> 最不恰當的是說只能在腦部測到",
+      "explanation": "【題幹解析】\n本題考查普里昂（Prion，類病毒蛋白粒子）的生物學特性、傳播方式、臨床病理改變及分佈定位。\n\n【選項詳解】\n- A. 病人被普里昂感染只能在腦部測到其存在：錯誤（本題選最不適當）。雖然 Prion 引起的主要病變位於中樞神經系統，但普里昂蛋白（PrPSc）會廣泛分佈於全身。特別是在新型庫賈氏病（vCJD）患者中，可以在扁桃腺、脾臟、淋巴結、闌尾等「外周淋巴網狀組織」中穩定檢測到 PrPSc 的存在，這也是臨床上可用於活體切片輔助診斷的依據。\n- B. 一般對抗病毒的化學及物理方法無法抑制普里昂的活性：正確。Prion 不含核酸，純由蛋白質構成，對常見的抗病毒物理及化學方法（如紫外線、煮沸 100°C、高壓蒸汽滅菌 121°C 15分鐘、酒精、甲醛等）具有極強的耐受性。去活化需使用 1N NaOH 或高濃度次氯酸鈉，並配合 134°C 高溫高壓滅菌 1 小時以上。\n- C. 普里昂感染之病人腦內會產生海綿狀腦病變：正確。PrPSc 在腦部堆積會引起神經元空泡化（vacuolation）、神經元死亡及星狀細胞增生，使腦組織切片呈現空洞海綿狀結構（Spongiform encephalopathy）。\n- D. 普里昂是以蛋白質的形式進行感染：正確。Prion 為一類蛋白質感染因子，無 DNA 或 RNA，其感染機制是異常的 PrPSc 蛋白與宿主正常的 PrPC 蛋白接觸，引導其構型轉變為 PrPSc，造成連鎖反應與病理堆積。\n\n【核心考點】\n普里昂（Prion）的非典型病原體特性（無核酸、蛋白質感染性）、極高的理化耐受性、病理特徵（海綿狀腦病變）以及解剖學分佈（除腦部外亦累積於淋巴網狀系統）。",
+      "key_point": "普里昂（Prion）不含核酸且極耐熱，由異常摺疊蛋白質（PrPSc）進行感染，除了中樞神經外，亦可於腦外淋巴組織（如扁桃腺、脾臟）中檢出。",
+      "flashcard_summary": "Prion -> 無核酸，異常蛋白傳播，極耐熱，淋巴組織亦可檢出",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "prion / infectious protein / spongiform change / 耐消毒 / 不只腦部",
-      "flashcard_back": "普里昂的核心概念是異常蛋白感染與高耐受性。若題目寫成只能存在腦部，通常過度絕對化。",
+      "flashcard_front": "普里昂 (Prion) / 異常蛋白質 PrPSc / 耐受性 / 腦外分佈",
+      "flashcard_back": "不含核酸，純蛋白質感染，對常規消毒高度耐受，引起海綿狀腦病變。可在腦外淋巴組織（如扁桃腺、脾臟）檢出。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "medium",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:22.305988+00:00"
     },
     {
       "id": "113-1_medicine-2_011",
@@ -307,23 +307,23 @@
         "D": "感染兒童時,造成嬰兒玫瑰疹"
       },
       "correct_answer": "C",
-      "explanation": "B19 是單股 DNA 病毒，偏好感染表現 P antigen 的 erythroid precursor。感染後可引起 these precursor cells 溶解，造成再生不良危機。嬰兒玫瑰疹則是 HHV-6 常見表現，不是 parvovirus B19。",
-      "key_point": "parvovirus B19 會感染紅血球前驅細胞並造成其破壞。",
-      "flashcard_summary": "parvovirus B19 / erythroid precursor -> 感染並溶解紅血球先驅細胞",
+      "explanation": "【題幹解析】\n本題考查微小病毒 B19（Parvovirus B19）的病毒學特徵、傳播途徑、受體靶向以及臨床相關疾病。\n\n【選項詳解】\n- A. 為雙股DNA 病毒：錯誤。Parvovirus B19 是微小病毒科（Parvoviridae）成員，為無套膜的「單股」DNA（ssDNA）病毒，而非雙股。\n- B. 主要傳播途徑為糞口傳染：錯誤。主要藉由「呼吸道分泌物與飛沫（respiratory droplets）」傳播，也可經由輸血或垂直感染（孕婦傳給胎兒）。\n- C. 感染並引起紅血球的先驅細胞(erythroid precursor)溶解：正確。Parvovirus B19 具有高度的嗜紅血球性（erythroid tropism），它利用細胞表面的「P抗原（globoside）」作為特異性受體，感染並在骨髓的「紅血球先驅細胞（erythroid precursor cells）」中複製，導致這些先驅細胞裂解。這會造成紅血球生成的暫時性中斷。對於溶血性貧血（如鐮刀型貧血、地中海貧血）患者，這會引發嚴重的「再生不良性危象（aplastic crisis）」。\n- D. 感染兒童時,造成嬰兒玫瑰疹：錯誤。兒童感染 Parvovirus B19 會引起「傳染性紅斑（Erythema infectiosum）」，又稱「第五病（Fifth disease）」，典型特徵為面部出現被打耳光般的紅疹（slapped-cheek rash）。而「嬰兒玫瑰疹（Roseola infantum / Exanthema subitum）」是由人類疱疹病毒 6 型或 7 型（HHV-6 / HHV-7）感染所致。\n\n【核心考點】\nParvovirus B19 的病毒結構（單股DNA、無套膜）、細胞受體（P抗原）、致病機轉（溶解紅血球先驅細胞引起再生不良危象）及兒童典型臨床表現（傳染性紅斑/第五病）。",
+      "key_point": "Parvovirus B19 為單股 DNA 病毒，主要經呼吸道傳染，利用 P 抗原特異性感染並溶解紅血球先驅細胞，引起傳染性紅斑（第五病）或再生不良性危象。",
+      "flashcard_summary": "Parvovirus B19 -> 單股 DNA，利用 P 抗原溶解紅血球先驅細胞，引發第五病",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "parvovirus B19 / ssDNA / erythroid precursor / aplastic crisis",
-      "flashcard_back": "看到 B19 就要想到紅血球前驅細胞與再生不良危機。玫瑰疹不是它的典型疾病。",
+      "flashcard_front": "Parvovirus B19 / 單股DNA / P抗原 / 溶解紅血球先驅細胞 / 第五病 (slapped-cheek)",
+      "flashcard_back": "為單股 DNA 病毒，經呼吸道飛沫傳播，利用 P 抗原感染並溶解紅血球先驅細胞，造成紅血球生成暫停；兒童感染引起傳染性紅斑（第五病）。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_012",
@@ -336,23 +336,23 @@
         "D": "PrP SC的蛋白質半衰期較PrP C短"
       },
       "correct_answer": "B",
-      "explanation": "RT-QuIC 的原理是檢體中的異常 prion 蛋白可誘導正常底物蛋白錯誤摺疊並形成可偵測的 fibril。這就是 PrPSc 的 seeding 與聚集能力。題目不是在考 PrPC 的聚集，而是異常 prion 的特性。",
-      "key_point": "RT-QuIC 利用 PrPSc 可作為種子，誘導蛋白聚集成纖絲的特性。",
-      "flashcard_summary": "RT-QuIC / PrPSc -> 利用異常 prion 會聚集成纖絲的特性",
+      "explanation": "【題幹解析】\n普里昂（Prion）疾病是由於正常的普里昂蛋白（PrPC）錯誤摺疊成異常的 PrPSc 導致。因為兩者氨基酸序列完全一致（僅二級與三維結構不同：PrPC 為 α-helix，PrPSc 富含 β-sheet），傳統血清學抗體無法區分。RT-QuIC（real-time quaking-induced conversion）為新研發的快速體外診斷技術，本題考查該技術利用了 PrPSc 的何種分子特性。\n\n【選項詳解】\n- A. PrPC會聚集成纖絲(prion fibril)：錯誤。正常的 PrPC 為可溶性單體，不會自動聚集成纖絲。\n- B. PrPSC會聚集成纖絲(prion fibril)：正確。PrPSc 含有大量 β-sheet 結構，且具有「自我複製」及聚集的特性。當檢體中存在極微量的 PrPSc 時，它會作為「模板（seed）」，在持續震盪（quaking）的環境下，引導加入的重組正常 PrPC 發生構型轉換，並逐步聚集成不可溶的「澱粉樣纖絲（prion fibril）」。這些纖絲與螢光染料 Thioflavin T (ThT) 結合後可產生螢光，藉此偵測 PrPSc 的存在。\n- C. PrPC會將PrPSC轉換成PrPC：錯誤。方向相反，是異常的 PrPSc 會誘導正常的 PrPC 轉換為 PrPSc。\n- D. PrPSC的蛋白質半衰期較PrPC短：錯誤。PrPSc 對蛋白酶 K（Proteinase K）和熱均有極強的抗性，其在體內的半衰期與化學穩定性比正常的 PrPC 長得多，不易被降解。\n\n【核心考點】\n普里昂蛋白（Prion）正常態（PrPC）與異常態（PrPSc）的理化性質差異、RT-QuIC 檢測技術的基本原理（利用 PrPSc 的 seeding 模板功能與纖絲聚集特性進行體外擴增）。",
+      "key_point": "RT-QuIC 檢測法利用異常普里昂蛋白（PrPSc）具有「模板活性（seeding activity）」，能引導正常 PrPC 轉化並聚集成澱粉樣纖絲（prion fibril）的特性。",
+      "flashcard_summary": "RT-QuIC -> 利用 PrPSc 作為模板並聚集成纖絲 (fibril) 的特性",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "RT-QuIC / PrPSc / seeding / fibril formation",
-      "flashcard_back": "這類檢驗的關鍵字是 seeding：PrPSc 能誘導蛋白聚集。看到 RT-QuIC 就要想到 fibril 形成偵測。",
+      "flashcard_front": "Prion 檢測 / RT-QuIC 技術 / 螢光增幅原理 / PrPSc特性",
+      "flashcard_back": "利用異常 PrPSc 作為模板（seed）引導正常 PrPC 轉型，並自我聚集成不溶性的「澱粉樣纖絲 (prion fibril)」，結合 ThT 螢光染料定量。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_013",
@@ -365,23 +365,23 @@
         "D": "利用strand-displacement 的方式複製其DNA"
       },
       "correct_answer": "A",
-      "explanation": "大多數人類 DNA 病毒需利用細胞核內機制複製，但 poxvirus 自帶較完整酵素系統，可在細胞質完成複製。其他選項雖常見於 poxvirus，但不是它和大多數 DNA 病毒最主要的差異點。最具辨識度的答案是細胞質複製。",
-      "key_point": "poxvirus 與多數 DNA 病毒不同，主要在細胞質複製。",
-      "flashcard_summary": "poxvirus / DNA 病毒差異 -> 主要在細胞質複製",
+      "explanation": "【題幹解析】\n本題考查痘病毒（Poxvirus，如天花病毒、傳染性軟疣病毒）與其他多數人類 DNA 病毒在複製場所與生物學行為上的最大差異。\n\n【選項詳解】\n- A. 在細胞質複製：正確。絕大多數人類 DNA 病毒（如疱疹病毒、腺病毒、乳突病毒）的複製與轉錄都必須在「細胞核」內進行，因為它們必須依賴宿主細胞核內的轉錄因子與 DNA/RNA 聚合酶。而痘病毒（Poxvirus）體積巨大，自帶了完整的複製與轉錄工具包（包括其自身的 DNA 依賴性 RNA 聚合酶），因此它完全在宿主細胞的「細胞質」中進行轉錄、翻譯和 DNA 複製，並在細胞質中形成典型的「胞質內包涵體（Guarnieri bodies）」。\n- B. 其基因體為線型雙股DNA：錯誤。雖然痘病毒是線型雙股 DNA 病毒，但疱疹病毒（Herpesvirus）和腺病毒（Adenovirus）也是線型雙股 DNA，這並非痘病毒與「大多數」人類 DNA 病毒的獨特差異。\n- C. 有自己的DNA 聚合酶：錯誤。許多其他大型 DNA 病毒（如 Herpesvirus、Adenovirus）也編碼有自己的 DNA 聚合酶，因此這不是痘病毒的獨有特徵。\n- D. 利用strand-displacement 的方式複製其DNA：錯誤。以 strand-displacement（鏈置換）方式複製 DNA 是「腺病毒（Adenovirus）」的特徵。痘病毒主要是藉由形成連鎖的 DNA 多聚體（concatemer）再進行切割與包裝。\n\n【核心考點】\n痘病毒（Poxvirus）的獨特複製部位（細胞質，與其自備完整的轉錄/複製酶系統有關）以及與其他 DNA 病毒複製週期的對比。",
+      "key_point": "痘病毒（Poxvirus）是極少數完全在宿主細胞「細胞質」中進行複製與裝配的雙股 DNA 病毒。",
+      "flashcard_summary": "痘病毒 (Poxvirus) -> 唯一在細胞質複製的 DNA 病毒",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "poxvirus / DNA virus / cytoplasm replication / self-encoded enzymes",
-      "flashcard_back": "問痘病毒和其他 DNA 病毒最大差別時，先答在細胞質複製。這是最經典的區分點。",
+      "flashcard_front": "痘病毒 (Poxvirus) / DNA病毒 / 複製定位 / 自備轉錄酶",
+      "flashcard_back": "是在「細胞質」複製的 DNA 病毒（因其自備 DNA-dependent RNA polymerase 等關鍵酶）；而大多數 DNA 病毒均在細胞核複製。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_014",
@@ -394,23 +394,23 @@
         "D": "金剛烷胺(amantadine)可抑制A 型流行性感冒病毒(influenza A virus)"
       },
       "correct_answer": "A",
-      "explanation": "indinavir 屬於 HIV protease inhibitor，適應症是 HIV 感染，不是單純疱疹病毒。ribavirin 合併 interferon 可用於傳統 C 肝治療，狂犬病暴露後需給免疫球蛋白，amantadine 也確曾用於 influenza A。故最不適當的是 A。",
-      "key_point": "indinavir 是 HIV 蛋白酶抑制劑，不用於 HSV 感染。",
-      "flashcard_summary": "indinavir / 適應症 -> 不用於 HSV，主要是 HIV 蛋白酶抑制劑",
+      "explanation": "【題幹解析】\n本題考查幾種常見抗病毒藥物的作用靶點及臨床適應症，包括蛋白酶抑制劑、核苷類似物、被動免疫血清以及離子通道阻斷劑。\n\n【選項詳解】\n- A. 茚地那韋(indinavir)常用來治療單純疱疹病毒(herpes simplex virus)之感染：錯誤（選最不適當）。茚地那韋（Indinavir）屬於人類免疫缺乏病毒（HIV）的蛋白酶抑制劑（Protease inhibitor, PI），是愛滋病三聯療法（HAART）的組成藥物。單純疱疹病毒（HSV）感染的首選治療藥物是「阿昔洛韋（Acyclovir）」、「伐昔洛韋（Valacyclovir）」等，機轉為抑制病毒的 DNA 聚合酶。\n- B. 利巴韋林(ribavirin)合併干擾素(interferon)可用於治療C 型肝炎病毒之感染：正確。這曾是治療慢性 C 型肝炎的標準雙聯療法（Ribavirin 可干擾 RNA 合成，與 IFN-α 具協同作用。雖然現在臨床已被直接抗病毒藥 DAA 取代，但該配對學理上完全正確）。\n- C. 被狂犬病動物咬到之病人,必須施打馬或人之抗狂犬病病毒血清或免疫球蛋白：正確。狂犬病暴露後預防（PEP）包含傷口清洗、注射狂犬病疫苗，以及在傷口周圍注射被動免疫製劑（抗狂犬病免疫球蛋白 HRIG/ERIG），以即時中和狂犬病毒，防止其侵入神經系統。\n- D. 金剛烷胺(amantadine)可抑制A 型流行性感冒病毒(influenza A virus)：正確。金剛烷胺（Amantadine）的作用機轉是阻斷 A 型流感病毒的 M2 質子通道，阻止病毒脫殼（uncoating）。（注意：對 B 型流感無效，且目前流感病毒已對其高度耐藥，但機制正確）。\n\n【核心考點】\n各類抗病毒藥物的靶點與適應症：HIV 蛋白酶抑制劑（Indinavir）、HSV 鳥苷類似物（Acyclovir）、C肝傳統療法（Ribavirin + IFN）、狂犬病被動免疫（HRIG）、A流 M2 阻斷劑（Amantadine）。",
+      "key_point": "Indinavir 為 HIV 的蛋白酶抑制劑，而單純疱疹病毒（HSV）感染首選為 Acyclovir 等鳥苷類似物（DNA 聚合酶抑制劑）。",
+      "flashcard_summary": "Indinavir -> 用於 HIV 蛋白酶抑制，而非 HSV (HSV 用 Acyclovir)",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "indinavir / HIV protease inhibitor / HSV 對照 / 狂犬病免疫球蛋白",
-      "flashcard_back": "病毒藥物常考適應症配對。看到 indinavir 應連到 HIV，不是疱疹病毒。",
+      "flashcard_front": "Indinavir / Acyclovir / Ribavirin / Amantadine / 病毒靶點與疾病配對",
+      "flashcard_back": "Indinavir 抑制 HIV 蛋白酶；HSV 感染用 Acyclovir（抑 DNA 聚合酶）。Amantadine 阻斷 A 流 M2 通道（抑脫殼）。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_015",
@@ -423,23 +423,23 @@
         "D": "EB 病毒(Epstein-Barr virus)"
       },
       "correct_answer": "A",
-      "explanation": "輪狀病毒是嬰幼兒嚴重急性腸胃炎的經典病原，常造成水瀉、嘔吐與脫水。托育中心等群聚場所更容易傳播。流感、HBV 與 EBV 都不符合此急性腸胃炎型態。",
-      "key_point": "托育中心嬰幼兒急性水瀉、嘔吐與脫水，最典型是 rotavirus。",
-      "flashcard_summary": "嬰幼兒 / 群聚水瀉 / 脫水 -> 最可能是 rotavirus 感染",
+      "explanation": "【題幹解析】\n本題為典型臨床情境題：1歲男嬰、托育中心（群聚史）、發燒、嘔吐、持續兩天水瀉，並因「脫水」住院。這是一組經典的嬰幼兒急性病毒性胃腸炎表現。\n\n【選項詳解】\n- A. 輪狀病毒(rotavirus)：正確。輪狀病毒是全球 5 歲以下嬰幼兒嚴重腹瀉的最主要病原，好發於秋冬季，常透過糞口途徑傳播，在幼兒托育機構容易造成群聚感染。其典型臨床表現即為「發燒、嘔吐、隨之而來的嚴重水樣腹瀉」，極易引起幼兒脫水。符合題意。\n- B. 流感病毒(influenza virus)：主要引起急性呼吸道感染，表現為高燒、咳嗽、咽痛、全身肌肉痠痛等。雖然部分兒童可能伴隨腹瀉或嘔吐，但其絕非以嚴重的急性水瀉與脫水住院為主要特徵。\n- C. B 型肝炎病毒(hepatitis B virus)：主要經由血液、體液或垂直傳播，急性感染通常無症狀或表現為倦怠、黃疸、食慾不振等肝炎症狀，不會引起急性水瀉。\n- D. EB 病毒(Epstein-Barr virus)：主要引起傳染性單核球增多症（Infectious mononucleosis），典型三聯徵為：發燒、咽喉炎、頸部淋巴結腫大，常伴有肝脾腫大，與急性水瀉嘔吐無關。\n\n【核心考點】\n嬰幼兒急性胃腸炎的常見病原（輪狀病毒 Rotavirus 的傳播途徑與臨床特徵：發燒、嘔吐、水瀉、易脫水）。",
+      "key_point": "嬰幼兒在托育中心群聚暴露後出現發燒、嘔吐、嚴重水瀉及脫水，最常見的病原為輪狀病毒（Rotavirus）。",
+      "flashcard_summary": "小兒嘔吐水瀉脫水 -> 輪狀病毒 (Rotavirus)",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "托育中心 / 嬰幼兒 / 水瀉 / 嘔吐 / 脫水",
-      "flashcard_back": "年幼兒童群聚後急性水瀉加脫水，先想輪狀病毒。這是兒科感染高頻題。",
+      "flashcard_front": "嬰幼兒 / 托育中心群聚 / 發燒、嘔吐、嚴重水瀉 / 脫水住院",
+      "flashcard_back": "輪狀病毒 (Rotavirus) 感染，為 5 歲以下小兒病毒性腸胃炎最主要病原。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_016",
@@ -452,23 +452,23 @@
         "D": "可使用amphotericin B 和triazole 治療"
       },
       "correct_answer": "C",
-      "explanation": "Emergomyces 為溫度雙型性真菌，常經吸入感染並可出現播散性皮膚病灶。臨床上多見於免疫抑制或 HIV 感染者，而不是大多數健康人。amphotericin B 與 triazole 都可作為治療選擇。",
-      "key_point": "Emergomyces 多見於免疫不全宿主，不是健康人為主。",
-      "flashcard_summary": "Emergomyces / 免疫不全 -> 最不適當的是說多數感染者為健康人",
+      "explanation": "【題幹解析】\n本題考查新興雙型性真菌 Emergomyces（引起 emergomycosis 的病原菌，前稱 Emmonsia 相關屬）的生物學特性、易感族群、傳播途徑以及治療方法。\n\n【選項詳解】\n- A. 為溫度雙型性真菌,即25°C培養呈絲狀(mold form),37°C培養呈酵母狀(yeast form)：正確。這是經典雙型性真菌（如組織胞漿菌、皮炎芽生菌）的共同特徵，在自然界環境（25°C）中為絲狀菌落，在宿主體內或培養箱（37°C）中轉化為酵母狀。\n- B. 主要經由呼吸道吸入孢子感染,常出現皮膚病灶：正確。人體藉由吸入土壤中的分生孢子而感染，肺部為首發部位。隨後菌體易隨血流播散，最顯著的播散病灶為皮膚，可表現為廣泛的丘疹、斑塊、潰瘍或結節。\n- C. 多數被感染者都是健康人,並無明顯免疫不全的症狀：錯誤（選最不適當）。Emergomycosis 是一種「典型伺機性感染」。絕大多數發病者皆有嚴重的免疫抑制，尤其是晚期 HIV 感染者（CD4 淋巴球計數 < 100 cells/μL），或是器官移植、接受免疫抑制劑治療的患者。在免疫功能正常的健康人中極為罕見。\n- D. 可使用amphotericin B 和triazole 治療：正確。重症常使用 Amphotericin B 進行初始誘導治療，後續改用口服伊曲康唑（Itraconazole，一種 triazole 類藥物）進行維持治療。\n\n【核心考點】\n雙型性真菌 Emergomyces 的流行病學特徵（伺機性感染，高度好發於 HIV/AIDS 等免疫缺陷患者）、雙型性變化（25°C 絲狀 / 37°C 酵母狀）與治療藥物（Amphotericin B、Itraconazole）。",
+      "key_point": "Emergomyces 為伺機性雙型性真菌，主要引起嚴重免疫不全者（如晚期 HIV/AIDS 患者）的播散性感染，伴隨呼吸道吸入史與廣泛性皮膚病灶。",
+      "flashcard_summary": "Emergomyces -> 雙型性真菌，高度好發於免疫缺陷 (HIV)，引起皮膚播散",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "Emergomyces / dimorphic fungus / 皮膚病灶 / 免疫不全",
-      "flashcard_back": "記住 Emergomyces 的重點是雙型性真菌加免疫不全宿主。若題目寫成健康人為主，就是錯誤方向。",
+      "flashcard_front": "Emergomyces / 溫度雙型性 / 易感人群 (HIV) / 呼吸道吸入 / 皮膚播散 / 治療",
+      "flashcard_back": "為 25°C絲狀 / 37°C酵母狀之雙型真菌；主要感染 HIV 等免疫不全患者，造成肺部及皮膚播散感染；用 Amphotericin B 與 Triazoles 治療。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_017",
@@ -481,23 +481,23 @@
         "D": "麴菌(Aspergillus spp.)"
       },
       "correct_answer": "D",
-      "explanation": "棘白菌素抑制真菌細胞壁 β-glucan 合成，對 Candida 最強，但本題選項未列 Candida。相較於 Mucormycetes、Cryptococcus 與 Fusarium，echinocandin 對 Aspergillus 較有臨床作用，常見於救援或合併治療。故答案選 Aspergillus。",
-      "key_point": "在選項中，echinocandin 對 Aspergillus 的治療效果相對最好。",
-      "flashcard_summary": "echinocandin / 真菌效果 -> 在選項中對 Aspergillus 效果最好",
+      "explanation": "【題幹解析】\n本題考查抗真菌藥物棘白菌素（Echinocandins，如 Caspofungin, Micafungin, Anidulafungin）的作用機轉及抗菌譜局限性。\n\n【選項詳解】\n- A. 毛黴菌(Mucormycetes spp.)：無效。毛黴菌的細胞壁中基本不含有 1,3-beta-D-glucan，因此對棘白菌素具有天然耐藥性。毛黴菌感染首選 Amphotericin B 或 Isavuconazole。\n- B. 隱球菌(Cryptococcus spp.)：無效。新生隱球菌細胞壁中主要含 1,6-beta-D-glucan，且其厚莢膜和黑色素成分會阻礙藥物發揮作用，因此對棘白菌素具有天然耐藥性。隱球菌腦膜炎首選 Amphotericin B 合併 Flucytosine。\n- C. 鐮孢菌(Fusarium spp.)：無效。鐮孢菌為多重耐藥性真菌，對包括棘白菌素在內的多數抗真菌藥皆不敏感。\n- D. 麴菌(Aspergillus spp.)：正確。棘白菌素的作用靶點是抑制真菌細胞壁的「1,3-beta-D-glucan 合成酶」。麴菌的細胞壁含有豐富的 1,3-beta-D-glucan，因此棘白菌素對麴菌具有抑菌（fungistatic）及干擾其菌絲生長的作用，臨床常用於侵襲性麴菌症的二線/救援或合併治療。在選項中，這是唯一對其有治療效果的菌屬。\n\n【核心考點】\n棘白菌素（Echinocandin）的作用機轉（抑制 1,3-beta-D-glucan 合成酶）與抗菌譜限制（對念珠菌、麴菌有效；對隱球菌、毛黴菌、鐮孢菌無效）。",
+      "key_point": "棘白菌素（Echinocandin）主要抑制真菌細胞壁 1,3-beta-D-glucan 的合成，對念珠菌和麴菌（Aspergillus）有效，但對隱球菌與毛黴菌天然耐藥。",
+      "flashcard_summary": "Echinocandin -> 抑制 1,3-β-D-glucan -> 麴菌/念珠菌敏感，隱球菌/毛黴菌耐藥",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "echinocandin / beta-glucan / Candida 對照 / Aspergillus",
-      "flashcard_back": "棘白菌素先想到 Candida；若選項沒有 Candida，常在 Aspergillus 中相對較有用。這題考的是相對效果。",
+      "flashcard_front": "棘白菌素 (Echinocandin) / 作用靶點 (1,3-β-D-glucan) / 抗菌譜限制 (麴菌與念珠菌) / 隱球菌與毛黴菌耐藥",
+      "flashcard_back": "抑制細胞壁 1,3-β-D-glucan 合成。對念珠菌與麴菌 (Aspergillus) 有效；對隱球菌（主要為 1,6-β 且有莢膜）與毛黴菌（缺乏此成分）無效。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "medium",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_018",
@@ -510,23 +510,23 @@
         "D": "bone marrow"
       },
       "correct_answer": "C",
-      "explanation": "胚胎與胎兒時期的造血位點依序包括 yolk sac、fetal liver，之後由 bone marrow 接手。fetal heart 並不是正常造血器官。故最不可能發生造血的是胎兒心臟。",
-      "key_point": "造血作用可在卵黃囊、胎肝與骨髓發生，不會在胎兒心臟進行。",
-      "flashcard_summary": "造血位點 / 胚胎到成人 -> 最不可能發生在 fetal heart",
+      "explanation": "【題幹解析】\n本題考查免疫細胞與血細胞的產生過程——造血作用（Hematopoiesis）在動物胚胎及個體發育不同階段的解剖定位演變。\n\n【選項詳解】\n- A. yolk sac (卵黃囊)：是胚胎發育最早期的造血部位（約懷孕第 3 至第 8 週），主要產生原始的紅血球。\n- B. fetal liver (胎兒肝臟)：在胚胎中期（懷孕第 2 至第 7 個月）接替卵黃囊，成為體內最主要的造血器官，此時胎兒脾臟（fetal spleen）也會協同造血。\n- C. fetal heart (胎兒心臟)：正確（選最不可能發生者）。胎兒心臟是心血管系統的動力泵，其組織微環境不具備造血幹細胞增殖分化的造血微環境（niche），因此完全沒有造血功能。\n- D. bone marrow (骨髓)：在胎兒發育的第 5 個月開始建立造血功能，並逐漸取代肝脾，成為出生後乃至整個成年期唯一正常的生理性造血場所。\n\n【核心考點】\n個體發育過程中造血器官的階段性演變：卵黃囊（中胚層早期）-> 肝、脾（胎兒中期）-> 骨髓（胎兒晚期至成年）。",
+      "key_point": "胚胎及胎兒發育時期的造血部位依序為卵黃囊（yolk sac）、胎兒肝脾（fetal liver/spleen），最後轉移至骨髓（bone marrow）；心臟不具造血功能。",
+      "flashcard_summary": "造血器官演變 -> 卵黃囊 -> 胎兒肝脾 -> 骨髓 (心臟無造血功能)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "hematopoiesis / yolk sac / fetal liver / bone marrow / fetal heart",
-      "flashcard_back": "胚胎造血位點順序是卵黃囊到胎肝再到骨髓。心臟不在這條標準路徑內。",
+      "flashcard_front": "發育期造血作用 (Hematopoiesis) / 器官遷移順序 / 心臟功能定位",
+      "flashcard_back": "造血場所演變：卵黃囊 (最早) -> 胎兒肝臟/脾臟 (中期) -> 骨髓 (後期至出生後)。胎兒心臟無造血功能。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_019",
@@ -539,23 +539,23 @@
         "D": "第一型干擾素可以誘導細胞第一型MHC 分子的表達,增加感染的細胞呈獻抗原給CD8 毒殺T 細胞"
       },
       "correct_answer": "B",
-      "explanation": "type I interferons 會誘導細胞內抗病毒基因表現，抑制病毒蛋白翻譯並促進病毒 RNA 降解，也可增加 MHC class I 表現。它們不是像酵素一樣直接去分解病毒顆粒。故最不適當的是 B。",
-      "key_point": "第一型干擾素主要透過誘導抗病毒狀態，不是直接分解病毒。",
-      "flashcard_summary": "第一型干擾素 / 抗病毒機制 -> 不是直接參與分解病毒",
+      "explanation": "【題幹解析】\n本題考查第一型干擾素（Type I Interferon，主要包括 IFN-α 和 IFN-β）的產生機制、抗病毒效應及分子機制。\n\n【選項詳解】\n- A. 病毒感染有核細胞後,會刺激第一型干擾素的產生：正確。幾乎所有被病毒感染的「有核細胞」皆能透過細胞內的受體（如 TLR3/7/8/9、RIG-I、MDA5）偵測病毒核酸（PAMPs），進而活化轉錄因子 IRF3/IRF7，刺激並分泌第一型干擾素。\n- B. 第一型干擾素可以直接參與分解病毒：錯誤（選最不適當）。干擾素本身「不具備直接分解、破壞或水解病毒」的酵素活性。它的作用是藉由自分泌或旁分泌方式，結合到靶細胞表面的 IFN-α/β 受體上，啟動 JAK-STAT 途徑，進而轉錄調控並誘導靶細胞產生數百種抗病毒蛋白（Antiviral proteins, AVPs）來阻止病毒在細胞內複製。\n- C. 第一型干擾素可以活化細胞內基因以破壞病毒mRNA 及抑制病毒蛋白的轉譯：正確。干擾素誘導產生的 2',5'-OAS（2',5'-寡腺苷酸合成酶）會活化核糖核酸酶 L（RNase L）來特異性「降解病毒的 mRNA」；另外，干擾素誘導產生的 PKR（雙股 RNA 活化蛋白激酶）會使真核轉譯起始因子 eIF-2α 磷酸化，從而「抑制病毒蛋白質的轉譯與合成」。\n- D. 第一型干擾素可以誘導細胞第一型MHC 分子的表達,增加感染的細胞呈獻抗原給CD8 毒殺T 細胞：正確。第一型干擾素會上調細胞表面 MHC class I 分子的表達，增強受感染細胞將病毒胜肽呈獻給 CD8+ 毒殺型 T 細胞（CTL）的能力，加速受感染細胞的清除。\n\n【核心考點】\n第一型干擾素（IFN-α/β）的抗病毒分子機轉（非直接分解，而是誘導 PKR 抑制轉譯、誘導 2',5'-OAS/RNase L 降解 mRNA）、對 MHC class I 的上調作用、以及誘導產生的信號通路（JAK-STAT）。",
+      "key_point": "第一型干擾素（IFN-α/β）不直接降解或破壞病毒顆粒，而是誘導鄰近細胞產生抗病毒蛋白（如 PKR、RNase L）來降解病毒 mRNA 及阻斷蛋白翻譯，並能上調 MHC-I 表現。",
+      "flashcard_summary": "第一型干擾素 -> 不直接降解病毒，而是誘導 PKR 和 RNase L 並上調 MHC-I",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "type I interferon / antiviral state / MHC I / 不直接分解病毒",
-      "flashcard_back": "第一型干擾素是『讓宿主細胞進入抗病毒狀態』，不是直接把病毒拆掉。這是概念題的關鍵差異。",
+      "flashcard_front": "第一型干擾素 (Type I IFN) / 作用方式 / 抗病毒蛋白 (PKR, RNase L) / MHC-I 表達",
+      "flashcard_back": "不具直接分解病毒的活性。其結合受體後活化 JAK-STAT，誘導 PKR（抑制轉譯）與 RNase L（降解 mRNA），並上調細胞表面 MHC-I 表現。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_020",
@@ -568,23 +568,23 @@
         "D": "MHC restriction 是指成熟T 細胞的TCR 只能夠辨識自身細胞MHC 分子呈獻的抗原,不會辨識其他MHC 分子\n 呈獻的相同抗原"
       },
       "correct_answer": "C",
-      "explanation": "TCR 與 BCR 會靠非共價力與抗原結合，成熟 T 細胞也具 MHC restriction。真正的 clonal expansion 是成熟淋巴球在周邊遇到外來抗原後大量增殖，而非在胸腺或骨髓發育時發生。故 C 最不適當。",
-      "key_point": "clonal expansion 發生在周邊淋巴組織抗原刺激後，不是在胸腺或骨髓發育期。",
-      "flashcard_summary": "clonal expansion / 抗原刺激 -> 不是在胸腺或骨髓發育過程中發生",
+      "explanation": "【題幹解析】\n本題考查 T 細胞和 B 細胞抗原受體（TCR 和 BCR）的結構特徵、配對模式、抗原結合力學、淋巴球發育中的 MHC 限制性（MHC restriction）以及選殖群增殖（Clonal expansion）的概念。\n\n【選項詳解】\n- A. TCR α chain 和TCR β chain 形成配對,而TCR γ chain 和TCR δ chain 形成配對：正確。T 細胞受體依其鏈的配對分為兩大類：由 α 鏈與 β 鏈組成的 αβ TCR（佔外周 T 細胞的 95% 以上），以及由 γ 鏈與 δ 鏈組成的 γδ TCR（主要分佈於黏膜與上皮）。\n- B. 氫鍵與凡德瓦力參與受體與抗原的結合過程：正確。TCR/BCR 與抗原的結合屬於「非共價結合」，主要依賴氫鍵、凡德瓦力、靜電作用力及疏水性相互作用。\n- C. clonal expansion 是指淋巴細胞於胸腺或骨髓的發育過程中,其細胞表面上的抗原受體與外來抗原結合後,引起細胞大量增殖：錯誤（選最不適當）。選殖群增殖（Clonal expansion）是指「已發育成熟且進入外周淋巴器官（如淋巴結、脾臟）的幼稚（naive）淋巴細胞」，在首次接觸特異性「外來抗原」並獲得共刺激信號後，被活化並進行大量有絲分裂增殖以形成效應細胞群的過程。而淋巴細胞在胸腺（T細胞）或骨髓（B細胞）中的早期發育是「抗原無關（antigen-independent）」或「僅與自身抗原交互作用（陽性/陰性選擇）」的分化階段，此時不接觸外來抗原，亦不發生 clonal expansion。\n- D. MHC restriction 是指成熟T 細胞的TCR 只能夠辨識自身細胞MHC 分子呈獻的抗原,不會辨識其他MHC 分子呈獻的相同抗原：正確。MHC 限制性是指成熟 T 細胞的 TCR 同時具有對「自身 MHC 分子」和「外來抗原胜肽」的雙重辨識特徵，這是其在胸腺發育中經過陽性選擇（positive selection）塑造的結果。如果相同抗原由不同單倍型的 MHC 呈獻，T 細胞將無法辨識。\n\n【核心考點】\nTCR的配對（αβ 與 γδ）、淋巴球與抗原結合的非共價力、選殖群增殖（clonal expansion）的生理定義與發生場所（周邊淋巴器官，與外來抗原結合後）、MHC限制性（MHC restriction）的定義。",
+      "key_point": "選殖群增殖（Clonal expansion）是成熟淋巴細胞在「周邊」結合外來抗原後被活化增殖的過程，而非在中樞發育階段（胸腺或骨髓）發生。",
+      "flashcard_summary": "Clonal expansion -> 發生在外周接觸外來抗原後，非中樞發育階段",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_answer",
-      "flashcard_front": "clonal expansion / 周邊淋巴組織 / 胸腺骨髓對照 / MHC restriction",
-      "flashcard_back": "遇到 clonal expansion，先想成熟淋巴球在周邊被抗原活化後增殖。中央發育階段不是這個概念。",
+      "flashcard_front": "Clonal expansion / 發生時期與地點 / TCR結構配對 / MHC restriction",
+      "flashcard_back": "Clonal expansion 發生於成熟淋巴球在外周淋巴器官結合「外來抗原」後；中樞發育階段（胸腺/骨髓）無外來抗原刺激的增殖。TCR 鏈配對為 α-β 或 γ-δ。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
-      "category_confidence": "high",
+      "category_confidence": 0.95,
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:55.622601+00:00"
     },
     {
       "id": "113-1_medicine-2_021",

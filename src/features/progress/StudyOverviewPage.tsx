@@ -198,16 +198,22 @@ export function StudyOverviewPage({
                 type="button"
                 onClick={() => setActiveStage(stage)}
                 className={clsx(
-                  "rounded-[1rem] border px-4 py-3 text-left transition",
+                  "flex min-h-24 items-center justify-between gap-3 rounded-[1rem] border px-4 py-3 text-left transition",
                   activeStage === stage
                     ? "border-[#b8527a] bg-[#b8527a] text-white shadow-[0_12px_28px_rgba(184,82,122,0.2)]"
                     : "border-[#efd9d0] bg-white/75 text-[#6f5b50] hover:bg-[#fff0f6]",
                 )}
               >
-                <span className="block text-base font-extrabold">{stage === "stage-1" ? "一階" : "二階"}</span>
-                <span className={clsx("mt-1 block text-xs font-bold", activeStage === stage ? "text-white/82" : "text-[#9c7b70]")}>
-                  {stageSummary?.answered ?? 0} / {stageSummary?.total ?? 0} 題
+                <span className="min-w-0">
+                  <span className="block text-base font-extrabold">{stage === "stage-1" ? "一階" : "二階"}</span>
+                  <span className={clsx("mt-1 block text-xs font-bold", activeStage === stage ? "text-white/82" : "text-[#9c7b70]")}>
+                    {stageSummary?.answered ?? 0} / {stageSummary?.total ?? 0} 題
+                  </span>
                 </span>
+                <ProgressGauge
+                  value={stageSummary?.completion ?? 0}
+                  active={activeStage === stage}
+                />
               </button>
             );
           })}
@@ -373,6 +379,29 @@ function filterButtonClass(active: boolean) {
     active
       ? "border-[#b8527a] bg-[#b8527a] text-white"
       : "border-[#efd9d0] bg-white/80 text-[#6f5b50] hover:bg-[#fff0f6] hover:text-[#9a496b]",
+  );
+}
+
+function ProgressGauge({ value, active }: { value: number; active: boolean }) {
+  const normalizedValue = Math.max(0, Math.min(100, value));
+
+  return (
+    <span
+      className={clsx(
+        "grid h-14 w-14 shrink-0 place-items-center rounded-full text-[11px] font-extrabold",
+        active ? "bg-white/18 text-white" : "bg-[#fff7fb] text-[#9a496b]",
+      )}
+      style={{
+        background: active
+          ? `conic-gradient(rgba(255,255,255,0.95) ${normalizedValue * 3.6}deg, rgba(255,255,255,0.2) 0deg)`
+          : `conic-gradient(#b8527a ${normalizedValue * 3.6}deg, #f2e4dd 0deg)`,
+      }}
+      aria-label={`完成 ${normalizedValue}%`}
+    >
+      <span className={clsx("grid h-10 w-10 place-items-center rounded-full", active ? "bg-[#b8527a]" : "bg-white")}>
+        {normalizedValue}%
+      </span>
+    </span>
   );
 }
 

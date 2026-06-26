@@ -4,7 +4,7 @@
   "title": "113 年第一次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=113020&q=1&s=22&t=Q",
-  "updated_at": "2026-06-18T04:39:12.571616+00:00",
+  "updated_at": "2026-06-26T03:05:44.861390+00:00",
   "questions": [
     {
       "id": "113-1_medicine-4_001",
@@ -17,23 +17,23 @@
         "D": "2個月大時,體重4900公克"
       },
       "correct_answer": "A",
-      "explanation": "依目前資料，官方答案為「A. 3天大時,體重2600公克」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：3天大時,體重2600公克",
-      "flashcard_summary": "足月新生兒出生時為3000公克,下列有關體重成長的描述,何者最可能屬於異常值? -> A. 3天大時,體重2600公克",
+      "explanation": "【題幹解析】\n題幹指出該足月新生兒出生體重為 3000 公克。臨床上新生兒在出生後前幾天因水分流失及奶量攝入較少，會出現「生理性脫水」（physiological weight loss）。足月兒的生理性脫水上限為出生體重的 10%（早產兒可達 15%），且通常在出生後第 3 至 4 天達到體重最低點，隨後在第 7 至 10 天回復到出生體重。\n\n【選項詳解】\n- A. 3天大時體重 2600 公克：出生體重 3000g 的 10% 為 300g，因此生理性脫水的最低安全體重應為 2700g。2600g 代表體重減輕了 400g（減少約 13.3%），已顯著超出 10% 的正常生理範圍，最可能屬於異常值，需要評估脫水程度、母乳哺餵狀況或潛在病理原因。\n- B. 5天大時體重 2800 公克：體重減輕 200g（減少約 6.7%），在 10% 的安全範圍內，且第 5 天體重通常已開始回升，屬於正常生理過程。\n- C. 1個月大時體重 4000 公克：足月兒出生後第一個月，平均每天體重增加約 20 至 30 公克，一個月約增重 600 至 900 公克。此處體重增加 1000g，屬於正常且良好的成長表現。\n- D. 2個月大時體重 4900 公克：新生兒前三個月體重增長迅速，每月增加 800 至 1000g 為常見範圍。2個月增重 1900g 屬於正常發育。\n\n【核心考點】\n新生兒生理性脫水的定義與評估標準（足月兒體重減少不超過 10%），以及嬰幼兒早期的體重增長規律。",
+      "key_point": "足月新生兒出生後前幾天生理性脫水上限為體重的10%，超過此值即屬異常。",
+      "flashcard_summary": "足月兒生理性脫水界線 -> 體重減少不超過出生體重的10%，大於10%即為異常",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "足月新生兒出生時為3000公克,下列有關體重成長的描述,何者最可能屬於異常值?",
-      "flashcard_back": "官方答案指向「A. 3天大時,體重2600公克」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "足月新生兒生理性脫水\n- 出生體重：3000g\n- 評估異常脫水的體重臨界值？",
+      "flashcard_back": "足月兒生理性脫水不可超過出生體重的 10%（即 3000g 的新生兒不應低於 2700g），超過 10% 視為異常脫水。",
       "category_group": "醫學（四）",
-      "category": "其他",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_002",
@@ -46,23 +46,23 @@
         "D": "建議媽媽停餵母奶"
       },
       "correct_answer": "C",
-      "explanation": "依目前資料，官方答案為「C. 建議持續追蹤觀察」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：建議持續追蹤觀察",
-      "flashcard_summary": "足月新生兒出生體重3200公克,出生後全母乳哺餵,7天大時體重為3150公克。血清總膽紅素為12 mg/dL,大 便顏色正常且活力佳。媽媽非常擔心寶寶體重沒有增加及持續黃疸,下一步處置... / mg/dL -> C. 建議持續追蹤觀察",
+      "explanation": "【題幹解析】\n足月新生兒出生體重 3200g，7天大時體重 3150g。體重僅減輕 50g（少於 2%），且新生兒通常在 7 至 10 天大時回復至出生體重，因此生長進度正常。血清總膽紅素為 12 mg/dL，大便顏色正常（排除膽道閉鎖等膽汁淤積症）且活力佳（無急性膽紅素腦病變徵兆）。全母乳哺餵的寶寶在此階段出現輕度黃疸，高度懷疑為「母乳性黃疸」（breast milk jaundice），屬良性過程。\n\n【選項詳解】\n- A. 安排腹部超音波檢查：無必要。大便顏色正常且無膽汁淤積（直接膽紅素升高）或腹部腫塊徵兆，不需懷疑膽道閉鎖或腹部病變。\n- B. 安排住院照光治療：無必要。對於 7 天大（大於 72 小時）之健康足月兒，總膽紅素 12 mg/dL 遠低於美國小兒科醫學會（AAP）規定的照光治療標準（一般需達 15-20 mg/dL 以上，視風險曲線而定）。\n- C. 建議持續追蹤觀察：最為適當。病童目前生長發育正常、活力佳且膽紅素數值不高，應繼續密切觀察其活力、大便顏色及黃疸消退狀況即可。\n- D. 建議媽媽停餵母奶：不適當。母乳性黃疸（breast milk jaundice）在黃疸指數未達危險值（通常 >20 mg/dL）前，不建議輕易中斷全母乳哺餵；若黃疸過高，亦可暫停 24-48 小時改配方奶以觀察，但本題僅 12 mg/dL 且寶寶活力佳，直接追蹤即可，無須停餵母奶。\n\n【核心考點】\n新生兒生理性與病理性黃疸的鑑別診斷、母乳性黃疸的處置原則、照光治療的指引標準及體重恢復規律。",
+      "key_point": "足月新生兒生理性脫水在正常範圍且黃疸指數未達照光標準，應以持續追蹤觀察為主。",
+      "flashcard_summary": "7天足月兒總膽紅素12mg/dL且大便活力正常 -> 持續追蹤觀察，不需停母乳或照光",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "足月新生兒出生體重3200公克,出生後全母乳哺餵,7天大時體重為3150公克。血清總膽紅素為12 mg/dL,大 便顏色正常且活力佳。媽媽非常擔心寶寶體重沒有增加及持續黃疸,下一步處置... / mg/dL",
-      "flashcard_back": "官方答案指向「C. 建議持續追蹤觀察」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "7天大足月兒\n- 全母乳哺餵\n- 體重回復正常\n- 總膽紅素：12 mg/dL，大便顏色正常、活力佳\n- 下一步處置？",
+      "flashcard_back": "建議持續追蹤觀察。黃疸指數未達照光標準，大便與活力正常，不需停餵母乳或做影像檢查。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_003",
@@ -75,23 +75,23 @@
         "D": "早產兒呼吸暫停多屬於mixed apnea"
       },
       "correct_answer": "A",
-      "explanation": "依目前資料，官方答案為「A. 定義為無症狀呼吸中止時間大於10秒」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：定義為無症狀呼吸中止時間大於10秒",
-      "flashcard_summary": "有關早產兒呼吸暫停(apnea of prematurity)診斷的敘述,下列何者最不適當? / apnea of prematurity -> A. 定義為無症狀呼吸中止時間大於10秒",
+      "explanation": "【題幹解析】\n早產兒呼吸暫停（Apnea of Prematurity, AOP）是由於呼吸中樞發育不成熟所致。臨床診斷與定義非常嚴謹，必須與早產兒常見的「週期性呼吸」（periodic breathing，即呼吸停止 5-10 秒後又快速呼吸，無心跳變慢或發紺）進行區分。\n\n【選項詳解】\n- A. 定義為無症狀呼吸中止時間大於10秒：不適當（錯誤）。AOP 的臨床定義是呼吸中止時間「大於等於 20 秒」，或是雖然「小於 20 秒但伴隨心搏過緩（bradycardia，通常 < 100 bpm）或發紺（cyanosis）/血氧下降」。無症狀的 10 秒呼吸中止通常屬於正常的生理性週期性呼吸，不符合診斷。\n- B. 可能伴隨心搏過緩(bradycardia)：適當。當呼吸停止時間較長或合併阻塞時，迷走神經興奮及缺氧會導致心跳快速下降（通常定義為心率低於 100 bpm）。\n- C. 可能伴隨發紺(cyanosis)：適當。呼吸中止導致肺部氣體交換暫停，血氧濃度降低，臨床上可觀察到口唇或全身發紺。\n- D. 早產兒呼吸暫停多屬於mixed apnea：適當。早產兒呼吸暫停可分為中樞性（central）、阻塞性（obstructive）與混合性（mixed）。其中以混合性（同時有中樞呼吸訊號消失與上呼吸道阻塞）最為常見，約占所有發作的 50% 以上。\n\n【核心考點】\n早產兒呼吸暫停（AOP）的臨床定義（20秒標準）、分類（以混合型最常見）及伴隨的生理表徵（心搏過緩、發紺）。",
+      "key_point": "早產兒呼吸暫停（AOP）定義為呼吸停止時間大於等於20秒，或小於20秒但伴隨心搏過緩、發紺或血氧下降。",
+      "flashcard_summary": "早產兒呼吸暫停 (AOP) 定義 -> 呼吸中止 ≥ 20 秒，或 < 20 秒伴隨心搏過緩或發紺",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "有關早產兒呼吸暫停(apnea of prematurity)診斷的敘述,下列何者最不適當? / apnea of prematurity",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「A. 定義為無症狀呼吸中止時間大於10秒」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "早產兒呼吸暫停 (AOP) 診斷\n- 定義的呼吸中止時間臨界值？\n- 若時間未達臨界值，何種伴隨症狀可成立診斷？",
+      "flashcard_back": "定義為呼吸中止時間 ≥ 20 秒；或 < 20 秒但伴隨心搏過緩 (<100 bpm)、發紺或血氧飽和度下降。",
       "category_group": "醫學（四）",
-      "category": "婦產科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_004",
@@ -104,23 +104,23 @@
         "D": "給與正壓換氣"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 給與正壓換氣」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：給與正壓換氣",
-      "flashcard_summary": "於產房剛出生的寶寶,經初始步驟處理後,發現呼吸窘迫、心跳每分鐘50下。下一步的處置,何者最為適 當? -> D. 給與正壓換氣",
+      "explanation": "【題幹解析】\n根據新生兒甦醒術（Neonatal Resuscitation Program, NRP）流程，出生後的甦醒步驟具有嚴格的優先順序：\n1. 初始步驟（溫暖、擺位、清理呼吸道、擦乾、刺激）。\n2. 評估呼吸與心跳。若嬰兒無自主呼吸、出現喘息（gasping），或心跳速率每分鐘小於 100 次，應立即開始「正壓換氣」（Positive-Pressure Ventilation, PPV）。\n題幹中指出，寶寶在經歷初始步驟後仍有呼吸窘迫且心跳為 50 次/分（小於 100 次/分），故「正壓換氣」是目前唯一最適當且應立即進行的下一步處置。\n\n【選項詳解】\n- A. 開始胸外按壓：不適當。只有在進行了至少 30 秒「有效且能提升胸部起伏的正壓換氣」（必要時使用 MR. SOPA 修正換氣技術）後，若心跳仍低於每分鐘 60 下，才可開始胸外按壓。\n- B. 給與epinephrine：不適當。這是甦醒術後期的藥物治療。必須在開始胸外按壓（搭配 100% 氧氣）達 60 秒後，若心跳仍小於 60 次/分才給予。\n- C. 給與氧氣面罩：不適當。自由流量氧氣（free-flow oxygen）或 CPAP 僅適用於心跳大於 100 次/分，但有自主呼吸窘迫或持續發紺的嬰兒。心跳小於 100 次/分時代表通氣不足，必須使用正壓換氣協助肺部擴張與氣體交換。\n- D. 給與正壓換氣：最為適當。心跳小於 100 次/分為實施 PPV 的絕對適應症，也是改善新生兒心跳低下最有效、最核心的步驟。\n\n【核心考點】\n新生兒甦醒術（NRP）決策流程圖，特別是正壓換氣（PPV）、胸外按壓與給予強心劑（Epinephrine）的介入時機與心率界線（100下與60下）。",
+      "key_point": "新生兒出生後若無呼吸/喘息或心跳小於100下，初始步驟後的首要處置是立即給予正壓換氣（PPV）。",
+      "flashcard_summary": "新生兒初始步驟後心跳 < 100 下/分 -> 立即給予正壓換氣 (PPV)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "於產房剛出生的寶寶,經初始步驟處理後,發現呼吸窘迫、心跳每分鐘50下。下一步的處置,何者最為適 當?",
-      "flashcard_back": "官方答案指向「D. 給與正壓換氣」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "新生兒出生初始步驟後\n- 呼吸窘迫\n- 心跳：50下/分\n- 甦醒下一步處置首選？",
+      "flashcard_back": "給與正壓換氣（PPV）。心跳 < 100 下/分即為 PPV 適應症，不應直接開始胸外按壓或給 Epinephrine。",
       "category_group": "醫學（四）",
-      "category": "婦產科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_005",
@@ -133,23 +133,23 @@
         "D": "腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生",
-      "flashcard_summary": "下列關於壞死性腸炎(necrotizing enterocolitis)的敘述,何者最不適當? / necrotizing enterocolitis -> D. 腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生",
+      "explanation": "【題幹解析】\n壞死性腸炎（Necrotizing Enterocolitis, NEC）是新生兒加護病房中極為危重且常見的胃腸道急症。本題要求選出最不適當的敘述。\n\n【選項詳解】\n- A. 是新生兒時期最常見危及生命的腸胃道急症：正確。NEC 占極低出生體重早產兒死亡與致病的重要病因。\n- B. 三大危險因子為早產、腸道細菌移生及配方奶餵食：正確。早產兒的腸道發育未成熟、未經母乳哺餵（而用配方奶）以及異常的細菌移生是觸發腸黏膜發炎壞死的三大核心危險因子。\n- C. 臨床表現可能有活力差、體溫不穩定、腹脹、餵食不耐受、血便等，嚴重者可能腸穿孔、腹膜炎、休克，甚至死亡：正確。NEC 臨床分期（Bell's staging）涵蓋了從早期的餵食不耐受、腹脹、血便，進展至晚期的腸穿孔（氣腹）、腹膜炎、敗血症與休克。\n- D. 腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生：不適當（錯誤）。雖然「腸壁積氣」是 NEC 診斷的典型 X 光表徵（Bell stage II），但其發生時間通常不是在「出生後 1 週內」。NEC 的發病時間與懷孕週數呈反比，週數越小發病越晚，極低出生體重兒（VLBW）的發病高峰一般在出生後 2 至 4 週（約 14 至 28 天），通常是在開始添加奶水並逐漸增量之後發生。\n\n【核心考點】\n壞死性腸炎（NEC）的臨床表徵（如腸壁積氣、門靜脈積氣）、三大危險因子、以及發病高峰時間規律（與早產週數呈反比，通常非第1週內）。",
+      "key_point": "壞死性腸炎（NEC）的發病高峰與出生體重和週數呈反比，極低體重早產兒通常在出生後2至4週發病，而非1週內。",
+      "flashcard_summary": "NEC 發病規律 -> 典型 X 光為腸壁積氣；早產兒發病高峰通常在出生後 2-4 週而非第 1 週",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "下列關於壞死性腸炎(necrotizing enterocolitis)的敘述,何者最不適當? / necrotizing enterocolitis",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 腹部X光典型特徵有腸壁積氣(pneumatosis intestinalis),通常在出生後1週內發生」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "壞死性腸炎 (NEC)\n- 典型 X 光表徵？\n- 早產兒之發病時間高峰規律？",
+      "flashcard_back": "X 光典型為腸壁積氣 (pneumatosis intestinalis)。發病高峰與週數呈反比，早產兒通常在出生後 2-4 週發病，而非 1 週內。",
       "category_group": "醫學（四）",
-      "category": "婦產科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_006",
@@ -162,23 +162,23 @@
         "D": "對於發紺性心臟病的病童,要特別注意脫水與缺鐵性貧血的問題"
       },
       "correct_answer": "C",
-      "explanation": "依目前資料，官方答案為「C. 所有先天性心臟病兒童在做牙科治療前都必須進行細菌性心內膜炎的預防」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：所有先天性心臟病兒童在做牙科治療前都必須進行細菌性心內膜炎的預防",
-      "flashcard_summary": "關於先天性心臟病嬰兒與兒童的一般性照顧原則,下列敘述何者最不適當? -> C. 所有先天性心臟病兒童在做牙科治療前都必須進行細菌性心內膜炎的預防",
+      "explanation": "【題幹解析】\n先天性心臟病（Congenital Heart Disease, CHD）病童的常規照護需考量免疫接種、防範感染以及預防感染性心內膜炎（Infective Endocarditis, IE）的指引。\n\n【選項詳解】\n- A. 絕大多數的常規疫苗都可以施打,包括流行性感冒疫苗：正確。CHD 病童容易因感染流感等疾病導致心肺功能惡化，應積極且依時程施打疫苗（包括流感疫苗）。\n- B. 呼吸道融合病毒單株抗體的施打對於有血行動力學明顯異常的病人很重要：正確。Palivizumab（RSV 單株抗體）可有效預防高危險群（如伴隨血行動力學顯著異常的 CHD 嬰幼兒）因 RSV 感染導致重症。\n- C. 所有先天性心臟病兒童在做牙科治療前都必須進行細菌性心內膜炎的預防：不適當（錯誤）。根據美國心臟協會（AHA）指南，僅建議「IE 最高風險患者」在接受會侵犯牙齦或齒槽周邊的牙科處置時，才預防性使用抗生素。最高風險包括：裝有人工瓣膜或人工材料、曾罹患 IE、未修補的發紺性先天性心臟病、使用人工材料修補後 6 個月內、或修補後仍有殘餘缺損鄰近人工材料者。普通的房室泡缺損（ASD/VSD）修補後無殘餘流者，不需常規預防。\n- D. 對於發紺性心臟病的病童,要特別注意脫水與缺鐵性貧血的問題：正確。發紺性心臟病因缺氧會代償性產生紅血球增多症，血液黏稠度高。若脫水會使血液更濃稠；若合併缺鐵性貧血，紅血球會變小、硬化、變形能力變差，兩者皆會大幅增加微血管血栓（如腦中風）的風險，因此必須防範脫水與缺鐵。\n\n【核心考點】\n預防性抗生素在感染性心內膜炎（IE）的適用指引（非所有 CHD 皆適用）、RSV 單株抗體適應症、以及發紺性心臟病引發紅血球增多症時的脫水與缺鐵防治。",
+      "key_point": "僅有「最高風險」之先天性心臟病患童在進行特定牙科治療前才需預防感染性心內膜炎，並非所有病童皆需要。",
+      "flashcard_summary": "CHD 牙科防範與發紺照護 -> 僅最高風險者需預防性抗生素；發紺病童嚴防脫水與缺鐵性貧血以防血栓",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於先天性心臟病嬰兒與兒童的一般性照顧原則,下列敘述何者最不適當?",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「C. 所有先天性心臟病兒童在做牙科治療前都必須進行細菌性心內膜炎的預防」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "先天性心臟病兒童\n- 牙科治療前預防性抗生素適用條件？\n- 發紺性心臟病童需防範的兩大血液濃稠風險？",
+      "flashcard_back": "僅限於人工材料修補、未修補發紺型心臟病或曾患 IE 等最高風險者；發紺病童需防範脫水與缺鐵性貧血以降低血栓風險。",
       "category_group": "醫學（四）",
-      "category": "兒科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_007",
@@ -191,23 +191,23 @@
         "D": "上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous return\n with obstruction)"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous return with obstruction)」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous re...",
-      "flashcard_summary": "在下列何種危急型先天性心臟病的新生兒中使用前列腺素E1(prostaglandin E1, PGE1),對病情最沒有幫 助? / prostaglandin E1 / PGE1 -> D. 上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous r...",
+      "explanation": "【題幹解析】\n前列腺素 E1（Prostaglandin E1, PGE1）具有擴張血管及維持動脈導管（PDA）開放的作用。它主要用於「導管依賴型先天性心臟病」（Ductus-dependent CHD）以維持體循環或肺循環的血流灌注。\n\n【選項詳解】\n- A. 嚴重主動脈弓窄縮(coarctation of the aorta)：有幫助。屬於體循環導管依賴型心臟病。左心輸出受阻，需要靠開放的動脈導管進行右向左分流，將右心血液送至降主動脈以供應下半身臟器，此時使用 PGE1 可救命。\n- B. 三尖瓣閉鎖(tricuspid atresia)：有幫助。屬於肺循環導管依賴型心臟病。右心血液無法直接進入肺動脈，需要靠開放的動脈導管進行左向右分流，使主動脈血流灌注肺部以進行氧合。\n- C. 危急型肺動脈瓣狹窄(critical pulmonary valve stenosis)：有幫助。同樣屬於肺循環導管依賴型心臟病。右心室血液無法通過狹窄的肺動脈瓣，必須依賴開放的 PDA 由主動脈分流至肺部。\n- D. 上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous return with obstruction)：最沒有幫助（甚至有害）。TAPVR 合併阻塞屬於嚴重的肺靜脈回流受阻，會引發極度嚴重的肺淤血、肺高壓與低心輸出。此時維持動脈導管開放並不能解決肺靜脈阻塞，反而可能因右向左分流惡化全身性低血氧，或加重肺淤血。其根本治療為緊急手術，使用 PGE1 無助於改善其血行動力學阻礙。\n\n【核心考點】\n前列腺素 E1（PGE1）的藥理作用、導管依賴型心臟病（肺循環與體循環依賴）的分類、以及全肺靜脈回流異常（TAPVR）合併阻塞的急症手術本質與禁忌原則。",
+      "key_point": "PGE1 用於維持動脈導管開放，適用於導管依賴型心臟病；但對全肺靜脈回流異常合併阻塞（TAPVR with obstruction）無效且可能有危害。",
+      "flashcard_summary": "PGE1 適用範圍 -> 用於導管依賴型 CHD (CoA, TA, critical PS)；TAPVR 合併阻塞使用 PGE1 無助且有害",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "在下列何種危急型先天性心臟病的新生兒中使用前列腺素E1(prostaglandin E1, PGE1),對病情最沒有幫 助? / prostaglandin E1 / PGE1",
-      "flashcard_back": "官方答案指向「D. 上心臟型全肺靜脈回流異常合併阻塞(supracardiac type total anomalous pulmonary venous return with obstruction)」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "使用 PGE1 (維持動脈導管開放)\n- 體循環/肺循環導管依賴型心臟病舉例？\n- 哪種急症型先天性心臟病使用 PGE1 最無幫助？",
+      "flashcard_back": "導管依賴型（如 CoA、TA、critical PS）使用 PGE1 可維持血流；但對 TAPVR 合併阻塞者無幫助，其關鍵在於緊急手術解除肺靜脈阻塞。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_008",
@@ -220,23 +220,23 @@
         "D": "主動脈弓中斷(interrupted aortic arch)"
       },
       "correct_answer": "C",
-      "explanation": "依目前資料，官方答案為「C. 輕度及中度肺動脈瓣狹窄 (mild or moderate pulmonary stenosis)」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：輕度及中度肺動脈瓣狹窄 (mild or moderate pulmonary stenosis)",
-      "flashcard_summary": "新生兒出生後24小時測量其上肢及下肢血氧飽和度,如果測得血氧異常且下肢血氧飽和度較上肢低10%,因 而懷疑是發紺型先天性心臟病,下列何者最不可能? -> C. 輕度及中度肺動脈瓣狹窄 (mild or moderate pulmonary stenosis)",
+      "explanation": "【題幹解析】\n題幹描述：新生兒出生後 24 小時篩檢，下肢血氧飽和度較上肢低 10% 且血氧異常。這在臨床上稱為「差別性發紺」（differential cyanosis）。其發生的機制是：在動脈導管（PDA）水平發生「右向左分流」（Right-to-Left shunt），使未氧合的右心血液（來自肺動脈）經由 PDA 流入降主動脈，導致下肢血氧下降，而主動脈弓分支（供應上肢及頭部）仍由左心室噴出的較氧合血供應。\n\n【選項詳解】\n- A. 左心室發育不全症候群(HLHS)：可能。由於左心室發育不全，體循環完全依賴右心室經由肺動脈和 PDA 提供下半身血流（右向左分流），常導致下肢血氧較低。\n- B. 大動脈轉位(TGA)：可能。TGA 的生理是體循環與肺循環並行。在合併有主動脈弓窄縮或肺高壓時，血液通過導管分流的方向或氧合程度的差異可能導致下肢血氧明顯低於上肢。\n- C. 輕度及中度肺動脈瓣狹窄 (mild or moderate PS)：最不可能。輕中度 PS 的右心壓力通常不足以高到引起嚴重的右向左分流，且其不屬於導管依賴型心臟病，在出生 24 小時篩檢時通常血氧值是正常的，不會呈現差別性發紺。\n- D. 主動脈弓中斷(IAA)：可能。IAA 病童的降主動脈完全由 PDA 的右心室缺氧血灌流，而上肢則由主動脈弓近端（左心室氧合血）灌流，因此會呈現典型的下肢血氧低於上肢的差別性發紺。\n\n【核心考點】\n差別性發紺（Differential Cyanosis）的血行動力學機轉（PDA 水平之右向左分流）、導管依賴型先天性心臟病的篩檢特徵。",
+      "key_point": "下肢血氧低於上肢（差別性發紺）常源於動脈導管水平的右向左分流，不見於輕中度肺動脈瓣狹窄。",
+      "flashcard_summary": "差別性發紺機轉與疾病 -> 肺動脈血經 PDA 右向左分流至下肢，見於 HLHS, IAA 等；輕中度 PS 不會出現",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "新生兒出生後24小時測量其上肢及下肢血氧飽和度,如果測得血氧異常且下肢血氧飽和度較上肢低10%,因 而懷疑是發紺型先天性心臟病,下列何者最不可能?",
-      "flashcard_back": "官方答案指向「C. 輕度及中度肺動脈瓣狹窄 (mild or moderate pulmonary stenosis)」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "差別性發紺 (下肢血氧低於上肢 10%)\n- 形成機轉？\n- 哪些心臟病會呈現此表現？\n- 輕中度肺動脈瓣狹窄 (PS) 是否會如此？",
+      "flashcard_back": "機轉為右心血經 PDA 右向左分流至降主動脈。見於 HLHS、IAA、TGA 合併梗阻；輕中度 PS 壓力不高且無此分流，故最不可能。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_009",
@@ -249,23 +249,23 @@
         "D": "手術治療唯一方法要先做腸造瘻口(ostomy),等嬰兒營養狀態改善後再做一次確切(definite)的手術"
       },
       "correct_answer": "C",
-      "explanation": "依目前資料，官方答案為「C. 腹脹是最常見症狀,嘔吐、生長不良、腹瀉都可能發生」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：腹脹是最常見症狀,嘔吐、生長不良、腹瀉都可能發生",
-      "flashcard_summary": "關於先天性巨大結腸症,下列敘述何者最適當? -> C. 腹脹是最常見症狀,嘔吐、生長不良、腹瀉都可能發生",
+      "explanation": "【題幹解析】\n先天性巨大結腸症（Hirschsprung disease）是因為胚胎發育期神經嵴細胞移行失敗，導致遠端腸道黏膜下神經叢和肌間神經叢缺乏神經節細胞（ganglion cells），使病變腸段持續收縮痙攣，無法蠕動，造成近端正常腸道代償性擴張肥大。\n\n【選項詳解】\n- A. 致病機轉為在脹大的結腸黏膜下層和肌間層缺少神經節細胞：錯誤。神經節細胞缺乏是發生在「遠端狹窄、未脹大」的腸段（通常是直腸和乙狀結腸）。近端「脹大」的結腸其實含有正常的神經節細胞，只是因為糞便積壓才發生代償性肥大。\n- B. 早產兒胎便超過48小時未解,可診斷此疾病：錯誤。雖然足月兒出生 48 小時內未解胎便是重要臨床警訊，但早產兒常因腸壁發育不成熟而有胎便延遲解出的生理現象，不能單憑此診斷。黃診診斷標準是直腸吸吮切片（rectal suction biopsy）確認無神經節細胞。\n- C. 腹脹是最常見症狀,嘔吐、生長不良、腹瀉都可能發生：正確。腹脹是最主要的臨床表現。病童也常有膽汁性嘔吐、慢性便秘和生長發育不良；若併發小腸結腸炎（Hirschsprung-associated enterocolitis, HAEC），則會以水瀉、發燒、甚至敗血症表現，是死亡的主要原因。\n- D. 手術治療唯一方法要先做腸造瘻口，等嬰兒營養狀態改善後再做一次確切的手術：錯誤。現代小兒外科技術成熟，若無嚴重併發症（如穿孔或重度腸炎），許多嬰兒可在新生兒期或數月大時直接進行一階段微創拉出手術（one-stage transanal pull-through），不需常規先做腸造口。\n\n【核心考點】\n先天性巨大結腸症的病理機轉位置（遠端無神經節細胞）、診斷黃金標準（直腸切片）、臨床症狀（腹脹、便秘、HAEC腹瀉）及現代手術原則。",
+      "key_point": "先天性巨大結腸症最常見症狀為腹脹，其神經節細胞缺乏是發生在遠端狹窄段而非近端脹大段。",
+      "flashcard_summary": "巨大結腸症病理與處置 -> 遠端狹窄段無神經節細胞；主訴為腹脹；可採一階段拉出手術而不必常規造瘻",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於先天性巨大結腸症,下列敘述何者最適當?",
-      "flashcard_back": "官方答案指向「C. 腹脹是最常見症狀,嘔吐、生長不良、腹瀉都可能發生」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "先天性巨大結腸症 (Hirschsprung disease)\n- 缺乏神經節細胞的部位？\n- 最常見臨床表現？\n- 是否必須接受兩階段手術 (造瘻再拉出)？",
+      "flashcard_back": "缺乏神經節位於遠端狹窄處，近端脹大處正常。最常見症狀為腹脹。現代多可採一階段拉出手術，不須常規造瘻。",
       "category_group": "醫學（四）",
-      "category": "外科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_010",
@@ -278,23 +278,23 @@
         "D": "應常規給與預防性廣效型抗生素"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 應常規給與預防性廣效型抗生素」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：應常規給與預防性廣效型抗生素",
-      "flashcard_summary": "歲男童,體重85公斤,因為發燒、上腹痛、背痛與嘔吐到兒科急診就醫。男童無外傷、排尿正常及無腹 瀉。身體診察顯示上腹部與背部有壓痛(tenderness);血清脂解酶(lipase)濃度... / tenderness / lipase -> D. 應常規給與預防性廣效型抗生素",
+      "explanation": "【題幹解析】\n12歲男童表現為發燒、上腹痛與背痛、嘔吐，且 Lipase 濃度達正常值上限之 5 倍，且超音波顯示胰臟腫大，高度符合「急性胰臟炎」（Acute Pancreatitis）診斷。本題要求選出最不適當的處置。\n\n【選項詳解】\n- A. 給與鎮痛藥物以控制疼痛：適當。控制急性胰臟炎的劇烈腹痛是基本支持治療，可用適當止痛劑以減輕病患痛苦。\n- B. 積極給與靜脈輸液補充治療：適當。早期積極的靜脈輸液（fluid resuscitation）能維持血管內容積，確保胰臟微循環灌流，防範壞死，是改善預後的最關鍵步驟。\n- C. 停止嘔吐後即可開始進食：適當。目前的醫學實證與指南皆提倡「早期經口進食」（early enteral feeding）。只要病童沒有持續嘔吐、腸蠕動恢復且疼痛改善，應儘早給予低脂飲食或要素飲食，避免長期禁食（NPO）導致腸道黏膜萎縮及細菌移生。\n- D. 應常規給與預防性廣效型抗生素：不適當（錯誤）。急性胰臟炎在疾病初期多為無菌性發炎，常規預防性給予廣效抗生素並不能降低感染率或死亡率，反而會增加多重耐藥菌或黴菌感染風險。僅在有明確感染證據（如膽管炎、壞死組織感染、敗血症）時才使用抗生素。\n\n【核心考點】\n兒童急性胰臟炎的診斷標準（臨床症狀、Lipase/Amylase 3倍以上、影像學）、治療原則（輸液 Resuscitation、疼痛控制、早期進食、避免常規抗生素）。",
+      "key_point": "小兒急性胰臟炎主要採支持療法與早期進食，不應常規使用預防性抗生素。",
+      "flashcard_summary": "急性胰臟炎處置原則 -> 積極輸液、止痛、早期進食；禁忌常規預防性抗生素",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "歲男童,體重85公斤,因為發燒、上腹痛、背痛與嘔吐到兒科急診就醫。男童無外傷、排尿正常及無腹 瀉。身體診察顯示上腹部與背部有壓痛(tenderness);血清脂解酶(lipase)濃度... / tenderness / lipase",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 應常規給與預防性廣效型抗生素」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "兒童急性胰臟炎處置\n- 核心支持療法三原則？\n- 是否需要常規給予預防性抗生素？",
+      "flashcard_back": "早期積極靜脈輸液、有效止痛、以及症狀改善後儘早進食。不應常規使用預防性抗生素，僅在合併感染時使用。",
       "category_group": "醫學（四）",
-      "category": "其他",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:16.195968+00:00"
     },
     {
       "id": "113-1_medicine-4_011",
@@ -307,23 +307,23 @@
         "D": "E型"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. B型」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：B型",
-      "flashcard_summary": "下列肝炎病毒中,何者最容易經由媽媽垂直感染嬰兒? -> B. B型",
+      "explanation": "【題幹解析】\n病毒性肝炎的傳播途徑各不相同。垂直感染（垂直傳播/母嬰感染，vertical transmission）是指病原體在妊娠、分娩或產後哺乳期間，由母親直接傳播給胎兒或新生兒的過程。在所有肝炎病毒中，B型肝炎病毒（HBV）的垂直感染率最高、臨床意義最重大。\n\n【選項詳解】\n- A. A型：主要經由糞口途徑（fecal-oral route）傳播，極少發生母嬰垂直傳播。\n- B. B型：最容易發生垂直感染。若母親為高傳染性（HBeAg 陽性），且新生兒出生後未接受被動與主動免疫（HBIG 與 B肝疫苗），垂直感染的機率高達 90%。垂直感染的嬰兒有極高比例（約 90%）會轉為慢性帶原者，長大後易發展為肝硬化與肝癌。\n- C. C型：主要透過血液或體液傳播。C型肝炎病毒（HCV）雖然也有母嬰傳播風險，但垂直感染率相對較低，約為 3% 至 6%，顯著低於 B型肝炎。\n- D. E型：同樣主要經由糞口途徑傳播。雖然孕婦感染 E型肝炎的死亡率較高，但其主要的傳播模式並非母嬰垂直感染。\n\n【核心考點】\n各型肝炎病毒的傳播途徑與臨床特徵，特別是 B型肝炎病毒的高垂直感染率及其預防原則（疫苗與 HBIG 的使用）。",
+      "key_point": "B型肝炎病毒是已知最容易經由垂直感染傳播給新生兒的肝炎病毒。",
+      "flashcard_summary": "垂直感染最強肝炎病毒 -> B型肝炎，未預防時母嬰傳染率高達90%",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "下列肝炎病毒中,何者最容易經由媽媽垂直感染嬰兒?",
-      "flashcard_back": "官方答案指向「B. B型」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "肝炎病毒母嬰傳播\n- 垂直感染率最高、最容易慢性化的肝炎病毒？\n- 若母親 HBeAg 陽性且未預防，新生兒感染率為？",
+      "flashcard_back": "B型肝炎病毒。未經預防時垂直感染率高達 90%，且 90% 感染嬰兒會轉為慢性帶原。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_012",
@@ -336,23 +336,23 @@
         "D": "使用藥物cyclosporine(calcineurin inhibitor)"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. 使用藥物furosemide(diuretics)」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：使用藥物furosemide(diuretics)",
-      "flashcard_summary": "下列何者最不可能引起高血鉀? -> B. 使用藥物furosemide(diuretics)",
+      "explanation": "【題幹解析】\n高血鉀（hyperkalemia）定義為血清鉀離子濃度大於 5.5 mEq/L。其主要成因包括：腎臟排鉀減少、細胞內鉀離子向細胞外轉移、或是攝入過多。本題要求選出「最不可能」引起高血鉀的選項。\n\n【選項詳解】\n- A. 腎衰竭(renal failure)：會引起高血鉀。腎小球濾過率下降以及遠端腎小管排鉀功能受損，是臨床上最常見且最危險的高血鉀成因。\n- B. 使用藥物furosemide(diuretics)：最不可能引起高血鉀（會引起低血鉀）。Furosemide 是環利尿劑（loop diuretic），作用於亨利氏環粗上升支的 Na-K-2Cl 共轉運體，會抑制鈉和氯的重吸收，導致水、鈉、氯流失，並顯著增加遠端腎小管排鉀量，因此臨床副作用為「低血鉀」。\n- C. 橫紋肌溶解症(rhabdomyolysis)：會引起高血鉀。大量骨骼肌細胞壞死會釋放細胞內豐富的鉀離子進入血液中，是急性高血鉀的常見且嚴重的原因。\n- D. 使用藥物cyclosporine(calcineurin inhibitor)：會引起高血鉀。Cyclosporine 作為鈣調磷酸酶抑制劑，會降低腎臟灌流，並造成低醛固酮狀態或阻斷集尿管對醛固酮的反應，進而減少鉀離子的分泌排出，常導致高血鉀。\n\n【核心考點】\n高血鉀的常見病因（腎功能衰竭、溶血/橫紋肌溶解、特定藥物如 CNI、保鉀利尿劑）以及常用利尿劑（如 Loop diuretics/Furosemide）造成低血鉀的藥理機轉。",
+      "key_point": "環利尿劑 Furosemide 會促進鉀離子排出，引發低血鉀而非高血鉀。",
+      "flashcard_summary": "Furosemide 與血鉀 -> Loop 利尿劑促進排鉀，引發低血鉀而非高血鉀",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "下列何者最不可能引起高血鉀?",
-      "flashcard_back": "官方答案指向「B. 使用藥物furosemide(diuretics)」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "高血鉀 vs. 利尿劑\n- Furosemide 對血鉀濃度的影響？\n- 哪些因素常引起高血鉀？ (列舉3個)",
+      "flashcard_back": "Furosemide 增加尿鉀排出，導致「低血鉀」。高血鉀常見於腎衰竭、橫紋肌溶解、CNI 類藥物 (Cyclosporine) 等。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_013",
@@ -365,23 +365,23 @@
         "D": "藥物治療上建議使用thiazide類的利尿劑"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. 大多數的CNDI是因AQP2基因突變引起」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：大多數的CNDI是因AQP2基因突變引起",
-      "flashcard_summary": "關於先天性腎源性尿崩症(congenital nephrogenic diabetes insipidus, CNDI),下列敘述何者最不適 當? / congenital nephrogenic diabetes insipidus -> B. 大多數的CNDI是因AQP2基因突變引起",
+      "explanation": "【題幹解析】\n先天性腎源性尿崩症（Congenital Nephrogenic Diabetes Insipidus, CNDI）是由於腎小管（主要是收集管）對抗利尿激素（ADH/vasopressin）完全或部分無反應，導致腎臟失去濃縮尿液的能力，患者會排出大量稀釋尿，並有嚴重口渴及多尿症狀。\n\n【選項詳解】\n- A. 最常見的遺傳模式是X-linked recessive：正確。約 90% 的 CNDI 患者呈 X 染色體聯鎖隱性遺傳，主要影響男性。\n- B. 大多數的CNDI是因AQP2基因突變引起：錯誤（最不適當）。約 90% 的 CNDI 是由位於 Xq28 的 「AVPR2 基因」（編碼 V2 血管加壓素受體）突變引起。而由 「AQP2 基因」（編碼水通道蛋白-2）突變所致的 CNDI 僅占約 10%，主要呈現體染色體隱性（少數為顯性）遺傳。\n- C. CNDI的治療包括要限制鈉的攝取量：正確。限制飲食中的鈉和蛋白質（溶質）攝取，可減少腎臟的溶質排泄負荷（solute load），進而減少尿量。\n- D. 藥物治療上建議使用thiazide類的利尿劑：正確。Thiazide 類利尿劑會抑制遠曲小管鈉的重吸收，導致輕微的鈉排泄增加與輕度血容量減少，進而刺激近曲小管對水與鈉的重吸收，減少送達集尿管的尿量，發揮反常的「抗利尿/減少尿量」作用。\n\n【核心考點】\n先天性腎源性尿崩症（CNDI）的致病基因（90% 為 AVPR2，10% 為 AQP2）、遺傳學規律（X-linked 占多數）及治療策略（低鈉飲食、Thiazide 類利尿劑的反常利尿機制）。",
+      "key_point": "先天性腎源性尿崩症（CNDI）九成由 AVPR2 基因突變引起，呈 X 染色體隱性遺傳，非 AQP2 突變為主。",
+      "flashcard_summary": "CNDI 致病基因與遺傳 -> 90%為AVPR2基因突變 (X-linked 隱性)，AQP2突變僅占10%",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於先天性腎源性尿崩症(congenital nephrogenic diabetes insipidus, CNDI),下列敘述何者最不適 當? / congenital nephrogenic diabetes insipidus",
-      "flashcard_back": "官方答案指向「B. 大多數的CNDI是因AQP2基因突變引起」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "先天性腎源性尿崩症 (CNDI)\n- 最常見的致病基因與遺傳模式？\n- AQP2 突變所占比例與遺傳模式？\n- 常用治療藥物？",
+      "flashcard_back": "最常見為 AVPR2 基因突變 (占 90%，X-linked 隱性)；AQP2 僅占 10% (體染色體)。治療常使用 Thiazide 類利尿劑及限鈉飲食。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_014",
@@ -394,23 +394,23 @@
         "D": "應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍",
-      "flashcard_summary": "關於兒童急性腎損傷(acute kidney injury, AKI)的診斷與處置,下列何者最不適當? / acute kidney injury / AKI -> D. 應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍",
+      "explanation": "【題幹解析】\n本題考查兒童急性腎損傷（AKI）併發症（高血鉀、酸中毒、無尿）的診斷與臨床處置原則。\n\n【選項詳解】\n- A. 高血鉀症的心電圖變化包括:高T波、QRS波變寬、ST節段下降等：正確。血鉀升高時典型心電圖進展為：高尖對稱 T 波、PR 間期延長、QRS 波增寬，嚴重時會出現 ST 段下降、正弦波形（sine wave）。\n- B. 高血鉀症時,使用葡萄糖酸鈣(calcium gluconate)可快速的穩定心肌,但並無降血鉀功能：正確。靜脈注射鈣離子能迅速拮抗鉀離子對心肌細胞膜電位的毒性影響，穩定細胞膜，但它不能將鉀離子移入細胞內或排出體外，因此無降血鉀效果。\n- C. 在身體水份足夠前提下,對利尿劑(furosemide)完全無反應,應即停用利尿劑並限水：正確。若水份充足且已使用大劑量利尿劑仍無尿，代表腎功能已極度衰竭，此時繼續給藥不僅無助於排尿，還會增加利尿劑的耳毒性等副作用，應立即停藥並實施嚴格限水（以防液體過負荷與心衰竭）。\n- D. 應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍：錯誤（最不適當）。在 AKI 的代謝性酸中毒中，不建議常規或積極地補充 NaHCO3 將血中 HCO3 提升到正常範圍（20-26 mEq/L）。因為快速補鹼會引入大量鈉離子，加重水分滯留與高血壓；且會降低游離鈣離子，誘發抽搐；並可能造成反彈性細胞內酸中毒。僅在嚴重的酸血症（如 pH < 7.15 或 HCO3 < 10-12 mEq/L）且有血行動力學影響時，才謹慎補充。\n\n【核心考點】\n急性腎損傷的高血鉀心電圖表現與緊急處置（鈣離子的心肌穩定作用）、無尿期的液體管理原則，以及代謝性酸中毒的補鹼限制與風險。",
+      "key_point": "兒童急性腎損傷伴隨酸中毒時，不應常規且積極地補充 NaHCO3 至正常範圍，以防液體過載與血鈣下降。",
+      "flashcard_summary": "AKI 補鹼與鈣離子原則 -> 鈣離子僅穩定心肌無降鉀作用；酸中毒禁忌常規積極補鹼至正常值",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於兒童急性腎損傷(acute kidney injury, AKI)的診斷與處置,下列何者最不適當? / acute kidney injury / AKI",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 應積極的補充碳酸氫鈉(NaHCO3),以維持重碳酸鹽(HCO3)在20~26 mEq/L的範圍」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "急性腎損傷 (AKI) 併發症處置\n- 葡萄糖酸鈣 (Calcium gluconate) 的作用？\n- 補鹼 (NaHCO3) 的指引與風險？",
+      "flashcard_back": "鈣離子用來穩定心肌細胞膜防心律不整，無降鉀效果。不應常規積極補鹼至正常值，以防液體過載、低游離鈣與鈉過載。",
       "category_group": "醫學（四）",
-      "category": "兒科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_015",
@@ -423,23 +423,23 @@
         "D": "其titer高低與SLE的疾病活性(disease activity)無關"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. 正常人不到1%會呈現陽性,因此特異度(specificity)達90%」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：正常人不到1%會呈現陽性,因此特異度(specificity)達90%",
-      "flashcard_summary": "有關antinuclear antibody(ANA)呈現陽性,下列敘述何者最不適當? / antinuclear antibody / ANA -> B. 正常人不到1%會呈現陽性,因此特異度(specificity)達90%",
+      "explanation": "【題幹解析】\n抗核抗體（Antinuclear Antibody, ANA）是風濕免疫科最重要的篩檢型自體免疫抗體。本題考查其臨床敏感度、特異度與效價（titer）的臨床意義。\n\n【選項詳解】\n- A. 通常titer越高,自體免疫疾病的可能性越高：正確。ANA 滴度較低（如 1:40）在正常人中很常見，但滴度越高（如 ≥ 1:160 或 1:320），與系統性紅斑性狼瘡、乾燥症等結締組織疾病的相關性與診斷預測值就越高。\n- B. 正常人不到1%會呈現陽性,因此特異度(specificity)達90%：錯誤（最不適當）。健康人群中 ANA 的陽性率相當高。以 1:40 為界限時，約有 20% 至 30% 的正常健康人呈現陽性；即使以 1:80 為界限，也有約 10% 至 15% 的健康人呈陽性。因此 ANA 是一個「高敏感度、低特異度」的篩檢指標，特異度不高。\n- C. 95%以上的systemic lupus erythematosus(SLE)患者會呈現陽性：正確。ANA 對未治療的活動性 SLE 患者之敏感度大於 95%（甚至達 99%），因此臨床上常用於排除診斷（若 ANA 為陰性，基本可排除 SLE）。\n- D. 其titer高低與SLE的疾病活性(disease activity)無關：正確。ANA 一旦呈現陽性，其滴度（titer）的上下波動與 SLE 疾病活性的起伏沒有直接關聯，臨床上不用於評估或監測疾病活動度（評估活動度首選 C3、C4 和 Anti-dsDNA 滴度）。\n\n【核心考點】\n抗核抗體（ANA）的檢驗特性（高敏感度、低特異度）、在健康人群中的陽性分布，以及其效價與 SLE 疾病活動度無關的觀念。",
+      "key_point": "抗核抗體（ANA）的特異度低，健康人群中有 10% - 15% 可呈現低滴度陽性。",
+      "flashcard_summary": "ANA 臨床應用 -> 高敏感度低特異度，健康人亦可呈陽性；滴度高低與 SLE 疾病活性無關",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "有關antinuclear antibody(ANA)呈現陽性,下列敘述何者最不適當? / antinuclear antibody / ANA",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「B. 正常人不到1%會呈現陽性,因此特異度(specificity)達90%」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "抗核抗體 (ANA) 檢驗特性\n- 診斷 SLE 的敏感度與特異度表現？\n- ANA 效價 (titer) 是否能用來監測 SLE 的疾病活性？",
+      "flashcard_back": "高敏感度 (>95%) 但低特異度。健康人有 10-15% 呈低滴度陽性。ANA 效價高低與 SLE 疾病活性無關，不作監測工具。",
       "category_group": "醫學（四）",
-      "category": "其他",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_016",
@@ -452,23 +452,23 @@
         "D": "影響血液系統會造成白血球及血小板上升"
       },
       "correct_answer": "D",
-      "explanation": "依目前資料，官方答案為「D. 影響血液系統會造成白血球及血小板上升」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：影響血液系統會造成白血球及血小板上升",
-      "flashcard_summary": "關於全身性紅斑性狼瘡(systemic lupus erythematosus, SLE),下列敘述何者最不適當? / systemic lupus erythematosus / SLE -> D. 影響血液系統會造成白血球及血小板上升",
+      "explanation": "【題幹解析】\n全身性紅斑性狼瘡（Systemic Lupus Erythematosus, SLE）是一種多器官受累的慢性自體免疫疾病，其特徵是體內產生多種針對自身組織的自體抗體。本題考查其致病機轉、流行病學特徵及血液系統的臨床表現。\n\n【選項詳解】\n- A. 引起腎絲球腎炎最主要的致病機轉為免疫複合體沉積：正確。狼瘡性腎炎的核心病理生理機制是，循環中的自體抗體與抗原結合形成「免疫複合體」（immune complexes），沉積在腎絲球的繫膜區、內皮下或上皮下，進而活化補體（classical pathway），吸引發炎細胞浸潤造成損傷。\n- B. 是一種慢性發炎性疾病：正確。SLE 病程呈慢性、反覆緩解與惡化的發炎過程。\n- C. 好發於女性：正確。特別好發於生育年齡的女性，育齡期男女比例可達 9:1。\n- D. 影響血液系統會造成白血球及血小板上升：錯誤（最不適當）。SLE 影響血液系統時，主要是由於產生針對血細胞的破壞性自體抗體，導致「三系細胞減少症」（cytopenias），包括：白血球低下（leukopenia < 4,000/μL）、淋巴球低下（lymphopenia < 1,500/μL）、血小板低下（thrombocytopenia < 100,000/μL），以及自體免疫溶血性貧血，而非造成上升。\n\n【核心考點】\nSLE 引起的狼瘡性腎炎免疫學機轉、流行病學特徵（育齡女性好發），以及血液學診斷標準（白血球、淋巴球、血小板低下）。",
+      "key_point": "系統性紅斑性狼瘡（SLE）侵犯血液系統時，主要導致白血球、血小板及淋巴球低下，非白血球或血小板上升。",
+      "flashcard_summary": "SLE 血液系統表現 -> 產生自體抗體導致白血球、淋巴球及血小板低下，而非上升",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於全身性紅斑性狼瘡(systemic lupus erythematosus, SLE),下列敘述何者最不適當? / systemic lupus erythematosus / SLE",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 影響血液系統會造成白血球及血小板上升」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "SLE 血液學診斷標準\n- 血液三系常呈現上升還是下降？\n- 具體的血細胞數量診斷切點？",
+      "flashcard_back": "主要呈現三系細胞「下降」：白血球 < 4000/μL、淋巴球 < 1500/μL、血小板 < 100,000/μL，以及溶血性貧血。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_017",
@@ -481,23 +481,23 @@
         "D": "具家族史及血中極高的IgE為預後不佳之指標"
       },
       "correct_answer": "A",
-      "explanation": "依目前資料，官方答案為「A. 大部分患童在一出生即有皮膚炎表現」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：大部分患童在一出生即有皮膚炎表現",
-      "flashcard_summary": "有關嬰兒異位性皮膚炎(atopic dermatitis),下列敘述何者最不適當? / atopic dermatitis -> A. 大部分患童在一出生即有皮膚炎表現",
+      "explanation": "【題幹解析】\n異位性皮膚炎（Atopic Dermatitis, AD）在嬰兒期的臨床表現、好發部位及預後有其特殊性。本題考查嬰兒期 AD 的臨床特徵。\n\n【選項詳解】\n- A. 大部分患童在一出生即有皮膚炎表現：錯誤（最不適當）。大部分異位性皮膚炎病童在剛出生時皮膚是正常的。症狀通常在出生後 2 至 3 個月大時才逐漸顯現，表現為皮膚乾燥與極度瘙癢。若一出生就有全身紅疹或嚴重脫屑，應考慮脂漏性皮膚炎、新生兒中毒性紅斑或遺傳性魚鱗癬等其他疾病。\n- B. 長大後較易罹患氣喘及過敏性鼻炎：正確。這符合著名的「過敏進行曲」（atopic march）進程，即嬰幼兒期先出現異位性皮膚炎與食物過敏，長大後接續發展出氣喘及過敏性鼻炎。\n- C. 嬰兒期好發於兩頰、頭皮與四肢伸側：正確。嬰幼兒期 AD 典型病灶分布於臉頰、額頭、頭皮，以及四肢的「伸側」（如膝蓋、手肘外側）。這與較大兒童或成人好發於關節「屈側」（如肘窩、膕窩、頸部）的特徵明顯不同。\n- D. 具家族史及血中極高的IgE為預後不佳之指標：正確。有強烈的家族過敏史、血清總 IgE 濃度極高，或合併有多重過敏症狀，通常代表病情較頑固，長大後較難自癒。\n\n【核心考點】\n嬰兒期異位性皮膚炎的發病年齡規律（2-3個月大起）、皮損分布特徵（兩頰、頭皮、伸側）、過敏進行曲概念及預後指標。",
+      "key_point": "嬰兒異位性皮膚炎通常在出生2至3個月後才開始出現，並非一出生即有表現。",
+      "flashcard_summary": "嬰兒期 AD 特徵 -> 通常出生後2-3個月發病，好發於兩頰與伸側，非一出生即有",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "有關嬰兒異位性皮膚炎(atopic dermatitis),下列敘述何者最不適當? / atopic dermatitis",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「A. 大部分患童在一出生即有皮膚炎表現」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "嬰兒期異位性皮膚炎 (AD)\n- 常見發病年齡？\n- 典型皮損好發部位與成人有何不同？",
+      "flashcard_back": "通常在出生 2-3 個月大後發病 (一出生無症狀)。好發於兩頰、頭皮與四肢伸側；成人則好發於關節屈側。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_018",
@@ -510,23 +510,23 @@
         "D": "TLX1/HOX11;t(10;14)"
       },
       "correct_answer": "C",
-      "explanation": "依目前資料，官方答案為「C. KMT2A(MLL)-AF4;t(4;11)」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：KMT2A(MLL)-AF4;t(4;11)",
-      "flashcard_summary": "在急性淋巴性白血病中,下列何種分子或染色體變化代表預後不佳? -> C. KMT2A(MLL)-AF4;t(4;11)",
+      "explanation": "【題幹解析】\n在小兒急性淋巴性白血病（Acute Lymphoblastic Leukemia, ALL）中，染色體核型與融合基因等細胞遺傳學特徵是目前評估預後分群（Risk Stratification）及制定治療強度的最關鍵指標。\n\n【選項詳解】\n- A. ETV6-RUNX1;t(12;21)：預後佳。這是小兒 B-ALL 中最常見的染色體易位，形成 ETV6-RUNX1 融合基因，代表對化療反應極佳，預後非常好。\n- B. hyperdiploidy;>50 chromosomes：預後佳。高超二倍體（染色體數大於 50 條）在小兒 ALL 中也代表預後良好的指標，治癒率高。\n- C. KMT2A(MLL)-AF4;t(4;11)：預後極差（符合題意）。KMT2A（舊稱 MLL）基因在染色體 11q23 位置發生重組，特別是 t(4;11) 形成的 KMT2A-AFF1（MLL-AF4）融合基因，常見於小於 1 歲的嬰兒白血病（infant ALL），具有高度侵襲性、易侵犯中樞神經系統且極易復發，屬於高危險群，預後非常差。\n- D. TLX1/HOX11;t(10;14)：常見於 T 細胞型 ALL（T-ALL），一般預後比 MLL 重組要好得多，不屬於最典型的不良預後指標。\n\n【核心考點】\n小兒 ALL 預後指標：預後良好（t(12;21) ETV6-RUNX1, hyperdiploidy > 50）；預後極差（t(4;11) KMT2A-AF4, hypodiploidy < 44 條, t(9;22) BCR-ABL1/費城染色體）。",
+      "key_point": "小兒急性淋巴性白血病中，t(4;11) MLL-AF4 融合基因代表極差之不良預後。",
+      "flashcard_summary": "小兒 ALL 預後基因 -> t(12;21)預後極佳，t(4;11) KMT2A-AF4預後極差",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "在急性淋巴性白血病中,下列何種分子或染色體變化代表預後不佳?",
-      "flashcard_back": "官方答案指向「C. KMT2A(MLL)-AF4;t(4;11)」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "小兒 ALL 預後細胞遺傳學指標\n- 預後極佳/良之染色體變異？ (列2個)\n- 預後極差之易位融合基因？ (特別在嬰兒)",
+      "flashcard_back": "良好：t(12;21) ETV6-RUNX1 及高超二倍體 (>50)。不良：t(4;11) KMT2A-AF4 融合基因 (多見於 infant ALL)。",
       "category_group": "醫學（四）",
-      "category": "其他",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_019",
@@ -539,23 +539,23 @@
         "D": "Li-Fraumeni症候群:肉瘤、腎上腺皮質上皮瘤、乳癌"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. 神經纖維瘤第2型:視神經膠質瘤(optic glioma)」。題幹要求辨認錯誤或不適當敘述，因此此選項代表需特別修正的觀念；建議複習時對照其他選項，釐清正確規則。",
-      "key_point": "辨認題幹線索並連到：神經纖維瘤第2型:視神經膠質瘤(optic glioma)",
-      "flashcard_summary": "關於遺傳性癌症易感症候群(syndromes predisposing to cancer)與其較可能罹患腫瘤的對照,下列何者 最不適當? / syndromes predisposing to cancer -> B. 神經纖維瘤第2型:視神經膠質瘤(optic glioma)",
+      "explanation": "【題幹解析】\n本題考查常見的遺傳性癌症易感症候群（hereditary cancer syndromes）與其臨床好發腫瘤的關聯性。\n\n【選項詳解】\n- A. 神經纖維瘤第1型:惡性周邊神經鞘腫瘤：正確。NF1（咖啡牛奶斑、多發性神經纖維瘤）患者，體內良性的叢狀神經纖維瘤有約 5% 至 10% 的終生風險轉變為惡性周邊神經鞘瘤（MPNST），這是 NF1 最常見的惡性轉化。\n- B. 神經纖維瘤第2型:視神經膠質瘤：錯誤（最不適當）。「視神經膠質瘤」（optic pathway glioma）是神經纖維瘤「第一型（NF1）」的特徵性腫瘤之一，多見於幼童。神經纖維瘤「第二型（NF2）」的病徵主要是雙側前庭神經鞘瘤（bilateral acoustic neuromas）、多發性腦膜瘤（multiple meningiomas）及脊髓室管膜瘤（spinal ependymomas）。\n- C. 家族性視網膜母細胞瘤(familial retinoblastoma):骨肉瘤：正確。帶有生殖細胞 RB1 基因突變的遺傳性 Rb 患者，在治癒眼部腫瘤後，未來發生第二惡性腫瘤的機率極高，其中最常見的即為「骨肉瘤」（osteosarcoma）。\n- D. Li-Fraumeni症候群:肉瘤、腎上腺皮質上皮瘤、乳癌：正確。Li-Fraumeni 症候群是由 TP53 基因突變引起的體染色體顯性遺傳病，患者極易在中青年期罹患多種癌症，典型癌症譜包括乳癌、軟組織肉瘤、骨肉瘤、腦瘤及腎上腺皮質癌（LFS 的核心腫瘤）。\n\n【核心考點】\n神經纖維瘤第一型（NF1，體染色體顯性，NF1 基因，視神經膠質瘤）與第二型（NF2，NF2 基因，雙側前庭神經鞘瘤）的鑑別診斷；RB1 基因突變與骨肉瘤關係；TP53/Li-Fraumeni 症候群之癌症特性。",
+      "key_point": "神經纖維瘤第二型（NF2）之特徵性腦瘤為雙側前庭神經鞘瘤及腦膜瘤，視神經膠質瘤是第一型（NF1）的特徵。",
+      "flashcard_summary": "NF1與NF2腫瘤差異 -> 視神經膠質瘤屬於NF1；雙側前庭神經鞘瘤/聽神經瘤屬於NF2",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "關於遺傳性癌症易感症候群(syndromes predisposing to cancer)與其較可能罹患腫瘤的對照,下列何者 最不適當? / syndromes predisposing to cancer",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「B. 神經纖維瘤第2型:視神經膠質瘤(optic glioma)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "神經纖維瘤 NF1 vs. NF2 腫瘤特徵\n- 視神經膠質瘤好發於哪一型？\n- 雙側聽神經瘤 (前庭神經鞘瘤) 好發於哪一型？",
+      "flashcard_back": "視神經膠質瘤見於 NF1；雙側前庭神經鞘瘤 (聽神經瘤) 及多發性腦膜瘤是 NF2 的診斷核心指標。",
       "category_group": "醫學（四）",
-      "category": "內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_020",
@@ -568,23 +568,23 @@
         "D": "針對此男童,退燒藥選擇aspirin(acetylsalicylic acid)比diclofenac更適合"
       },
       "correct_answer": "B",
-      "explanation": "依目前資料，官方答案為「B. 此男童的周邊血液抹片檢查可能見到bite cell型態的紅血球」。本題適合用題幹中的關鍵線索回推考點，再用定義、機轉、典型表現或處置原則排除其他選項。",
-      "key_point": "辨認題幹線索並連到：此男童的周邊血液抹片檢查可能見到bite cell型態的紅血球",
-      "flashcard_summary": "歲蠶豆症(G6PD deficiency)男童在吃了一整包蠶豆酥的隔天,出現了深色尿、黃皮膚。抽血檢查發現Hb 7.5 gm/dL。關於男童的情況,下列敘述何者最適當? / G6PD deficiency / gm/dL -> B. 此男童的周邊血液抹片檢查可能見到bite cell型態的紅血球",
+      "explanation": "【題幹解析】\n3歲男童有 G6PD 缺乏症（蠶豆症），食用蠶豆酥隔天出現深色尿（血紅素尿）、黃疸（溶血性黃疸）與貧血（Hb 7.5 gm/dL），為典型急性氧化壓力誘發之急性溶血性貧血。\n\n【選項詳解】\n- A. 蠶豆症為體隱性遺傳，是臺灣新生兒篩檢項目之一：錯誤。G6PD 缺乏症屬於「X染色體聯鎖隱性遺傳」（X-linked recessive），因此男性患者遠多於女性。它確實是台灣的新生兒篩檢項目。\n- B. 此男童的周邊血液抹片檢查可能見到bite cell型態的紅血球：正確。在氧化壓力下，紅血球內的血紅素被氧化變性沉澱，形成海因茲小體（Heinz bodies）。當這些異常紅血球通過脾臟時，脾臟的巨噬細胞會咬掉這些沉澱物，使紅血球在抹片中呈現被「咬」掉一口的形狀，即為「咬痕細胞」（bite cells）或「水泡細胞」（blister cells）。\n- C. 此男童應該是產生了Coombs test positive hemolysis：錯誤。G6PD 引起的溶血是因為酵素缺乏導致紅血球無法抵抗氧化壓力而破損，是非免疫性溶血（non-immune hemolysis），因此 Coombs test（直接抗球蛋白試驗）應為「陰性」（negative）。\n- D. 針對此男童,退燒藥選擇aspirin比diclofenac更適合：錯誤。Aspirin（乙醯柳酸）是一種強氧化劑藥物，會誘發 G6PD 患者急性溶血，屬於「禁用/避免」藥物。若需退燒，應使用非類固醇抗發炎藥（如 Diclofenac）或 Acetaminophen，不可使用 Aspirin。\n\n【核心考點】\nG6PD 缺乏症的遺傳模式（X-linked recessive）、急性溶血的抹片特徵（Bite cells, Heinz bodies）、非免疫性溶血本質（Coombs test negative）及禁忌藥物（如 Aspirin、樟腦丸、磺胺類藥物）。",
+      "key_point": "G6PD 缺乏症急性溶血時，周邊血液抹片可見海因茲小體被脾臟切除後留下的咬痕細胞（bite cells）。",
+      "flashcard_summary": "G6PD 缺乏症急性溶血 -> X-linked 隱性；抹片呈 bite cells，Coombs 陰性，禁用 Aspirin",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "歲蠶豆症(G6PD deficiency)男童在吃了一整包蠶豆酥的隔天,出現了深色尿、黃皮膚。抽血檢查發現Hb 7.5 gm/dL。關於男童的情況,下列敘述何者最適當? / G6PD deficiency / gm/dL",
-      "flashcard_back": "官方答案指向「B. 此男童的周邊血液抹片檢查可能見到bite cell型態的紅血球」。複習時請回到題幹線索，確認定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "蠶豆症 (G6PD 缺乏症) 急性溶血\n- 遺傳模式？\n- 血液抹片特徵？\n- Coombs 試驗結果？\n- 禁用退燒藥物？",
+      "flashcard_back": "X-linked 隱性遺傳。抹片可見 bite cells (咬痕細胞)。Coombs test 呈陰性。禁用 Aspirin 類氧化性退燒藥。",
       "category_group": "醫學（四）",
-      "category": "婦產科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:39:12.571616+00:00"
+      "category": "小兒科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:44.861390+00:00"
     },
     {
       "id": "113-1_medicine-4_021",

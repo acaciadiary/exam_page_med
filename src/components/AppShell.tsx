@@ -132,8 +132,8 @@ export function AppShell({
   const navigationItems = [
     {
       page: "exam" as const,
-      label: "國考題",
-      mobileLabel: "國考題",
+      label: "歷屆國考",
+      mobileLabel: "國考",
       icon: <BookOpenCheck size={18} />,
     },
     {
@@ -320,7 +320,7 @@ export function AppShell({
             title={isSidebarCollapsed ? "展開左側導覽列" : "收合左側導覽列"}
           >
             {isSidebarCollapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
-            {!isSidebarCollapsed && <span>收合導覽列</span>}
+            {!isSidebarCollapsed && <span>收合</span>}
           </button>
         </div>
 

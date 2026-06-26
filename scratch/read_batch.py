@@ -1,39 +1,27 @@
 import json
 import sys
 
-def print_batch(exam_file, start_idx, end_idx, output_file=None):
-    with open(exam_file, "r", encoding="utf-8") as f:
+def print_batch(start_idx, end_idx):
+    with open('public/data/exams/113-1/medicine-3.json', encoding='utf-8') as f:
         data = json.load(f)
-    questions = data["questions"][start_idx:end_idx]
     
-    out_lines = []
-    for i, q in enumerate(questions):
-        idx = start_idx + i + 1
-        out_lines.append(f"=== Q{idx}: {q['id']} (Answer: {q['correct_answer']}) ===")
-        out_lines.append(f"Category: {q.get('category', '')}")
-        out_lines.append(f"Text: {q['question_text']}")
-        out_lines.append("Options:")
-        for k, v in q['options'].items():
-            out_lines.append(f"  {k}: {v}")
-        out_lines.append(f"Current Explanation: {q.get('explanation', '')}")
-        out_lines.append(f"Current Key Point: {q.get('key_point', '')}")
-        out_lines.append(f"Current Flashcard Front: {q.get('flashcard_front', '')}")
-        out_lines.append(f"Current Flashcard Back: {q.get('flashcard_back', '')}")
-        out_lines.append(f"Current Flashcard Summary: {q.get('flashcard_summary', '')}")
-        out_lines.append("")
+    questions = data['questions'][start_idx:end_idx]
     
-    content = "\n".join(out_lines)
-    if output_file:
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"Output written to {output_file}")
-    else:
-        sys.stdout.reconfigure(encoding='utf-8')
-        print(content)
+    output_lines = []
+    for q in questions:
+        output_lines.append(f"=== ID: {q['id']} | Num: {q['question_number']} | Correct: {q['correct_answer']} ===")
+        output_lines.append(q['question_text'])
+        output_lines.append("Options:")
+        for opt, val in q['options'].items():
+            output_lines.append(f"  {opt}: {val}")
+        output_lines.append(f"Current Category: {q.get('category')}")
+        output_lines.append("-" * 50)
+        output_lines.append("")
+        
+    with open('scratch/batch_output.txt', 'w', encoding='utf-8') as out_f:
+        out_f.write('\n'.join(output_lines))
 
-if __name__ == "__main__":
-    if len(sys.argv) < 4:
-        print("Usage: python read_batch.py <exam_file> <start_idx> <end_idx> [output_file]")
-    else:
-        out_file = sys.argv[4] if len(sys.argv) > 4 else None
-        print_batch(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), out_file)
+if __name__ == '__main__':
+    start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    end = int(sys.argv[2]) if len(sys.argv) > 2 else 10
+    print_batch(start, end)

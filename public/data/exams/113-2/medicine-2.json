@@ -4,7 +4,7 @@
   "title": "113 年第二次醫師國考：醫學（二）",
   "subject": "medicine-2",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=113090&q=1&s=22&t=Q",
-  "updated_at": "2026-06-18T04:41:48.630709+00:00",
+  "updated_at": "2026-06-26T03:01:58.012902+00:00",
   "questions": [
     {
       "id": "113-2_medicine-2_001",
@@ -17,23 +17,23 @@
         "D": "腫瘤壞死因子釋放試驗(TNF-α release assays)"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 丙型干擾素釋放試驗(IFN-γ release assays)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 丙型干擾素釋放試驗(IFN-γ release assays)",
-      "flashcard_summary": "一般使用結核菌素試驗(tuberculin skin test)測試是否感染結核桿菌,當無法區分是感染… / tuberculin skin test / bacillus Calmette-Gu -> B. 丙型干擾素釋放試驗(IFN-γ release assays)",
+      "explanation": "【題幹解析】\n題幹描述結核菌素試驗 (Tuberculin skin test, TST) 無法區分潛伏結核感染 (LTBI) 與施打卡介苗 (BCG) 後的免疫反應。卡介苗是由減毒的牛分枝桿菌 (Mycobacterium bovis) 製成，與 TST 使用的純化蛋白質衍生物 (PPD) 具有高度交叉反應，容易導致施打過卡介苗的個體出現偽陽性。為了進一步確認是否為真正的結核桿菌感染，臨床上需要一種特異性更高、不與 BCG 交叉反應的測試法。\n\n【選項詳解】\n- A. 反轉錄聚合酶鏈鎖反應 (reverse transcriptase-PCR)：主要用於偵測 RNA 病毒或基因表達，非診斷潛伏性結核菌感染與區分 BCG 疫苗反應之常規方法。\n- B. 丙型干擾素釋放試驗 (IFN-γ release assays, IGRAs)：正確。IGRA 偵測患者 T 細胞在受結核桿菌特異性抗原（如 ESAT-6、CFP-10）刺激後釋放的 IFN-γ。這些特異性抗原存在於結核分枝桿菌，但完全不存在於所有 BCG 疫苗株中。因此，IGRA 不會受到 BCG 接種的干擾，能有效區分結核桿菌感染與 BCG 疫苗反應。\n- C. 北方點墨法 (northern blotting)：用於偵測特定 RNA 分子含量的分子生物學實驗室技術，非臨床診斷結核感染之檢驗方式。\n- D. 腫瘤壞死因子釋放試驗 (TNF-α release assays)：TNF-α 在結核肉芽腫形成中扮演重要角色，但臨床上並無標準化的 TNF-α 釋放試驗用於診斷結核感染或區分 BCG 疫苗反應。\n\n【核心考點】\n臨床上利用丙型干擾素釋放試驗 (IGRA) 排除 BCG 卡介苗接種所致的 TST 偽陽性，其特異性抗原為 ESAT-6 與 CFP-10，常用於潛伏性結核感染 (LTBI) 的篩檢與確認。",
+      "key_point": "丙型干擾素釋放試驗 (IGRA) 偵測之結核菌特異性抗原（如 ESAT-6 與 CFP-10）不存於 BCG 疫苗中，可用於區分結核菌感染與疫苗反應。",
+      "flashcard_summary": "結核篩檢 + BCG干擾 -> 使用丙型干擾素釋放試驗 (IGRA) 區分",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "一般使用結核菌素試驗(tuberculin skin test)測試是否感染結核桿菌,當無法區分是感染… / tuberculin skin test / bacillus Calmette-Gu",
-      "flashcard_back": "官方答案指向「B. 丙型干擾素釋放試驗(IFN-γ release assays)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 結核菌素試驗 (TST) 呈陽性\n2. 具卡介苗 (BCG) 接種史\n3. 欲排除 BCG 偽陽性干擾\n4. 偵測結核特異性抗原 (ESAT-6/CFP-10)",
+      "flashcard_back": "使用丙型干擾素釋放試驗 (IFN-γ release assays, IGRAs) 進行確認，因其所用之特異性抗原不存在於 BCG 疫苗株中。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_002",
@@ -46,23 +46,23 @@
         "D": "產氣莢膜梭菌(Clostridium perfringens)"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 C. 肉毒桿菌(Clostridium botulinum)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：C. 肉毒桿菌(Clostridium botulinum)",
-      "flashcard_summary": "經 -> C. 肉毒桿菌(Clostridium botulinum)",
+      "explanation": "【題幹解析】\n題幹中提到「嬰兒誤食蜂蜜後，因細菌產生的毒素導致乏力性麻痺甚至呼吸困難」。一歲以下嬰兒的腸道菌相發育尚未完全，若攝食含有肉毒桿菌孢子 (spores) 的蜂蜜，孢子可在腸道中萌發、增殖並產生肉毒桿菌毒素 (botulinum toxin)，這與成人因攝食已含有毒素之罐頭食物而引起的中毒機制不同。此毒素會阻斷神經肌肉接頭的乙醯膽鹼釋放，造成典型的乏力性麻痺 (flaccid paralysis)，俗稱「軟癱兒 (floppy baby)」。\n\n【選項詳解】\n- A. 艱難梭菌 (Clostridium difficile)：主要由抗生素濫用引發，釋放毒素 A (腸毒素) 及毒素 B (細胞毒素)，導致偽膜性結腸炎與水瀉，不具神經毒性，不會引發乏力性麻痺。\n- B. 破傷風梭菌 (Clostridium tetani)：釋放破傷風痙攣毒素 (tetanospasmin)，阻斷脊髓抑制性中間神經元釋放抑制性遞質 (GABA、glycine)，導致運動神經持續興奮，臨床表現為痙攣性麻痺 (spastic paralysis)，如角弓反張及牙關緊閉，而非乏力性麻痺。\n- C. 肉毒桿菌 (Clostridium botulinum)：正確。肉毒桿菌神經毒素可水解 SNARE 蛋白，阻斷突觸前膜釋放興奮性神經遞質乙醯膽鹼 (ACh)，導致骨骼肌無法收縮，呈現乏力性麻痺 (flaccid paralysis) 及呼吸肌麻痺。\n- D. 產氣莢膜梭菌 (Clostridium perfringens)：產生 α 毒素 (lecithinase) 導致氣性壞疽 (myonecrosis)；或產生腸毒素 (enterotoxin) 導致食物中毒（引起腹瀉與腹痛），不會導致乏力性麻痺。\n\n【核心考點】\n肉毒桿菌中毒 (botulism) 的致病機轉（阻斷 ACh 釋放）與臨床表現（乏力性麻痺/flaccid paralysis，區別於破傷風的 spastic paralysis），以及一歲以下嬰兒避免餵食蜂蜜的公共衛生原則。",
+      "key_point": "嬰兒食用受肉毒桿菌 (Clostridium botulinum) 孢子污染之蜂蜜，孢子在發育未全的腸道定殖釋放毒素，阻斷乙醯膽鹼釋放，導致乏力性麻痺。",
+      "flashcard_summary": "嬰兒食用蜂蜜 + 軟癱 -> 肉毒桿菌 (Clostridium botulinum) 毒素阻斷 ACh 釋放",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "經",
-      "flashcard_back": "官方答案指向「C. 肉毒桿菌(Clostridium botulinum)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 一歲以下嬰兒食用蜂蜜\n2. 腸道定殖產生毒素\n3. 阻斷運動神經元釋放乙醯膽鹼 (ACh)\n4. 乏力性麻痺 (flaccid paralysis) / 軟癱",
+      "flashcard_back": "由肉毒桿菌 (Clostridium botulinum) 產生之神經毒素水解 SNARE 蛋白阻斷 ACh 釋放所致。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_003",
@@ -75,23 +75,23 @@
         "D": "磺胺類藥物(sulfonamides)"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 磺胺類藥物(sulfonamides)，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 磺胺類藥物(sulfonamides)",
-      "flashcard_summary": "青黴素結合蛋白質(Penicillin-binding proteins)的突變,最不可能造成細菌對 / Penicillin-binding proteins -> D. 磺胺類藥物(sulfonamides)",
+      "explanation": "【題幹解析】\n青黴素結合蛋白質 (Penicillin-binding proteins, PBPs) 是細菌合成肽聚醣細胞壁所需的轉肽酶 (transpeptidases)。所有 β-lactam 類抗生素均以 PBPs 為標靶，藉由共價結合抑制其活性。當 PBP 發生突變且與 β-lactam 類抗生素親和力下降時，細菌將對該類藥物產生抗藥性。本題問「最不可能」造成細菌對哪類藥物出現抗藥性，需尋找作用機轉與 PBPs 無關的抗生素。\n\n【選項詳解】\n- A. 頭芽孢菌素 (cephalosporins)：屬於 β-lactam 類抗生素，其作用標靶為 PBPs。PBP 突變（例如耐藥性肺炎鏈球菌的 PBP 改變）會導致對其產生抗藥性。\n- B. 碳青黴烯 (carbapenems)：屬於 β-lactam 類抗生素，標靶亦為 PBPs，PBP 突變可導致對其親和力下降而產生抗藥性。\n- C. 單酰胺菌素 (monobactams)：例如 Aztreonam，亦為 β-lactam 類抗生素，作用於 PBPs，其抗藥性與 PBP 突變相關。\n- D. 磺胺類藥物 (sulfonamides)：正確。磺胺類為二氫葉酸合成酶 (DHPS) 的競爭性抑制劑，作用於葉酸合成途徑以抑制核酸複製，與細胞壁 PBPs 結構和功能完全無關，故 PBP 突變最不可能影響其敏感性。\n\n【核心考點】\n抗生素的作用機轉與抗藥性機制。β-lactam 類抗生素（包含青黴素、頭孢菌素、碳青黴烯及單酰胺菌素）以 PBP 為共同作用標靶；而磺胺類藥物則作用於葉酸合成途徑。",
+      "key_point": "青黴素結合蛋白質 (PBPs) 突變主要使作用於細胞壁合成的 β-lactam 類抗生素失效，但不影響作用於葉酸代謝途徑的磺胺類藥物。",
+      "flashcard_summary": "PBP 突變 -> 導致 β-lactam 類抗藥性，不影響磺胺類 (sulfonamides)",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "青黴素結合蛋白質(Penicillin-binding proteins)的突變,最不可能造成細菌對 / Penicillin-binding proteins",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 磺胺類藥物(sulfonamides)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "1. 青黴素結合蛋白質 (PBPs) 突變\n2. β-lactam 類抗生素親和力下降\n3. 細菌細胞壁肽聚醣合成受阻\n4. 葉酸代謝抑制劑不受影響",
+      "flashcard_back": "PBP 突變只影響 β-lactam 類抗生素（A、B、C），最不可能影響作用於葉酸合成的磺胺類藥物 (sulfonamides)。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_004",
@@ -104,23 +104,23 @@
         "D": "可造成龐提亞克熱(Pontiac fever)"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 B. 退伍軍人菌屬為革蘭氏陽性桿菌，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：B. 退伍軍人菌屬為革蘭氏陽性桿菌",
-      "flashcard_summary": "退伍軍人菌屬(Legionella)感染的敘述 / Legionella -> B. 退伍軍人菌屬為革蘭氏陽性桿菌",
+      "explanation": "【題幹解析】\n退伍軍人菌屬 (Legionella) 為一種胞內寄生的水生細菌，常與中央空調冷卻水塔、熱水供應系統等受污染的氣霧傳播有關。本題要求選出關於退伍軍人菌感染「最不適當」的敘述。\n\n【選項詳解】\n- A. BCYE agar常用於培養退伍軍人菌屬：敘述適當。緩衝炭酵母萃取物培養基 (BCYE) 含有退伍軍人菌生長所必需的 L-cysteine 及鐵質 (iron)，是其標準臨床培養基。\n- B. 退伍軍人菌屬為革蘭氏陽性桿菌：敘述不適當，符合題意。退伍軍人菌屬為薄、多形性的革蘭氏陰性桿菌 (Gram-negative bacilli)，因為在革蘭氏染色下染色較淺，常需利用 Dieterle 銀染或直接免疫螢光抗體法 (DFA) 來觀察。\n- C. 好發於夏末至秋天,天氣溫暖的季節：敘述適當。夏秋溫暖季節空調系統使用頻繁，水溫有利於退伍軍人菌及滋養牠的變形蟲大量繁殖，故此季節為感染高峰期。\n- D. 可造成龐提亞克熱 (Pontiac fever)：敘述適當。退伍軍人菌感染可引發兩種臨床表現：一是嚴重的退伍軍人症 (Legionnaires' disease，伴隨多器官受損與肺炎)；二是自限性、無肺炎的流感樣疾病，稱為龐提亞克熱 (Pontiac fever)。\n\n【核心考點】\n退伍軍人菌 (Legionella pneumophila) 的微生物學特性（革蘭氏陰性、BCYE 培養基需 L-cysteine 與鐵）與臨床分型（退伍軍人症 vs 龐提亞克熱）。",
+      "key_point": "退伍軍人菌 (Legionella) 是革蘭氏陰性桿菌（非陽性），需在含有 L-cysteine 的 BCYE 培養基上培養，可引發退伍軍人症或龐提亞克熱。",
+      "flashcard_summary": "退伍軍人菌 -> 革蘭氏陰性桿菌，需 BCYE 培養基 (含 L-cysteine)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "退伍軍人菌屬(Legionella)感染的敘述 / Legionella",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「B. 退伍軍人菌屬為革蘭氏陽性桿菌」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "1. 退伍軍人菌屬 (Legionella)\n2. BCYE 培養基培養 (需 L-cysteine)\n3. 龐提亞克熱 (Pontiac fever)\n4. 革蘭氏染色屬性",
+      "flashcard_back": "退伍軍人菌為革蘭氏陰性桿菌（Gram-negative），而非革蘭氏陽性桿菌。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_005",
@@ -133,23 +133,23 @@
         "D": "腦膜炎雙球菌(Neisseria meningitidis)脂寡糖(lipooligosaccharide)"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 C. 破傷風梭狀芽孢桿菌(Clostridium tetani)破傷風痙攣毒素(tetanospasmin)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：C. 破傷風梭狀芽孢桿菌(Clostridium tetani)破傷風痙攣毒素(tetanospasmin)",
-      "flashcard_summary": "細菌毒素經短暫100°C加熱後較易失去活性 -> C. 破傷風梭狀芽孢桿菌(Clostridium tetani)破傷風痙攣毒素(tetanospasmin)",
+      "explanation": "【題幹解析】\n本題探討細菌毒素對熱的穩定性。一般而言，細菌產生的蛋白質外毒素 (exotoxin) 經高溫加熱（如 100°C 短暫加熱）會導致蛋白質三度空間結構變性而失去毒性活性。相反地，革蘭氏陰性菌細胞壁上的內毒素 (endotoxin，如 LPS 或 LOS) 主要成分為脂多醣，結構穩定且極度耐熱，即使短暫煮沸也不會失活。\n\n【選項詳解】\n- A. 大腸桿菌 (E. coli) 內毒素 (endotoxin)：成分為脂多醣 (LPS)，具有極高耐熱性，在 100°C 加熱甚至高壓滅菌下均不易失去活性。\n- B. 金黃色葡萄球菌 (Staphylococcus aureus) 毒性休克症候群毒素-1 (TSST-1)：屬於超抗原 (superantigen) 類的外毒素，但在結構上具有相對較強的耐熱性（能耐受 60°C 長時間加熱），且其食物中毒相關的腸毒素也極為耐熱。相較於典型胞內/神經外毒素，它不是最易被 100°C 輕易去活化的對象。\n- C. 破傷風梭狀芽孢桿菌 (Clostridium tetani) 破傷風痙攣毒素 (tetanospasmin)：正確。這是一種典型的 A-B 結構蛋白質外毒素 (neurotoxin)，對熱非常敏感 (heat-labile)，短暫加熱至 100°C（或 60-80°C 數十分鐘）即可使其完全變性並失去活性。\n- D. 腦膜炎雙球菌 (Neisseria meningitidis) 脂寡糖 (lipooligosaccharide, LOS)：為革蘭氏陰性腦膜炎雙球菌表面的內毒素變體，與 LPS 相似，具有極高耐熱性，不易被 100°C 加熱破壞。\n\n【核心考點】\n細菌外毒素（多為不耐熱蛋白質，特別是神經毒素如 tetanospasmin）與內毒素（高度耐熱的脂多醣 LPS/LOS）在物理化學性質上的本質差異。",
+      "key_point": "蛋白質外毒素（如破傷風痙攣毒素）通常對熱敏感（短暫 100°C 即可變性失活），而內毒素（如 LPS、LOS）屬於脂多醣，具極佳耐熱性。",
+      "flashcard_summary": "外毒素對熱敏感（如破傷風痙攣毒素受熱失活） -> 內毒素高度耐熱",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "細菌毒素經短暫100°C加熱後較易失去活性",
-      "flashcard_back": "官方答案指向「C. 破傷風梭狀芽孢桿菌(Clostridium tetani)破傷風痙攣毒素(tetanospasmin)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 細菌毒素的物理耐熱性\n2. 內毒素 (LPS/LOS) 與外毒素的對比\n3. 破傷風痙攣毒素 (tetanospasmin)\n4. 短暫 100°C 加熱效果",
+      "flashcard_back": "破傷風痙攣毒素為蛋白質外毒素，受熱極易變性失活；而內毒素（LPS/LOS）高度耐熱，100°C 加熱無法破壞其活性。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_006",
@@ -162,23 +162,23 @@
         "D": "纖毛(fimbriae)是比鞭毛(flagellum)直徑更大的毛髮狀結構,並與細菌之黏附(adhesion)能力有關"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 纖毛(fimbriae)是比鞭毛(flagellum)直徑更大的毛髮狀結構,並與細菌之黏附(adhesion)能力有關，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 纖毛(fimbriae)是比鞭毛(flagellum)直徑更大的毛髮狀結構,並與細菌之黏附(adhesion)能力有關",
-      "flashcard_summary": "第 6 題核心考點 -> D. 纖毛(fimbriae)是比鞭毛(flagellum)直徑更大的毛髮狀結構,並與細菌之黏附(adhesion)能力有關",
+      "explanation": "【題幹解析】\n本題探討細菌不同結構（鞭毛、莢膜、生物膜、纖毛）的形態大小與臨床致病機制。解題關鍵在於辨識「纖毛 (fimbriae)」與「鞭毛 (flagellum)」的結構尺寸差異。\n\n【選項詳解】\n- A. 鞭毛 (flagellum) 為細菌運動相關構造：敘述正確。鞭毛是由鞭毛蛋白 (flagellin) 組成的長、旋轉性螺旋結構，是細菌趨向性運動的主要器官。\n- B. 莢膜 (capsule) 與細菌抵禦吞噬作用有關：敘述正確。莢膜是位於細胞壁外的黏液多醣層（少數如炭疽桿菌為多肽），能掩蓋表面抗原並阻礙調理作用，從而抵抗宿主吞噬細胞的吞噬。\n- C. 細菌生物膜 (biofilm) 結構可協助細菌黏附於組織或醫用器材：敘述正確。生物膜是細菌分泌的胞外基質所形成的保護層，可協助細菌固著於心臟瓣膜、導尿管或人工關節上，並抵禦抗生素。\n- D. 纖毛 (fimbriae) 是比鞭毛 (flagellum) 直徑更大的毛髮狀結構,並與細菌之黏附 (adhesion) 能力有關：敘述不適當，符合題意。纖毛（或稱菌毛 pili）的確與黏附宿主細胞表面密切相關，但其構造非常纖細，直徑僅約 3-10 nm，而鞭毛的直徑約為 15-20 nm。因此，纖毛的直徑比鞭毛「更細小」，而非「更大」。\n\n【核心考點】\n細菌基本構造之特性比較。鞭毛 (flagellum) 粗且長，負責運動；纖毛/菌毛 (fimbriae/pili) 細且短，負責黏附宿主或參與細菌接合 (conjugation)。",
+      "key_point": "纖毛 (fimbriae/pili) 負責黏附寄生，但其直徑比負責運動的鞭毛 (flagellum) 更細小（而非更大）。",
+      "flashcard_summary": "纖毛負責黏附 -> 其直徑顯著細於鞭毛",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "第 6 題核心考點",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 纖毛(fimbriae)是比鞭毛(flagellum)直徑更大的毛髮狀結構,並與細菌之黏附(adhesion)能力有關」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "1. 細菌表面附屬物構造\n2. 鞭毛 (flagellum) 負責運動\n3. 纖毛 (fimbriae/pili) 負責黏附\n4. 兩者直徑與粗細比較",
+      "flashcard_back": "纖毛 (fimbriae/pili) 主要介導黏附作用，但其直徑顯著小於（細於）負責運動的鞭毛 (flagellum)。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_007",
@@ -191,23 +191,23 @@
         "D": "鋅金屬基質蛋白酶(zinc metalloprotease)"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 海藻酸鹽(alginate)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 海藻酸鹽(alginate)",
-      "flashcard_summary": "肺纖維性囊腫病人的痰中常有綠膿桿菌(Pseudomonas aeruginosa) / Pseudomonas aeruginosa / colonization -> B. 海藻酸鹽(alginate)",
+      "explanation": "【題幹解析】\n肺纖維性囊腫 (Cystic fibrosis, CF) 患者由於 CFTR 基因突變，呼吸道分泌物異常黏稠，容易被綠膿桿菌 (Pseudomonas aeruginosa) 感染。在 CF 肺部的慢性感染中，綠膿桿菌會轉化為「黏液型 (mucoid phenotype)」，大量分泌一種胞外多醣體，協助其在氣道內形成強固的生物膜 (biofilm) 聚落，躲避宿主免疫清除與抗生素治療。\n\n【選項詳解】\n- A. 絲氨酸蛋白酶 (serine protease)：協助破壞宿主結締組織以利細菌散播，但非主要負責形成保護性生物膜定殖的因子。\n- B. 海藻酸鹽 (alginate)：正確。海藻酸鹽是組成黏液型綠膿桿菌生物膜基質的主要胞外多醣 (exopolysaccharide)，能使細菌集結、保護免受吞噬作用，並阻擋抗生素，是幫助綠膿桿菌在 CF 肺內定殖 (colonization) 的核心毒力因子。\n- C. 綠膿桿菌素 (pyocyanin)：為一種藍綠色色素，可產生反應性氧分子 (ROS)，造成上皮細胞損傷並抑制纖毛運動，非生物膜形成的主要基質成分。\n- D. 鋅金屬基質蛋白酶 (zinc metalloprotease)：如 Elastase B，主要功能是降解宿主的彈性纖維與免疫球蛋白，參與組織侵襲與損害，而非直接主導聚落定殖。\n\n【核心考點】\n綠膿桿菌在肺纖維性囊腫 (CF) 患者中產生黏液型突變，過量產生的胞外多醣「海藻酸鹽 (alginate)」主導生物膜形成與長期肺部定殖。",
+      "key_point": "綠膿桿菌 (P. aeruginosa) 分泌的海藻酸鹽 (alginate) 形成黏液型生物膜，是其在肺纖維性囊腫患者肺部定殖 (colonization) 的關鍵因子。",
+      "flashcard_summary": "綠膿桿菌 + CF定殖 -> 海藻酸鹽 (alginate) 生物膜",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "肺纖維性囊腫病人的痰中常有綠膿桿菌(Pseudomonas aeruginosa) / Pseudomonas aeruginosa / colonization",
-      "flashcard_back": "官方答案指向「B. 海藻酸鹽(alginate)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 綠膿桿菌 (Pseudomonas aeruginosa)\n2. 肺纖維性囊腫 (Cystic fibrosis) 慢性感染\n3. 黏液樣聚落 (mucoid colony)\n4. 形成生物膜定殖 (colonization) 之多醣",
+      "flashcard_back": "利用海藻酸鹽 (alginate) 形成黏液型生物膜，保護細菌並介導肺部慢性定殖。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_008",
@@ -220,23 +220,23 @@
         "D": "去氧核糖核酸酶(deoxyribonuclease, DNase)可助長細菌在宿主組織內散播"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. 猩紅熱(scarlet fever)會出現皮膚紅疹(rash),主要是因為鏈球菌激酶(streptokinase)所導致，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. 猩紅熱(scarlet fever)會出現皮膚紅疹(rash),主要是因為鏈球菌激酶(streptokinase)所導致",
-      "flashcard_summary": "化膿性鏈球菌(Streptococcus pyogenes)毒力因子(virulence factor… / Streptococcus pyogenes / virulence factors -> B. 猩紅熱(scarlet fever)會出現皮膚紅疹(rash),主要是因為鏈球菌激酶(streptokinase)所導致",
+      "explanation": "【題幹解析】\n本題考查 A 群鏈球菌（化膿性鏈球菌，Streptococcus pyogenes）的各項毒力因子及其相對應的病理生理機制。要求選出「最不適當」的選項。\n\n【選項詳解】\n- A. M蛋白質 (M protein) 可協助此菌躲避吞噬作用 (phagocytosis)：敘述正確。M protein 是 GAS 最重要的抗吞噬因子，可藉由結合 Factor H 等補體調控蛋白，阻斷補體替代路徑激活，降低 C3b 的調理吞噬作用。\n- B. 猩紅熱 (scarlet fever) 會出現皮膚紅疹 (rash),主要是因為鏈球菌激酶 (streptokinase) 所導致：敘述不適當，符合題意。猩紅熱特徵性的紅疹（如砂紙般粗糙紅疹、草莓舌）是由鏈球菌致熱外毒素 (Streptococcal pyrogenic exotoxins, SpeA/B/C，舊稱紅斑毒素 erythrogenic toxin) 所介導，這些毒素屬於超抗原 (superantigen)。而鏈球菌激酶 (streptokinase) 的作用是激活纖溶酶原 (plasminogen) 變成纖溶酶 (plasmin) 以溶解血栓，與紅疹無關。\n- C. 鏈球菌溶血素O (Streptolysin O) 具抗原性,且易被氧破壞：敘述正確。Streptolysin O (SLO) 是一種孔洞形成毒素，對氧敏感且不穩定（故稱 O，Oxygen-labile），刺激宿主產生 ASO 抗體，臨床上可用於診斷近期是否感染過 GAS。\n- D. 去氧核糖核酸酶 (deoxyribonuclease, DNase) 可助長細菌在宿主組織內散播：敘述正確。DNase (例如 Streptodornase) 可分解膿稠液中的 DNA（包含中性球所釋放的抗菌 NETs 網狀結構），降低膿液黏稠度，協助細菌向周圍組織擴散。\n\n【核心考點】\n化膿性鏈球菌 (S. pyogenes) 毒力因子之致病機轉：M protein（抗吞噬）、Spe/紅斑毒素（超抗原，致猩紅熱紅疹）、Streptolysin O（溶血，抗原性強）、DNase（液化膿液）、Streptokinase（溶解纖維蛋白）。",
+      "key_point": "猩紅熱 (scarlet fever) 的紅疹是由化膿性鏈球菌產生的致熱外毒素 (Spe) 引起，而鏈球菌激酶 (streptokinase) 的功能是溶解血栓。",
+      "flashcard_summary": "猩紅熱紅疹 -> 致熱外毒素 (Spe) 所致，非鏈球菌激酶",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "化膿性鏈球菌(Streptococcus pyogenes)毒力因子(virulence factor… / Streptococcus pyogenes / virulence factors",
-      "flashcard_back": "官方答案指向「B. 猩紅熱(scarlet fever)會出現皮膚紅疹(rash),主要是因為鏈球菌激酶(streptokinase)所導致」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 化膿性鏈球菌 (Streptococcus pyogenes)\n2. 猩紅熱 (scarlet fever) 紅疹成因\n3. 鏈球菌激酶 (streptokinase) 功能\n4. 致熱外毒素 (Spe)",
+      "flashcard_back": "猩紅熱紅疹是由致熱外毒素 (Spe) 所致；鏈球菌激酶的功能是激活纖溶酶原溶解血栓以利擴散。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_009",
@@ -249,23 +249,23 @@
         "D": "對好氧菌很有效"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 C. 可治療鬆脆類桿菌(Bacteroides fragilis)感染症，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：C. 可治療鬆脆類桿菌(Bacteroides fragilis)感染症",
-      "flashcard_summary": "甲硝唑(metronidazole)之敘述 / metronidazole -> C. 可治療鬆脆類桿菌(Bacteroides fragilis)感染症",
+      "explanation": "【題幹解析】\n甲硝唑 (Metronidazole) 是一種前驅藥物 (prodrug)，其作用範圍僅限於專性厭氧菌及特定的原蟲（如阿米巴、滴蟲、賈第鞭毛蟲）。本題要求選出關於甲硝唑「最適當」的敘述。\n\n【選項詳解】\n- A. 可有效治療霍亂：不適當。霍亂是由霍亂弧菌 (Vibrio cholerae，屬兼性厭氧菌) 引起，主要治療是水分補充，若需使用抗生素通常為 Doxycycline 或 Azithromycin，甲硝唑對其無效。\n- B. 進入菌體內直接造成毒性：不適當。甲硝唑本身是無活性的前驅藥，必須進入厭氧菌體內，藉由其特有的丙酮酸-鐵氧還蛋白氧化還原酶 (PFOR) 系統進行還原，產生具毒性的自由基中間產物，進而造成 DNA 斷裂而致死。若未被還原活化則不具毒性。\n- C. 可治療鬆脆類桿菌 (Bacteroides fragilis) 感染症：正確。鬆脆類桿菌 (B. fragilis) 為人體腸道內最主要的專性厭氧革蘭氏陰性桿菌，甲硝唑對其有極佳的抗菌活性，為治療腹腔內厭氧菌感染的首選藥物之一。\n- D. 對好氧菌很有效：不適當。好氧菌缺乏還原甲硝唑所需的低還原電位電子傳遞蛋白（如 ferredoxin），因此甲硝唑對好氧菌完全無效。\n\n【核心考點】\n甲硝唑 (metronidazole) 的藥理學機制（需在厭氧菌體內還原活化）與其特定的臨床適應症（專性厭氧菌如 Bacteroides, Clostridium 及原蟲）。",
+      "key_point": "甲硝唑 (metronidazole) 為厭氧菌首選藥物，需在厭氧細胞內被還原活化以破壞 DNA，對好氧菌無效。",
+      "flashcard_summary": "甲硝唑 (metronidazole) -> 治療專性厭氧菌 (如鬆脆類桿菌)，好氧菌無效",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "甲硝唑(metronidazole)之敘述 / metronidazole",
-      "flashcard_back": "官方答案指向「C. 可治療鬆脆類桿菌(Bacteroides fragilis)感染症」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 甲硝唑 (metronidazole) 作用機制\n2. 專性厭氧菌感染 (如 Bacteroides fragilis)\n3. 對好氧菌與兼性厭氧菌療效\n4. 前驅藥 (prodrug) 還原活化",
+      "flashcard_back": "甲硝唑需在厭氧環境下經電子傳遞鏈還原活化，產生自由基破壞 DNA，是治療鬆脆類桿菌等專性厭氧菌的首選。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_010",
@@ -278,23 +278,23 @@
         "D": "核心蛋白(core protein)"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 C. 醣蛋白(glycoprotein)，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：C. 醣蛋白(glycoprotein)",
-      "flashcard_summary": "病毒感染時最常利用 -> C. 醣蛋白(glycoprotein)",
+      "explanation": "【題幹解析】\n病毒感染細胞的第一步是吸附 (attachment)，這需要病毒表面的吸附蛋白 (viral attachment proteins, VAPs) 與宿主細胞表面的特異性受體 (receptors) 發生高度親和的特異性結合。本題詢問病毒進入細胞最常利用何種蛋白質。\n\n【選項詳解】\n- A. 基質蛋白 (matrix protein)：位於病毒套膜與內層衣殼之間的結構蛋白，主要負責病毒的組裝、結構維持及出芽，不直接介導與宿主受體的吸附與入侵。\n- B. 蛋白水解酶 (protease)：為病毒基因組編碼的酶，主要在病毒成熟階段剪切前驅多肽鏈（如 HIV 蛋白酶），不直接作為結合宿主受體的媒介。\n- C. 醣蛋白 (glycoprotein)：正確。有套膜病毒的表面突起 (spikes) 均為醣蛋白（如流感病毒的血球凝集素 HA、HIV 的 gp120），其高度暴露在病毒外表面並經過糖基化，專司與宿主細胞膜上的受體進行特異性結合，並促成套膜與細胞膜的融合以利病毒進入細胞。\n- D. 核心蛋白 (core protein)：通常指衣殼蛋白 (capsid protein) 或與核酸直接結合的核蛋白 (nucleoprotein)，包覆在病毒內部，在有套膜病毒中不暴露於最外側，因此不直接介導吸附。\n\n【核心考點】\n病毒的侵入與吸附機制。套膜病毒表面突起醣蛋白 (glycoprotein) 的角色，如流感的 HA、冠狀病毒的 Spike (S) 蛋白、HIV 的 gp120 等。",
+      "key_point": "病毒主要利用套膜表面的醣蛋白 (glycoprotein) 作為吸附蛋白，與宿主細胞表面的特異性受體結合以介導侵入。",
+      "flashcard_summary": "病毒侵入細胞 -> 利用表面醣蛋白 (glycoprotein) 與宿主受體結合",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "病毒感染時最常利用",
-      "flashcard_back": "官方答案指向「C. 醣蛋白(glycoprotein)」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "1. 病毒吸附與侵入宿主細胞\n2. 病毒吸附蛋白 (viral attachment protein)\n3. 結合宿主細胞表面特異受體\n4. 主要蛋白結構類型",
+      "flashcard_back": "套膜病毒外側的醣蛋白 (glycoprotein) 是與宿主受體特異性結合併介導膜融合的主要構造。",
       "category_group": "醫學（二）",
       "category": "微生物免疫學",
       "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:58.012902+00:00"
     },
     {
       "id": "113-2_medicine-2_011",

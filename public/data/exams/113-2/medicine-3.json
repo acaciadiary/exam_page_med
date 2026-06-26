@@ -4,7 +4,7 @@
   "title": "113 年第二次醫師國考：醫學（三）",
   "subject": "medicine-3",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=113070&q=1&s=11&t=Q",
-  "updated_at": "2026-06-18T04:49:01.550022+00:00",
+  "updated_at": "2026-06-26T03:01:46.275864+00:00",
   "questions": [
     {
       "id": "113-2_medicine-3_001",
@@ -17,23 +17,23 @@
         "D": "atorvastatin"
       },
       "correct_answer": "A",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 A. pravastatin，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：A. pravastatin",
-      "flashcard_summary": "葡萄柚汁(grapefruit juice)會抑制代謝酵素cytochrome P450(CYP)3A… / grapefruit juice / cytochrome P450 -> A. pravastatin",
+      "explanation": "【題幹解析】\n葡萄柚汁（grapefruit juice）含有 furanocoumarins，會抑制小腸黏膜上的細胞色素 P450 3A (CYP3A4) 活性。當患者服用經由 CYP3A4 代謝的藥物時，若併服葡萄柚汁，會使藥物的首度效應（first-pass metabolism）降低，進而使血中藥物濃度顯著增高，增加藥物不良反應（如 statins 引起的肌病變、橫紋肌溶解症）的風險。本題要求選出「主要代謝途徑不是經由 CYP3A」的 statin 類藥物。\n\n【選項詳解】\n- A. pravastatin：主要經由非酵素水解及葡萄糖醛酸化、硫酸化（sulfation）等途徑代謝，極少經由 CYP450 酵素代謝，因此與 CYP3A 抑制劑（如葡萄柚汁）無明顯交互作用。為本題正確選項。\n- B. lovastatin：為前驅藥物（prodrug），在體內水解為活性態，其主要代謝酵素為 CYP3A4。併服葡萄柚汁會大幅升高其血中濃度。\n- C. simvastatin：同樣為前驅藥物，主要經由 CYP3A4 代謝。與葡萄柚汁併用時交互作用顯著，容易增加肌肉毒性。\n- D. atorvastatin：為活性藥物，主要也是經由 CYP3A4 代謝。與葡萄柚汁併用亦會增加血中濃度及副作用風險。\n\n【核心考點】\n臨床常用降血脂藥（Statins）的肝臟代謝途徑差異：Atorvastatin、Simvastatin、Lovastatin 經由 CYP3A4 代謝；Fluvastatin 經由 CYP2C9 代謝；Pravastatin、Rosuvastatin、Pitavastatin 則較少經由 CYP 酵素代謝，較不易產生藥物交互作用。",
+      "key_point": "pravastatin 主要不經由 CYP3A4 代謝（而是經由硫酸化等其他途徑），因此不受葡萄柚汁（CYP3A 抑制劑）的顯著影響。",
+      "flashcard_summary": "葡萄柚汁抑制 CYP3A -> Pravastatin 代謝不經 CYP3A，不受其影響（而 Lovastatin, Simvastatin, Atorvastatin 經 CYP3A 代謝）",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "葡萄柚汁(grapefruit juice)會抑制代謝酵素cytochrome P450(CYP)3A… / grapefruit juice / cytochrome P450",
-      "flashcard_back": "官方答案指向「A. pravastatin」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "- 葡萄柚汁 (grapefruit juice) 交互作用\n- cytochrome P450 (CYP) 3A 抑制\n- HMG-CoA reductase inhibitor (Statin)\n- 代謝途徑不經由 CYP3A 的藥物",
+      "flashcard_back": "Pravastatin（主要經由非 CYP 途徑如硫酸化代謝，與葡萄柚汁無顯著交互作用；而 Atorvastatin, Simvastatin, Lovastatin 均經由 CYP3A4 代謝）。",
       "category_group": "醫學（三）",
-      "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_002",
@@ -46,23 +46,23 @@
         "D": "懷孕期以甲狀腺素(thyroxine)治療甲狀腺功能低下(hypothyroidism),目標是維持TSH在正常範圍,\n 常需比懷孕前使用更低的劑量"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 懷孕期以甲狀腺素(thyroxine)治療甲狀腺功能低下(hypothyroidism),目標是維持TSH在正常範圍, 常需比懷孕前使用更低的劑量，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 懷孕期以甲狀腺素(thyroxine)治療甲狀腺功能低下(hypothyroidism),目標是維持TSH在正常範圍, 常需比懷孕前使用更低的劑量",
-      "flashcard_summary": "懷孕期甲狀腺功能變化的敘述 -> D. 懷孕期以甲狀腺素(thyroxine)治療甲狀腺功能低下(hypothyroidism),目標是維持TSH在正常範圍, 常需比懷孕前使用更低的劑量",
+      "explanation": "【題幹解析】\n本題探討懷孕期間孕婦體內甲狀腺生理機能的變化及臨床用藥調整。懷孕會導致雌激素上升、hCG 上升等一系列生理改變，進而影響甲狀腺素的結合蛋白及游離濃度。\n\n【選項詳解】\n- A. 懷孕期因雌激素（estrogen）刺激肝臟製造甲狀腺素結合球蛋白（TBG）增加，導致血中 total T3、total T4 上升：敘述正確。雌激素增加會促使 TBG 合成增加並延長其半衰期，使結合態甲狀腺素增加，故 Total T3/T4 升高。\n- B. 第一孕程（first trimester）的中後段，因高濃度人類絨毛膜促性腺激素（hCG）刺激甲狀腺，造成 free T3、free T4 上升：敘述正確。hCG 的結構與 TSH 相似，在高濃度時可直接刺激甲狀腺上的 TSH 受器，導致第一孕程（約 8-12 週 hCG 達高峰）時 Free T3/T4 輕微上升，並暫時回饋抑制 TSH。\n- C. 對於甲狀腺功能亢進（hyperthyroidism）的患者，在第一孕程使用 methimazole 可能與胚胎疾病相關聯：敘述正確。Methimazole 具有致畸胎性（如皮膚發育不全 aplasia cutis、後鼻孔閉鎖等），因此第一孕程首選藥物通常為 PTU (propylthiouracil)；第二、三孕程後為避免 PTU 的肝毒性，才會考慮轉回 methimazole。\n- D. 懷孕期以甲狀腺素（thyroxine）治療甲狀腺功能低下（hypothyroidism），目標是維持 TSH 在正常範圍，常需比懷孕前使用更低的劑量：敘述錯誤，為本題答案。懷孕期母體對甲狀腺素的需求量增加（約增加 30-50%），因此甲狀腺功能低下患者在懷孕期間通常需要「調高」Levothyroxine 的劑量，而非降低。\n\n【核心考點】\n妊娠期甲狀腺生理變化與用藥：\n1. 雌激素增加 -> TBG 上升 -> Total T4/T3 上升。\n2. hCG 上升（第一孕程） -> 刺激甲狀腺 -> Free T4 上升、TSH 下降。\n3. 孕期甲狀腺功能低下 -> 需增加甲狀腺素劑量（常增加 30-50%）。\n4. 孕期甲亢用藥 -> 第一孕程首選 PTU，後續改用 Methimazole。",
+      "key_point": "懷孕期間由於甲狀腺素清除率增加、胎盤轉運及結合蛋白上升，甲狀腺功能低下患者所需甲狀腺素（thyroxine）劑量通常需比孕前「增加」30-50%，而非降低。",
+      "flashcard_summary": "孕期甲狀腺功能低下治療 -> 需「增加」甲狀腺素（Levothyroxine）劑量，而非減少",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "懷孕期甲狀腺功能變化的敘述",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 懷孕期以甲狀腺素(thyroxine)治療甲狀腺功能低下(hypothyroidism),目標是維持TSH在正常範圍, 常需比懷孕前使用更低的劑量」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "- 懷孕期 (Pregnancy)\n- 甲狀腺功能低下 (Hypothyroidism)\n- Levothyroxine (Thyroxine) 治療\n- 劑量調整方向與治療目標",
+      "flashcard_back": "孕期因 TBG 增加、胎盤代謝及胎兒發育需求，Levothyroxine 劑量通常需要「增加 30-50%」，目標是維持 TSH 在孕期特異性正常範圍。",
       "category_group": "醫學（三）",
-      "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category": "新陳代謝科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_003",
@@ -75,23 +75,23 @@
         "D": "phagophobia"
       },
       "correct_answer": "B",
-      "explanation": "考點是把題幹線索連到「B. aphagia」。複習時先記概念關係，再回到選項，避免只背答案字母。",
-      "key_point": "70歲男性最近半年喉嚨時常有異物感,吞嚥時較為困難,且後咽部有刺痛感,最近1個月喝水時常發生咳嗽且 水… => aphagia",
-      "flashcard_summary": "70歲男性最近半年喉嚨時常有異物感,吞嚥時較為困難,且後咽部有刺痛感,最近1個月喝水時常發生咳嗽且 水… -> B. aphagia",
+      "explanation": "【題幹解析】\n本題考查臨床醫學中與吞嚥異常相關的醫學術語定義。\n病人症狀分析：\n1. 「喉嚨時常有異物感, 吞嚥時較為困難，且水從鼻孔流出（鼻腔反流）」：指食物從口咽部要運送到食道的過程發生障礙，稱為 transfer dysphagia（口咽部吞嚥困難）。\n2. 「後咽部有刺痛感」：指吞嚥時伴隨疼痛，稱為 odynophagia（吞嚥疼痛）。\n3. 「病人因此有點害怕吞嚥」：因為吞嚥會嗆咳、疼痛而產生對吞嚥的恐懼，稱為 phagophobia（吞嚥恐懼症）。\n\n【選項詳解】\n- A. transfer dysphagia：口咽部吞嚥困難（oropharyngeal dysphagia）。起因於神經肌肉協調異常或結構阻塞，使食物難以從口咽部傳送至食道，常伴隨嗆咳、鼻腔反流。題幹病人喝水時咳嗽且水從鼻孔流出，符合此項。\n- B. aphagia：完全失去吞嚥能力（不能吞嚥）。多見於食道完全阻塞或嚴重神經病變。題幹病人為吞嚥困難（dysphagia）及害怕吞嚥，但並非完全無法吞嚥，因此不包含此症狀。為本題正確選項。\n- C. odynophagia：吞嚥疼痛。題幹提到「後咽部有刺痛感」，符合此定義。\n- D. phagophobia：吞嚥恐懼症。題幹提到「病人因此有點害怕吞嚥」，符合此定義。\n\n【核心考點】\n吞嚥相關醫學術語辨析：\n- Dysphagia：吞嚥困難（分為 oropharyngeal/transfer 與 esophageal）。\n- Odynophagia：吞嚥疼痛（常見於食道炎、咽喉感染）。\n- Aphagia：完全無法吞嚥。\n- Phagophobia：因疼痛或恐懼吸入氣管而害怕吞嚥。",
+      "key_point": "Aphagia 指完全無法吞嚥（通常為急性完全阻塞），而題幹病人雖吞嚥困難且有異物感、刺痛及嗆咳，但仍能吞嚥，故不包含 aphagia。",
+      "flashcard_summary": "吞嚥困難/反流/痛/害怕 -> transfer dysphagia + odynophagia + phagophobia，但不包含 aphagia",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "70歲男性最近半年喉嚨時常有異物感,吞嚥時較為困難,且後咽部有刺痛感,最近1個月喝水時常發生咳嗽且 水…",
-      "flashcard_back": "考點是把題幹線索連到「B. aphagia」。複習時先記概念關係，再回到選項，避免只背答案字母。",
+      "flashcard_front": "- 吞嚥困難且嗆咳、鼻腔反流\n- 吞嚥時後咽部刺痛\n- 害怕吞嚥\n- 醫學術語分類（排除完全無法吞嚥）",
+      "flashcard_back": "包含 transfer dysphagia (口咽吞嚥障礙)、odynophagia (吞嚥痛)、phagophobia (吞嚥恐懼)；但不包含 aphagia (完全無法吞嚥)。",
       "category_group": "醫學（三）",
-      "category": "耳鼻喉科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework_low_confidence",
-      "explanation_model": "local-rule-rework-v1.1",
-      "explanation_generated_at": "2026-06-18T04:41:48.630709+00:00"
+      "category": "其他",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_004",
@@ -104,23 +104,23 @@
         "D": "Trendelenburg's sign"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. Brudzinski's sign，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. Brudzinski's sign",
-      "flashcard_summary": "有一位75歲男性病患,因最近2日呈嗜睡狀態、進食明顯減少而就醫。病患罹患高血壓與糖尿病25年以上,並 … / flexion -> B. Brudzinski's sign",
+      "explanation": "【題幹解析】\n病患為 75 歲男性，有糖尿病、高血壓及 10 年血液透析病史，因近 2 日呈嗜睡狀態就醫。醫師對其進行身體診察：「病人平躺時，將其脖子向前彎，觀察其髖部及膝蓋是否有自主性屈曲動作」。此物理檢查法旨在評估是否有腦膜刺激徵象（meningeal irritation signs），例如在腦膜炎（meningitis）或蛛網膜下腔出血（SAH）時常見。\n\n【選項詳解】\n- A. Babinski's sign：巴賓斯基氏徵象。測試方法為用鈍器劃過足底外側，陽性反應為大腳趾背屈（dorsiflexion）且其他腳趾呈扇形張開，代表上運動神經元（UMN）受損。\n- B. Brudzinski's sign：布魯辛斯基氏徵象。測試方法即為將平躺患者的頸部被動屈曲，若引發雙側髖關節與膝關節自主性屈曲，則為陽性，代表腦膜受刺激。為本題正確選項。\n- C. Kernig's sign：克尼格氏徵象。測試方法為將平躺患者的髖關節與膝關節屈曲呈 90 度，接著嘗試將膝關節伸直，若在大腿後肌（hamstrings）處感到疼痛或阻力而無法伸直超過 135 度，則為陽性，亦為腦膜刺激徵象。\n- D. Trendelenburg's sign：臀中肌失能徵象。測試骨盆穩定度，患者單腳站立時，若對側骨盆下沉，代表站立側的臀中肌（gluteus medius）無力。\n\n【核心考點】\n腦膜刺激徵象（Meningeal Signs）物理檢查：\n1. Neck stiffness（頸部僵直）。\n2. Brudzinski's sign：被動彎頸導致髖/膝屈曲。\n3. Kernig's sign：屈髖 90 度後無法完全伸直膝關節。",
+      "key_point": "Brudzinski's sign 是一種評估腦膜刺激徵象（meningeal irritation signs）的身體檢查，測試方法為平躺時將脖子前彎，若觀察到髖部和膝蓋產生自主性屈曲即為陽性。",
+      "flashcard_summary": "被動彎頸導致髖膝自主屈曲 -> Brudzinski's sign (腦膜刺激徵)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "有一位75歲男性病患,因最近2日呈嗜睡狀態、進食明顯減少而就醫。病患罹患高血壓與糖尿病25年以上,並 … / flexion",
-      "flashcard_back": "官方答案指向「B. Brudzinski's sign」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "- 腦膜刺激徵象 (meningeal irritation signs)\n- 平躺時被動將脖子向前彎 (neck flexion)\n- 雙側髖部與膝蓋產生自主性屈曲 (flexion of hips and knees)\n- 物理檢查名稱",
+      "flashcard_back": "Brudzinski's sign (布魯辛斯基氏徵象)。Kernig's sign 則是屈髖 90 度後伸膝受阻；Babinski's sign 測試 UMN。",
       "category_group": "醫學（三）",
-      "category": "腎臟科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category": "神經內科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_005",
@@ -133,23 +133,23 @@
         "D": "三發性副甲狀腺機能亢進(tertiary hyperparathyroidism)"
       },
       "correct_answer": "C",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 C. 次發性副甲狀腺機能亢進(secondary hyperparathyroidism)，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：C. 次發性副甲狀腺機能亢進(secondary hyperparathyroidism)",
-      "flashcard_summary": "承上題,上述病人經實驗室檢查發現:血鈣2.78 mmol/L、血清白蛋白2.8 g/dL、胸部X光片異… / mmol -> C. 次發性副甲狀腺機能亢進(secondary hyperparathyroidism)",
+      "explanation": "【題幹解析】\n承上題，該血液透析患者血鈣為 2.78 mmol/L。\n首先計算校正血鈣：\n1. 鈣濃度單位換算：$2.78 \\text{ mmol/L} \\times 4 = 11.12 \\text{ mg/dL}$。\n2. 校正血鈣公式：$\\text{Corrected } Ca = \\text{measured } Ca + 0.8 \\times (4.0 - Albumin)$。\n3. 計算：$11.12 + 0.8 \\times (4.0 - 2.8) = 11.12 + 0.96 = 12.08 \\text{ mg/dL}$（明顯高於正常範圍 8.5-10.5 mg/dL），確診為高鈣血症（Hypercalcemia）。\n題幹指出病人「胸部 X 光片異常」，要找出「最不可能」引起此高鈣血症的原因。\n\n【選項詳解】\n- A. 肺結核（tuberculosis）：可能。肺結核屬於肉芽腫性疾病（granulomatous disease），巨噬細胞含有 1-alpha-hydroxylase，會自主性將維生素 D 活化為 1,25(OH)2D，促進腸道及腎臟吸收鈣，導致高鈣血症，且 CXR 會呈現肺部浸潤或空洞。\n- B. 肺部鱗狀細胞癌（squamous cell carcinoma）：可能。此癌細胞常分泌副甲狀腺素相關胜肽（PTHrP），引發惡性腫瘤體液性高鈣血症（HHM），CXR 會呈現肺部腫塊。\n- C. 次發性副甲狀腺機能亢進（secondary hyperparathyroidism）：最不可能，為本題正確選項。慢性腎臟病（CKD）患者因活性維生素 D 缺乏及高血磷，刺激副甲狀腺增生分泌過量 PTH，但在「次發性」階段，其生理機轉是為了代償低血鈣，因此患者的血鈣通常是「偏低」或「正常」，不會引起高鈣血症。\n- D. 三發性副甲狀腺機能亢進（tertiary hyperparathyroidism）：可能。長期次發性副甲狀腺機能亢進後，副甲狀腺細胞自主性過度增生，對血鈣的負回饋失去敏感性，持續分泌極高濃度的 PTH，導致「高鈣血症」。\n\n【核心考點】\n腎衰竭患者高鈣血症的鑑別診斷：\n1. 次發性 HPT：低血鈣、高血磷、高 PTH。\n2. 三發性 HPT：高血鈣、高血磷、極高 PTH（副甲狀腺自主分泌）。\n3. 惡性腫瘤（如肺鱗癌分泌 PTHrP）：高血鈣、低 PTH。\n4. 肉芽腫疾病（如結核病）：高血鈣（因 1,25(OH)2D 升高）、低 TSH/PTH。",
+      "key_point": "次發性副甲狀腺機能亢進（secondary HPT）在腎衰竭患者中通常伴隨血鈣降低或正常，而非高鈣血症；高鈣血症主要由三發性副甲狀腺機能亢進、惡性腫瘤或肉芽腫疾病引起。",
+      "flashcard_summary": "CKD/透析患者高鈣血症 -> 最不可能為「次發性」副甲狀腺亢進（其血鈣通常低或正常）；可能為三發性、肺鱗癌 (PTHrP) 或結核 (Vit D)",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "承上題,上述病人經實驗室檢查發現:血鈣2.78 mmol/L、血清白蛋白2.8 g/dL、胸部X光片異… / mmol",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「C. 次發性副甲狀腺機能亢進(secondary hyperparathyroidism)」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "- 慢性腎臟病 (CKD) / 血液透析患者\n- 高鈣血症 (Hypercalcemia)\n- 胸部 X 光異常 (CXR abnormal)\n- 最不可能的副甲狀腺病因",
+      "flashcard_back": "次發性副甲狀腺機能亢進 (Secondary HPT)；此時血鈣通常偏低或正常。若出現高鈣血症，應考慮三發性 HPT、惡性腫瘤 (如肺鱗癌分泌 PTHrP) 或肉芽腫疾病 (如肺結核活化 Vit D)。",
       "category_group": "醫學（三）",
-      "category": "胸腔內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category": "腎臟科",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_006",
@@ -162,23 +162,23 @@
         "D": "第五型心肌梗塞,連續心肌酶cardiac troponin監測,應該至少有一次升高至大於99百分位(99th\n percentile)參考值上限(upper reference limit)之十倍"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 D. 第五型心肌梗塞,連續心肌酶cardiac troponin監測,應該至少有一次升高至大於99百分位(99th percentile)參考值上限(upper reference limit)之十倍，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：D. 第五型心肌梗塞,連續心肌酶cardiac troponin監測,應該至少有一次升高至大於99百分位(99th percentile)參考值上限(upper reference limit)之十倍",
-      "flashcard_summary": "第 6 題核心考點 -> D. 第五型心肌梗塞,連續心肌酶cardiac troponin監測,應該至少有一次升高至大於99百分位(99th percentile)參考值上限(upper reference limit)之十倍",
+      "explanation": "【題幹解析】\n本題考查第四版「心肌梗塞全球統一通用定義」（Fourth Universal Definition of Myocardial Infarction）中關於急性心肌梗塞（AMI）的分類及診斷標準。\n\n【選項詳解】\n- A. ST段上升心肌梗塞（STEMI）之致病冠狀動脈血管病灶，通常都是慢性、無血栓存在之高度狹窄...：敘述錯誤。STEMI 的致病機轉通常是冠狀動脈不穩定斑塊破裂（plaque rupture），引發急性血栓形成（acute thrombosis）導致血管完全阻塞，而非單純的慢性高度狹窄。\n- B. ST段上升心肌梗塞（STEMI）若不及時恢復心肌灌流，所有病人心電圖最後都會出現Q波：敘述錯誤。雖然大多數 STEMI 會演變成 Q波心肌梗塞，但並非「所有」病人最後都會出現 Q 波，部分病人可能僅表現為非 Q 波心肌梗塞（non-Q wave MI）。\n- C. 第一型、自發性心肌梗塞，連續心肌酶 cardiac troponin 監測，不會有升高至大於99百分位參考值上限：敘述錯誤。所有類型的心肌梗塞之臨床診斷，基本上都必須伴隨心肌受損證據，即心肌酶（如 cTn）升高和/或下降，且至少有一次數值大於 99百分位參考值上限（URL）。\n- D. 第五型心肌梗塞，連續心肌酶 cardiac troponin 監測，應該至少有一次升高至大於99百分位參考值上限之十倍：敘述正確，為本題答案。第五型心肌梗塞定義為與冠狀動脈繞道手術（CABG）相關的心肌梗塞。由於手術本身即會造成心肌微量受損，因此其診斷標準要求較嚴格：術後 48 小時內基線值正常者，cTn 需升高至大於 99th percentile URL 的 10 倍以上，並伴隨新出現的病理性 Q 波、新血管阻塞或影像學上新造的心肌壞死證據。\n\n【核心考點】\n心肌梗塞（MI）分類與診斷標準（Universal Definition）：\n1. 第一型（Type 1）：自發性心肌梗塞（斑塊破裂/裂開伴血栓）。\n2. 第二型（Type 2）：繼發於心肌氧氣供需失衡的心肌梗塞（如嚴重貧血、冠狀動脈痙攣）。\n3. 第三型（Type 3）：突發心源性死亡，且有心肌缺血症狀/心電圖改變，但在抽血驗心肌酶前或升高前即死亡。\n4. 第四型（Type 4a, 4b, 4c）：與 PCI 相關（4a 需 cTn 升高 > 5 倍）、支架血栓（4b）、再狹窄（4c）。\n5. 第五型（Type 5）：與 CABG 相關（需 cTn 升高 > 10 倍）。",
+      "key_point": "第五型心肌梗塞（CABG 相關）的診斷標準之一是：在術後 48 小時內，心肌酶 cardiac troponin (cTn) 監測值需升高至大於 99百分位參考值上限（URL）的 10 倍以上。",
+      "flashcard_summary": "CABG 相關心肌梗塞 (Type 5) -> 心肌酶 cTn 需升高達 99th percentile URL 之「10倍」以上",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "第 6 題核心考點",
-      "flashcard_back": "官方答案指向「D. 第五型心肌梗塞,連續心肌酶cardiac troponin監測,應該至少有一次升高至大於99百分位(99th percentile)參考值上限(upper reference limit)之十倍」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "- 急性心肌梗塞 (AMI) 分類\n- 冠狀動脈繞道手術 (CABG) 相關心肌梗塞 (Type 5)\n- Cardiac troponin (cTn) 診斷臨界值\n- 診斷所需升高倍數",
+      "flashcard_back": "第五型心肌梗塞 (CABG相關) 診斷要求 cTn 至少有一次升高至大於 99th percentile URL 的 10 倍以上（PCI 相關的 Type 4a 則是 5 倍）。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_007",
@@ -191,23 +191,23 @@
         "D": "心室中隔缺損(ventricular septal defect, VSD)因存在高壓力差,所以無論缺損大小,很少會自行關\n 閉"
       },
       "correct_answer": "A",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 A. 心房中隔缺損(atrial septal defect, ASD)為常見之成人先天性心臟病之一,因存在「左往右分流 (left-to-right shunt)」,因此右心室擴大,且可能產生肺動脈高壓，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：A. 心房中隔缺損(atrial septal defect, ASD)為常見之成人先天性心臟病之一,因存在「左往右分流 (left-to-right shunt)」,因此右心室擴大,且可能產生肺動脈高壓",
-      "flashcard_summary": "第 7 題核心考點 -> A. 心房中隔缺損(atrial septal defect, ASD)為常見之成人先天性心臟病之一,因存在「左往右分流 (left-to-right shunt)」,因此右心室擴大,且可能產生肺動脈高壓",
+      "explanation": "【題幹解析】\n本題考查成人先天性心臟病（Adult Congenital Heart Disease, ACHD）的解剖學特徵、病理生理機轉及處置原則。\n\n【選項詳解】\n- A. 心房中隔缺損（atrial septal defect, ASD）為常見之成人先天性心臟病之一，因存在「左往右分流（left-to-right shunt）」，因此右心室擴大，且可能產生肺動脈高壓：敘述正確，為本題答案。ASD 導致左心房血液經由缺損流入右心房，造成右心房、右心室的容量過載（volume overload），進而導致右心擴大。若不予治療，長期肺血流量增加可能引發肺血管重塑，進而產生肺動脈高壓。\n- B. Ebstein氏異常（Ebstein anomaly）患者，因先天二尖瓣環較正常人為低而更靠近心尖部...：敘述錯誤。Ebstein 異常是「三尖瓣（tricuspid valve）」而非二尖瓣的異常。其特徵為三尖瓣中隔葉與後葉向心尖部移位，導致「右心房化（atrialized）」的右心室及三尖瓣嚴重反流，造成右心房擴大。\n- C. 部分肺靜脈回流異常（PAPVR）因終究會造成肺動脈高壓，因此經確診後應儘早進行外科手術治療：敘述錯誤。PAPVR 的治療取決於分流量大小（Qp/Qs）。若分流量小（Qp/Qs < 1.5），患者通常無症狀，且不易產生嚴重的肺動脈高壓，可密切追蹤觀察，不需立即手術。\n- D. 心室中隔缺損（ventricular septal defect, VSD）因存在高壓力差，所以無論缺損大小，很少會自行關閉：敘述錯誤。小型限制性 VSD（尤其是 muscular VSD 或 perimembranous VSD）在兒童甚至成年期有相當高的機率（可達 30-50% 以上）會自行關閉。\n\n【核心考點】\n成人先天性心臟病病生理：\n1. ASD：左往右分流 -> 右心容量過載 -> 右房右室擴大、肺動脈高壓。\n2. Ebstein anomaly：三尖瓣移位（靠近心尖） -> 右心房化 -> 三尖瓣反流。\n3. PAPVR：視 Qp/Qs 決定手術，非一律手術。\n4. VSD：小型缺損常會自行關閉。",
+      "key_point": "心房中隔缺損（ASD）會造成左往右分流，使右心室因容量過載而擴大，並可能隨時間進展產生肺動脈高壓。",
+      "flashcard_summary": "ASD 病生理 -> 左往右分流，導致「右心室擴大」與可能產生肺動脈高壓",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "第 7 題核心考點",
-      "flashcard_back": "官方答案指向「A. 心房中隔缺損(atrial septal defect, ASD)為常見之成人先天性心臟病之一,因存在「左往右分流 (left-to-right shunt)」,因此右心室擴大,且可能產生肺動脈高壓」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "- 成人先天性心臟病\n- 心房中隔缺損 (ASD) 的病生理改變\n- 腔室擴大部位與潛在併發症",
+      "flashcard_back": "左往右分流 (left-to-right shunt) 導致右心容量過載，造成「右心房與右心室擴大」，長期可能導致肺動脈高壓。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_008",
@@ -220,23 +220,23 @@
         "D": "具有典型胸痛症狀的病人,無論冠狀動脈心臟病風險高低,電腦斷層鈣化指數都是最合適的檢查工具"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. 具有典型胸痛症狀的病人,無論冠狀動脈心臟病風險高低,電腦斷層鈣化指數都是最合適的檢查工具，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. 具有典型胸痛症狀的病人,無論冠狀動脈心臟病風險高低,電腦斷層鈣化指數都是最合適的檢查工具",
-      "flashcard_summary": "第 8 題核心考點 / appropriateness -> D. 具有典型胸痛症狀的病人,無論冠狀動脈心臟病風險高低,電腦斷層鈣化指數都是最合適的檢查工具",
+      "explanation": "【題幹解析】\n本題考查冠狀動脈心臟病（CAD）各項診斷工具的適切性標準（Appropriateness Criteria）。針對不同臨床情境（有無症狀、典型或非典型胸痛、CAD 風險高低），應選擇最符合效益且安全的檢查。\n\n【選項詳解】\n- A. 對於冠狀動脈心臟病接受過支架治療的病人，無論有無症狀，每年定期做壓力摧迫性（stress）測試並非必要：敘述正確。無症狀的術後患者不建議例行每年進行壓力測試或心導管，因為無法改善預後，且可能帶來不必要的侵入性檢查風險。\n- B. 冠狀動脈心臟病低風險但有典型胸痛症狀的病人，也可考慮運動心電圖壓力摧迫性（stress）測試以評估風險：敘述正確。低至中度風險且具症狀的患者，若基線心電圖正常且能運動，運動心電圖（Treadmill Exercise Test）是合適的初步篩檢與風險評估工具。\n- C. 冠狀動脈心臟病高風險，在典型胸痛症狀的病人，且無法運動或是無法接受壓力摧迫性（stress）測試時，考慮做心導管檢查是適切的：敘述正確。高風險且具典型症狀者，直接進行侵入性心導管檢查（Coronary Angiography）可同時達到確診與治療（如 PCI）的目的。\n- D. 具有典型胸痛症狀的病人，無論冠狀動脈心臟病風險高低，電腦斷層鈣化指數都是最合適的檢查工具：敘述錯誤，為本題答案。電腦斷層冠狀動脈鈣化指數（Coronary Artery Calcium Score, CACS）主要用於「無症狀」且處於中度風險的人群進行危險分層。對於已經有「典型胸痛（symptomatic）」的患者，即使鈣化指數為 0，也無法完全排除非鈣化斑塊（soft plaque）造成的狹窄，因此不適合作為主要檢查工具，此時應選擇冠狀動脈電腦斷層血管攝影（CCTA）或功能性壓力測試。\n\n【核心考點】\n冠狀動脈疾病（CAD）檢查適切性：\n1. 鈣化指數（CACS）：僅用於「無症狀」之中度風險者篩檢。有症狀者不可單用 CACS 排除 CAD。\n2. 運動心電圖：適用於可運動、基線 ECG 正常且為中低風險之有症狀患者。\n3. 冠狀動脈電腦斷層攝影（CCTA）：適用於中低風險、有症狀但不想或不能做侵入性導管者。\n4. 心導管（CAG）：適用於高風險、典型症狀或功能性測試高度陽性者。",
+      "key_point": "電腦斷層冠狀動脈鈣化指數（CACS）主要用於無症狀的中度風險患者做心血管疾病篩檢，對於「已有典型胸痛症狀」的患者不適合作為唯一的診斷或排除工具。",
+      "flashcard_summary": "典型胸痛患者診斷 -> 「不合適」使用電腦斷層鈣化指數 (CACS) 作為主要診斷工具（CACS 用於無症狀篩檢）",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "第 8 題核心考點 / appropriateness",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. 具有典型胸痛症狀的病人,無論冠狀動脈心臟病風險高低,電腦斷層鈣化指數都是最合適的檢查工具」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "- 冠狀動脈心臟病 (CAD) 診斷工具\n- 電腦斷層冠狀動脈鈣化指數 (CACS)\n- 適用人群與「典型胸痛症狀」患者之適切性",
+      "flashcard_back": "CACS 僅適用於「無症狀」之中度風險患者篩檢；「典型胸痛」患者不應以 CACS 作為首選或排除工具，應使用 CCTA 或功能性壓力測試。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_009",
@@ -249,23 +249,23 @@
         "D": "cat scratch disease"
       },
       "correct_answer": "D",
-      "explanation": "本題要求辨認錯誤或不適當敘述。官方答案為 D. cat scratch disease，代表這個選項是最需要排除或修正的觀念。複習時請回到題幹線索，確認此選項為何不符合定義、機轉、典型表現或臨床處置。",
-      "key_point": "錯誤敘述判斷：D. cat scratch disease",
-      "flashcard_summary": "最不可能造成房室傳導阻斷(atrioventricular block) / atrioventricular block -> D. cat scratch disease",
+      "explanation": "【題幹解析】\n本題考查房室傳導阻斷（AV block）的病因。房室傳導阻斷可由多種病理生理原因引起，包括退化、心肌缺血/梗塞、自主神經反射（如頸動脈竇過敏）、感染性心肌炎等。\n\n【選項詳解】\n- A. carotid sinus hypersensitivity：頸動脈竇過敏。當頸動脈竇受到壓迫時，會引發過度的迷走神經反射，導致嚴重的竇性停搏或暫時性房室傳導阻斷。\n- B. Lyme disease：萊姆病。由伯氏疏螺旋體（Borrelia burgdorferi）引起。約有 4-10% 的萊姆病患者會發展出心臟受累（Lyme carditis），其中「房室傳導阻斷（AV block）」是最具特徵性的表現。\n- C. myocardial infarction：心肌梗塞。尤其是下壁心肌梗塞（Inferior MI，常波及右冠狀動脈 RCA，其分支供應 AV node），容易併發房室傳導阻斷。\n- D. cat scratch disease：貓抓病。由漢氏巴爾通體（Bartonella henselae）感染引起，典型症狀為接觸貓隻後出現局部丘疹及引流淋巴結炎（lymphadenitis），少數患者可能伴有視網膜炎或腦病變，但極少波及心臟傳導系統引起房室傳導阻斷。為本題正確選項（最不可能）。\n\n【核心考點】\n感染與心臟傳導阻斷：\n- 萊姆病（Lyme disease）：萊姆心肌炎最常引起房室傳導阻斷（AV block），常為可逆性。\n- 白喉（Diphtheria）、恰加斯病（Chagas disease）亦是著名可引起心臟傳導阻斷的感染症。\n- 貓抓病：以局部淋巴結腫大為特徵，不常引起 AV block。",
+      "key_point": "貓抓病（Cat scratch disease）主要是由 Bartonella henselae 感染引起，典型表現為局部淋巴結腫大，極少引起心臟傳導阻斷；而萊姆病（Lyme disease）可引起萊姆心肌炎，以房室傳導阻斷為常見表現。",
+      "flashcard_summary": "引起房室傳導阻斷的感染 -> 萊姆病（Lyme carditis）為典型病因；貓抓病則最不可能",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "最不可能造成房室傳導阻斷(atrioventricular block) / atrioventricular block",
-      "flashcard_back": "本題是在找錯誤或不適當敘述；官方答案指向「D. cat scratch disease」。複習時要記住此敘述與正確概念相反，避免只背選項代號。",
+      "flashcard_front": "- 房室傳導阻斷 (atrioventricular block)\n- 感染源與心臟傳導系統受累\n- 萊姆病 (Lyme disease) vs. 貓抓病 (Cat scratch disease)",
+      "flashcard_back": "萊姆病 (Lyme disease) 常因萊姆心肌炎導致 AV block；而貓抓病 (Cat scratch disease) 典型表現為局部淋巴結腫大，最不可能造成 AV block。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_010",
@@ -278,23 +278,23 @@
         "D": "left ventricle"
       },
       "correct_answer": "B",
-      "explanation": "本題要求辨認最符合題幹的正確觀念。官方答案為 B. right ventricle，可作為此題的核心記憶點。複習時請用題幹線索連回該定義、機轉、典型表現或處置原則，再排除其他干擾選項。",
-      "key_point": "正確觀念：B. right ventricle",
-      "flashcard_summary": "一位30歲男性,過去有法洛式四重症(tetralogy of Fallot)病史並開過刀。早上突然因為… / tetralogy of Fallot / left bundle branch block -> B. right ventricle",
+      "explanation": "【題幹解析】\n30 歲男性患者，有法洛氏四重症（Tetralogy of Fallot, ToF）開刀史，因胸悶就醫。十二導程心電圖顯示：Left bundle branch block (LBBB) pattern 的單一型心室頻脈（monomorphic VT）。\n我們需要推測此 VT 的出處（Origin）：\n1. 根據心電圖定位原理：LBBB 形態 of VT 代表心室去極化波主要是由「右側往左側」傳導，因此其起源點（origin）必定在「右心室（Right Ventricle, RV）」。\n2. ToF 患者在手術修補時，常會在右心室流出道（RVOT）或心室中隔缺損（VSD）修補處留下手術疤痕。這些疤痕組織形成了折返環（reentry circuit）的病理基礎，是 ToF 術後患者發生折返性單一型 VT 最常見的起源地（通常在 RV 側）。\n\n【選項詳解】\n- A. right atrium：右心房。右心房引起的快速心律不整通常為心房頻脈（AT）、心房撲動（AFL）或心房顫動（Afib），而非心室頻脈（VT）。\n- B. right ventricle：右心室。ToF 手術部位主要涉及右心室（RVOT 擴建與 VSD 修補），且 LBBB 形態的 VT 提示源自右心室。為本題正確選項。\n- C. left atrium：左心房。非 VT 起源處。\n- D. left ventricle：左心室。左心室起源的 VT，在心電圖上通常會呈現 Right bundle branch block (RBBB) pattern（因為去極化波由左往右傳導）。\n\n【核心考點】\n1. ToF 術後晚期併發症：室性心律不整（VT）及猝死，主因是右心室手術疤痕引起的折返（reentry）。\n2. VT 心電圖定位：\n   - LBBB pattern VT -> 起源於右心室（RV）（去極化波由右向左傳）。\n   - RBBB pattern VT -> 起源於左心室（LV）（去極化波由左向右傳）。",
+      "key_point": "法洛氏四重症（ToF）術後患者發生單一型心室頻脈（monomorphic VT），若心電圖呈現 LBBB 形態，表示其激發點（origin）來自右心室（RV），通常位於右心室流出道（RVOT）的修補疤痕處。",
+      "flashcard_summary": "ToF 術後 + LBBB pattern VT -> 起源於「右心室」 (RV，因手術疤痕與去極化方向由右向左)",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "一位30歲男性,過去有法洛式四重症(tetralogy of Fallot)病史並開過刀。早上突然因為… / tetralogy of Fallot / left bundle branch block",
-      "flashcard_back": "官方答案指向「B. right ventricle」。看到正面線索時，應回想這個定義、機轉、典型表現或處置原則，而不是只記答案字母。",
+      "flashcard_front": "- 法洛氏四重症 (ToF) 術後\n- 單一型心室頻脈 (monomorphic VT)\n- 心電圖呈左束支傳導阻滯形態 (LBBB pattern)\n- 心室頻脈之起源腔室 (origin)",
+      "flashcard_back": "右心室 (Right ventricle)；LBBB pattern VT 代表起源自右心室 (如 ToF 手術後的 RVOT 疤痕)。若為 RBBB pattern VT 則源自左心室。",
       "category_group": "醫學（三）",
       "category": "心臟內科",
-      "category_confidence": "medium",
-      "category_source": "rule_rework",
-      "explanation_model": "local-rule-rework-v1",
-      "explanation_generated_at": "2026-06-18T04:35:34.765284+00:00"
+      "category_confidence": "high",
+      "category_source": "auto",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:01:46.275864+00:00"
     },
     {
       "id": "113-2_medicine-3_011",

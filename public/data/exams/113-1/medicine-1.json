@@ -4,7 +4,7 @@
   "title": "113 年第一次醫師國考：醫學（一）",
   "subject": "medicine-1",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=113020&q=1&s=11&t=Q",
-  "updated_at": "2026-06-17T01:30:59.122118+00:00",
+  "updated_at": "2026-06-26T03:06:03.045484+00:00",
   "questions": [
     {
       "id": "113-1_medicine-1_001",
@@ -17,23 +17,23 @@
         "D": "E-W神經核(Edinger-Westphal nucleus)與動眼神經核(oculomotor nucleus)"
       },
       "correct_answer": "B",
-      "explanation": "角膜反射的感覺傳入來自角膜，經三叉神經第一支進入三叉神經脊髓核。反射弧再連到顏面運動神經核，經顏面神經使眼輪匝肌收縮而閉眼。動眼神經核與 Edinger-Westphal 核主要參與眼球運動與瞳孔反射，並非本反射的主要核。",
-      "key_point": "角膜反射的傳入主要走三叉神經 V1，傳出則由顏面神經支配眼輪匝肌閉眼。",
-      "flashcard_summary": "角膜反射 / V1 傳入 / 閉眼動作 -> 三叉神經脊髓核接顏面運動神經核，完成角膜反射",
+      "explanation": "【題幹解析】\n角膜反射（corneal reflex）是一種保護性的自主反射。當角膜受到物理刺激（例如觸碰）時，雙眼會同時閉眼。此反射的反射弧由傳入神經、中樞神經核（中間神經元）及傳出神經共同組成。\n\n【選項詳解】\n- A. 三叉神經脊髓核負責接收來自角膜的一般體感覺傳入；但動眼神經核（oculomotor nucleus）支配的是上瞼提肌及大部分外眼肌，主要參與眼球運動與瞳孔反射，不參與閉眼動作，故此選項錯誤。\n- B. 正確。當角膜受到刺激，一般體感覺訊號經由三叉神經眼支（CN V1）傳入，其細胞體位於三叉神經節，中樞突進入腦幹後止於三叉神經脊髓核（spinal trigeminal nucleus）。隨後，經由中間神經元雙側投射至顏面運動神經核（facial motor nucleus），再經由顏面神經（CN VII）支配眼輪匝肌（orbicularis oculi muscle）收縮，進而完成閉眼動作。\n- C. E-W神經核（Edinger-Westphal nucleus）為動眼神經的副交感核，控制瞳孔括約肌與睫狀肌，參與瞳孔對光反射（pupillary light reflex），不參與角膜反射，故此選項錯誤。\n- D. E-W神經核與動眼神經核均主要參與動眼神經相關的眼球運動與副交感反應，而非角膜反射，故此選項錯誤。\n\n【核心考點】\n角膜反射反射弧：傳入為三叉神經眼支（CN V1）→ 三叉神經脊髓核 → 中間神經元雙側投射 → 顏面運動神經核 → 傳出為顏面神經（CN VII）→ 眼輪匝肌收縮閉眼。",
+      "key_point": "角膜反射的傳入神經為三叉神經眼支（CN V1），中樞核為三叉神經脊髓核與顏面運動神經核，傳出神經為顏面神經（CN VII）。",
+      "flashcard_summary": "角膜反射 / V1 傳入 / CN VII 傳出 -> 傳入止於三叉神經脊髓核，經中間神經元連至顏面運動神經核，支配眼輪匝肌閉眼",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "角膜反射 / V1 傳入 / 閉眼動作 / 顏面神經",
-      "flashcard_back": "看到角膜反射要先想傳入是三叉神經 V1，傳出是顏面神經到眼輪匝肌。常見混淆是把瞳孔光反射用到這題，誤選動眼神經相關核。",
+      "flashcard_front": "角膜反射 / 傳入與傳出神經 / 參與腦神經核 / 效應器肌肉",
+      "flashcard_back": "角膜反射傳入走三叉神經眼支（CN V1），中樞連接三叉神經脊髓核與顏面運動神經核，傳出走顏面神經（CN VII）支配眼輪匝肌收縮閉眼。注意勿與瞳孔對光反射（CN II 傳入，CN III / E-W 核傳出）混淆。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_002",
@@ -46,23 +46,23 @@
         "D": "頂枕溝(parieto-occipital sulcus)"
       },
       "correct_answer": "C",
-      "explanation": "大腦內側面的初級視覺皮質位於距狀溝周圍，也就是枕葉的典型視覺區。中央溝對應初級運動與體感覺皮質，側腦溝與頂枕溝則不是初級視覺皮質的主要定位。只要記住 V1 圍繞 calcarine sulcus，就能快速作答。",
-      "key_point": "初級視覺皮質位於枕葉內側、圍繞距狀溝分布。",
-      "flashcard_summary": "內側面視覺區 / V1 / 枕葉 -> 初級視覺皮質圍繞距狀溝",
+      "explanation": "【題幹解析】\n大腦半球的皮質分區中，初級視覺皮質（primary visual cortex, V1, Brodmann area 17）負責接收來自外側膝狀體（LGN）傳遞的視覺訊號。在解剖定位上，它主要位於枕葉的內側面，並圍繞一個特定的深溝分布。\n\n【選項詳解】\n- A. 中央溝（central sulcus）位於大腦外側面，分隔額葉與頂葉，其前方為初級運動皮質（M1），後方為初級體感覺皮質（S1），與視覺無關，故此選項錯誤。\n- B. 側腦溝（lateral sulcus / Sylvian fissure）分隔額葉、頂葉與顳葉，主要與聽覺皮質及語言區相關，非初級視覺皮質分布位置，故此選項錯誤。\n- C. 正確。距狀溝（calcarine sulcus）位於大腦半球內側面的枕葉。初級視覺皮質（Brodmann area 17）沿著距狀溝的上唇和下唇分布。其中，距狀溝上方的皮質（cuneus）接收下半視野的視覺資訊，下方的皮質（lingual gyrus）接收上半視野的視覺資訊。\n- D. 頂枕溝（parieto-occipital sulcus）位於大腦半球內側面，用以界定頂葉與枕葉的邊界，雖鄰近視覺聯合區（Brodmann area 18、19），但並非初級視覺皮質直接圍繞的溝，故此選項錯誤。\n\n【核心考點】\n初級視覺皮質（Brodmann area 17）的位置：大腦內側面枕葉的距狀溝（calcarine sulcus）周圍。",
+      "key_point": "初級視覺皮質（V1, Brodmann area 17）位於大腦半球內側面，圍繞距狀溝（calcarine sulcus）分布。",
+      "flashcard_summary": "初級視覺皮質 / 枕葉內側面 -> 圍繞距狀溝（calcarine sulcus）分布，上唇（cuneus）管下視野，下唇（lingual gyrus）管上視野",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "內側面視覺區 / V1 / 枕葉 / calcarine sulcus",
-      "flashcard_back": "看到初級視覺皮質的定位題，優先想到距狀溝。它是內側枕葉辨認 V1 的關鍵地標。",
+      "flashcard_front": "初級視覺皮質 / V1 / 枕葉內側面 / 關鍵骨性與溝裂地標",
+      "flashcard_back": "初級視覺皮質（Brodmann area 17）主要分布於大腦半球內側面的距狀溝（calcarine sulcus）兩側。上唇楔葉（cuneus）管下視野，下唇舌葉（lingual gyrus）管上視野。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_003",
@@ -75,9 +75,9 @@
         "D": "運動前區(premotor area)"
       },
       "correct_answer": "A",
-      "explanation": "依常見神經解剖整理，基底核輸出經丘腦多影響運動前區、補充運動區與其他運動調控區，而不特別強調直接投射到主要運動區，因此原始答案標為 A。不過本題官方已註明一律給分，表示選項設計或敘述存在爭議。作答時要知道標準概念，同時留意國考勘誤與給分資訊。",
-      "key_point": "基底核經丘腦主要調節運動前區、補充運動區等運動相關皮質，題目因表述爭議已官方一律給分。",
-      "flashcard_summary": "基底核輸出 / 經丘腦 / 一律給分 -> 常見整理偏向調節運動相關聯合皮質，本題官方全給分",
+      "explanation": "【題幹解析】\n基底核（basal ganglia）參與大腦皮質—基底核—丘腦—皮質的運動回饋迴路。其傳出神經纖維主要來自蒼白球內側部（Gpi）與黑質緻密部（SNr），投射至丘腦的腹外側核（VL）及腹前核（VA），再投射回大腦皮質的運動相關區域，主要功能為運動的規劃、起始與協調。本題主要探討其不直接投射至大腦皮質的哪一區域。\n\n【選項詳解】\n- A. 主要運動區（primary motor area, M1, Brodmann area 4）：基底核—丘腦迴路雖然對運動執行至關重要，但解剖學上，丘腦 VL/VA 核團傳出的纖維主要直接投射至前運動區（premotor area）和運動輔助區（SMA），而較少直接大比例投射至主要運動區（M1）。主要運動區主要接收來自小腦—丘腦路徑的投射或來自前運動區的皮質間連結。因此，在經典解剖概念中，基底核傳出「一般不直接」傳至主要運動區，此為出題者的原始擬答。但由於不同教材對該通路直接與間接投射的界定存在重疊與學理爭議，官方最終決定一律給分。\n- B. 扣帶運動區（cingulate motor area）：位於扣帶溝內，屬於運動規劃的輔助區域，接收來自基底核—丘腦的投射，參與情感與動機相關的運動調控。\n- C. 運動輔助區（supplementary motor area, SMA）：位於大腦半球內側面，負責運動序列的規劃與雙手協調，是基底核—丘腦迴路的主要直接投射靶區。\n- D. 運動前區（premotor area）：位於主要運動區前方的大腦外側面，負責根據外部感覺刺激規劃運動，同樣接收豐富的基底核—丘腦投射。\n\n【核心考點】\n基底核運動迴路：皮質（主要是運動前區、補充運動區） → 紋狀體（輸入） → 蒼白球/黑質（輸出） → 丘腦（VA/VL） → 皮質（主要投射回運動輔助區、前運動區以規劃運動）。本題因學術界對直接投射範圍的定義差異，官方一律給分。",
+      "key_point": "基底核的運動調節迴路經由丘腦主要投射至運動輔助區、運動前區及扣帶運動區等運動規劃皮質，而非直接大比例投射至主要運動區。本題因選項或學理表述爭議，官方公布一律給分。",
+      "flashcard_summary": "基底核輸出 / 經丘腦投射 -> 主要投射至運動輔助區（SMA）與運動前區，而非主要運動區。本題因學理爭議官方一律給分",
       "review_status": "ai_generated",
       "correct_answers": [
         "A",
@@ -88,14 +88,14 @@
       "answer_status": "all_credit",
       "answer_source": "official_correction",
       "answer_note": "第3題一律給分",
-      "flashcard_front": "基底核輸出 / 經丘腦 / SMA / premotor / 一律給分",
-      "flashcard_back": "基底核經丘腦主要參與高階運動規劃與調節，常連到補充運動區與運動前區。本題有爭議，考場上遇到類似題要特別注意官方更正。",
+      "flashcard_front": "基底核運動迴路 / 丘腦投射靶區 / 運動前區 / 運動輔助區 / 爭議給分",
+      "flashcard_back": "基底核輸出經丘腦（VA/VL）主要直接投射到運動輔助區（SMA）與運動前區（premotor area）等運動規劃皮質。本題因學理上直接/間接投射界定爭議，官方一律給分。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "medium",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_004",
@@ -108,23 +108,23 @@
         "D": "視叉上核(suprachiasmatic nucleus)與後側核(posterior nucleus)"
       },
       "correct_answer": "A",
-      "explanation": "下視丘的視上核與室旁核會合成 ADH 與 oxytocin，軸突經下視丘至腦下腺束進入腦下腺後葉。後葉本身主要負責儲存與釋放，而非合成這些激素。視叉上核主要與晝夜節律有關，不是本題重點。",
-      "key_point": "腦下腺後葉釋放的 ADH 與 oxytocin 由視上核和室旁核神經元產生並送達。",
-      "flashcard_summary": "後葉激素 / ADH / oxytocin -> 由視上核與室旁核製造，經軸突送到腦下腺後葉",
+      "explanation": "【題幹解析】\n腦下腺後葉（posterior pituitary / neurohypophysis）本質上是下視丘神經元軸突末梢的延伸，本身不具備腺體細胞來合成激素。後葉釋放的激素是在下視丘的特定神經核中合成，再經由下視丘—腦下腺束（hypothalamo-hypophyseal tract）以軸突運輸的方式送達後葉儲存，並在受到刺激時釋放到血液中。\n\n【選項詳解】\n- A. 正確。視上核（supraoptic nucleus, SON）主要合成抗利尿激素（ADH / vasopressin）；室旁核（paraventricular nucleus, PVN）主要合成催產素（oxytocin）。這兩處的大細胞神經元（magnocellular neurons）發出的無髓鞘軸突組成下視丘—腦下腺束，穿過垂體柄延伸入腦下腺後葉末梢釋放上述激素。\n- B. 視叉上核（suprachiasmatic nucleus, SCN）是控制晝夜節律（circadian rhythm）的生理鐘中樞，不參與後葉激素的合成與釋放，故此選項錯誤。\n- C. 視叉上核不參與後葉激素釋放，故此選項錯誤。\n- D. 視叉上核與後側核（posterior nucleus, 參與體溫調節及交感神經調控）均不合成後葉激素，故此選項錯誤。\n\n【核心考點】\n下視丘與腦下腺後葉的關係：視上核（主要製造 ADH）與室旁核（主要製造 Oxytocin）之神經軸突延伸至腦下腺後葉，負責釋放激素。",
+      "key_point": "下視丘的視上核（supraoptic nucleus）與室旁核（paraventricular nucleus）合成 ADH 與催產素，並經軸突運輸至腦下腺後葉釋放。",
+      "flashcard_summary": "腦下腺後葉激素 / 視上核與室旁核 -> 合成 ADH（視上核為主）及催產素（室旁核為主），經軸突運輸至後葉釋放",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "後葉激素 / ADH / oxytocin / 視上核 / 室旁核",
-      "flashcard_back": "遇到腦下腺後葉來源題，要想到激素是在下視丘的視上核與室旁核製造，再送到後葉釋放。不要把視叉上核的生理功能混進來。",
+      "flashcard_front": "腦下腺後葉激素 / ADH / 催產素 / 合成神經核 / 下視丘",
+      "flashcard_back": "腦下腺後葉激素（ADH與催產素）是在下視丘的視上核（SON）與室旁核（PVN）合成，藉軸突運輸至後葉儲存並釋放。注意視叉上核（SCN）是管晝夜節律，勿混淆。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_005",
@@ -137,23 +137,23 @@
         "D": "交感神經節前神經元(preganglionic sympathetic neuron)的細胞體位於中間帶"
       },
       "correct_answer": "B",
-      "explanation": "膠狀質位在背角，與痛溫覺調節密切相關，A 正確。前角的大型運動神經元支配骨骼肌，側角或中間帶則可見自主神經節前神經元，C、D 也合理。Clarke 背核雖與後脊髓小腦徑有關，但位置常描述在胸腰段中間帶基部，而非一般背角表層，因此 B 最不恰當。",
-      "key_point": "Clarke 背核位於脊髓中間帶偏內側，不是典型的背角結構。",
-      "flashcard_summary": "脊髓灰質定位 / Clarke 背核 -> 與後脊髓小腦徑有關，但不屬典型背角表層結構",
+      "explanation": "【題幹解析】\n脊髓灰質在結構上可分為背角（dorsal horn）、中間帶（intermediate zone）及前角（ventral horn），並可細分為Rexed板層（laminae I-X）。本題考查各神經元核團在脊髓灰質中的精確定位與功能配對。\n\n【選項詳解】\n- A. 膠狀質（substantia gelatinosa, Rexed lamina II）位於背角淺表，負責接收與調控傳入的痛覺、溫度覺等慢速痛覺資訊，敘述正確。\n- B. 錯誤（最不恰當）。背核（nucleus dorsalis of Clarke / Clarke's column）通常被歸類於脊髓的中間內側帶（lamina VII，主要分布在 C8-L3/L4 節段的基部），而非典型的背角（laminae I-VI）。它接收同側下肢與軀幹下部的本體感覺資訊，其軸突形成後脊髓小腦路徑（posterior spinocerebellar tract）投射至小腦，因此 B 將其位置描述在「背角處」最不恰當。\n- C. 大型運動神經元（alpha motor neurons）位於前角（lamina IX），其軸突穿出前根以支配骨骼肌收縮，敘述正確。\n- D. 交感神經節前神經元的細胞體位於 T1-L2 脊髓的中間帶外側部（稱為側角 lateral horn，屬於 lamina VII），負責發出交感節前纖維，敘述正確。\n\n【核心考點】\n脊髓灰質核團定位：Clarke 背核（Clarke's column）主要位於 C8-L3/L4 脊髓的中間內側區（Lamina VII），為後脊髓小腦路徑的起點，不屬於典型的背角表層結構。",
+      "key_point": "Clarke背核（nucleus dorsalis of Clarke）位於脊髓中間帶的基部（第VII板層），而非背角表層（I-VI板層），其與後脊髓小腦路徑傳遞同側本體感覺有關。",
+      "flashcard_summary": "Clarke背核 / 脊髓定位 -> 位於 C8-L3 中間帶（Lamina VII）而非背角，與同側本體感覺（後脊髓小腦徑）相關",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "脊髓灰質定位 / 膠狀質 / Clarke 背核 / 前角 / 中間帶",
-      "flashcard_back": "這類題先分清背角、前角與中間帶的代表結構。Clarke 背核和小腦脊髓徑有關，但位置不宜簡化成背角表層。",
+      "flashcard_front": "脊髓灰質核團 / Clarke背核 / 膠狀質 / 前角運動神經元 / 側角交感神經元",
+      "flashcard_back": "Clarke背核位於 T1-L3 中間帶（Lamina VII），非背角，負責同側下肢本體感覺（後脊髓小腦徑）；膠狀質位於背角（Lamina II），負責痛溫覺傳遞；交感節前神經元位於側角（Lamina VII）。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_006",
@@ -166,23 +166,23 @@
         "D": "1245"
       },
       "correct_answer": "D",
-      "explanation": "鼓膜感覺支配較複雜，外側面主要有耳顳神經（V3）與迷走神經耳支，內側面則與舌咽神經相關，另有少部分顏面神經參與。前庭耳蝸神經是特殊感覺神經，主管聽覺與平衡，不負責鼓膜的一般體感覺。所以排除 3 後，答案為包含 1、2、4、5 的 D。",
-      "key_point": "鼓膜外側與相關區域的體感覺可來自 V、VII、IX、X，前庭耳蝸神經不負責一般體感覺。",
-      "flashcard_summary": "鼓膜感覺 / V VII IX X / 排除 VIII -> 一般體感覺不由前庭耳蝸神經負責",
+      "explanation": "【題幹解析】\n鼓膜（tympanic membrane）分隔外耳道與中耳腔，其兩側表面具有不同的感覺神經支配。這是一道經典的體感覺支配題，重點在於區分一般體感覺（touch, pain）與特殊感覺（special sense, 聽覺與平衡）。\n\n【選項詳解】\n- 1 三叉神經（trigeminal nerve）：主要是下頷支（V3）發出的耳顳神經（auriculotemporal nerve），支配鼓膜外側面外部的一般體感覺，參與支配。\n- 2 顏面神經（facial nerve）：有少數體感覺纖維支配鼓膜外側面的部分區域，參與支配。\n- 3 前庭耳蝸神經（vestibulocochlear nerve）：專司特殊感覺（special somatic afferent），包括前庭系統的平衡覺與耳蝸系統的聽覺，不負責外耳、中耳或鼓膜的一般體感覺（觸覺、痛覺），故必須排除。\n- 4 舌咽神經（glossopharyngeal nerve）：其分支鼓室神經（tympanic nerve）在鼓室形成鼓室叢（tympanic plexus），支配鼓膜內側面的一般體感覺，參與支配。\n- 5 迷走神經（vagus nerve）：其耳支（Arnold's nerve）支配部分外耳道及鼓膜外側面的一般體感覺，參與支配。\n綜合以上，排除 3 後，參與支配一般體感覺的神經為 1、2、4、5，故選 D。\n\n【核心考點】\n鼓膜的體感覺支配：外側面由 CN V3（耳顳神經）和 CN X（耳支）為主，少部分由 CN VII 支配；內側面由 CN IX（經鼓室叢）支配。CN VIII 只負責聽覺和平衡，不支配鼓膜體感覺。",
+      "key_point": "鼓膜的一般體感覺由三叉神經（CN V3）、顏面神經（CN VII）、舌咽神經（CN IX）與迷走神經（CN X）共同支配，前庭耳蝸神經（CN VIII）僅負責特殊感覺（聽覺、平衡）。",
+      "flashcard_summary": "鼓膜一般感覺 / 排除 CN VIII -> 外側面由 CN V3、X、少許 VII 支配；內側面由 CN IX 支配；CN VIII 無一般體感覺功能",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "鼓膜感覺 / V3 / VII / IX / X / 排除 VIII",
-      "flashcard_back": "鼓膜題目重點是分清一般體感覺與特殊感覺。前庭耳蝸神經只管聽覺和平衡，不拿來做鼓膜觸痛覺支配。",
+      "flashcard_front": "鼓膜感覺支配 / 體感覺神經 / CN VIII 的角色 / 內外面支配對照",
+      "flashcard_back": "鼓膜一般體感覺由三叉（V3）、顏面（VII）、舌咽（IX，支配內側）、迷走（X）共同支配。前庭耳蝸神經（VIII）只管聽覺與平衡，不支配一般感覺，看到直接排除。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_007",
@@ -195,23 +195,23 @@
         "D": "支配頸闊肌(platysma muscle)之收縮"
       },
       "correct_answer": "C",
-      "explanation": "鎖骨上神經來自頸神經叢的 C3、C4，不是臂神經叢，因此 A 錯。它主要支配鎖骨上方、肩峰附近與上胸前部的皮膚感覺，所以 C 正確。肌肉收縮如頸闊肌由顏面神經支配，喉前皮膚也不是其典型重點。",
-      "key_point": "鎖骨上神經是頸神經叢皮支，負責肩上方與鎖骨附近皮膚感覺。",
-      "flashcard_summary": "鎖骨上神經 / 頸神經叢 / 肩部皮膚 -> 支配肩上方與鎖骨附近的皮膚感覺",
+      "explanation": "【題幹解析】\n鎖骨上神經（supraclavicular nerve）是頸部皮神經（cutaneous nerves of the neck）之一，屬於純感覺神經。需要理清其發源神經叢、行程以及支配範圍。\n\n【選項詳解】\n- A. 鎖骨上神經源自頸神經叢（cervical plexus）的前支（C3-C4），並非源於臂神經叢（brachial plexus），故此選項錯誤。\n- B. 支配頸前部/喉部前方表淺皮膚的是頸橫神經（transverse cervical nerve, C2-C3），而非鎖骨上神經，故此選項錯誤。\n- C. 正確。鎖骨上神經自頸部後緣斜向下方跨過鎖骨，分為內側、中間、外側（後）三支，支配鎖骨下區、胸前上部以及肩峰周圍（肩膀）的皮膚感覺。\n- D. 支配頸闊肌（platysma muscle）收縮的是顏面神經（CN VII）的頸支（cervical branch），屬於運動神經纖維，而鎖骨上神經為純感覺神經，不支配肌肉收縮，故此選項錯誤。\n\n【核心考點】\n頸神經叢的皮支分布：\n1. 枕小神經（C2）：耳後枕部皮膚。\n2. 耳大神經（C2-C3）：耳廓及腮腺區皮膚。\n3. 頸橫神經（C2-C3）：頸前部皮膚。\n4. 鎖骨上神經（C3-C4）：鎖骨下、上胸部及肩部皮膚。",
+      "key_point": "鎖骨上神經（supraclavicular nerve）源於頸神經叢（C3-C4 皮支），主要支配鎖骨上方、胸前上部及肩峰部的皮膚感覺。",
+      "flashcard_summary": "鎖骨上神經 / 頸神經叢 -> 源於 C3-C4，支配肩部與鎖骨周圍皮膚感覺；頸闊肌由顏面神經支配",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "supraclavicular nerve / 頸神經叢 / C3 C4 / 肩部皮膚",
-      "flashcard_back": "看到鎖骨上神經，先聯想到頸神經叢的皮支，而不是臂神經叢。它考的是肩上區與鎖骨附近的皮膚感覺分布。",
+      "flashcard_front": "鎖骨上神經 / 來源神經叢 / 支配皮節 / 頸闊肌支配",
+      "flashcard_back": "鎖骨上神經來自頸神經叢（C3-C4），負責鎖骨上、上胸及肩部皮膚感覺（純感覺）。頸闊肌收縮由顏面神經（CN VII）支配，勿混淆運動與感覺。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_008",
@@ -224,23 +224,23 @@
         "D": "枕小神經(lesser occipital nerve)參與耳後部分頭皮感覺訊息傳送"
       },
       "correct_answer": "B",
-      "explanation": "頭皮由皮膚、緻密結締組織、帽狀腱膜、疏鬆結締組織與顱骨膜組成。供應頭皮的血管與神經主要位在第二層緻密結締組織中，因此 B 所述位置錯誤。頭皮可有一定程度移動，耳後感覺也確可由枕小神經參與。",
-      "key_point": "頭皮血管主要走在緻密結締組織層，不是在顱頂腱膜與顱骨膜之間。",
-      "flashcard_summary": "頭皮五層 / 血管位置 -> 頭皮血管神經主要位於緻密結締組織層",
+      "explanation": "【題幹解析】\n頭皮（scalp）的結構由淺入深可分為五層，剛好對應其英文單字 SCALP：S（Skin，皮膚）、C（Connective tissue, 緻密結締組織）、A (Aponeurosis, 帽狀腱膜）、L（Loose connective tissue, 疏鬆結締組織）、P（Pericranium, 顱骨外膜）。這道題主要測驗各層的解剖特徵與血管走行。\n\n【選項詳解】\n- A. 頭頂的頭皮內部確實沒有淋巴結。頭皮的淋巴回流主要流向頭頸交界處的耳後淋巴結、枕淋巴結及腮腺淋巴結等，頭皮本身（尤其是頭頂部）不含有淋巴結，敘述正確。\n- B. 錯誤。供應頭皮的動脈和神經走行在第二層——緻密結締組織（Connective tissue / subcutaneous layer）中，此層結締組織緻密且富含血管。而第三層帽狀腱膜（Aponeurosis）與第五層骨膜（Pericranium）之間是第四層疏鬆結締組織（Loose connective tissue，即危險區 dangerous area），此處除導靜脈（emissary veins）外，並無支配頭皮的主要動脈走行。因此 B 描述的位置不正確。\n- C. 由於第四層是疏鬆結締組織（L），使得前三層（S、C、A）結合緊密的「頭皮本體」能夠在骨膜上自由滑動，這是頭皮容許一定程度自由移動的解剖基礎，敘述正確。\n- D. 枕小神經（lesser occipital nerve, C2）為頸神經叢分支，主要負責耳後及枕外側部頭皮的感覺傳導，敘述正確。\n\n【核心考點】\n頭皮 SCALP 五層解剖特點：血管和神經主要位於第二層（C，緻密結締組織），使得此層受傷時血管不易收縮而易大出血；第四層（L，疏鬆結締組織）為頭皮滑動的間隙，也是感染易擴散的危險區。",
+      "key_point": "頭皮的血管與神經主要走行於第二層「緻密結締組織（Dense connective tissue / Superficial fascia）」中，而非腱膜與骨膜之間。",
+      "flashcard_summary": "頭皮血管神經定位 / SCALP -> 血管神經走在第二層（緻密結締組織）；第四層疏鬆結締組織為滑動面與感染危險區",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "SCALP 五層 / 血管位置 / 緻密結締組織 / 帽狀腱膜",
-      "flashcard_back": "頭皮定位題常考第二層緻密結締組織，因為血管神經就在這裡。腱膜下的疏鬆結締組織是頭皮可移動的原因，但不是主要血管層。",
+      "flashcard_front": "頭皮 SCALP 五層 / 血管與神經走行層 / 自由滑動機制 / 臨床出血特點",
+      "flashcard_back": "頭皮血管走在第二層（緻密結締組織，C），而非腱膜與骨膜間。第四層為疏鬆結締組織（L），是滑動面也是感染擴散的「危險區」。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_009",
@@ -253,23 +253,23 @@
         "D": "鼻中隔(nasal septum)"
       },
       "correct_answer": "C",
-      "explanation": "篩骨會形成上鼻甲與中鼻甲，也參與鼻中隔上部構成。下鼻甲則是單獨的一塊骨頭，不是篩骨延伸。這題最容易因為三個鼻甲一起背而誤以為都屬於篩骨。",
-      "key_point": "下鼻甲是獨立骨，不屬於篩骨的一部分。",
-      "flashcard_summary": "篩骨構成 / 鼻甲 -> 下鼻甲是獨立骨，不由篩骨組成",
+      "explanation": "【題幹解析】\n鼻腔外側壁有三個向內下方突出的骨性鼻甲，分別為上鼻甲、中鼻甲和下鼻甲。在胚胎發育與骨骼構造上，它們的歸屬不同。本題測試顱骨與顏面骨的解剖歸屬關係。\n\n【選項詳解】\n- A. 上鼻甲（superior nasal concha）是篩骨（ethmoid bone）內側壁向鼻腔突出的結構，屬於篩骨的一部分，故不選。\n- B. 中鼻甲（middle nasal concha）亦是篩骨的一部分，位於上鼻甲下方，同樣由篩骨構成，故不選。\n- C. 正確。下鼻甲（inferior nasal concha）是單獨的一對顏面骨（facial bones），與篩骨分開，並以縫隙關節與上頜骨、淚骨、篩骨及顎骨相接，並非篩骨本身的組成部分。\n- D. 鼻中隔（nasal septum）的骨性部分主要由篩骨垂直板（perpendicular plate of ethmoid）與犁骨（vomer）組成，故篩骨參與了鼻中隔的構成，不選。\n\n【核心考點】\n鼻腔外側壁骨骼構成：上鼻甲、中鼻甲由篩骨（ethmoid bone）構成；下鼻甲（inferior nasal concha）則是獨立的顏面骨。",
+      "key_point": "下鼻甲（inferior nasal concha）是一對獨立的顏面骨，不屬於篩骨的一部分；而上鼻甲與中鼻甲皆為篩骨迷路的延伸構造。",
+      "flashcard_summary": "上中下鼻甲來源 -> 上、中鼻甲為篩骨的一部分；下鼻甲是獨立的顏面骨",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "篩骨構成 / superior concha / middle concha / inferior concha",
-      "flashcard_back": "鼻甲題要記得只有上、中鼻甲屬於篩骨。下鼻甲是獨立骨，是最常見的考點陷阱。",
+      "flashcard_front": "鼻甲骨骼歸屬 / 上鼻甲 / 中鼻甲 / 下鼻甲 / 篩骨組成",
+      "flashcard_back": "上鼻甲與中鼻甲屬於篩骨（ethmoid bone）的一部分。下鼻甲（inferior nasal concha）則是獨立的顏面骨，非篩骨延伸，此為最經典的鼻腔解剖陷阱。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_010",
@@ -282,23 +282,23 @@
         "D": "後床突(posterior clinoid process)"
       },
       "correct_answer": "C",
-      "explanation": "乙狀竇溝位於顱後窩內面，反映乙狀竇通往頸靜脈孔的走行，因此 C 正確。盲孔位於前顱窩，弓狀隆起位於中顱窩岩部，後床突則屬蝶鞍附近中顱窩區域。判斷顱窩位置時，最好先建立前、中、後顱窩的骨性地標。",
-      "key_point": "後顱窩可見乙狀竇溝，與靜脈竇走行相關。",
-      "flashcard_summary": "後顱窩 / 乙狀竇溝 -> groove for sigmoid sinus 位於後顱窩",
+      "explanation": "【題幹解析】\n顱底內面由前向後呈階梯狀排列，分為前顱窩（anterior cranial fossa）、中顱窩（middle cranial fossa）和後顱窩（posterior cranial fossa）。本題考查顱底重要地標或孔洞的窝區定位。\n\n【選項詳解】\n- A. 盲孔（foramen cecum）位於前顱窩，在額骨額嵴與篩骨雞冠之間，常有額導靜脈通過，故此選項錯誤。\n- B. 弓狀隆起（arcuate eminence）位於中顱窩，是顳骨岩部前上面由上半規管所引起的突起，故此選項錯誤。\n- C. 正確。乙狀竇溝（groove for sigmoid sinus）位於後顱窩，呈 S 形深溝，沿顳骨岩部後方及枕骨內面走行，容納乙狀竇，最終通往頸靜脈孔（jugular foramen）。\n- D. 後床突（posterior clinoid process）位於中顱窩，是蝶鞍後方的骨性突起（鞍背的兩側角），界定中顱窩與後顱窩的邊界，但解剖上歸屬於中顱窩（蝶骨主體），故此選項錯誤。\n\n【核心考點】\n顱底三窩的邊界與地標：\n1. 前顱窩：盲孔、篩板、雞冠。\n2. 中顱窩：視神經管、眶上裂、蝶鞍、前/後床突、圓孔、卵圓孔、棘孔、破裂孔、弓狀隆起。\n3. 後顱窩：枕骨大孔、內耳門、頸靜脈孔、舌下神經管、乙狀竇溝、斜坡。",
+      "key_point": "乙狀竇溝（groove for sigmoid sinus）位於顱後窩，引導乙狀竇流向頸靜脈孔。",
+      "flashcard_summary": "後顱窩地標 / 乙狀竇溝 -> groove for sigmoid sinus 位於後顱窩；盲孔在前顱窩；弓狀隆起與後床突在中顱窩",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "後顱窩 / sigmoid sinus groove / 顱窩定位 / 靜脈竇",
-      "flashcard_back": "後顱窩常見地標包含小腦、腦幹與乙狀竇溝。遇到顱窩定位題，用骨性與靜脈竇溝地標最快。",
+      "flashcard_front": "顱底三窩定位 / 盲孔 / 弓狀隆起 / 乙狀竇溝 / 後床突",
+      "flashcard_back": "乙狀竇溝位於後顱窩，容納乙狀竇並通往頸靜脈孔。盲孔在前顱窩；弓狀隆起、後床突在中顱窩（後床突為中後窩交界地標，一般歸於中顱窩）。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:09.766951+00:00"
     },
     {
       "id": "113-1_medicine-1_011",
@@ -311,23 +311,23 @@
         "D": "鼓膜張肌(tensor tympani muscle)"
       },
       "correct_answer": "C",
-      "explanation": "顏面神經的運動分支支配表情肌，也支配鐙骨肌，因此 C 正確。嚼肌與內翼肌屬咀嚼肌群，由三叉神經下頷支支配；鼓膜張肌同樣也是 V3。這題常用來區分中耳小肌與咀嚼肌的神經來源。",
-      "key_point": "CN VII 支配鐙骨肌；咀嚼肌群與鼓膜張肌則屬 V3 支配。",
-      "flashcard_summary": "CN VII / 鐙骨肌 -> stapedius 由顏面神經支配，tensor tympani 屬 V3",
+      "explanation": "【題幹解析】\n本題考查中耳肌肉與咀嚼肌的神經支配。中耳腔內有兩條微小的肌肉：鼓膜張肌（tensor tympani）與鐙骨肌（stapedius），它們負責調節聽骨鏈的振動，發揮保護聽覺的作用。兩者在中胚層發育來源及神經支配上各不相同。\n\n【選項詳解】\n- A. 嚼肌（masseter muscle）屬於咀嚼肌群（發育自第一咽弓），由三叉神經下頷支（CN V3）的下頷神經嚼肌支支配，故此選項錯誤。\n- B. 內翼肌（medial pterygoid muscle）同樣屬於咀嚼肌群，由三叉神經下頷支（CN V3）支配，故此選項錯誤。\n- C. 正確。鐙骨肌（stapedius muscle）發育自第二咽弓，由顏面神經（CN VII）發出的鐙骨肌神經支配。當鐙骨肌收縮時，會拉動鐙骨，減弱對前庭窗的衝擊，從而降低強光或巨響對內耳的傷害。\n- D. 鼓膜張肌（tensor tympani muscle）發育自第一咽弓，由三叉神經下頷支（CN V3）的分支支配，收縮時可拉緊鼓膜以減弱振動，故此選項錯誤。\n\n【核心考點】\n中耳兩肌與咽弓發育及神經支配的對應關係：\n1. 鼓膜張肌：第一咽弓 → CN V3 支配。\n2. 鐙骨肌：第二咽弓 → CN VII 支配。",
+      "key_point": "顏面神經（CN VII）支配鐙骨肌的收縮；三叉神經下頷支（CN V3）支配咀嚼肌與鼓膜張肌的收縮。",
+      "flashcard_summary": "中耳肌肉支配 / 鐙骨肌與鼓膜張肌 -> 鐙骨肌由 CN VII 支配；鼓膜張肌由 CN V3 支配",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "CN VII / stapedius / CN V3 / 咀嚼肌 / tensor tympani",
-      "flashcard_back": "記憶上可把鐙骨肌和顏面神經綁在一起；咀嚼肌與鼓膜張肌則歸到 V3。不要把兩個中耳小肌混成同一條神經。",
+      "flashcard_front": "鐙骨肌 / 鼓膜張肌 / 支配神經 / 咽弓來源對照",
+      "flashcard_back": "鐙骨肌發育自第二咽弓，由顏面神經（CN VII）支配；鼓膜張肌與咀嚼肌發育自第一咽弓，由三叉神經下頷支（CN V3）支配。兩者均可減弱強音對耳部的傷害。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_012",
@@ -340,23 +340,23 @@
         "D": "外翼肌(lateral pterygoid muscle)"
       },
       "correct_answer": "A",
-      "explanation": "顳頷韌帶位於關節外側，可限制下頷骨後移，避免下頷骨頭向後方擠壓外耳道或發生後脫臼，因此 A 正確。莖突下頷韌帶較偏輔助穩定，翼肌則主要參與運動而非防止後脫位。題目核心是辨認最重要的被動穩定結構。",
-      "key_point": "顳頷韌帶是防止下頷骨向後位移與後方脫臼的重要穩定構造。",
-      "flashcard_summary": "TMJ / 後方脫臼 -> 顳頷韌帶是限制後移的主要穩定構造",
+      "explanation": "【題幹解析】\n顳頷關節（temporomandibular joint, TMJ）是由下頷骨髁突與顳骨下頷窩、關節結節構成的滑膜關節。其穩定性主要依靠關節囊、關節盤以及周圍的韌帶與肌肉。本題測驗防止下頷骨髁突向後方脫臼（可能壓迫外耳道與外側顳動脈血管）的主要限制結構。\n\n【選項詳解】\n- A. 正確。顳頷韌帶（temporomandibular ligament / 外側韌帶 lateral ligament）是顳頷關節囊外側的加強韌帶，緊鄰關節。它的纖維呈斜向走行，從顴弓向後下方延伸至下頷頸。這種斜向設計能有效限制髁突向後移動，並防止其向下方與後方脫位，是防後脫位最關鍵的結構。\n- B. 內翼肌（medial pterygoid muscle）主要負責上提下頷骨（閉口），與防後脫位的韌帶限制無直接關聯，故此選項錯誤。\n- C. 莖突下頷韌帶（stylomandibular ligament）從顳骨莖突連至下頷角後緣，主要限制下頷骨過度前突，對防止後脫位作用微弱，故此選項錯誤。\n- D. 外翼肌（lateral pterygoid muscle）雙側收縮時將下頷骨前推（張口），單側收縮使下頷骨偏向對側。外翼肌纖維向前拉動下頷骨髁突，並非防止向後脫位的被動韌帶屏障，故此選項錯誤。\n\n【核心考點】\n顳頷關節（TMJ）主要韌帶與限制方向：\n1. 顳頷（外側）韌帶：限制下頷骨向後、向下位移（防後脫位）。\n2. 蝶下頷韌帶（sphenomandibular ligament）與莖突下頷韌帶：限制下頷骨過度前突與下移。",
+      "key_point": "顳頷韌帶（外側韌帶）主要限制下頷骨向後及向下移動，是防止顳頷關節向後方脫臼的最重要被動穩定結構。",
+      "flashcard_summary": "TMJ 韌帶功能 / 防止後脫臼 -> 顳頷韌帶（外側韌帶）限制下頷骨向後移動，是防後方脫位最主要構造",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "TMJ / 後方脫臼 / 外側韌帶 / temporomandibular ligament",
-      "flashcard_back": "顳頷關節問到防止向後脫位，先想顳頷韌帶。它限制下頷骨頭往後移，是關節的重要保護機制。",
+      "flashcard_front": "顳頷關節 / TMJ 後方脫臼 / 顳頷韌帶 / 莖突下頷韌帶 / 外側加強",
+      "flashcard_back": "顳頷韌帶（外側韌帶）是限制下頷骨髁突向後與向下移動的最主要構造，防後脫位最重要。莖突下頷韌帶與蝶下頷韌帶主要限制過度前突。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_013",
@@ -369,23 +369,23 @@
         "D": "後大腦動脈(posterior cerebral artery)"
       },
       "correct_answer": "B",
-      "explanation": "翼點附近骨板較薄，深部有腦膜中動脈前支經過，外傷後容易造成硬腦膜外血腫。這類病人常先有短暫清醒期，再逐漸惡化，是經典考點。靜脈竇或大腦動脈並不是翼點外傷造成 epidural hematoma 的典型來源。",
-      "key_point": "翼點受傷後延遲出現硬腦膜外血腫，典型是腦膜中動脈破裂。",
-      "flashcard_summary": "翼點外傷 / 硬腦膜外血腫 -> 典型為腦膜中動脈破裂",
+      "explanation": "【題幹解析】\n翼點（pterion）是額骨、頂骨、顳骨和蝶骨大翼在顱側面的「H」形骨縫交界處。此處骨質最為薄弱，且深面有腦膜中動脈（middle meningeal artery）的前支經過。翼點骨折極易撕裂該動脈，導致血液集聚在硬腦膜與顱骨之間，形成硬腦膜外血腫（epidural hematoma, EDH），臨床上常表現出清醒期（lucid interval）。\n\n【選項詳解】\n- A. 硬腦膜靜脈竇（dural sinus）破裂通常與矢狀下/上竇或橫竇等特定骨板受損相關，且多引發硬腦膜下或特定部位血腫，並非翼點受撞擊時最典型破裂的血管，故此選項錯誤。\n- B. 正確。腦膜中動脈（來自上頜動脈）前支緊貼翼點深面的骨溝走行。翼點處受創骨折時，骨折片易刺破此動脈，引起高壓的動脈血快速噴湧，數小時內即壓迫腦部引發急性硬腦膜外血腫（EDH）。\n- C. 前大腦動脈（anterior cerebral artery）與 D. 後大腦動脈（posterior cerebral artery）皆位於蛛網膜下腔，若破裂會導致蛛網膜下腔出血（SAH），與硬腦膜外血腫無關，故選項錯誤。\n\n【核心考點】\n翼點（pterion）解剖：額、頂、顳、蝶骨交界點，深面有腦膜中動脈（MMA）前支。損傷後典型後果為硬腦膜外血腫（EDH），特徵是「lucid interval」（短暫清醒期）。",
+      "key_point": "翼點（pterion）骨折最易損傷深面的腦膜中動脈（middle meningeal artery），導致硬腦膜外血腫（EDH）。",
+      "flashcard_summary": "翼點外傷 / MMA 破裂 -> 腦膜中動脈前支受損導致急性硬腦膜外血腫（EDH），常有短暫清醒期（lucid interval）",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "pterion / epidural hematoma / lucid interval / middle meningeal artery",
-      "flashcard_back": "看到翼點外傷加上數小時後惡化，就要聯想到腦膜中動脈破裂造成硬腦膜外血腫。這是神經外傷的高頻經典題。",
+      "flashcard_front": "翼點骨折 / 腦膜中動脈 / 硬腦膜外血腫 / lucid interval / 來源血管",
+      "flashcard_back": "翼點（pterion）骨板薄，深面有腦膜中動脈（MMA）經過。受創骨折易刺破 MMA 導致硬腦膜外血腫（EDH）。大腦前/後動脈破裂則導致蛛網膜下腔出血（SAH）。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_014",
@@ -398,23 +398,23 @@
         "D": "膈神經(phrenic nerve)"
       },
       "correct_answer": "A",
-      "explanation": "壁層胸膜的肋胸膜由肋間神經支配，因此靠近肋骨處的感覺訊號由肋間神經傳入。中央膈胸膜與縱隔胸膜則多由膈神經支配。這題常考的是依位置區分壁層胸膜的感覺神經來源。",
-      "key_point": "靠近肋骨的壁層胸膜痛覺由肋間神經傳遞，膈神經則偏膈胸膜與縱隔胸膜。",
-      "flashcard_summary": "壁層胸膜 / 靠肋骨 -> costal pleura 的感覺由肋間神經傳遞",
+      "explanation": "【題幹解析】\n胸膜分為臟層胸膜（visceral pleura）與壁層胸膜（parietal pleura）。臟層胸膜無一般痛覺纖維；壁層胸膜則對痛覺高度敏感。壁層胸膜依部位分為：肋胸膜（costal）、縱隔胸膜（mediastinal）、膈胸膜（diaphragmatic）和胸膜頂（cervical）。不同部位的壁層胸膜，其一般體感覺支配神經不同。\n\n【選項詳解】\n- A. 正確。靠近肋骨的肋胸膜（costal part）以及膈胸膜的外側周邊部，主要受鄰近的肋間神經（intercostal nerves, T1-T11）支配，因此其痛覺訊號經肋間神經傳入脊髓，定位較精確。\n- B. 迷走神經（vagus nerve）主要支配臟層胸膜的自主神經感受，但不支配壁層胸膜的一般體感覺痛覺傳遞，故此選項錯誤。\n- C. 交感神經幹（sympathetic trunk）負責自主神經訊號傳導，不傳遞壁層胸膜的軀體痛覺，故此選項錯誤。\n- D. 膈神經（phrenic nerve, C3-C5）主要支配縱隔胸膜（mediastinal part）以及膈胸膜的中央部（central diaphragmatic part），其受刺激時引起的放射痛常反射至肩膀（C3-C5 皮節），非肋胸膜主要感覺傳遞路徑，故此選項錯誤。\n\n【核心考點】\n壁層胸膜的神經支配與痛覺傳入：\n1. 肋胸膜與膈胸膜外側周邊：肋間神經（T1-T11）支配，痛覺定位局限於胸壁。\n2. 縱隔胸膜與膈胸膜中央部：膈神經（C3-C5）支配，受刺激時可引發同側頸部與肩部放射痛（referred pain）。",
+      "key_point": "壁層胸膜的肋胸膜（costal part）由肋間神經（intercostal nerves）支配，傳遞痛覺訊號。",
+      "flashcard_summary": "壁層胸膜支配 / 痛覺定位 -> 肋胸膜由肋間神經支配；縱隔與中央膈胸膜由膈神經支配，可致肩部放射痛",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "壁層胸膜 / 肋胸膜 / intercostal nerve / phrenic nerve",
-      "flashcard_back": "胸膜感覺題先分區域：靠肋骨想肋間神經，靠膈中央或縱隔想膈神經。不要整個壁層胸膜都只背成膈神經。",
+      "flashcard_front": "壁層胸膜感覺 / 肋胸膜 / 縱隔與膈胸膜中央 / 肋間神經 / 膈神經",
+      "flashcard_back": "壁層胸膜的肋胸膜由肋間神經（T1-T11）支配，引發局部胸壁痛。縱隔胸膜與中央部膈胸膜則由膈神經（C3-C5）支配，刺激時常放射至肩膀。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_015",
@@ -427,23 +427,23 @@
         "D": "左冠狀動脈(left coronary artery)"
       },
       "correct_answer": "C",
-      "explanation": "在大多數右優勢冠循環的人，房室結由右冠狀動脈供血，因此 C 正確。前室間動脈主要供應前壁與心室中隔前部，左邊緣動脈供應左心室側壁，左冠狀動脈本身則太籠統。這題要抓住 AV node 與 RCA 的高頻配對。",
-      "key_point": "房室結的血液供應多來自右冠狀動脈發出的 AV nodal branch。",
-      "flashcard_summary": "AV node blood supply / RCA -> 房室結多由右冠狀動脈供應",
+      "explanation": "【題幹解析】\n心臟傳導系統的血液供應與冠狀動脈優勢（coronary dominance）密切相關。房室結（atrioventricular node, AV node）通常由房室結支（AV nodal branch）供血。此分支的發源動脈決定於哪一側冠狀動脈到達後室間溝並分出後降支（PDA）。\n\n【選項詳解】\n- A. 前室間動脈（left anterior descending artery, LAD）：是左冠狀動脈的分支，主要供應左心室前壁、心室中隔前2/3以及束支（bundle branches），不供應房室結，故此選項錯誤。\n- B. 左邊緣動脈（left marginal artery）：為左迴旋支（LCX）的分支，主要供應左心室鈍緣及側壁，與傳導結區無關，故此選項錯誤。\n- C. 正確。在約 80-85% 的人群中，心臟屬於右冠狀動脈優勢（RCA dominant）。此時，右冠狀動脈（right coronary artery, RCA）在心臟後方分出後室間支（posterior interventricular branch / PDA），並在其鄰近十字交叉處發出房室結支（AV nodal branch），直接供應房室結血液。\n- D. 左冠狀動脈（left coronary artery, LCA）：其主幹十分短暫，隨即分出 LAD 與 LCX。僅在少數左冠優勢者（LCX 發出 PDA）中房室結才由 LCX 分支供血，並非最普遍的生理規律，故此選項過於籠統且非多數情況。\n\n【核心考點】\n心臟傳導系統血供規律（多數右優勢情況下）：\n1. 竇房結（SA node）：~60% 由右冠狀動脈（RCA）供血，~40% 由左冠迴旋支（LCX）供血。\n2. 房室結（AV node）：~80-85% 由右冠狀動脈（RCA）供血。",
+      "key_point": "在多數人中，房室結（AV node）由右冠狀動脈（RCA）分支發出的房室結支供血。",
+      "flashcard_summary": "心臟傳導結血供 / AV node -> 房室結多數（~80%）由右冠狀動脈（RCA）供血；竇房結約 60% 由 RCA 供血",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "AV node blood supply / RCA / 右優勢循環 / AV nodal branch",
-      "flashcard_back": "房室結供血考題最常見答案是右冠狀動脈。除非題目特別談左優勢循環，否則先選 RCA。",
+      "flashcard_front": "房室結血供 / AV node / 冠狀動脈優勢 / 右冠狀動脈 / 傳導系統",
+      "flashcard_back": "房室結（AV node）的血供在約 80-85% 的人中來自右冠狀動脈（RCA）發出的房室結支。竇房結（SA node）則有約 60% 來自 RCA，40% 來自 LCX。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_016",
@@ -456,23 +456,23 @@
         "D": "供應血液給部分的胸膜(pleura)"
       },
       "correct_answer": "A",
-      "explanation": "支氣管動脈屬於肺的營養性血流，供應支氣管、部分肺組織、食道與臟層胸膜等結構。常見來源是胸主動脈，右側也可能與後肋間動脈共幹，但不是『通常主幹由左側第二肋間動脈分出』。因此 A 為錯誤敘述。",
-      "key_point": "支氣管動脈多直接來自胸主動脈，並非通常由左第二肋間動脈分出。",
-      "flashcard_summary": "支氣管動脈 / 胸主動脈 / 營養性血流 -> 主要來自胸主動脈，供應支氣管及部分肺支持組織",
+      "explanation": "【題幹解析】\n支氣管動脈（bronchial arteries）屬於肺臟的「營養血管」（nutritive vessels），為支氣管壁、肺支持組織（間質）及臟層胸膜提供富氧血液，而肺動脈則為「功能血管」（functional vessels）負責進行氣體交換。本題考查支氣管動脈的發源與支配範圍。\n\n【選項詳解】\n- A. 錯誤（選項敘述錯誤，為本題答案）。左支氣管動脈（通常為上、下兩條）通常直接發自胸主動脈（descending thoracic aorta）。右支氣管動脈（通常為一條）多與右側第3後肋間動脈共幹（intercostobronchial trunk），或者直接發自胸主動脈，並非通常由左側第二肋間動脈分出。\n- B. 正確。支氣管動脈沿支氣管分支延伸，供應支氣管壁、肺結締組織以及肺泡壁的一般細胞營養需求。\n- C. 正確。支氣管動脈在下行過程中會發出細小分支供應部分食道中段組織。\n- D. 正確。支氣管動脈的分支會到達肺表面，供應臟層胸膜（visceral pleura）的血液營養。\n\n【核心考點】\n支氣管動脈與肺血管：\n1. 來源：左支氣管動脈直接源自胸主動脈（2條）；右支氣管動脈源自第3後肋間動脈共幹或胸主動脈（1條）。\n2. 功能：屬於肺的營養血管，供應支氣管、食道中段與臟層胸膜，勿混淆肺動脈的交換功能。",
+      "key_point": "支氣管動脈（bronchial artery）主要直接發自胸主動脈（左側通常兩條）或與右側後肋間動脈共幹（右側通常一條），而非發自左側第二肋間動脈。",
+      "flashcard_summary": "支氣管動脈來源與支配 -> 左側直接起自胸主動脈，右側常起自右第3後肋間動脈共幹；供應支氣管、食道與臟層胸膜",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "bronchial artery / 營養性血流 / 胸主動脈 / 食道胸膜",
-      "flashcard_back": "支氣管動脈考的是來源與供應範圍：多源自胸主動脈，供應支氣管與部分肺支持組織。不要把它和肺動脈的功能混在一起。",
+      "flashcard_front": "支氣管動脈 / 營養血管 / 發源血管 / 供應範圍 / 肺動脈對照",
+      "flashcard_back": "左支氣管動脈直接起自胸主動脈；右支氣管動脈多起自右第3後肋間動脈共幹或主動脈。它們供應支氣管壁、食道中段與臟層胸膜，屬於肺的營養性血管。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_017",
@@ -485,23 +485,23 @@
         "D": "腹部肌肉癱瘓"
       },
       "correct_answer": "B",
-      "explanation": "高位胸椎脊髓損傷會使胸段肋間肌麻痺，導致胸廓無法有效擴張，肺活量明顯下降。橫膈主要由 C3 到 C5 的膈神經支配，因此單純高位胸髓損傷初期通常仍可保留。腹肌較影響用力呼氣與咳嗽，但不是初期肺活量大降的主因。",
-      "key_point": "高位胸髓損傷早期肺活量下降，主因是肋間肌失去支配而胸廓擴張能力變差。",
-      "flashcard_summary": "高位胸髓損傷 / 肺活量下降 -> 主要因肋間肌麻痺使胸廓擴張受限",
+      "explanation": "【題幹解析】\n高位胸椎脊髓損傷病患在呼吸功能上面臨的主要生理挑戰在於吸氣與呼氣肌力的流失。肺活量（vital capacity, VC）是指最大吸氣後能呼出的最大氣體量，其大小取決於吸氣肌（胸廓擴張）與呼氣肌（胸廓與腹部收縮）的完整度。\n\n【選項詳解】\n- A. 橫膈肌肉癱瘓：支配橫膈肌肉的膈神經發源於頸脊髓 C3-C5。高位胸椎損傷（如 T1-T6 節段）位於頸髓下方，因此膈神經不受影響，橫膈收縮功能完好，故此選項錯誤。\n- B. 正確。胸廓的主動擴張主要依賴外肋間肌收縮。肋間肌由 T1-T11 脊神經前支組成的肋間神經支配。高位胸髓損傷會阻斷大腦下行的運動訊號，導致受損節段以下的肋間肌癱瘓。在受傷初期，由於缺乏肋間肌穩定胸壁與協助擴張，吸氣時胸廓無法有效抬升，甚至可能出現矛盾呼吸（肋間肌被動內陷），導致肺活量（VC）大幅下降。\n- C. 頸部肌肉癱瘓：呼吸輔助肌如胸鎖乳突肌（由副神經 CN XI 支配）、斜角肌（由 C3-C8 支配）在高位胸髓損傷時多數仍有完整或大部分功能保留，並非肺活量大降之主因，故此選項錯誤。\n- D. 腹部肌肉癱瘓：腹肌（由 T7-L1 支配）在呼氣（特別是用力呼氣、咳嗽）中起重要作用。腹肌癱瘓會限制「呼氣儲備容積（ERV）」，但對初期胸廓吸氣擴張能力的直接打擊不如肋間肌癱瘓顯著，故非吸氣擴張下降主因。\n\n【核心考點】\n脊髓損傷位置與呼吸肌支配：\n1. C3以上損傷：橫膈與肋間肌皆癱瘓，需呼吸器維持生命。\n2. C3-C5損傷：膈神經受部分或完全影響，橫膈功能受損。\n3. 胸髓（T1-T11）損傷：橫膈完好（C3-C5），但肋間肌癱瘓（T1-T11），導致胸廓無法自主抬升擴張，肺活量大幅下降。",
+      "key_point": "高位胸椎脊髓損傷（T1-T6）導致支配肋間肌的肋間神經麻痺，使胸廓無法主動擴張，是受傷初期肺活量大幅下降的主因；此時支配橫膈的膈神經（C3-C5）仍保持完好。",
+      "flashcard_summary": "胸髓損傷呼吸影響 -> 膈神經（C3-C5）保留，但肋間肌（T1-T11）癱瘓，吸氣胸廓擴張受限致肺活量驟降",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "高位胸髓損傷 / 肺活量下降 / 肋間肌 / 膈神經保留",
-      "flashcard_back": "判斷脊髓損傷後呼吸功能時，要先看膈神經有沒有受影響。高位胸髓傷主要讓肋間肌失能，所以胸廓擴張下降最明顯。",
+      "flashcard_front": "胸髓損傷 / 肺活量下降 / 肋間肌癱瘓 / 橫膈支配保留 / 脊髓定位",
+      "flashcard_back": "高位胸髓損傷（如 T1-T6）不影響支配橫膈的膈神經（C3-C5），但會使肋間肌癱瘓（T1-T11 支配），導致吸氣時胸廓無法抬升擴張，造成初期肺活量大幅下降。",
       "category_group": "醫學（一）",
       "category": "生理學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_018",
@@ -514,23 +514,23 @@
         "D": "十二指腸上升段(ascending part of duodenum)"
       },
       "correct_answer": "B",
-      "explanation": "主胰管與膽管匯合形成肝胰壺腹後，開口於十二指腸下降段的大十二指腸乳頭。這是消化道與膽胰解剖的高頻考點。若題目問副胰管，才可能聯想到小十二指腸乳頭。",
-      "key_point": "膽總管與主胰管通常在十二指腸降部的大十二指腸乳頭共同開口。",
-      "flashcard_summary": "主胰管 / 膽管 / 大乳頭 -> 共同開口於十二指腸下降段",
+      "explanation": "【題幹解析】\n膽汁與胰液的共同排放路徑是人體消化解剖的核心。膽總管（common bile duct）自膽囊與肝臟下行，與主胰管（main pancreatic duct / Wirsung's duct）在十二指腸壁內匯合，膨大形成肝胰壺腹（ampulla of Vater），其周圍有 Oddi 括約肌包繞，最終開口於十二指腸的特定壁段。\n\n【選項詳解】\n- A. 十二指腸上段（superior part / 第一部）：長約 5 cm，主要為膽囊與肝十二指腸韌帶鄰近處，無膽管或胰管開口，故此選項錯誤。\n- B. 正確。十二指腸下降段（descending part / 第二部）長約 7-10 cm，在其後內側壁上有一隆起構造稱為大十二指腸乳頭（major duodenal papilla）。膽總管與主胰管在此處共同開口。若有副胰管（accessory pancreatic duct），則開口於大乳頭稍上方的小十二指腸乳頭（minor duodenal papilla）。\n- C. 十二指腸水平段（horizontal part / 第三部）與 D. 十二指腸上升段（ascending part / 第四部）均位於遠端，與空腸相接，無主要膽胰管開口，故此選項錯誤。\n\n【核心考點】\n十二指腸的解剖分部與地標：\n1. 第一部（上段）：易發生十二指腸潰瘍的球部（bulbar part）。\n2. 第二部（下降段）：大十二指腸乳頭（膽總管與主胰管開口）、小十二指腸乳頭（副胰管開口）。",
+      "key_point": "膽總管（bile duct）與主胰管（main pancreatic duct）匯合後，共同開口於十二指腸下降段（descending part）的大十二指腸乳頭。",
+      "flashcard_summary": "膽胰管開口定位 / 十二指腸 -> 共同開口於十二指腸下降段（第二部）的大十二指腸乳頭",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "主胰管 / 膽管 / 肝胰壺腹 / 大十二指腸乳頭 / 降部",
-      "flashcard_back": "看到膽管與主胰管共同開口，直接聯想十二指腸第二部。大乳頭是經典定位點。",
+      "flashcard_front": "膽胰管共同開口 / 肝胰壺腹 / 大十二指腸乳頭 / 十二指腸下降段 / 膽總管",
+      "flashcard_back": "膽總管與主胰管匯合成肝胰壺腹，開口於十二指腸下降段（第二部）的大十二指腸乳頭。副胰管則開口於其上方的小十二指腸乳頭。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_019",
@@ -543,23 +543,23 @@
         "D": "腹橫肌腱膜(aponeurosis of transversus abdominis)"
       },
       "correct_answer": "A",
-      "explanation": "腹股溝深環位於腹橫筋膜上，位於下腹壁血管外側，是腹股溝管的內口。腹外斜肌腱膜形成的是淺環，不可混淆。內斜肌與腹橫肌則提供部分腹股溝管壁與提睪肌來源。",
-      "key_point": "腹股溝深環是腹橫筋膜上的開口，為精索進入腹股溝管的入口。",
-      "flashcard_summary": "腹股溝深環 / 腹橫筋膜 -> deep inguinal ring 是腹橫筋膜上的開口",
+      "explanation": "【題幹解析】\n腹股溝管（inguinal canal）是腹前壁下部一條斜行的肌肉與腱膜間裂隙。管內有精索（男性）或子宮圓韌帶（女性）通過。腹股溝管的內口稱為深環，外口稱為淺環。掌握這兩個環口在腹壁各層次中的定位是解剖與臨床疝氣診斷的基石。\n\n【選項詳解】\n- A. 正確。腹股溝深環（deep inguinal ring）位於腹股溝韌帶中點上方約 1.25 cm 處，是腹橫筋膜（transversalis fascia）向外突起包裹精索/子宮圓韌帶所形成的一個卵圓形孔洞。精索由此環進入腹股溝管。\n- B. 腹內斜肌（internal oblique muscle）與 D. 腹橫肌（transversus abdominis）的下緣游離呈弓狀，跨過精索上方，並向後融合形成聯合腱（conjoint tendon），這兩處均無深環的開口結構，故選項錯誤。\n- C. 腹外斜肌腱膜（aponeurosis of external oblique muscle）在恥骨結節外上方裂開形成一個三角形孔洞，即為腹股溝淺環（superficial inguinal ring / 外環），並非深環，故此選項錯誤。\n\n【核心考點】\n腹股溝管的邊界與環口：\n1. 內口（深環）：位於腹橫筋膜（transversalis fascia），且位在腹壁下動脈（inferior epigastric artery）的外側。\n2. 外口（淺環）：位於腹外斜肌腱膜（aponeurosis of external oblique muscle），位在恥骨結節上方。",
+      "key_point": "腹股溝深環（deep inguinal ring）是腹橫筋膜（transversalis fascia）上的卵圓形孔洞；腹股溝淺環（superficial inguinal ring）則是腹外斜肌腱膜的開口。",
+      "flashcard_summary": "腹股溝管環口定位 -> 深環（內口）在腹橫筋膜；淺環（外口）在腹外斜肌腱膜",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "deep inguinal ring / transversalis fascia / 下腹壁血管外側 / 淺環對照",
-      "flashcard_back": "腹股溝題目先分深環與淺環：深環在腹橫筋膜，淺環在腹外斜肌腱膜。這是判斷腹股溝疝方向的基礎。",
+      "flashcard_front": "腹股溝管環口 / 腹股溝深環 / 腹股溝淺環 / 腹橫筋膜 / 腹外斜肌腱膜",
+      "flashcard_back": "腹股溝深環（內環）是腹橫筋膜的開口，位於腹壁下血管外側（間接疝氣入口）。腹股溝淺環（外環）是腹外斜肌腱膜的三角形裂隙，位於恥骨結節上方。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_020",
@@ -572,23 +572,23 @@
         "D": "下胰十二指腸動脈(inferior pancreaticoduodenal artery)"
       },
       "correct_answer": "D",
-      "explanation": "下胰十二指腸動脈是上腸繫膜動脈的典型分支，與上胰十二指腸動脈形成吻合。前、後上胰十二指腸動脈通常來自胃十二指腸動脈，而左結腸動脈來自下腸繫膜動脈。這題重點在分清 SMA 與 celiac / IMA 的分支。",
-      "key_point": "上腸繫膜動脈會發出下胰十二指腸動脈，供應中腸起始區與胰十二指腸交界。",
-      "flashcard_summary": "SMA 分支 / 下胰十二指腸動脈 -> inferior pancreaticoduodenal artery 來自上腸繫膜動脈",
+      "explanation": "【題幹解析】\n腹腔內臟器的血液供應主要來自腹主動脈的三大分支：腹腔幹（celiac trunk）、上腸繫膜動脈（superior mesenteric artery, SMA）與下腸繫膜動脈（inferior mesenteric artery, IMA）。本題測驗胰臟與十二指腸交界處的雙重血管來源吻合環。\n\n【選項詳解】\n- A. 前上胰十二指腸動脈（anterior superior pancreaticoduodenal artery）與 B. 後上胰十二指腸動脈（posterior superior pancreaticoduodenal artery）：兩者皆源自胃十二指腸動脈（gastroduodenal artery, GDA）。GDA 為總肝動脈的分支，發源自腹腔幹（celiac trunk）系統，故選項錯誤。\n- C. 左結腸動脈（left colic artery）：供應降結腸，是下腸繫膜動脈（IMA）的分支，故此選項錯誤。\n- D. 正確。下胰十二指腸動脈（inferior pancreaticoduodenal artery）是上腸繫膜動脈（SMA）發出的第一個分支，分為前支與後支，分別與前上、後上胰十二指腸動脈在胰頭與十二指腸凹槽中吻合，形成豐富的側支循環。此吻合代表了前腸（foregut, 腹腔幹供血）與中腸（midgut, SMA 供血）在胚胎發育與血供上的交界點。\n\n【核心考點】\n胰十二指腸動脈吻合環與胚胎發育：\n1. 上胰十二指腸動脈（前/後）：來自腹腔幹（Celiac trunk）→ 胃十二指腸動脈（GDA），供應前腸衍生物。\n2. 下胰十二指腸動脈（前/後）：來自上腸繫膜動脈（SMA），供應中腸衍生物。",
+      "key_point": "下胰十二指腸動脈（inferior pancreaticoduodenal artery）是上腸繫膜動脈（SMA）的分支；前/後上胰十二指腸動脈則來自胃十二指腸動脈（腹腔幹分支）。",
+      "flashcard_summary": "胰十二指腸血管來源 -> 上胰十二指腸動脈來自腹腔幹（GDA分支）；下胰十二指腸動脈來自上腸繫膜動脈（SMA分支）",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "SMA 分支 / inferior pancreaticoduodenal / celiac 對照 / IMA 對照",
-      "flashcard_back": "分支題常考胰十二指腸上下來源：上屬腹腔幹系統，下屬上腸繫膜動脈。左結腸動脈則是下腸繫膜動脈。",
+      "flashcard_front": "下胰十二指腸動脈 / 上胰十二指腸動脈 / SMA 分支 / 腹腔幹分支 / 前中腸交界",
+      "flashcard_back": "下胰十二指腸動脈是上腸繫膜動脈（SMA）的第一分支。前/後上胰十二指腸動脈則來自腹腔幹分支（胃十二指腸動脈）。此二血管群吻合代表前腸與中腸的交界。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:05:40.318348+00:00"
     },
     {
       "id": "113-1_medicine-1_021",
@@ -601,23 +601,23 @@
         "D": "迷走神經(vagus nerve)"
       },
       "correct_answer": "B",
-      "explanation": "闌尾的早期內臟痛會經交感傳入纖維回到脊髓，與中腸相關路徑連結，臨床上常表現為臍周痛。對應選項中，以內臟小神經最符合闌尾的傳導路徑。迷走神經主要攜帶副交感纖維，並不是疼痛傳導主路徑。",
-      "key_point": "闌尾屬中腸，其內臟痛纖維多隨 T10 到 T12 交感路徑回傳，常對應內臟小神經。",
-      "flashcard_summary": "闌尾疼痛 / 中腸 / 交感傳入 -> 主要隨內臟小神經相關路徑傳導",
+      "explanation": "【題幹解析】\n闌尾（appendix）在胚胎發育上屬於中腸（midgut）的一部分。內臟痛（visceral pain）不敏感於切割或溫度，但對牽拉、缺血及發炎敏感。中腸器官的內臟感覺纖維（包含痛覺）主要隨伴交感神經纖維逆行，進入胸髓第10至11節段（T10-T11）。這在臨床上常表現為早期的臍周牽涉痛（referred pain）。\n\n【選項詳解】\n- A. 內臟大神經（greater splanchnic nerve）由 T5-T9 節段的交感節前神經纖維組成，主要投射至腹腔神經節（celiac ganglion），支配前腸（foregut）衍生物（如胃、肝、膽、脾、十二指腸上段等），非闌尾痛主要傳導路徑，故此選項錯誤。\n- B. 正確。內臟小神經（lesser splanchnic nerve）由 T10-T11 節段的交感節前神經纖維組成，主要投射至上腸繫膜神經節（superior mesenteric ganglion），支配中腸（midgut）衍生物（包括小腸、闌尾、升結腸及橫結腸前2/3）。因此，闌尾發炎早期的內臟痛主要藉此神經回傳，對應 T10 皮節（臍周）。\n- C. 內臟最小神經（least splanchnic nerve）主要由 T12 節段組成，投射至主動脈腎神經節（aorticorenal ganglion），與腎臟血流及感覺調控較為相關，非闌尾，故此選項錯誤。\n- D. 迷走神經（vagus nerve）攜帶中腸的副交感傳入與傳出纖維，負責一般內臟反射感覺（如飽足感、化學感受），但不負責傳遞痛覺（消化道的痛覺傳入全部伴隨交感神經走行），故此選項錯誤。\n\n【核心考點】\n消化道痛覺傳入路徑與臨床定位：\n1. 前腸（T5-T9，內臟大）：表現為上腹痛。\n2. 中腸（T10-T11，內臟小）：包含闌尾，表現為臍周痛（T10）。\n3. 後腸（T12-L2，內臟最小與腰內臟）：表現為下腹痛。",
+      "key_point": "闌尾屬於中腸衍生物，其早期內臟痛主要隨交感神經傳入纖維經內臟小神經（T10-T11）回傳至脊髓，表現為臍周痛。",
+      "flashcard_summary": "闌尾疼痛傳導 / 內臟小神經 -> 闌尾（中腸）痛覺經 T10-T11 伴隨交感神經走內臟小神經傳入，臨床呈臍周痛",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "appendix pain / 臍周痛 / 中腸 / 交感傳入 / lesser splanchnic",
-      "flashcard_back": "闌尾痛先想中腸內臟痛與交感路徑，而不是迷走神經。考題常用『早期臍周痛』來提示你走內臟傳入。",
+      "flashcard_front": "闌尾早期疼痛 / 臍周痛 / 胚胎發育來源 / 痛覺傳入神經 / T10 皮節",
+      "flashcard_back": "闌尾屬中腸，其內臟痛覺伴隨交感神經走內臟小神經（T10-T11）回傳至脊髓，故早期發炎表現為臍周牽涉痛（T10皮節）。消化道痛覺不走迷走神經。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_022",
@@ -630,23 +630,23 @@
         "D": "薦骨粗隆韌帶(sacrotuberous ligament)"
       },
       "correct_answer": "A",
-      "explanation": "坐骨肛門窩的外側壁主要是閉孔內肌及其筋膜，內側壁則是提肛肌與外肛門括約肌。坐骨粗隆、薦骨粗隆韌帶及後方的臀大肌都與其邊界相關。閉孔外肌位於骨盆外側，不構成此窩的邊界，因此 A 為正確答案。",
-      "key_point": "坐骨肛門窩外側壁由閉孔內肌與其筋膜形成，不是閉孔外肌。",
-      "flashcard_summary": "坐骨肛門窩 / 邊界 / 閉孔內外肌 -> 不參與邊界的是閉孔外肌",
+      "explanation": "【題幹解析】\n坐骨肛門窩（ischioanal fossa，舊稱坐骨直腸窩）是位於盆膈下方、肛管兩側的楔形間隙，內部填充大量脂肪，以容許便溺時肛管的擴張。掌握此窩的各壁解剖邊界是會陰解剖的重點。\n\n【選項詳解】\n- A. 正確（不參與邊界）。閉孔外肌（obturator externus）位於骨盆外側面，起自閉孔膜外面及周圍骨質，止於股骨轉子窩，屬於大腿外旋肌群。而構成坐骨肛門窩外側壁的是閉孔內肌（obturator internus）及其覆蓋的閉孔內肌筋膜。兩肌位置一內一外，不可混淆。\n- B. 坐骨粗隆（ischial tuberosity）構成坐骨肛門窩外側壁的骨性基礎，參與外側邊界，故不選。\n- C. 臀大肌（gluteus maximus）的下緣與脂肪組織重疊，參與坐骨肛門窩的後下邊界，故不選。\n- D. 薦骨粗隆韌帶（sacrotuberous ligament）呈斜向走行，與臀大肌共同構成坐骨肛門窩的後界，故不選。\n\n【核心考點】\n坐骨肛門窩（ischioanal fossa）邊界：\n1. 外側壁：坐骨粗隆、閉孔內肌（obturator internus）及閉孔筋膜（內含陰部管 Alcock's canal）。\n2. 內側壁：提肛肌（levator ani）、外肛門括約肌。\n3. 後界：臀大肌下緣、薦骨粗隆韌帶。",
+      "key_point": "閉孔內肌及其筋膜形成坐骨肛門窩的外側壁；閉孔外肌位於骨盆外側面，不參與坐骨肛門窩的邊界界定。",
+      "flashcard_summary": "坐骨肛門窩邊界 -> 外側為閉孔內肌與坐骨粗隆，內側為提肛肌；閉孔外肌位於盆外，不參與邊界",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "ischioanal fossa / obturator internus / obturator externus / 邊界",
-      "flashcard_back": "坐骨肛門窩的陷阱是把閉孔內肌和閉孔外肌搞混。形成外側壁的是閉孔內肌與其筋膜。",
+      "flashcard_front": "坐骨肛門窩邊界 / 閉孔內肌 / 閉孔外肌 / 外側壁構成 / 後界結構",
+      "flashcard_back": "坐骨肛門窩外側壁由閉孔內肌及其筋膜形成。閉孔外肌在骨盆外面（大腿外旋肌），不參與邊界。後界為臀大肌與薦骨粗隆韌帶。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_023",
@@ -659,23 +659,23 @@
         "D": "中直腸動脈(middle rectal artery)是陰部內動脈的分支"
       },
       "correct_answer": "D",
-      "explanation": "陰部內動脈是髂內動脈的分支，經坐骨大孔離盆，再經坐骨小孔進入會陰與坐骨肛門窩，A、B、C 皆正確。中直腸動脈一般來自髂內動脈前支系統，並非陰部內動脈的典型分支，因此 D 最不恰當。這題重點在記住 internal pudendal artery 的路徑與主要分支。",
-      "key_point": "中直腸動脈通常來自髂內動脈前幹或其分支，不是陰部內動脈的典型分支。",
-      "flashcard_summary": "陰部內動脈 / 路徑 / 分支 -> 中直腸動脈不是其典型分支",
+      "explanation": "label: Q23\n【題幹解析】\n陰部內動脈（internal pudendal artery）是會陰部與外生殖器的主要供應血管。它在盆腔內的起點、出入盆腔的走行路線（繞過坐骨棘）以及在會陰的分支是臨床骨盆骨折出血及會陰手術的經典考點。\n\n【選項詳解】\n- A. 陰部內動脈是髂內動脈（internal iliac artery）前幹的分支，負責外生殖器與會陰血液，敘述正確。\n- B. 陰部內動脈在盆腔內起自髂內動脈後，向下行穿過梨狀肌下孔，亦即藉由坐骨大孔（greater sciatic foramen）離開骨盆腔，敘述正確。\n- C. 陰部內動脈出盆後繞過坐骨棘與薦棘韌帶，再經由坐骨小孔（lesser sciatic foramen）折返進入坐骨肛門窩（會陰部），並走行於陰部管內，敘述正確。\n- D. 錯誤（最不恰當）。中直腸動脈（middle rectal artery）通常直接發自髂內動脈（internal iliac artery）的前幹，或發自膀胱下動脈，並非陰部內動脈的分支。陰部內動脈在陰部管內發出的直腸分支是下直腸動脈（inferior rectal artery / 肛動脈 anal artery）。\n\n【核心考點】\n1. 陰部內動脈行程：髂內動脈 → 坐骨大孔出盆 → 繞坐骨棘 → 坐骨小孔入會陰（坐骨肛門窩外側壁之陰部管）。\n2. 直腸血供三來源：\n   - 上直腸動脈：來自下腸繫膜動脈（IMA）。\n   - 中直腸動脈：來自髂內動脈前幹。\n   - 下直腸動脈：來自陰部內動脈。",
+      "key_point": "中直腸動脈通常直接發自髂內動脈前幹，而非陰部內動脈的分支；陰部內動脈發出的直腸血管為肛（下直腸）動脈。",
+      "flashcard_summary": "陰部內動脈路徑與分支 -> 經大孔出盆、小孔入會陰；分支含下直腸動脈，中直腸動脈直接起自髂內動脈",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "internal pudendal artery / greater sciatic foramen / lesser sciatic foramen / middle rectal artery",
-      "flashcard_back": "陰部內動脈的路徑是先出骨盆再折返進會陰；中直腸動脈不要硬背成它的分支。考題常把『路徑正確、分支錯誤』混在一起。",
+      "flashcard_front": "陰部內動脈 / 骨盆出入口 / 直腸動脈來源 / 陰部管 / 髂內動脈分支",
+      "flashcard_back": "陰部內動脈經坐骨大孔出盆、繞坐骨棘、坐骨小孔入會陰。中直腸動脈直接源自髂內動脈；下直腸（肛）動脈才是陰部內動脈的分支。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_024",
@@ -688,23 +688,23 @@
         "D": "輸精管壺腹(ampulla of ductus deferens)位於輸精管與副睪管(duct of epididymis)交接處"
       },
       "correct_answer": "A",
-      "explanation": "輸精管由精索進入腹股溝管後，進一步跨過外髂血管進入骨盆，因此 A 正確。它在骨盆內是跨過輸尿管上方，臨床常記成『輸精管跨過輸尿管』，所以 C 錯。壺腹位於輸精管末端近前列腺處，並非與副睪管交界處。",
-      "key_point": "輸精管進入骨盆時會跨過外髂血管，之後在骨盆內越過輸尿管上方。",
-      "flashcard_summary": "輸精管 / 外髂血管 / 跨輸尿管 -> 進骨盆時跨外髂血管，骨盆內越過輸尿管上方",
+      "explanation": "【題幹解析】\n輸精管（ductus deferens）是精子運送的管道。其行程由副睪尾開始，經精索、腹股溝管、盆腔，最終與精囊腺排泄管匯合為射精管。理解其與周圍血管、腹膜及輸尿管的立體解剖關係十分重要。\n\n【選項詳解】\n- A. 正確。輸精管隨精索出腹股溝管深環後，折向後下方，跨過髂外動脈及靜脈（external iliac vessels）的前方，下行進入骨盆腔，此解剖描述精確。\n- B. 輸精管在進入骨盆腔後，是走行於腹膜的深面（腹膜外側或下方），亦即被覆壁腹膜（parietal peritoneum）所覆蓋（為腹膜外位器官），並非完全不被腹膜覆蓋，故此選項錯誤。\n- C. 輸精管在盆腔內向後內側下行時，會跨越輸尿管（ureter）的「上方」（ anterior and superior to the ureter），這在解剖上常記為『水（尿）在橋（輸精管/子宮動脈）下流』，故穿過下方之說錯誤。\n- D. 輸精管壺腹（ampulla of ductus deferens）是輸精管靠近末端的膨大段，鄰近精囊，並非在起始段與副睪管相接處（副睪尾接輸精管起點），故此選項錯誤。\n\n【核心考點】\n輸精管（ductus deferens）的盆腔行程關係：\n1. 跨過髂外血管：由腹股溝深環進入骨盆的起點。\n2. 跨過輸尿管：位於輸尿管的前上方（男性為輸精管越過，女性為子宮動脈越過）。\n3. 末端膨大：稱為壺腹，與精囊排泄管匯合進入射精管。",
+      "key_point": "輸精管在跨入骨盆腔時會越過髂外血管前方，並在骨盆深處由前外側向後內側跨過輸尿管的「上方」。",
+      "flashcard_summary": "輸精管盆腔定位 -> 跨越外髂血管進骨盆，並跨越輸尿管的前上方；末端膨大為壺腹",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "ductus deferens / crosses external iliac vessels / crosses over ureter / ampulla",
-      "flashcard_back": "男性骨盆高頻句型是『輸精管跨過輸尿管』。進盆入口則要記外髂血管，不要和腹股溝管出口混淆。",
+      "flashcard_front": "輸精管行程 / 跨外髂血管 / 跨輸尿管關係 / 輸精管壺腹 / 腹膜關係",
+      "flashcard_back": "輸精管跨過髂外血管進入骨盆腔。在盆腔內，輸精管跨越輸尿管的前上方（尿在橋下流）。壺腹位於靠近精囊的末端，非起點。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_025",
@@ -717,23 +717,23 @@
         "D": "大前庭腺(greater vestibular gland)"
       },
       "correct_answer": "C",
-      "explanation": "陰囊、陰道前庭與大前庭腺多回流到淺腹股溝淋巴結，屬表淺外生殖器的典型路徑。卵巢則源自腹後壁，淋巴沿卵巢血管回到腰旁（para-aortic）淋巴結，因此和其他三者不同。這是生殖系統淋巴引流的經典對照題。",
-      "key_point": "卵巢淋巴沿卵巢血管回流至腰旁主動脈淋巴結，與外陰結構不同。",
-      "flashcard_summary": "卵巢淋巴 / para-aortic -> 卵巢回流至腰旁淋巴結，與外陰結構不同",
+      "explanation": "【題幹解析】\n骨盆與會陰部的淋巴引流主要遵循其胚胎發育的發源地。外生殖器與表淺結構多引流至腹股溝淋巴結；而深部盆腔器官多引流至髂內/外淋巴結。生殖腺（卵巢與睪丸）在胚胎早期發育於腹後壁高處，隨後下降，因此其血管與淋巴回流仍然保留了腹後壁的特徵。\n\n【選項詳解】\n- A. 陰囊（scrotum）：屬於會陰部的表淺外生殖器構造，淋巴引流至腹股溝淺淋巴結（superficial inguinal lymph nodes），不選。\n- B. 陰道前庭（vestibule of vagina）：屬於外陰結構，其表淺黏膜與皮膚引流至腹股溝淺淋巴結，不選。\n- C. 正確。卵巢（ovary）在胚胎發育上源自腹後壁高處（與睪丸相同）。其淋巴管伴隨卵巢動靜脈在懸韌帶中上行，直接回流至主動脈旁的腰（主動脈旁）淋巴結（lumbar / para-aortic lymph nodes），而非腹股溝淋巴結。\n- D. 大前庭腺（greater vestibular gland / Bartholin's gland）：位於會陰淺袋，屬於外生殖器輔助結構，淋巴同樣引流至腹股溝淺淋巴結，不選。\n\n【核心考點】\n生殖系統淋巴回流規律：\n1. 卵巢與睪丸：腰（主動脈旁）淋巴結（lumbar/para-aortic nodes）。\n2. 子宮底/輸卵管部分：可引流至腰淋巴結或腹股溝淺淋巴結。\n3. 子宮頸/陰道上段：髂內、髂外及骶骨前淋巴結。\n4. 外陰/陰道下段/陰囊/大前庭腺：腹股溝淺淋巴結。",
+      "key_point": "卵巢與睪丸源於腹後壁，其淋巴回流沿生殖腺血管引流至腰旁（腰/主動脈旁）淋巴結；而外陰及外生殖器回流至腹股溝淺淋巴結。",
+      "flashcard_summary": "生殖淋巴引流對照 -> 卵巢回流至腰旁主動脈淋巴結；陰囊與外陰結構回流至腹股溝淺淋巴結",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "ovary lymph / para-aortic nodes / 外陰結構 / superficial inguinal nodes",
-      "flashcard_back": "遇到卵巢淋巴，不要被它位在骨盆內誤導；它跟睪丸一樣偏向腹後壁來源，所以走 para-aortic。外陰結構才多走淺腹股溝。",
+      "flashcard_front": "生殖器淋巴回流 / 卵巢與睪丸 / 陰囊與外陰 / 腹股溝淺淋巴結 / 腰淋巴結",
+      "flashcard_back": "卵巢和睪丸源於腹後壁，淋巴沿血管直接回流至腰（主動脈旁）淋巴結。陰囊、陰道前庭、大前庭腺等外陰結構則引流至腹股溝淺淋巴結。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_026",
@@ -746,23 +746,23 @@
         "D": "肩胛骨關節盂(glenoid cavity of scapula)"
       },
       "correct_answer": "B",
-      "explanation": "肱骨小頭位於遠端肱骨外側，與橈骨頭關節面接觸，構成肱橈關節。尺骨滑車切跡對應的是肱骨滑車，不是肱骨小頭。這題是在考肘關節內外側骨性配對。",
-      "key_point": "肱骨小頭與橈骨頭形成肱橈關節，是肘關節外側的接觸面。",
-      "flashcard_summary": "肱骨小頭 / 橈骨頭 -> capitulum 與 radial head 形成關節",
+      "explanation": "【題幹解析】\n肘關節（elbow joint）是一個複合關節，包含三個關節結構：肱尺關節、肱橈關節及橈尺近側關節。掌握肱骨遠端與前臂雙骨近端的關節面一一配對是上肢關節解剖的基本功。\n\n【選項詳解】\n- A. 尺骨頭（head of ulna）：位於尺骨的「遠端」（靠近手腕處），與橈骨的尺切跡及手腕的三角骨關節面相關，不與肱骨接觸，故此選項錯誤。\n- B. 正確。橈骨頭（head of radius）呈圓盤狀，其上表面的關節凹面與肱骨遠端外側的圓形肱骨小頭（capitulum of humerus）接觸，構成肱橈關節，負責前臂的屈伸及旋前/旋後運動。\n- C. 尺骨滑車切跡（trochlear notch of ulna）：是尺骨近端呈鷹嘴與冠突之間的半月形凹面，它接觸的是肱骨遠端內側的滑車（trochlea of humerus），構成肱尺關節，故此選項錯誤。\n- D. 肩胛骨關節盂（glenoid cavity of scapula）：位於肩部，與肱骨頭（head of humerus）接觸形成肩關節，與肱骨遠端的小頭無關，故此選項錯誤。\n\n【核心考點】\n肘關節骨性關節面配對：\n1. 外側：肱骨小頭（Capitulum） ↔ 橈骨頭（Head of radius） → 肱橈關節。\n2. 內側：肱骨滑車（Trochlea） ↔ 尺骨滑車切跡（Trochlear notch） → 肱尺關節。",
+      "key_point": "肱骨小頭（capitulum）與橈骨頭（head of radius）凹陷面接觸，形成肱橈關節；肱骨滑車（trochlea）與尺骨滑車切跡形成肱尺關節。",
+      "flashcard_summary": "肘關節骨性配對 -> 肱骨小頭連接橈骨頭；肱骨滑車連接尺骨滑車切跡",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "capitulum / radial head / humeroradial joint / trochlea 對照",
-      "flashcard_back": "肘關節骨性配對可簡化成：小頭配橈骨，滑車配尺骨。背熟這一組，很多關節題都會變簡單。",
+      "flashcard_front": "肘關節骨性配對 / 肱骨小頭 / 肱骨滑車 / 橈骨頭 / 尺骨滑車切跡",
+      "flashcard_back": "肱骨遠端外側小頭（capitulum）對應橈骨頭；內側滑車（trochlea）對應尺骨滑車切跡。尺骨頭在遠端手腕處，勿混淆。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_027",
@@ -775,23 +775,23 @@
         "D": "內蹠神經(medial plantar nerve)"
       },
       "correct_answer": "A",
-      "explanation": "足背大趾與第二趾之間的第一蹼間是深腓神經很重要的皮膚感覺區，臨床常拿來檢查其功能。淺腓神經支配大多數足背皮膚，但通常不含這個小區域。隱神經與內蹠神經的感覺分布位置也不同。",
-      "key_point": "第一蹼間的足背皮膚感覺是深腓神經的代表性皮節範圍。",
-      "flashcard_summary": "第一蹼間 / 足背感覺 -> 最具代表性的神經是深腓神經",
+      "explanation": "【題幹解析】\n本題考查下肢神經的感覺分布區域。腓總神經在腓骨頸處分為深腓神經與淺腓神經。兩者負責足背不同的感覺與運動區。第一蹼間（first dorsal web space）是臨床評估深腓神經是否受損（如腔室症候群或腓骨頭骨折壓迫）的指標性部位。\n\n【選項詳解】\n- A. 正確。深腓神經（deep fibular nerve）主要負責前腳掌肌群（脛前肌、伸趾長肌等）的運動支配，其純感覺皮支僅支配足背極小的一部分，即第一趾（大趾）外側與第二趾內側相鄰的面（第一蹼間皮膚感覺）。\n- B. 淺腓神經（superficial fibular nerve）支配腓骨長、短肌（外翻肌），並負責支配除第一蹼間之外的大部分足背及足趾背側的皮膚感覺，故此選項錯誤。\n- C. 隱神經（saphenous nerve）是股神經的皮支，主要支配小腿內側面及足背內側邊緣的皮膚感覺，不支配足趾縫，故此選項錯誤。\n- D. 內蹠神經（medial plantar nerve）是脛神經的分支，支配足底內側大半部的皮膚感覺，而非足背，故此選項錯誤。\n\n【核心考點】\n小腿與足部感覺支配：\n1. 淺腓神經：大部分足背皮膚。\n2. 深腓神經：第一與第二趾相鄰側（第一蹼間）的足背皮膚。\n3. 腓腸神經（sural nerve）：足部外側緣。\n4. 隱神經：足部內側緣。\n5. 脛神經分支（蹠神經）：足底皮膚。",
+      "key_point": "足背第一蹼間（第一趾與第二趾相鄰側）的皮膚感覺由深腓神經（deep fibular nerve）支配。",
+      "flashcard_summary": "足部皮膚感覺 / 第一蹼間 -> 大趾與第二趾相鄰側皮膚感覺由深腓神經支配；其餘大部分足背由淺腓神經支配",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "第一蹼間 / 足背 / deep fibular nerve / 淺腓神經對照",
-      "flashcard_back": "足背感覺考試最常考第一蹼間，這是深腓神經的招牌分布。其他大部分足背區域才偏向淺腓神經。",
+      "flashcard_front": "第一蹼間感覺 / 深腓神經 / 淺腓神經 / 足背感覺支配 / 腔室症候群檢查",
+      "flashcard_back": "足背大趾與第二趾之間的蹼間皮膚（第一蹼間）是深腓神經唯一的感覺支配區。足背其餘大部分感覺由淺腓神經支配。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_028",
@@ -804,23 +804,23 @@
         "D": "枕動脈(occipital artery)位於其內"
       },
       "correct_answer": "C",
-      "explanation": "枕下三角由頭後大直肌、頭上斜肌與頭下斜肌圍成，內有椎動脈與枕下神經。枕大神經並不在三角內，而是從其下緣附近穿出向上走行，因此 C 正確。上外側與上內側邊界的肌肉名稱、以及枕動脈是否位於三角內，都是常見混淆點。",
-      "key_point": "枕大神經穿過枕下三角下方附近向上行，是辨認枕下區的重要地標。",
-      "flashcard_summary": "枕下三角 / 枕大神經 -> greater occipital nerve 從三角下緣附近穿出",
+      "explanation": "【題幹解析】\n枕下三角（suboccipital triangle）位於頸後枕下區的深層，是由三塊肌肉圍成的三角形區域，內含重要的血管與神經。掌握其邊界肌肉、三角內容物與相鄰神經的空間關係是顱頸交界解剖的難點。\n\n【選項詳解】\n- A. 上外側邊界：為頭上斜肌（obliquus capitis superior），而非頭後大直肌（頭後大直肌為上內側邊界），故此選項錯誤。\n- B. 上內側邊界：為頭後大直肌（rectus capitis posterior major），而非頭上斜肌，故此選項錯誤。\n- C. 正確。枕大神經（greater occipital nerve, C2 後支）並不位於枕下三角之內。它在頭下斜肌（obliquus capitis inferior，構成三角的下界）的下方穿出，隨後向上走行，跨過枕下三角的後表面，支配枕部皮膚。因此說它「從此三角的下緣穿出」是正確的。\n- D. 枕動脈（occipital artery）走行在枕下三角外側的顳骨乳突深面，不位於枕下三角之內。位於枕下三角內部的動脈是椎動脈（vertebral artery，在枕骨大孔前水平走行於環椎後弓的椎動脈溝內），故此選項錯誤。\n\n【核心考點】\n枕下三角（suboccipital triangle）解剖：\n1. 邊界：\n   - 上內側：頭後大直肌（rectus capitis posterior major）。\n   - 上外側：頭上斜肌（obliquus capitis superior）。\n   - 下界：頭下斜肌（obliquus capitis inferior）。\n2. 內容物：椎動脈（vertebral artery）、枕下神經（suboccipital nerve, C1 後支，為純運動神經）。\n3. 鄰近關係：枕大神經（greater occipital nerve, C2 後支，為感覺神經）自下界（頭下斜肌下緣）繞出並跨過三角表面。",
+      "key_point": "枕下三角（suboccipital triangle）內含椎動脈及枕下神經（C1前支/後支）；枕大神經（C2後支）不位於三角內，而是從其下緣（頭下斜肌下方）穿出並跨越三角。",
+      "flashcard_summary": "枕下三角解剖 -> 內含椎動脈與 C1 後支（運動）；C2 枕大神經（感覺）自三角下緣（頭下斜肌）穿出",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "suboccipital triangle / greater occipital nerve / 椎動脈 / 枕下神經",
-      "flashcard_back": "判斷枕下三角時，先分清『三角內』與『三角外』：椎動脈和枕下神經在內，枕大神經多從下緣附近穿出。這是考點核心。",
+      "flashcard_front": "枕下三角 / 邊界肌肉 / 椎動脈 / 枕下神經 C1 / 枕大神經 C2",
+      "flashcard_back": "枕下三角由頭後大直肌（內）、頭上斜肌（外）、頭下斜肌（下）圍成。內含椎動脈與 C1 枕下神經。C2 枕大神經純感覺，自三角下緣繞出。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_029",
@@ -833,23 +833,23 @@
         "D": "肌皮神經(musculocutaneous nerve)"
       },
       "correct_answer": "B",
-      "explanation": "橈神經在肘附近分為淺支與深支，深支穿過旋後肌後稱為後骨間神經。它主要支配前臂後群伸肌，是純運動性的重要分支。這題要把橈神經分支和正中、尺神經分開記憶。",
-      "key_point": "後骨間神經是橈神經深支穿過旋後肌後的延續。",
-      "flashcard_summary": "後骨間神經 / 橈神經深支 -> posterior interosseous nerve 為橈神經的分支",
+      "explanation": "【題幹解析】\n前臂的神經支配通常有骨間前神經與骨間後神經。骨間前神經（anterior interosseous nerve, AIN）是正中神經的分支；骨間後神經（posterior interosseous nerve, PIN）是橈神經的分支。此題考查後群伸肌支配神經的發源。\n\n【選項詳解】\n- A. 尺神經（ulnar nerve）：主要支配前臂前群的尺側腕屈肌、指深屈肌尺側半以及手部內在肌，無後骨間神經分支，故此選項錯誤。\n- B. 正確。橈神經（radial nerve）在肱骨外上髁前上方分為淺支（純感覺）與深支（運動）。深支下行穿過旋後肌的腱性弓（Frohse弧），進入前臂後群肌深淺層之間，此段及以後的延續部分被稱為後骨間神經（posterior interosseous nerve, PIN），支配除橈側腕長伸肌、肱橈肌和旋後肌本身（由橈神經主幹或深支直接支配）以外的所有前臂伸肌。\n- C. 正中神經（median nerve）：其發出的分支是骨間前神經（AIN），支配前臂前群深層屈肌（如拇長屈肌、指深屈肌橈側半），非後骨間神經，故此選項錯誤。\n- D. 肌皮神經（musculocutaneous nerve）：支配前臂前群屈肌（肱二頭肌、喙肱肌、肱肌），其終末支為前臂外側皮神經，與後骨間神經無關，故此選項錯誤。\n\n【核心考點】\n前臂骨間神經來源對照：\n1. 骨間前神經（AIN）：來自正中神經（Median nerve），支配前群深層屈肌。\n2. 骨間後神經（PIN）：來自橈神經（Radial nerve）深支，支配後群伸肌。",
+      "key_point": "後骨間神經（posterior interosseous nerve, PIN）是橈神經（radial nerve）深支穿過旋後肌後的終末支，主要支配前臂後群伸肌。",
+      "flashcard_summary": "前臂骨間神經來源 -> 後骨間神經（PIN）源自橈神經；骨間前神經（AIN）源自正中神經",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "posterior interosseous nerve / radial nerve / deep branch / supinator",
-      "flashcard_back": "後骨間神經其實就是橈神經深支穿過旋後肌後的新名稱。只要看到前臂後群伸肌，就很常和它有關。",
+      "flashcard_front": "後骨間神經 / PIN / 橈神經深支 / 旋後肌 / 伸肌支配 / 骨間前神經對照",
+      "flashcard_back": "後骨間神經（PIN）是橈神經深支穿過旋後肌後的延伸，負責支配前臂後群伸肌。骨間前神經（AIN）則源於正中神經，支配前群深屈肌。",
       "category_group": "醫學（一）",
       "category": "解剖學",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_030",
@@ -862,23 +862,23 @@
         "D": "下臀動脈(inferior gluteal artery)"
       },
       "correct_answer": "C",
-      "explanation": "髖部的 cruciate anastomosis 典型成員包括內側迴旋股動脈、外側迴旋股動脈的橫支、下臀動脈與第一穿通動脈。上臀動脈較常與轉子吻合相關，而不是十字吻合的核心成員，所以最不受影響的是 C。這題常考兩種吻合的成員差異。",
-      "key_point": "十字吻合主要牽涉內外側迴旋股動脈與下臀動脈，上臀動脈通常不在其中。",
-      "flashcard_summary": "十字吻合 / 上下臀動脈對照 -> superior gluteal artery 不屬 cruciate anastomosis 核心成員",
+      "explanation": "【題幹解析】\n在大腿上部和臀部，為保證在股動脈或髂內動脈受壓/結紮時大腿的血液灌流，存在兩個極其重要的動脈吻合網：轉子吻合（trochanteric anastomosis）與十字吻合（cruciate anastomosis）。掌握兩者的參與動脈是髖部手術的重點解剖常識。\n\n【選項詳解】\n- A. 內側迴旋股動脈（medial femoral circumflex artery）：其橫支參與構成十字吻合的內側臂，故受結紮影響，不選。\n- B. 外側迴旋股動脈（lateral femoral circumflex artery）：其橫支參與構成十字吻合的外側臂，故受結紮影響，不選。\n- C. 正確（最不受影響）。上臀動脈（superior gluteal artery）是髂內動脈後幹的分支，主要參與大轉子下方的轉子吻合（trochanteric anastomosis），負責髂骨周邊及臀中肌、臀小肌血供，並不直接參與大腿上部股骨頸下方的十字吻合（cruciate anastomosis）。因此結紮十字吻合血管時，上臀動脈最不受影響。\n- D. 下臀動脈（inferior gluteal artery）：其下行支向下延伸，構成十字吻合的上臂，故受結紮影響，不選。\n\n【核心考點】\n髖部兩大動脈吻合比較：\n1. 十字吻合（Cruciate anastomosis）：位於股骨大轉子下方。組成包括：下臀動脈（上）、第一穿通動脈（下）、內側迴旋股動脈（內）、外側迴旋股動脈（外）。\n2. 轉子吻合（Trochanteric anastomosis）：位於大轉子窩。主要由上臀動脈、下臀動脈、以及內/外側迴旋股動脈的升支組成。",
+      "key_point": "髖部十字吻合（cruciate anastomosis）成員包括：內/外側迴旋股動脈的橫支、下臀動脈的下行支、以及第一穿通動脈的上行支。上臀動脈不參與十字吻合。",
+      "flashcard_summary": "髖部動脈吻合 -> 十字吻合含下臀動脈、第一穿通動脈、內/外側迴旋股動脈；上臀動脈不參與十字吻合，只參與轉子吻合",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "cruciate anastomosis / inferior gluteal / circumflex femoral / superior gluteal 對照",
-      "flashcard_back": "髖部吻合題要分 cruciate 和 trochanteric：十字吻合偏下臀動脈，轉子吻合才常想到上臀動脈。看到兩者一起出現時要特別小心。",
+      "flashcard_front": "髖部血管吻合 / 十字吻合 / 轉子吻合 / 上臀動脈 / 下臀動脈 / 迴旋股動脈",
+      "flashcard_back": "十字吻合由下臀動脈、第一穿通動脈、內外側迴旋股動脈的橫支組成（無上臀動脈）。上臀動脈主要參與轉子吻合（大轉子窩周圍）。",
       "category_group": "醫學（一）",
       "category": "解剖學",
-      "category_confidence": "medium",
+      "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-17T01:30:59.122118+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-26T03:06:03.045484+00:00"
     },
     {
       "id": "113-1_medicine-1_031",
