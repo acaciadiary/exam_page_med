@@ -15,4 +15,7 @@ export const storageKeys = {
   installPromptDismissed: `${prefix}:install-prompt-dismissed`,
   readingBold: `${prefix}:reading-bold`,
   lastPractice: `${prefix}:last-practice`,
+  dailyGoal: `${prefix}:daily-goal`,
+  examPlan: `${prefix}:exam-plan`,
+  studyActivity: `${prefix}:study-activity`,
 };

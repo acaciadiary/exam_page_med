@@ -25,6 +25,11 @@ import {
 } from "../features/progress/StudyOverviewPage";
 import { StickyNotesPage } from "../features/notes/StickyNotesPage";
 import { DiseaseComparePage } from "../features/exam/DiseaseComparePage";
+import {
+  HomeDashboardPage,
+  type ExamPlan,
+  type StudyActivityLog,
+} from "../features/home/HomeDashboardPage";
 import { RadarChart } from "../components/RadarChart";
 import { useExamProgress } from "../hooks/useExamProgress";
 import { useLocalStorage } from "../hooks/useLocalStorage";
@@ -70,11 +75,17 @@ type InstallAwareNavigator = Navigator & {
 const siteUrl = "https://acaciadiary.github.io/exam_page_med/";
 
 const pageSeo: Record<AppPage, { title: string; description: string; path: string }> = {
+  home: {
+    title: "我的書桌｜Ariel's Med 醫師國考個人備考 App",
+    description:
+      "Ariel's Med 我的書桌整理今日任務、每日目標、連續練習、考試倒數與個人週報，陪你每天穩定刷題。",
+    path: "",
+  },
   exam: {
     title: "Ariel's Med｜醫師國考歷屆試題練習題庫",
     description:
       "Ariel's Med 收錄台灣醫師國考歷屆試題，提供醫學一至醫學六線上練習、錯題複習、收藏閃卡與重點整理。",
-    path: "",
+    path: "?page=exam",
   },
   progress: {
     title: "進度總覽｜Ariel's Med 醫師國考題庫",
@@ -173,6 +184,16 @@ export default function App() {
   const [lastPractice, setLastPractice] = useLocalStorage<LastPractice | null>(
     storageKeys.lastPractice,
     null,
+  );
+  const [dailyGoal, setDailyGoal] = useLocalStorage<number>(storageKeys.dailyGoal, 10);
+  const [examPlan, setExamPlan] = useLocalStorage<ExamPlan>(storageKeys.examPlan, {
+    targetDate: "",
+    targetStage: "stage-2",
+    focusExamId: "",
+  });
+  const [studyActivity, setStudyActivity] = useLocalStorage<StudyActivityLog>(
+    storageKeys.studyActivity,
+    {},
   );
   const [stickyNotes, setStickyNotes] = useLocalStorage<StickyNoteItem[]>(
     storageKeys.stickyNotes,
@@ -396,6 +417,21 @@ export default function App() {
   const activeStage = useMemo(() => {
     return activeExam ? getExamStage(activeExam) : "stage-1";
   }, [activeExam]);
+
+  useEffect(() => {
+    if (state.status !== "ready") return;
+    if (examPlan.focusExamId && state.manifest.exams.some((exam) => exam.id === examPlan.focusExamId)) {
+      return;
+    }
+
+    const fallbackExam =
+      state.manifest.exams.find((exam) => getExamStage(exam) === examPlan.targetStage) ??
+      state.manifest.exams[0];
+
+    if (fallbackExam) {
+      setExamPlan((current) => ({ ...current, focusExamId: fallbackExam.id }));
+    }
+  }, [examPlan.focusExamId, examPlan.targetStage, setExamPlan, state]);
 
   useEffect(() => {
     if (state.status !== "ready") return undefined;
@@ -684,6 +720,7 @@ export default function App() {
   }, []);
 
   const handleAnswerQuestion = (questionId: string, answer: AnswerOptionKey) => {
+    const isFirstAnswer = !answers[questionId];
     answerQuestion(questionId, answer);
 
     if (!readyDataset) return;
@@ -694,6 +731,21 @@ export default function App() {
     const currentExamId = readyDataset.id;
     const correct = isAcceptedAnswer(answer, question);
     const activePracticeIds = mistakePracticeIds[currentExamId] ?? [];
+
+    if (isFirstAnswer) {
+      const todayKey = formatLocalDateKey(new Date());
+      setStudyActivity((current) => {
+        const today = current[todayKey] ?? { answered: 0, correct: 0 };
+
+        return {
+          ...current,
+          [todayKey]: {
+            answered: today.answered + 1,
+            correct: today.correct + (correct ? 1 : 0),
+          },
+        };
+      });
+    }
 
     setLastPractice({
       examId: currentExamId,
@@ -1086,6 +1138,9 @@ export default function App() {
         setFavorites([]);
         setMistakePracticeIds({});
         setLastPractice(null);
+        setDailyGoal(10);
+        setExamPlan({ targetDate: "", targetStage: "stage-2", focusExamId: manifest.exams[0]?.id ?? "" });
+        setStudyActivity({});
       }}
     >
       <div className="relative">
@@ -1106,27 +1161,33 @@ export default function App() {
           ) : null}
         </AnimatePresence>
 
-        {page === "exam" && (
-          <DailyStudyPanel
+        {page === "home" ? (
+          <HomeDashboardPage
+            dailyGoal={dailyGoal}
+            examPlan={examPlan}
+            studyActivity={studyActivity}
             mistakes={allMistakes}
             favorites={favorites}
             stats={performanceStats}
             activeStage={activeStage}
             theme={theme}
+            exams={manifest.exams}
             continueTarget={continueTarget}
             continueQuestion={continueQuestion}
             continueExam={continueExam}
+            onDailyGoalChange={setDailyGoal}
+            onExamPlanChange={setExamPlan}
             onContinuePractice={() => {
               if (!continueTarget) return;
               openQuestion(continueTarget.examId, continueTarget.questionId);
             }}
             onOpenQuestion={openQuestion}
+            onOpenExam={openExam}
             onGoMistakes={() => handlePageChange("mistakes")}
             onGoFavorites={() => handlePageChange("favorites")}
+            onGoProgress={() => handlePageChange("progress")}
           />
-        )}
-
-        {page === "progress" ? (
+        ) : page === "progress" ? (
           <StudyOverviewPage
             summary={overviewSummary}
             examStats={examProgressStats}
@@ -1502,6 +1563,13 @@ function writeStoredFavoriteTags(key: string, values: Record<string, FavoriteTag
 
 function mistakeKey(examId: string, questionId: string) {
   return `${examId}:${questionId}`;
+}
+
+function formatLocalDateKey(date: Date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
 

@@ -3,6 +3,7 @@ import {
   Bold,
   BookOpenCheck,
   BookmarkCheck,
+  Home,
   ChevronDown,
   ClipboardX,
   Download,
@@ -131,6 +132,12 @@ export function AppShell({
 
   const navigationItems = [
     {
+      page: "home" as const,
+      label: "我的書桌",
+      mobileLabel: "書桌",
+      icon: <Home size={18} />,
+    },
+    {
       page: "exam" as const,
       label: "歷屆國考",
       mobileLabel: "國考",
@@ -172,7 +179,7 @@ export function AppShell({
   ];
 
   const handleHomeClick = () => {
-    onPageChange("exam");
+    onPageChange("home");
     setIsMobileSidebarOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -427,22 +434,33 @@ export function AppShell({
                 >
                   {isSidebarCollapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
                 </button>
-                <FilterControl
-                  exams={exams}
-                  activeExamId={activeExamId}
-                  activeYear={activeYear}
-                  activeStage={activeStage}
-                  yearOptions={yearOptions}
-                  subjectOptions={subjectOptions}
-                  onExamChange={onExamChange}
-                  handleYearChange={handleYearChange}
-                  handleStageChange={handleStageChange}
-                  canInstallFromSettings={canInstallFromSettings}
-                  onInstall={onInstall}
-                  onReset={onReset}
-                  onResetAll={onResetAll}
-                  theme={theme}
-                />
+                {page === "home" ? (
+                  <div className="min-w-0">
+                    <p className="text-xs font-bold tracking-[0.16em] text-[#b36a84]">
+                      PERSONAL DASHBOARD
+                    </p>
+                    <h2 className="truncate text-lg font-extrabold text-[#3f342d] dark:text-[#f8edf3]">
+                      我的書桌
+                    </h2>
+                  </div>
+                ) : (
+                  <FilterControl
+                    exams={exams}
+                    activeExamId={activeExamId}
+                    activeYear={activeYear}
+                    activeStage={activeStage}
+                    yearOptions={yearOptions}
+                    subjectOptions={subjectOptions}
+                    onExamChange={onExamChange}
+                    handleYearChange={handleYearChange}
+                    handleStageChange={handleStageChange}
+                    canInstallFromSettings={canInstallFromSettings}
+                    onInstall={onInstall}
+                    onReset={onReset}
+                    onResetAll={onResetAll}
+                    theme={theme}
+                  />
+                )}
               </div>
               <div className="flex items-center gap-2">
                 <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
@@ -513,22 +531,33 @@ export function AppShell({
 
               {/* Row 2: Filter Controls & Mobile Progress */}
               <div className="flex items-center justify-between gap-2 border-t border-[#f0ded6]/50 dark:border-white/5 pt-2">
-                <FilterControl
-                  exams={exams}
-                  activeExamId={activeExamId}
-                  activeYear={activeYear}
-                  activeStage={activeStage}
-                  yearOptions={yearOptions}
-                  subjectOptions={subjectOptions}
-                  onExamChange={onExamChange}
-                  handleYearChange={handleYearChange}
-                  handleStageChange={handleStageChange}
-                  canInstallFromSettings={canInstallFromSettings}
-                  onInstall={onInstall}
-                  onReset={onReset}
-                  onResetAll={onResetAll}
-                  theme={theme}
-                />
+                {page === "home" ? (
+                  <div className="min-w-0">
+                    <p className="text-[10px] font-bold tracking-[0.14em] text-[#b36a84]">
+                      PERSONAL DASHBOARD
+                    </p>
+                    <p className="truncate text-sm font-extrabold text-[#3f342d] dark:text-[#f8edf3]">
+                      我的書桌
+                    </p>
+                  </div>
+                ) : (
+                  <FilterControl
+                    exams={exams}
+                    activeExamId={activeExamId}
+                    activeYear={activeYear}
+                    activeStage={activeStage}
+                    yearOptions={yearOptions}
+                    subjectOptions={subjectOptions}
+                    onExamChange={onExamChange}
+                    handleYearChange={handleYearChange}
+                    handleStageChange={handleStageChange}
+                    canInstallFromSettings={canInstallFromSettings}
+                    onInstall={onInstall}
+                    onReset={onReset}
+                    onResetAll={onResetAll}
+                    theme={theme}
+                  />
+                )}
                 
                 <div className="flex flex-col items-end text-[10px] font-semibold text-[#8b7666] dark:text-[#a2949e]">
                   <span>進度: {progress}%</span>

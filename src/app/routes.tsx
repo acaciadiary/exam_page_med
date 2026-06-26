@@ -1,4 +1,11 @@
-export type AppPage = "exam" | "progress" | "mistakes" | "favorites" | "notes" | "diseases";
+export type AppPage =
+  | "home"
+  | "exam"
+  | "progress"
+  | "mistakes"
+  | "favorites"
+  | "notes"
+  | "diseases";
 
 const pageParam = "page";
 
@@ -7,6 +14,8 @@ export function readPageFromSearch(search: string): AppPage {
   const page = params.get(pageParam);
 
   if (
+    page === "home" ||
+    page === "exam" ||
     page === "progress" ||
     page === "mistakes" ||
     page === "favorites" ||
@@ -16,13 +25,13 @@ export function readPageFromSearch(search: string): AppPage {
     return page;
   }
 
-  return "exam";
+  return "home";
 }
 
 export function buildSearchForPage(page: AppPage, currentSearch: string) {
   const params = new URLSearchParams(currentSearch);
 
-  if (page === "exam") {
+  if (page === "home") {
     params.delete(pageParam);
   } else {
     params.set(pageParam, page);
