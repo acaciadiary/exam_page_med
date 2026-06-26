@@ -406,6 +406,28 @@ select {
   color: #f3e8ff;
 }
 
+.theme-dark .instant-kill-card {
+  background: linear-gradient(135deg, rgba(45, 36, 51, 0.96), rgba(35, 30, 42, 0.98)) !important;
+  border-color: rgba(243, 166, 196, 0.28) !important;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+}
+
+.theme-dark .instant-kill-card:hover {
+  background: linear-gradient(135deg, rgba(58, 45, 64, 0.98), rgba(43, 36, 48, 0.98)) !important;
+  border-color: rgba(243, 166, 196, 0.46) !important;
+}
+
+.theme-dark .instant-kill-number {
+  background: rgba(16, 13, 20, 0.62) !important;
+  border-color: rgba(243, 166, 196, 0.18) !important;
+}
+
+.theme-dark .instant-kill-chip {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: #cbb8c2 !important;
+}
+
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 6px;

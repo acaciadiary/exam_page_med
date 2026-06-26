@@ -1011,10 +1011,10 @@ export function DiseaseComparePage({
                           setRevealedFacts((prev) => ({ ...prev, [fact.id]: !prev[fact.id] }));
                         }
                       }}
-                      className={`group relative rounded-[1.2rem] border p-4 transition duration-300 flex items-start gap-4 shadow-xs select-none cursor-pointer overflow-hidden ${cardBorderClass} ${cardBgClass}`}
+                      className={`instant-kill-card group relative rounded-[1.2rem] border p-4 transition duration-300 flex items-start gap-4 shadow-xs select-none cursor-pointer overflow-hidden ${cardBorderClass} ${cardBgClass}`}
                     >
                       {/* Left Side Number Badge */}
-                      <div className="flex flex-col items-center justify-center min-w-16 h-16 rounded-xl bg-white/70 dark:bg-black/30 border border-[#ebdbe2]/40 dark:border-white/5 shadow-2xs">
+                      <div className="instant-kill-number flex flex-col items-center justify-center min-w-16 h-16 rounded-xl bg-white/70 dark:bg-black/30 border border-[#ebdbe2]/40 dark:border-white/5 shadow-2xs">
                         <span className={`text-sm font-extrabold font-hand text-center px-1 leading-tight ${numTextClass}`}>
                           {fact.highlight_value}
                         </span>
@@ -1026,7 +1026,7 @@ export function DiseaseComparePage({
                       {/* Right Side details */}
                       <div className="flex-1 min-w-0 space-y-1.5 transition-all duration-300">
                         <div className="flex flex-wrap items-center gap-1.5 pr-6">
-                          <span className="inline-block rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-2 py-0.5 text-[9px] font-bold text-[#866e7b] dark:text-[#a68e98]">
+                          <span className="instant-kill-chip inline-block rounded-full bg-[#fcf9fa]/30 border border-[#efd9d0]/60 px-2 py-0.5 text-[9px] font-bold text-[#866e7b] dark:text-[#a68e98]">
                             {fact.category} | {fact.year}
                           </span>
                           {fact.reason && (
