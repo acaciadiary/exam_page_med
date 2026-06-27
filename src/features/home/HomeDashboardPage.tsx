@@ -94,7 +94,8 @@ export function HomeDashboardPage({
   const todayKey = formatDateKey(new Date());
   const todayActivity = studyActivity[todayKey] ?? { answered: 0, correct: 0 };
   const todayRemaining = Math.max(0, dailyGoal - todayActivity.answered);
-  const todayProgress = dailyGoal === 0 ? 100 : Math.min(100, Math.round((todayActivity.answered / dailyGoal) * 100));
+  const todayProgress =
+    dailyGoal === 0 ? 100 : Math.min(100, Math.round((todayActivity.answered / dailyGoal) * 100));
   const streak = getGoalStreak(studyActivity, dailyGoal);
   const week = getWeeklySummary(studyActivity);
   const activeMistakes = mistakes.filter((mistake) => mistake.status !== "mastered");
@@ -144,7 +145,7 @@ export function HomeDashboardPage({
                     ? compactText(continueQuestion.question_text, 96)
                     : continueExam
                     ? getExamDisplayTitle(continueExam)
-                    : "系統會自動帶你到下一題未作答題目。"}
+                    : "系統會帶你回到最近一次練習的位置。"}
                 </p>
               </div>
               <span className="inline-flex h-11 w-fit items-center justify-center gap-2 rounded-full bg-[#b8e2d4] px-4 text-sm font-bold text-[#315447]">
@@ -220,7 +221,7 @@ export function HomeDashboardPage({
             icon={<LineChart size={17} />}
             label="本週作答"
             value={`${week.answered} 題`}
-            description={`完成 ${week.practiceDays} 天，正確率 ${week.accuracy}%`}
+            description={`練習 ${week.practiceDays} 天，正確率 ${week.accuracy}%`}
           />
         </div>
       </div>
@@ -241,7 +242,7 @@ export function HomeDashboardPage({
                 弱點雷達
               </p>
               <h3 className="mt-2 text-xl font-semibold text-[#3f342d] dark:text-[#f8edf3]">
-                我的補強方向
+                今天要補哪一塊？
               </h3>
             </div>
             <button
@@ -257,7 +258,7 @@ export function HomeDashboardPage({
             <div className="flex min-h-64 items-center justify-center">
               {stats.length === 0 ? (
                 <div className="rounded-[1rem] border border-dashed border-[#eacfc4] bg-white/52 px-4 py-8 text-center text-sm leading-6 text-[#8a7066]">
-                  答幾題後，這裡會顯示雷達圖分析。
+                  作答後會自動產生弱點雷達。
                 </div>
               ) : (
                 <RadarChart stats={stats} activeStage={activeStage} theme={theme} />
@@ -280,7 +281,7 @@ export function HomeDashboardPage({
               ))}
               {stats.length === 0 ? (
                 <p className="text-sm leading-6 text-[#725b52]">
-                  完成一些題目後，系統會幫你整理弱科排行與正確率。
+                  先完成幾題，這裡會整理出目前最需要補強的科目。
                 </p>
               ) : null}
             </div>
@@ -392,15 +393,15 @@ function PlanPanel({
     <div className="rounded-[1.5rem] border border-white/80 bg-white/82 p-5 shadow-[0_18px_60px_rgba(181,133,117,0.14)] backdrop-blur-2xl">
       <p className="flex items-center gap-2 text-sm font-semibold tracking-[0.12em] text-[#b36a84]">
         <Settings2 size={16} />
-        備考設定
+        目標設定
       </p>
       <h3 className="mt-2 text-xl font-semibold text-[#3f342d] dark:text-[#f8edf3]">
-        讓書桌記住你的考試節奏
+        讓讀書計畫更貼近你的考期
       </h3>
 
       <div className="mt-5 grid gap-3">
         <label className="grid gap-2 rounded-[1rem] border border-[#efd9d0] bg-white/62 p-3 text-sm font-bold text-[#6f5b50]">
-          目標考試日
+          目標日期
           <input
             type="date"
             value={examPlan.targetDate}
@@ -422,7 +423,7 @@ function PlanPanel({
           </select>
         </label>
         <label className="grid gap-2 rounded-[1rem] border border-[#efd9d0] bg-white/62 p-3 text-sm font-bold text-[#6f5b50]">
-          目前主攻
+          主攻科目
           <select
             value={examPlan.focusExamId}
             onChange={(event) => onExamPlanChange({ ...examPlan, focusExamId: event.target.value })}
@@ -443,7 +444,7 @@ function PlanPanel({
         disabled={!focusExam}
         className="mt-4 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-[#b8e2d4] px-4 text-sm font-bold text-[#315447] shadow-[0_10px_26px_rgba(123,190,168,0.22)] transition hover:-translate-y-0.5 hover:bg-[#a7d9c9] disabled:cursor-not-allowed disabled:opacity-50"
       >
-        前往主攻科目
+        開始主攻科目
         <ArrowRight size={15} />
       </button>
     </div>

@@ -133,8 +133,8 @@ export function AppShell({
   const navigationItems = [
     {
       page: "home" as const,
-      label: "???豢?",
-      mobileLabel: "?豢?",
+      label: "總覽",
+      mobileLabel: "總覽",
       icon: <Home size={18} />,
     },
     {
@@ -145,34 +145,34 @@ export function AppShell({
     },
     {
       page: "progress" as const,
-      label: "?脣漲蝮質汗",
-      mobileLabel: "?脣漲",
+      label: "進度總覽",
+      mobileLabel: "進度",
       icon: <LayoutDashboard size={18} />,
     },
     {
       page: "diseases" as const,
-      label: "敹??",
-      mobileLabel: "敹??",
+      label: "必看區",
+      mobileLabel: "必看",
       icon: <GitCompare size={18} />,
     },
     {
       page: "mistakes" as const,
       label: "錯題本",
-      mobileLabel: "?舫??",
+      mobileLabel: "錯題",
       icon: <ClipboardX size={18} />,
       badge: wrongQuestionCount,
     },
     {
       page: "favorites" as const,
-      label: "?嗉??",
-      mobileLabel: "?嗉??",
+      label: "收藏區",
+      mobileLabel: "收藏",
       icon: <BookmarkCheck size={18} />,
       badge: favoriteCount,
     },
     {
       page: "notes" as const,
       label: "便利貼",
-      mobileLabel: "蝑??",
+      mobileLabel: "便利貼",
       icon: <NotebookPen size={18} />,
       badge: stickyNoteCount,
     },
@@ -351,7 +351,7 @@ export function AppShell({
         {/* Sidebar bottom settings and theme controls */}
         <div className={clsx("shrink-0 border-t border-[#f0ded6]/65 pb-[max(0.75rem,env(safe-area-inset-bottom))] dark:border-white/10", isSidebarCollapsed ? "space-y-2 px-3 pt-3" : "space-y-3 px-4 pt-4")}>
           <div className={clsx("space-y-2", isSidebarCollapsed && "hidden")}>
-            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">??銝駁?</span>
+            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
             <div className="flex min-w-0 items-center gap-2">
               <ThemeToggle theme={theme} onChange={onThemeChange} compact />
               <ReadingBoldButton
@@ -382,11 +382,11 @@ export function AppShell({
                   "flex w-full items-center justify-center gap-2 rounded-xl border border-[#b8e2d4] bg-[#e8f4ee] text-sm font-semibold text-[#355249] transition hover:border-[#a5d9c7] hover:bg-[#d5ebe1] cursor-pointer",
                   isSidebarCollapsed ? "h-11" : "py-2.5",
                 )}
-                aria-label="?獢"
-                title="?獢"
+                aria-label="加入桌面"
+                title="加入桌面"
               >
                 <Download size={16} />
-                {!isSidebarCollapsed && <span>?獢</span>}
+                {!isSidebarCollapsed && <span>加入桌面</span>}
               </button>
               {onDismissInstallPrompt && (
                 <button
@@ -396,8 +396,8 @@ export function AppShell({
                     "shrink-0 rounded-xl border border-[#efd9d0] bg-white/72 text-[#8b7666] transition hover:bg-white hover:text-[#9a496b] focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45 dark:border-white/10 dark:bg-white/5 dark:text-[#dccbd3]",
                     isSidebarCollapsed ? "h-9 w-9" : "h-10 w-10",
                   )}
-                  aria-label="???獢?內"
-                  title="???獢?內"
+                  aria-label="關閉加入桌面提示"
+                  title="關閉加入桌面提示"
                 >
                   <X size={15} className="mx-auto" />
                 </button>
@@ -440,7 +440,7 @@ export function AppShell({
                       PERSONAL DASHBOARD
                     </p>
                     <h2 className="truncate text-lg font-extrabold text-[#3f342d] dark:text-[#f8edf3]">
-                      ???豢?
+                      總覽
                     </h2>
                   </div>
                 ) : (
@@ -459,8 +459,8 @@ export function AppShell({
                 )}
               </div>
               <div className="flex items-center gap-2">
-                <SummaryPill>撌脖?蝑?{answeredCount} / {questionCount}</SummaryPill>
-                <SummaryPill>摰?摨佗?{progress}%</SummaryPill>
+                <SummaryPill>已作答：{answeredCount} / {questionCount}</SummaryPill>
+                <SummaryPill>完成度：{progress}%</SummaryPill>
               </div>
             </div>
 
@@ -481,14 +481,14 @@ export function AppShell({
                   type="button"
                   onClick={handleHomeClick}
                   className="flex min-w-0 flex-1 items-center gap-2 rounded-xl pr-2 text-left transition hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-[#ffd9e8]/45"
-                  aria-label="?擐?"
-                  title="?擐?"
+                  aria-label="返回首頁"
+                  title="返回首頁"
                 >
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[0.8rem] border border-[#f7cddd] bg-[#ffe7ef] text-[#b65f7c]">
                     <PencilLine size={18} />
                   </div>
                   <span className="font-hand text-lg font-bold text-[#3f342d] dark:text-[#f8edf3] truncate">
-                    Ariel's Med 憿澈
+                    Ariel's Med 醫師國考
                   </span>
                 </button>
                 <div className="flex items-center gap-2 shrink-0">
@@ -504,8 +504,8 @@ export function AppShell({
                         type="button"
                         onClick={onInstall}
                         className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#b8e2d4] bg-[#e8f4ee] text-[#355249] transition hover:bg-[#d5ebe1] cursor-pointer"
-                        aria-label="?獢"
-                        title="?獢"
+                        aria-label="加入桌面"
+                        title="加入桌面"
                       >
                         <Download size={16} />
                       </button>
@@ -514,8 +514,8 @@ export function AppShell({
                           type="button"
                           onClick={onDismissInstallPrompt}
                           className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#efd9d0] bg-white/82 text-[#8b7666] transition hover:bg-white hover:text-[#9a496b] cursor-pointer"
-                          aria-label="???獢?內"
-                          title="???獢?內"
+                          aria-label="關閉加入桌面提示"
+                          title="關閉加入桌面提示"
                         >
                           <X size={15} />
                         </button>
@@ -533,7 +533,7 @@ export function AppShell({
                       PERSONAL DASHBOARD
                     </p>
                     <p className="truncate text-sm font-extrabold text-[#3f342d] dark:text-[#f8edf3]">
-                      ???豢?
+                      總覽
                     </p>
                   </div>
                 ) : (
@@ -552,7 +552,7 @@ export function AppShell({
                 )}
                 
                 <div className="flex flex-col items-end text-[10px] font-semibold text-[#8b7666] dark:text-[#a2949e]">
-                  <span>?脣漲: {progress}%</span>
+                  <span>進度：{progress}%</span>
                   <span>{answeredCount}/{questionCount} 題</span>
                 </div>
               </div>
@@ -631,7 +631,7 @@ export function AppShell({
           </nav>
 
           <div className="space-y-3 border-t border-[#f0ded6]/65 p-4 dark:border-white/10">
-            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">??銝駁?</span>
+            <span className="text-xs font-semibold text-[#8b7666] dark:text-[#a2949e]">切換主題</span>
             <div className="flex min-w-0 items-center gap-2">
               <ThemeToggle theme={theme} onChange={onThemeChange} compact />
               <ReadingBoldButton
@@ -687,8 +687,8 @@ export function AppShell({
           "bottom-24 sm:bottom-6 lg:bottom-6",
           !isVisible && "max-sm:translate-y-18"
         )}
-        aria-label="??"
-        title="??"
+        aria-label="返回頂端"
+        title="返回頂端"
       >
         <ArrowUp size={20} />
       </button>
@@ -841,8 +841,8 @@ function ReadingBoldButton({
           : "border-[#e6d6c9] bg-white/80 text-[#6f5b50] hover:bg-white",
       )}
       aria-pressed={enabled}
-      aria-label={enabled ? "???梯???" : "???梯???"}
-      title={enabled ? "???梯???" : "???梯???"}
+      aria-label={enabled ? "關閉粗體閱讀" : "開啟粗體閱讀"}
+      title={enabled ? "關閉粗體閱讀" : "開啟粗體閱讀"}
     >
       <Bold size={16} strokeWidth={2.6} />
     </button>
@@ -884,7 +884,7 @@ function FilterControl({
 
   const activeExam = exams.find((exam) => exam.id === activeExamId);
   const stageLabel = activeStage === "stage-1" ? "一階" : "二階";
-  const subjectLabel = activeExam ? getSubjectLabel(activeExam) : "?豢?蝘";
+  const subjectLabel = activeExam ? getSubjectLabel(activeExam) : "選擇科目";
 
   return (
     <div className="flex items-center gap-1.5 font-hand shrink-0">
@@ -908,7 +908,7 @@ function FilterControl({
           )}
           aria-expanded={filterOpen}
         >
-          <span>{activeYear} 繚 {stageLabel} 繚 {subjectLabel}</span>
+          <span>{activeYear}・{stageLabel}・{subjectLabel}</span>
           <ChevronDown size={12} className={clsx("shrink-0 transition", filterOpen && "rotate-180")} />
         </button>
 
@@ -925,7 +925,7 @@ function FilterControl({
           >
             {/* Year Selector */}
             <div>
-              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">撟游漲</p>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">年度</p>
               <div className="flex flex-wrap gap-1.5">
                 {yearOptions.map((opt) => (
                   <button
@@ -956,7 +956,7 @@ function FilterControl({
 
             {/* Stage Selector */}
             <div>
-              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">?挾</p>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">階段</p>
               <div className={clsx(
                 "inline-flex min-h-10 rounded-lg border p-0.5",
                 theme === "dark" ? "border-white/10 bg-[#201b25]/80" : theme === "clinical" ? "border-[#c8dbe7] bg-white/80" : "border-[#e6d6c9] bg-white/80"
@@ -980,7 +980,7 @@ function FilterControl({
                       : "text-[#806b60] hover:bg-white"
                   )}
                 >
-                  蝚砌??挾
+                  一階
                 </button>
                 <button
                   type="button"
@@ -1001,14 +1001,14 @@ function FilterControl({
                       : "text-[#806b60] hover:bg-white"
                   )}
                 >
-                  蝚砌??挾
+                  二階
                 </button>
               </div>
             </div>
 
             {/* Subject Selector */}
             <div>
-              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">蝘</p>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.15em] text-[#8b7666] dark:text-[#a2949e]">科目</p>
               <div className="grid gap-1 pr-1">
                 {subjectOptions.map((opt) => (
                   <button
@@ -1091,8 +1091,8 @@ function FloatingSettingsButton({
             ? "border-[#c8dbe7] bg-white/90 text-[#26384a] hover:border-[#1f4e79] hover:bg-[#f4f8fb] focus:ring-[#dbeafe]/70"
             : "border-[#f1aac8] bg-white/90 text-[#9a496b] hover:bg-[#fff0f6] focus:ring-[#ffd9e8]/55",
         )}
-        aria-label="?游??賊?"
-        title="?游??賊?"
+        aria-label="設定"
+        title="設定"
         aria-expanded={settingsOpen}
       >
         <Settings size={19} />
@@ -1127,7 +1127,7 @@ function FloatingSettingsButton({
               )}
             >
               <Download size={13} />
-              <span>?獢</span>
+              <span>加入桌面</span>
             </button>
           )}
           <button
@@ -1148,7 +1148,7 @@ function FloatingSettingsButton({
             )}
           >
             <RotateCcw size={13} />
-            <span>?蔭?祉?雿?</span>
+            <span>重置本科進度</span>
           </button>
           <button
             type="button"
@@ -1167,7 +1167,7 @@ function FloatingSettingsButton({
             )}
           >
             <RotateCcw size={13} className="rotate-180" />
-            <span>?蔭???蝑?蝑?</span>
+            <span>重置全部進度</span>
           </button>
         </div>
       )}

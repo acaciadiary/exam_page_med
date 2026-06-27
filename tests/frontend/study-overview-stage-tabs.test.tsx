@@ -70,23 +70,24 @@ describe("StudyOverviewPage stage tabs", () => {
   it("separates first-stage and second-stage progress into tabs", () => {
     renderPage();
 
-    expect(screen.getByText("第一階段作答")).toBeInTheDocument();
+    expect(screen.getByText("一階作答")).toBeInTheDocument();
     expect(screen.getByText("20")).toBeInTheDocument();
-    expect(screen.queryByText("第二階段作答")).not.toBeInTheDocument();
+    expect(screen.queryByText("二階作答")).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: /二階/ }));
 
-    expect(screen.getByText("第二階段作答")).toBeInTheDocument();
+    expect(screen.getByText("二階作答")).toBeInTheDocument();
     expect(screen.getByText("60")).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: /一階/ }));
 
-    expect(screen.getByText("第一階段作答")).toBeInTheDocument();
+    expect(screen.getByText("一階作答")).toBeInTheDocument();
   });
 
   it("keeps compact status filters available inside the selected stage", () => {
     renderPage();
 
+    expect(screen.getByRole("button", { name: "全部狀態" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "有未寫" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "寫到一半" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "已完成" })).toBeInTheDocument();

@@ -21,7 +21,7 @@ export function getExamStage(exam: ExamManifestItem | { subject: string }): Exam
 }
 
 export function getStageLabel(stage: ExamStage) {
-  return stage === "stage-1" ? "第一階段" : "第二階段";
+  return stage === "stage-1" ? "一階" : "二階";
 }
 
 export function getSubjectLabel(exam: ExamManifestItem | { subject: string }) {
@@ -29,7 +29,7 @@ export function getSubjectLabel(exam: ExamManifestItem | { subject: string }) {
 }
 
 export function getExamDisplayTitle(exam: ExamManifestItem | { year: string; subject: string }) {
-  return `${exam.year} ${getStageLabel(getExamStage(exam))} ${getSubjectLabel(exam)}`;
+  return `${exam.year}・${getStageLabel(getExamStage(exam))}・${getSubjectLabel(exam)}`;
 }
 
 export function groupExamsByStage(exams: ExamManifestItem[]) {

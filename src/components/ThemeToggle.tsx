@@ -38,7 +38,7 @@ export function ThemeToggle({ theme, onChange, compact = false }: ThemeTogglePro
               ? "bg-[#ffddea] text-[#9a496b] shadow-[0_8px_18px_rgba(181,133,117,0.16)]"
               : "text-[#6f5b50] hover:bg-white",
           )}
-          aria-label={`切換為${option.label}主題`}
+          aria-label={`切換到${option.label}主題`}
         >
           {option.icon}
           <span className={clsx("whitespace-nowrap", compact ? "inline" : "hidden sm:inline")}>
