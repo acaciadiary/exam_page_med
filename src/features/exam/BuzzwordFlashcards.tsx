@@ -20,13 +20,34 @@ interface CardItem {
   highlightKeywords: string[];
 }
 
+type StageFilter = "all" | "一階" | "二階";
+type StageOnly = Exclude<StageFilter, "all">;
+
+const STAGE_FILTERS: Array<[StageFilter, string]> = [
+  ["all", "全部"],
+  ["一階", "一階"],
+  ["二階", "二階"],
+];
+
+const STAGE_CATEGORY_LABELS: Record<StageOnly, string> = {
+  "一階": "一階科目",
+  "二階": "二階科目",
+};
+
+function extractCategoryNames(category: string) {
+  return category
+    .split("/")
+    .map((part) => part.trim().split(" ")[0].split("(")[0])
+    .filter(Boolean);
+}
+
 export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
   const [deck, setDeck] = useState<CardItem[]>([]);
   const [masteredCount, setMasteredCount] = useState<number>(0);
   const [totalInSession, setTotalInSession] = useState<number>(0);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
   const [selectedCategory, setSelectedCategory] = useState<string>("全部");
-  const [selectedStage, setSelectedStage] = useState<"all" | "一階" | "二階">("all");
+  const [selectedStage, setSelectedStage] = useState<StageFilter>("all");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [highYieldOnly, setHighYieldOnly] = useState<boolean>(false);
   const [missedCount, setMissedCount] = useState<number>(0);
@@ -53,20 +74,53 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
     return cardsList;
   }, [groups]);
 
-  // Extract unique clean categories for filtering
-  const categoriesList = useMemo(() => {
-    const cats = new Set<string>();
-    cats.add("全部");
+  const stageCategoryGroups = useMemo(() => {
+    const groupsByStage: Record<StageOnly, string[]> = {
+      "一階": ["全部"],
+      "二階": ["全部"],
+    };
+    const seenByStage: Record<StageOnly, Set<string>> = {
+      "一階": new Set(["全部"]),
+      "二階": new Set(["全部"]),
+    };
+
     allCards.forEach((card) => {
-      // Split categories like "內科學 (胃腸肝膽科) / 病理學"
-      const parts = card.category.split("/");
-      parts.forEach((p) => {
-        const cleaned = p.trim().split(" ")[0].split("(")[0]; // e.g. "內科學"
-        if (cleaned) cats.add(cleaned);
+      const stage = card.stage === "一階" ? "一階" : "二階";
+      extractCategoryNames(card.category).forEach((category) => {
+        if (!seenByStage[stage].has(category)) {
+          seenByStage[stage].add(category);
+          groupsByStage[stage].push(category);
+        }
       });
     });
-    return Array.from(cats);
+
+    return groupsByStage;
   }, [allCards]);
+
+  useEffect(() => {
+    if (selectedStage === "all" && selectedCategory !== "全部") {
+      setSelectedCategory("全部");
+      return;
+    }
+
+    if (
+      selectedStage !== "all" &&
+      selectedCategory !== "全部" &&
+      !stageCategoryGroups[selectedStage].includes(selectedCategory)
+    ) {
+      setSelectedCategory("全部");
+    }
+  }, [selectedCategory, selectedStage, stageCategoryGroups]);
+
+  const handleStageFilterChange = (stage: StageFilter) => {
+    setSelectedStage(stage);
+    setSelectedCategory("全部");
+  };
+
+  const handleCategoryFilterChange = (stage: StageOnly, category: string) => {
+    setSelectedStage(stage);
+    setSelectedCategory(category);
+  };
 
   const isHighYieldCard = (card: CardItem) => {
     return (
@@ -216,15 +270,11 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-bold text-[#6f5b50]">考試階段：</span>
           <div className="flex flex-wrap gap-1">
-            {[
-              ["all", "全部"],
-              ["一階", "一階"],
-              ["二階", "二階"],
-            ].map(([value, label]) => (
+            {STAGE_FILTERS.map(([value, label]) => (
               <button
                 key={value}
                 type="button"
-                onClick={() => setSelectedStage(value as "all" | "一階" | "二階")}
+                onClick={() => handleStageFilterChange(value)}
                 className={`px-3 py-1 text-xs font-semibold rounded-lg transition cursor-pointer ${
                   selectedStage === value
                     ? "bg-[#b8527a] text-white shadow-xs"
@@ -236,20 +286,30 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
             ))}
           </div>
           <span className="text-xs font-bold text-[#6f5b50]">篩選科目：</span>
-          <div className="flex flex-wrap gap-1">
-            {categoriesList.map((cat) => (
-              <button
-                key={cat}
-                type="button"
-                onClick={() => setSelectedCategory(cat)}
-                className={`px-3 py-1 text-xs font-semibold rounded-lg transition cursor-pointer ${
-                  selectedCategory === cat
-                    ? "bg-[#b8527a] text-white shadow-xs"
-                    : "bg-white/60 text-[#6f5b50] hover:bg-white border border-[#efd9d0]"
-                }`}
-              >
-                {cat}
-              </button>
+          <div className="flex min-w-0 flex-1 flex-col gap-2">
+            {(["一階", "二階"] as StageOnly[]).map((stage) => (
+              <div key={stage} className="flex flex-wrap items-center gap-1">
+                <span className="mr-1 rounded-md bg-[#fcf9fa]/80 px-2 py-1 text-[10px] font-extrabold text-[#8a7066]">
+                  {STAGE_CATEGORY_LABELS[stage]}
+                </span>
+                {stageCategoryGroups[stage].map((cat) => {
+                  const isSelected = selectedStage === stage && selectedCategory === cat;
+                  return (
+                    <button
+                      key={`${stage}-${cat}`}
+                      type="button"
+                      onClick={() => handleCategoryFilterChange(stage, cat)}
+                      className={`px-3 py-1 text-xs font-semibold rounded-lg transition cursor-pointer ${
+                        isSelected
+                          ? "bg-[#b8527a] text-white shadow-xs"
+                          : "bg-white/60 text-[#6f5b50] hover:bg-white border border-[#efd9d0]"
+                      }`}
+                    >
+                      {cat}
+                    </button>
+                  );
+                })}
+              </div>
             ))}
           </div>
           <button
