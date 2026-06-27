@@ -21,7 +21,7 @@ export function ThemeToggle({ theme, onChange, compact = false }: ThemeTogglePro
     <div
       className={clsx(
         "inline-flex rounded-full border border-[#e6d6c9] bg-white/80 p-1 theme-control",
-        compact ? "h-10 w-full" : "h-11",
+        compact ? "h-10 min-w-0 flex-1" : "h-11",
       )}
     >
       {options.map((option) => (

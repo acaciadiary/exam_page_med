@@ -467,7 +467,7 @@ export function AppShell({
             {/* Mobile Header Layout */}
             <div className="flex lg:hidden flex-col gap-2.5">
               {/* Row 1: Title & Theme Switch */}
-              <div className="flex items-center justify-between">
+              <div className="flex flex-wrap items-center justify-between gap-y-2">
                 <button
                   type="button"
                   onClick={() => setIsMobileSidebarOpen(true)}
@@ -491,7 +491,7 @@ export function AppShell({
                     Ariel's Med 醫師國考
                   </span>
                 </button>
-                <div className="flex items-center gap-2 shrink-0">
+                <div className="ml-auto flex shrink-0 items-center gap-2">
                   <ThemeToggle theme={theme} onChange={onThemeChange} />
                   <ReadingBoldButton
                     enabled={readingBold}
