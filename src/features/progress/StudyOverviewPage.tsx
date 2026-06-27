@@ -11,6 +11,7 @@ import {
 import type { ReactNode } from "react";
 import { useMemo, useState } from "react";
 import clsx from "clsx";
+import { useLocalStorage } from "../../hooks/useLocalStorage";
 import {
   getExamDisplayTitle,
   getExamStage,
@@ -18,6 +19,7 @@ import {
   getSubjectLabel,
   type ExamStage,
 } from "../../lib/examMetadata";
+import { storageKeys } from "../../lib/storageKeys";
 import type { ExamManifestItem } from "../../types/exam";
 
 export type ExamProgressStat = {
@@ -83,7 +85,10 @@ export function StudyOverviewPage({
   onGoMistakes,
   onGoFavorites,
 }: StudyOverviewPageProps) {
-  const [activeStage, setActiveStage] = useState<ExamStage>("stage-1");
+  const [activeStage, setActiveStage] = useLocalStorage<ExamStage>(
+    storageKeys.progressStage,
+    "stage-1",
+  );
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
 
   const stageSummaries = useMemo(() => {

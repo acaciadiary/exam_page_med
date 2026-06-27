@@ -1,10 +1,11 @@
-import { fireEvent, render, screen } from "@testing-library/react";
-import { describe, expect, it, vi } from "vitest";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   StudyOverviewPage,
   type ExamProgressStat,
   type StudyOverviewSummary,
 } from "../../src/features/progress/StudyOverviewPage";
+import { storageKeys } from "../../src/lib/storageKeys";
 import type { ExamManifestItem } from "../../src/types/exam";
 
 function exam(subject: string, questionCount: number): ExamManifestItem {
@@ -67,6 +68,10 @@ function renderPage() {
 }
 
 describe("StudyOverviewPage stage tabs", () => {
+  beforeEach(() => {
+    window.localStorage.clear();
+  });
+
   it("separates first-stage and second-stage progress into tabs", () => {
     renderPage();
 
@@ -82,6 +87,24 @@ describe("StudyOverviewPage stage tabs", () => {
     fireEvent.click(screen.getByRole("button", { name: /一階/ }));
 
     expect(screen.getByText("一階作答")).toBeInTheDocument();
+  });
+
+  it("remembers the selected stage after returning to the progress overview", async () => {
+    const firstRender = renderPage();
+
+    fireEvent.click(screen.getByRole("button", { name: /二階/ }));
+
+    await waitFor(() => {
+      expect(window.localStorage.getItem(storageKeys.progressStage)).toBe(
+        JSON.stringify("stage-2"),
+      );
+    });
+
+    firstRender.unmount();
+    renderPage();
+
+    expect(screen.getByText("二階作答")).toBeInTheDocument();
+    expect(screen.getByText("60")).toBeInTheDocument();
   });
 
   it("keeps compact status filters available inside the selected stage", () => {

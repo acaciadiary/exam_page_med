@@ -17,5 +17,6 @@ export const storageKeys = {
   lastPractice: `${prefix}:last-practice`,
   dailyGoal: `${prefix}:daily-goal`,
   examPlan: `${prefix}:exam-plan`,
+  progressStage: `${prefix}:progress-stage`,
   studyActivity: `${prefix}:study-activity`,
 };
