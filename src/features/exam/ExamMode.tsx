@@ -1,5 +1,5 @@
 import { ChevronDown, ChevronUp, BookOpenCheck, Layers3 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import clsx from "clsx";
 import { CategoryFilter } from "../../components/CategoryFilter";
 import type { useMarkedItems } from "../../hooks/useMarkedItems";
@@ -16,6 +16,9 @@ import { MarkedQuestionSidebar } from "./MarkedQuestionSidebar";
 import { QuestionCard } from "./QuestionCard";
 
 type MarkedApi = ReturnType<typeof useMarkedItems>;
+
+const FOCUS_LOAD_BUFFER = 6;
+const QUESTION_SCROLL_OFFSET = 140;
 
 type ExamModeProps = {
   dataset: ExamDataset;
@@ -55,6 +58,9 @@ export function ExamMode({
 }: ExamModeProps) {
   const [activeCategory, setActiveCategory] = useState(ALL_CATEGORIES);
   const [visibleCount, setVisibleCount] = useState(15);
+  const [highlightedQuestionId, setHighlightedQuestionId] = useState<string | null>(null);
+  const questionRefs = useRef(new Map<string, HTMLDivElement>());
+  const scrollRunId = useRef(0);
   const categoryOptions = useMemo(() => buildCategoryOptions(dataset), [dataset]);
   const visibleQuestions = useMemo(() => {
     const categoryQuestions = filterQuestionsByCategory(dataset, activeCategory);
@@ -75,40 +81,72 @@ export function ExamMode({
     return grouped;
   }, [dataset.id, stickyNotes]);
 
-  const scrollToQuestion = (
-    questionId: string,
-    options: { onComplete?: () => void; retry?: number } = {},
-  ) => {
-    const retry = options.retry ?? 0;
+  const registerQuestionRef = useCallback((questionId: string, node: HTMLDivElement | null) => {
+    if (node) questionRefs.current.set(questionId, node);
+    else questionRefs.current.delete(questionId);
+  }, []);
 
-    window.requestAnimationFrame(() => {
+  const scrollToQuestion = useCallback(
+    (
+      questionId: string,
+      options: { onComplete?: () => void; retry?: number; runId?: number } = {},
+    ) => {
+      const retry = options.retry ?? 0;
+      const runId = options.runId ?? scrollRunId.current + 1;
+      scrollRunId.current = runId;
+
       window.requestAnimationFrame(() => {
-        const target = document.getElementById(questionId);
+        window.requestAnimationFrame(() => {
+          if (scrollRunId.current !== runId) return;
 
-        if (!target) {
-          if (retry < 8) {
-            window.setTimeout(() => {
-              scrollToQuestion(questionId, { ...options, retry: retry + 1 });
-            }, 50);
+          const target = questionRefs.current.get(questionId);
+
+          if (!target) {
+            if (retry < 10) {
+              window.setTimeout(() => {
+                scrollToQuestion(questionId, { ...options, retry: retry + 1, runId });
+              }, 60);
+            }
+            return;
           }
-          return;
-        }
 
-        const offset = 140;
-        const top = target.getBoundingClientRect().top + window.scrollY - offset;
-        window.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
-        window.history.replaceState(null, "", `#${questionId}`);
-        options.onComplete?.();
+          waitForStablePage(() => {
+            if (scrollRunId.current !== runId) return;
+
+            const latestTarget = questionRefs.current.get(questionId);
+            if (!latestTarget) return;
+
+            scrollElementIntoView(latestTarget, "smooth");
+            window.history.replaceState(null, "", `#${questionId}`);
+            setHighlightedQuestionId(questionId);
+
+            window.setTimeout(() => {
+              if (scrollRunId.current !== runId) return;
+
+              const verifiedTarget = questionRefs.current.get(questionId);
+              if (verifiedTarget && !isQuestionWellPositioned(verifiedTarget)) {
+                scrollElementIntoView(verifiedTarget, "auto");
+              }
+
+              options.onComplete?.();
+
+              window.setTimeout(() => {
+                if (scrollRunId.current === runId) setHighlightedQuestionId(null);
+              }, 1400);
+            }, 450);
+          });
+        });
       });
-    });
-  };
+    },
+    [],
+  );
 
   const navigateToQuestion = (targetIndex: number) => {
     const target = visibleQuestions[targetIndex];
     if (!target) return;
 
     if (targetIndex >= visibleCount) {
-      setVisibleCount(targetIndex + 1);
+      setVisibleCount(Math.min(visibleQuestions.length, targetIndex + FOCUS_LOAD_BUFFER));
     }
 
     scrollToQuestion(target.id);
@@ -134,7 +172,7 @@ export function ExamMode({
     }
 
     if (targetIndex >= visibleCount) {
-      setVisibleCount(targetIndex + 1);
+      setVisibleCount(Math.min(visibleQuestions.length, targetIndex + FOCUS_LOAD_BUFFER));
       return;
     }
 
@@ -242,25 +280,34 @@ export function ExamMode({
 
         <div className="grid gap-5 sm:gap-6">
           {renderedQuestions.map((question, index) => (
-            <QuestionCard
+            <div
               key={question.id}
-              question={question}
-              selected={answers[question.id]}
-              marked={markedQuestions.markedSet.has(question.id)}
-              onAnswer={(answer) => onAnswer(question.id, answer)}
-              onToggleMarked={() => markedQuestions.toggleMarked(question.id)}
-              questionNotes={notesByQuestionId.get(question.id) ?? []}
-              onAddNote={(text) => onAddQuestionNote(question.id, text)}
-              onRemoveNote={onRemoveNote}
-              positionLabel={`${index + 1} / ${visibleQuestions.length}`}
-              onGoPrevious={index > 0 ? () => navigateToQuestion(index - 1) : undefined}
-              onGoNext={
-                index < visibleQuestions.length - 1
-                  ? () => navigateToQuestion(index + 1)
-                  : undefined
-              }
-              theme={theme}
-            />
+              ref={(node) => registerQuestionRef(question.id, node)}
+              className={clsx(
+                "rounded-[1.6rem] transition duration-500",
+                highlightedQuestionId === question.id &&
+                  "ring-4 ring-[#f1aac8]/70 ring-offset-4 ring-offset-[#fff8f4]",
+              )}
+            >
+              <QuestionCard
+                question={question}
+                selected={answers[question.id]}
+                marked={markedQuestions.markedSet.has(question.id)}
+                onAnswer={(answer) => onAnswer(question.id, answer)}
+                onToggleMarked={() => markedQuestions.toggleMarked(question.id)}
+                questionNotes={notesByQuestionId.get(question.id) ?? []}
+                onAddNote={(text) => onAddQuestionNote(question.id, text)}
+                onRemoveNote={onRemoveNote}
+                positionLabel={`${index + 1} / ${visibleQuestions.length}`}
+                onGoPrevious={index > 0 ? () => navigateToQuestion(index - 1) : undefined}
+                onGoNext={
+                  index < visibleQuestions.length - 1
+                    ? () => navigateToQuestion(index + 1)
+                    : undefined
+                }
+                theme={theme}
+              />
+            </div>
           ))}
         </div>
 
@@ -289,6 +336,45 @@ export function ExamMode({
         onClearMarked={markedQuestions.clearMarked}
       />
     </div>
+  );
+}
+
+function scrollElementIntoView(target: HTMLElement, behavior: ScrollBehavior) {
+  const top = target.getBoundingClientRect().top + window.scrollY - QUESTION_SCROLL_OFFSET;
+  window.scrollTo({ top: Math.max(top, 0), behavior });
+}
+
+function isQuestionWellPositioned(target: HTMLElement) {
+  const top = target.getBoundingClientRect().top;
+  return top >= QUESTION_SCROLL_OFFSET - 28 && top <= QUESTION_SCROLL_OFFSET + 80;
+}
+
+function waitForStablePage(onStable: () => void) {
+  let frameCount = 0;
+  let stableFrames = 0;
+  let previousHeight = getPageHeight();
+
+  const check = () => {
+    const currentHeight = getPageHeight();
+    stableFrames = currentHeight === previousHeight ? stableFrames + 1 : 0;
+    previousHeight = currentHeight;
+    frameCount += 1;
+
+    if (stableFrames >= 2 || frameCount >= 12) {
+      onStable();
+      return;
+    }
+
+    window.requestAnimationFrame(check);
+  };
+
+  window.requestAnimationFrame(check);
+}
+
+function getPageHeight() {
+  return Math.max(
+    document.documentElement.scrollHeight,
+    document.body?.scrollHeight ?? 0,
   );
 }
 
