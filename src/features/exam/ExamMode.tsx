@@ -75,17 +75,30 @@ export function ExamMode({
     return grouped;
   }, [dataset.id, stickyNotes]);
 
-  const scrollToQuestion = (questionId: string) => {
+  const scrollToQuestion = (
+    questionId: string,
+    options: { onComplete?: () => void; retry?: number } = {},
+  ) => {
+    const retry = options.retry ?? 0;
+
     window.requestAnimationFrame(() => {
       window.requestAnimationFrame(() => {
         const target = document.getElementById(questionId);
-        if (!target) return;
 
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
+        if (!target) {
+          if (retry < 8) {
+            window.setTimeout(() => {
+              scrollToQuestion(questionId, { ...options, retry: retry + 1 });
+            }, 50);
+          }
+          return;
+        }
+
+        const offset = 140;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
         window.history.replaceState(null, "", `#${questionId}`);
+        options.onComplete?.();
       });
     });
   };
@@ -125,27 +138,9 @@ export function ExamMode({
       return;
     }
 
-    let cancelled = false;
-
-    window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(() => {
-        if (cancelled) return;
-
-        const target = document.getElementById(focusQuestionId);
-        if (!target) return;
-
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        window.history.replaceState(null, "", `#${focusQuestionId}`);
-        onFocusComplete?.(focusQuestionId);
-      });
+    scrollToQuestion(focusQuestionId, {
+      onComplete: () => onFocusComplete?.(focusQuestionId),
     });
-
-    return () => {
-      cancelled = true;
-    };
   }, [
     activeCategory,
     dataset.questions,
