@@ -62,8 +62,11 @@ describe("QuestionCard", () => {
 
 describe("ExamMode", () => {
   it("loads and focuses a target question beyond the first page", async () => {
-    const scrollIntoView = vi.fn();
-    window.HTMLElement.prototype.scrollIntoView = scrollIntoView;
+    const scrollTo = vi.fn();
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      value: scrollTo,
+    });
 
     const questions: ExamQuestion[] = Array.from({ length: 20 }, (_, index) => ({
       id: `q${index + 1}`,
@@ -115,7 +118,7 @@ describe("ExamMode", () => {
       expect(screen.getByText("第 17 題測試題目")).toBeInTheDocument();
     });
     await waitFor(() => {
-      expect(scrollIntoView).toHaveBeenCalled();
+      expect(scrollTo).toHaveBeenCalled();
       expect(onFocusComplete).toHaveBeenCalledWith("q17");
     });
   });
