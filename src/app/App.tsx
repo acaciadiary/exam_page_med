@@ -76,43 +76,43 @@ const siteUrl = "https://acaciadiary.github.io/exam_page_med/";
 
 const pageSeo: Record<AppPage, { title: string; description: string; path: string }> = {
   home: {
-    title: "我的書桌｜Ariel's Med 醫師國考個人備考 App",
+    title: "首頁｜Ariel's Med",
     description:
       "Ariel's Med 我的書桌整理今日任務、每日目標、連續練習、考試倒數與個人週報，陪你每天穩定刷題。",
     path: "",
   },
   exam: {
-    title: "Ariel's Med｜醫師國考歷屆試題練習題庫",
+    title: "歷屆試題｜Ariel's Med",
     description:
       "Ariel's Med 收錄台灣醫師國考歷屆試題，提供醫學一至醫學六線上練習、錯題複習、收藏閃卡與重點整理。",
     path: "?page=exam",
   },
   progress: {
-    title: "進度總覽｜Ariel's Med 醫師國考題庫",
+    title: "我的進度｜Ariel's Med",
     description:
       "整理所有年度與科目的作答進度、正確率、錯題與弱點分類，快速掌握下一步該補強的範圍。",
     path: "?page=progress",
   },
   diseases: {
-    title: "疾病比較整理｜Ariel's Med 醫師國考題庫",
+    title: "必看區｜Ariel's Med",
     description:
       "整理醫師國考常見疾病鑑別比較，協助考生快速複習高頻考點與容易混淆的臨床重點。",
     path: "?page=diseases",
   },
   mistakes: {
-    title: "錯題本｜Ariel's Med 醫師國考題庫",
+    title: "錯題本｜Ariel's Med",
     description:
       "自動整理醫師國考練習錯題，方便反覆複習弱點、追蹤答題狀態與強化記憶。",
     path: "?page=mistakes",
   },
   favorites: {
-    title: "收藏題目與閃卡｜Ariel's Med 醫師國考題庫",
+    title: "收藏區｜Ariel's Med",
     description:
       "收藏醫師國考歷屆試題與重點閃卡，依標籤整理常考觀念與考前複習清單。",
     path: "?page=favorites",
   },
   notes: {
-    title: "讀書便利貼｜Ariel's Med 醫師國考題庫",
+    title: "便利貼｜Ariel's Med",
     description:
       "在醫師國考練題過程中記錄個人筆記、考點提醒與易錯觀念，方便考前快速回顧。",
     path: "?page=notes",
