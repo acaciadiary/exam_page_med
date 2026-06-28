@@ -133,8 +133,8 @@ export function AppShell({
   const navigationItems = [
     {
       page: "home" as const,
-      label: "總覽",
-      mobileLabel: "總覽",
+      label: "首頁",
+      mobileLabel: "首頁",
       icon: <Home size={18} />,
     },
     {
@@ -145,7 +145,7 @@ export function AppShell({
     },
     {
       page: "progress" as const,
-      label: "進度總覽",
+      label: "我的進度",
       mobileLabel: "進度",
       icon: <LayoutDashboard size={18} />,
     },
