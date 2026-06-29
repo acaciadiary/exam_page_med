@@ -285,20 +285,20 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
               </button>
             ))}
           </div>
-          <span className="text-xs font-bold text-[#6f5b50]">篩選科目：</span>
-          <div className="flex min-w-0 flex-1 flex-col gap-2">
-            {(["一階", "二階"] as StageOnly[]).map((stage) => (
-              <div key={stage} className="flex flex-wrap items-center gap-1">
+          {selectedStage !== "all" && (
+            <>
+              <span className="text-xs font-bold text-[#6f5b50]">篩選科目：</span>
+              <div className="flex min-w-0 flex-1 flex-wrap items-center gap-1">
                 <span className="mr-1 rounded-md bg-[#fcf9fa]/80 px-2 py-1 text-[10px] font-extrabold text-[#8a7066]">
-                  {STAGE_CATEGORY_LABELS[stage]}
+                  {STAGE_CATEGORY_LABELS[selectedStage]}
                 </span>
-                {stageCategoryGroups[stage].map((cat) => {
-                  const isSelected = selectedStage === stage && selectedCategory === cat;
+                {stageCategoryGroups[selectedStage].map((cat) => {
+                  const isSelected = selectedCategory === cat;
                   return (
                     <button
-                      key={`${stage}-${cat}`}
+                      key={`${selectedStage}-${cat}`}
                       type="button"
-                      onClick={() => handleCategoryFilterChange(stage, cat)}
+                      onClick={() => handleCategoryFilterChange(selectedStage, cat)}
                       className={`px-3 py-1 text-xs font-semibold rounded-lg transition cursor-pointer ${
                         isSelected
                           ? "bg-[#b8527a] text-white shadow-xs"
@@ -310,8 +310,8 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
                   );
                 })}
               </div>
-            ))}
-          </div>
+            </>
+          )}
           <button
             type="button"
             onClick={() => setHighYieldOnly((prev) => !prev)}
