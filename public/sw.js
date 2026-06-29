@@ -1,4 +1,4 @@
-const CACHE_NAME = "exam-page-med-v6";
+const CACHE_NAME = "exam-page-med-v7";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
