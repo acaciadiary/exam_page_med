@@ -9,7 +9,7 @@ function publicPath(path: string) {
 }
 
 async function loadJson<T>(path: string): Promise<T> {
-  const response = await fetch(publicPath(path));
+  const response = await fetch(publicPath(path), { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Unable to load ${path}: ${response.status}`);
   }
@@ -83,5 +83,4 @@ export async function loadClinicalGuidelines() {
   clinicalGuidelinesCache = data;
   return data;
 }
-
 
