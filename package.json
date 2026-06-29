@@ -19,7 +19,8 @@
     "import:gemini-explanations": "python scripts/exams/import_gemini_explanations.py \"reports/gemini_outputs/**/*.json\"",
     "apply:categories": "python scripts/exams/apply_category_map.py --map scripts/exams/category_ranges.json",
     "validate:data": "python scripts/exams/validate_dataset.py \"public/data/exams/**/*.json\" --out reports/dataset-quality.json",
-    "validate:explanations": "python scripts/exams/validate_explanations.py \"public/data/exams/**/*.json\" --out reports/explanation-quality.json"
+    "validate:explanations": "python scripts/exams/validate_explanations.py \"public/data/exams/**/*.json\" --out reports/explanation-quality.json",
+    "update:glossary-links": "node scripts/exams/update_medical_glossary_related_questions.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
