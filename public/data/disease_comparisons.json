@@ -1,6 +1,78 @@
 {
   "comparison_groups": [
     {
+      "id": "serotonin_syndrome_vs_nms",
+      "title": "血清素症候群 (Serotonin syndrome) vs 抗精神病藥惡性症候群 (NMS)",
+      "category": "精神科 / 藥物副作用 / 急症鑑別",
+      "exam_importance": "高頻",
+      "exam_focus_tips": "血清素症候群偏「快、反射亢進、clonus、腸胃症狀」；NMS 偏「慢、高燒、lead-pipe rigidity、CK 高、使用 dopamine antagonist 或停 dopamine agonist」。",
+      "common_traps": "兩者都可發燒、意識改變與自律神經不穩。看到 clonus 與 hyperreflexia 先想 serotonin syndrome；看到鉛管僵硬與抗精神病藥先想 NMS。",
+      "highlight_keywords": [
+        "clonus",
+        "hyperreflexia",
+        "SSRI/MAOI",
+        "lead-pipe rigidity",
+        "CK 上升",
+        "antipsychotics"
+      ],
+      "diseases": [
+        {
+          "name": "血清素症候群 (Serotonin syndrome)",
+          "aliases": [
+            "Serotonin syndrome",
+            "SSRI",
+            "MAOI",
+            "血清素症候群"
+          ],
+          "features": {
+            "起病速度": "通常數小時內，常在加藥、併用 SSRI/MAOI/linezolid/tramadol 後。",
+            "神經肌肉": "Hyperreflexia、clonus、tremor 較典型。",
+            "腸胃線索": "腹瀉、嘔吐較支持血清素過多。",
+            "處置": "停 serotonergic drugs，支持療法；嚴重可考慮 cyproheptadine。"
+          }
+        },
+        {
+          "name": "抗精神病藥惡性症候群 (Neuroleptic malignant syndrome)",
+          "aliases": [
+            "NMS",
+            "Neuroleptic malignant syndrome",
+            "抗精神病藥惡性症候群"
+          ],
+          "features": {
+            "起病速度": "通常 1-3 天以上，常見於 dopamine antagonist 或停 levodopa。",
+            "神經肌肉": "Lead-pipe rigidity、反射不一定亢進，CK 明顯上升。",
+            "腸胃線索": "腸胃症狀不如血清素症候群突出。",
+            "處置": "停 offending drug，支持療法；可考慮 dantrolene 或 bromocriptine。"
+          }
+        }
+      ],
+      "related_questions": [
+        {
+          "question_id": "115-1_medicine-4_064",
+          "note": "抗精神病藥物副作用題，可延伸整理 NMS 的藥物來源與鑑別。"
+        },
+        {
+          "question_id": "113-2_medicine-4_065",
+          "note": "憂鬱症與 serotonergic drug 題，可延伸血清素症候群風險。"
+        }
+      ],
+      "must_know_numbers": [
+        {
+          "value": "數小時",
+          "unit": "起病",
+          "target_disease": "血清素症候群",
+          "context": "用藥後很快出現 clonus、hyperreflexia、腹瀉時優先想到。"
+        },
+        {
+          "value": "1-3",
+          "unit": "天",
+          "target_disease": "NMS",
+          "context": "抗精神病藥後較慢出現高燒、鉛管僵硬、CK 高。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
       "id": "crohn_vs_uc",
       "title": "克隆氏症 (Crohn's Disease) vs 潰瘍性結腸炎 (Ulcerative Colitis)",
       "category": "內科學 (胃腸肝膽科) / 病理學",

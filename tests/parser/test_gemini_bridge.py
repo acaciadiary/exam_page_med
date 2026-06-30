@@ -119,6 +119,32 @@ def test_import_gemini_output_and_validate(tmp_path: Path):
     assert validation["missing"] == 0
 
 
+def test_validate_flags_nested_repeated_explanation(tmp_path: Path):
+    dataset_path = tmp_path / "data" / "115" / "sample.json"
+    write_dataset(dataset_path)
+    data = json.loads(dataset_path.read_text(encoding="utf-8"))
+    question = data["questions"][0]
+    question["key_point"] = "考點"
+    question["explanation"] = (
+        "【題幹解析】第一次解析。\n\n"
+        "【選項詳解】第一次選項。\n\n"
+        "【核心考點】第一次考點。\n\n"
+        "【題幹解析】第二次解析。\n\n"
+        "【選項詳解】第二次選項。\n\n"
+        "【核心考點】第二次考點。"
+    )
+    question["flashcard_front"] = "正面"
+    question["flashcard_back"] = "背面"
+    question["flashcard_summary"] = "摘要 -> 考點"
+    question["review_status"] = "ai_generated"
+    dataset_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+    validation = validate_dataset(dataset_path)
+
+    assert validation["issue_count"] == 1
+    assert validation["issues"][0]["code"] == "nested_repeated_explanation"
+
+
 def test_import_rejects_changed_correct_answer(tmp_path: Path):
     data_dir = tmp_path / "data"
     dataset_path = data_dir / "115" / "sample.json"

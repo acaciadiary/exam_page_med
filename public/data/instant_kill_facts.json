@@ -1,6 +1,158 @@
 {
   "facts": [
     {
+      "id": "108-1_medicine-4_078",
+      "year": "108-1",
+      "subject": "神經科",
+      "category": "急症處置 / 中風溶栓",
+      "reason": "血壓門檻",
+      "highlight_value": "185/110",
+      "unit": "mmHg",
+      "question_text": "有關腦中風之治療，下列敘述何者錯誤？",
+      "explanation": "急性缺血性中風若要給 rt-PA，血壓需先控制到 <185/110 mmHg；若不給溶栓，通常到 >220/120 mmHg 才需積極降壓。最大劑量 90 mg 也是常考陷阱。",
+      "flashcard_front": "急性缺血性中風 / rt-PA / 溶栓前血壓",
+      "flashcard_back": "給 rt-PA 前血壓要 <185/110 mmHg；不適合溶栓者多採 permissive hypertension，通常 >220/120 才積極降壓。",
+      "options": {
+        "A": "中風血壓多可先觀察並處理疼痛躁動",
+        "B": "未溶栓也在 >200/100 就緊急降壓",
+        "C": "3 小時內適合者可給 rt-PA",
+        "D": "rt-PA 最大量不超過 90 mg"
+      }
+    },
+    {
+      "id": "115-1_medicine-4_077",
+      "year": "115-1",
+      "subject": "神經科",
+      "category": "急症處置 / 中風溶栓",
+      "reason": "禁忌門檻",
+      "highlight_value": "190/116",
+      "unit": "不可給",
+      "question_text": "針對急性腦中風病人之緊急處置，下列敘述何者錯誤？",
+      "explanation": "題目用 190/116 mmHg 測你是否真的記得溶栓前門檻。這個血壓仍高於 185/110，不可直接給 tPA，需先降到門檻以下並排除出血。",
+      "flashcard_front": "中風 tPA / 190/116 mmHg / 能不能打？",
+      "flashcard_back": "不能。190/116 仍超過溶栓前門檻；要先降到 <185/110 mmHg，並用影像排除出血。",
+      "options": {
+        "A": "先排除出血",
+        "B": "190/116 可直接 tPA",
+        "C": "評估 NIHSS",
+        "D": "處置時間窗很重要"
+      }
+    },
+    {
+      "id": "115-1_medicine-4_047",
+      "year": "115-1",
+      "subject": "神經科",
+      "category": "急症處置 / 癲癇重積",
+      "reason": "時間定義",
+      "highlight_value": ">5",
+      "unit": "分鐘",
+      "question_text": "37 歲男性全身痙攣約 15 分鐘，有關癲癇之敘述何者錯誤？",
+      "explanation": "Status epilepticus 不再等 30 分鐘才診斷。抽搐持續約 5 分鐘就應視為重積並積極處置；第一線為 benzodiazepine，常見考法是 lorazepam IV 可 5 分鐘後重複。",
+      "flashcard_front": "Status epilepticus / 不等 30 分鐘 / 第一線",
+      "flashcard_back": "抽搐持續 >5 分鐘就積極處置；第一線給 BZD，如 lorazepam IV，必要時約 5 分鐘後可重複一次。",
+      "options": {
+        "A": "需超過 30 分鐘才診斷",
+        "B": "lorazepam IV 可重複",
+        "C": "可能造成神經損傷",
+        "D": "需先穩定 ABC"
+      }
+    },
+    {
+      "id": "115-1_medicine-4_076",
+      "year": "115-1",
+      "subject": "神經科",
+      "category": "急症處置 / 癲癇重積",
+      "reason": "定義陷阱",
+      "highlight_value": "10",
+      "unit": "分鐘非唯一",
+      "question_text": "有關癲癇重積（status epilepticus）的描述，何者錯誤？",
+      "explanation": "題目提醒不要把 status epilepticus 死背成單次抽搐 10 分鐘。考點是持續抽搐或反覆發作且中間意識未恢復，都要當成急症處理。",
+      "flashcard_front": "Status epilepticus / 連續抽搐 vs 意識未恢復",
+      "flashcard_back": "不只看單次抽搐分鐘數；反覆發作且中間意識未恢復，也屬重積癲癇的考點。",
+      "options": {
+        "A": "持續抽搐",
+        "B": "反覆發作意識未恢復",
+        "C": "可能神經損傷",
+        "D": "只有單次抽搐 >10 分鐘才算"
+      }
+    },
+    {
+      "id": "114-1_medicine-6_027",
+      "year": "114-1",
+      "subject": "耳鼻喉科",
+      "category": "術後併發症 / 甲狀腺手術",
+      "reason": "cutoff",
+      "highlight_value": ">50",
+      "unit": "% 下降",
+      "question_text": "甲狀腺手術後，術中副甲狀腺素下降多少以上會預期術後低血鈣？",
+      "explanation": "PTH 半衰期短，術中 10-20 分鐘即可觀察趨勢。相對基準值下降超過 50% 是術後低血鈣高風險，需想到鈣與維生素 D 補充。",
+      "flashcard_front": "甲狀腺手術 / IOPTH / 術後低血鈣",
+      "flashcard_back": "術中 PTH 在切除後 10-20 分鐘若比基準值下降 >50%，提示術後低血鈣高風險。",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "10%"
+      }
+    },
+    {
+      "id": "112-2_medicine-5_013",
+      "year": "112-2",
+      "subject": "神經外科",
+      "category": "外傷 / 腦震盪",
+      "reason": "分級",
+      "highlight_value": "LOC",
+      "unit": "即第 3 級",
+      "question_text": "有關第二級腦震盪的敘述，下列何者錯誤？",
+      "explanation": "腦震盪分級常考「有無失去意識」。只要有任何 loss of consciousness，不論多久，都歸第 3 級；第二級是無 LOC 但症狀超過 15 分鐘。",
+      "flashcard_front": "腦震盪分級 / LOC / 第二級 vs 第三級",
+      "flashcard_back": "第二級：無 LOC、症狀 >15 分鐘；第三級：任何 LOC。",
+      "options": {
+        "A": "任何 LOC 算第三級",
+        "B": "第二擊症候群需避免運動",
+        "C": "可有失憶",
+        "D": "症狀可能持續 1-2 週"
+      }
+    },
+    {
+      "id": "108-2_medicine-5_001",
+      "year": "108-2",
+      "subject": "外科概論",
+      "category": "外傷 / 死亡三相分布",
+      "reason": "時間",
+      "highlight_value": "0-15",
+      "unit": "分鐘",
+      "question_text": "外傷死亡三相分布中，死亡人數最多的時段為何？",
+      "explanation": "外傷死亡最多發生在即刻期，通常為傷後數秒至 15 分鐘，原因多是大血管破裂、腦幹或高位脊髓重傷。這是外科概論的秒殺時間題。",
+      "flashcard_front": "外傷死亡三相分布 / 第一波",
+      "flashcard_back": "死亡最多：傷後 0-15 分鐘；常因大血管破裂、腦幹或高位脊髓重傷。",
+      "options": {
+        "A": "0-15 minutes",
+        "B": "1-24 hours",
+        "C": "3-7 days",
+        "D": "7-30 days"
+      }
+    },
+    {
+      "id": "112-2_medicine-5_001",
+      "year": "112-2",
+      "subject": "外科概論",
+      "category": "急症處置 / 大量輸血",
+      "reason": "比例",
+      "highlight_value": "1:1:1",
+      "unit": "RBC:FFP:PLT",
+      "question_text": "大量輸血流程中，各種血品使用比例何者臨床結果最好？",
+      "explanation": "出血性休克啟動 massive transfusion protocol 時，重點是平衡輸血，常考 RBC:FFP:Platelet 約 1:1:1（或接近 1:1:2），避免稀釋性凝血病變。",
+      "flashcard_front": "Massive transfusion protocol / 平衡輸血",
+      "flashcard_back": "大量輸血優先記 1:1:1（RBC:FFP:Platelet），目標是同時補氧合、凝血因子與血小板。",
+      "options": {
+        "A": "單補 RBC",
+        "B": "1:1:1",
+        "C": "只補晶體液",
+        "D": "延後給血小板"
+      }
+    },
+    {
       "id": "109-1_medicine-5_026",
       "year": "109-1",
       "subject": "醫學（五）",

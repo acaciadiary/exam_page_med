@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 VALID_STATUSES = {"empty", "ai_generated", "reviewed"}
+EXPLANATION_HEADINGS = ("【題幹解析】", "【選項詳解】", "【核心考點】")
 
 
 def expand_paths(patterns: list[str]) -> list[Path]:
@@ -17,7 +18,7 @@ def expand_paths(patterns: list[str]) -> list[Path]:
 
 
 def validate_dataset(path: Path) -> dict[str, Any]:
-    dataset = json.loads(path.read_text(encoding="utf-8"))
+    dataset = json.loads(path.read_text(encoding="utf-8-sig"))
     issues: list[dict[str, Any]] = []
     complete = 0
     reviewed = 0
@@ -48,6 +49,19 @@ def validate_dataset(path: Path) -> dict[str, Any]:
             ai_generated += 1
         if fields["explanation"] and len(fields["explanation"]) < 24:
             issues.append(issue(qid, number, "short_explanation", "詳解過短，建議人工檢查"))
+        if fields["explanation"]:
+            duplicate_headings = [
+                heading for heading in EXPLANATION_HEADINGS if fields["explanation"].count(heading) > 1
+            ]
+            if duplicate_headings:
+                issues.append(
+                    issue(
+                        qid,
+                        number,
+                        "nested_repeated_explanation",
+                        f"詳解章節重複，疑似把既有詳解再次包入新詳解: {', '.join(duplicate_headings)}",
+                    )
+                )
 
     total = len(dataset.get("questions", []))
     return {

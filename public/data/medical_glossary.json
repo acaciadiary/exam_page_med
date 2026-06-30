@@ -1,6 +1,95 @@
 {
   "terms": [
     {
+      "id": "clostridioides_difficile_colitis",
+      "name": "困難梭狀芽孢桿菌感染 / 偽膜性腸炎 (C. difficile colitis)",
+      "aliases": [
+        "C. difficile",
+        "Clostridioides difficile",
+        "Clostridium difficile",
+        "偽膜性腸炎",
+        "CDI"
+      ],
+      "category": "微生物免疫學 / 腸胃感染 / 院內感染",
+      "explanation": "抗生素破壞腸道菌相後，C. difficile 過度增殖並產生毒素 A/B，造成水瀉、腹痛，嚴重可見偽膜性腸炎。",
+      "exam_focus": "**診斷靠糞便毒素或 PCR，不是常規細菌培養。** 治療先停掉誘發抗生素，第一線常考口服 vancomycin 或 fidaxomicin；照護後酒精乾洗手不可靠，孢子污染時要肥皂清水洗手。",
+      "frequency": 8,
+      "related_questions": [
+        {
+          "question_id": "112-2_medicine-5_003",
+          "note": "CDI 治療原則：停誘發抗生素，給口服 vancomycin/fidaxomicin，不加廣效抗陰性菌。"
+        },
+        {
+          "question_id": "110-1_medicine-2_090",
+          "note": "偽膜性腸炎診斷陷阱：主要靠毒素檢測，不靠細菌培養。"
+        },
+        {
+          "question_id": "111-1_medicine-3_059",
+          "note": "手部衛生題：照護 C. difficile 後不適合只用酒精乾洗手。"
+        }
+      ],
+      "stage": "二階"
+    },
+    {
+      "id": "sulfonamides",
+      "name": "磺胺類藥物 (Sulfonamides)",
+      "aliases": [
+        "磺胺",
+        "Sulfonamides",
+        "Sulfa drug",
+        "Sulfamethoxazole"
+      ],
+      "category": "藥理學 / 抗生素 / 葉酸代謝",
+      "explanation": "磺胺類是 PABA 類似物，抑制細菌二氫葉酸合成酶，讓細菌不能自行合成葉酸。人體細胞直接攝取外源性葉酸，所以有選擇性毒性。",
+      "exam_focus": "**選擇性毒性不是因為人類核糖體不同，而是人類不自行合成葉酸。** 常見陷阱：G6PD 缺乏、新生兒或孕晚期使用可造成溶血與核黃疸；trimethoprim 則是抑制 bacterial DHFR，標的不同。",
+      "frequency": 6,
+      "related_questions": [
+        {
+          "question_id": "115-1_medicine-2_002",
+          "note": "直接考磺胺類為何對哺乳類細胞毒性低：人體不自行合成葉酸。"
+        },
+        {
+          "question_id": "110-2_medicine-2_003",
+          "note": "同樣考選擇性毒性，干擾選項包含胜肽聚醣與核糖體。"
+        },
+        {
+          "question_id": "108-2_medicine-2_089",
+          "note": "孕婦抗生素禁忌題，磺胺類可在 G6PD 缺乏新生兒引發溶血與核黃疸。"
+        }
+      ],
+      "stage": "一階"
+    },
+    {
+      "id": "aminoglycosides",
+      "name": "胺基醣苷類抗生素 (Aminoglycosides)",
+      "aliases": [
+        "胺基糖苷",
+        "Aminoglycosides",
+        "Gentamicin",
+        "Amikacin",
+        "Kanamycin"
+      ],
+      "category": "藥理學 / 抗生素 / 藥物副作用",
+      "explanation": "一群主要結合細菌 30S ribosome 的殺菌型抗生素。國考最愛問的不是藥名表，而是它進入細菌需要氧氣依賴的主動運輸，所以厭氧菌天然不敏感。",
+      "exam_focus": "**看到厭氧菌 + aminoglycoside，要想到無效或天然抗性。** 另一個高頻陷阱是毒性與禁忌：耳毒性、腎毒性、可惡化重症肌無力；與 beta-lactam 併用可因細胞壁破壞而產生協同效果。",
+      "frequency": 6,
+      "related_questions": [
+        {
+          "question_id": "115-1_medicine-2_001",
+          "note": "直接考胺基醣苷進入細菌需氧氣依賴運輸，厭氧菌天然耐藥。"
+        },
+        {
+          "question_id": "108-1_medicine-2_003",
+          "note": "抗藥性敘述題，陷阱是把厭氧菌說成對 aminoglycosides 有感受性。"
+        },
+        {
+          "question_id": "109-1_medicine-4_044",
+          "note": "重症肌無力治療題，aminoglycoside 會加重神經肌肉接合傳遞障礙。"
+        }
+      ],
+      "stage": "一階"
+    },
+    {
       "id": "pulsus_paradoxus",
       "name": "奇脈 (Pulsus paradoxus)",
       "aliases": [
