@@ -500,7 +500,24 @@
       "dosage_info": "常考初始輸液 crystalloid 30 mL/kg；MAP 目標通常 >= 65 mmHg。抗生素越早越好，休克病人常以 1 小時內給予作為考點。",
       "common_traps": "不要把 dopamine 當成一般首選升壓劑；也不要為了等培養結果而延誤抗生素。補液後仍低血壓才進入升壓劑思路。",
       "frequency": 30,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "113-2_medicine-5_001",
+          "note": "??????????? norepinephrine?crystalloid ????????"
+        },
+        {
+          "question_id": "110-1_medicine-6_009",
+          "note": "???????????????norepinephrine?"
+        },
+        {
+          "question_id": "112-1_medicine-6_009",
+          "note": "Sepsis-3 ? septic shock ????????????????????"
+        },
+        {
+          "question_id": "114-1_medicine-4_021",
+          "note": "????????????????????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -520,7 +537,20 @@
       "dosage_info": "Atropine 依分泌物與支氣管痙攣反應重複給藥；pralidoxime 用於重新活化 acetylcholinesterase，越早越好，避免 aging 後效果下降。",
       "common_traps": "Atropine 主要改善 muscarinic 症狀，對肌無力較不足；不要只給 atropine 忘記 2-PAM，也不要忽略呼吸道與除污。",
       "frequency": 18,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "111-1_medicine-3_004",
+          "note": "???????????? DUMBELS/SLUDGE ?????"
+        },
+        {
+          "question_id": "111-1_medicine-3_005",
+          "note": "?????????????atropine ? pralidoxime/2-PAM ??????"
+        },
+        {
+          "question_id": "114-1_medicine-2_065",
+          "note": "Pralidoxime/2-PAM ?????????????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -540,7 +570,16 @@
       "dosage_info": "NAC 越早給越好，尤其 8-10 小時內效果最佳。若服藥時間不明、延遲就醫或肝指數異常，考題通常傾向及早給 NAC。",
       "common_traps": "不要因早期沒有症狀就放心。若服藥不到 4 小時，血中濃度可能尚未達峰值，需依時間點重新抽血判讀。",
       "frequency": 15,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "110-2_medicine-4_009",
+          "note": "Acetaminophen ?????? N-acetylcysteine/NAC ?????"
+        },
+        {
+          "question_id": "114-1_medicine-3_077",
+          "note": "Acetaminophen ?????? 4 ????????????? NAC?"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -558,7 +597,28 @@
       "dosage_info": "Naloxone 作用時間可能短於 opioid，尤其長效 opioid 或 fentanyl 暴露時需重複給藥或持續輸注，並持續監測再度呼吸抑制。",
       "common_traps": "Naloxone 不是給完就結束，病人可能再度昏迷；慢性使用者快速逆轉可能誘發戒斷，仍以恢復有效呼吸為主要目標。",
       "frequency": 12,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "111-2_medicine-6_004",
+          "note": "????????????????????? naloxone?"
+        },
+        {
+          "question_id": "108-2_medicine-4_068",
+          "note": "Opioid overdose ???????????????????"
+        },
+        {
+          "question_id": "115-1_medicine-4_078",
+          "note": "Naloxone ?????????????????"
+        },
+        {
+          "question_id": "112-2_medicine-4_068",
+          "note": "??????????????? naloxone ?????"
+        },
+        {
+          "question_id": "111-2_medicine-4_067",
+          "note": "??????????????????????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -576,7 +636,28 @@
       "dosage_info": "常見考點為 10% calcium gluconate 10 mL IV；之後可用 regular insulin 10 units + glucose。必要時合併 beta-agonist、利尿、樹脂或透析。",
       "common_traps": "Insulin/glucose 只會暫時把鉀移入細胞，不能真正排鉀；calcium 也不會降低血鉀，只是穩定心肌。",
       "frequency": 45,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "108-1_medicine-3_006",
+          "note": "??? ECG ??????? peaked T wave ? sine wave?"
+        },
+        {
+          "question_id": "114-1_medicine-3_001",
+          "note": "?????????????? calcium gluconate ????????"
+        },
+        {
+          "question_id": "108-1_medicine-3_077",
+          "note": "???????????????????????"
+        },
+        {
+          "question_id": "109-1_medicine-5_049",
+          "note": "??????? ECG ???? peaked T wave?"
+        },
+        {
+          "question_id": "109-1_medicine-5_050",
+          "note": "???????????????????????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -594,7 +675,24 @@
       "dosage_info": "高風險病人通常需要住院 IV 抗生素。Vancomycin 不是常規必加，除非有導管感染、皮膚軟組織感染、肺炎或 hemodynamic instability 等線索。",
       "common_traps": "不要等培養結果才給藥，也不要一律加 vancomycin。核心是先覆蓋 Pseudomonas，因為進展可非常快。",
       "frequency": 20,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "111-2_medicine-3_041",
+          "note": "????? febrile neutropenia?????????????????????"
+        },
+        {
+          "question_id": "108-2_medicine-3_039",
+          "note": "???????????????????"
+        },
+        {
+          "question_id": "109-2_medicine-3_058",
+          "note": "????????????????????????????"
+        },
+        {
+          "question_id": "111-2_medicine-4_027",
+          "note": "Febrile neutropenia ? vancomycin ????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -613,7 +711,24 @@
       "dosage_info": "成人常考 vancomycin + ceftriaxone/cefotaxime；年長、孕婦或免疫低下者加 ampicillin 覆蓋 Listeria。符合指徵時先做 CT，但抗生素不可因此延後。",
       "common_traps": "LP 前需要 CT 的情況不能讓抗生素延誤。考題常把流程設陷阱：先抽血培養、先給抗生素，再依風險安排 CT/LP。",
       "frequency": 17,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "112-2_medicine-4_058",
+          "note": "?????????????????????????"
+        },
+        {
+          "question_id": "112-2_medicine-3_061",
+          "note": "????????????? Listeria??? ampicillin?"
+        },
+        {
+          "question_id": "111-2_medicine-2_052",
+          "note": "??????????????? BBB ?????????"
+        },
+        {
+          "question_id": "110-1_medicine-3_035",
+          "note": "Listeria ???????????????????????"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -632,7 +747,28 @@
       "dosage_info": "常考組合是 octreotide、ceftriaxone 與 endoscopic variceal ligation。若出血控制困難，可暫時 balloon tamponade 並評估 TIPS。",
       "common_traps": "不要只給 PPI 當作上消化道出血通用答案；肝硬化靜脈曲張出血要想到 vasoactive drug、抗生素與內視鏡治療三件事。",
       "frequency": 24,
-      "related_questions": [],
+      "related_questions": [
+        {
+          "question_id": "114-2_medicine-5_032",
+          "note": "???????????? octreotide????? TIPS/?????"
+        },
+        {
+          "question_id": "109-1_medicine-3_018",
+          "note": "???????????????? EVL/???????"
+        },
+        {
+          "question_id": "108-2_medicine-5_033",
+          "note": "????????????????????????"
+        },
+        {
+          "question_id": "111-1_medicine-5_043",
+          "note": "???????????????????????/???????"
+        },
+        {
+          "question_id": "113-2_medicine-3_022",
+          "note": "???????????????????????????"
+        }
+      ],
       "stage": "二階"
     }
   ]
