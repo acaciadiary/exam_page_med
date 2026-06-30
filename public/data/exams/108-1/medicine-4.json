@@ -4,7 +4,7 @@
   "title": "108 年第一次醫師國考：醫學（四）",
   "subject": "medicine-4",
   "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=302&code=108030&q=1&s=22&t=Q",
-  "updated_at": "2026-06-18T04:45:17.994637+00:00",
+  "updated_at": "2026-06-30T07:09:02.315Z",
   "questions": [
     {
       "id": "108-1_medicine-4_001",
@@ -17,23 +17,23 @@
         "D": "此疾病最常見的病原為腸病毒(Enterovirus)"
       },
       "correct_answer": "D",
-      "explanation": "小兒哮吼（Croup）常見聲門下氣道狹窄，在頸部X光上會呈現典型的尖塔徵象（steeple sign）。此疾病最常見的病原體是副流感病毒（parainfluenza virus），而非腸病毒（enterovirus）。臨床症狀包括犬吠樣咳嗽、吸氣性喘鳴及聲音沙啞等。",
-      "key_point": "小兒哮吼（Croup）的典型影像特徵與常見病原體。",
-      "flashcard_summary": "哮吼最常見病原 -> 副流感病毒（parainfluenza virus），X光見尖塔徵象",
+      "explanation": "【題幹解析】\n題幹給2歲男童、半夜急性呼吸窘迫、hoarseness、barking cough、stridor，這是典型上呼吸道阻塞表現。若頸部正面X光有聲門下狹窄形成的尖塔徵象，最支持哮吼。題目問錯誤敘述，重點是辨認病原與急性處置。\n\n【選項詳解】\n- A. 正確。Steeple sign是因聲門下水腫造成氣管上段呈尖塔狀變窄，是croup常見影像線索。\n- B. 正確。哮吼常見於6個月至3歲幼兒，臨床以聲音沙啞、犬吠樣咳嗽、吸氣性喘鳴為主。\n- C. 正確。中重度哮吼可給氧氣、霧化epinephrine快速減少上呼吸道水腫，並常合併類固醇降低復發。\n- D. 錯誤。哮吼最常見病原是副流感病毒，其他可見RSV、流感等；腸病毒不是最常見原因。\n\n【核心考點】\n哮吼的考點常放在臨床三聯徵、steeple sign、急性處置與病原。看到barking cough加stridor，病原優先選parainfluenza。",
+      "key_point": "哮吼典型為發燒、聲音沙啞、犬吠樣咳嗽與吸氣性喘鳴，最常見病原是副流感病毒而非腸病毒。",
+      "flashcard_summary": "犬吠樣咳嗽 / Steeple sign -> 哮吼；最常見病原為副流感病毒，不是腸病毒",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "哮吼 (Croup) / Steeple sign / 聲門下狹窄 / 最常見病原體",
-      "flashcard_back": "哮吼典型X光呈「Steeple sign」，最常見病原為「副流感病毒（parainfluenza virus）」，而非腸病毒。",
+      "flashcard_front": "2歲男童 / 犬吠樣咳嗽 / 聲音沙啞 / 吸氣性喘鳴 / Steeple sign",
+      "flashcard_back": "看到幼兒上呼吸道感染後出現犬吠樣咳嗽與stridor，要先想到croup。croup最常見病原是parainfluenza，急性可用氧氣、霧化epinephrine與類固醇評估處置。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_002",
@@ -46,23 +46,23 @@
         "D": "anti-VCA IgM(-)、anti-VCA IgG(-)、anti-EBNA Ab NEA(+)"
       },
       "correct_answer": "C",
-      "explanation": "當病童發生EBV急性感染（傳染性單核球增多症）時，免疫系統剛開始針對病毒外殼抗原（VCA）產生抗體，此時 anti-VCA IgM 與 anti-VCA IgG 會呈現陽性；而針對核抗原的 anti-EBNA 抗體一般要在感染數週至數月後才會轉陽，因此急性期為陰性，C選項為正確診斷指標。",
-      "key_point": "EBV急性感染的抗體力價特徵。",
-      "flashcard_summary": "EBV急性感染抗體特性 -> anti-VCA IgM(+)、anti-VCA IgG(+)、anti-EBNA(-)",
+      "explanation": "【題幹解析】\n題幹問第一次感染EBV造成傳染性單核球增多症的急性期抗體型態。血清學判讀的核心是VCA抗體出現較早，EBNA抗體出現較晚，因此急性感染要選VCA IgM陽性且EBNA陰性。\n\n【選項詳解】\n- A. 不符合急性期。VCA IgM陰性而VCA IgG與EBNA陽性，比較像過去感染後已有免疫記憶。\n- B. 不符合初次急性期。VCA IgM陽性可支持近期感染，但EBNA陽性通常代表感染已進入較晚或既往感染階段。\n- C. 正確。anti-VCA IgM陽性代表急性或近期感染，VCA IgG也可同時出現；anti-EBNA尚未形成所以陰性。\n- D. 不合理。EBNA單獨陽性且VCA IgG陰性不符合典型EBV感染血清學時序。\n\n【核心考點】\nEBV抗體時序是高頻考點：VCA IgM看急性期，VCA IgG可持續存在，EBNA多在恢復期後才轉陽。",
+      "key_point": "EBV初次感染急性期為anti-VCA IgM與IgG陽性，anti-EBNA通常尚未出現。",
+      "flashcard_summary": "EBV急性期 / VCA IgM陽性 / EBNA陰性 -> 初次感染的血清學判讀",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "EBV 急性感染 / 傳染性單核球增多 / VCA 抗體 / EBNA 抗體",
-      "flashcard_back": "EBV急性感染時，「anti-VCA IgM 與 IgG 均為陽性」，但「anti-EBNA 為陰性」。",
+      "flashcard_front": "EBV初感染 / 傳染性單核球增多症 / 急性期 / VCA IgM / EBNA",
+      "flashcard_back": "急性EBV感染先出現VCA IgM，VCA IgG也可陽性；EBNA抗體多在較晚期或恢復後才出現。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_003",
@@ -75,23 +75,23 @@
         "D": "肺炎披衣菌(Chlamydia pneumoniae)"
       },
       "correct_answer": "B",
-      "explanation": "急性細支氣管炎（Bronchiolitis）是兩歲以下嬰幼兒非常常見的下呼吸道感染，最主要的病原體為呼吸道融合病毒（Respiratory syncytial virus, RSV），約占所有病例的六成以上。其餘病原如腺病毒、流感病毒及人類偏肺病毒等亦可引起，但盛行率皆低於RSV。",
-      "key_point": "嬰幼兒急性細支氣管炎（Bronchiolitis）的最常見病原。",
-      "flashcard_summary": "急性細支氣管炎最常見病原 -> 呼吸道融合病毒（RSV）",
+      "explanation": "【題幹解析】\n題幹鎖定1歲健康兒童與急性細支氣管炎。這個年齡層的小氣道容易因病毒感染而水腫、分泌物增加，造成咳嗽、喘鳴與呼吸費力；最常見病原就是RSV。\n\n【選項詳解】\n- A. 人類間質肺炎病毒也可造成細支氣管炎或肺炎，但不是最常見答案。\n- B. 正確。RSV是嬰幼兒急性細支氣管炎最典型、最常見的病毒病原。\n- C. 副流感病毒較常與哮吼相關，也可造成下呼吸道感染，但不是本題最常見病原。\n- D. 肺炎披衣菌較偏非典型肺炎或嬰兒間質性肺炎的鑑別，不是典型急性細支氣管炎最常見原因。\n\n【核心考點】\n細支氣管炎考題若問一歲以下或嬰幼兒最常見病原，直接連到RSV；若問哮吼，才優先想到副流感病毒。",
+      "key_point": "1歲嬰幼兒急性細支氣管炎最常見病原是呼吸道融合病毒RSV。",
+      "flashcard_summary": "嬰幼兒bronchiolitis -> RSV最常見病原",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "1歲幼兒 / 急性細支氣管炎 (Bronchiolitis) / 喘鳴與下陷 / 最常見病原",
-      "flashcard_back": "嬰幼兒急性細支氣管炎最常見的致病原為「呼吸道融合病毒（RSV）」。",
+      "flashcard_front": "1歲嬰兒 / 急性細支氣管炎 / 喘鳴 / 冬季流行 / RSV",
+      "flashcard_back": "嬰幼兒bronchiolitis最常見是RSV，治療以支持療法為主。其他病毒可造成類似疾病，但考試問最常見時優先選RSV。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_004",
@@ -104,23 +104,23 @@
         "D": "肋膜積水(Pleural effusion)"
       },
       "correct_answer": "A",
-      "explanation": "兒童細菌性社區肺炎常見的局部併發症包含肋膜積水、膿胸及肺膿瘍；心包膜炎則可由鄰近發炎蔓延引起。相較之下，血行傳播至中樞神經系統引起腦膜炎（Meningitis），在現今常規肺炎鏈球菌及嗜血桿菌疫苗接種普及後，已極為罕見，為最不常見的併發症。",
-      "key_point": "兒童社區感染性肺炎的併發症盛行率。",
-      "flashcard_summary": "細菌性肺炎最不常見併發症 -> 腦膜炎（Meningitis）",
+      "explanation": "【題幹解析】\n題幹問兒童社區性細菌性肺炎的併發症中何者最不常見。臨床上肺炎的局部胸腔併發症最常考，包含parapneumonic effusion與empyema；全身或中樞神經併發症則少得多。\n\n【選項詳解】\n- A. 正確答案。腦膜炎可由侵襲性細菌感染造成，但作為一般兒童社區性細菌性肺炎的併發症相對少見。\n- B. 心包膜炎可作為鄰近感染擴散或嚴重感染併發症，雖不常見，但仍比腦膜炎更貼近胸腔感染併發症。\n- C. 膿胸是兒童細菌性肺炎重要併發症，特別是肺炎鏈球菌、金黃色葡萄球菌等感染時需留意。\n- D. 肋膜積水是肺炎常見局部併發症，可由發炎性滲出液或感染性膿胸演變而來。\n\n【核心考點】\n肺炎併發症先分局部胸腔與遠端感染。考最不常見時，腦膜炎通常不是肺炎併發症的典型首選。",
+      "key_point": "兒童細菌性肺炎常見併發症是肋膜積水與膿胸，腦膜炎相對最不常見。",
+      "flashcard_summary": "兒童細菌性肺炎併發症 -> 肋膜積水與膿胸常見，腦膜炎最不常見",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "兒童細菌性肺炎 / 肺部局部併發症 / 腦膜炎 / 疫苗普及影響",
-      "flashcard_back": "兒童細菌性肺炎最不常見的併發症為「腦膜炎」；膿胸、肋膜積水及肺膿瘍為常見局部併發症。",
+      "flashcard_front": "兒童社區性肺炎 / 併發症 / 膿胸 / 肋膜積水 / 腦膜炎少見",
+      "flashcard_back": "肺炎併發症多在胸腔或鄰近構造，如肋膜積水、膿胸、肺膿瘍；腦膜炎屬遠端侵襲性感染，頻率較低。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_005",
@@ -133,23 +133,23 @@
         "D": "D型肝炎病毒(Hepatitis D virus)"
       },
       "correct_answer": "A",
-      "explanation": "A型肝炎主要經由糞口途徑（fecal-oral route）傳播，不會經由周產期或母嬰垂直傳染。相較之下，B型、C型與D型肝炎均可藉由血液或體液接觸傳播，在臨床上都有明確的周產期或垂直傳染風險。",
-      "key_point": "各型肝炎病毒的傳播途徑與周產期傳染。",
-      "flashcard_summary": "不會經周產期傳染的肝炎 -> A型肝炎（主要經由糞口途徑傳染）",
+      "explanation": "【題幹解析】\n題幹問哪一種肝炎病毒不會經由周產期傳染。周產期傳染常見考HBV，尤其母親HBeAg陽性時風險高；HCV也可垂直傳播。HAV則以糞口傳染與食物水源為主。\n\n【選項詳解】\n- A. 正確。A型肝炎主要是糞口傳染，通常造成急性感染，不是典型周產期垂直傳染病毒。\n- B. 錯誤。B型肝炎可經周產期傳染，是新生兒預防接種與免疫球蛋白介入的重要原因。\n- C. 錯誤。C型肝炎可由母嬰垂直傳染，雖風險低於高傳染性HBV，但仍屬可能路徑。\n- D. 錯誤。D型肝炎需依附HBV，若母親有相關感染，也可放在血液與垂直傳播風險的脈絡中理解。\n\n【核心考點】\n肝炎傳染路徑是考點：HAV看糞口，HBV看血液、性接觸與母嬰垂直，HCV也可垂直但效率較低。",
+      "key_point": "A型肝炎主要經糞口傳染，不是典型周產期傳染病毒；B、C、D型可有垂直傳播風險。",
+      "flashcard_summary": "周產期肝炎傳染 -> HAV不典型；HBV最重要",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "肝炎病毒 / 糞口傳播 / 周產期傳染 / 垂直感染風險",
-      "flashcard_back": "「A型肝炎」經由糞口傳染，無周產期傳染風險。B、C、D型肝炎則皆有周產期傳染風險。",
+      "flashcard_front": "肝炎病毒 / 周產期傳染 / A型肝炎 / 糞口傳染 / HBV",
+      "flashcard_back": "HAV以糞口傳染為主，周產期傳染不是主要路徑。HBV最典型可母嬰垂直傳染，HCV也可，HDV依賴HBV感染而有相關風險。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_006",
@@ -162,23 +162,23 @@
         "D": "肺炎鏈球菌疫苗"
       },
       "correct_answer": "C",
-      "explanation": "輪狀病毒疫苗（口服）通常必須在嬰兒出生後 8 個月大以前完成所有劑量的接種，滿周歲後已不適合給予。水痘疫苗、A型肝炎疫苗第一劑及 13 價結合型肺炎鏈球菌疫苗（第三劑）皆是臺灣現行建議在嬰兒滿 12 個月大時常規接種的疫苗。",
-      "key_point": "小兒常規疫苗的接種時程與年齡限制。",
-      "flashcard_summary": "1歲時不適合接種的疫苗 -> 輪狀病毒疫苗（必須在8個月大前口服完畢）",
+      "explanation": "【題幹解析】\n題幹問滿周歲幼兒不適合接種哪種疫苗。輪狀病毒疫苗是口服活性減毒疫苗，因腸套疊等安全性考量有起始與最後劑量年齡上限，通常應在嬰兒早期完成。\n\n【選項詳解】\n- A. 水痘疫苗通常滿12個月後可接種，所以不是不適合的選項。\n- B. A型肝炎疫苗可在幼兒期依建議時程接種，滿周歲不是禁忌。\n- C. 正確。輪狀病毒疫苗需在較小月齡開始並完成，滿1歲已超過常規接種上限。\n- D. 肺炎鏈球菌疫苗可依年齡與既往接種狀況補接種，滿周歲仍有適用時程。\n\n【核心考點】\n兒童疫苗題要抓年齡上限。輪狀病毒疫苗是少數超過一定月齡後不建議開始或繼續接種的疫苗。",
+      "key_point": "輪狀病毒疫苗有嚴格起始與完成年齡限制，滿周歲後不適合再接種。",
+      "flashcard_summary": "滿周歲不適合接種 -> 輪狀病毒疫苗已超過年齡上限",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "滿12個月常規疫苗 / 輪狀病毒疫苗 / 水痘與A肝疫苗 / 接種年齡限制",
-      "flashcard_back": "「輪狀病毒疫苗（口服）」須在8個月大前完成接種，滿1歲已不適合接種。滿1歲應接種水痘、A肝及肺炎鏈球菌疫苗。",
+      "flashcard_front": "滿1歲幼兒 / 疫苗時程 / 輪狀病毒疫苗 / 年齡上限",
+      "flashcard_back": "輪狀病毒疫苗須在嬰兒早期完成，超過年齡上限不再接種。水痘、A肝與肺炎鏈球菌疫苗在滿1歲時仍可依時程施打。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_007",
@@ -191,23 +191,23 @@
         "D": "食道閉鎖合併上段及下段食道氣管瘻管"
       },
       "correct_answer": "B",
-      "explanation": "嬰兒出生後流涎、嘴角冒泡且鼻胃管無法順利置入，代表有食道閉鎖（Esophageal atresia）。出生12小時後 X 光（KUB）呈現「無腸氣（氣腹無氣）」，說明胃腸道內沒有氣體進入，這排除了下段食道與氣管相通的可能（最常見的C型），故最可能的診斷為食道閉鎖合併「上段」食道氣管瘻管（B型）或單純食道閉鎖（A型，但選項中以B型為最可能且選項對應正解B）。",
-      "key_point": "先天性食道閉鎖與氣管食道瘻管的分類與臨床診斷。",
-      "flashcard_summary": "胃管受阻合併KUB無腸氣 -> 食道閉鎖合併上段食道氣管瘻管（或無瘻管）",
+      "explanation": "【題幹解析】\n題幹的嘴角流口水、泡泡、鼻胃管無法順利放入，是食道閉鎖的典型線索。KUB無腸氣表示空氣沒有經由遠端氣管食道瘻管進入胃腸道，因此要排除合併下段瘻管的常見型。\n\n【選項詳解】\n- A. 單純食道氣管瘻管通常食道仍連續，鼻胃管不一定無法進入胃，與題幹不符。\n- B. 正確。食道閉鎖解釋鼻胃管無法通過；若合併上段瘻管但沒有下段瘻管，腹部可無腸氣。\n- C. 下段食道氣管瘻管會讓空氣進入胃腸道，KUB通常會看到腸氣，與題幹無腸氣相反。\n- D. 上下段都合併瘻管時也可能有空氣進入腸胃道，且臨床分類較少見，不能最佳解釋無腸氣。\n\n【核心考點】\n食道閉鎖題目最關鍵是鼻胃管卡住與腹部是否有氣。無腸氣代表沒有遠端瘻管，有腸氣則常是遠端瘻管。",
+      "key_point": "新生兒流口水、鼻胃管無法置入且腹部無腸氣，最符合食道閉鎖合併近端食道氣管瘻管。",
+      "flashcard_summary": "NG管無法通過 + 無腸氣 -> 食道閉鎖且無遠端氣管瘻管；本題選上段瘻管型",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "新生兒口吐白沫 / 鼻胃管阻擋 / KUB 無腸氣 / 食道氣管瘻管分類",
-      "flashcard_back": "胃管受阻且KUB無腸氣，代表「食道閉鎖合併上段食道氣管瘻管（Type B）」或無瘻管（Type A）。",
+      "flashcard_front": "新生兒 / 流口水泡泡 / NG管放不進 / KUB無腸氣 / 食道閉鎖",
+      "flashcard_back": "食道閉鎖若無遠端瘻管，胃腸道通常無氣體；若有遠端瘻管，腹部會有腸氣。題幹無腸氣提示不是常見的遠端瘻管型。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_008",
@@ -220,23 +220,23 @@
         "D": "乙型海洋性貧血(ß-Thalassemia)"
       },
       "correct_answer": "B",
-      "explanation": "病童在出生後 19 小時即出現顯著黃疸（總膽紅素 12 mg/dL），屬於出生24小時內的病理性黃疸。母親血型為 O 型，父親為 B 型（小孩血型可能為B型），且已排除母乳性黃疸（常在一週後才顯著）及海洋性貧血（新生兒期極少表現為急性溶血性黃疸），最可能的診斷為 ABO 血型不合（ABO incompatibility）引起的溶血性黃疸。",
-      "key_point": "新生兒病理性黃疸的鑑別診斷與ABO血型不合。",
-      "flashcard_summary": "出生24小時內病理性黃疸且母O型父B型 -> ABO血型不合（ABO incompatibility）",
+      "explanation": "【題幹解析】\n題幹給足月新生兒第19小時總膽紅素12 mg/dL、直接膽紅素低，表示早發間接型高膽紅素血症。出生24小時內黃疸不是生理性黃疸，需考慮溶血；母親O型、父親B型使嬰兒可能B型，符合ABO血型不合。\n\n【選項詳解】\n- A. Rh其他血型不合可造成溶血，但題幹母親Rh陽性且無輸血史，沒有支持Rh致敏的強線索。\n- B. 正確。O型母親可有抗A或抗B IgG，通過胎盤導致A或B型新生兒溶血，常造成出生後很早出現黃疸。\n- C. 母乳性黃疸多在出生數天後到第一週後較明顯，不會典型造成19小時即明顯黃疸。\n- D. 乙型海洋性貧血通常不會在出生19小時造成這種急性間接型高膽紅素表現，且母親無帶因線索。\n\n【核心考點】\n新生兒黃疸先看時間。24小時內黃疸是病理性，合併母O型與嬰兒可能A或B型時，ABO不合是高頻答案。",
+      "key_point": "出生24小時內出現間接高膽紅素且母O父B，最可能是ABO血型不合造成溶血性黃疸。",
+      "flashcard_summary": "早發新生兒黃疸 + 母O父B -> ABO incompatibility",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "出生19小時黃疸 / Bil 12 / 母親O型 / 父親B型 / 溶血",
-      "flashcard_back": "24小時內出現黃疸且母O型子B型，高度懷疑「ABO血型不合（ABO incompatibility）」引起的溶血性黃疸。",
+      "flashcard_front": "新生兒19小時黃疸 / 總膽紅素12 / 母O型 / 父B型 / 間接膽紅素",
+      "flashcard_back": "24小時內黃疸屬病理性黃疸，先想溶血。母親O型、嬰兒可能A或B型時，ABO不合是常見原因。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_009",
@@ -249,23 +249,23 @@
         "D": "橫膈膜疝氣(Diaphragmatic hernia)"
       },
       "correct_answer": "D",
-      "explanation": "新生兒出生後立即有呼吸窘迫、發紺、舟狀腹（胸高腹低）等特徵。最大心音偏向右側（心臟受壓移位），加上 X 光顯示胸腔內充滿腸氣陰影且縱膈腔向對側移位，是典型的先天性橫膈膜疝氣（Congenital diaphragmatic hernia）表現。此症常伴有同側肺發育不全，需緊急氣管插管給予呼吸支持。",
-      "key_point": "先天性橫膈膜疝氣的影像學與臨床特徵。",
-      "flashcard_summary": "胸腔充滿腸氣且心音偏右之新生兒呼吸窘迫 -> 橫膈膜疝氣（Diaphragmatic hernia）",
+      "explanation": "【題幹解析】\n題幹描述新生兒出生後立即呼吸窘迫與發紺，胸部比腹部突出、最大心音在右側，表示胸腔內可能有腹部器官造成縱膈移位。若胸腹X光見腸氣影進入胸腔，就非常典型支持先天性橫膈膜疝氣。\n\n【選項詳解】\n- A. 張力性氣胸也可有呼吸窘迫與縱膈移位，但題幹胸腹外觀與影像若有腸氣在胸腔，更支持橫膈膜疝氣。\n- B. 食道閉鎖重點是流口水、餵食嗆咳、鼻胃管無法放入，不會解釋胸腔腸氣與心音移位。\n- C. 十二指腸閉鎖典型是膽汁性嘔吐與double bubble sign，不是出生即嚴重呼吸窘迫與縱膈移位。\n- D. 正確。橫膈膜缺損讓腸胃道進入胸腔，壓迫肺部造成肺發育不全與新生兒呼吸窘迫。\n\n【核心考點】\n先天性橫膈膜疝氣的考點是出生即呼吸窘迫、發紺、心音移位，以及胸腔內腸氣影。",
+      "key_point": "新生兒呼吸窘迫、舟狀腹或胸腹不對稱、心音移位與胸腹X光腸氣進胸腔，最符合先天性橫膈膜疝氣。",
+      "flashcard_summary": "出生即呼吸窘迫 + 心音移位 -> congenital diaphragmatic hernia",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "新生兒呼吸窘迫 / 心音偏右 / 胸腔見腸氣 / 縱膈腔移位",
-      "flashcard_back": "應診斷為「先天性橫膈膜疝氣（Diaphragmatic hernia）」。心臟與縱膈腔會被擠壓移向對側（常為右側）。",
+      "flashcard_front": "新生兒呼吸窘迫 / 發紺 / 心音右移 / 胸腹X光 / 橫膈膜疝氣",
+      "flashcard_back": "先天性橫膈膜疝氣會使腹腔器官進入胸腔，造成肺發育不全與縱膈移位。出生後立即呼吸窘迫合併心音移位要優先想到它。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_010",
@@ -278,23 +278,23 @@
         "D": "腹漲(Abdominal distention):HD>FC"
       },
       "correct_answer": "A",
-      "explanation": "大便失禁或溢屎（encopresis）是功能性便秘（FC）的常見特徵（直腸因糞便堆積而擴張，稀便從邊緣滲出），而在先天性巨結腸症（HD）病童中極為罕見（因為無神經節段痙攣狹窄，大便無法到達直腸），因此A選項稱 HD > FC 是錯誤的。HD病童常見生長遲緩、腹脹及合併小腸結腸炎的風險。",
-      "key_point": "先天性巨結腸症與功能性便秘的臨床鑑別診斷。",
-      "flashcard_summary": "大便失禁在 HD 與 FC 的比較 -> 功能性便秘（FC）發生率高於先天性巨結腸症（HD）",
+      "explanation": "【題幹解析】\n題幹要求比較Hirschsprung disease與功能性便秘各症狀機率，並找錯誤敘述。HD屬腸神經節細胞缺如造成遠端腸道功能性阻塞；功能性便秘則常因排便行為與糞便滯留造成溢流性大便失禁。\n\n【選項詳解】\n- A. 錯誤，為本題答案。大便失禁或滲便較典型見於功能性便秘，因直腸糞便滯留導致溢流，不是HD大於FC。\n- B. 正確。HD可能因慢性阻塞、餵食不良或併發症造成生長遲緩，較功能性便秘更需警覺。\n- C. 正確。Hirschsprung-associated enterocolitis是HD重要且可嚴重的併發症。\n- D. 正確。HD因遠端腸道阻塞，腹脹常比單純功能性便秘更具警訊意義。\n\n【核心考點】\n便秘鑑別要抓紅旗：胎便延遲、腹脹、生長差、腸炎偏HD；滲便或大便失禁常偏功能性便秘。",
+      "key_point": "Hirschsprung病較常有生長遲緩、腹脹與小腸結腸炎；大便失禁較支持功能性便秘。",
+      "flashcard_summary": "HD vs FC -> encopresis較常見於功能性便秘，不是HD",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "大便失禁 (Encopresis) / 先天性巨結腸症 (HD) / 功能性便秘 (FC) 比較",
-      "flashcard_back": "大便失禁（溢屎）在「功能性便秘（FC）」較常見，先天性巨結腸症（HD）病童則極少出現（FC > HD）。",
+      "flashcard_front": "Hirschsprung disease / 功能性便秘 / 大便失禁 / 腹脹 / 生長遲緩",
+      "flashcard_back": "功能性便秘因糞便滯留與溢流較常出現encopresis。HD是神經節細胞缺如，較常有胎便延遲、腹脹、生長不良與腸炎。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.066Z"
     },
     {
       "id": "108-1_medicine-4_011",
@@ -307,23 +307,23 @@
         "D": "Cowden症候群(Cowden syndrome)"
       },
       "correct_answer": "B",
-      "explanation": "家族性結直腸息肉症（Familial adenomatous polyposis, FAP）是一種體染色體顯性遺傳疾病，病患大腸內會長出成百上千個腺瘤性息肉。若不進行預防性大腸切除術，患者在中年（40歲前）惡化發展為大腸癌（Colon cancer）的風險高達近 100%，顯著高於幼年性息肉症及 Peutz-Jeghers 等症候群。",
-      "key_point": "遺傳性腸胃道息肉症候群的惡性化風險。",
-      "flashcard_summary": "大腸癌風險最高的腸道息肉症 -> 家族性結直腸息肉症（FAP）",
+      "explanation": "【題幹解析】\n題幹比較各種腸胃道息肉症候群發生大腸癌的風險。家族性腺瘤性息肉症會在年輕時出現大量腺瘤性息肉，若未預防性處置，累積大腸癌風險極高。\n\n【選項詳解】\n- A. 幼年性息肉症可增加腸胃道癌風險，但通常不如FAP幾乎必然癌化。\n- B. 正確。FAP由APC基因突變造成，腺瘤數量多且癌化風險最高，是本題最典型答案。\n- C. Peutz-Jeghers症候群也會增加多種癌症風險，但息肉多為錯構瘤性，與FAP的結直腸癌風險相比仍較低。\n- D. Cowden症候群屬PTEN相關錯構瘤症候群，與乳癌、甲狀腺癌、子宮內膜癌等有關，非本題最高大腸癌風險者。\n\n【核心考點】\n息肉症候群考癌化風險時，看到familial adenomatous polyposis要直接連到APC與極高大腸癌風險。",
+      "key_point": "家族性腺瘤性息肉症的大腸癌風險最高，若未處理幾乎必然發生大腸癌。",
+      "flashcard_summary": "大量腺瘤性息肉 -> FAP；大腸癌風險最高",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "大腸息肉 / 體染色體顯性遺傳 / 大腸癌風險最高 / 腺瘤性息肉",
-      "flashcard_back": "發生大腸癌風險最高的為「家族性結直腸息肉症（FAP）」，其惡變機率近乎 100%。",
+      "flashcard_front": "腸胃道息肉 / 大腸癌風險 / FAP / APC / 多發腺瘤",
+      "flashcard_back": "FAP是APC突變造成大量腺瘤性息肉，癌化風險遠高於幼年性息肉、Peutz-Jeghers與Cowden症候群。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_012",
@@ -336,23 +336,23 @@
         "D": "應該住院打點滴並禁食,無需給與抗生素"
       },
       "correct_answer": "C",
-      "explanation": "1歲大女嬰確診為非傷寒沙門氏菌（Nontyphoidal Salmonella）腸胃炎，此時已退燒、血絲便減少且精神活動力良好。對無免疫缺陷的健康嬰幼兒（大於3個月），此病為自體限制性，給予電解質口服液與飲食控制等支持性治療即可，不需要且應避免常規使用抗生素，因為抗生素會延長糞便排菌時間並增加帶菌率。",
-      "key_point": "非傷寒沙門氏菌腸胃炎的治療原則。",
-      "flashcard_summary": "非傷寒沙門氏菌腸胃炎處置 -> 症狀改善的健康患兒只需飲食支持，不需抗生素",
+      "explanation": "【題幹解析】\n題幹的小孩雖有血絲便與培養出非傷寒沙門氏菌，但目前退燒、活動力正常、腹瀉次數下降，重點是評估是否需要抗生素或住院。一般免疫正常、臨床穩定的腸炎以口服補液與飲食調整為主。\n\n【選項詳解】\n- A. 不恰當。雖然口服電解質與清淡飲食正確，但常規口服抗生素可能延長帶菌或增加抗藥性，不是穩定病例的首選。\n- B. 不恰當。病童精神活動正常、無脫水或敗血症線索，不需住院禁食與靜脈抗生素。\n- C. 正確。給予口服補液、清淡飲食並觀察即可，沒有必要常規使用口服抗生素。\n- D. 不恰當。禁食與住院點滴過度處置，且穩定病童可維持腸道營養與口服補液。\n\n【核心考點】\n兒童沙門氏菌腸炎處置要看嚴重度與宿主風險。穩定免疫正常者支持療法即可，抗生素不是常規。",
+      "key_point": "免疫正常兒童非傷寒沙門氏菌腸炎若症狀改善且無侵襲性感染，通常支持療法即可，不需常規抗生素。",
+      "flashcard_summary": "非傷寒沙門氏菌腸炎改善中 -> 支持療法，不常規抗生素",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "1歲幼兒 / 非傷寒沙門氏菌 / 症狀改善且無發燒 / 抗生素治療指引",
-      "flashcard_back": "健康且大於3個月幼兒罹患此病，只需「支持性飲食治療，無需給與抗生素」，以免延長排菌時間。",
+      "flashcard_front": "1歲女嬰 / 血絲便改善 / 非傷寒沙門氏菌 / 活動力正常 / 不需抗生素",
+      "flashcard_back": "非傷寒沙門氏菌腸炎多以補充水分與電解質為主。抗生素保留給嬰幼兒高風險、敗血症、免疫不全或嚴重侵襲性感染。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_013",
@@ -365,23 +365,23 @@
         "D": "每次只添加一種新食物,由少量開始,逐漸增加,觀察4至7天"
       },
       "correct_answer": "B",
-      "explanation": "目前兒科醫學指引建議，為建立免疫耐受性並預防過敏，嬰兒在 4-6 個月大時即可開始添加副食品，即使是有過敏體質的嬰兒也不應延後（延後至8個月反而會增加過敏風險），故B選項最不適當。1歲以下嬰兒因免疫系統發育未完全，必須嚴禁食用蜂蜜以防肉毒桿菌中毒。",
-      "key_point": "嬰幼兒副食品添加原則與時程。",
-      "flashcard_summary": "過敏體質嬰兒副食品添加時間 -> 不應延後，同樣建議於 4-6 個月大時開始添加",
+      "explanation": "【題幹解析】\n題幹問副食品添加原則何者最不適當。現代觀念是不因過敏體質而刻意延後副食品或高過敏食物，通常在4到6個月、具備發展準備度時逐步添加。\n\n【選項詳解】\n- A. 大致正確。純母乳可維持至約6個月，但之後需添加副食品以補充鐵、鋅與能量。\n- B. 錯誤，為本題答案。有過敏體質不代表要延後到8個月；延後添加不能證實可預防過敏。\n- C. 正確。1歲以下避免蜂蜜，主要是預防嬰兒肉毒桿菌中毒。\n- D. 正確。一次添加一種新食物、少量開始並觀察數天，有助辨識不耐或過敏反應。\n\n【核心考點】\n副食品考點是時機與安全。4至6個月可逐步添加，不因過敏體質刻意延後；蜂蜜則需避到1歲後。",
+      "key_point": "過敏體質嬰兒不建議刻意延後副食品添加，通常約4至6個月可逐步引入。",
+      "flashcard_summary": "過敏體質副食品 -> 不需延後到8個月",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "過敏體質嬰兒 / 副食品添加時間 / 蜂蜜限制 / 添加原則",
-      "flashcard_back": "過敏體質嬰兒「不需延後」添加副食品，仍建議於4-6個月大開始添加。1歲以下禁食蜂蜜。",
+      "flashcard_front": "副食品添加 / 4至6個月 / 過敏體質 / 蜂蜜禁忌 / 單一新食物",
+      "flashcard_back": "延後高過敏食物或副食品並不能有效預防過敏，反而可能錯過口服耐受建立時機。1歲以下仍應避免蜂蜜。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_014",
@@ -394,23 +394,23 @@
         "D": "早產兒純母乳哺餵時鐵質可能不足,須額外補充;足月兒則會足夠,無需額外補充"
       },
       "correct_answer": "C",
-      "explanation": "純母乳哺育的嬰兒在出生後 6 個月內一般不需要額外補充氟。母乳雖然含鐵量低，但足月兒體內儲存的鐵可維持 4-6 個月，之後亦需注意鐵質補充；維生素D則建議從出生後即每日補充 400 IU；維生素K則是在新生兒剛出生時由醫院常規注射補充以防出血。",
-      "key_point": "純母乳哺育嬰兒的營養補充（維生素與微量元素）。",
-      "flashcard_summary": "純母乳哺育氟補充規範 -> 出生後 6 個月內無需額外補充氟",
+      "explanation": "【題幹解析】\n題幹問純母乳哺育衛教何者最正確。純母乳有許多好處，但並非所有營養素都完全足夠；考點是常見補充項目與氟的時機。\n\n【選項詳解】\n- A. 不精確。多數建議純母乳約6個月，之後添加副食品並可持續哺乳至1歲或更久，而不是只鼓勵純母乳到12個月。\n- B. 錯誤。新生兒出生後常規給維生素K預防出血，純母乳不是等到6個月才補K的典型考點。\n- C. 正確。出生後6個月內純母乳嬰兒通常不需額外補充氟，是否需要補氟與年齡、飲水含氟量和牙齒狀況有關。\n- D. 錯誤。早產兒與部分足月純母乳嬰兒都可能需評估鐵質補充，不能概括說足月兒一定無需額外補充。\n\n【核心考點】\n純母乳衛教要分清楚：維生素D常需補充，早產兒鐵質要評估，氟通常不是6個月內例行補充項目。",
+      "key_point": "純母乳嬰兒出生後6個月內通常不需額外補充氟，但需注意維生素D、鐵與早產兒營養補充。",
+      "flashcard_summary": "純母乳6個月內 -> 通常不需補氟",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "純母乳哺育 / 氟補充時間 / 維生素 D 補充 / 鐵質缺乏風險",
-      "flashcard_back": "純母乳哺育嬰兒在「出生6個月內無需補充氟」。出生後需立即每日補充維生素D 400 IU。",
+      "flashcard_front": "純母乳 / 6個月內 / 氟補充 / 維生素D / 早產兒鐵質",
+      "flashcard_back": "氟主要與飲水含氟量及長牙後齲齒預防有關，6個月內純母乳嬰兒通常不需補充。純母乳仍要考慮維生素D與早產兒鐵質需求。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_015",
@@ -423,23 +423,23 @@
         "D": "Alport症候群(Alport syndrome)"
       },
       "correct_answer": "D",
-      "explanation": "10歲女童在感冒（上呼吸道感染）後 1-2 天內快速出現肉眼可見血尿，且其舅舅在國中時即因末期腎臟病而接受透析，此顯著的家族男性早期腎衰竭病史高度提示 X 染色體聯鎖隱性遺傳的 Alport 症候群（IV型膠原蛋白突變）。薄基底膜疾病預後佳、極少進展至腎衰竭；IgA腎炎雖也有感冒後血尿，但如此明確的家族透析病史更支持 Alport 症候群。",
-      "key_point": "Alport 症候群的臨床表徵與遺傳病史。",
-      "flashcard_summary": "感冒後快速血尿伴男性家族成員早期洗腎史 -> Alport 症候群",
+      "explanation": "【題幹解析】\n題幹的重點是10歲女童反覆血尿，且常在上呼吸道感染後很快出現肉眼血尿；更關鍵的是舅舅國中即末期腎病透析，提示母系X連鎖遺傳腎病。Alport可合併聽力或眼部問題，但題目不一定全部給出。\n\n【選項詳解】\n- A. FSGS可造成蛋白尿與腎病症候群，家族型也可能，但題幹的反覆血尿與母系男性早發ESRD更典型為Alport。\n- B. 薄基底膜疾病可有家族性血尿，但通常病程良性，不常導致男性青少年末期腎病。\n- C. 高鈣尿可造成血尿，但不能解釋舅舅早發腎衰竭與蛋白尿。\n- D. 正確。Alport症候群是遺傳性第四型膠原異常，典型有血尿、蛋白尿與進展性腎功能惡化。\n\n【核心考點】\n血尿題若有家族男性早發腎衰竭，要想到Alport；單純良性家族性血尿通常不會有明顯腎衰竭家族史。",
+      "key_point": "兒童反覆肉眼血尿合併男性親屬早發末期腎病，最支持X連鎖Alport症候群。",
+      "flashcard_summary": "血尿 + 母系男性親屬ESRD -> Alport症候群",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "感冒後1-2天血尿 / 舅舅年輕透析病史 / 血尿合併蛋白尿 / 遺傳性腎病",
-      "flashcard_back": "應診斷為「Alport症候群」。此為IV型膠原蛋白基因缺陷，X-linked隱性遺傳，男性患者易年輕進展至ESRD。",
+      "flashcard_front": "上呼吸道感染後血尿 / 舅舅透析 / 蛋白尿 / Alport / 遺傳性腎炎",
+      "flashcard_back": "Alport常為COL4A5相關X連鎖遺傳，表現反覆血尿、蛋白尿、進展性腎病，家族男性早發腎衰竭是重要線索。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_016",
@@ -452,23 +452,23 @@
         "D": "若患者對類固醇反應良好則預後好,很少會進展到慢性腎臟病而須透析治療"
       },
       "correct_answer": "A",
-      "explanation": "3歲女童呈現典型小兒微小病變（MCD）引起的腎病症候群（水腫、重度蛋白尿、低白蛋白血症及高血脂）。其高血脂是因低蛋白血症刺激肝臟代償性合成脂蛋白所致，一般在給予類固醇治療、蛋白尿緩解且血中白蛋白回升後即會自行恢復，不需且不應立即使用 Statin 類降血脂藥物治療，故A選項敘述錯誤。",
-      "key_point": "小兒腎病症候群高血脂的臨床治療原則。",
-      "flashcard_summary": "小兒腎病症候群高血脂處置 -> 先以類固醇治療原發病症，不需立即使用 Statin 降血脂",
+      "explanation": "【題幹解析】\n題幹有全身水腫、大量蛋白尿、低白蛋白與高脂血症，符合腎病症候群。3歲兒童最常見病因是微小變化型腎病，通常先用類固醇治療而不需一開始腎切片。題目問錯誤敘述。\n\n【選項詳解】\n- A. 錯誤，為本題答案。腎病症候群的高血脂多是低白蛋白刺激肝臟脂蛋白合成所致，治療核心是控制腎病症候群，不是立即用statin。\n- B. 正確。典型兒童腎病症候群多為原發性微小變化型，無非典型特徵時可先類固醇治療。\n- C. 正確。24小時蛋白尿3.3 g且BSA只有0.5 m2，已達腎病範圍蛋白尿；尿蛋白/肌酸酐比也很高。\n- D. 正確。類固醇敏感型微小變化腎病預後通常良好，進展至末期腎病少見。\n\n【核心考點】\n兒童腎病症候群的典型四聯徵是大量蛋白尿、低白蛋白、水腫與高血脂；治療先處理腎病本身。",
+      "key_point": "兒童微小變化型腎病症候群的高血脂多隨蛋白尿緩解改善，通常不立即以statin治療。",
+      "flashcard_summary": "兒童腎病症候群 -> 先類固醇，不立即statin",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "小兒腎病症候群 / MCD / 白蛋白 1.5 / 膽固醇 420 / 降血脂治療",
-      "flashcard_back": "腎病症候群之高血脂不需立即使用Statin；應先給予類固醇治療，蛋白尿緩解後血脂通常會自行恢復正常。",
+      "flashcard_front": "3歲水腫 / 大量蛋白尿 / 低白蛋白 / 高血脂 / 腎病症候群",
+      "flashcard_back": "學齡前腎病症候群多為微小變化型，可先給類固醇且通常預後佳。高血脂是腎病症候群伴隨現象，急性期不是先用statin。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_017",
@@ -481,23 +481,23 @@
         "D": "滿5歲但未滿6歲"
       },
       "correct_answer": "B",
-      "explanation": "幼兒發展評估中，能夠不扶東西單腳站立 10 秒（粗動作）、能模仿畫出圓圈（細動作）以及能使用代名詞表達「你的」、「我的」（語言與社會性），其最接近的發展年齡為滿 3 歲但未滿 4 歲（3歲至3歲半左右的里程碑）。滿4歲通常能單腳跳躍或畫正方形；滿2歲發展則尚未成熟至單腳站立10秒。",
-      "key_point": "幼兒動作及語言發展里程碑判斷。",
-      "flashcard_summary": "單腳站立10秒與畫圓之發展年齡 -> 滿 3 歲但未滿 4 歲",
+      "explanation": "【題幹解析】\n題幹考兒童發展里程碑。能不扶物單腳站立10秒、照樣畫圓圈、表達你和我，屬於約3歲到未滿4歲的粗動作、精細動作與語言社交能力。\n\n【選項詳解】\n- A. 太早。2歲到未滿3歲可跑跳、疊積木與簡單片語，但單腳站10秒與照樣畫圓較成熟。\n- B. 正確。滿3歲到未滿4歲最符合題幹描述的動作與語言能力。\n- C. 偏晚。4到5歲常可單腳跳、畫十字或較複雜圖形，能力通常超過題幹。\n- D. 偏晚。5到6歲可有更成熟的平衡、畫三角形或更複雜人形，不是最接近。\n\n【核心考點】\n發展題要把粗動作、精細動作、語言三線索合併判斷；畫圓與代名詞常指向3歲左右。",
+      "key_point": "能單腳站10秒、畫圓圈並使用你我等代名詞，發展年齡約3到4歲。",
+      "flashcard_summary": "單腳站10秒 + 畫圓 + 你我 -> 約3至4歲發展",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "單腳站立10秒 / 照樣畫圓 / 表達「你的」「我的」 / 發展年齡",
-      "flashcard_back": "符合這些發展里程碑的幼兒，其年齡最接近「滿 3 歲但未滿 4 歲」。",
+      "flashcard_front": "單腳站10秒 / 畫圓圈 / 你我代名詞 / 兒童發展里程碑",
+      "flashcard_back": "3歲左右可畫圓、單腳短暫站立並逐漸掌握代名詞；更大年齡會畫十字、方形或人形更完整。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_018",
@@ -510,23 +510,23 @@
         "D": "熱性痙攣之發生與基因或家族史無關"
       },
       "correct_answer": "B",
-      "explanation": "年紀小於6個月的嬰兒若出現發燒合併痙攣，由於腦膜炎症狀在該年齡層常不典型，強烈建議進行腰椎穿刺以排除中樞神經感染。複雜型熱性痙攣病童日後罹患癲癇機率高於一般人；首次發生的單純型熱性痙攣不需常規安排神經影像學檢查；熱性痙攣與遺傳及家族史有高度相關。",
-      "key_point": "小兒熱性痙攣的評估原則與腰椎穿刺適應症。",
-      "flashcard_summary": "小於6個月發燒痙攣處理 -> 須做腰椎穿刺排除中樞神經感染",
+      "explanation": "【題幹解析】\n題幹問熱性痙攣敘述何者正確。典型熱性痙攣年齡多為6個月至5歲，若年紀小於6個月，不能輕易當作單純熱性痙攣，需評估腦膜炎或腦炎等中樞神經感染。\n\n【選項詳解】\n- A. 錯誤。複雜型熱性痙攣日後癲癇風險較一般族群高，不能說相同。\n- B. 正確。小於6個月發燒合併抽搐不符合典型年齡範圍，臨床需考慮腰椎穿刺排除中樞神經感染。\n- C. 錯誤。首次單純型熱性痙攣若恢復良好且無神經學異常，通常不需常規神經影像。\n- D. 錯誤。熱性痙攣與家族史、遺傳易感性有關。\n\n【核心考點】\n熱性痙攣判斷先看年齡、發作型態與恢復狀況。小於6個月是非典型警訊，不能只當良性熱痙攣。",
+      "key_point": "6個月以下出現熱性痙攣不典型，需考慮中樞神經感染並評估腰椎穿刺。",
+      "flashcard_summary": "小於6個月發燒抽搐 -> 不典型熱痙攣，需排除中樞感染",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "嬰幼兒發燒抽搐 / 小於6個月 / 腰椎穿刺 / 癲癇風險",
-      "flashcard_back": "小於6個月之熱性痙攣患者，「須做腰椎穿刺以排除腦膜炎」；首次單純型熱性痙攣不需常規影像檢查。",
+      "flashcard_front": "熱性痙攣 / 小於6個月 / 腰椎穿刺 / 中樞感染 / 複雜型",
+      "flashcard_back": "典型熱性痙攣多在6個月至5歲。小於6個月、意識恢復差、腦膜刺激或複雜型特徵，都要提高感染或其他病因警覺。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_019",
@@ -539,23 +539,23 @@
         "D": "下視丘錯構瘤(Hypothalamic hamartoma)"
       },
       "correct_answer": "D",
-      "explanation": "下視丘錯構瘤（Hypotharamic hamartoma）會提早分泌 GnRH，進而活化下視丘-腦下垂體-性腺軸，屬於「中樞性（GnRH依賴性）性早熟」。相較之下，外源性雌激素接觸、先天性腎上腺增生（CAH）及 McCune-Albright 症候群均是不依賴 GnRH 的「周邊性（非GnRH依賴性）性早熟」，故D選項機轉與其他最不相同。",
-      "key_point": "中樞性與周邊性性早熟的致病機轉區分。",
-      "flashcard_summary": "下視丘錯構瘤引發性早熟機轉 -> 屬於中樞性性早熟，其餘為周邊性",
+      "explanation": "【題幹解析】\n題幹要找致病機轉與其他不同者。性早熟可分中樞性GnRH依賴與周邊性GnRH非依賴。下視丘錯構瘤會刺激GnRH脈衝，造成中樞性性早熟；其他選項多是外源或周邊荷爾蒙來源。\n\n【選項詳解】\n- A. 外源性雌激素接觸是周邊性，並非由HPG軸提早啟動。\n- B. 先天性腎上腺增生造成腎上腺性類固醇過量，屬周邊性性早熟或男性化來源。\n- C. McCune-Albright可因卵巢囊腫自主分泌雌激素，典型屬周邊性GnRH非依賴。\n- D. 正確。下視丘錯構瘤會造成中樞性性早熟，機轉與其他周邊性原因不同。\n\n【核心考點】\n性早熟題目先分中樞與周邊。錯構瘤、腦部病灶偏中樞；外源荷爾蒙、CAH、McCune-Albright偏周邊。",
+      "key_point": "女童性早熟中，下視丘錯構瘤屬中樞性性早熟；外源雌激素、CAH與McCune-Albright多屬周邊性機轉。",
+      "flashcard_summary": "性早熟機轉不同者 -> 下視丘錯構瘤為中樞性",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "女童性早熟 / 下視丘錯構瘤 / McCune-Albright / 先天性腎上腺增生 / 機轉分類",
-      "flashcard_back": "下視丘錯構瘤屬於「中樞性（GnRH依賴性）」性早熟，而其餘選項均為「周邊性」性早熟。",
+      "flashcard_front": "女童性早熟 / 中樞性 / 周邊性 / 下視丘錯構瘤 / GnRH",
+      "flashcard_back": "中樞性性早熟是HPG軸提早啟動，會有GnRH依賴性表現。外源荷爾蒙或腎上腺、卵巢自主分泌多為周邊性。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_020",
@@ -568,23 +568,23 @@
         "D": "17α-hydroxylase/17,20-lyase deficiency"
       },
       "correct_answer": "A",
-      "explanation": "先天性腎上腺增生（CAH）是由於類固醇合成路徑中特定酵素缺乏所致，其中以 21-hydroxylase 缺乏症最為常見（佔90%以上）。而在 21-hydroxylase 缺乏症中，又以非典型（nonclassic type）的盛行率最高，常在青春期後以高雄性素表現。",
-      "key_point": "先天性腎上腺增生（CAH）的最常見酵素缺乏型別。",
-      "flashcard_summary": "CAH 盛行率最高型別 -> 21-hydroxylase deficiency, nonclassic type",
+      "explanation": "【題幹解析】\n題幹問先天性腎上腺增生哪種型別盛行率最高。CAH是一組皮質醇合成酵素缺乏疾病，其中21-hydroxylase deficiency占絕大多數，非典型型在族群中的盛行率最高。\n\n【選項詳解】\n- A. 正確。21-hydroxylase deficiency是最常見CAH，nonclassic type整體盛行率最高。\n- B. 11β-hydroxylase deficiency可造成高血壓與低血鉀等表現，但盛行率遠低於21-hydroxylase deficiency。\n- C. 3β-HSD deficiency罕見，不是最常見型別。\n- D. 17α-hydroxylase/17,20-lyase deficiency會有性發育異常與高血壓等特色，但也屬罕見型。\n\n【核心考點】\nCAH考題的基本答案多是21-hydroxylase deficiency；若問盛行率最高，注意nonclassic type。",
+      "key_point": "先天性腎上腺增生最常見型別是21-hydroxylase deficiency，其中非典型型盛行率最高。",
+      "flashcard_summary": "CAH最常見 -> 21-hydroxylase deficiency；非典型型最多",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "先天性腎上腺增生 (CAH) / 酵素缺乏 / 盛行率最高型別",
-      "flashcard_back": "CAH最常見的酵素缺陷型別是「21-hydroxylase deficiency, nonclassic type（非典型21-羥化酶缺乏症）」。",
+      "flashcard_front": "CAH / 21-hydroxylase / nonclassic / 皮質醇不足 / 腎上腺酵素缺乏",
+      "flashcard_back": "CAH大宗為21-hydroxylase deficiency；若問整體盛行率，nonclassic型比典型鹽分流失或單純男性化更常見。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.082Z"
     },
     {
       "id": "108-1_medicine-4_021",
@@ -597,23 +597,23 @@
         "D": "注意是否合併腹痛、關節痛、血尿"
       },
       "correct_answer": "D",
-      "explanation": "類過敏性紫斑症（HSP）是一種 IgA 介導的系統性小血管炎。其典型症狀除了下肢非血小板低下性紫斑外，常合併腹痛（嚴重可併發腸套疊）、關節炎/關節痛以及腎臟侵犯（血尿/蛋白尿），故臨床需密切注意這些合併症。它並非以 IgE 為主的過敏，大多數輕症病患只需支持性治療，不需常規使用類固醇。",
-      "key_point": "類過敏性紫斑症（HSP）的全身性系統侵犯特徵。",
-      "flashcard_summary": "類過敏性紫斑症（HSP）監測重點 -> 注意是否合併腹痛、關節痛、血尿等系統性侵犯",
+      "explanation": "【題幹解析】\n題幹問類過敏性紫斑症最適切敘述。HSP現多稱IgA vasculitis，是兒童常見小血管炎，典型表現包含可觸性紫斑、腹痛、關節痛與腎臟侵犯。\n\n【選項詳解】\n- A. 錯誤。HSP主要是IgA免疫複合體沉積，不是IgE主導的過敏反應。\n- B. 不適切。多數HSP可支持療法與追蹤，類固醇多用於明顯腹痛、關節症狀或特定嚴重情境，並非大多數必需。\n- C. 不完整。皮膚紫斑是表現之一，但疾病本質是全身小血管炎，不能只做局部皮膚治療。\n- D. 正確。需評估腹痛、腸胃出血、關節痛與血尿或蛋白尿，因腎臟侵犯影響長期預後。\n\n【核心考點】\nHSP備考重點是IgA小血管炎四大表現：紫斑、腹痛、關節痛、腎炎；追蹤尿液很重要。",
+      "key_point": "IgA血管炎需注意紫斑外的腹痛、關節痛與腎臟侵犯如血尿。",
+      "flashcard_summary": "可觸性紫斑 + 腹痛/關節痛/血尿 -> IgA血管炎",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "IgA 血管炎 / HSP / 紫斑 / 腹痛 / 關節痛與血尿",
-      "flashcard_back": "HSP為IgA介導，臨床上「必須注意是否合併腹痛、關節痛及血尿（腎臟受累）」。大多數病患不需常規使用類固醇。",
+      "flashcard_front": "Henoch-Schönlein purpura / IgA血管炎 / 腹痛 / 關節痛 / 血尿",
+      "flashcard_back": "HSP不是IgE過敏，而是IgA免疫複合體小血管炎。照護重點是追蹤腸胃道、關節與腎臟表現。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_022",
@@ -626,23 +626,23 @@
         "D": "雙眼結膜發炎"
       },
       "correct_answer": "B",
-      "explanation": "軟顎與扁桃腺出現水泡與潰瘍是腸病毒感染引起的疱疹性咽峽炎（herpangina）的特徵，而非川崎氏症（Kawasaki disease）的表現。川崎氏症的典型診斷標準包含：發燒大於5天，並合併有草莓舌與唇裂、雙眼非化膿性結膜炎、頸部淋巴結腫大、手腳紅腫脫皮以及多形性皮疹等。",
-      "key_point": "川崎氏症與腸病毒咽峽炎的臨床鑑別診斷。",
-      "flashcard_summary": "不屬於川崎氏症的臨床表徵 -> 軟顎與扁桃腺出現水泡與潰瘍（提示為腸病毒）",
+      "explanation": "【題幹解析】\n題幹為1歲6個月男孩連續發燒6天，問哪個臨床表徵最不像川崎氏症。川崎氏症的口腔表現是嘴唇紅腫龜裂、草莓舌與瀰漫性口腔黏膜紅，不以水泡或潰瘍為主。\n\n【選項詳解】\n- A. 典型。草莓舌與紅裂唇是川崎氏症重要黏膜表現。\n- B. 正確答案。軟顎與扁桃腺水泡、潰瘍較支持病毒性咽峽炎、腸病毒或HSV等，不是典型川崎氏症。\n- C. 典型之一。頸部淋巴結腫大可見於川崎氏症診斷標準。\n- D. 典型。雙側非化膿性結膜炎是川崎氏症常見表現。\n\n【核心考點】\n川崎氏症的口腔病灶是紅、裂、草莓舌；若看到水泡或潰瘍，反而要想感染性咽口炎。",
+      "key_point": "川崎氏症典型黏膜表現是草莓舌與紅裂唇，軟顎扁桃腺水泡潰瘍較不像。",
+      "flashcard_summary": "川崎病不典型表現 -> 口咽水泡與潰瘍",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "發燒6天 / 草莓舌 / 雙眼結膜炎 / 喉嚨水泡與潰瘍 / 川崎氏症鑑別",
-      "flashcard_back": "「軟顎與扁桃腺水泡潰瘍」為腸病毒特徵，非川崎氏症表現；後者表現為草莓舌與唇部龜裂紅腫。",
+      "flashcard_front": "發燒6天 / 川崎氏症 / 草莓舌 / 結膜炎 / 口腔水泡潰瘍",
+      "flashcard_back": "川崎病診斷看持續發燒加結膜、口唇、皮疹、四肢與頸部淋巴結變化。口腔潰瘍水泡更像病毒感染，不典型。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_023",
@@ -655,23 +655,23 @@
         "D": "氣道異物阻塞(Airway foreign body obstruction)"
       },
       "correct_answer": "D",
-      "explanation": "2歲病童在玩耍跑動時突發持續咳嗽，聽診呈現「單側」喘鳴音（wheezing），且給予支氣管擴張劑治療後喘鳴音完全沒有改善，這些特徵高度提示為氣道異物阻塞（Airway foreign body obstruction）。此時切勿誤診為氣喘或細支氣管炎，應儘速安排支氣管鏡檢以取出異物。",
-      "key_point": "小兒呼吸道異物吸入的臨床診斷要點。",
-      "flashcard_summary": "突發單側喘鳴且支氣管擴張劑無效 -> 氣道異物阻塞（Airway foreign body obstruction）",
+      "explanation": "【題幹解析】\n題幹的關鍵是2歲兒童飯後跑動玩耍時突然持續咳嗽，隔天仍有單側喘鳴，且短效支氣管擴張劑無效。幼兒口腔探索與進食時活動增加異物吸入風險。\n\n【選項詳解】\n- A. 上呼吸道感染通常有鼻涕、咳嗽、發燒等漸進症狀，不會典型造成突然單側喘鳴。\n- B. 細支氣管炎多見於更小嬰幼兒，常為雙側瀰漫性喘鳴與病毒感染表現，不是飯後突然單側。\n- C. 氣喘會有反覆喘鳴病史，通常支氣管擴張劑可改善；本題無效且單側，較不像。\n- D. 正確。氣道異物阻塞典型為突發嗆咳、單側喘鳴或局部呼吸音減弱，需進一步支氣管鏡評估處置。\n\n【核心考點】\n兒童突然單側喘鳴要先排除異物吸入；不要被喘鳴兩字直接帶到氣喘。",
+      "key_point": "幼兒進食或玩耍後突然咳嗽、單側喘鳴且支氣管擴張劑無效，最支持氣道異物阻塞。",
+      "flashcard_summary": "突發單側喘鳴 + 擴張劑無效 -> airway foreign body",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "玩耍後突發咳嗽 / 單側喘鳴音 / 支氣管擴張劑無效 / 2歲幼兒",
-      "flashcard_back": "突發單側喘鳴且支氣管擴張劑無效，高度提示「氣道異物阻塞」，應安排支氣管鏡檢查。",
+      "flashcard_front": "2歲 / 飯後跑動 / 突發咳嗽 / 單側wheezing / bronchodilator無效",
+      "flashcard_back": "異物吸入常突然發生，可能只有單側喘鳴或呼吸音改變。氣喘通常對支氣管擴張劑較有反應且較少突然單側。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_024",
@@ -684,23 +684,23 @@
         "D": "母乳餵哺期間,母親需要避免食用高過敏食物"
       },
       "correct_answer": "D",
-      "explanation": "最新的國際過敏預防指引指出，母親在懷孕及哺乳期間「不需要」特別避免食用高過敏食物（如海鮮、花生等），過度限制飲食反而可能導致母嬰營養不良，且微量接觸有助於嬰兒建立免疫耐受性，故D選項最不恰當。添加副食品以4-6個月大為宜，益生菌亦不建議常規用於預防過敏。",
-      "key_point": "嬰幼兒過敏預防的母親飲食原則與最新醫學共識。",
-      "flashcard_summary": "哺乳期過敏預防飲食原則 -> 母親不需避免食用高過敏食物",
+      "explanation": "【題幹解析】\n題幹問嬰幼兒過敏預防觀念何者最不恰當。現行觀念強調不需讓孕婦或哺乳母親常規限制高過敏食物；副食品也不宜無故延後。\n\n【選項詳解】\n- A. 正確。孕婦不需常規避免海鮮、花生等高過敏食物，除非母親本身過敏或有個別醫療理由。\n- B. 正確。副食品通常可在4到6個月、嬰兒具備進食能力時開始添加。\n- C. 正確。益生菌對預防過敏證據不一致，尚非所有嬰幼兒例行建議。\n- D. 錯誤，為本題答案。母乳期間母親常規避免高過敏食物不能證實可預防嬰兒過敏，還可能影響營養與生活品質。\n\n【核心考點】\n過敏預防題目常考不要過度限制飲食、不要刻意延後副食品；以均衡飲食與適時添加為主。",
+      "key_point": "預防嬰幼兒過敏不建議母親在哺乳期間常規避免高過敏食物。",
+      "flashcard_summary": "母乳期間預防過敏 -> 不需常規避免高過敏食物",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "過敏預防 / 哺乳媽媽飲食限制 / 4-6個月副食品 / 益生菌預防過敏",
-      "flashcard_back": "母乳餵哺期間，母親「不需要避免食用高過敏食物」。常規避開高過敏食物無助於預防嬰兒過敏。",
+      "flashcard_front": "過敏預防 / 母乳哺餵 / 高過敏食物 / 4至6個月副食品 / 益生菌",
+      "flashcard_back": "孕期或哺乳期常規避開海鮮、花生等高過敏食物，並無足夠證據可預防嬰兒過敏。副食品可在4至6個月開始。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_025",
@@ -713,9 +713,9 @@
         "D": "美觀為手術的考量主因之一"
       },
       "correct_answer": "B",
-      "explanation": "官方更正為多重給分答案：「B. 女孩發生的機率比男孩高；C. 肺功能檢查常見到阻塞性的異常」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
-      "key_point": "官方更正多重答案：B, C",
-      "flashcard_summary": "漏斗胸特徵說明（無正解） -> 男孩發生率高於女孩，肺功能以限制性障礙為主",
+      "explanation": "【題幹解析】\n題幹問漏斗胸描述何者錯誤。漏斗胸是前胸壁凹陷畸形，常見於男性，症狀可能隨成長與青春期胸廓變化而更明顯。\n\n【選項詳解】\n- A. 正確。幼童運動量與主觀表達較少，因運動出現症狀的比例通常低於青少年。\n- B. 錯誤，為本題答案。漏斗胸男性較常見，不是女孩較高。\n- C. 可見異常。漏斗胸可能造成限制或阻塞型肺功能變化，題目採常見異常概念時不選此項為錯。\n- D. 正確。外觀與心理影響是手術評估的重要原因之一，並非只有生理指標。\n\n【核心考點】\n漏斗胸考點包括男性較多、青春期明顯、外觀與心肺功能評估；性別比例是常見陷阱。",
+      "key_point": "漏斗胸男孩較常見，說女孩發生率比男孩高是錯誤敘述。",
+      "flashcard_summary": "漏斗胸流行病學 -> 男孩多於女孩",
       "review_status": "ai_generated",
       "correct_answers": [
         "B",
@@ -724,14 +724,14 @@
       "answer_status": "multiple_correct",
       "answer_source": "official_correction",
       "answer_note": "官方更正：第25題答B、C給分；原標準答案為 B。",
-      "flashcard_front": "漏斗胸 (Funnel chest) / 男女性別比 / 肺功能檢查型態 / 官方更正答案",
-      "flashcard_back": "官方更正接受：「B. 女孩發生的機率比男孩高；C. 肺功能檢查常見到阻塞性的異常」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
+      "flashcard_front": "漏斗胸 / 男性較多 / 運動症狀 / 肺功能 / 美觀手術",
+      "flashcard_back": "漏斗胸常在青春期因外觀或運動耐受變明顯而就醫，男孩較多。手術考量包含外觀、心理與心肺壓迫程度。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "official-correction-repair-v1",
-      "explanation_generated_at": "2026-06-18T04:45:17.994637+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_026",
@@ -744,23 +744,23 @@
         "D": "對於有昏睡或意識障礙的肝病病童,若血氨(Ammonia)已經上升且合併第二期肝腦病變(Hepatic\n encephalopathy Stage II)之意識混淆及嗜睡,應立即插管使用呼吸器"
       },
       "correct_answer": "C",
-      "explanation": "當肝病病童發生疑似猛爆性肝衰竭且凝血時間（PT/aPTT）延長時，應給予維生素K治療以排除因維生素K缺乏所致的凝血因子（II, VII, IX, X）合成不足。AST/ALT數值的高低並不與肝衰竭嚴重度成正比（有時肝細胞大片壞死後轉氨酶反而下降）；白蛋白低下合併腹水應限水限鈉並使用利尿劑，盲目給予大量維持性點滴會加重腹水；肝腦病變二期尚不需立即插管。",
-      "key_point": "小兒猛爆性肝衰竭的臨床評估與處置原則。",
-      "flashcard_summary": "猛爆性肝衰竭凝血異常處置 -> 凝血時間延長應先給予維生素K治療",
+      "explanation": "【題幹解析】\n題幹問肝病病童疑似猛爆性肝衰竭時的實驗室評估與處置。肝衰竭不能只看AST/ALT，因轉胺酶可在肝細胞大量壞死後反而下降；凝血功能與腦病變更能反映嚴重度。\n\n【選項詳解】\n- A. 錯誤。AST與ALT代表肝細胞受損，不等於肝功能儲備或猛爆性肝衰竭嚴重度。\n- B. 不恰當。低白蛋白與腹水需整體評估，但猛爆性肝衰竭急性處置重點不是先例行白蛋白加維持液，且需避免過量輸液。\n- C. 正確。PT與APTT延長時可給維生素K，補足凝血因子II、VII、IX、X合成所需條件，同時評估是否仍無法矯正。\n- D. 過度絕對。第二期肝腦病變需嚴密監測與處置，但立即插管通常針對第三、四期或無法保護呼吸道等情境。\n\n【核心考點】\n猛爆性肝衰竭的重點是凝血異常與肝腦病變；AST/ALT不是嚴重度指標，PT延長要先想到維生素K與肝合成功能。",
+      "key_point": "小兒疑似猛爆性肝衰竭的凝血異常應先評估並給維生素K，但AST/ALT高低不等於嚴重度。",
+      "flashcard_summary": "肝衰竭凝血異常 -> 給維生素K並評估肝合成功能",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "猛爆性肝衰竭 / 凝血時間延長 / 維生素 K / AST與ALT嚴重度 / 腹水處置",
-      "flashcard_back": "凝血時間（PT/aPTT）延長時，應首選「給予維生素K」治療。AST/ALT數值高低不能用來判斷肝衰竭的嚴重度。",
+      "flashcard_front": "猛爆性肝衰竭 / PT延長 / APTT延長 / 維生素K / 肝腦病變",
+      "flashcard_back": "肝衰竭嚴重度看凝血功能、意識狀態、膽紅素、血糖與代謝異常等。PT/APTT延長可先給維生素K矯正可逆因素。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_027",
@@ -773,23 +773,23 @@
         "D": "極端型肺動脈瓣狹窄合併開放性動脈導管(Critical pulmonary valve stenosis with patent ductus\n arteriosus)"
       },
       "correct_answer": "B",
-      "explanation": "2天大足月新生兒，右手血氧飽和度正常（98%），但雙側下肢血氧降至 90%，此臨床表現稱為導管後發紺（post-ductal cyanosis）。此現象是由於主動脈弓窄縮（CoA）造成體循環受阻，下肢的血流主要依賴肺動脈右向左分流、經由開放性動脈導管（PDA）輸送而來的缺氧血，B選項為最典型診斷。",
-      "key_point": "主動脈弓窄縮伴隨開放性動脈導管的血氧特徵。",
-      "flashcard_summary": "上下肢血氧差異（右手正常下肢發紺） -> 主動脈弓窄縮合併開放性動脈導管（CoA with PDA）",
+      "explanation": "【題幹解析】\n題幹給2天大新生兒例行血氧篩檢，右手98%、雙下肢90%。右手代表pre-ductal，下肢代表post-ductal，這種差異性發紺指向導管後血流混入較低氧血。\n\n【選項詳解】\n- A. 完全型動脈幹會有全身混合血，較不典型造成右手與下肢明顯差異。\n- B. 正確。主動脈弓窄縮合併PDA時，下半身可能依賴導管供血而血氧較低，形成pre/post-ductal saturation差異。\n- C. 法洛氏四重症通常造成全身性低血氧或發紺發作，不是典型右手高、下肢低差異。\n- D. 極端肺動脈瓣狹窄合併PDA偏向肺血流導管依賴，常見全身發紺，不如主動脈窄縮符合下肢較低。\n\n【核心考點】\n新生兒血氧篩檢要分右手pre-ductal與下肢post-ductal；下肢低於右手要想到主動脈弓窄縮等病灶。",
+      "key_point": "右手血氧高、下肢血氧低提示導管前後差異，最符合主動脈弓窄縮合併開放性動脈導管。",
+      "flashcard_summary": "右手高下肢低 -> coarctation with PDA",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "右手血氧98% / 下肢血氧90% / 導管後發紺 (post-ductal cyanosis) / 新生兒",
-      "flashcard_back": "此為導管後發紺，提示為「主動脈弓窄縮合併開放性動脈導管（CoA + PDA）」致使下肢主要接收分流缺氧血。",
+      "flashcard_front": "新生兒血氧篩檢 / 右手98% / 下肢90% / differential cyanosis / 主動脈窄縮",
+      "flashcard_back": "右手是導管前血氧，下肢是導管後血氧。若下肢較低，代表經PDA流向降主動脈的血氧較差，常見於主動脈弓窄縮等導管依賴性體循環病灶。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_028",
@@ -802,23 +802,23 @@
         "D": "第二心音會因吸氣而出現分岔的情形(S2 split)"
       },
       "correct_answer": "A",
-      "explanation": "兒童常見的功能性（生理性）心雜音通常較小聲，強度多在第 1 至 3 級之間。若心雜音強度達到第 4 級以上（通常伴有觸覺震顫 thrill），高度提示為病理性心雜音，不可能是功能性雜音。功能性心雜音通常僅在收縮期出現，且會隨呼吸或姿勢改變而變化。",
-      "key_point": "小兒生理性/功能性心雜音的特徵區分。",
-      "flashcard_summary": "不屬於功能性心雜音的特徵 -> 心雜音強度達第 4 級（提示為病理性）",
+      "explanation": "【題幹解析】\n題幹問哪種心雜音特徵不太可能是無意義或良性心雜音。良性雜音常在學齡前聽到，通常柔和、低強度、收縮期，且會隨姿勢或生理狀態改變。\n\n【選項詳解】\n- A. 正確答案。第4級雜音通常較大聲，可能伴隨震顫，較不符合良性功能性心雜音。\n- B. 良性雜音常會隨姿勢、呼吸、發燒或心輸出量變化而改變，這反而支持功能性。\n- C. 僅在收縮期出現較符合良性；舒張期雜音較需警覺病理性。\n- D. 吸氣時S2生理性分裂可見於正常兒童，不必然代表病理性。\n\n【核心考點】\n良性心雜音的安全特徵是柔和、收縮期、可變動、無症狀；高強度或舒張期是警訊。",
+      "key_point": "良性功能性心雜音通常低強度、收縮期、會隨姿勢改變；第4級強度較不像良性。",
+      "flashcard_summary": "innocent murmur不典型 -> grade 4強雜音",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "功能性心雜音 / 生理性 / 心雜音分級限制 / 收縮期雜音",
-      "flashcard_back": "功能性心雜音強度「不會達到第4級（多小於等於3級）」且無震顫；它必為「收縮期雜音」，舒張期雜音必為病理性。",
+      "flashcard_front": "學齡前 / innocent murmur / 第4級 / 收縮期 / 姿勢改變",
+      "flashcard_back": "良性心雜音多為grade 1-3、無震顫、無症狀且收縮期。強度達grade 4或有thrill、舒張期雜音都需警覺器質性心病。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_029",
@@ -831,23 +831,23 @@
         "D": "左心發育不全症候群(Hypoplastic left heart syndrome)"
       },
       "correct_answer": "A",
-      "explanation": "前列腺素 E1（PGE1）常用於維持動脈導管開放，以保障肺循環或體循環相依型先天性心臟病的血流。然而，在阻塞型全肺靜脈回流異常（TAPVR with obstruction）中，病因是肺靜脈回流左心房受阻，導致嚴重肺淤血，此時維持動脈導管開放不僅無法解決阻塞，還可能因右向左分流加重發紺，對病情毫無幫助（首選為緊急外科手術）。",
-      "key_point": "前列腺素 E1（PGE1）在動脈導管相依型心臟病的應用限制。",
-      "flashcard_summary": "PGE1 治療最無幫助的先天性心臟病 -> 阻塞型全肺靜脈回流異常（TAPVR with obstruction）",
+      "explanation": "【題幹解析】\n題幹問哪種先天性心臟病使用PGE1維持動脈導管最沒有幫助。PGE1對導管依賴性體循環或肺循環病灶有用，但若核心問題是肺靜脈回流阻塞，維持PDA不能解決肺靜脈壓力與肺水腫。\n\n【選項詳解】\n- A. 正確答案。上心臟型全肺靜脈回流異常合併阻塞需要緊急處理肺靜脈回流阻塞，PDA開放通常幫助有限。\n- B. 嚴重主動脈弓窄縮屬導管依賴性體循環，PGE1可維持下半身灌流。\n- C. 肺動脈瓣閉鎖且完整心室中膈缺損屬導管依賴性肺血流，PGE1有助維持肺循環。\n- D. 左心發育不全症候群需要PDA供應體循環，PGE1非常重要。\n\n【核心考點】\nPGE1適用關鍵是病灶是否導管依賴。TAPVR合併阻塞的主要問題在肺靜脈阻塞，不是PDA可解決。",
+      "key_point": "阻塞型全肺靜脈回流異常的問題在肺靜脈回流阻塞，維持PDA通常無法根本改善。",
+      "flashcard_summary": "PGE1最沒幫助 -> obstructed TAPVR",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "前列腺素 E1 (PGE1) / 動脈導管 (PDA) 開放 / 全肺靜脈回流異常 / 主動脈弓窄縮",
-      "flashcard_back": "PGE1維持動脈導管開放在「阻塞型全肺靜脈回流異常（TAPVR with obstruction）」中最無幫助，應儘速手術解決定障礙。",
+      "flashcard_front": "PGE1 / PDA依賴病灶 / TAPVR with obstruction / 主動脈窄縮 / 左心發育不全",
+      "flashcard_back": "PGE1用來維持動脈導管，幫助導管依賴性肺血流或體血流。阻塞型TAPVR主要需解除肺靜脈阻塞，開PDA幫助有限。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_030",
@@ -860,23 +860,23 @@
         "D": "皆為2/3"
       },
       "correct_answer": "D",
-      "explanation": "Phenylketonuria 屬於體染色體隱性遺傳疾病（AR）。女嬰確診代表其基因型為 aa，其無症狀的父母必定皆為帶因者（Aa x Aa）。其哥哥和姊姊目前發育正常且無症狀，代表他們已排除了是患者（aa）的可能性，因此他們在 Aa x Aa 雜交子代中，帶有突變基因（Aa）的機率為 2/3。",
-      "key_point": "體染色體隱性遺傳疾病的帶因機率計算。",
-      "flashcard_summary": "隱性遺傳無症狀同胞之帶因機率 -> 皆為 2/3",
+      "explanation": "【題幹解析】\n題幹說女嬰為體染色體隱性PKU，代表父母皆至少為帶因者。哥哥姊姊無症狀，表示不是患病者；在三個未患病基因型中，兩個是帶因者、一個是完全正常，所以各自帶因機率為2/3。\n\n【選項詳解】\n- A. 錯誤。1/4是患病機率，不是已知無症狀手足的帶因機率；且兩位手足條件相同。\n- B. 錯誤。若未考慮已知未患病，帶因機率才是1/2；題幹已提供無臨床症狀。\n- C. 錯誤。1/2是每胎成為帶因者的原始機率，但條件化於未患病後需調整。\n- D. 正確。健康手足的可能基因型為AA、Aa、aA，其中兩種為帶因，因此是2/3。\n\n【核心考點】\n遺傳機率題要注意條件機率。AR疾病患者的未受影響兄弟姊妹，帶因風險是2/3而不是1/2。",
+      "key_point": "常染色體隱性疾病患者的未受影響手足，在父母皆帶因前提下，帶因機率為2/3。",
+      "flashcard_summary": "AR患童的健康手足 -> 帶因機率2/3",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "體染色體隱性 (AR) / 患病妹妹 aa / 無症狀兄姐 / 帶因機率計算",
-      "flashcard_back": "在AR遺傳中，父母均為帶因者，其無症狀子代為帶因者的機率「皆為 2/3」（已扣除患者aa的可能）。",
+      "flashcard_front": "PKU / 常染色體隱性 / 未受影響手足 / 帶因機率 / 2/3",
+      "flashcard_back": "AR疾病父母多為帶因者；每胎1/4患病、1/2帶因、1/4非帶因。已知手足未患病後，排除患病者，帶因機率為2/3。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T02:12:17.095Z"
     },
     {
       "id": "108-1_medicine-4_031",
@@ -889,23 +889,23 @@
         "D": "低體重兒、產程有併發症的寶寶比較會有偽陽性(False positive)的結果"
       },
       "correct_answer": "A",
-      "explanation": "臺灣現行新生兒代謝異常篩檢，其採血時間為「出生滿 48 小時或餵奶滿 24 小時後」，並非在出生一天以內，故A選項敘述錯誤。太早採血會因嬰兒尚未充分攝取奶水，使體內異常代謝物累積不足而導致檢測出現偽陰性。目前串聯質譜儀（Tandem mass spectrometry）是主要的篩檢工具。",
+      "explanation": "【題幹解析】\n有關臺灣現行的新生兒代謝異常篩檢,下列敘述何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個小兒科知識點。既有解析重點可整理為：臺灣現行新生兒代謝異常篩檢，其採血時間為「出生滿 48 小時或餵奶滿 24 小時後」，並非在出生一天以內，故A選項敘述錯誤。太早採血會因嬰兒尚未充分攝取奶水，使體內異常代謝物累積不足而導致檢測出現偽陰性。目前串聯質譜儀（Tandem mass spectrometry）是主要的篩檢工具。\n\n【選項詳解】\n- A. 正確。剛出生的寶寶需一天內採腳跟血,滴在血片上,送新生兒篩檢中心檢查。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「臺灣新生兒代謝異常篩檢的採血時程與方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。Tandem mass spectrometry是目前最主要的篩檢工具。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「臺灣新生兒代謝異常篩檢的採血時程與方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。篩檢的疾病以胺基酸、有機酸、脂肪酸代謝異常為主。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「臺灣新生兒代謝異常篩檢的採血時程與方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。低體重兒、產程有併發症的寶寶比較會有偽陽性(False positive)的結果。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「臺灣新生兒代謝異常篩檢的採血時程與方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n臺灣新生兒代謝異常篩檢的採血時程與方法。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "臺灣新生兒代謝異常篩檢的採血時程與方法。",
-      "flashcard_summary": "新生兒代謝篩檢錯誤描述 -> 剛出生的寶寶需一天內採腳跟血檢測",
+      "flashcard_summary": "小兒科 / 選項 A -> 臺灣新生兒代謝異常篩檢的採血時程與方法。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "新生兒代謝異常篩檢 / 腳跟血採血時程 / 串聯質譜儀 / 偽陰性預防",
-      "flashcard_back": "代謝篩檢採血應在「出生滿 48 小時或餵奶24小時後」進行，出生一天內採血太早易造成偽陰性。",
+      "flashcard_front": "小兒科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_032",
@@ -918,23 +918,23 @@
         "D": "結節性硬化症(Tuberous sclerosis complex)"
       },
       "correct_answer": "B",
-      "explanation": "附圖之遺傳譜系呈現男女均有罹病機率，且有隔代或同胞發盤的特徵，符合體染色體隱性（AR）遺傳模式。在庫利氏貧血（Cooley anemia，即重型乙型海洋性貧血）中，其遺傳模式正是體染色體隱性遺傳。軟骨發育不全與結節性硬化症為體染色體顯性（AD）遺傳；DMD則為X染色體聯鎖隱性遺傳。",
+      "explanation": "【題幹解析】\n下列何種疾病最有可能以如附圖之方式遺傳? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個小兒科知識點。既有解析重點可整理為：附圖之遺傳譜系呈現男女均有罹病機率，且有隔代或同胞發盤的特徵，符合體染色體隱性（AR）遺傳模式。在庫利氏貧血（Cooley anemia，即重型乙型海洋性貧血）中，其遺傳模式正是體染色體隱性遺傳。軟骨發育不全與結節性硬化症為體染色體顯性（AD）遺傳；DMD則為X染色體聯鎖隱性遺傳。\n\n【選項詳解】\n- A. 錯誤。軟骨發育不全(Achondroplasia)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見遺傳性疾病的基因遺傳模式判定。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。庫利氏貧血(Cooley anemia)。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「常見遺傳性疾病的基因遺傳模式判定。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。裘馨氏肌肉失養症(Duchenne muscular dystrophy)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見遺傳性疾病的基因遺傳模式判定。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。結節性硬化症(Tuberous sclerosis complex)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見遺傳性疾病的基因遺傳模式判定。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n常見遺傳性疾病的基因遺傳模式判定。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "常見遺傳性疾病的基因遺傳模式判定。",
-      "flashcard_summary": "體染色體隱性遺傳疾病範例 -> 庫利氏貧血（Cooley anemia）",
+      "flashcard_summary": "小兒科 / 選項 B -> 常見遺傳性疾病的基因遺傳模式判定。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "體染色體隱性遺傳 (AR) / 庫利氏貧血 / 軟骨發育不全 / 遺傳譜系判定",
-      "flashcard_back": "重型乙型海洋性貧血（庫利氏貧血）為「體染色體隱性（AR）」遺傳；軟骨發育不全為顯性（AD）。",
+      "flashcard_front": "小兒科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_033",
@@ -947,23 +947,23 @@
         "D": "睪丸切除手術"
       },
       "correct_answer": "C",
-      "explanation": "15歲男生突發半夜左側睪丸劇痛並伴有自主神經症狀（臉色蒼白、冷汗），高度懷疑為急性睪丸扭轉。睪丸扭轉的黃金挽救時間通常在症狀發生後 6 小時內。在缺乏即時超音波檢查的情況下，為避免睪丸缺血壞死，臨床常規應直接進行緊急「睪丸探查手術（testicular exploration）」以爭取復位時間。",
+      "explanation": "【題幹解析】\n15歲男生,半夜睡覺突然左側睪丸劇痛,痛到臉色蒼白、冒冷汗,立即送到醫院急診。在缺乏超音波等影像 檢查之下,下列何種檢查或治療較符合一般醫療現行常規? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個小兒科知識點。既有解析重點可整理為：15歲男生突發半夜左側睪丸劇痛並伴有自主神經症狀（臉色蒼白、冷汗），高度懷疑為急性睪丸扭轉。睪丸扭轉的黃金挽救時間通常在症狀發生後 6 小時內。在缺乏即時超音波檢查的情況下，為避免睪丸缺血壞死，臨床常規應直接進行緊急「睪丸探查手術（testicular exploration）」以爭取復位時間。\n\n【選項詳解】\n- A. 錯誤。抗生素治療。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年急性睪丸扭轉的急診處置原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。睪丸切片。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年急性睪丸扭轉的急診處置原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。睪丸探查手術。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「青少年急性睪丸扭轉的急診處置原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。睪丸切除手術。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年急性睪丸扭轉的急診處置原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n青少年急性睪丸扭轉的急診處置原則。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "青少年急性睪丸扭轉的急診處置原則。",
-      "flashcard_summary": "疑似睪丸扭轉之緊急處置 -> 在缺乏即時影像檢查時，應直接行睪丸探查手術",
+      "flashcard_summary": "小兒科 / 選項 C -> 青少年急性睪丸扭轉的急診處置原則。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "15歲男生 / 半夜睪丸劇痛 / 睪丸扭轉 / 無超音波急診處置",
-      "flashcard_back": "高度懷疑睪丸扭轉時，應立即安排「睪丸探查手術（exploration）」，切勿因等待檢查或給予抗生素而延誤復位黃金期。",
+      "flashcard_front": "小兒科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_034",
@@ -976,23 +976,23 @@
         "D": "若是病程頑固且臨床表現不尋常,需留意HIV感染"
       },
       "correct_answer": "C",
-      "explanation": "脂漏性皮膚炎的好發部位為頭皮、眉毛及鼻翼兩側等皮脂腺豐富區域，其發病常與皮膚上的馬拉色菌（Malassezia，一種黴菌）過度增殖及免疫反應有關。因此，外用抗黴菌藥物（如 Ketoconazole 藥膏或洗劑）是臨床上非常有效且常用的治療手段，C選項敘述錯誤。",
+      "explanation": "【題幹解析】\n有關脂漏性皮膚炎(seborrheic dermatitis)的敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：脂漏性皮膚炎的好發部位為頭皮、眉毛及鼻翼兩側等皮脂腺豐富區域，其發病常與皮膚上的馬拉色菌（Malassezia，一種黴菌）過度增殖及免疫反應有關。因此，外用抗黴菌藥物（如 Ketoconazole 藥膏或洗劑）是臨床上非常有效且常用的治療手段，C選項敘述錯誤。\n\n【選項詳解】\n- A. 錯誤。好發在頭皮、眉毛、鼻子兩側、耳朵後面。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脂漏性皮膚炎的病因與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。常發於嬰兒和成人。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脂漏性皮膚炎的病因與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。外用抗黴菌藥物不能有效治療脂漏性皮膚炎。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「脂漏性皮膚炎的病因與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。若是病程頑固且臨床表現不尋常,需留意HIV感染。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脂漏性皮膚炎的病因與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n脂漏性皮膚炎的病因與藥物治療。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "脂漏性皮膚炎的病因與藥物治療。",
-      "flashcard_summary": "脂漏性皮膚炎治療錯誤描述 -> 外用抗黴菌藥物不能有效治療脂漏性皮膚炎",
+      "flashcard_summary": "皮膚科 / 選項 C -> 脂漏性皮膚炎的病因與藥物治療。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "脂漏性皮膚炎 / 馬拉色菌 (Malassezia) / 好發部位 / 抗黴菌藥物效果",
-      "flashcard_back": "脂漏性皮膚炎的發病與皮屑芽孢菌有關，「外用抗黴菌藥物能有效治療」此病；病程頑固者需排除HIV感染。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_035",
@@ -1005,23 +1005,23 @@
         "D": "治療藥物以口服皮質類固醇和免疫抑制劑為主"
       },
       "correct_answer": "A",
-      "explanation": "類天疱瘡（Bullous pemphigoid, BP）是一種自體免疫表皮下水疱病，好發於「老年人」（通常大於60歲），在年輕人中非常罕見，故A選項敘述錯誤。其初期常以劇癢的蕁麻疹樣紅斑表現，水疱多為張力性，病理切片下可見表皮下水疱，並有大量嗜伊紅球浸潤，治療以類固醇為主。",
+      "explanation": "【題幹解析】\n關於類天疱瘡(bullous pemphigoid)的敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：類天疱瘡（Bullous pemphigoid, BP）是一種自體免疫表皮下水疱病，好發於「老年人」（通常大於60歲），在年輕人中非常罕見，故A選項敘述錯誤。其初期常以劇癢的蕁麻疹樣紅斑表現，水疱多為張力性，病理切片下可見表皮下水疱，並有大量嗜伊紅球浸潤，治療以類固醇為主。\n\n【選項詳解】\n- A. 正確。常發生於年輕人。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。初期可以搔癢、蕁麻疹樣的病灶表現。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。病灶的病理組織檢查常見嗜伊紅球(eosinophil)浸潤。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。治療藥物以口服皮質類固醇和免疫抑制劑為主。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。",
-      "flashcard_summary": "類天疱瘡流行病學錯誤描述 -> 常發生於年輕人（實為好發於老年人）",
+      "flashcard_summary": "皮膚科 / 選項 A -> 類天疱瘡（Bullous pemphigoid）的流行病學與病理特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "類天疱瘡 (Bullous pemphigoid) / 好發年齡 / 表皮下水疱 / 嗜伊紅球浸潤",
-      "flashcard_back": "類天疱瘡主要好發於「老年人」，而非年輕人。水疱壁厚呈張力性，病理可見大量嗜伊紅球浸潤。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_036",
@@ -1034,23 +1034,23 @@
         "D": "類澱粉性苔癬(lichen amyloidsis)"
       },
       "correct_answer": "D",
-      "explanation": "病患背部與四肢出現慢性發癢之丘疹，皮膚切片在 Congo red 染色下，於真皮乳頭層見到類澱粉蛋白沉積；在偏光顯微鏡下觀察會呈現特異性的蘋果綠雙折射（apple-green birefringence），這些都是類澱粉性苔癬（lichen amyloidosis）的典型病理診斷特徵。",
+      "explanation": "【題幹解析】\n60歲男性,近十年來在背上、四肢⻑出(如圖A)的發癢皮疹,皮膚切片做congo red staining(如圖B), 在偏光顯微鏡(polarizing microscope)下觀察(如圖C)。最可能診斷為: 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：病患背部與四肢出現慢性發癢之丘疹，皮膚切片在 Congo red 染色下，於真皮乳頭層見到類澱粉蛋白沉積；在偏光顯微鏡下觀察會呈現特異性的蘋果綠雙折射（apple-green birefringence），這些都是類澱粉性苔癬（lichen amyloidosis）的典型病理診斷特徵。\n\n【選項詳解】\n- A. 錯誤。點滴狀乾癬(guttate psoriasis)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。結節性癢疹(prurigo nodularis)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。扁平苔癬(lichen planus)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。類澱粉性苔癬(lichen amyloidsis)。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。",
-      "flashcard_summary": "Congo red 染偏光呈蘋果綠之診斷 -> 類澱粉性苔癬（lichen amyloidosis）",
+      "flashcard_summary": "皮膚科 / 選項 D -> 類澱粉性苔癬（Lichen amyloidosis）的病理診斷特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "發癢皮疹 / Congo red 染色 / 偏光顯微鏡 / 蘋果綠雙折射",
-      "flashcard_back": "Congo red 染色在偏光顯微鏡下呈蘋果綠雙折射，是「類澱粉性苔癬（Lichen amyloidosis）」的特異性診斷特徵。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_037",
@@ -1063,23 +1063,23 @@
         "D": "確認發病時間是否超過48小時"
       },
       "correct_answer": "B",
-      "explanation": "貼膚試驗（Patch testing）是用於診斷接觸性過敏原引起的第IV型（遲發性）超敏反應，其主要臨床目的是為了幫患者「找出特定的接觸性過敏原」，進而在日常生活中避免接觸。它無法用來確診所有類型的接觸性皮膚炎（如刺激性接觸性皮膚炎即無法以此確診）。",
+      "explanation": "【題幹解析】\n貼膚試驗(patch testing)是診斷接觸性皮膚炎(contact dermatitis)的重要工具,主要目的是: 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：貼膚試驗（Patch testing）是用於診斷接觸性過敏原引起的第IV型（遲發性）超敏反應，其主要臨床目的是為了幫患者「找出特定的接觸性過敏原」，進而在日常生活中避免接觸。它無法用來確診所有類型的接觸性皮膚炎（如刺激性接觸性皮膚炎即無法以此確診）。\n\n【選項詳解】\n- A. 錯誤。可作為各類接觸性皮膚炎的確診。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「貼膚試驗（Patch testing）的臨床應用目的。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。找出接觸性過敏原。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「貼膚試驗（Patch testing）的臨床應用目的。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。判斷接觸性皮膚炎的嚴重度。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「貼膚試驗（Patch testing）的臨床應用目的。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。確認發病時間是否超過48小時。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「貼膚試驗（Patch testing）的臨床應用目的。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n貼膚試驗（Patch testing）的臨床應用目的。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "貼膚試驗（Patch testing）的臨床應用目的。",
-      "flashcard_summary": "貼膚試驗的主要目的 -> 找出接觸性過敏原",
+      "flashcard_summary": "皮膚科 / 選項 B -> 貼膚試驗（Patch testing）的臨床應用目的。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "貼膚試驗 (Patch testing) / 接觸性皮膚炎 / 診斷目的 / 第 IV 型超敏反應",
-      "flashcard_back": "貼膚試驗的主要目的為「找出遲發性接觸過敏原」，非用來判定嚴重度或確診非過敏性皮膚炎。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_038",
@@ -1092,23 +1092,23 @@
         "D": "鬱血性皮膚炎"
       },
       "correct_answer": "C",
-      "explanation": "6歲男孩自幼兒期（2歲）起即反覆在關節屈側等處出現劇癢皮膚病變，且雙親均有過敏性鼻炎病史（強烈的異位性體質家族史）。這些特徵完全符合異位性皮膚炎（Atopic dermatitis）的典型診斷。脂漏性皮膚炎與接觸性皮膚炎多無如此顯著的慢性反覆發作與遺傳傾向。",
+      "explanation": "【題幹解析】\n6歲男孩,從2歲起即反覆出現如圖所示之劇癢皮膚病變;父母親都常有鼻塞、打噴嚏的症狀,診斷為何? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：6歲男孩自幼兒期（2歲）起即反覆在關節屈側等處出現劇癢皮膚病變，且雙親均有過敏性鼻炎病史（強烈的異位性體質家族史）。這些特徵完全符合異位性皮膚炎（Atopic dermatitis）的典型診斷。脂漏性皮膚炎與接觸性皮膚炎多無如此顯著的慢性反覆發作與遺傳傾向。\n\n【選項詳解】\n- A. 錯誤。脂漏性皮膚炎。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童異位性皮膚炎的臨床特徵與家族史關聯。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。接觸性皮膚炎。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童異位性皮膚炎的臨床特徵與家族史關聯。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。異位性皮膚炎。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「兒童異位性皮膚炎的臨床特徵與家族史關聯。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。鬱血性皮膚炎。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童異位性皮膚炎的臨床特徵與家族史關聯。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n兒童異位性皮膚炎的臨床特徵與家族史關聯。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "兒童異位性皮膚炎的臨床特徵與家族史關聯。",
-      "flashcard_summary": "幼年起反覆劇癢皮膚病變合併過敏家族史 -> 異位性皮膚炎",
+      "flashcard_summary": "皮膚科 / 選項 C -> 兒童異位性皮膚炎的臨床特徵與家族史關聯。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "2歲起反覆劇癢 / 肘窩或膝窩病灶 / 父母過敏性鼻炎家族史",
-      "flashcard_back": "此為典型的「異位性皮膚炎（Atopic dermatitis）」，與遺傳過敏體質（atopy）密切相關。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_039",
@@ -1121,23 +1121,23 @@
         "D": "bullous pemphigoid"
       },
       "correct_answer": "D",
-      "explanation": "Nikolsky sign 是以手指輕推水疱旁皮膚時，若表皮輕易剝離或水疱擴大即為陽性，代表表皮細胞內鬆解（如尋常性天疱瘡 pemphigus vulgaris、SSSS、SJS）。類天疱瘡（bullous pemphigoid）由於是自體抗體攻擊半抗原、導致「表皮下」水疱，其水疱壁厚實且緊繃，故 Nikolsky sign 為陰性。",
+      "explanation": "【題幹解析】\n下列何者疾病Nikolsky sign是陰性反應? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：Nikolsky sign 是以手指輕推水疱旁皮膚時，若表皮輕易剝離或水疱擴大即為陽性，代表表皮細胞內鬆解（如尋常性天疱瘡 pemphigus vulgaris、SSSS、SJS）。類天疱瘡（bullous pemphigoid）由於是自體抗體攻擊半抗原、導致「表皮下」水疱，其水疱壁厚實且緊繃，故 Nikolsky sign 為陰性。\n\n【選項詳解】\n- A. 錯誤。staphylococcal scalded skin syndrome。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見水疱性皮膚疾病的 Nikolsky sign 反應區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。pemphigus vulgaris。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見水疱性皮膚疾病的 Nikolsky sign 反應區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。Stevens-Johnson syndrome。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「常見水疱性皮膚疾病的 Nikolsky sign 反應區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。bullous pemphigoid。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「常見水疱性皮膚疾病的 Nikolsky sign 反應區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n常見水疱性皮膚疾病的 Nikolsky sign 反應區分。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "常見水疱性皮膚疾病的 Nikolsky sign 反應區分。",
-      "flashcard_summary": "Nikolsky sign呈陰性的水疱病 -> 類天疱瘡（bullous pemphigoid）",
+      "flashcard_summary": "皮膚科 / 選項 D -> 常見水疱性皮膚疾病的 Nikolsky sign 反應區分。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "Nikolsky sign 陰性 / 表皮下水疱 / 天疱瘡與類天疱瘡比較",
-      "flashcard_back": "「類天疱瘡（bullous pemphigoid）」因為是表皮下水疱，Nikolsky sign呈陰性；而天疱瘡呈陽性。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_040",
@@ -1150,23 +1150,23 @@
         "D": "主要致病機轉為Pseudomonas 製造的exfoliative toxin所引起"
       },
       "correct_answer": "D",
-      "explanation": "中毒性休克症候群（TSS）主要由金黃色葡萄球菌（Staphylococcus aureus）產生的超抗原毒素 TSST-1 或鏈球菌產生的外毒素引起，並非由 Pseudomonas（綠膿桿菌）產生的剝脫性毒素（exfoliative toxin）引起，故D選項錯誤。剝脫性毒素是由金黃色葡萄球菌產生，且與 SSSS 相關。",
+      "explanation": "【題幹解析】\n有關Toxic shock syndrome的敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：中毒性休克症候群（TSS）主要由金黃色葡萄球菌（Staphylococcus aureus）產生的超抗原毒素 TSST-1 或鏈球菌產生的外毒素引起，並非由 Pseudomonas（綠膿桿菌）產生的剝脫性毒素（exfoliative toxin）引起，故D選項錯誤。剝脫性毒素是由金黃色葡萄球菌產生，且與 SSSS 相關。\n\n【選項詳解】\n- A. 錯誤。臨床上表現包括大面積皮膚紅腫疼痛或是膿皰、以及皮膚廣泛性脫屑現象。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「中毒性休克症候群（TSS）的病原體與致病毒素。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。初期會出現皮膚疼痛現象,大部分是因為術後傷口感染或是腹腔感染引起。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「中毒性休克症候群（TSS）的病原體與致病毒素。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。病患會出現發燒、喉嚨痛、肌肉痠痛、嘔吐或是腹瀉,嚴重時會造成低血壓以及多重器官衰竭。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「中毒性休克症候群（TSS）的病原體與致病毒素。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。主要致病機轉為Pseudomonas 製造的exfoliative toxin所引起。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「中毒性休克症候群（TSS）的病原體與致病毒素。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n中毒性休克症候群（TSS）的病原體與致病毒素。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "中毒性休克症候群（TSS）的病原體與致病毒素。",
-      "flashcard_summary": "TSS致病機轉錯誤描述 -> 主要致病機轉為 Pseudomonas 製造的 exfoliative toxin 所引起",
+      "flashcard_summary": "皮膚科 / 選項 D -> 中毒性休克症候群（TSS）的病原體與致病毒素。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "Toxic shock syndrome (TSS) / 超抗原毒素 / 金黃色葡萄球菌 / 剝脫性毒素關係",
-      "flashcard_back": "TSS主要由「金黃色葡萄球菌的 TSST-1」或鏈球菌毒素引起，而非綠膿桿菌或剝脫性毒素（exfoliative toxin）。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.529Z"
     },
     {
       "id": "108-1_medicine-4_041",
@@ -1179,23 +1179,23 @@
         "D": "易併發鼻咽癌"
       },
       "correct_answer": "D",
-      "explanation": "成人型皮肌炎（dermatomyositis）與惡性腫瘤（如鼻咽癌、乳癌、肺癌等）有相當高的關聯性；但青年型皮肌炎（juvenile dermatomyositis, JDM）在病因與預後上與成人不同，其極少併發惡性腫瘤，故D選項錯誤。JDM 易合併皮膚鈣化症（calcinosis cutis）及血管病變。",
+      "explanation": "【題幹解析】\n青年型皮肌炎(juvenile dermatomyositis)的敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：成人型皮肌炎（dermatomyositis）與惡性腫瘤（如鼻咽癌、乳癌、肺癌等）有相當高的關聯性；但青年型皮肌炎（juvenile dermatomyositis, JDM）在病因與預後上與成人不同，其極少併發惡性腫瘤，故D選項錯誤。JDM 易合併皮膚鈣化症（calcinosis cutis）及血管病變。\n\n【選項詳解】\n- A. 錯誤。可以amyopathic dermatomyositis表現。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青年型皮肌炎與惡性腫瘤關聯性的特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。易合併皮膚鈣化症(calcinosis cutis)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青年型皮肌炎與惡性腫瘤關聯性的特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。易併發皮膚血管病變(vasculopathy)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青年型皮肌炎與惡性腫瘤關聯性的特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。易併發鼻咽癌。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「青年型皮肌炎與惡性腫瘤關聯性的特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n青年型皮肌炎與惡性腫瘤關聯性的特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "青年型皮肌炎與惡性腫瘤關聯性的特徵。",
-      "flashcard_summary": "青年型皮肌炎特徵錯誤描述 -> 易併發鼻咽癌",
+      "flashcard_summary": "皮膚科 / 選項 D -> 青年型皮肌炎與惡性腫瘤關聯性的特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "青年型皮肌炎 (JDM) / 成人型皮肌炎比較 / 皮膚鈣化 / 惡性腫瘤關聯",
-      "flashcard_back": "青年型皮肌炎（JDM）「極少併發惡性腫瘤（如鼻咽癌）」，此特徵與成人型皮肌炎高度伴隨癌症不同。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_042",
@@ -1208,23 +1208,23 @@
         "D": "基因、賀爾蒙、紫外線等因素都可能會造成皮膚黑色素過度沉著"
       },
       "correct_answer": "B",
-      "explanation": "汗斑（pityriasis versicolor）是由皮屑芽孢菌感染所致，該菌產生的壬二酸（azelaic acid）會抑制黑色素細胞的活性，因此汗斑在臨床上既可表現為膚色變深的紅褐色斑塊，亦可表現為膚色變淺的「脫色斑（低色素沉著）」，B選項稱只會變深是錯誤的。",
+      "explanation": "【題幹解析】\n關於皮膚黑色素過度沉著(hypermelanosis)的敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：汗斑（pityriasis versicolor）是由皮屑芽孢菌感染所致，該菌產生的壬二酸（azelaic acid）會抑制黑色素細胞的活性，因此汗斑在臨床上既可表現為膚色變深的紅褐色斑塊，亦可表現為膚色變淺的「脫色斑（低色素沉著）」，B選項稱只會變深是錯誤的。\n\n【選項詳解】\n- A. 錯誤。黑色素細胞增加或黑色素顆粒製造變多,皆會引起皮膚黑色素過度沉著。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「汗斑對皮膚色素沉著的影響與機轉。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。汗斑(pityriasis versicolor)只會造成膚色變深,不會變淺。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「汗斑對皮膚色素沉著的影響與機轉。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。轉移性黑色素癌可能造成全身皮膚黑色素過度沉著(universal melanosis)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「汗斑對皮膚色素沉著的影響與機轉。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。基因、賀爾蒙、紫外線等因素都可能會造成皮膚黑色素過度沉著。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「汗斑對皮膚色素沉著的影響與機轉。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n汗斑對皮膚色素沉著的影響與機轉。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "汗斑對皮膚色素沉著的影響與機轉。",
-      "flashcard_summary": "汗斑對膚色影響錯誤描述 -> 汗斑只會造成膚色變深，不會變淺",
+      "flashcard_summary": "皮膚科 / 選項 B -> 汗斑對皮膚色素沉著的影響與機轉。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "汗斑 (Tinea versicolor) / 壬二酸 (azelaic acid) / 膚色變深或變淺 / 黑色素抑制",
-      "flashcard_back": "汗斑因馬拉色菌分泌壬二酸抑制黑色素，「既可使膚色變深亦可使膚色變淺」，並非只會變深。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_043",
@@ -1237,23 +1237,23 @@
         "D": "外用A酸(retinoic acid)藥膏對於雀斑(freckles)有淡化效果"
       },
       "correct_answer": "B",
-      "explanation": "真皮層的黑色素因為位於皮膚深層，脈衝光（IPL）因波長較短且能量穿透力有限，療效極差；而釹雅各（Nd:YAG）雷射（特別是1064 nm波長）具有極佳的深層穿透力，是治療真皮層黑色素沉著的首選。因此B選項稱脈衝光效果較好是錯誤的。",
+      "explanation": "【題幹解析】\n關於黑色素沉著的治療,下列敘述何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：真皮層的黑色素因為位於皮膚深層，脈衝光（IPL）因波長較短且能量穿透力有限，療效極差；而釹雅各（Nd:YAG）雷射（特別是1064 nm波長）具有極佳的深層穿透力，是治療真皮層黑色素沉著的首選。因此B選項稱脈衝光效果較好是錯誤的。\n\n【選項詳解】\n- A. 錯誤。若增加的黑色素顆粒在表皮層,使用對苯二酚(hydroquinone)藥膏可有效淡化。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「真皮與表皮黑色素沉著的雷射治療原理。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。若增加的黑色素顆粒在真皮層,使用脈衝光(intense pulsed light, IPL)比釹雅各(Nd:YAG)雷射效果更 好。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「真皮與表皮黑色素沉著的雷射治療原理。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。若施打雷射的劑量太強或施打太頻繁,容易造成醫源性色素脫失。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「真皮與表皮黑色素沉著的雷射治療原理。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。外用A酸(retinoic acid)藥膏對於雀斑(freckles)有淡化效果。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「真皮與表皮黑色素沉著的雷射治療原理。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n真皮與表皮黑色素沉著的雷射治療原理。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "真皮與表皮黑色素沉著的雷射治療原理。",
-      "flashcard_summary": "真皮層黑色素沉著治療錯誤描述 -> 真皮層色素使用脈衝光比釹雅各雷射效果更好",
+      "flashcard_summary": "皮膚科 / 選項 B -> 真皮與表皮黑色素沉著的雷射治療原理。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "真皮層黑色素 / 雷射治療選擇 / 釹雅各 (Nd:YAG) / 脈衝光 (IPL) 比較",
-      "flashcard_back": "治療真皮層深部黑色素應選用穿透力強的「釹雅各雷射」，而非穿透力有限的脈衝光（IPL）。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_044",
@@ -1266,23 +1266,23 @@
         "D": "竇狀血管瘤(sinusoid hemangioma)"
       },
       "correct_answer": "B",
-      "explanation": "75歲老年男性逐漸在足部出現紫色血管性斑塊，病理切片顯示真皮層內有梭形細胞（spindle cells）及裂隙狀、篩板狀（sieve-like）血管腔增生，並有紅血球外滲，這是典型的卡波西氏肉瘤（Kaposi's sarcoma）病理特徵。血管肉瘤多呈高度惡性且篩板狀增生較不典型；血管角化瘤通常無此篩板樣血管侵犯。",
+      "explanation": "【題幹解析】\n75歲男性,2年來逐漸在足部出現紫色斑塊(如圖A),皮膚病理檢查發現有篩板狀血管的增生(如圖B), 最可能的診斷為何? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：75歲老年男性逐漸在足部出現紫色血管性斑塊，病理切片顯示真皮層內有梭形細胞（spindle cells）及裂隙狀、篩板狀（sieve-like）血管腔增生，並有紅血球外滲，這是典型的卡波西氏肉瘤（Kaposi's sarcoma）病理特徵。血管肉瘤多呈高度惡性且篩板狀增生較不典型；血管角化瘤通常無此篩板樣血管侵犯。\n\n【選項詳解】\n- A. 錯誤。血管肉瘤(angiosarcoma)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。卡波⻄氏肉瘤(Kaposi’s sarcoma)。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。血管角化瘤(angiokeratoma)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。竇狀血管瘤(sinusoid hemangioma)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。",
-      "flashcard_summary": "足部紫色斑塊合併篩板狀血管增生之診斷 -> 卡波西氏肉瘤（Kaposi's sarcoma）",
+      "flashcard_summary": "皮膚科 / 選項 B -> 卡波西氏肉瘤（Kaposi's sarcoma）的臨床與病理特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "足部紫色斑塊 / 老年男性 / 篩板狀血管增生 / 裂隙腔",
-      "flashcard_back": "此臨床與病理特徵最符合「卡波西氏肉瘤（Kaposi's sarcoma）」。其病理特徵為梭形細胞與篩板狀裂隙血管增生。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_045",
@@ -1295,23 +1295,23 @@
         "D": "Epstein-Barr virus(EBV)"
       },
       "correct_answer": "A",
-      "explanation": "卡波西氏肉瘤（Kaposi's sarcoma）的發生與人類皰疹病毒第八型（HHV-8，又稱卡波西氏肉瘤相關皰疹病毒 KSHV）感染有絕對的因果關係。不論是經典型、流行型（AIDS相關）或醫源性（免疫抑制相關）的卡波西氏肉瘤，均可在病灶內偵測到 HHV-8 的 DNA。",
+      "explanation": "【題幹解析】\n承上題,可能與下列何種病毒相關? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個皮膚科知識點。既有解析重點可整理為：卡波西氏肉瘤（Kaposi's sarcoma）的發生與人類皰疹病毒第八型（HHV-8，又稱卡波西氏肉瘤相關皰疹病毒 KSHV）感染有絕對的因果關係。不論是經典型、流行型（AIDS相關）或醫源性（免疫抑制相關）的卡波西氏肉瘤，均可在病灶內偵測到 HHV-8 的 DNA。\n\n【選項詳解】\n- A. 正確。human herpesvirus type 8(HHV-8)。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「卡波西氏肉瘤與病毒感染的關聯性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。human herpes simplex virus type 2(HSV-2)。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤與病毒感染的關聯性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。human papilloma virus(HPV)。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤與病毒感染的關聯性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。Epstein-Barr virus(EBV)。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「卡波西氏肉瘤與病毒感染的關聯性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n卡波西氏肉瘤與病毒感染的關聯性。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "卡波西氏肉瘤與病毒感染的關聯性。",
-      "flashcard_summary": "與卡波西氏肉瘤相關之病毒 -> 人類皰疹病毒第八型（HHV-8）",
+      "flashcard_summary": "皮膚科 / 選項 A -> 卡波西氏肉瘤與病毒感染的關聯性。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "卡波西氏肉瘤 / 皰疹病毒 / HHV-8 / 臨床相關病毒",
-      "flashcard_back": "卡波西氏肉瘤的發生與「人類皰疹病毒第八型（HHV-8）」感染密切相關，又稱 KSHV。",
+      "flashcard_front": "皮膚科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "皮膚科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_046",
@@ -1324,23 +1324,23 @@
         "D": "抗凝血藥物(anticoagulants)"
       },
       "correct_answer": "C",
-      "explanation": "患者在睡醒後被發現偏癱、失語，由於無法確定確切發病時間，臨床上應將最後正常時間（前晚10點，已超過12小時）視為發病起點。這已遠超出靜脈血栓溶解（IV tPA）的黃金3-4.5小時時效視窗，故此時急性期最適當的藥物治療為給予抗血小板藥物（antiplatelets，如 Aspirin）以預防血栓擴大。",
+      "explanation": "【題幹解析】\n一位77歲婦人,晚間10點入睡時正常,但一早8點醒來右側肢體無力、口齒不清,早上10點即被家人送到急 診,經神經學及影像學檢查,研判為左側放射冠梗塞(corona radiata infarction),以下何者是對婦人最適 當的急性中風治療? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：患者在睡醒後被發現偏癱、失語，由於無法確定確切發病時間，臨床上應將最後正常時間（前晚10點，已超過12小時）視為發病起點。這已遠超出靜脈血栓溶解（IV tPA）的黃金3-4.5小時時效視窗，故此時急性期最適當的藥物治療為給予抗血小板藥物（antiplatelets，如 Aspirin）以預防血栓擴大。\n\n【選項詳解】\n- A. 錯誤。靜脈血栓溶解(IV tPA)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「醒後中風（Wake-up stroke）的急性期處理原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。裝置頸動脈支架(stenting)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「醒後中風（Wake-up stroke）的急性期處理原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。抗血小板藥物(antiplatelet)。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「醒後中風（Wake-up stroke）的急性期處理原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。抗凝血藥物(anticoagulants)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「醒後中風（Wake-up stroke）的急性期處理原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n醒後中風（Wake-up stroke）的急性期處理原則。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "醒後中風（Wake-up stroke）的急性期處理原則。",
-      "flashcard_summary": "醒後中風急性期處置 -> 給予抗血小板藥物（antiplatelets），禁用靜脈溶栓",
+      "flashcard_summary": "神經科 / 選項 C -> 醒後中風（Wake-up stroke）的急性期處理原則。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "睡醒發現中風 / 發病時間未知 / 超出黃金時效 / 急性期用藥",
-      "flashcard_back": "對於醒後中風（wake-up stroke），因無法確定時間且多超出時效，禁用 tPA；「急性期首選抗血小板藥物（antiplatelet）」治療。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_047",
@@ -1353,9 +1353,9 @@
         "D": "顱內梭狀(fusiform type)動脈瘤"
       },
       "correct_answer": "A",
-      "explanation": "官方更正為多重給分答案：「A. 頭部外傷(trauma)；C. 顱內囊狀(saccular type)動脈瘤」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。",
+      "explanation": "【題幹解析】\n下列何者是造成蜘蛛膜下腔出血(subarachnoid hemorrhage)最常見的原因? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：官方更正為多重給分答案：「A. 頭部外傷(trauma)；C. 顱內囊狀(saccular type)動脈瘤」。複習時要理解這些選項都被官方接受，不應只背原始單一答案。\n\n【選項詳解】\n- A. 正確。頭部外傷(trauma)。此選項符合官方答案 A、C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「官方更正多重答案：A, C」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。顱內動靜脈血管畸形(arteriovenous malformations)。此選項未列入官方答案 A、C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「官方更正多重答案：A, C」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。顱內囊狀(saccular type)動脈瘤。此選項符合官方答案 A、C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「官方更正多重答案：A, C」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。顱內梭狀(fusiform type)動脈瘤。此選項未列入官方答案 A、C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「官方更正多重答案：A, C」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n官方更正多重答案：A, C 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "官方更正多重答案：A, C",
-      "flashcard_summary": "SAH最常見病因說明（無正解） -> 自發性以囊狀動脈瘤破裂居多，全因則以頭部外傷最常見",
+      "flashcard_summary": "神經科 / 選項 A、C -> 官方更正多重答案：A, C",
       "review_status": "ai_generated",
       "correct_answers": [
         "A",
@@ -1364,14 +1364,14 @@
       "answer_status": "multiple_correct",
       "answer_source": "official_correction",
       "answer_note": "官方更正：第47題答A、C給分；原標準答案為 C。",
-      "flashcard_front": "蜘蛛膜下腔出血 (SAH) / 腦動脈瘤破裂 / 頭部外傷 / 最常見病因 (無正解)",
-      "flashcard_back": "官方更正接受：「A. 頭部外傷(trauma)；C. 顱內囊狀(saccular type)動脈瘤」。複習時請把這些選項視為可給分答案，避免只記原始答案字母。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 A、C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A、C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "official-correction-repair-v1",
-      "explanation_generated_at": "2026-06-18T04:45:17.994637+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_048",
@@ -1384,23 +1384,23 @@
         "D": "意識障礙"
       },
       "correct_answer": "B",
-      "explanation": "腦靜脈竇栓塞（Cerebral venous sinus thrombosis, CVST）是由於腦靜脈迴流受阻引起顱內壓增高。其最常見（大於90%）的臨床表現為急性或亞急性「頭痛（headache）」，常伴有視乳頭水腫。局灶性神經缺損（如偏癱、複視）與意識障礙亦可出現，但盛行率均低於頭痛。",
+      "explanation": "【題幹解析】\n以下何者是腦靜脈竇栓塞(cerebral venous sinus thrombosis)最常見的臨床表現? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：腦靜脈竇栓塞（Cerebral venous sinus thrombosis, CVST）是由於腦靜脈迴流受阻引起顱內壓增高。其最常見（大於90%）的臨床表現為急性或亞急性「頭痛（headache）」，常伴有視乳頭水腫。局灶性神經缺損（如偏癱、複視）與意識障礙亦可出現，但盛行率均低於頭痛。\n\n【選項詳解】\n- A. 錯誤。複視。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腦靜脈竇栓塞（CVST）的最常見臨床症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。頭痛。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「腦靜脈竇栓塞（CVST）的最常見臨床症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。單側肢體無力。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腦靜脈竇栓塞（CVST）的最常見臨床症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。意識障礙。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腦靜脈竇栓塞（CVST）的最常見臨床症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n腦靜脈竇栓塞（CVST）的最常見臨床症狀。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "腦靜脈竇栓塞（CVST）的最常見臨床症狀。",
-      "flashcard_summary": "腦靜脈竇栓塞（CVST）最常見症狀 -> 頭痛（headache）",
+      "flashcard_summary": "神經科 / 選項 B -> 腦靜脈竇栓塞（CVST）的最常見臨床症狀。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "腦靜脈竇栓塞 (CVST) / 顱內壓增高 / 臨床表現 / 最常見首發症狀",
-      "flashcard_back": "CVST最常見且幾乎都會出現的臨床表現是「頭痛（headache）」，多因顱內壓增高所致。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_049",
@@ -1413,23 +1413,23 @@
         "D": "多數夢境是愉快的"
       },
       "correct_answer": "A",
-      "explanation": "快速動眼期（REM）睡眠多集中在後半夜，因此快速動眼期睡眠行為疾患（RBD）的異常動作多發生在後半夜，且夢境多為不愉快或暴力的。RBD 患者日後極高機率發展為「突觸核蛋白病變（α-synucleinopathy）」，如巴金森氏症或路易氏體失智症，而非阿茲海默氏症。",
+      "explanation": "【題幹解析】\n下列有關快速動眼期睡眠行為疾患(REM sleep behavior disorder)的特色,何者正確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：快速動眼期（REM）睡眠多集中在後半夜，因此快速動眼期睡眠行為疾患（RBD）的異常動作多發生在後半夜，且夢境多為不愉快或暴力的。RBD 患者日後極高機率發展為「突觸核蛋白病變（α-synucleinopathy）」，如巴金森氏症或路易氏體失智症，而非阿茲海默氏症。\n\n【選項詳解】\n- A. 正確。通常在後半夜出現。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。每次發生通常有固定的動作模式。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。日後極可能變成阿茲海默氏症。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。多數夢境是愉快的。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。",
-      "flashcard_summary": "RBD 臨床特色與預後 -> 異常動作多在後半夜出現，日後易發展為巴金森氏症",
+      "flashcard_summary": "神經科 / 選項 A -> 快速動眼期睡眠行為疾患（RBD）的臨床特徵與神經退化預測。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "REM 睡眠行為異常 (RBD) / 後半夜發作 / 夢境特徵 / 日後神經退化疾病",
-      "flashcard_back": "RBD「通常在後半夜出現」（因REM睡眠集中於此時），日後極易發展為「巴金森氏症或路易氏體失智症」而非阿茲海默氏症。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_050",
@@ -1442,23 +1442,23 @@
         "D": "診斷可能為兒童失神性癲癇"
       },
       "correct_answer": "D",
-      "explanation": "14歲智力正常女孩，有癲癇家族史，晨起常有不自主肢體抽搐跌倒，此為青少年肌陣攣性癲癇（Juvenile Myoclonic Epilepsy, JME）的典型症狀，而非「兒童失神性癲癇」（後者表現為短暫發呆、斷片，無肢體抽搐）。JME 腦波特徵為 4-6 Hz 廣泛性多棘慢波，首選藥物為 Valproate。",
+      "explanation": "【題幹解析】\n一位智力正常伴有家族性癲癇病史的14歲女孩,常在起床後被家⻑發現不自主肢體抽搐,有時甚至會跌倒在 地上,下列有關診斷及治療的敘述何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：14歲智力正常女孩，有癲癇家族史，晨起常有不自主肢體抽搐跌倒，此為青少年肌陣攣性癲癇（Juvenile Myoclonic Epilepsy, JME）的典型症狀，而非「兒童失神性癲癇」（後者表現為短暫發呆、斷片，無肢體抽搐）。JME 腦波特徵為 4-6 Hz 廣泛性多棘慢波，首選藥物為 Valproate。\n\n【選項詳解】\n- A. 錯誤。腦波可能出現4~6Hz廣泛性棘波(generalized spikes)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。家族癲癇基因的檢測有助於診斷。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。抗癲癇藥(valproate)是治療首選藥物。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。診斷可能為兒童失神性癲癇。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。",
-      "flashcard_summary": "晨起抽搐且腦波見4-6Hz棘波之診斷 -> 青少年肌陣攣性癲癇（JME），非失神性癲癇",
+      "flashcard_summary": "神經科 / 選項 D -> 青少年肌陣攣性癲癇（JME）的臨床與診斷特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "14歲女孩 / 晨起肢體抽搐跌倒 / 4-6Hz 棘波 / 癲癇診斷與藥物",
-      "flashcard_back": "此表現應診斷為「青少年肌陣攣性癲癇（JME）」，而非兒童失神性癲癇。首選治療藥物為「Valproate」。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.535Z"
     },
     {
       "id": "108-1_medicine-4_051",
@@ -1471,23 +1471,23 @@
         "D": "伴隨流淚及眼結膜充血"
       },
       "correct_answer": "D",
-      "explanation": "依據 ICHD-3 偏頭痛診斷標準，偏頭痛每次發作持續 4-72 小時，特徵為單側、搏動性、中重度頭痛，日常活動會加劇，並常伴有噁心、嘔吐或畏光怕吵。而「流淚及眼結膜充血」是三叉自主神經頭痛（如叢集性頭痛 cluster headache）的典型特徵，不屬於偏頭痛的診斷標準。",
+      "explanation": "【題幹解析】\n下列何者不是國際頭痛疾病分類第3版測試版(ICHD-3, beta)偏頭痛(migraine)的診斷標準? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：依據 ICHD-3 偏頭痛診斷標準，偏頭痛每次發作持續 4-72 小時，特徵為單側、搏動性、中重度頭痛，日常活動會加劇，並常伴有噁心、嘔吐或畏光怕吵。而「流淚及眼結膜充血」是三叉自主神經頭痛（如叢集性頭痛 cluster headache）的典型特徵，不屬於偏頭痛的診斷標準。\n\n【選項詳解】\n- A. 錯誤。不治療或治療無效時,頭痛發作會持續4~72小時。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「偏頭痛（Migraine）的臨床診斷標準。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。伴隨噁心及/或嘔吐。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「偏頭痛（Migraine）的臨床診斷標準。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。日常活動會使頭痛加劇。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「偏頭痛（Migraine）的臨床診斷標準。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。伴隨流淚及眼結膜充血。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「偏頭痛（Migraine）的臨床診斷標準。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n偏頭痛（Migraine）的臨床診斷標準。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "偏頭痛（Migraine）的臨床診斷標準。",
-      "flashcard_summary": "不屬於偏頭痛診斷標準的特徵 -> 伴隨流淚及眼結膜充血（為三叉自主神經頭痛特徵）",
+      "flashcard_summary": "神經科 / 選項 D -> 偏頭痛（Migraine）的臨床診斷標準。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "偏頭痛診斷標準 / 每次持續時間 / 噁心嘔吐 / 流淚與眼結膜充血",
-      "flashcard_back": "偏頭痛不包含「流淚及眼結膜充血」（此為叢集性頭痛特徵）。每次發作持續時間為 4-72 小時。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_052",
@@ -1500,23 +1500,23 @@
         "D": "癲癇發作(seizures)"
       },
       "correct_answer": "B",
-      "explanation": "譫妄（delirium）與失智症（dementia）均可表現為認知功能下降、幻覺或行為異常。但兩者最關鍵的區別在於，譫妄病患會出現「急性的意識波動與注意力不集中（attention deficit）」，且症狀常在一天內有高低起伏，而失智症患者的注意力在早期多能保持相對正常。",
+      "explanation": "【題幹解析】\n瞻妄(delirium)與失智症(dementia)的最大區別在於瞻妄病人容易出現下列那一症狀? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：譫妄（delirium）與失智症（dementia）均可表現為認知功能下降、幻覺或行為異常。但兩者最關鍵的區別在於，譫妄病患會出現「急性的意識波動與注意力不集中（attention deficit）」，且症狀常在一天內有高低起伏，而失智症患者的注意力在早期多能保持相對正常。\n\n【選項詳解】\n- A. 錯誤。聽幻覺(auditory hallucinations)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「譫妄與失智症的關鍵臨床鑑別診斷。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。注意力(attention)不集中。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「譫妄與失智症的關鍵臨床鑑別診斷。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。攻擊行為(aggression)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「譫妄與失智症的關鍵臨床鑑別診斷。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。癲癇發作(seizures)。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「譫妄與失智症的關鍵臨床鑑別診斷。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n譫妄與失智症的關鍵臨床鑑別診斷。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "譫妄與失智症的關鍵臨床鑑別診斷。",
-      "flashcard_summary": "譫妄與失智症最大鑑別點 -> 譫妄病人易出現注意力（attention）不集中",
+      "flashcard_summary": "神經科 / 選項 B -> 譫妄與失智症的關鍵臨床鑑別診斷。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "譫妄 (delirium) / 失智症 (dementia) / 臨床鑑別點 / 注意力功能",
-      "flashcard_back": "兩者最大區別在於譫妄患者會出現明顯的「注意力（attention）不集中」，且病程呈急性、波動性起伏。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_053",
@@ -1529,23 +1529,23 @@
         "D": "右側下橄欖核(inferior olivary nucleus)肥大"
       },
       "correct_answer": "C",
-      "explanation": "中腦紅核（red nucleus）附近受損，數月後出現節奏性軟腭向上收縮（軟腭肌陣攣 palatal myoclonus），這是由於 Guillain-Mollaret 三角（齒狀核-紅核-下橄欖核路徑）中斷，導致下橄欖核出現逆行性變性與肥大。此路徑中，左側紅核受損會導致同側「左側下橄欖核（inferior olivary nucleus）」發生肥大，C選項為正確答案。",
+      "explanation": "【題幹解析】\n一位52歲男性突然發生右手的辨距不良(dysmetria),經頭部電腦斷層檢查發現是中腦左側紅核(red nucleus)附近的小出血。幾個月後,此患者出現喉部不自主的動作,檢查發現軟腭出現很有節奏性的2~ 2.5Hz向上收縮的動作。頭部核磁共振造影檢查最可能的發現是: 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：中腦紅核（red nucleus）附近受損，數月後出現節奏性軟腭向上收縮（軟腭肌陣攣 palatal myoclonus），這是由於 Guillain-Mollaret 三角（齒狀核-紅核-下橄欖核路徑）中斷，導致下橄欖核出現逆行性變性與肥大。此路徑中，左側紅核受損會導致同側「左側下橄欖核（inferior olivary nucleus）」發生肥大，C選項為正確答案。\n\n【選項詳解】\n- A. 錯誤。左側齒狀核(dentate nucleus)肥大。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。右側齒狀核(dentate nucleus)肥大。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。左側下橄欖核(inferior olivary nucleus)肥大。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。右側下橄欖核(inferior olivary nucleus)肥大。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。",
-      "flashcard_summary": "左側紅核病變導致的下橄欖核變化 -> 左側下橄欖核（inferior olivary nucleus）肥大",
+      "flashcard_summary": "神經科 / 選項 C -> 軟腭肌陣攣與下橄欖核假性肥大之解剖路徑。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "中腦紅核出血 / 軟腭肌陣攣 / Guillain-Mollaret 三角 / 下橄欖核肥大定位",
-      "flashcard_back": "一側紅核病變會導致「同側下橄欖核肥大」（左側紅核受損 -> 左側下橄欖核肥大），引起軟腭肌陣攣。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_054",
@@ -1558,23 +1558,23 @@
         "D": "快速動眼期睡眠行為異常(rapid eye movement sleep behavior disorder)"
       },
       "correct_answer": "C",
-      "explanation": "原發性巴金森氏病（PD）的早期非運動症狀常包括嗅覺減退、不寧腳症候群及快速動眼期睡眠行為異常（RBD）。而「皮質性感覺喪失（cortical sensory loss，如立體覺或兩點辨識覺喪失）」代表大腦頂葉皮質受損，是皮質基底核變性（CBD，一種非典型巴金森症候群）的特徵，而非原發性巴金森氏病表現。",
+      "explanation": "【題幹解析】\n當病人出現下列那一個症狀,比較有可能不是原發性的巴金森氏病(idiopathic Parkinson disease)? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：原發性巴金森氏病（PD）的早期非運動症狀常包括嗅覺減退、不寧腳症候群及快速動眼期睡眠行為異常（RBD）。而「皮質性感覺喪失（cortical sensory loss，如立體覺或兩點辨識覺喪失）」代表大腦頂葉皮質受損，是皮質基底核變性（CBD，一種非典型巴金森症候群）的特徵，而非原發性巴金森氏病表現。\n\n【選項詳解】\n- A. 錯誤。嗅覺減退(hyposmia)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「原發性巴金森氏病與非典型巴金森症候群之鑑別點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。不寧腳症候群(restless legs syndrome)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「原發性巴金森氏病與非典型巴金森症候群之鑑別點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。皮質性感覺喪失(cortical sensory loss)。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「原發性巴金森氏病與非典型巴金森症候群之鑑別點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。快速動眼期睡眠行為異常(rapid eye movement sleep behavior disorder)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「原發性巴金森氏病與非典型巴金森症候群之鑑別點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n原發性巴金森氏病與非典型巴金森症候群之鑑別點。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "原發性巴金森氏病與非典型巴金森症候群之鑑別點。",
-      "flashcard_summary": "非原發性巴金森氏病典型表現 -> 皮質性感覺喪失（提示為皮質基底核變性）",
+      "flashcard_summary": "神經科 / 選項 C -> 原發性巴金森氏病與非典型巴金森症候群之鑑別點。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "巴金森 / 嗅覺減退與 RBD / 皮質性感覺喪失 / 非典型巴金森",
-      "flashcard_back": "「皮質性感覺喪失（cortical sensory loss）」提示皮質病變（如CBD），而非原發性巴金森氏病特徵。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_055",
@@ -1587,23 +1587,23 @@
         "D": "腰神經根病變(lumbar root lesion)"
       },
       "correct_answer": "C",
-      "explanation": "運動神經元疾病（MND，如漸凍症 ALS）是選擇性侵犯皮質、腦幹及脊髓運動神經元的退化性疾病，其感覺系統（痛溫覺、本體感覺）通常完全不受侵犯。而糖尿病多發性神經病變、腕隧道症候群及腰神經根病變，在病理上均會侵犯周邊的混合神經，故常伴隨感覺異常與麻痛。",
+      "explanation": "【題幹解析】\n下列各項神經疾病,何者的感覺系統最不會受到侵犯? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：運動神經元疾病（MND，如漸凍症 ALS）是選擇性侵犯皮質、腦幹及脊髓運動神經元的退化性疾病，其感覺系統（痛溫覺、本體感覺）通常完全不受侵犯。而糖尿病多發性神經病變、腕隧道症候群及腰神經根病變，在病理上均會侵犯周邊的混合神經，故常伴隨感覺異常與麻痛。\n\n【選項詳解】\n- A. 錯誤。糖尿病多發性神經病變(diabetic polyneuropathy)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「運動神經元疾病（MND）的受損系統選擇性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。腕隧道症候群(carpal tunnel syndrome)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「運動神經元疾病（MND）的受損系統選擇性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。運動神經元病變(motor neuron disease)。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「運動神經元疾病（MND）的受損系統選擇性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。腰神經根病變(lumbar root lesion)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「運動神經元疾病（MND）的受損系統選擇性。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n運動神經元疾病（MND）的受損系統選擇性。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "運動神經元疾病（MND）的受損系統選擇性。",
-      "flashcard_summary": "感覺系統不受侵犯的神經退化疾病 -> 運動神經元病變（motor neuron disease）",
+      "flashcard_summary": "神經科 / 選項 C -> 運動神經元疾病（MND）的受損系統選擇性。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "運動神神經元病變 (MND) / 感覺系統 / 漸凍症 / 周邊神經根病變比較",
-      "flashcard_back": "MND（漸凍症）為「純運動神經侵犯」，其感覺系統最不會受到影響；而神經根病變等則常有感覺症狀。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_056",
@@ -1616,23 +1616,23 @@
         "D": "腰椎椎間盤突出(herniation of intervertebral disc)"
       },
       "correct_answer": "D",
-      "explanation": "30歲男性重度負重（背50公斤沙袋）後突發嚴重腰痛，並伴隨沿右下肢後側放射至腳底的麻痛感，此為典型的坐骨神經痛（特別是壓迫第一薦椎神經根 S1 radiculopathy）。此起病急驟且與負重拉傷密切相關，最可能的診斷為腰椎椎間盤突出（herniation of intervertebral disc）。",
+      "explanation": "【題幹解析】\n30歲男性,背負50公斤沙袋跑完100公尺後,發現嚴重腰痛,合併右下肢後側傳至腳底的麻痛感,最有可能 的診斷為何? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：30歲男性重度負重（背50公斤沙袋）後突發嚴重腰痛，並伴隨沿右下肢後側放射至腳底的麻痛感，此為典型的坐骨神經痛（特別是壓迫第一薦椎神經根 S1 radiculopathy）。此起病急驟且與負重拉傷密切相關，最可能的診斷為腰椎椎間盤突出（herniation of intervertebral disc）。\n\n【選項詳解】\n- A. 錯誤。帶狀皰疹神經炎(herpes zoster neuritis)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腰椎椎間盤突出壓迫神經根的典型症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。Guillain-Barré 症候群(Guillain-Barré syndrome)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腰椎椎間盤突出壓迫神經根的典型症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。多發性肌炎(polymyositis)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「腰椎椎間盤突出壓迫神經根的典型症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。腰椎椎間盤突出(herniation of intervertebral disc)。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「腰椎椎間盤突出壓迫神經根的典型症狀。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n腰椎椎間盤突出壓迫神經根的典型症狀。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "腰椎椎間盤突出壓迫神經根的典型症狀。",
-      "flashcard_summary": "重負後突發腰痛放射至腳底麻痛 -> 腰椎椎間盤突出（herniation of intervertebral disc）",
+      "flashcard_summary": "神經科 / 選項 D -> 腰椎椎間盤突出壓迫神經根的典型症狀。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "負重後突發腰痛 / 下肢後側放射至腳底麻痛 / S1 神經根壓迫",
-      "flashcard_back": "負重突發腰痛伴隨下肢後側放射至腳底痛麻，應診斷為「腰椎椎間盤突出（HIVD）」。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_057",
@@ -1645,23 +1645,23 @@
         "D": "血液檢查可能出現anti-SSA antibody"
       },
       "correct_answer": "A",
-      "explanation": "患者右腳無力，且肚臍以下左側痛溫覺喪失，是典型的脊髓半切症候群（Brown-Séquard syndrome）。在急性脊髓炎的磁振造影（MRI）病灶處，典型表現應為「T2訊號上升（T2-weighted hyperintense，代表水腫與去髓鞘）」，而 T1 訊號多為正常或下降（hypointense），故A選項稱 T1上升、T2不變是錯誤的。",
+      "explanation": "【題幹解析】\n45歲女性主訴右腳無力兩天,神經學檢查發現右下肢無力,肚臍以下左側痛、溫覺喪失,檢查顯示為發炎性 脊髓病變,對於她的檢查結果之敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：患者右腳無力，且肚臍以下左側痛溫覺喪失，是典型的脊髓半切症候群（Brown-Séquard syndrome）。在急性脊髓炎的磁振造影（MRI）病灶處，典型表現應為「T2訊號上升（T2-weighted hyperintense，代表水腫與去髓鞘）」，而 T1 訊號多為正常或下降（hypointense），故A選項稱 T1上升、T2不變是錯誤的。\n\n【選項詳解】\n- A. 正確。磁振造影呈現病灶處T1訊號上升(T1-weighted hyperintense)、T2訊號不變(T2-weighted isointense),則可能為急性脊髓炎。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「脊髓半切症候群與急性脊髓炎的 MRI 特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。視神經檢查可幫助診斷視神經脊髓炎。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脊髓半切症候群與急性脊髓炎的 MRI 特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。腰椎穿刺結果可能發現細胞–蛋白分離(cytoalbuminologic dissociation)。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脊髓半切症候群與急性脊髓炎的 MRI 特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。血液檢查可能出現anti-SSA antibody。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「脊髓半切症候群與急性脊髓炎的 MRI 特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n脊髓半切症候群與急性脊髓炎的 MRI 特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "脊髓半切症候群與急性脊髓炎的 MRI 特徵。",
-      "flashcard_summary": "急性脊髓炎之 MRI 訊號特徵錯誤描述 -> 磁振造影呈現病灶處 T1 訊號上升、T2 訊號不變",
+      "flashcard_summary": "神經科 / 選項 A -> 脊髓半切症候群與急性脊髓炎的 MRI 特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "Brown-Séquard / 急性脊髓炎 MRI / T1與T2訊號變化 / 視神經檢查",
-      "flashcard_back": "急性脊髓炎在MRI的病灶處表現為「T2訊號上升、T1訊號下降或正常」，而非T1上升、T2不變。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_058",
@@ -1674,23 +1674,23 @@
         "D": "皮膚多發性神經纖維瘤(multiple skin neurofibromas)"
       },
       "correct_answer": "C",
-      "explanation": "神經纖維瘤第一型（NF1）的典型診斷標準包含：6個以上的咖啡牛奶斑、2個以上的皮膚神經纖維瘤、腋窩或腹股溝雀斑以及虹膜色素瘤（Lisch nodules）等。而「雙側聽神經瘤（bilateral acoustic neuromas）」是神經纖維瘤第二型（NF2）的標誌性特徵，不屬於 NF1 的典型症狀。",
+      "explanation": "【題幹解析】\n下列何者不是神經纖維瘤第一型(neurofibromatosis type 1)的典型症狀? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：神經纖維瘤第一型（NF1）的典型診斷標準包含：6個以上的咖啡牛奶斑、2個以上的皮膚神經纖維瘤、腋窩或腹股溝雀斑以及虹膜色素瘤（Lisch nodules）等。而「雙側聽神經瘤（bilateral acoustic neuromas）」是神經纖維瘤第二型（NF2）的標誌性特徵，不屬於 NF1 的典型症狀。\n\n【選項詳解】\n- A. 錯誤。虹膜色素瘤(Lisch nodule)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。咖啡牛奶斑(café au lait spots)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。雙側聽神經瘤(bilateral acoustic neuromas)。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。皮膚多發性神經纖維瘤(multiple skin neurofibromas)。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。",
-      "flashcard_summary": "不屬於 NF1 的典型症狀 -> 雙側聽神經瘤（為 NF2 之特徵）",
+      "flashcard_summary": "神經科 / 選項 C -> 神經纖維瘤第一型與第二型（NF1 vs NF2）的臨床症狀區分。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "神經纖維瘤 / 咖啡牛奶斑 / Lisch nodule / 雙側聽神經瘤",
-      "flashcard_back": "「雙側聽神經瘤」為神經纖維瘤第二型（NF2）之典型特徵，非第一型（NF1）典型表現。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_059",
@@ -1703,23 +1703,23 @@
         "D": "因為視神經脊髓炎病人的脊髓液,並不會出現蛋白質升高或是有oligoclonal band的現象,因此容易和多發\n 性硬化症(multiple sclerosis)區分"
       },
       "correct_answer": "A",
-      "explanation": "視神經脊髓炎（NMOSD）對脊髓的侵犯在 MRI 上常表現為縱向延伸性橫斷性脊髓炎（LETM），其連續病灶長度「通常會超過三個椎骨節段（>=3 segments）」，這是與多發性硬化症（通常小於2個節段）最關鍵的影像學鑑別點。NMOSD 的臨床預後通常比多發性硬化症差，且其脊髓液有時也會出現 oligoclonal band 陽性反應。",
+      "explanation": "【題幹解析】\n下列有關視神經脊髓炎(neuromyelitis optica spectrum disorder, NMOSD)的敘述,何者正確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：視神經脊髓炎（NMOSD）對脊髓的侵犯在 MRI 上常表現為縱向延伸性橫斷性脊髓炎（LETM），其連續病灶長度「通常會超過三個椎骨節段（>=3 segments）」，這是與多發性硬化症（通常小於2個節段）最關鍵的影像學鑑別點。NMOSD 的臨床預後通常比多發性硬化症差，且其脊髓液有時也會出現 oligoclonal band 陽性反應。\n\n【選項詳解】\n- A. 正確。視神經脊髓炎對脊髓的侵犯範圍通常可以超過三節以上。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。典型的視神經脊髓炎的臨床症狀包括:視神經炎、急性脊髓炎發作及周邊神經病變。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。視神經脊髓炎的病人比起多發性硬化症的病人的預後要好,其視力和脊髓炎導致下肢無力的情況,均可恢 復80%以上。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。因為視神經脊髓炎病人的脊髓液,並不會出現蛋白質升高或是有oligoclonal band的現象,因此容易和多發 性硬化症(multiple sclerosis)區分。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。",
-      "flashcard_summary": "NMOSD 脊髓病灶影像學特徵 -> 對脊髓的侵犯範圍通常可以超過三節以上",
+      "flashcard_summary": "神經科 / 選項 A -> 視神經脊髓炎（NMOSD）的脊髓病灶長度特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "NMOSD / LETM / 連續脊髓病灶長度 / 多發性硬化症鑑別",
-      "flashcard_back": "NMOSD之脊髓病灶在MRI上「常連續侵犯3個椎骨節段以上（LETM）」，此為診斷其重要特徵。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_060",
@@ -1732,23 +1732,23 @@
         "D": "可以導致tabes dorsalis病徵,病患出現類似刀割的神經痛、進行性的共濟失調及本體感覺缺失"
       },
       "correct_answer": "D",
-      "explanation": "神經性梅毒晚期會侵犯脊髓後索與後根，引發脊髓癆（tabes dorsalis），病患會出現刀割般的神經痛、進行性感覺性共濟失調（Proprioceptive loss）及本體感覺喪失。血中 VDRL 效價增高不能單獨確診神經梅毒；FTA-ABS 敏感性高但治癒後仍會呈陽性，不適合監測療效；Argyll-Robertson 瞳孔是光反射消失但「近看（調節）反射仍保存」。",
+      "explanation": "【題幹解析】\n對於神經性梅毒(neurosyphilis)的敘述,下列何者正確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：神經性梅毒晚期會侵犯脊髓後索與後根，引發脊髓癆（tabes dorsalis），病患會出現刀割般的神經痛、進行性感覺性共濟失調（Proprioceptive loss）及本體感覺喪失。血中 VDRL 效價增高不能單獨確診神經梅毒；FTA-ABS 敏感性高但治癒後仍會呈陽性，不適合監測療效；Argyll-Robertson 瞳孔是光反射消失但「近看（調節）反射仍保存」。\n\n【選項詳解】\n- A. 錯誤。若測得病患血中的VDRL(Veneral Disease Research Laboratory)效價增高,即可用來確診神經性梅毒感 染。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。病患的脊髓液需要做螢光螺旋體抗體試驗(fluorescent treponemal antibody absorption test, FTA-ABS)。 這個試驗的結果也可以用來監測治療效果。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。病患可以出現Argyll-Robertson瞳孔,其症狀是光反射消失,兩眼往內往近看時,瞳孔的收縮反射消失。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。可以導致tabes dorsalis病徵,病患出現類似刀割的神經痛、進行性的共濟失調及本體感覺缺失。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。",
-      "flashcard_summary": "神經梅毒晚期脊髓癆之病徵 -> 表現為刀割樣痛、進行性共濟失調及本體感覺缺失",
+      "flashcard_summary": "神經科 / 選項 D -> 神經性梅毒晚期脊髓癆（Tabes dorsalis）的臨床特徵與檢驗限制。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "神經性梅毒晚期 / 脊髓後索受損 / 刀割痛與共濟失調 / 瞳孔與實驗室限制",
-      "flashcard_back": "晚期神經梅毒會引起「脊髓癆（tabes dorsalis）」，表現為本體感覺缺失與刀割般神經痛。VDRL特異性低，無法單獨確診。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.539Z"
     },
     {
       "id": "108-1_medicine-4_061",
@@ -1761,23 +1761,23 @@
         "D": "此症較常發生於男性"
       },
       "correct_answer": "D",
-      "explanation": "妄想症在女性的發病率略高於男性或相當，因此選項D敘述『較常發生於男性』是錯誤的。此症的平均發病年齡約為40歲，且個案常因缺乏病識感而極少主動就醫，多由家人或司法強制送醫。社交孤立、移民與低社經地位等皆為此症發生的危險因子。",
+      "explanation": "【題幹解析】\n有關妄想症(delusional disorder)之敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：妄想症在女性的發病率略高於男性或相當，因此選項D敘述『較常發生於男性』是錯誤的。此症的平均發病年齡約為40歲，且個案常因缺乏病識感而極少主動就醫，多由家人或司法強制送醫。社交孤立、移民與低社經地位等皆為此症發生的危險因子。\n\n【選項詳解】\n- A. 錯誤。一般發作年齡從18到90歲都有可能,但平均發作年齡是40歲左右。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妄想症（Delusional Disorder）的流行病學與臨床特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。此類病患除非被家人或法庭強制送醫,否則很少主動尋求醫師協助。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妄想症（Delusional Disorder）的流行病學與臨床特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。社交孤立是此症之危險因子。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妄想症（Delusional Disorder）的流行病學與臨床特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。此症較常發生於男性。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「妄想症（Delusional Disorder）的流行病學與臨床特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n妄想症（Delusional Disorder）的流行病學與臨床特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "妄想症（Delusional Disorder）的流行病學與臨床特徵。",
-      "flashcard_summary": "妄想症 / 發病年齡 / 就醫意願 / 性別比例 / 社交孤立 -> 平均發病年齡約40歲，女性略多且極少主動就醫，社交孤立為危險因子",
+      "flashcard_summary": "精神科 / 選項 D -> 妄想症（Delusional Disorder）的流行病學與臨床特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "妄想症 / 發病年齡 / 就醫意願 / 性別比例 / 社交孤立",
-      "flashcard_back": "妄想症平均發病年齡約40歲，女性略多於男性，且個案極少主動就醫。社交孤立為其危險因子。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_062",
@@ -1790,23 +1790,23 @@
         "D": "lamotrigine"
       },
       "correct_answer": "D",
-      "explanation": "Lamotrigine主要用於雙極性疾患的維持期治療，特別是預防憂鬱期的復發，但因為需要緩慢滴定劑量以防嚴重皮疹，故並未被FDA核准用於急性躁期治療。鋰鹽、carbamazepine及valproic acid皆為FDA核准治療急性躁期的情緒穩定劑。",
+      "explanation": "【題幹解析】\n何者不是目前美國食品及藥物管理署(FDA)核准用於治療雙極性疾患(bipolar disorder)躁期的藥物? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：Lamotrigine主要用於雙極性疾患的維持期治療，特別是預防憂鬱期的復發，但因為需要緩慢滴定劑量以防嚴重皮疹，故並未被FDA核准用於急性躁期治療。鋰鹽、carbamazepine及valproic acid皆為FDA核准治療急性躁期的情緒穩定劑。\n\n【選項詳解】\n- A. 錯誤。鋰鹽(lithium)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。carbamazepine。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。valproic acid。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。lamotrigine。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。",
-      "flashcard_summary": "雙極性疾患 / 急性躁期治療 / FDA核准 / 藥物滴定 / Stevens-Johnson症候群 -> Lamotrigine未核准用於急性躁期，主要用於維持期預防憂鬱",
+      "flashcard_summary": "精神科 / 選項 D -> 雙極性疾患（Bipolar Disorder）急性躁期治療之FDA核准藥物。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "雙極性疾患 / 急性躁期治療 / FDA核准 / 藥物滴定 / Stevens-Johnson症候群",
-      "flashcard_back": "Lamotrigine因需緩慢滴定以防嚴重皮疹，未核准用於急性躁期，主要用於維持期預防憂鬱發作。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_063",
@@ -1819,23 +1819,23 @@
         "D": "兩種疾患的個案在憂鬱期接受的藥物治療皆以抗憂鬱劑為首選"
       },
       "correct_answer": "C",
-      "explanation": "重度憂鬱症的終生盛行率高於雙極性疾患，且家族遺傳關聯性低於雙極性疾患，性別上則以女性患者較多，因此選項C正確。第一型雙極性疾患的診斷僅需經歷過至少一次躁期，不一定需要有重鬱期。在藥物治療上，雙極性疾患憂鬱期的治療首選為情緒穩定劑或非典型抗精神病藥，而非單用抗憂鬱劑（易誘發躁症轉化）。",
+      "explanation": "【題幹解析】\n關於雙極性疾患(bipolar disorder)與重度憂鬱症(major depressive disorder)的敘述,下列何者正確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：重度憂鬱症的終生盛行率高於雙極性疾患，且家族遺傳關聯性低於雙極性疾患，性別上則以女性患者較多，因此選項C正確。第一型雙極性疾患的診斷僅需經歷過至少一次躁期，不一定需要有重鬱期。在藥物治療上，雙極性疾患憂鬱期的治療首選為情緒穩定劑或非典型抗精神病藥，而非單用抗憂鬱劑（易誘發躁症轉化）。\n\n【選項詳解】\n- A. 錯誤。重度憂鬱症的終生盛行率(lifetime prevalence)較低。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。雙極性疾患的定義為必須包括重鬱期(major depressive episode)及躁期(manic episode)皆經歷。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。重度憂鬱症的家族遺傳關聯性低於雙極性疾患,且女性患者較多。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。兩種疾患的個案在憂鬱期接受的藥物治療皆以抗憂鬱劑為首選。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。",
-      "flashcard_summary": "雙極性疾患 vs 重度憂鬱症 / 盛行率 / 遺傳性 / 憂鬱期首選藥物 / 診斷標準 -> 重度憂鬱症盛行率較高、遺傳性較低且女性較多，雙極性憂鬱首選非單用抗憂鬱劑",
+      "flashcard_summary": "精神科 / 選項 C -> 雙極性疾患與重度憂鬱症的流行病學、診斷及治療差異。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "雙極性疾患 vs 重度憂鬱症 / 盛行率 / 遺傳性 / 憂鬱期首選藥物 / 診斷標準",
-      "flashcard_back": "重度憂鬱症盛行率較高、遺傳性較低且女性較多；雙極性憂鬱期藥物首選為情緒穩定劑而非單用抗憂鬱劑。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_064",
@@ -1848,23 +1848,23 @@
         "D": "常常因為失落或身體疾病誘發自殺行為"
       },
       "correct_answer": "B",
-      "explanation": "老年人自殺企圖的致死率極高，因為他們通常經過周密計畫，且較常採用強烈、激烈且致命性高的手段，因此選項B敘述『較少採用激烈的手段』是錯誤的。老年人自殺死亡者在性別上男性顯著多於女性，且憂鬱症是最常見的共病精神疾患，失落（如喪偶、退休）或身體疾病也是常見的誘發因素。",
+      "explanation": "【題幹解析】\n有關老年人自殺之敘述何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：老年人自殺企圖的致死率極高，因為他們通常經過周密計畫，且較常採用強烈、激烈且致命性高的手段，因此選項B敘述『較少採用激烈的手段』是錯誤的。老年人自殺死亡者在性別上男性顯著多於女性，且憂鬱症是最常見的共病精神疾患，失落（如喪偶、退休）或身體疾病也是常見的誘發因素。\n\n【選項詳解】\n- A. 錯誤。憂鬱症為最常見的共病精神疾患。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「老年人自殺的流行病學、阻礙與手段特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。老年人自殺較少採用激烈的手段。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「老年人自殺的流行病學、阻礙與手段特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。自殺死亡者,男性多於女性。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「老年人自殺的流行病學、阻礙與手段特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。常常因為失落或身體疾病誘發自殺行為。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「老年人自殺的流行病學、阻礙與手段特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n老年人自殺的流行病學、阻礙與手段特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "老年人自殺的流行病學、阻礙與手段特徵。",
-      "flashcard_summary": "老年人自殺 / 激烈手段 / 性別差異 / 常見共病 / 誘發因素 -> 老年人傾向使用激烈且高致命性手段，死亡者男性多於女性",
+      "flashcard_summary": "精神科 / 選項 B -> 老年人自殺的流行病學、阻礙與手段特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "老年人自殺 / 激烈手段 / 性別差異 / 常見共病 / 誘發因素",
-      "flashcard_back": "老年人自殺傾向使用高致命性、激烈的手段，自殺死亡者男性多於女性，憂鬱症為最常見共病。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_065",
@@ -1877,23 +1877,23 @@
         "D": "通常初次發生於成人早期"
       },
       "correct_answer": "D",
-      "explanation": "社交焦慮症通常初次發病於童年或青少年早期（中位數年齡約為13歲，大部分在8至15歲之間），而非成人早期，故選項D敘述錯誤。此症患者核心症狀為害怕他人的負面評價，常伴隨逃避社交場合的行為。在DSM-IV診斷標準中，成人患者通常能理解這種害怕是過度或不合理的（雖然DSM-5已移除此限制，但發病年齡顯然不符合成人早期）。",
+      "explanation": "【題幹解析】\n關於社交焦慮症(social anxiety disorder (social phobia))的描述下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：社交焦慮症通常初次發病於童年或青少年早期（中位數年齡約為13歲，大部分在8至15歲之間），而非成人早期，故選項D敘述錯誤。此症患者核心症狀為害怕他人的負面評價，常伴隨逃避社交場合的行為。在DSM-IV診斷標準中，成人患者通常能理解這種害怕是過度或不合理的（雖然DSM-5已移除此限制，但發病年齡顯然不符合成人早期）。\n\n【選項詳解】\n- A. 錯誤。個案主要是害怕他人批評或評價的眼光。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「社交焦慮症的臨床表現與發病年齡特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。常伴隨逃避人群及社交場合的行為。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「社交焦慮症的臨床表現與發病年齡特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。個案認為這種對社交的害怕是過度或不合理的。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「社交焦慮症的臨床表現與發病年齡特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。通常初次發生於成人早期。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「社交焦慮症的臨床表現與發病年齡特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n社交焦慮症的臨床表現與發病年齡特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "社交焦慮症的臨床表現與發病年齡特徵。",
-      "flashcard_summary": "社交焦慮症 / 發病年齡 / 核心恐懼 / 逃避行為 / 不合理性 -> 通常於童年或青少年早期發病，核心為害怕負面評價",
+      "flashcard_summary": "精神科 / 選項 D -> 社交焦慮症的臨床表現與發病年齡特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "社交焦慮症 / 發病年齡 / 核心恐懼 / 逃避行為 / 不合理性",
-      "flashcard_back": "社交焦慮症通常在童年或青少年早期（約13歲）發病，而非成人早期，核心為害怕他人負面評價。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_066",
@@ -1906,23 +1906,23 @@
         "D": "潛意識"
       },
       "correct_answer": "A",
-      "explanation": "認知學說（如貝克認知治療）認為，影響個體情緒與行為的最主要因素是其對事件的『想法』（認知與詮釋），而非事件本身或結果。藉由修正扭曲的認知與自動化想法，可以有效改善情緒障礙。潛意識則是精神分析學派所強調的核心焦點。",
+      "explanation": "【題幹解析】\n認知學說解釋情緒障礙,認為最主要的影響因素是? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：認知學說（如貝克認知治療）認為，影響個體情緒與行為的最主要因素是其對事件的『想法』（認知與詮釋），而非事件本身或結果。藉由修正扭曲的認知與自動化想法，可以有效改善情緒障礙。潛意識則是精神分析學派所強調的核心焦點。\n\n【選項詳解】\n- A. 正確。想法。此選項符合官方答案 A，代表它最能解釋題幹所給的關鍵線索。複習時應回到「認知學說對情緒障礙之解釋機制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。事件本身。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「認知學說對情緒障礙之解釋機制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。結果。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「認知學說對情緒障礙之解釋機制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。潛意識。此選項未列入官方答案 A，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「認知學說對情緒障礙之解釋機制。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n認知學說對情緒障礙之解釋機制。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "認知學說對情緒障礙之解釋機制。",
-      "flashcard_summary": "認知學說 / 情緒障礙 / 貝克認知治療 / 認知詮釋 / 潛意識 -> 影響情緒的最主要因素是個體對事件的『想法』，而非事件本身",
+      "flashcard_summary": "精神科 / 選項 A -> 認知學說對情緒障礙之解釋機制。",
       "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "認知學說 / 情緒障礙 / 貝克認知治療 / 認知詮釋 / 潛意識",
-      "flashcard_back": "認知學說認為影響情緒的最主要因素是個體對事件的『想法』與認知，而非事件本身；潛意識為精神分析範疇。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 A",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 A。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_067",
@@ -1935,23 +1935,23 @@
         "D": "使用戒菸藥物併用團體治療"
       },
       "correct_answer": "D",
-      "explanation": "臨床實證研究顯示，結合戒菸藥物（如伐尼克蘭、布普品或尼古丁替代療法）以及心理行為諮商（如團體治療）的合併療法，其戒菸成功率顯著高於單用藥物、尼古丁貼片或單靠意志力，因此選項D正確。僅靠病人的意志力或醫生的口頭建議，其長期戒除的成效皆相當有限。",
+      "explanation": "【題幹解析】\n在尼古丁的戒癮治療中,下列那種治療方式成效最好? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：臨床實證研究顯示，結合戒菸藥物（如伐尼克蘭、布普品或尼古丁替代療法）以及心理行為諮商（如團體治療）的合併療法，其戒菸成功率顯著高於單用藥物、尼古丁貼片或單靠意志力，因此選項D正確。僅靠病人的意志力或醫生的口頭建議，其長期戒除的成效皆相當有限。\n\n【選項詳解】\n- A. 錯誤。病人自己靠意志力戒除。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「尼古丁依賴的戒癮治療成效比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。醫生建議病人戒除。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「尼古丁依賴的戒癮治療成效比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。使用尼古丁貼片或口香糖。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「尼古丁依賴的戒癮治療成效比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。使用戒菸藥物併用團體治療。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「尼古丁依賴的戒癮治療成效比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n尼古丁依賴的戒癮治療成效比較。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "尼古丁依賴的戒癮治療成效比較。",
-      "flashcard_summary": "尼古丁戒癮 / 治療成效 / 藥物治療 / 團體治療 / 意志力 -> 藥物併用團體治療之戒除成效最好",
+      "flashcard_summary": "精神科 / 選項 D -> 尼古丁依賴的戒癮治療成效比較。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "尼古丁戒癮 / 治療成效 / 藥物治療 / 團體治療 / 意志力",
-      "flashcard_back": "尼古丁戒癮治療成效最好的是戒菸藥物併用團體（行為）治療，成功率顯著優於單一或意志力戒除。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_068",
@@ -1964,23 +1964,23 @@
         "D": "了解個案拒絕手術的原委"
       },
       "correct_answer": "C",
-      "explanation": "照會精神科醫師會談的重點在於評估病患的認知心智狀態（是否能理解手術利弊）、探討其拒絕手術的原委，以及評估術後的照顧與配合能力。至於『告知手術必要性與成功率』，應是外科原照護團隊（主治醫師）在進行知情同意說明時的職責，非精神科醫師會談的主要內容，故選C。",
+      "explanation": "【題幹解析】\n一位72歲男性,有反覆性之痔瘡脫垂(hemorrhoid prolapse),但拒絕接受手術治療,外科醫師遂轉介個案 接受精神科心智狀態評估,以照會精神醫學的觀點,精神科醫師與病患會談的重點,不應該包含下列何者? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：照會精神科醫師會談的重點在於評估病患的認知心智狀態（是否能理解手術利弊）、探討其拒絕手術的原委，以及評估術後的照顧與配合能力。至於『告知手術必要性與成功率』，應是外科原照護團隊（主治醫師）在進行知情同意說明時的職責，非精神科醫師會談的主要內容，故選C。\n\n【選項詳解】\n- A. 錯誤。評估病患或其家屬之術後照顧能力。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「照會精神醫學於外科手術拒絕病患的評估重點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。評估病患心智狀態對於手術之利弊與後遺症了解程度。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「照會精神醫學於外科手術拒絕病患的評估重點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。告知手術的必要性與成功率。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「照會精神醫學於外科手術拒絕病患的評估重點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。了解個案拒絕手術的原委。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「照會精神醫學於外科手術拒絕病患的評估重點。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n照會精神醫學於外科手術拒絕病患的評估重點。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "照會精神醫學於外科手術拒絕病患的評估重點。",
-      "flashcard_summary": "照會精神醫學 / 拒絕手術 / 心智狀態評估 / 術後照顧能力 / 告知手術必要性 -> 評估病人認知與拒絕原因，告知手術必要性屬外科職責",
+      "flashcard_summary": "精神科 / 選項 C -> 照會精神醫學於外科手術拒絕病患的評估重點。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "照會精神醫學 / 拒絕手術 / 心智狀態評估 / 術後照顧能力 / 告知手術必要性",
-      "flashcard_back": "精神科會談著重評估病人認知能力與拒絕原委；告知手術風險與必要性為外科原主治醫師職責。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_069",
@@ -1993,23 +1993,23 @@
         "D": "戒斷症狀不致於產生譫妄"
       },
       "correct_answer": "C",
-      "explanation": "Diazepam屬於長效型的BZD，其活性代謝物的半衰期極長，因此立即停藥後的戒斷症狀通常在停藥後2至7天才逐漸出現，選項B敘述錯誤。嚴重的BZD戒斷會引發癲癇/抽搐發作（選項C正確）與戒斷譫妄（選項D錯誤）。戒斷時自主神經會亢進，故會出現心搏過速（心跳加快）而非心搏變慢（選項A錯誤）。",
+      "explanation": "【題幹解析】\n一位61歲男性⻑期使用diazepam每天50~60毫克達15年,若立即停止服用後,下列何者為最正確的描述? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：Diazepam屬於長效型的BZD，其活性代謝物的半衰期極長，因此立即停藥後的戒斷症狀通常在停藥後2至7天才逐漸出現，選項B敘述錯誤。嚴重的BZD戒斷會引發癲癇/抽搐發作（選項C正確）與戒斷譫妄（選項D錯誤）。戒斷時自主神經會亢進，故會出現心搏過速（心跳加快）而非心搏變慢（選項A錯誤）。\n\n【選項詳解】\n- A. 錯誤。心搏變慢。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。戒斷症狀不會在停用5天後才出現。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。抽搐發作為較嚴重之戒斷症狀。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。戒斷症狀不致於產生譫妄。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。",
-      "flashcard_summary": "長效BZD / Diazepam戒斷 / 癲癇發作 / 戒斷譫妄 / 出現時間 / 自主神經亢進 -> 症狀可延遲出現，伴隨心跳加快，抽搐與譫妄為嚴重戒斷症狀",
+      "flashcard_summary": "精神科 / 選項 C -> 長效型苯二氮平類藥物（Benzodiazepines）的戒斷症狀與特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "長效BZD / Diazepam戒斷 / 癲癇發作 / 戒斷譫妄 / 出現時間 / 自主神經亢進",
-      "flashcard_back": "長效BZD停藥後戒斷症狀可延遲至數天出現，伴隨心跳加快，嚴重者會產生抽搐發作與譫妄。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_070",
@@ -2022,23 +2022,23 @@
         "D": "症狀明顯改善之後,才對其家人進行衛教和家族性的心理介入"
       },
       "correct_answer": "C",
-      "explanation": "病童抱怨身體不適、擔心父母安全且無法上學、做惡夢等特徵，完全符合兒童分離焦慮症而非廣泛性焦慮症。此症第一線非藥物治療通常以認知行為治療與父母衛教諮商為主，且衛教與家族介入應及早開始。若評估需藥物輔助，首選為選擇性血清素回收抑制劑（SSRI）等抗憂鬱劑，故選C。",
+      "explanation": "【題幹解析】\n一位8歲兒童,原本個性害羞,在搬家換學校後,一直抱怨上學後自己身體不適、擔心父母親不來接自己回 家,某天上學前會哭鬧抗拒上學,晚上睡覺一直做有關爸媽不見了的惡夢,持續超過一個月。下列何者正 確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：病童抱怨身體不適、擔心父母安全且無法上學、做惡夢等特徵，完全符合兒童分離焦慮症而非廣泛性焦慮症。此症第一線非藥物治療通常以認知行為治療與父母衛教諮商為主，且衛教與家族介入應及早開始。若評估需藥物輔助，首選為選擇性血清素回收抑制劑（SSRI）等抗憂鬱劑，故選C。\n\n【選項詳解】\n- A. 錯誤。以上的描述完全符合兒童的廣泛性焦慮症(generalized anxiety disorder)的特徵。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。第一線的治療方式是精神分析性的心理治療。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。若要藥物治療,應選擇具血清素(serotonin)回收抑制效果的抗憂鬱劑。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。症狀明顯改善之後,才對其家人進行衛教和家族性的心理介入。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。",
-      "flashcard_summary": "分離焦慮症 / 身體症狀 / 惡夢 / 第一線藥物 / 家族衛生教育 -> 分離焦慮症藥物治療首選為SSRI，家族介入應及早進行",
+      "flashcard_summary": "精神科 / 選項 C -> 兒童分離焦慮症（Separation Anxiety Disorder）的臨床表現與治療原則。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "分離焦慮症 / 身體症狀 / 惡夢 / 第一線藥物 / 家族衛生教育",
-      "flashcard_back": "病童因分離焦慮拒學或做惡夢持續一個月以上，藥物治療首選為SSRI；家族衛教介入應儘早開始。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.562Z"
     },
     {
       "id": "108-1_medicine-4_071",
@@ -2051,23 +2051,23 @@
         "D": "男生多於女生"
       },
       "correct_answer": "B",
-      "explanation": "根據DSM-5診斷標準，妥瑞氏症的抽搐（tic）症狀必須在18歲以前出現（而非12歲前），因此選項B錯誤。此症診斷需同時符合多種動作抽搐及至少一種聲音抽搐，且病程持續一年以上。在性別上男性患者顯著多於女性，臨床上可使用低劑量抗精神病藥物（如aripiprazole、haloperidol）進行治療。",
+      "explanation": "【題幹解析】\n下列有關妥瑞氏症(Tourette's disorder)的敘述,何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：根據DSM-5診斷標準，妥瑞氏症的抽搐（tic）症狀必須在18歲以前出現（而非12歲前），因此選項B錯誤。此症診斷需同時符合多種動作抽搐及至少一種聲音抽搐，且病程持續一年以上。在性別上男性患者顯著多於女性，臨床上可使用低劑量抗精神病藥物（如aripiprazole、haloperidol）進行治療。\n\n【選項詳解】\n- A. 錯誤。須合併有動作抽搐(tic)和聲音抽搐。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。症狀須在12歲前出現。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。可使用低劑量的抗精神病藥物(antipsychotics)治療。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。男生多於女生。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。",
-      "flashcard_summary": "妥瑞氏症 / 診斷年齡 / 動作與聲音抽搐 / 抗精神病藥物 / 性別比例 -> 症狀須於18歲前出現，包含動作與聲音抽搐，可用抗精神病藥治療",
+      "flashcard_summary": "精神科 / 選項 B -> 妥瑞氏症（Tourette's Disorder）的診斷標準與藥物治療。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "妥瑞氏症 / 診斷年齡 / 動作與聲音抽搐 / 抗精神病藥物 / 性別比例",
-      "flashcard_back": "妥瑞氏症症狀必須在18歲前出現，需合併多種動作與至少一種聲音抽搐，常用低劑量抗精神病藥治療。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_072",
@@ -2080,23 +2080,23 @@
         "D": "易共病物質使用相關疾患"
       },
       "correct_answer": "C",
-      "explanation": "針對ADHD的多項系統性回顧與臨床指引顯示，中樞神經刺激劑（藥物治療）的療效顯著，且其療效通常優於單純的非藥物治療，因此選項C『非藥物治療療效遠優於藥物治療』是錯誤的。隨著年齡增長，過動與衝動症狀通常會比注意力缺陷問題較早改善，但部分患者的注意力缺陷問題仍會持續到成人期，且此症患者易共病物質濫用等問題。",
+      "explanation": "【題幹解析】\n關於注意力缺損/過動疾患(attention-deficit/hyperactivity disorder)何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：針對ADHD的多項系統性回顧與臨床指引顯示，中樞神經刺激劑（藥物治療）的療效顯著，且其療效通常優於單純的非藥物治療，因此選項C『非藥物治療療效遠優於藥物治療』是錯誤的。隨著年齡增長，過動與衝動症狀通常會比注意力缺陷問題較早改善，但部分患者的注意力缺陷問題仍會持續到成人期，且此症患者易共病物質濫用等問題。\n\n【選項詳解】\n- A. 錯誤。過動症狀比注意力問題較早改善。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「注意力不足過動症（ADHD）的預後、共病與治療成效。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。到成人時期仍然有部分患者有注意力缺損問題。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「注意力不足過動症（ADHD）的預後、共病與治療成效。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 正確。注意力缺損/過動疾患治療之統合分析結果顯示,非藥物治療之療效遠優於藥物治療。此選項符合官方答案 C，代表它最能解釋題幹所給的關鍵線索。複習時應回到「注意力不足過動症（ADHD）的預後、共病與治療成效。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。易共病物質使用相關疾患。此選項未列入官方答案 C，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「注意力不足過動症（ADHD）的預後、共病與治療成效。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n注意力不足過動症（ADHD）的預後、共病與治療成效。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "注意力不足過動症（ADHD）的預後、共病與治療成效。",
-      "flashcard_summary": "ADHD / 藥物 vs 非藥物療效 / 症狀演變 / 成人期殘留 / 物質使用共病 -> 藥物療效高於非藥物治療，過動比注意力問題較早改善",
+      "flashcard_summary": "精神科 / 選項 C -> 注意力不足過動症（ADHD）的預後、共病與治療成效。",
       "review_status": "ai_generated",
       "correct_answers": [
         "C"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "ADHD / 藥物 vs 非藥物療效 / 症狀演變 / 成人期殘留 / 物質使用共病",
-      "flashcard_back": "ADHD治療中藥物療效通常優於非藥物治療；過動症狀較早改善，注意力缺失常殘留至成人。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 C",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 C。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_073",
@@ -2109,23 +2109,23 @@
         "D": "modafinil"
       },
       "correct_answer": "D",
-      "explanation": "Modafinil（莫達非尼）是一種促醒藥物，已被美國FDA核准用於治療嗜睡症引起之日間過度嗜睡。Clozapine為非典型抗精神病藥，lorazepam為抗焦慮藥（BZD），lithium為情緒穩定劑，三者皆不適用於嗜睡症的促醒治療。",
+      "explanation": "【題幹解析】\n下列何種藥物已被美國FDA認可用於治療嗜睡症(narcolepsy)? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：Modafinil（莫達非尼）是一種促醒藥物，已被美國FDA核准用於治療嗜睡症引起之日間過度嗜睡。Clozapine為非典型抗精神病藥，lorazepam為抗焦慮藥（BZD），lithium為情緒穩定劑，三者皆不適用於嗜睡症的促醒治療。\n\n【選項詳解】\n- A. 錯誤。clozapine。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「嗜睡症（Narcolepsy）的FDA核准藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。lorazepam。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「嗜睡症（Narcolepsy）的FDA核准藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。lithium。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「嗜睡症（Narcolepsy）的FDA核准藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。modafinil。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「嗜睡症（Narcolepsy）的FDA核准藥物治療。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n嗜睡症（Narcolepsy）的FDA核准藥物治療。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "嗜睡症（Narcolepsy）的FDA核准藥物治療。",
-      "flashcard_summary": "嗜睡症 / 日間過度嗜睡 / FDA核准藥物 / 促醒藥物 -> Modafinil為FDA核准治療嗜睡症日間過度嗜睡之藥物",
+      "flashcard_summary": "精神科 / 選項 D -> 嗜睡症（Narcolepsy）的FDA核准藥物治療。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "嗜睡症 / 日間過度嗜睡 / FDA核准藥物 / 促醒藥物",
-      "flashcard_back": "Modafinil為促醒藥物，是FDA核准用於治療嗜睡症日間過度嗜睡的首選藥物之一。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_074",
@@ -2138,23 +2138,23 @@
         "D": "使用酒精可幫助入眠,減少睡眠中斷,增加快速動眼期睡眠(REM sleep)及stage 4 sleep"
       },
       "correct_answer": "D",
-      "explanation": "飲用酒精雖能縮短入睡潛伏期，但會破壞整體的睡眠結構，包括顯著減少快速動眼期（REM）睡眠與深睡期（NREM Stage 4），並增加後半夜的睡眠中斷，故選項D敘述錯誤。酒精戒斷症候群治療首選為Benzodiazepines，常見症狀包含手抖、焦慮、幻覺與癲癇。此症亦常共病反社會人格或焦慮情感疾患。",
+      "explanation": "【題幹解析】\n關於酒精相關障礙症(alcohol related disorders)之敘述,下列何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：飲用酒精雖能縮短入睡潛伏期，但會破壞整體的睡眠結構，包括顯著減少快速動眼期（REM）睡眠與深睡期（NREM Stage 4），並增加後半夜的睡眠中斷，故選項D敘述錯誤。酒精戒斷症候群治療首選為Benzodiazepines，常見症狀包含手抖、焦慮、幻覺與癲癇。此症亦常共病反社會人格或焦慮情感疾患。\n\n【選項詳解】\n- A. 錯誤。常共病(comorbid)其他物質相關障礙症、反社會型人格障礙症(antisocial personality disorder)、情感 性疾患(mood disorders)、或焦慮性疾患(anxiety disorders)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「酒精相關障礙症的共病、戒斷症狀與睡眠影響。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。酒精戒斷症候群包括:手抖、焦慮、噁心、幻覺及癲癇發作等。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「酒精相關障礙症的共病、戒斷症狀與睡眠影響。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。酒精戒斷症候群治療首選為benzodiazepines。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「酒精相關障礙症的共病、戒斷症狀與睡眠影響。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。使用酒精可幫助入眠,減少睡眠中斷,增加快速動眼期睡眠(REM sleep)及stage 4 sleep。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「酒精相關障礙症的共病、戒斷症狀與睡眠影響。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n酒精相關障礙症的共病、戒斷症狀與睡眠影響。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "酒精相關障礙症的共病、戒斷症狀與睡眠影響。",
-      "flashcard_summary": "酒精 / 睡眠結構影響 / 酒精戒斷首選藥 / 戒斷症狀 / 共病 -> 酒精破壞睡眠結構且減少REM，BZD為酒精戒斷治療首選",
+      "flashcard_summary": "精神科 / 選項 D -> 酒精相關障礙症的共病、戒斷症狀與睡眠影響。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "酒精 / 睡眠結構影響 / 酒精戒斷首選藥 / 戒斷症狀 / 共病",
-      "flashcard_back": "酒精會抑制快速動眼期（REM）與深睡並造成睡眠中斷；BZD為酒精戒斷治療首選藥物。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_075",
@@ -2167,23 +2167,23 @@
         "D": "睡眠驚恐症(sleep terror)常發生於非快速動眼期的深睡期(deep NREM sleep)"
       },
       "correct_answer": "D",
-      "explanation": "睡眠驚恐症（sleep terror）與夢遊（sleepwalking）皆屬於非快速動眼期（NREM）的異睡症，常發生於前半夜的深前非快速動眼期（N3期），因此選項D正確，選項A、B錯誤。夢魘（nightmare）則主要發生於後半夜的快速動眼期（REM），故選項C錯誤。",
+      "explanation": "【題幹解析】\n關於睡眠障礙,下列何者正確? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個精神科知識點。既有解析重點可整理為：睡眠驚恐症（sleep terror）與夢遊（sleepwalking）皆屬於非快速動眼期（NREM）的異睡症，常發生於前半夜的深前非快速動眼期（N3期），因此選項D正確，選項A、B錯誤。夢魘（nightmare）則主要發生於後半夜的快速動眼期（REM），故選項C錯誤。\n\n【選項詳解】\n- A. 錯誤。睡眠驚恐症(sleep terror)常發生於睡眠的後半夜。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 錯誤。夢遊(sleepwalking)主要發生於快速動眼期(REM period)。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。夢魘(噩夢,nightmare)主要發生於非快速動眼期(NREM )。此選項未列入官方答案 D，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 正確。睡眠驚恐症(sleep terror)常發生於非快速動眼期的深睡期(deep NREM sleep)。此選項符合官方答案 D，代表它最能解釋題幹所給的關鍵線索。複習時應回到「睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。",
-      "flashcard_summary": "睡眠驚恐症 vs 夢遊 vs 夢魘 / 睡眠分期 / 前後半夜 / NREM vs REM -> 睡眠驚恐與夢遊在前半夜NREM，夢魘在後半夜REM",
+      "flashcard_summary": "精神科 / 選項 D -> 睡眠驚恐症、夢遊與夢魘（噩夢）的睡眠分期特徵比較。",
       "review_status": "ai_generated",
       "correct_answers": [
         "D"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "睡眠驚恐症 vs 夢遊 vs 夢魘 / 睡眠分期 / 前後半夜 / NREM vs REM",
-      "flashcard_back": "睡眠驚恐症與夢遊發生於前半夜深度NREM期（N3）；夢魘則發生於後半夜的REM期。",
+      "flashcard_front": "精神科 / 題幹線索 / 選項 D",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 D。",
       "category_group": "醫學（四）",
       "category": "精神科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_076",
@@ -2196,23 +2196,23 @@
         "D": "同位素肝臟掃描"
       },
       "correct_answer": "B",
-      "explanation": "對於腹部鈍傷且生命徵象相對穩定、疑似有肝臟等實質器官血管傷害出血的病患，對比劑輔助的電腦斷層掃描（CT）是首選且最為優先的影像評估方法。CT能快速且清楚地顯示實質器官裂傷、血腫範圍及是否有主動脈外滲等活性出血，而血管攝影通常保留於後續動脈栓塞治療時使用。",
+      "explanation": "【題幹解析】\n15歲學生不幸摔車疑似造成上腹部器官挫傷,抱怨上腹部疼痛、心跳加快,若欲進行腹部影像評估是否有肝 臟血管傷害出血,下列何者最為優先? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個小兒科知識點。既有解析重點可整理為：對於腹部鈍傷且生命徵象相對穩定、疑似有肝臟等實質器官血管傷害出血的病患，對比劑輔助的電腦斷層掃描（CT）是首選且最為優先的影像評估方法。CT能快速且清楚地顯示實質器官裂傷、血腫範圍及是否有主動脈外滲等活性出血，而血管攝影通常保留於後續動脈栓塞治療時使用。\n\n【選項詳解】\n- A. 錯誤。血管攝影。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「鈍傷性肝臟血管傷害之首選影像評估方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。電腦斷層掃描。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「鈍傷性肝臟血管傷害之首選影像評估方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。磁振造影。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「鈍傷性肝臟血管傷害之首選影像評估方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。同位素肝臟掃描。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「鈍傷性肝臟血管傷害之首選影像評估方法。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n鈍傷性肝臟血管傷害之首選影像評估方法。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "鈍傷性肝臟血管傷害之首選影像評估方法。",
-      "flashcard_summary": "腹部鈍傷 / 肝臟血管傷害 / 影像評估 / 電腦斷層 / 活性出血 -> 穩定患者首選電腦斷層掃描評估實質器官與血管傷害",
+      "flashcard_summary": "小兒科 / 選項 B -> 鈍傷性肝臟血管傷害之首選影像評估方法。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "腹部鈍傷 / 肝臟血管傷害 / 影像評估 / 電腦斷層 / 活性出血",
-      "flashcard_back": "腹部鈍傷疑似實質器官血管傷害時，若生命徵象穩定，首選影像評估為腹部電腦斷層掃描。",
+      "flashcard_front": "小兒科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_077",
@@ -2225,23 +2225,23 @@
         "D": "避免使用aspirin治療"
       },
       "correct_answer": "B",
-      "explanation": "水痘由水痘帶狀疱疹病毒（人類疱疹病毒第三型，HHV-3）引起，其傳染期是從『疹子出現前1至2天』就開始具有高度傳染性，直到所有疹子都結痂為止，因此選項B敘述『疹子出現後才開始具傳染性』是錯誤的（不恰當的）。此症臨床表現以向心性分布的紅斑、丘疹、水疱及結痂同時存在為特徵，併發症包括繼發性細菌感染、腦炎與肺炎，且應避免使用Aspirin以防止Reye氏症候群。",
+      "explanation": "【題幹解析】\n一位10歲兒童因發燒2天及起疹子至急診就醫,檢查時發現疹子型態有maculae、papulae和vesicles等,下 列何者敘述最不恰當? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個小兒科知識點。既有解析重點可整理為：水痘由水痘帶狀疱疹病毒（人類疱疹病毒第三型，HHV-3）引起，其傳染期是從『疹子出現前1至2天』就開始具有高度傳染性，直到所有疹子都結痂為止，因此選項B敘述『疹子出現後才開始具傳染性』是錯誤的（不恰當的）。此症臨床表現以向心性分布的紅斑、丘疹、水疱及結痂同時存在為特徵，併發症包括繼發性細菌感染、腦炎與肺炎，且應避免使用Aspirin以防止Reye氏症候群。\n\n【選項詳解】\n- A. 錯誤。由Herpes virus引起。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「水痘（Varicella）的病原體、臨床表現與傳染期特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。疹子出現後開始具傳染性。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「水痘（Varicella）的病原體、臨床表現與傳染期特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。可能產生的併發症包括腦炎、肺炎。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「水痘（Varicella）的病原體、臨床表現與傳染期特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。避免使用aspirin治療。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「水痘（Varicella）的病原體、臨床表現與傳染期特徵。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n水痘（Varicella）的病原體、臨床表現與傳染期特徵。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "水痘（Varicella）的病原體、臨床表現與傳染期特徵。",
-      "flashcard_summary": "水痘 / 傳染期 / 疹子出現前 / 疱疹病毒 / Aspirin禁忌 -> 疹前1-2天即具傳染性，禁用Aspirin以避免Reye氏症候群",
+      "flashcard_summary": "小兒科 / 選項 B -> 水痘（Varicella）的病原體、臨床表現與傳染期特徵。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "水痘 / 傳染期 / 疹子出現前 / 疱疹病毒 / Aspirin禁忌",
-      "flashcard_back": "水痘在疹子出現前1-2天即具傳染性；治療發燒時應禁用Aspirin以防引發Reye氏症候群。",
+      "flashcard_front": "小兒科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "小兒科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_078",
@@ -2254,52 +2254,81 @@
         "D": "以r-tPA治療缺血性腦中風之劑量,最大量不超過90 mg"
       },
       "correct_answer": "B",
-      "explanation": "在急性缺血性腦中風中，若病患『不適合』接受靜脈溶栓（rt-PA）治療，其血壓通常不需緊急調降，除非收縮壓 > 220 mmHg 或舒張壓 > 120 mmHg，故選項B敘述的『收縮壓>200或舒張壓>100即需緊急降壓』是錯誤的。若病患適合rt-PA治療，血壓應控制在 185/110 mmHg 以下，且rt-PA的最大劑量不超過 90 mg（即體重達100公斤以上亦僅使用90 mg）。",
+      "explanation": "【題幹解析】\n有關腦中風之治療,下列敘述何者錯誤? 本題作答時應先抓住題幹中的部位、病程、檢驗或處置線索，再判斷其對應到哪一個神經科知識點。既有解析重點可整理為：在急性缺血性腦中風中，若病患『不適合』接受靜脈溶栓（rt-PA）治療，其血壓通常不需緊急調降，除非收縮壓 > 220 mmHg 或舒張壓 > 120 mmHg，故選項B敘述的『收縮壓>200或舒張壓>100即需緊急降壓』是錯誤的。若病患適合rt-PA治療，血壓應控制在 185/110 mmHg 以下，且rt-PA的最大劑量不超過 90 mg（即體重達100公斤以上亦僅使用90 mg）。\n\n【選項詳解】\n- A. 錯誤。大多數腦中風病人的血壓,會在疼痛、躁動、腦壓受控制後自然降低。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- B. 正確。缺血性腦中風,收縮壓>200 mmHg,舒張壓>100 mmHg以上時,要緊急降壓。此選項符合官方答案 B，代表它最能解釋題幹所給的關鍵線索。複習時應回到「急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- C. 錯誤。針對3小時內缺血性腦中風病人,適合給r-tPA治療者,可改善神經學預後。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。」這個核心判斷，確認選項與題幹之間是否真正對應。\n- D. 錯誤。以r-tPA治療缺血性腦中風之劑量,最大量不超過90 mg。此選項未列入官方答案 B，通常是相近但不符合題幹限制、病生理機轉、診斷條件或處置優先順序的干擾項。複習時應回到「急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。」這個核心判斷，確認選項與題幹之間是否真正對應。\n\n【核心考點】\n急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。 備考時不要只背答案字母，而要練習把題幹線索、選項概念與標準答案連在一起；遇到相似選項時，以最能完整解釋題幹條件者為優先。",
       "key_point": "急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。",
-      "flashcard_summary": "缺血性腦中風 / 降壓標準 / rt-PA劑量限制 / 溶栓前血壓 / 最大劑量 -> 非溶栓患者降壓標準為>220/120，rt-PA最大量限90 mg",
+      "flashcard_summary": "神經科 / 選項 B -> 急性缺血性腦中風（Acute Ischemic Stroke）的血壓控制與rt-PA治療指引。",
       "review_status": "ai_generated",
       "correct_answers": [
         "B"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "缺血性腦中風 / 降壓標準 / rt-PA劑量限制 / 溶栓前血壓 / 最大劑量",
-      "flashcard_back": "非溶栓患者收縮壓>220或舒張壓>120才需降壓；rt-PA最大劑量不超過90 mg，溶栓前血壓需維持在185/110以下。",
+      "flashcard_front": "神經科 / 題幹線索 / 選項 B",
+      "flashcard_back": "先抓題幹關鍵線索，再與各選項的機轉、診斷或處置適應症比對；最能完整對應者即為答案 B。",
       "category_group": "醫學（四）",
       "category": "神經科",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "explanation_model": "antigravity-local-fallback",
+      "explanation_generated_at": "2026-06-30T06:59:43.564Z"
     },
     {
       "id": "108-1_medicine-4_079",
       "question_number": 79,
-      "question_text": "「耶和華見證人」(Jehovah's Witnesses)教派信徒在醫療上堅持不接受輸血。近來基於尊重病人自主的\n 倫理原則,法律與倫理逐漸接受耶和華見證人拒絕輸血的意願,應該予以尊重;下列那一種情形,醫師應該\n 尊重一個表明為耶和華見證人的信徒拒絕輸血的意願?\n A.成年且有行為能力的病人情況緊急,如果不輸血的話,病人就會死亡;但有清楚的文書證據,證明病人的\n 確有拒絕輸血的意願\n B.病人是懷孕36週的婦女拒絕輸血\n C.病人是15歲的未成年人拒絕輸血\n D.父母都是耶和華見證人信徒,為其8歲病童拒絕輸血\n80.2000公克早產兒在加護病房住院近兩個月,她因為雙側腎臟發育不全而合併慢性腎衰竭,又因為肺發育不全\n 合併肺炎一直倚賴呼吸器治療,於3週前需開始⻑期腹膜透析以維持電解質及體液等平衡。很不幸地,這兩\n 天醫師發現嬰兒發燒、透析液轉為混濁,並且流量大為減少,初步檢查診斷為黴菌性腹膜炎,除了用藥外,\n 醫師建議手術更換腹膜透析管。這時候,不滿20歲的年輕父母親要求醫師:「她實在好可憐,不要救了,讓\n 她走吧,請幫我們移除呼吸器,讓我們回家吧!」。下列何種做法最合適?",
+      "question_text": "「耶和華見證人」（Jehovah's Witnesses）教派信徒在醫療上堅持不接受輸血。近來基於尊重病人自主的倫理原則，法律與倫理逐漸接受耶和華見證人拒絕輸血的意願，應該予以尊重；下列那一種情形，醫師應該尊重一個表明為耶和華見證人的信徒拒絕輸血的意願？",
       "options": {
-        "A": "父母生她,也是法定代理人,必須由父母移除其呼吸器",
-        "B": "取得父母同意書後,施予緩和醫療,可由醫護人員移除呼吸器,讓她回家",
-        "C": "以所有可用之現代醫療盡全力搶救到最後",
-        "D": "不移除維生之呼吸器,但停止手術等積極治療"
+        "A": "成年且有行為能力的病人情況緊急，如果不輸血的話，病人就會死亡；但有清楚的文書證據，證明病人的確有拒絕輸血的意願",
+        "B": "病人是懷孕36週的婦女拒絕輸血",
+        "C": "病人是15歲的未成年人拒絕輸血",
+        "D": "父母都是耶和華見證人信徒，為其8歲病童拒絕輸血"
       },
       "correct_answer": "A",
-      "explanation": "本題由兩部分組成。前半部分探討耶和華見證人拒絕輸血，基於尊重病人自主原則，當個案為『成年且有行為能力』且有清楚文書證據時，醫師必須尊重其意願，故其正確答案為A。後半部分為早產兒慢性腎衰竭合併黴菌性腹膜炎之決策，依倫理規範，醫療團隊在評估未成年人生命末期決策時應以其最大利益為首要，不宜由法定代理人隨意終止維生設備。本題因系統題幹與選項整合異常，官方答案維持A以支持前半部之成年自主權。",
-      "key_point": "耶和華見證人拒絕輸血之自主權與新生兒生命末期倫理決策。",
-      "flashcard_summary": "耶和華見證人 / 拒絕輸血 / 成年有行為能力 / 文書證據 / 醫療自主權 -> 成年且有行為能力者有文書證據拒絕輸血時應予尊重",
-      "review_status": "ai_generated",
       "correct_answers": [
         "A"
       ],
       "answer_status": "standard",
       "answer_source": "official_correction",
-      "flashcard_front": "耶和華見證人 / 拒絕輸血 / 成年有行為能力 / 文書證據 / 醫療自主權",
-      "flashcard_back": "成年且有行為能力的耶和華見證人信徒，在有清楚文書證據下拒絕輸血，醫師應尊重其決定。",
       "category_group": "醫學（四）",
       "category": "醫學倫理與醫療決策",
       "category_confidence": "high",
       "category_source": "auto",
-      "explanation_model": "gemini-pro-manual",
-      "explanation_generated_at": "2026-06-16T16:08:23.648153+00:00"
+      "key_point": "具行為能力成年病人若有清楚拒絕輸血意願，醫師應尊重其自主決定，即使情況危及生命。",
+      "flashcard_front": "耶和華見證人 / 拒絕輸血 / 成年有行為能力 / 清楚文書意願",
+      "flashcard_back": "成年且有決定能力者的明確醫療拒絕意願具有高度自主性；未成年人、兒童或涉及胎兒利益時，醫師需更謹慎評估最大利益與法律責任。",
+      "flashcard_summary": "成年有行為能力 / 清楚拒絕輸血意願 -> 尊重病人自主，即使不輸血可能危及生命",
+      "explanation": "【題幹解析】\n本題考醫學倫理中的病人自主、宗教信念與拒絕治療。耶和華見證人常因宗教信念拒絕輸血；若病人是成年且有行為能力，並且有明確、可確認的拒絕輸血意願，醫師原則上應尊重其自主決定。相對地，未成年人或兒童的醫療決策需以兒童最佳利益為核心，父母或法定代理人不能任意拒絕可救命治療；孕婦個案則還涉及胎兒利益與母體自主的衝突，需要更謹慎處理。\n\n【選項詳解】\n- A. 正確。成年且有行為能力的病人，即使目前情況緊急，只要有清楚文書證據能證明其拒絕輸血意願，醫師應尊重其自主決定；這是本題最典型、最沒有代理決策爭議的情境。\n- B. 錯誤。懷孕36週婦女拒絕輸血牽涉母體自主與胎兒利益，倫理與法律評估較複雜，不能作為本題最單純應尊重拒絕輸血的答案。\n- C. 錯誤。15歲未成年人雖可參與醫療決策，但通常尚非完整法律上的成年自主決策者；若拒絕救命輸血，醫療團隊需評估最佳利益、監護人意見與法律程序。\n- D. 錯誤。父母不得單以宗教信念替8歲病童拒絕必要救命治療；兒童醫療決策以兒童最佳利益為優先，必要時可尋求倫理委員會或司法協助。\n\n【核心考點】\n拒絕輸血題要先判斷病人是否為成年、有決定能力、意願是否清楚可確認；只有在自主條件充分時，醫師才應直接尊重拒絕治療意願。",
+      "review_status": "ai_generated",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T07:09:02.315Z"
+    },
+    {
+      "id": "108-1_medicine-4_080",
+      "question_number": 80,
+      "question_text": "2000公克早產兒在加護病房住院近兩個月，她因為雙側腎臟發育不全而合併慢性腎衰竭，又因為肺發育不全合併肺炎一直倚賴呼吸器治療，於3週前需開始長期腹膜透析以維持電解質及體液等平衡。很不幸地，這兩天醫師發現嬰兒發燒、透析液轉為混濁，並且流量大為減少，初步檢查診斷為黴菌性腹膜炎，除了用藥外，醫師建議手術更換腹膜透析管。這時候，不滿20歲的年輕父母親要求醫師：「她實在好可憐，不要救了，讓她走吧，請幫我們移除呼吸器，讓我們回家吧！」。下列何種做法最合適？",
+      "options": {
+        "A": "父母生她，也是法定代理人，必須由父母移除其呼吸器",
+        "B": "取得父母同意書後，施予緩和醫療，可由醫護人員移除呼吸器，讓她回家",
+        "C": "以所有可用之現代醫療盡全力搶救到最後",
+        "D": "不移除維生之呼吸器，但停止手術等積極治療"
+      },
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "answer_status": "standard",
+      "answer_source": "official_correction",
+      "category_group": "醫學（四）",
+      "category": "醫學倫理與醫療決策",
+      "category_confidence": "high",
+      "category_source": "auto",
+      "key_point": "重症新生兒若已處於長期依賴維生治療且治療負擔極高，經父母同意並以病童最佳利益為核心，可轉向緩和醫療並由醫療團隊撤除維生治療。",
+      "flashcard_front": "早產兒 / 長期呼吸器 / 慢性腎衰竭 / 腹膜透析感染 / 父母要求撤除維生",
+      "flashcard_back": "未成年人生命末期決策以病童最佳利益為核心；不是由父母親自移除設備，也不是一律搶救到底，而是經充分溝通與同意後由醫療團隊提供緩和醫療。",
+      "flashcard_summary": "重症早產兒 / 長期維生治療 / 父母同意 -> 以最佳利益轉向緩和醫療，醫護可撤除呼吸器",
+      "explanation": "【題幹解析】\n題幹描述2000公克早產兒長期住加護病房，已有雙側腎臟發育不全、慢性腎衰竭、肺發育不全、肺炎、長期呼吸器依賴與腹膜透析，現在又發生黴菌性腹膜炎且需更換透析管。這些線索表示病童病情極重、治療負擔高、預後不佳。父母雖未滿20歲，但仍是病童的重要代理決策者；醫療團隊應以病童最佳利益為核心，與父母充分溝通後，若符合末期或不可逆重症情境，可改以緩和醫療減輕痛苦，並由醫護人員依程序撤除維生治療。\n\n【選項詳解】\n- A. 錯誤。父母是法定代理人或主要照護決策者，但撤除呼吸器屬醫療處置，不能要求父母親自移除；應由醫療團隊在合法、合倫理、充分告知同意後執行。\n- B. 正確。取得父母同意後施予緩和醫療，並由醫護人員移除呼吸器，符合重症新生兒生命末期照護中「最佳利益、減輕痛苦、醫療團隊執行」的原則。\n- C. 錯誤。現代醫療並不要求在所有情況下無限制搶救到底；當治療只延長痛苦且預後極差時，轉向緩和醫療可能更符合病童最佳利益。\n- D. 錯誤。只停止手術等積極治療但保留呼吸器，可能仍讓病童持續承受無效或高度負擔的維生治療；若已決定以舒適照護為目標，應完整規劃緩和醫療與撤除維生治療流程。\n\n【核心考點】\n小兒生命末期倫理題要抓住「病童最佳利益、代理決策、緩和醫療、由醫療團隊執行撤除維生治療」；不應把責任推給父母，也不必一律治療到最後。",
+      "review_status": "ai_generated",
+      "explanation_model": "antigravity-direct",
+      "explanation_generated_at": "2026-06-30T07:09:02.315Z"
     }
   ]
 }
