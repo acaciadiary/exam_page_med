@@ -208,7 +208,7 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
     const lowerKeywords = new Set(sortedKeywords.map((keyword) => keyword.toLowerCase()));
     return parts.map((part, index) =>
       lowerKeywords.has(part.toLowerCase()) ? (
-        <mark key={index} className="bg-[#ffe4e6] text-[#b8527a] px-0.5 rounded font-bold">
+        <mark key={index} className="bg-[#ffe4e6] px-0.5 font-bold text-[#b8527a] rounded dark:bg-[#573047] dark:text-[#ffc8da]">
           {part}
         </mark>
       ) : (
@@ -406,52 +406,52 @@ export function BuzzwordFlashcards({ groups, theme }: BuzzwordFlashcardsProps) {
               </div>
 
               {/* BACK SIDE (Answer & Traps) */}
-              <div className="flip-card-back absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-linear-to-b from-white to-[#fdf9f8] border border-[#efd9d0] shadow-[0_16px_40px_rgba(181,133,117,0.08)] rounded-3xl">
+              <div className="flip-card-back absolute inset-0 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-linear-to-b from-white to-[#fdf9f8] border border-[#efd9d0] shadow-[0_16px_40px_rgba(181,133,117,0.08)] rounded-3xl dark:from-[#241e2a] dark:to-[#17131d] dark:border-white/10 dark:shadow-[0_18px_48px_rgba(0,0,0,0.32)]">
                 <div className="space-y-4">
                   {/* Card Header */}
-                  <div className="flex items-center justify-between border-b border-[#efd9d0]/50 pb-3">
-                    <span className="text-xs font-bold text-[#9c7b70]">{currentCard.groupTitle}</span>
-                    <span className="text-xs font-extrabold text-[#b8527a] bg-[#fdf0f4] px-2 py-0.5 rounded-md">
+                  <div className="flex items-center justify-between border-b border-[#efd9d0]/50 pb-3 dark:border-white/10">
+                    <span className="text-xs font-bold text-[#9c7b70] dark:text-[#cbb8c2]">{currentCard.groupTitle}</span>
+                    <span className="text-xs font-extrabold text-[#b8527a] bg-[#fdf0f4] px-2 py-0.5 rounded-md dark:bg-[#573047] dark:text-[#ffc8da]">
                       解答
                     </span>
                   </div>
 
                   {/* Disease Name (The Answer) */}
-                  <div className="text-center py-4 bg-linear-to-r from-[#fdf0f4] to-[#fdf9f8] rounded-2xl border border-[#fbdde8]">
-                    <div className="text-[10px] font-bold text-[#b8527a] tracking-wider uppercase mb-1">
+                  <div className="text-center py-4 bg-linear-to-r from-[#fdf0f4] to-[#fdf9f8] rounded-2xl border border-[#fbdde8] dark:from-[#3b2534] dark:to-[#211a26] dark:border-[#6b4056]">
+                    <div className="text-[10px] font-bold text-[#b8527a] tracking-wider uppercase mb-1 dark:text-[#f3a6c4]">
                       最可能的疾病是
                     </div>
-                    <h2 className="text-xl sm:text-2xl font-extrabold text-[#b8527a] font-hand">
+                    <h2 className="text-xl sm:text-2xl font-extrabold text-[#b8527a] font-hand dark:text-[#ffc8da]">
                       {currentCard.diseaseName}
                     </h2>
                   </div>
 
                   {/* Focus Tips */}
-                  <div className="bg-[#fcf9f8] p-4 rounded-xl border border-[#efd9d0] space-y-1.5">
-                    <h4 className="text-xs font-bold text-[#4b3b35] flex items-center gap-1">
-                      <BookOpen size={14} className="text-[#b8527a]" />
+                  <div className="bg-[#fcf9f8] p-4 rounded-xl border border-[#efd9d0] space-y-1.5 dark:bg-white/5 dark:border-white/10">
+                    <h4 className="text-xs font-bold text-[#4b3b35] flex items-center gap-1 dark:text-[#f8edf3]">
+                      <BookOpen size={14} className="text-[#b8527a] dark:text-[#f3a6c4]" />
                       國考重點提煉 (Focus Tips)
                     </h4>
-                    <p className="text-xs sm:text-sm text-[#6f5b50] leading-relaxed">
+                    <p className="text-xs sm:text-sm text-[#6f5b50] leading-relaxed dark:text-[#dccbd3]">
                       {renderHighlightedText(currentCard.focusTips, currentCard.highlightKeywords)}
                     </p>
                   </div>
 
                   {/* Common Traps */}
                   {currentCard.commonTraps && (
-                    <div className="bg-[#fffbeb] p-4 rounded-xl border border-[#fde68a] space-y-1.5">
-                      <h4 className="text-xs font-bold text-[#854d0e] flex items-center gap-1">
-                        <AlertTriangle size={14} className="text-[#d97706]" />
+                    <div className="bg-[#fffbeb] p-4 rounded-xl border border-[#fde68a] space-y-1.5 dark:bg-[#2d2417] dark:border-[#6f5424]">
+                      <h4 className="text-xs font-bold text-[#854d0e] flex items-center gap-1 dark:text-[#f7db91]">
+                        <AlertTriangle size={14} className="text-[#d97706] dark:text-[#f0b84b]" />
                         小心誘答陷阱 (Common Traps)
                       </h4>
-                      <p className="text-xs sm:text-sm text-[#713f12] leading-relaxed">
+                      <p className="text-xs sm:text-sm text-[#713f12] leading-relaxed dark:text-[#ead3a3]">
                         {renderHighlightedText(currentCard.commonTraps, currentCard.highlightKeywords)}
                       </p>
                     </div>
                   )}
                 </div>
 
-                <div className="text-center text-xs font-bold text-[#a7948a] pt-4 border-t border-[#efd9d0]/40 flex items-center justify-center gap-1">
+                <div className="text-center text-xs font-bold text-[#a7948a] pt-4 border-t border-[#efd9d0]/40 flex items-center justify-center gap-1 dark:border-white/10 dark:text-[#a2949e]">
                   點擊卡片可再次翻回正面
                 </div>
               </div>
