@@ -1130,8 +1130,25 @@
       "description": "用於篩檢低鈣血症（Hypocalcemia）導致神經肌肉興奮性增高的理學體徵。",
       "clinical_signs": "將血壓計袖帶充氣至收縮壓以上維持 3 分鐘，手部肌肉會發生缺血性痙攣，呈「助產士手」外觀。",
       "exam_focus": "低鈣血症的另一個經典體徵為 Chvostek's sign（輕叩耳前顏面神經處引起嘴角抽動）。處置首選靜脈補充葡萄糖酸鈣（Calcium gluconate）。",
-      "frequency": 0,
-      "related_questions": [],
+      "frequency": 4,
+      "related_questions": [
+        {
+          "question_id": "111-2_medicine-3_004",
+          "note": "本題考身體診察徵象與疾病配對。低血鈣可出現 Chvostek's sign 與 Trousseau's sign；Kussmaul's sign 則是吸氣時頸靜脈壓上升，不是代謝性酸中毒的 Kussmaul respiration。"
+        },
+        {
+          "question_id": "112-1_medicine-5_077",
+          "note": "題目比較術後麻痺性腸阻塞的電解質原因。低血鈣常見表現是神經肌肉興奮性增加與 Trousseau 徵象，不是典型造成腸道平滑肌麻痺的原因。"
+        },
+        {
+          "question_id": "113-1_medicine-3_005",
+          "note": "拍打耳前顏面神經出現臉部肌肉收縮是 Chvostek sign；血壓計袖帶加壓後出現腕痙攣是 Trousseau sign。兩者皆提示低血鈣造成神經肌肉興奮性增加。"
+        },
+        {
+          "question_id": "113-2_medicine-3_077",
+          "note": "本題考低血鈣臨床表現，選項明確提到 Chvostek sign。可與 Trousseau sign 一起複習，兩者皆為低血鈣相關神經肌肉興奮性徵象。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1176,8 +1193,21 @@
       "description": "吸氣時頸靜脈壓不降反升，代表右心充盈受限。",
       "clinical_signs": "典型見於限制性心包膜炎，也可見於右心室梗塞、限制性心肌病變或嚴重右心衰竭。",
       "exam_focus": "常與 pulsus paradoxus 混考：吸氣 JVP 上升想到 Kussmaul sign；吸氣收縮壓下降超過 10 mmHg 想到奇脈。",
-      "frequency": 9,
-      "related_questions": [],
+      "frequency": 3,
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-3_006",
+          "note": "Kussmaul's sign 是吸氣時頸靜脈壓異常上升，典型見於限制性心包膜炎；本題也用來與心包填塞、奇脈等概念做鑑別。"
+        },
+        {
+          "question_id": "110-1_medicine-3_006",
+          "note": "心包填塞的 Beck triad 包含低血壓、頸靜脈怒張與心音低沉；Kussmaul's sign 較支持縮窄性心包炎或右心充盈受限，不屬於 Beck triad。"
+        },
+        {
+          "question_id": "111-2_medicine-3_004",
+          "note": "本題關鍵是區分 Kussmaul's sign 與 Kussmaul respiration。Kussmaul's sign 是吸氣時頸靜脈壓上升，不是代謝性酸中毒的深快呼吸。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1192,8 +1222,45 @@
       "description": "低血糖症狀、當下測得低血糖、補充葡萄糖後症狀改善，是確認真正低血糖事件的三要件。",
       "clinical_signs": "冒冷汗、心悸、顫抖、意識改變或癲癇，且與低血糖數值同步出現。",
       "exam_focus": "若題幹問 insulinoma 診斷線索，先確認 Whipple triad，再進一步看禁食試驗、胰島素/C-peptide 與影像定位。",
-      "frequency": 8,
-      "related_questions": [],
+      "frequency": 9,
+      "related_questions": [
+        {
+          "question_id": "108-2_medicine-3_048",
+          "note": "低血糖症狀、當下低血糖與給糖後緩解構成 Whipple's triad；但胰島素瘤不是低血糖最常見原因。"
+        },
+        {
+          "question_id": "108-2_medicine-5_032",
+          "note": "胰島素瘤是最常見功能性胰臟神經內分泌腫瘤，診斷表現包含 Whipple's triad；本題錯誤點在影像通常不是 hypovascular。"
+        },
+        {
+          "question_id": "109-1_medicine-5_028",
+          "note": "胰島素瘤典型診斷線索為 Whipple's triad：低血糖症狀、測得低血糖，以及給予葡萄糖後症狀改善。"
+        },
+        {
+          "question_id": "111-1_medicine-5_047",
+          "note": "胰臟神經內分泌腫瘤的命名要看臨床功能表現；只有出現 Whipple's triad 的胰島素分泌腫瘤才符合 insulinoma。"
+        },
+        {
+          "question_id": "111-2_medicine-3_021",
+          "note": "胰臟腺癌常見黃疸、背痛與體重減輕；低血糖與 Whipple's triad 較屬胰島素瘤，不是一般胰臟腺癌常見表現。"
+        },
+        {
+          "question_id": "112-1_medicine-3_056",
+          "note": "Whipple's triad 的判定需要可靠血糖檢測，並確認症狀與低血糖同步且補糖後改善；本題也提醒胰島素瘤不是低血糖最常見原因。"
+        },
+        {
+          "question_id": "112-1_medicine-5_034",
+          "note": "胰島素瘤的主要症狀是 Whipple triad；同題也考 Passaro's triangle 是胃泌素瘤好發區，不是胰島素瘤好發區。"
+        },
+        {
+          "question_id": "112-2_medicine-5_034",
+          "note": "題目把 Charcot triad 與 Whipple triad 混淆。胰島素瘤的經典診斷線索是 Whipple triad，且內源性高胰島素常伴高 C-peptide。"
+        },
+        {
+          "question_id": "113-1_medicine-3_057",
+          "note": "本題考血糖調控與低血糖診斷。Whipple's triad 包含血糖恢復後症狀改善；錯誤點在正常空腹血糖下限不是 50 mg/dL。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1210,8 +1277,21 @@
       "description": "臍周或側腹瘀青，提示後腹腔或腹腔內出血。",
       "clinical_signs": "Cullen sign 是臍周瘀青；Grey Turner sign 是側腹瘀青。",
       "exam_focus": "重症急性胰臟炎合併出血是高頻連結。看到劇烈上腹痛、amylase/lipase 上升再加皮膚瘀青，要想到壞死出血性胰臟炎。",
-      "frequency": 7,
-      "related_questions": [],
+      "frequency": 3,
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-3_005",
+          "note": "Grey Turner sign 是側腹瘀青，提示後腹腔出血；本題選項把 Grey Turner sign 說成肚臍周圍瘀青，需與 Cullen sign 區分。"
+        },
+        {
+          "question_id": "112-1_medicine-4_004",
+          "note": "早產兒出現腹脹、腸音變差且肚臍周圍青紫，解析提到 Cullen's sign，可提示腹腔內出血、腹膜炎或嚴重壞死性腸炎。"
+        },
+        {
+          "question_id": "115-1_medicine-4_014",
+          "note": "兒童嚴重急性胰臟炎理學檢查可見 Cullen sign，也就是肚臍周圍藍紫色瘀血；Grey Turner sign 則為側腹瘀青。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1226,8 +1306,29 @@
       "description": "無痛性黃疸合併可觸及腫大的膽囊，較支持惡性膽道阻塞，而非單純膽結石。",
       "clinical_signs": "可見黃疸、茶色尿、灰白便、體重減輕與無痛膽囊腫大。",
       "exam_focus": "題幹若出現 painless jaundice + palpable gallbladder，優先想到 pancreatic head cancer 或 periampullary tumor。",
-      "frequency": 6,
-      "related_questions": [],
+      "frequency": 5,
+      "related_questions": [
+        {
+          "question_id": "110-1_medicine-3_021",
+          "note": "急性膽管炎的 Charcot triad 是右上腹痛、發燒與黃疸；Courvoisier's sign 是無痛性膽囊腫大，較支持惡性膽道阻塞。"
+        },
+        {
+          "question_id": "111-2_medicine-3_021",
+          "note": "胰頭癌造成阻塞性黃疸時可合併茶色尿、灰白便與 Courvoisier's sign，也就是可觸及無痛性腫大的膽囊。"
+        },
+        {
+          "question_id": "112-1_medicine-2_089",
+          "note": "胰臟導管腺癌好發於胰頭，常壓迫總膽管造成進行性無痛性黃疸，可出現 Courvoisier 徵。"
+        },
+        {
+          "question_id": "112-2_medicine-5_033",
+          "note": "胰頭癌約三分之一病人可出現可觸及腫大的膽囊，稱為 Courvoisier sign；本題同時比較胰臟癌症狀與術前 ERCP。"
+        },
+        {
+          "question_id": "115-1_medicine-5_009",
+          "note": "胰頭癌因鄰近總膽管，較早造成阻塞性黃疸；無痛性黃疸合併膽囊腫大即 Courvoisier's sign。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1243,8 +1344,13 @@
       "description": "左鎖骨上淋巴結腫大，常代表腹腔或胸腔惡性腫瘤經胸管轉移。",
       "clinical_signs": "無痛、堅硬淋巴結，合併體重下降、食慾差或胃腸道症狀時更需警覺。",
       "exam_focus": "國考常連到胃癌轉移。左鎖骨上 = Virchow node；卵巢 Krukenberg tumor 也常與胃癌轉移一起考。",
-      "frequency": 6,
-      "related_questions": [],
+      "frequency": 1,
+      "related_questions": [
+        {
+          "question_id": "111-2_medicine-6_076",
+          "note": "成人側頸部腫塊需警覺轉移癌；左側鎖骨上淋巴結即 Virchow's node，常與腹腔消化道癌症經胸導管轉移相關。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1260,8 +1366,25 @@
       "description": "卵黃腸管未退化造成的真性憩室，可含異位胃黏膜，導致兒童無痛性下消化道出血。",
       "clinical_signs": "兒童反覆無痛性血便、腸套疊或憩室炎樣腹痛。",
       "exam_focus": "Rule of 2s：2% 人口、距回盲瓣約 2 feet、長約 2 inches、常在 2 歲前表現。診斷常考 Tc-99m pertechnetate scan。",
-      "frequency": 10,
-      "related_questions": [],
+      "frequency": 4,
+      "related_questions": [
+        {
+          "question_id": "112-2_medicine-4_011",
+          "note": "1 歲半幼童無痛性大量褐紅色血便，最常見診斷為 Meckel's diverticulum；檢查首選 Meckel scan enhanced with cimetidine。"
+        },
+        {
+          "question_id": "113-1_medicine-5_030",
+          "note": "小腸出血的鑑別中，成人最常見原因為血管發育不良；Meckel's diverticulum 則是兒童與青少年小腸出血的重要原因。"
+        },
+        {
+          "question_id": "113-1_medicine-5_049",
+          "note": "本題主題是腸套疊，但選項提到 rule of 2's 與 99mTc-pertechnetate 掃描，這些是 Meckel diverticulum 的典型考點，不是一般腸套疊的典型描述。"
+        },
+        {
+          "question_id": "115-1_medicine-5_049",
+          "note": "2 歲男童反覆無痛性大量暗紅色便，懷疑 Meckel diverticulum；最適當檢查為 99mTc-pertechnetate 掃描以尋找異位胃黏膜。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1276,8 +1399,17 @@
       "description": "肺尖腫瘤侵犯臂神經叢或交感神經鏈，造成肩臂痛與 Horner syndrome。",
       "clinical_signs": "肩痛、手部肌肉無力或萎縮，合併 ptosis、miosis、anhidrosis。",
       "exam_focus": "肺尖腫瘤 + 肩臂痛 + Horner syndrome 是秒殺組合；不要只當成單純頸椎病變。",
-      "frequency": 5,
-      "related_questions": [],
+      "frequency": 2,
+      "related_questions": [
+        {
+          "question_id": "110-2_medicine-3_039",
+          "note": "Pancoast syndrome 來自肺尖腫瘤侵犯臂神經叢或交感神經鏈，可造成肩臂痛與 Horner syndrome；本題錯誤點在膈神經麻痺不是 Horner syndrome 的原因。"
+        },
+        {
+          "question_id": "114-2_medicine-5_025",
+          "note": "本題選項列出 Pancoast syndrome、Horner syndrome 與上腔靜脈症候群等肺癌相關表現；其中 pseudopolycythemia 不是典型肺癌局部侵犯或副腫瘤表現。"
+        }
+      ],
       "stage": "二階"
     },
     {
@@ -1293,8 +1425,17 @@
       "description": "年輕女性較常見的大血管炎，侵犯主動脈及其分支，造成脈搏減弱與四肢血壓差。",
       "clinical_signs": "上肢脈搏不對稱、血壓差、血管雜音、肢體疲乏或腦缺血症狀。",
       "exam_focus": "年輕女性 + 上肢 pulseless/血壓差 + 主動脈分支狹窄，想到 Takayasu；與巨細胞動脈炎的年齡層不同。",
-      "frequency": 7,
-      "related_questions": [],
+      "frequency": 2,
+      "related_questions": [
+        {
+          "question_id": "109-2_medicine-4_044",
+          "note": "頸動脈剝離常與結締組織或血管壁異常相關；題目選項中 Takayasu arteritis 是大血管炎，較不是頸動脈剝離常見病因。"
+        },
+        {
+          "question_id": "110-1_medicine-3_033",
+          "note": "本題考 c-ANCA 與 GPA 的關聯，Takayasu's arteritis 作為大血管炎鑑別選項出現；需與 ANCA 相關小血管炎分開記憶。"
+        }
+      ],
       "stage": "一階"
     }
   ]

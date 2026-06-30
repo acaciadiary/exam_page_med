@@ -155,6 +155,7 @@ export default function App() {
   const [pendingQuestion, setPendingQuestion] = useState<{
     examId: string;
     questionId: string;
+    requestKey: number;
   } | null>(null);
   const [allMistakes, setAllMistakes] = useState<MistakeEntry[]>([]);
   const [performanceStats, setPerformanceStats] = useState<PerformanceStat[]>([]);
@@ -701,7 +702,7 @@ export default function App() {
   const openQuestion = (targetExamId: string, questionId: string) => {
     setMode("exam");
     setActiveExamId(targetExamId);
-    setPendingQuestion({ examId: targetExamId, questionId });
+    setPendingQuestion({ examId: targetExamId, questionId, requestKey: Date.now() });
     handlePageChange("exam");
   };
 
@@ -1265,6 +1266,9 @@ export default function App() {
                   onRemoveNote={handleRemoveNote}
                   focusQuestionId={
                     pendingQuestion?.examId === dataset.id ? pendingQuestion.questionId : null
+                  }
+                  focusRequestKey={
+                    pendingQuestion?.examId === dataset.id ? pendingQuestion.requestKey : null
                   }
                   onFocusComplete={handleQuestionFocusComplete}
                   reviewMode={

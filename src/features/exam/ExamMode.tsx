@@ -17,7 +17,7 @@ import { QuestionCard } from "./QuestionCard";
 
 type MarkedApi = ReturnType<typeof useMarkedItems>;
 
-const FOCUS_LOAD_BUFFER = 6;
+const FOCUS_LOAD_BUFFER = 10;
 const QUESTION_SCROLL_OFFSET = 140;
 
 type ExamModeProps = {
@@ -32,6 +32,7 @@ type ExamModeProps = {
   onAddQuestionNote?: (questionId: string, text: string) => void;
   onRemoveNote?: (id: string) => void;
   focusQuestionId?: string | null;
+  focusRequestKey?: number | null;
   onFocusComplete?: (questionId: string) => void;
   reviewMode?: {
     title: string;
@@ -53,6 +54,7 @@ export function ExamMode({
   onAddQuestionNote = () => undefined,
   onRemoveNote = () => undefined,
   focusQuestionId,
+  focusRequestKey,
   onFocusComplete,
   reviewMode,
 }: ExamModeProps) {
@@ -99,10 +101,11 @@ export function ExamMode({
         window.requestAnimationFrame(() => {
           if (scrollRunId.current !== runId) return;
 
-          const target = questionRefs.current.get(questionId);
+          const target =
+            questionRefs.current.get(questionId) ?? document.getElementById(questionId);
 
           if (!target) {
-            if (retry < 10) {
+            if (retry < 16) {
               window.setTimeout(() => {
                 scrollToQuestion(questionId, { ...options, retry: retry + 1, runId });
               }, 60);
@@ -113,7 +116,8 @@ export function ExamMode({
           waitForStablePage(() => {
             if (scrollRunId.current !== runId) return;
 
-            const latestTarget = questionRefs.current.get(questionId);
+            const latestTarget =
+              questionRefs.current.get(questionId) ?? document.getElementById(questionId);
             if (!latestTarget) return;
 
             scrollElementIntoView(latestTarget, "smooth");
@@ -123,16 +127,18 @@ export function ExamMode({
             window.setTimeout(() => {
               if (scrollRunId.current !== runId) return;
 
-              const verifiedTarget = questionRefs.current.get(questionId);
-              if (verifiedTarget && !isQuestionWellPositioned(verifiedTarget)) {
-                scrollElementIntoView(verifiedTarget, "auto");
-              }
+              verifyQuestionPosition(
+                questionId,
+                0,
+                () => scrollRunId.current === runId,
+                () => {
+                options.onComplete?.();
 
-              options.onComplete?.();
-
-              window.setTimeout(() => {
-                if (scrollRunId.current === runId) setHighlightedQuestionId(null);
-              }, 1400);
+                window.setTimeout(() => {
+                  if (scrollRunId.current === runId) setHighlightedQuestionId(null);
+                }, 1400);
+                },
+              );
             }, 450);
           });
         });
@@ -171,8 +177,13 @@ export function ExamMode({
       return;
     }
 
+    const targetVisibleCount = Math.min(
+      visibleQuestions.length,
+      targetIndex + 1 + FOCUS_LOAD_BUFFER,
+    );
+
     if (targetIndex >= visibleCount) {
-      setVisibleCount(Math.min(visibleQuestions.length, targetIndex + FOCUS_LOAD_BUFFER));
+      setVisibleCount(targetVisibleCount);
       return;
     }
 
@@ -183,6 +194,7 @@ export function ExamMode({
     activeCategory,
     dataset.questions,
     focusQuestionId,
+    focusRequestKey,
     onFocusComplete,
     visibleCount,
     visibleQuestions,
@@ -282,6 +294,7 @@ export function ExamMode({
           {renderedQuestions.map((question, index) => (
             <div
               key={question.id}
+              id={question.id}
               ref={(node) => registerQuestionRef(question.id, node)}
               className={clsx(
                 "rounded-[1.6rem] transition duration-500",
@@ -347,6 +360,29 @@ function scrollElementIntoView(target: HTMLElement, behavior: ScrollBehavior) {
 function isQuestionWellPositioned(target: HTMLElement) {
   const top = target.getBoundingClientRect().top;
   return top >= QUESTION_SCROLL_OFFSET - 28 && top <= QUESTION_SCROLL_OFFSET + 80;
+}
+
+function verifyQuestionPosition(
+  questionId: string,
+  attempt: number,
+  shouldContinue: () => boolean,
+  onComplete: () => void,
+) {
+  if (!shouldContinue()) return;
+
+  const target = document.getElementById(questionId);
+  if (target && !isQuestionWellPositioned(target)) {
+    scrollElementIntoView(target, "auto");
+  }
+
+  if (attempt >= 1) {
+    onComplete();
+    return;
+  }
+
+  window.setTimeout(() => {
+    verifyQuestionPosition(questionId, attempt + 1, shouldContinue, onComplete);
+  }, 220);
 }
 
 function waitForStablePage(onStable: () => void) {
